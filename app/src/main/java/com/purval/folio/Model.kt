@@ -10,12 +10,18 @@ data class Gloss(val word: String, val meaning: String, val example: String)
 data class Card(
     val idx: Int, val ch: String, val chTitle: String, val title: String,
     val text: String, val quote: String, val img: String?, val cap: String = "",
-)
+    /** who said the quote, when it is not the book's own author (e.g. the 48 Laws digest) */
+    val qBy: String = "",
+) {
+    fun attribution(b: Book) = qBy.ifBlank { "${b.author}, ${b.title}" }
+}
 
 data class Book(
     val id: String, val title: String, val author: String, val year: String, val translator: String,
     val era: Era, val blurb: String, val cover: String?, val glossary: Map<String, Gloss>,
     val cards: List<Card>, val imported: Boolean,
+    /** how quotes are signed on cards, e.g. "Machiavelli" */
+    val short: String = author,
 ) {
     fun cardId(i: Int) = "$id#$i"
     /** Index of the first card of every chapter, used for drop caps and the contents sheet. */
@@ -26,7 +32,9 @@ object Shelf {
     fun importedDir(ctx: Context) = File(ctx.filesDir, "books").apply { mkdirs() }
 
     fun loadAll(ctx: Context): List<Book> {
-        val builtIn = ctx.assets.list("books").orEmpty().filter { it.endsWith(".json") }.map {
+        val order = listOf("prince", "laws", "artofwar", "gita")
+        val builtIn = ctx.assets.list("books").orEmpty().filter { it.endsWith(".json") }
+            .sortedBy { order.indexOf(it.removeSuffix(".json")).let { i -> if (i < 0) 99 else i } }.map {
             parse(JSONObject(ctx.assets.open("books/$it").bufferedReader().readText()), imported = false)
         }
         val imported = importedDir(ctx).listFiles { f -> f.name.endsWith(".json") }.orEmpty()
@@ -45,12 +53,13 @@ object Shelf {
         val cards = (0 until arr.length()).map { i ->
             val c = arr.getJSONObject(i)
             Card(i, c.optString("ch"), c.optString("chTitle"), c.optString("title"), c.optString("text"),
-                c.optString("quote"), c.optString("img").ifBlank { null }, c.optString("cap"))
+                c.optString("quote"), c.optString("img").ifBlank { null }, c.optString("cap"), c.optString("qBy"))
         }
         return Book(
             o.getString("id"), o.getString("title"), o.optString("author"), o.optString("year"),
             o.optString("translator"), Era.of(o.optString("era")), o.optString("blurb"),
             o.optString("cover").ifBlank { null }, glossary, cards, imported,
+            o.optString("short").ifBlank { o.optString("author") },
         )
     }
 
@@ -60,7 +69,7 @@ object Shelf {
         val cards = JSONArray()
         b.cards.forEach { c ->
             cards.put(JSONObject().put("ch", c.ch).put("chTitle", c.chTitle).put("title", c.title)
-                .put("text", c.text).put("quote", c.quote).put("img", c.img ?: "").put("cap", c.cap))
+                .put("text", c.text).put("quote", c.quote).put("img", c.img ?: "").put("cap", c.cap).put("qBy", c.qBy))
         }
         val o = JSONObject().put("id", b.id).put("title", b.title).put("author", b.author).put("year", b.year)
             .put("translator", b.translator).put("era", b.era.name).put("blurb", b.blurb)

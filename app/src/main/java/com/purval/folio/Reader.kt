@@ -156,6 +156,10 @@ fun Reader(app: App, book: Book, start: Int, onBack: () -> Unit) {
         ModalBottomSheet(onDismissRequest = { contents = false }, containerColor = ink.paper) {
             Text("Contents", fontFamily = book.era.display, fontSize = 30.sp, color = ink.ink,
                 modifier = Modifier.padding(horizontal = 24.dp))
+            Text(book.blurb, fontFamily = Fonts.fell, fontSize = 15.sp, lineHeight = 21.sp, color = ink.ink,
+                modifier = Modifier.padding(horizontal = 24.dp, vertical = 4.dp))
+            Text(book.translator, fontFamily = Fonts.fell, fontStyle = FontStyle.Italic, fontSize = 13.sp, lineHeight = 18.sp,
+                color = ink.faded, modifier = Modifier.padding(horizontal = 24.dp).padding(bottom = 8.dp))
             LazyColumn(Modifier.padding(bottom = 24.dp)) {
                 items(book.chapterStarts) { s ->
                     val c = book.cards[s]
@@ -218,7 +222,7 @@ private fun FolioCard(app: App, book: Book, i: Int, onWord: (Gloss) -> Unit, onS
             val q = remember(c.quote, ink) { glossed("“${c.quote}”", book.glossary, ink, onWord) }
             Text(q, fontFamily = era.body, fontStyle = FontStyle.Italic, fontSize = 20.sp, lineHeight = 29.sp,
                 color = ink.ink, textAlign = TextAlign.Center, modifier = Modifier.fillMaxWidth())
-            Text("— ${book.author.substringAfterLast(' ')}, ${c.ch}", fontFamily = Fonts.fellSc, fontSize = 12.sp,
+            Text(if (c.qBy.isNotBlank()) "— ${c.qBy}" else "— ${book.short}, ${c.ch}", fontFamily = Fonts.fellSc, fontSize = 12.sp,
                 color = ink.faded, textAlign = TextAlign.Center, modifier = Modifier.fillMaxWidth().padding(top = 6.dp))
             Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.Center) {
                 val kept = remember(store.quotes.size) { store.hasQuote(book.id, i) }
@@ -228,7 +232,7 @@ private fun FolioCard(app: App, book: Book, i: Int, onWord: (Gloss) -> Unit, onS
                 }
                 IconButton(onClick = {
                     ctx.startActivity(Intent.createChooser(Intent(Intent.ACTION_SEND).setType("text/plain")
-                        .putExtra(Intent.EXTRA_TEXT, "“${c.quote}”\n— ${book.author}, ${book.title}"), "Share quote"))
+                        .putExtra(Intent.EXTRA_TEXT, "“${c.quote}”\n— ${c.attribution(book)}"), "Share quote"))
                 }) { Icon(Icons.Outlined.Share, "Share quote", tint = ink.faded) }
             }
         }

@@ -16,7 +16,9 @@ class Shots {
 
     private fun shot(night: Boolean = false, body: @Composable (App) -> Unit) {
         val app = App(paparazzi.context)
-        if (app.books.isEmpty()) app.books += Shelf.parse(org.json.JSONObject(java.io.File("src/main/assets/books/prince.json").readText()), false)
+        if (app.books.isEmpty()) listOf("prince", "laws", "artofwar", "gita").forEach {
+            app.books += Shelf.parse(org.json.JSONObject(java.io.File("src/main/assets/books/$it.json").readText()), false)
+        }
         paparazzi.snapshot {
             FolioTheme(night) { Box(Modifier.fillMaxSize().paper(LocalInk.current.page, LocalInk.current)) { body(app) } }
         }
@@ -42,4 +44,7 @@ class Shots {
     @Test fun readerNight() = shot(night = true) { Reader(it, it.books[0], 5) {} }
     @Test fun honours() = shot { HonoursScreen(it) }
     @Test fun word() = shot { WordSheet(it, it.books[0].glossary.getValue("patrimony"), "prince") }
+    @Test fun laws() = shot { Reader(it, it.book("laws")!!, 0) {} }
+    @Test fun artofwar() = shot { Reader(it, it.book("artofwar")!!, 10) {} }
+    @Test fun gita() = shot { Reader(it, it.book("gita")!!, 3) {} }
 }

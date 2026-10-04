@@ -36,8 +36,13 @@ def pick(q, skip=0):
         lic = md.get("LicenseShortName", {}).get("value", "")
         if not re.search(r"public domain|^PD|CC0", lic, re.I): continue
         if ii["width"] < 500: continue
+        if not 0.55 <= ii["width"] / ii["height"] <= 2.0: continue  # skip long scrolls / tall strips
         ok.append((p["title"], ii["thumburl"], lic))
     return ok[skip] if len(ok) > skip else None
+BOOK = "prince"
+if sys.argv[1:] and not sys.argv[1][0].isdigit():
+    BOOK = sys.argv.pop(1)
+    Q = json.loads(pathlib.Path("queries.json").read_text())[BOOK]
 ids = sys.argv[1:] or list(Q)
 credits = json.loads(pathlib.Path("commons/credits.json").read_text()) if pathlib.Path("commons/credits.json").exists() else {}
 for i in ids:
@@ -46,7 +51,7 @@ for i in ids:
     r = pick(q, skip)
     if not r: print(i, "NONE", q); continue
     title, url, lic = r
-    (pathlib.Path("commons") / f"prince_{i}.jpg").write_bytes(get(url))
-    credits[f"prince_{i}"] = {"file": title, "license": lic}
+    (pathlib.Path("commons") / f"{BOOK}_{i}.jpg").write_bytes(get(url))
+    credits[f"{BOOK}_{i}"] = {"file": title, "license": lic}
     print(i, title, "|", lic, flush=True)
     pathlib.Path("commons/credits.json").write_text(json.dumps(credits, indent=1, ensure_ascii=False))

@@ -1,0 +1,581 @@
+{
+ "id": "laws",
+ "title": "The 48 Laws of Power",
+ "short": "Robert Greene",
+ "author": "Robert Greene",
+ "year": "1998",
+ "translator": "A Folio digest: original summaries of each law, with quotes from the public-domain classics behind them. Greene's book is copyrighted — read the full text in print.",
+ "era": "enlightenment",
+ "cover": "laws_cover",
+ "blurb": "Forty-eight rules of power, from royal courts to modern offices — each law in a minute, paired with a line from Machiavelli, Sun Tzŭ, Gracián or La Rochefoucauld. Know them to use them, or to spot them used on you.",
+ "glossary": {
+  "courtier": {
+   "m": "A person who attends a king's court, often seeking favour.",
+   "e": "Office courtiers laugh loudest at the boss's jokes."
+  },
+  "sovereign": {
+   "m": "The highest ruler.",
+   "e": "The sovereign's word was final."
+  },
+  "envy": {
+   "m": "A painful wish to have what someone else has.",
+   "e": "Her new car filled the neighbours with envy."
+  },
+  "envious": {
+   "m": "A painful wish to have what someone else has.",
+   "e": "Her new car filled the neighbours with envy.",
+   "root": "envy"
+  },
+  "insecurity": {
+   "m": "Not confident; easily worried about your place.",
+   "e": "The insecure manager hated being corrected in meetings.",
+   "root": "insecure"
+  },
+  "rival": {
+   "m": "Someone competing with you for the same thing.",
+   "e": "The two cafés on the street are rivals."
+  },
+  "decoy": {
+   "m": "Something used to distract or mislead.",
+   "e": "The empty box on the porch was a decoy for parcel thieves."
+  },
+  "mystique": {
+   "m": "An air of mystery that makes someone fascinating.",
+   "e": "The chef never gives interviews, which adds to her mystique."
+  },
+  "reputation": {
+   "m": "What people generally think of you.",
+   "e": "One rude review can dent a café's reputation."
+  },
+  "indispensable": {
+   "m": "So needed that you cannot do without it.",
+   "e": "The only person who knows the old billing system is indispensable."
+  },
+  "self-interest": {
+   "m": "Caring about what benefits yourself.",
+   "e": "Free samples work because they appeal to self-interest."
+  },
+  "unpredictable": {
+   "m": "Impossible to guess in advance.",
+   "e": "The weather this week is unpredictable — carry an umbrella."
+  },
+  "scapegoat": {
+   "m": "Someone blamed for the mistakes of others.",
+   "e": "The intern became the scapegoat for the manager's error."
+  },
+  "illusion": {
+   "m": "Something that seems real but is not.",
+   "e": "The mirror wall gives the illusion of a bigger room."
+  },
+  "fantasy": {
+   "m": "Something imagined, often too good to be true.",
+   "e": "Getting rich overnight is a fantasy most ads sell."
+  },
+  "dignity": {
+   "m": "Self-respect and a calm, worthy manner.",
+   "e": "She lost the match with dignity, shaking every hand."
+  },
+  "provoke": {
+   "m": "To deliberately make someone react, often angrily.",
+   "e": "Don't provoke the dog by pulling its tail."
+  },
+  "successor": {
+   "m": "The person who comes after someone in a role.",
+   "e": "The founder's successor struggled to fill his shoes."
+  },
+  "predecessor": {
+   "m": "The person who held a role before.",
+   "e": "Her predecessor left the files in a mess."
+  },
+  "complacent": {
+   "m": "Too satisfied to see danger coming.",
+   "e": "The leading team grew complacent and lost in the last minute."
+  },
+  "ostracism": {
+   "m": "Being shut out of a group on purpose.",
+   "e": "Ancient Athens used ostracism to exile powerful men for ten years."
+  }
+ },
+ "cards": [
+  {
+   "ch": "Law 1",
+   "chTitle": "Never Outshine the Master",
+   "title": "Let the boss shine",
+   "text": "People above you want to feel superior. If you look more brilliant than them, you stir envy and insecurity. In 1661 Nicolas Fouquet threw a party so dazzling that King Louis XIV felt upstaged — within weeks Fouquet was arrested and spent the rest of his life in prison. Make your superiors look good; let your talent serve them.",
+   "quote": "All victories breed hate, and that over your superior is foolish or fatal.",
+   "qBy": "Baltasar Gracián, The Art of Worldly Wisdom (1647, tr. Jacobs)",
+   "img": "laws_01",
+   "cap": "Portrait Nicolas Fouquet par Charles Le Brun · public domain"
+  },
+  {
+   "ch": "Law 2",
+   "chTitle": "Never Put Too Much Trust in Friends, Learn How to Use Enemies",
+   "title": "Friends and enemies",
+   "text": "Friends can turn on you quickly because envy hides inside friendship, and they expect favours. A former enemy you win over has more to prove and works harder to show loyalty. Keep an eye on friends; don't be afraid to hire a rival.",
+   "quote": "A wise man gets more use from his enemies than a fool from his friends.",
+   "qBy": "Baltasar Gracián, The Art of Worldly Wisdom (1647, tr. Jacobs)",
+   "img": "laws_02",
+   "cap": "The Madrid Skylitzes, Byzantine chronicle · public domain"
+  },
+  {
+   "ch": "Law 3",
+   "chTitle": "Conceal Your Intentions",
+   "title": "Hide your hand",
+   "text": "If people know exactly what you want, they can block you. Keep them guessing. Use a decoy goal or a show of sincerity to throw them off. By the time your real aim is clear, it is too late for them to stop it.",
+   "quote": "It is both useless and insipid to play with the cards on the table.",
+   "qBy": "Baltasar Gracián, The Art of Worldly Wisdom (1647, tr. Jacobs)",
+   "img": "laws_03",
+   "cap": "Charles Maurice de Talleyrand-Périgord - Pierre-Paul Prud'hon · public domain"
+  },
+  {
+   "ch": "Law 4",
+   "chTitle": "Always Say Less Than Necessary",
+   "title": "Silence is power",
+   "text": "The more you talk, the more likely you are to say something foolish, and the more ordinary you seem. Short, vague answers make people wonder what you really think. Powerful people often impress by how little they say.",
+   "quote": "Cautious silence is the holy of holies of worldly wisdom.",
+   "qBy": "Baltasar Gracián, The Art of Worldly Wisdom (1647, tr. Jacobs)",
+   "img": "laws_04",
+   "cap": "Louis XIV Rigaud Condé Chantilly · public domain"
+  },
+  {
+   "ch": "Law 5",
+   "chTitle": "So Much Depends on Reputation — Guard It with Your Life",
+   "title": "Your name is your shield",
+   "text": "Reputation works before you even enter the room. A strong one makes people respect and fear you; a damaged one invites attacks. Guard it, notice early threats, and never let one mocking nickname stick to you.",
+   "quote": "if it clings to you with a nickname, your reputation is in danger.",
+   "qBy": "Baltasar Gracián, The Art of Worldly Wisdom (1647, tr. Jacobs)",
+   "img": "laws_05",
+   "cap": "Pericles, Roman copy of a Greek bust · public domain"
+  },
+  {
+   "ch": "Law 6",
+   "chTitle": "Court Attention at All Costs",
+   "title": "Be seen",
+   "text": "People judge by appearances, and what goes unseen is forgotten. Stand out — with a striking style, a mystery, even a little scandal. P. T. Barnum built a business on drawing crowds. Attention brings opportunity; being ignored brings nothing.",
+   "quote": "Display startling novelties, rise afresh like the sun every day.",
+   "qBy": "Baltasar Gracián, The Art of Worldly Wisdom (1647, tr. Jacobs)",
+   "img": "laws_06",
+   "cap": "Life of P. T. Barnum frontispiece 1855 · public domain"
+  },
+  {
+   "ch": "Law 7",
+   "chTitle": "Get Others to Do the Work for You, but Always Take the Credit",
+   "title": "Borrow others' brains",
+   "text": "Use the skill, knowledge and labour of others to move faster. History's examples are many — inventors whose ideas were sold under someone else's name. It is ruthless, so know when it is fair to ask for help and give credit, and know that others may try this on you.",
+   "quote": "you thus obtain the fame of an oracle by others' toil.",
+   "qBy": "Baltasar Gracián, The Art of Worldly Wisdom (1647, tr. Jacobs)",
+   "img": "laws_07",
+   "cap": "Nikola Tesla by Sarony c1898 · public domain"
+  },
+  {
+   "ch": "Law 8",
+   "chTitle": "Make Other People Come to You — Use Bait if Necessary",
+   "title": "Make them come to you",
+   "text": "Whoever acts first, on the other's ground, is at a disadvantage. Lure opponents into coming to you, with a tempting offer if needed. Then you control the place and the rules. Napoleon's enemies, believing him beaten, came to him — and lost.",
+   "quote": "the clever combatant imposes his will on the enemy, but does not allow the enemy's will to be imposed on him.",
+   "qBy": "Sun Tzŭ, The Art of War (tr. Giles, 1910)",
+   "img": "laws_08",
+   "cap": "The Congress of Vienna, 1815 · public domain"
+  },
+  {
+   "ch": "Law 9",
+   "chTitle": "Win Through Your Actions, Never Through Argument",
+   "title": "Show, don't argue",
+   "text": "Winning an argument often makes the loser resent you. Demonstrate instead. When an official insisted a statue's nose was too large, Michelangelo pretended to chip at it, dropping marble dust — and the official was delighted with the 'change'. Results persuade; words provoke.",
+   "quote": "To dissent from others' views is regarded as an insult",
+   "qBy": "Baltasar Gracián, The Art of Worldly Wisdom (1647, tr. Jacobs)",
+   "img": "laws_09",
+   "cap": "Michelango Portrait by Volterra · public domain"
+  },
+  {
+   "ch": "Law 10",
+   "chTitle": "Infection: Avoid the Unhappy and Unlucky",
+   "title": "Misery is contagious",
+   "text": "Some people carry bad luck and bad moods with them, and pull everyone close to them down. Their problems spread like a disease. Don't try to rescue everyone — keep company with the cheerful and the fortunate.",
+   "quote": "Ill-luck is generally the penalty of folly, and there is no disease so contagious to those who share in it.",
+   "qBy": "Baltasar Gracián, The Art of Worldly Wisdom (1647, tr. Jacobs)",
+   "img": "laws_10",
+   "cap": "Lola Montez - 1851 · public domain"
+  },
+  {
+   "ch": "Law 11",
+   "chTitle": "Learn to Keep People Dependent on You",
+   "title": "Be needed",
+   "text": "To stay secure, make yourself indispensable. If others need your skills or knowledge, they will protect you. Teach them everything and they no longer need you; gratitude fades much faster than need.",
+   "quote": "The wise man would rather see men needing him than thanking him.",
+   "qBy": "Baltasar Gracián, The Art of Worldly Wisdom (1647, tr. Jacobs)",
+   "img": "laws_11",
+   "cap": "Franz von Lenbach - Bildnis Otto Eduard Leopold von Bismarck (Indianapolis) · public domain"
+  },
+  {
+   "ch": "Law 12",
+   "chTitle": "Use Selective Honesty and Generosity to Disarm Your Victim",
+   "title": "One honest act",
+   "text": "A single sincere gesture can lower someone's guard for a long time. Con men often begin with an honest deal or a small gift. Recognise the move: one surprise kindness is not proof of good intent.",
+   "quote": "benefits ought to be given little by little, so that the flavour of them may last longer.",
+   "qBy": "Niccolò Machiavelli, The Prince (1532)",
+   "img": "laws_12",
+   "cap": "Gravelot, The Trojan Horse · public domain"
+  },
+  {
+   "ch": "Law 13",
+   "chTitle": "When Asking for Help, Appeal to Self-Interest",
+   "title": "What's in it for them",
+   "text": "Don't remind people of what you did for them, and don't beg for mercy. Show how helping you helps them. Most people respond to self-interest far more readily than to gratitude or pity.",
+   "quote": "Interest speaks all sorts of tongues and plays all sorts of characters; even that of disinterestedness.",
+   "qBy": "La Rochefoucauld, Maxims (1665)",
+   "img": "laws_13",
+   "cap": "Thucydides, bust · public domain"
+  },
+  {
+   "ch": "Law 14",
+   "chTitle": "Pose as a Friend, Work as a Spy",
+   "title": "Gather intelligence",
+   "text": "Knowing your rival's plans is a huge advantage. In friendly conversation, people reveal their hopes, weaknesses and next moves. Ask, listen, and let them talk. Know too that others may do the same to you.",
+   "quote": "what enables the wise sovereign and the good general to strike and conquer, and achieve things beyond the reach of ordinary men, is foreknowledge.",
+   "qBy": "Sun Tzŭ, The Art of War (tr. Giles, 1910)",
+   "img": "laws_14",
+   "cap": "Portrait of Joseph Fouché · public domain"
+  },
+  {
+   "ch": "Law 15",
+   "chTitle": "Crush Your Enemy Totally",
+   "title": "No half measures",
+   "text": "A beaten enemy who still has strength will recover and seek revenge. History is full of leaders who spared a rival and were destroyed later. This law is harsh — but its point is that half-finished conflicts tend to return.",
+   "quote": "men ought either to be well treated or crushed, because they can avenge themselves of lighter injuries, of more serious ones they cannot",
+   "qBy": "Niccolò Machiavelli, The Prince (1532)",
+   "img": "laws_15",
+   "cap": "Empress Wu Zetian · public domain"
+  },
+  {
+   "ch": "Law 16",
+   "chTitle": "Use Absence to Increase Respect and Honor",
+   "title": "Leave them wanting",
+   "text": "Too much presence makes you common. Once people value you, step back a little; scarcity raises worth. Deioces of the Medes withdrew from public view, and his mystique grew — people began to treat him like a king.",
+   "quote": "Change too the scene on which you shine, so that your loss may be felt in the old scenes of your triumph",
+   "qBy": "Baltasar Gracián, The Art of Worldly Wisdom (1647, tr. Jacobs)",
+   "img": "laws_16",
+   "cap": "Portrait of Ninon de l'Enclos · public domain"
+  },
+  {
+   "ch": "Law 17",
+   "chTitle": "Keep Others in Suspended Terror: Cultivate an Air of Unpredictability",
+   "title": "Be hard to read",
+   "text": "People are creatures of habit and like to predict others. If you are unpredictable, they stay off balance and wary. Chess champion Bobby Fischer unsettled Boris Spassky in 1972 with endless odd demands before and during their match.",
+   "quote": "Vary the Mode of Action ; not always the same way, so as to distract attention, especially if there be a rival.",
+   "qBy": "Baltasar Gracián, The Art of Worldly Wisdom (1647, tr. Jacobs)",
+   "img": "laws_17",
+   "cap": "Caxton, The Game and Playe of the Chesse, 1474 · public domain"
+  },
+  {
+   "ch": "Law 18",
+   "chTitle": "Do Not Build Fortresses to Protect Yourself — Isolation Is Dangerous",
+   "title": "Don't hide away",
+   "text": "Walling yourself off feels safe but cuts you off from information and allies. Isolated rulers fall to plots they never heard coming. Stay among people, keep moving, and stay informed.",
+   "quote": "the best possible fortress is—not to be hated by the people",
+   "qBy": "Niccolò Machiavelli, The Prince (1532)",
+   "img": "laws_18",
+   "cap": "Portrait of Qin Shi Huang · public domain"
+  },
+  {
+   "ch": "Law 19",
+   "chTitle": "Know Who You're Dealing With — Do Not Offend the Wrong Person",
+   "title": "Read the person",
+   "text": "People react differently to the same move. Some are proud and will never forgive a slight; some are suspicious; some are dangerous when crossed. Study who someone really is before you test or trick them.",
+   "quote": "If you know the enemy and know yourself, you need not fear the result of a hundred battles.",
+   "qBy": "Sun Tzŭ, The Art of War (tr. Giles, 1910)",
+   "img": "laws_19",
+   "cap": "Vasnetsov, Tsar Ivan IV · public domain"
+  },
+  {
+   "ch": "Law 20",
+   "chTitle": "Do Not Commit to Anyone",
+   "title": "Stay free",
+   "text": "Taking sides too early makes you a pawn in someone else's quarrel. Stay independent, and people will compete for your support. Queen Elizabeth I kept her many suitors hoping for years and kept her power by never marrying.",
+   "quote": "You should aim to be independent of any one vote, of any one fashion, of any one century.",
+   "qBy": "Baltasar Gracián, The Art of Worldly Wisdom (1647, tr. Jacobs)",
+   "img": "laws_20",
+   "cap": "Elizabeth I (Armada Portrait) · public domain"
+  },
+  {
+   "ch": "Law 21",
+   "chTitle": "Play a Sucker to Catch a Sucker — Seem Dumber Than Your Mark",
+   "title": "Look less clever",
+   "text": "Nobody likes feeling stupid. If you seem a bit slower than others, they relax, and their guard drops. Appearing harmless can be a smart disguise.",
+   "quote": "there are times when the greatest wisdom lies in seeming not to be wise.",
+   "qBy": "Baltasar Gracián, The Art of Worldly Wisdom (1647, tr. Jacobs)",
+   "img": "laws_21",
+   "cap": "Emperor Claudius, marble bust · public domain"
+  },
+  {
+   "ch": "Law 22",
+   "chTitle": "Use the Surrender Tactic: Transform Weakness into Power",
+   "title": "Bend, don't break",
+   "text": "When you are weaker, don't fight for honour's sake. Give in for now; it buys time, calms the winner, and lets you prepare. Surrender can make an opponent arrogant and careless.",
+   "quote": "Pretend to be weak, that he may grow arrogant.",
+   "qBy": "Sun Tzŭ, The Art of War (tr. Giles, 1910)",
+   "img": "laws_22",
+   "cap": "Velazquez-The Surrender of Breda · public domain"
+  },
+  {
+   "ch": "Law 23",
+   "chTitle": "Concentrate Your Forces",
+   "title": "Focus",
+   "text": "Spreading yourself across many goals weakens all of them. Pour your energy into one strong point — one project, one patron, one skill. Depth beats scattered effort.",
+   "quote": "we can form a single united body, while the enemy must split up into fractions.",
+   "qBy": "Sun Tzŭ, The Art of War (tr. Giles, 1910)",
+   "img": "laws_23",
+   "cap": "The House of Rothschild · public domain"
+  },
+  {
+   "ch": "Law 24",
+   "chTitle": "Play the Perfect Courtier",
+   "title": "Master the room",
+   "text": "Every workplace is a kind of court with its own manners. The skilled courtier never shows off, flatters with care, notices moods, and stays graceful. Respect is earned by giving it.",
+   "quote": "pay respect that you may be respected, and know that to be esteemed you must show esteem.",
+   "qBy": "Baltasar Gracián, The Art of Worldly Wisdom (1647, tr. Jacobs)",
+   "img": "laws_24",
+   "cap": "Baldassare Castiglione, by Raffaello Sanzio, from C2RMF retouched · public domain"
+  },
+  {
+   "ch": "Law 25",
+   "chTitle": "Re-Create Yourself",
+   "title": "Write your own role",
+   "text": "Don't accept the identity others hand you. Shape your own image, like an actor building a character. Julius Caesar and many others crafted public personas. Keep renewing yourself so you never grow stale.",
+   "quote": "Renew your Brilliance. 'Tis the privilege of the Phoenix.",
+   "qBy": "Baltasar Gracián, The Art of Worldly Wisdom (1647, tr. Jacobs)",
+   "img": "laws_25",
+   "cap": "George Sand by Nadar, 1864 · public domain"
+  },
+  {
+   "ch": "Law 26",
+   "chTitle": "Keep Your Hands Clean",
+   "title": "Let others take the blame",
+   "text": "Leaders need to look clean even when hard things must happen. Historically, they used a scapegoat — like Cesare Borgia's harsh governor in the Romagna — or a go-between to carry unpopular tasks. Notice when you are being made someone's scapegoat.",
+   "quote": "princes ought to leave affairs of reproach to the management of others, and keep those of grace in their own hands.",
+   "qBy": "Niccolò Machiavelli, The Prince (1532)",
+   "img": "laws_26",
+   "cap": "Catarina de' Medici Uffizi · public domain"
+  },
+  {
+   "ch": "Law 27",
+   "chTitle": "Play on People's Need to Believe to Create a Cultlike Following",
+   "title": "People want to believe",
+   "text": "Many people crave something to believe in. Charlatans in history gathered followers with vague, grand promises, rituals, and a sense of belonging. Recognising this pattern protects you from it.",
+   "quote": "the vulgar are always taken by what a thing seems to be and by what comes of it",
+   "qBy": "Niccolò Machiavelli, The Prince (1532)",
+   "img": "laws_27",
+   "cap": "Franz Anton Mesmer · public domain"
+  },
+  {
+   "ch": "Law 28",
+   "chTitle": "Enter Action with Boldness",
+   "title": "Hesitation is fatal",
+   "text": "Doubt shows, and it invites others to push back. Bold moves often succeed because they surprise and impress. If you act, act fully; timid half-measures get the worst of both worlds.",
+   "quote": "it is better to be adventurous than cautious",
+   "qBy": "Niccolò Machiavelli, The Prince (1532)",
+   "img": "laws_28",
+   "cap": "Titian, Portrait of Pietro Aretino · public domain"
+  },
+  {
+   "ch": "Law 29",
+   "chTitle": "Plan All the Way to the End",
+   "title": "See the ending first",
+   "text": "Many plans fail because people only think about the start. Picture the full path — the obstacles, the reactions, the finish. Then you won't be surprised halfway, and you'll know when to stop.",
+   "quote": "the victorious strategist only seeks battle after the victory has been won",
+   "qBy": "Sun Tzŭ, The Art of War (tr. Giles, 1910)",
+   "img": "laws_29",
+   "cap": "La bataille d'Austerlitz. 2 decembre 1805 (François Gérard) · public domain"
+  },
+  {
+   "ch": "Law 30",
+   "chTitle": "Make Your Accomplishments Seem Effortless",
+   "title": "Hide the sweat",
+   "text": "Showing how hard you worked makes your success look ordinary. Grace under pressure creates an illusion of natural talent. Practise in private; perform with ease in public.",
+   "quote": "What the ancients called a clever fighter is one who not only wins, but excels in winning with ease.",
+   "qBy": "Sun Tzŭ, The Art of War (tr. Giles, 1910)",
+   "img": "laws_30",
+   "cap": "Houdini in Handcuffs, 1918 · public domain"
+  },
+  {
+   "ch": "Law 31",
+   "chTitle": "Control the Options: Get Others to Play with the Cards You Deal",
+   "title": "Choose the choices",
+   "text": "The best way to steer someone is to let them choose — between options you designed. They feel free, yet every path leads where you want. Watch for this in sales and politics.",
+   "quote": "By holding out advantages to him, he can cause the enemy to approach of his own accord",
+   "qBy": "Sun Tzŭ, The Art of War (tr. Giles, 1910)",
+   "img": "laws_31",
+   "cap": "Profile portrait of Ivan IV of Russia (engraving) · public domain"
+  },
+  {
+   "ch": "Law 32",
+   "chTitle": "Play to People's Fantasies",
+   "title": "Sell the dream",
+   "text": "Plain truth is often dull and painful; fantasy is attractive. People are drawn to whoever promises a better story — instant wealth, a magic cure. This explains many famous frauds; it also explains why hope sells.",
+   "quote": "he who seeks to deceive will always find someone who will allow himself to be deceived.",
+   "qBy": "Niccolò Machiavelli, The Prince (1532)",
+   "img": "laws_32",
+   "cap": "Portret van Alessandro Cagliostro · public domain"
+  },
+  {
+   "ch": "Law 33",
+   "chTitle": "Discover Each Man's Thumbscrew",
+   "title": "Find the lever",
+   "text": "Everyone has a soft spot — an insecurity, a need, a secret pleasure. Find it and you know how to move them. The phrase comes straight from the 17th-century Spanish writer Baltasar Gracián.",
+   "quote": "Find out each Man's Thumbscrew. 'Tis the art of setting their wills in action.",
+   "qBy": "Baltasar Gracián, The Art of Worldly Wisdom (1647, tr. Jacobs)",
+   "img": "laws_33",
+   "cap": "Triple Portrait of Cardinal de Richelieu probably 1642, Philippe de Champaigne · public domain"
+  },
+  {
+   "ch": "Law 34",
+   "chTitle": "Be Royal in Your Own Fashion: Act Like a King to Be Treated Like One",
+   "title": "Carry yourself like royalty",
+   "text": "How you carry yourself teaches others how to treat you. Calm dignity and quiet confidence make people respect you. Act cheap or desperate and you will be treated that way.",
+   "quote": "Let each deed of a man in its degree, though he be not a king, be worthy of a prince",
+   "qBy": "Baltasar Gracián, The Art of Worldly Wisdom (1647, tr. Jacobs)",
+   "img": "laws_34",
+   "cap": "Portrait of a Man, Said to be Christopher Columbus · public domain"
+  },
+  {
+   "ch": "Law 35",
+   "chTitle": "Master the Art of Timing",
+   "title": "Wait, then strike",
+   "text": "Never seem in a hurry — haste shows you are not in control. Be patient while the moment ripens, then move fast. Fouché, Napoleon's police chief, survived every regime in France by reading the times.",
+   "quote": "Time and I against any two.",
+   "qBy": "Baltasar Gracián, The Art of Worldly Wisdom (1647, tr. Jacobs)",
+   "img": "laws_35",
+   "cap": "Rembrandt - Quintus Fabius Maximus · public domain"
+  },
+  {
+   "ch": "Law 36",
+   "chTitle": "Disdain Things You Cannot Have: Ignoring Them Is the Best Revenge",
+   "title": "Shrug it off",
+   "text": "Reacting to a small irritation makes it bigger and shows it hurt you. Often the most powerful response is to seem not to care. Attention is fuel — starve trivial attacks of it.",
+   "quote": "Fools depreciate all men",
+   "qBy": "Baltasar Gracián, The Art of Worldly Wisdom (1647, tr. Jacobs)",
+   "img": "laws_36",
+   "cap": "After Hans Holbein the Younger - Portrait of Henry VIII · public domain"
+  },
+  {
+   "ch": "Law 37",
+   "chTitle": "Create Compelling Spectacles",
+   "title": "Put on a show",
+   "text": "Images and symbols move people more than arguments. Louis XIV made himself the 'Sun King', staging his whole life at Versailles like a theatre. A striking show creates awe and silences doubt.",
+   "quote": "Nothing makes a prince so much esteemed as great enterprises and setting a fine example.",
+   "qBy": "Niccolò Machiavelli, The Prince (1532)",
+   "img": "laws_37",
+   "cap": "Ballet de la nuit 1653 · public domain"
+  },
+  {
+   "ch": "Law 38",
+   "chTitle": "Think as You Like but Behave Like Others",
+   "title": "Blend in outside",
+   "text": "Showing off unusual opinions or habits makes others feel judged. Keep your most radical thoughts for trusted friends, and speak like the people around you in public. You keep freedom of thought without making enemies.",
+   "quote": "Think with the Few and speak with the Many.",
+   "qBy": "Baltasar Gracián, The Art of Worldly Wisdom (1647, tr. Jacobs)",
+   "img": "laws_38",
+   "cap": "Galileo before the Holy Office · public domain"
+  },
+  {
+   "ch": "Law 39",
+   "chTitle": "Stir Up Waters to Catch Fish",
+   "title": "Stay calm, unsettle them",
+   "text": "Angry people make mistakes. Keep your temper, and notice when someone is trying to provoke you. Losing control hands the advantage to the calmer side.",
+   "quote": "If your opponent is of choleric temper, seek to irritate him.",
+   "qBy": "Sun Tzŭ, The Art of War (tr. Giles, 1910)",
+   "img": "laws_39",
+   "cap": "Antoine-Jean Gros - Bonaparte Visiting the Plague Victims of Jaffa · public domain"
+  },
+  {
+   "ch": "Law 40",
+   "chTitle": "Despise the Free Lunch",
+   "title": "Nothing is free",
+   "text": "What comes free often carries a hidden cost — obligation, guilt, strings attached. Paying your own way keeps you independent. Generosity, used wisely, wins goodwill.",
+   "quote": "What costs little is little worth.",
+   "qBy": "Baltasar Gracián, The Art of Worldly Wisdom (1647, tr. Jacobs)",
+   "img": "laws_40",
+   "cap": "Portrait of J. D. Rockefeller · public domain"
+  },
+  {
+   "ch": "Law 41",
+   "chTitle": "Avoid Stepping into a Great Man's Shoes",
+   "title": "Make your own name",
+   "text": "Following a famous predecessor is a trap: everything you do gets compared to a legend. Create your own space and style instead of copying theirs. Alexander the Great feared his father Philip would leave him nothing to conquer.",
+   "quote": "It is no great gain if a poor successor makes the predecessor seem good",
+   "qBy": "Baltasar Gracián, The Art of Worldly Wisdom (1647, tr. Jacobs)",
+   "img": "laws_41",
+   "cap": "Alexander the Great mosaic · public domain"
+  },
+  {
+   "ch": "Law 42",
+   "chTitle": "Strike the Shepherd, and the Sheep Will Scatter",
+   "title": "Find the source",
+   "text": "Trouble in a group often grows from one person — a schemer, a ringleader. Remove or win over that one source, and the rest settles. Don't waste effort on the followers.",
+   "quote": "Begin by seizing something which your opponent holds dear; then he will be amenable to your will.",
+   "qBy": "Sun Tzŭ, The Art of War (tr. Giles, 1910)",
+   "img": "laws_42",
+   "cap": "\"The good Shepherd\" mosaic - Mausoleum of Galla Placidia · public domain"
+  },
+  {
+   "ch": "Law 43",
+   "chTitle": "Work on the Hearts and Minds of Others",
+   "title": "Win their hearts",
+   "text": "Force makes people resentful; persuasion makes them loyal. Learn what people feel and value, and speak to that. People who feel understood follow willingly.",
+   "quote": "it is necessary for a prince to have the people friendly, otherwise he has no security in adversity.",
+   "qBy": "Niccolò Machiavelli, The Prince (1532)",
+   "img": "laws_43",
+   "cap": "Louise Elisabeth Vigée-Lebrun - Marie-Antoinette de Lorraine-Habsbourg, reine de France et ses enfants · public domain"
+  },
+  {
+   "ch": "Law 44",
+   "chTitle": "Disarm and Infuriate with the Mirror Effect",
+   "title": "Mirror them",
+   "text": "Reflecting someone's behaviour back at them is powerful: it can calm them by showing you understand, or unsettle them by showing them their own tactics. Mirroring builds rapport — and it can also be a weapon.",
+   "quote": "Success in warfare is gained by carefully accommodating ourselves to the enemy's purpose.",
+   "qBy": "Sun Tzŭ, The Art of War (tr. Giles, 1910)",
+   "img": "laws_44",
+   "cap": "Narcissus-Caravaggio (1594-96) edited · public domain"
+  },
+  {
+   "ch": "Law 45",
+   "chTitle": "Preach the Need for Change, but Never Reform Too Much at Once",
+   "title": "Change slowly",
+   "text": "People say they want change but cling to familiar habits. Reform too fast and you create a backlash. Wrap new ideas in old, comforting forms, and move step by step.",
+   "quote": "there is nothing more difficult to take in hand, more perilous to conduct, or more uncertain in its success, than to take the lead in the introduction of a new order of things",
+   "qBy": "Niccolò Machiavelli, The Prince (1532)",
+   "img": "laws_45",
+   "cap": "Cromwell,Thomas(1EEssex)01 · public domain"
+  },
+  {
+   "ch": "Law 46",
+   "chTitle": "Never Appear Too Perfect",
+   "title": "Show a small flaw",
+   "text": "Seeming flawless makes others envious and suspicious. A small, harmless weakness makes you human and likable. In ancient Athens, people even voted to exile a man partly because they were tired of hearing him called 'the Just' — ostracism.",
+   "quote": "Allow Yourself some venial Fault. Some such carelessness is often the greatest recommendation of talent.",
+   "qBy": "Baltasar Gracián, The Art of Worldly Wisdom (1647, tr. Jacobs)",
+   "img": "laws_46",
+   "cap": "Augustins - Aristide, 1806 - Charles Brocas · public domain"
+  },
+  {
+   "ch": "Law 47",
+   "chTitle": "Do Not Go Past the Mark You Aimed For; In Victory, Learn When to Stop",
+   "title": "Know when to stop",
+   "text": "Success can make people complacent and greedy. After a win, pause and consolidate. Many have lost everything by pushing their luck one step too far.",
+   "quote": "Leave your Luck while Winning. All the best players do it. A fine retreat is as good as a gallant attack.",
+   "qBy": "Baltasar Gracián, The Art of Worldly Wisdom (1647, tr. Jacobs)",
+   "img": "laws_47",
+   "cap": "Croesus at the Stake, after Hans Holbein the Younger · public domain"
+  },
+  {
+   "ch": "Law 48",
+   "chTitle": "Assume Formlessness",
+   "title": "Be like water",
+   "text": "Rigid people and rigid plans break. Stay flexible, adapt to circumstances, and avoid being pinned down. The old image is water — it fits any container and wears away stone.",
+   "quote": "Military tactics are like unto water; for water in its natural course runs away from high places and hastens downwards.",
+   "qBy": "Sun Tzŭ, The Art of War (tr. Giles, 1910)",
+   "img": "laws_48",
+   "cap": "Tsunami by hokusai 19th century · public domain"
+  }
+ ]
+}

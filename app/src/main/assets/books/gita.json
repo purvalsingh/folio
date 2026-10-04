@@ -1,0 +1,340 @@
+{
+ "id": "gita",
+ "title": "The Bhagavad Gita",
+ "short": "Bhagavad Gita",
+ "author": "Vyasa (trad.)",
+ "year": "c. 400 BC",
+ "translator": "Sir Edwin Arnold, The Song Celestial, 1885 (public domain, Project Gutenberg #2388)",
+ "era": "ancient",
+ "cover": "gita_cover",
+ "blurb": "On a battlefield, a great archer loses his nerve, and his charioteer — God himself — talks him through duty, action, death and devotion. Eighteen chapters of the world's most loved spiritual dialogue.",
+ "glossary": {
+  "kurukshetra": {
+   "m": "The plain in north India where the great Mahabharata war was fought.",
+   "e": "Pilgrims still visit Kurukshetra in Haryana."
+  },
+  "pandavas": {
+   "m": "The five brothers, including Arjuna, on one side of the war.",
+   "e": "The Pandavas lost their kingdom in a rigged game of dice."
+  },
+  "kauravas": {
+   "m": "Their hundred cousins, led by Duryodhana, on the other side.",
+   "e": "The Kauravas refused to return the Pandavas' land."
+  },
+  "yoga": {
+   "m": "A path of discipline that joins the self with the divine; in the Gita, any steady way of living — through work, knowledge or devotion.",
+   "e": "For her, gardening every morning is a kind of yoga — calm, focused work."
+  },
+  "yogi": {
+   "m": "A path of discipline that joins the self with the divine; in the Gita, any steady way of living — through work, knowledge or devotion.",
+   "e": "For her, gardening every morning is a kind of yoga — calm, focused work.",
+   "root": "yoga"
+  },
+  "karma": {
+   "m": "Action — and the idea that every action has results.",
+   "e": "Karma yoga means doing your work well without obsessing over rewards."
+  },
+  "dharma": {
+   "m": "Your rightful duty; the right way to live for your role in life.",
+   "e": "A doctor's dharma is to treat the sick, even at 3 a.m."
+  },
+  "renouncer": {
+   "m": "Someone who gives up attachment to the rewards of action.",
+   "e": "A true renouncer can work hard without worrying about praise."
+  },
+  "immortal": {
+   "m": "Never dying.",
+   "e": "Myths tell of gods who are immortal."
+  },
+  "indestructible": {
+   "m": "Impossible to destroy.",
+   "e": "The old steel trunk seemed indestructible."
+  },
+  "steadfast": {
+   "m": "Firm and unwavering.",
+   "e": "He stayed steadfast in his promise to visit every Sunday."
+  },
+  "sattwa": {
+   "m": "The quality of goodness, clarity and calm.",
+   "e": "A walk at dawn can bring a sattwa mood."
+  },
+  "sattwan": {
+   "m": "The quality of goodness, clarity and calm.",
+   "e": "A walk at dawn can bring a sattwa mood.",
+   "root": "sattwa"
+  },
+  "rajas": {
+   "m": "The quality of passion, restlessness and desire.",
+   "e": "Doom-scrolling at midnight is pure rajas."
+  },
+  "tamas": {
+   "m": "The quality of darkness, laziness and ignorance.",
+   "e": "Sleeping till noon every day is tamas."
+  },
+  "pious": {
+   "m": "Deep religious devotion and good conduct.",
+   "e": "Her grandmother's piety showed in her daily prayers.",
+   "root": "piety"
+  },
+  "devotion": {
+   "m": "Loving dedication to someone or something.",
+   "e": "His devotion to his old dog was touching."
+  },
+  "devotee": {
+   "m": "Loving dedication to someone or something.",
+   "e": "His devotion to his old dog was touching.",
+   "root": "devotion"
+  },
+  "sanjaya": {
+   "m": "The blind king's charioteer, given the gift of seeing the battle from afar and narrating it.",
+   "e": "Sanjaya is like a live sports commentator for the blind king."
+  },
+  "arjuna": {
+   "m": "The great archer-prince of the Pandavas, who doubts before the battle.",
+   "e": "Arjuna's doubt before the battle is the doubt we all feel before big choices."
+  },
+  "krishna": {
+   "m": "Arjuna's charioteer and friend, revealed as God, who teaches the Gita.",
+   "e": "Krishna answers Arjuna's questions like a patient mentor."
+  },
+  "aswattha": {
+   "m": "The sacred fig (peepal) tree; in the Gita, an upside-down tree picturing the world.",
+   "e": "Many temples have an old aswattha tree in the courtyard."
+  },
+  "succouring": {
+   "m": "Helping someone in trouble.",
+   "e": "Volunteers spent the night succouring flood victims."
+  },
+  "refuge": {
+   "m": "A place of safety and shelter.",
+   "e": "The library was her refuge from the noisy house."
+  }
+ },
+ "cards": [
+  {
+   "ch": "Chapter I",
+   "chTitle": "The Distress of Arjuna",
+   "title": "Two armies, one doubt",
+   "text": "On the plain of Kurukshetra, two armies of one family face each other: the Pandavas and their cousins the Kauravas. The blind king Dhritarashtra asks his charioteer Sanjaya to describe the battle. Arjuna, the finest archer alive, asks Krishna, his charioteer, to drive between the armies so he can see who he must fight.",
+   "quote": "Ranged thus for battle on the sacred plain— On Kurukshetra—say, Sanjaya! say What wrought my people, and the Pandavas?",
+   "img": "gita_01",
+   "cap": "Shri Gobinda Chandra Roy - Battle Scene - 2003.111.b - Cleveland Museum of Art · public domain"
+  },
+  {
+   "ch": "Chapter I",
+   "chTitle": "The Distress of Arjuna",
+   "title": "The bow slips",
+   "text": "Arjuna sees teachers, uncles, cousins and friends on the other side. His limbs go weak, his mouth goes dry, his great bow slips from his hand. What victory is worth killing your own family? He sits down in the chariot and refuses to fight. This is where the Gita begins — with a man frozen by doubt.",
+   "quote": "In pity lost, by doubtings tossed, My thoughts-distracted-turn To Thee, the Guide I reverence most, That I may counsel learn",
+   "img": "gita_02",
+   "cap": "Krishna and Arjun on the chariot, Mahabharata, 18th-19th century, India · public domain"
+  },
+  {
+   "ch": "Chapter II",
+   "chTitle": "The Book of Doctrines",
+   "title": "Grief without cause",
+   "text": "Krishna's first answer is almost a smile: you grieve for the wrong thing. The wise do not mourn the living or the dead, because the true self was never born and never dies. Bodies change like seasons; heat and cold, joy and pain come and go. Bear them steadily.",
+   "quote": "Thou grievest where no grief should be!",
+   "img": "gita_03",
+   "cap": "\"Arjuna Battles Raja Tamradhvaja\", Folio from a Razmnama · public domain"
+  },
+  {
+   "ch": "Chapter II",
+   "chTitle": "The Book of Doctrines",
+   "title": "The spirit never dies",
+   "text": "This is one of the Gita's most famous ideas. The spirit is immortal and indestructible — weapons cannot cut it, fire cannot burn it. Death is like changing clothes: the spirit puts away a worn-out body and takes a new one.",
+   "quote": "Never the spirit was born; the spirit shall cease to be never; Never was time it was not; End and Beginning are dreams!",
+   "img": "gita_04",
+   "cap": "The Delivery of the Bhagavad Gita · public domain"
+  },
+  {
+   "ch": "Chapter II",
+   "chTitle": "The Book of Doctrines",
+   "title": "Work, not rewards",
+   "text": "The heart of karma yoga. You have a right to your work, but not to its results. Don't act only for the reward, and don't fall into doing nothing either. Do your duty well, let go of the outcome, and you find peace whether you succeed or fail.",
+   "quote": "Let right deeds be Thy motive, not the fruit which comes from them.",
+   "img": "gita_05",
+   "cap": "Krishna and Arjuna, fresco from Mansar · public domain"
+  },
+  {
+   "ch": "Chapter II",
+   "chTitle": "The Book of Doctrines",
+   "title": "The steady mind",
+   "text": "Arjuna asks: what does a truly wise person look like? Krishna describes someone not crushed by sorrow nor carried away by joy, free of fear and anger. Like a tortoise pulling its limbs into its shell, such a person can draw the senses back from the world.",
+   "quote": "As the wise tortoise draws its four feet safe Under its shield, his five frail senses back",
+   "img": "gita_06",
+   "cap": "Krishna and Radha, National Museum, New Delhi · public domain"
+  },
+  {
+   "ch": "Chapter III",
+   "chTitle": "Virtue in Work",
+   "title": "Better to act",
+   "text": "If knowledge is higher, Arjuna asks, why must I fight? Krishna says nobody can escape action — even keeping the body alive is work. The world itself runs on action. So act, but act without selfishness, as an offering. Great people should work, because others copy them.",
+   "quote": "Work is more excellent than idleness",
+   "img": "gita_07",
+   "cap": "Arjuna Slays Karna, page from a copy of the Razmnama, Mughal period · public domain"
+  },
+  {
+   "ch": "Chapter III",
+   "chTitle": "Virtue in Work",
+   "title": "Your own path",
+   "text": "One of the Gita's most practical lessons: your own duty, done imperfectly, is better than someone else's duty done well. Comparing your path with another's breeds confusion. Know your role and fulfil it.",
+   "quote": "Finally, this is better, that one do His own task as he may, even though he fail, Than take tasks not his own, though they seem good.",
+   "img": "gita_08",
+   "cap": "Yashoda with Krishna, Raja Ravi Varma · public domain"
+  },
+  {
+   "ch": "Chapter IV",
+   "chTitle": "The Religion of Knowledge",
+   "title": "Whenever goodness fails",
+   "text": "Krishna reveals that he taught this wisdom long ago and has been born many times. Whenever righteousness declines and evil grows strong, he comes into the world to protect the good and restore dharma. Knowing this frees the devotee from fear.",
+   "quote": "When Righteousness Declines, O Bharata! when Wickedness Is strong, I rise, from age to age, and take Visible shape, and move a man with men, Succouring the good, thrusting the evil back",
+   "img": "gita_09",
+   "cap": "Rama and Laksmana Fighting Ravana · public domain"
+  },
+  {
+   "ch": "Chapter IV",
+   "chTitle": "The Religion of Knowledge",
+   "title": "The fire of knowledge",
+   "text": "Every act can become an offering. Knowledge is the greatest offering of all: like a blazing fire that turns wood to ash, true knowledge burns away the binding force of past actions. Find a teacher, ask humbly, and serve.",
+   "quote": "As the kindled flame Feeds on the fuel till it sinks to ash, So unto ash, Arjuna! unto nought The flame of Knowledge wastes works' dross away!",
+   "img": "gita_10",
+   "cap": "Sacrificial Fire · public domain"
+  },
+  {
+   "ch": "Chapter V",
+   "chTitle": "Renouncing the Fruit of Works",
+   "title": "Doing and letting go",
+   "text": "Is it better to give up action or to act without attachment? Krishna says both lead to the goal, but acting without attachment is easier and better. The real renouncer is not the one who quits the world, but the one who works, wanting nothing and rejecting nothing.",
+   "quote": "That is the true Renouncer, firm and fixed, Who—seeking nought, rejecting nought—dwells proof Against the \"opposites.\"",
+   "img": "gita_11",
+   "cap": "Govardhan. Jahangir Visiting the Ascetic Jadrup. ca. 1616-20, Musee Guimet, Paris · public domain"
+  },
+  {
+   "ch": "Chapter VI",
+   "chTitle": "Self-Restraint",
+   "title": "Be your own friend",
+   "text": "We must lift ourselves up by our own effort, never drag ourselves down. The mind can be our best friend or our worst enemy. When we master ourselves, the self is a friend; when we don't, it acts like an enemy.",
+   "quote": "Let each man raise The Self by Soul, not trample down his Self, Since Soul that is Self's friend may grow Self's foe.",
+   "img": "gita_12",
+   "cap": "Dadupanthi ascetics, 18th-century painting · public domain"
+  },
+  {
+   "ch": "Chapter VI",
+   "chTitle": "Self-Restraint",
+   "title": "A lamp out of the wind",
+   "text": "Krishna describes meditation: a quiet place, a steady posture, moderate eating and sleeping. Arjuna admits the mind is wild — as hard to hold as the wind. Krishna agrees, but says practice and detachment can tame it. Each time the mind wanders, gently bring it back.",
+   "quote": "Steadfast a lamp burns sheltered from the wind; Such is the likeness of the Yogi's mind",
+   "img": "gita_13",
+   "cap": "Two ascetics from the Album of Dara Shikoh. Attributed to Govardhan, c. 1610 · public domain"
+  },
+  {
+   "ch": "Chapter VII",
+   "chTitle": "Discernment",
+   "title": "Few truly know",
+   "text": "Among thousands, hardly one seeks the truth, and among those who seek, hardly one truly knows. Krishna explains his two natures: a lower one — earth, water, fire, air, ether, mind, intellect and ego — and a higher one, the life that holds the universe together like pearls on a thread.",
+   "quote": "Earth, water, flame, air, ether, life, and mind, And individuality—those eight Make up the showing of Me, Manifest.",
+   "img": "gita_14",
+   "cap": "Krishna, Kangra painting · public domain"
+  },
+  {
+   "ch": "Chapter VIII",
+   "chTitle": "Devotion to the One Supreme",
+   "title": "The last thought",
+   "text": "What we think of at the moment of death shapes where we go next, because the soul becomes like what it has dwelt on. So Krishna's advice is simple and brave: keep me in your heart always — and fight.",
+   "quote": "Have Me, then, in thy heart always! and fight!",
+   "img": "gita_15",
+   "cap": "Bhisma on arrows bed · public domain"
+  },
+  {
+   "ch": "Chapter IX",
+   "chTitle": "The Kingly Knowledge",
+   "title": "A leaf, a flower",
+   "text": "God does not need grand rituals. Even the smallest offering — a leaf, a flower, a fruit, a little water — given with love is accepted. Whatever you eat, give or do, offer it to the divine, and work itself becomes worship.",
+   "quote": "Whoso shall offer Me in faith and love A leaf, a flower, a fruit, water poured forth, That offering I accept, lovingly made With pious will.",
+   "img": "gita_16",
+   "cap": "Krishna Offering Support to the Pandavas · public domain"
+  },
+  {
+   "ch": "Chapter X",
+   "chTitle": "Divine Glories",
+   "title": "The lamp of wisdom",
+   "text": "Krishna lists his glories: among lights he is the sun, among waters the ocean, among trees the aswattha, among weapons the thunderbolt. Wherever there is anything glorious or powerful, it is a spark of his splendour. And for those who love him, he lights the lamp of wisdom inside.",
+   "quote": "And, with bright rays of wisdom's lamp, their ignorance dispel.",
+   "img": "gita_17",
+   "cap": "Baby Vishnu, Indian school, late 18th century · public domain"
+  },
+  {
+   "ch": "Chapter XI",
+   "chTitle": "The Vision of the Universal Form",
+   "title": "I am Time",
+   "text": "Arjuna asks to see Krishna's true form. He is given divine sight and sees a terrifying vision: a body with countless faces, brighter than a thousand suns, swallowing the warriors of both armies. Krishna declares he is Time itself — the fate of the battle is already decided.",
+   "quote": "Thou seest Me as Time who kills, Time who brings all to doom",
+   "img": "gita_18",
+   "cap": "Vishnu Vishvarupa cropped · public domain"
+  },
+  {
+   "ch": "Chapter XII",
+   "chTitle": "Devotion",
+   "title": "Who is dear to God",
+   "text": "The path of loving devotion is the easiest. Krishna describes the devotee he loves: one who hates no living thing, is kind and compassionate, free from ego, steady in pleasure and pain, and the same to friend and foe.",
+   "quote": "Who hateth nought Of all which lives, living himself benign, Compassionate, from arrogance exempt",
+   "img": "gita_19",
+   "cap": "Kangra painting of Mirabai, the female Bhakti saint · public domain"
+  },
+  {
+   "ch": "Chapter XIII",
+   "chTitle": "Matter and Spirit",
+   "title": "The field and its knower",
+   "text": "The body is a 'field', and the soul is the 'knower of the field'. Krishna lists what true knowledge looks like in a person: humility, honesty, non-violence, patience, purity, self-control and freedom from ego.",
+   "quote": "Humbleness, truthfulness, and harmlessness, Patience and honour, reverence for the wise.",
+   "img": "gita_20",
+   "cap": "The sage Vyasa and the king Janamejaya. · public domain"
+  },
+  {
+   "ch": "Chapter XIV",
+   "chTitle": "The Three Qualities",
+   "title": "Three threads",
+   "text": "All nature is woven from three qualities: sattwa (clarity and goodness), rajas (passion and restlessness) and tamas (darkness and dullness). They bind the soul in different ways. The wise person watches them rise and fall and is not ruled by them.",
+   "quote": "Sattwan, Rajas, and Tamas, so are named The qualities of Nature",
+   "img": "gita_21",
+   "cap": "Goddess Bhadrakali Worshipped by the Gods- from a tantric Devi series · public domain"
+  },
+  {
+   "ch": "Chapter XV",
+   "chTitle": "The Supreme Person",
+   "title": "The upside-down tree",
+   "text": "Krishna describes the world as an eternal aswattha tree with roots above and branches below; its leaves are the Vedas. Its branches spread through our desires and actions. With the axe of detachment, cut through it and seek the source.",
+   "quote": "Which hath its boughs beneath, its roots above",
+   "img": "gita_22",
+   "cap": "A spreading banyan tree-John Greig after James Forbes, 1774 · public domain"
+  },
+  {
+   "ch": "Chapter XVI",
+   "chTitle": "Divine and Demonic Natures",
+   "title": "Two kinds of people",
+   "text": "The divine nature: fearlessness, purity, generosity, self-control, truthfulness, gentleness, patience and freedom from anger. The demonic nature: pride, arrogance, harshness and greed. The first leads to freedom; the second to bondage.",
+   "quote": "Truthfulness, slowness unto wrath, a mind That lightly letteth go what others prize",
+   "img": "gita_23",
+   "cap": "Malhar Rao Holkar contemporary · public domain"
+  },
+  {
+   "ch": "Chapter XVII",
+   "chTitle": "Three Kinds of Faith",
+   "title": "You are what you worship",
+   "text": "Each person's faith matches their nature. The food we like, the way we give, the effort we make — all can be in sattwa, rajas or tamas. Even austerity can be pure, showy, or foolish.",
+   "quote": "The faith of each believer, Indian Prince! Conforms itself to what he truly is.",
+   "img": "gita_24",
+   "cap": "Krishna playing the flute, temple fresco · public domain"
+  },
+  {
+   "ch": "Chapter XVIII",
+   "chTitle": "Deliverance",
+   "title": "Take refuge",
+   "text": "Krishna's final and most loving teaching: let go of every worry about rules and rituals, give your heart to him, and take refuge in him alone. Arjuna's doubts are gone. He picks up his bow, ready to do his duty.",
+   "quote": "Make Me thy single refuge! I will free Thy soul from all its sins! Be of good cheer!",
+   "img": "gita_25",
+   "cap": "Arjuna by Nicholas Roerich · public domain"
+  }
+ ]
+}

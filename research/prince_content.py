@@ -308,7 +308,7 @@ card("Chapter XXVI", "An Exhortation to Liberate Italy", "Courage against fury",
  "Italian citizen-soldiers marching with pikes under a rising sun, laurel wreath in the sky")
 
 ABOUT = {
- "id": "prince", "title": "The Prince", "author": "Niccolò Machiavelli", "year": "1532",
+ "id": "prince", "title": "The Prince", "author": "Niccolò Machiavelli", "short": "Machiavelli", "year": "1532",
  "translator": "W. K. Marriott, 1908 (public domain, Project Gutenberg #1232)",
  "era": "renaissance", "cover": "prince_cover",
  "blurb": "A banished Florentine diplomat's handbook on how power is won, held and lost. Five hundred years later it still names the game: appearances, fear, loyalty, luck.",

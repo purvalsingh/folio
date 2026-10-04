@@ -375,11 +375,11 @@ fun CommonplaceScreen(app: App, open: (Book, Int) -> Unit) {
                         Text(q.text, fontFamily = b?.era?.body ?: Fonts.fell, fontStyle = FontStyle.Italic, fontSize = 19.sp, lineHeight = 27.sp, color = ink.ink)
                         Spacer(Modifier.height(8.dp))
                         Row(verticalAlignment = Alignment.CenterVertically) {
-                            Text(listOfNotNull(b?.author, b?.cards?.getOrNull(q.idx)?.ch).joinToString(" · "), fontFamily = Fonts.fellSc,
+                            Text(b?.cards?.getOrNull(q.idx)?.qBy?.ifBlank { null } ?: listOfNotNull(b?.author, b?.cards?.getOrNull(q.idx)?.ch).joinToString(" · "), fontFamily = Fonts.fellSc,
                                 fontSize = 12.sp, color = ink.faded, modifier = Modifier.weight(1f))
                             IconButton(onClick = {
                                 ctx.startActivity(Intent.createChooser(Intent(Intent.ACTION_SEND).setType("text/plain")
-                                    .putExtra(Intent.EXTRA_TEXT, "“${q.text}”\n— ${b?.author ?: ""}, ${b?.title ?: ""}"), "Share quote"))
+                                    .putExtra(Intent.EXTRA_TEXT, "“${q.text}”\n— ${b?.cards?.getOrNull(q.idx)?.attribution(b) ?: ""}"), "Share quote"))
                             }) { Icon(Icons.Outlined.Share, "Share", tint = ink.faded) }
                             IconButton(onClick = { store.quotes.remove(q); store.persist() }) { Icon(Icons.Outlined.Delete, "Remove", tint = ink.faded) }
                         }
@@ -490,7 +490,7 @@ fun HonoursScreen(app: App) {
             placeholder = { Text("Gemini API key", fontFamily = Fonts.fell) }, singleLine = true, colors = fieldColors(),
             visualTransformation = PasswordVisualTransformation(), keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Password))
         Spacer(Modifier.height(24.dp))
-        Text("The Prince by Niccolò Machiavelli (1532), W. K. Marriott translation (1908), via Project Gutenberg. Summaries written for Folio. Plates: engravings made for Folio, and public-domain Renaissance prints and paintings via Wikimedia Commons, credited under each card. Type: UnifrakturMaguntia, IM Fell, Cinzel, Old Standard, Special Elite (SIL OFL / Apache).",
+        Text("Texts: The Prince (Marriott, 1908), The Art of War (Giles, 1910) and the Bhagavad Gita (Arnold, 1885) via Project Gutenberg; Gracián (Jacobs, 1892) via archive.org. The 48 Laws of Power (Greene, 1998) is in copyright: Folio carries original summaries only, with quotes from the public-domain classics behind each law. Summaries written for Folio. Plates: engravings made for Folio, and public-domain Renaissance prints and paintings via Wikimedia Commons, credited under each card. Type: UnifrakturMaguntia, IM Fell, Cinzel, Old Standard, Special Elite (SIL OFL / Apache).",
             fontFamily = Fonts.fell, fontStyle = FontStyle.Italic, fontSize = 12.sp, color = ink.faded, textAlign = TextAlign.Center, modifier = Modifier.fillMaxWidth())
         Spacer(Modifier.height(28.dp))
     }

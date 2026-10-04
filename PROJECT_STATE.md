@@ -1,6 +1,6 @@
 # Folio — PROJECT_STATE
 
-CURRENT OBJECTIVE: native Android (Kotlin + Compose, one Java class) flashcard reader for old books; first book = The Prince.
+CURRENT OBJECTIVE: native Android (Kotlin + Compose, one Java class) flashcard reader for old books. Shelf: The Prince (52), 48 Laws of Power digest (48), The Art of War (26), Bhagavad Gita (25).
 
 STATUS: v1.0 built, signed release APK at ~/Desktop/Folio.apk (also app/build/outputs/apk/release/).
 
@@ -13,6 +13,8 @@ COMPLETED
 - Bind (import) a PDF: PdfBox text -> Distiller.java (offline extractive) or Gemini (plain-English, quote verified against text); plates = real page facsimiles; per-era typefaces.
 
 DECISIONS
+- 48 Laws is copyrighted (Greene 1998): original summaries + PD quotes (Machiavelli/Sun Tzu/Gracián/La Rochefoucauld), each card carries qBy attribution. Never ship Greene's text.
+- Content scripts: research/{prince,laws,artofwar,gita}_content.py via folio_build.py (quote verifier; fuzzy only for OCR'd Gracián). Plates: research/commons.py <book> with queries.json.
 - No Room/Navigation libs: state in one JSON in SharedPreferences, routes as a sealed interface.
 - Era -> typeface map in Theme.kt (Renaissance = UnifrakturMaguntia + IM Fell).
 
@@ -27,4 +29,4 @@ IMPORTANT FILES
 - app/src/test/.../DistillerTest.kt — offline importer self-check on the real text.
 - Signing: ~/.folio-signing/ (keystore + passwords). Build: JAVA_HOME=~/.local/jdk-21 ./gradlew assembleRelease
 
-LAST VALIDATION: 2026-10-05 assembleRelease OK; Paparazzi 6/6; DistillerTest pass.
+LAST VALIDATION: 2026-10-05 4 books, all quotes verified; assembleRelease OK (26 MB); Paparazzi 15/15; DistillerTest pass.
