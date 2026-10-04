@@ -1,0 +1,768 @@
+{
+ "id": "prince",
+ "title": "The Prince",
+ "author": "Niccolò Machiavelli",
+ "year": "1532",
+ "translator": "W. K. Marriott, 1908 (public domain, Project Gutenberg #1232)",
+ "era": "renaissance",
+ "cover": "prince_cover",
+ "blurb": "A banished Florentine diplomat's handbook on how power is won, held and lost. Five hundred years later it still names the game: appearances, fear, loyalty, luck.",
+ "glossary": {
+  "principality": {
+   "m": "A country or state ruled by a prince.",
+   "e": "Monaco is a tiny principality on the coast of France."
+  },
+  "principalities": {
+   "m": "A country or state ruled by a prince.",
+   "e": "Monaco is a tiny principality on the coast of France.",
+   "root": "principality"
+  },
+  "hereditary": {
+   "m": "Passed down from parent to child.",
+   "e": "The family shop is hereditary — Grandpa gave it to Dad, and Dad will give it to her."
+  },
+  "dominion": {
+   "m": "Land or people that someone controls.",
+   "e": "The cat acts like the whole sofa is her dominion."
+  },
+  "sovereign": {
+   "m": "The highest ruler, with power over everyone else.",
+   "e": "In the group project, Riya acted like the sovereign and gave everyone tasks."
+  },
+  "prudence": {
+   "m": "Careful good sense; thinking ahead before acting.",
+   "e": "Out of prudence, he saved some money before quitting his job."
+  },
+  "prudent": {
+   "m": "Careful good sense; thinking ahead before acting.",
+   "e": "Out of prudence, he saved some money before quitting his job.",
+   "root": "prudence"
+  },
+  "usurper": {
+   "m": "Someone who takes power that is not rightfully theirs.",
+   "e": "The younger brother grabbed the TV remote like a usurper."
+  },
+  "patrimony": {
+   "m": "Property or wealth inherited from your father or family.",
+   "e": "He sold the old farm, his only patrimony, to start a business."
+  },
+  "fortune": {
+   "m": "Luck or chance — the events you cannot control.",
+   "e": "By good fortune, the rain stopped just before the match."
+  },
+  "virtù": {
+   "m": "Machiavelli's word for skill, courage and drive — the ability to shape events.",
+   "e": "Starting a company from nothing in a recession takes real virtù."
+  },
+  "mercenaries": {
+   "m": "Soldiers who fight only for money, not loyalty.",
+   "e": "The club bought star players who acted like mercenaries and left once the pay stopped."
+  },
+  "auxiliaries": {
+   "m": "Troops borrowed from another, stronger ruler.",
+   "e": "Calling your big cousin to win your fight is using auxiliaries — now you owe him."
+  },
+  "liberality": {
+   "m": "Generosity, especially giving or spending freely.",
+   "e": "His liberality with free pizza made him popular — until the money ran out."
+  },
+  "parsimony": {
+   "m": "Extreme carefulness with money; stinginess.",
+   "e": "Her parsimony meant she reused tea bags twice."
+  },
+  "clemency": {
+   "m": "Mercy; choosing to be gentle when you could punish.",
+   "e": "The teacher showed clemency and let him resubmit the late homework."
+  },
+  "contempt": {
+   "m": "The feeling that someone is worthless or not worth respecting.",
+   "e": "The team treated the lazy captain with contempt."
+  },
+  "contemptible": {
+   "m": "The feeling that someone is worthless or not worth respecting.",
+   "e": "The team treated the lazy captain with contempt.",
+   "root": "contempt"
+  },
+  "conspiracy": {
+   "m": "A secret plan by a group to do something harmful.",
+   "e": "The kids formed a conspiracy to hide the last cookie."
+  },
+  "conspiracies": {
+   "m": "A secret plan by a group to do something harmful.",
+   "e": "The kids formed a conspiracy to hide the last cookie.",
+   "root": "conspiracy"
+  },
+  "conspirator": {
+   "m": "A secret plan by a group to do something harmful.",
+   "e": "The kids formed a conspiracy to hide the last cookie.",
+   "root": "conspiracy"
+  },
+  "flatterers": {
+   "m": "People who praise you too much, usually to get something.",
+   "e": "The new manager was surrounded by flatterers laughing at his bad jokes."
+  },
+  "flattery": {
+   "m": "People who praise you too much, usually to get something.",
+   "e": "The new manager was surrounded by flatterers laughing at his bad jokes.",
+   "root": "flatterers"
+  },
+  "dissembler": {
+   "m": "Someone who hides their real feelings or plans.",
+   "e": "She was a good dissembler — smiling while planning to quit."
+  },
+  "ecclesiastical": {
+   "m": "Belonging to the Church or the clergy.",
+   "e": "The old monastery was an ecclesiastical building, run by monks."
+  },
+  "condottieri": {
+   "m": "A hired captain who led mercenary armies in Renaissance Italy.",
+   "e": "Think of a condottiere like a contractor general — hired, paid, and gone.",
+   "root": "condottiere"
+  },
+  "arbiter": {
+   "m": "The one who decides or judges the outcome.",
+   "e": "Mum was the final arbiter of who got the front seat."
+  },
+  "avarice": {
+   "m": "Extreme greed for money or things.",
+   "e": "His avarice showed when he counted the change twice."
+  },
+  "irresolute": {
+   "m": "Unable to decide; lacking firmness.",
+   "e": "The irresolute captain couldn't pick a strategy before halftime."
+  },
+  "barbarous": {
+   "m": "Savage, cruel or uncivilised.",
+   "e": "Tearing up someone's homework is barbarous."
+  },
+  "barbarians": {
+   "m": "Savage, cruel or uncivilised.",
+   "e": "Tearing up someone's homework is barbarous.",
+   "root": "barbarous"
+  },
+  "rancour": {
+   "m": "Bitter, long-lasting resentment.",
+   "e": "Years later, there was still rancour over who broke the vase."
+  },
+  "nobles": {
+   "m": "Rich, powerful families of high rank.",
+   "e": "In the office, the senior partners act like nobles with private parking."
+  },
+  "fortress": {
+   "m": "A strongly built castle or defended place.",
+   "e": "His bedroom, with the door locked and headphones on, was his fortress."
+  },
+  "fortresses": {
+   "m": "A strongly built castle or defended place.",
+   "e": "His bedroom, with the door locked and headphones on, was his fortress.",
+   "root": "fortress"
+  },
+  "colonies": {
+   "m": "Settlements sent to live in and hold a conquered land.",
+   "e": "The café chain opened 'colonies' in every new mall to keep its hold."
+  },
+  "provident": {
+   "m": "Planning ahead for the future.",
+   "e": "A provident student starts the assignment the day it's set."
+  },
+  "malcontents": {
+   "m": "People who are unhappy and want change, often trouble-makers.",
+   "e": "The malcontents in the group chat kept complaining about the trip plan."
+  },
+  "neutral": {
+   "m": "Not taking any side in a fight.",
+   "e": "Her neutrality in her friends' argument annoyed both of them.",
+   "root": "neutrality"
+  },
+  "subjects": {
+   "m": "People who live under a ruler's authority.",
+   "e": "The king's subjects lined the streets to see him."
+  },
+  "pontiff": {
+   "m": "The Pope.",
+   "e": "The pontiff spoke to the crowd from the balcony."
+  },
+  "dukedom": {
+   "m": "Land ruled by a duke.",
+   "e": "Borgia's dukedom was the Romagna region of Italy."
+  },
+  "perfidy": {
+   "m": "Breaking a promise or betraying trust.",
+   "e": "Copying his friend's idea and pitching it as his own was pure perfidy."
+  },
+  "ambitious": {
+   "m": "A strong wish to gain power or success.",
+   "e": "Her ambition was to run her own bakery by thirty.",
+   "root": "ambition"
+  },
+  "impetuous": {
+   "m": "Acting quickly without thinking; rash.",
+   "e": "In an impetuous moment, he bought a guitar he can't play."
+  },
+  "circumspect": {
+   "m": "Very careful; considering all risks.",
+   "e": "Be circumspect about what you post online."
+  },
+  "redeemer": {
+   "m": "Someone who rescues or saves others.",
+   "e": "The new coach was seen as the redeemer of the losing team."
+  },
+  "oppression": {
+   "m": "Cruel or unfair use of power over people.",
+   "e": "The workers protested years of oppression by the factory owners."
+  },
+  "republic": {
+   "m": "A state ruled by elected citizens, not a monarch.",
+   "e": "India is a republic — it elects its leaders."
+  },
+  "republics": {
+   "m": "A state ruled by elected citizens, not a monarch.",
+   "e": "India is a republic — it elects its leaders.",
+   "root": "republic"
+  },
+  "esteem": {
+   "m": "Respect and admiration.",
+   "e": "She was held in high esteem by her coworkers."
+  },
+  "esteemed": {
+   "m": "Respect and admiration.",
+   "e": "She was held in high esteem by her coworkers.",
+   "root": "esteem"
+  },
+  "reputation": {
+   "m": "What people generally think of you.",
+   "e": "The restaurant's reputation for slow service spread fast."
+  },
+  "deceive": {
+   "m": "To make someone believe something false.",
+   "e": "The ad deceived buyers with a photo of a much bigger burger."
+  },
+  "deceived": {
+   "m": "To make someone believe something false.",
+   "e": "The ad deceived buyers with a photo of a much bigger burger.",
+   "root": "deceive"
+  }
+ },
+ "cards": [
+  {
+   "ch": "Dedication",
+   "chTitle": "To Lorenzo de' Medici",
+   "title": "A gift worth more than gold",
+   "text": "People usually win a prince's favour with horses, jewels and fine cloth. Machiavelli, out of a job and out of favour, has nothing like that. So he offers what he values most: everything he has learned about how great men rise and fall, boiled down into one small book. He says the people see the prince clearly, and the prince sees the people clearly — each from a distance.",
+   "quote": "to understand the nature of the people it needs to be a prince, and to understand that of princes it needs to be of the people",
+   "prompt": "a humble scholar kneeling and offering a small leather book to a richly dressed Medici lord in a palace hall",
+   "img": "prince_01",
+   "cap": "Engraving made for Folio"
+  },
+  {
+   "ch": "Dedication",
+   "chTitle": "To Lorenzo de' Medici",
+   "title": "Looking up the mountain",
+   "text": "His image: a painter who wants to draw mountains stands low in the plain; one who wants to draw valleys climbs high. Machiavelli, a lowly man, claims his low position lets him see the shape of power that rulers, standing at the top, often miss. He hopes Lorenzo will read with care and one day notice the unfair blows of fortune he has suffered.",
+   "quote": "those who draw landscapes place themselves below in the plain to contemplate the nature of the mountains",
+   "prompt": "an artist with easel in a valley sketching tall mountains with a castle on top, Tuscan hills",
+   "img": "prince_02",
+   "cap": "Engraving made for Folio"
+  },
+  {
+   "ch": "Chapter I",
+   "chTitle": "How Many Kinds of Principalities",
+   "title": "Two kinds of rule",
+   "text": "Every state that has dominion over men is either a republic or a principality. Principalities are either hereditary — passed down in an old ruling family — or new. New ones are either completely new, or are pieces added to a prince's existing lands. They are won either with your own arms or other people's, by fortune or by ability.",
+   "quote": "All states, all powers, that have held and hold rule over men have been and are either republics or principalities.",
+   "prompt": "a map of Renaissance Italy split into city-states with tiny castles, a compass rose, decorative border",
+   "img": "prince_03",
+   "cap": "Engraving made for Folio"
+  },
+  {
+   "ch": "Chapter II",
+   "chTitle": "Hereditary Principalities",
+   "title": "The easy throne",
+   "text": "A prince who inherits his throne has it easy. The people are used to his family, so he only needs to keep the old customs and handle surprises calmly. Even if pushed out, he usually gets back in at the first mistake of the usurper. Long rule makes people forget why things ever changed.",
+   "quote": "For the hereditary prince has less cause and less necessity to offend; hence it happens that he will be more loved",
+   "prompt": "an old king on a throne with his young son beside him, family coat of arms and ancestral portraits on the wall",
+   "img": "prince_04",
+   "cap": "Engraving made for Folio"
+  },
+  {
+   "ch": "Chapter III",
+   "chTitle": "Mixed Principalities",
+   "title": "New lands, old trouble",
+   "text": "Conquering a new land is the hard part. The people who helped you in, hoping life would improve, quickly feel let down. The malcontents you pushed out become enemies. So a new prince makes enemies of all he has hurt and can't fully satisfy his friends. If the new land shares your language and customs, it is far easier to hold.",
+   "quote": "men change their rulers willingly, hoping to better themselves",
+   "prompt": "soldiers marching through an Italian town gate while townspeople watch suspiciously from windows",
+   "img": "prince_05",
+   "cap": "Engraving made for Folio"
+  },
+  {
+   "ch": "Chapter III",
+   "chTitle": "Mixed Principalities",
+   "title": "Crush or care — never half",
+   "text": "To hold a foreign land, the best move is to go and live there yourself, so you can spot trouble early. The next best is to send colonies — cheap, and they only hurt a few. Machiavelli's coldest rule appears here: either treat people well or crush them completely. A small injury leaves them able to take revenge; a total one does not.",
+   "quote": "men ought either to be well treated or crushed, because they can avenge themselves of lighter injuries, of more serious ones they cannot",
+   "prompt": "a prince on horseback with settlers and wagons arriving to build houses in a conquered valley",
+   "img": "prince_06",
+   "cap": "Engraving made for Folio"
+  },
+  {
+   "ch": "Chapter III",
+   "chTitle": "Mixed Principalities",
+   "title": "Treat problems like a fever",
+   "text": "The Romans saw troubles from far away and fixed them early. Machiavelli compares this to a fever: at first easy to cure but hard to notice; later easy to notice but impossible to cure. A provident prince does not wait. He also warns: whoever makes another man powerful ruins himself, because that power was given with cleverness or force — both of which the new strongman distrusts.",
+   "quote": "he who is the cause of another becoming powerful is ruined",
+   "prompt": "a Renaissance physician checking the pulse of a sick man in bed, with a Roman legion seen through the window",
+   "img": "prince_07",
+   "cap": "Engraving made for Folio"
+  },
+  {
+   "ch": "Chapter IV",
+   "chTitle": "Why Alexander's Kingdom Did Not Rebel",
+   "title": "Two ways to rule a country",
+   "text": "Some kingdoms are ruled by one prince with servants (like the Turk); others by a prince together with powerful nobles who have their own lands and followers (like France). The first type is hard to conquer but easy to keep. The second is easy to enter — some unhappy noble will always open the door — but very hard to hold.",
+   "quote": "the principalities of which one has record are found to be governed in two different ways",
+   "prompt": "two scenes side by side: a sultan alone on a throne with bowing servants, and a French king surrounded by armoured nobles",
+   "img": "prince_08",
+   "cap": "Suleiman Turc Emperor, 1535 · public domain"
+  },
+  {
+   "ch": "Chapter V",
+   "chTitle": "Governing Cities That Had Their Own Laws",
+   "title": "The memory of liberty",
+   "text": "A city used to freedom never truly forgets it. You can let it keep its laws, set up a friendly small group to run it, or destroy it. Machiavelli says the safest way is ruin, because the name of liberty and its old ways will always be a rallying cry for rebellion — no matter how much time passes or what benefits you give.",
+   "quote": "in republics there is more vitality, greater hatred, and more desire for vengeance, which will never permit them to allow the memory of their former liberty to rest",
+   "prompt": "citizens of a free Italian republic gathered in a town square around a bell tower, a banner flying",
+   "img": "prince_09",
+   "cap": "Florence Nuremberg Chronicle · public domain"
+  },
+  {
+   "ch": "Chapter VI",
+   "chTitle": "New Principalities Won by One's Own Ability",
+   "title": "Walk in great footsteps",
+   "text": "A wise man should copy the greatest people, like an archer who aims higher than the target to hit it. Moses, Cyrus, Romulus and Theseus got from fortune only an opportunity; their own virtù did the rest. Those who rise by ability gain power with difficulty but keep it with ease.",
+   "quote": "A wise man ought always to follow the paths beaten by great men, and to imitate those who have been supreme",
+   "prompt": "an archer aiming an arrow high into the sky above a distant target, classical columns in background",
+   "img": "prince_10",
+   "cap": "Romulus and Remus suckling the she-wolf on a riverbank · public domain"
+  },
+  {
+   "ch": "Chapter VI",
+   "chTitle": "New Principalities Won by One's Own Ability",
+   "title": "Armed prophets win",
+   "text": "Changing the system is the hardest job there is. Everyone who gained from the old order fights you; the people who would gain from the new order only half-heartedly help, because they doubt new things until they see them work. So a reformer needs force to back up persuasion — because people are easy to convince but hard to keep convinced.",
+   "quote": "there is nothing more difficult to take in hand, more perilous to conduct, or more uncertain in its success, than to take the lead in the introduction of a new order of things",
+   "prompt": "a robed preacher in a crowded square with armoured guards beside him holding pikes",
+   "img": "prince_11",
+   "cap": "Sermon on the Art of Dying Well, Florentine woodcut · public domain"
+  },
+  {
+   "ch": "Chapter VI",
+   "chTitle": "New Principalities Won by One's Own Ability",
+   "title": "The fate of the unarmed",
+   "text": "His example is Savonarola, the friar who ruled Florence through sermons. When the crowd stopped believing, he had no way to make them keep believing, and he was destroyed. The lesson: ideas without power behind them do not last.",
+   "quote": "all armed prophets have conquered, and the unarmed ones have been destroyed",
+   "prompt": "a friar preaching from a pulpit to an empty crowd as night falls, a lone candle",
+   "img": "prince_12",
+   "cap": "Stefano Ussi - The Execution of Savonarola · public domain"
+  },
+  {
+   "ch": "Chapter VII",
+   "chTitle": "Principalities Won by Fortune or Others' Arms",
+   "title": "Easy come, easy go",
+   "text": "Those who become princes through luck or someone else's money rise easily but struggle to stay. They depend on the goodwill of whoever raised them — two things that are very fickle. Like plants that grow too fast, they have no roots, and the first storm knocks them down.",
+   "quote": "Those who solely by good fortune become princes from being private citizens have little trouble in rising, but much in keeping atop",
+   "prompt": "a young sapling with shallow roots being torn up by a storm wind, a castle behind",
+   "img": "prince_13",
+   "cap": "A Gust of Wind, engraving · public domain"
+  },
+  {
+   "ch": "Chapter VII",
+   "chTitle": "Principalities Won by Fortune or Others' Arms",
+   "title": "Cesare Borgia's model",
+   "text": "Cesare Borgia got his dukedom through his father, Pope Alexander VI, yet worked hard to build his own roots. He won over the people of the Romagna by giving them a harsh but effective governor, Remirro de Orco, who restored order. Then, to shift the blame for that cruelty, Borgia had Remirro cut in two and left in the town square.",
+   "quote": "The barbarity of this spectacle caused the people to be at once satisfied and dismayed",
+   "prompt": "Cesare Borgia in armour with a confident gaze, a Renaissance duke on horseback overlooking the Romagna",
+   "img": "prince_14",
+   "cap": "Cesare Borgia, duca di Romagna · public domain"
+  },
+  {
+   "ch": "Chapter VII",
+   "chTitle": "Principalities Won by Fortune or Others' Arms",
+   "title": "Old wounds don't forget",
+   "text": "Borgia's one great mistake: he let Julius II become Pope — a man full of rancour against him. Machiavelli warns that great men do not forget old injuries just because you now do them favours. That choice ruined Borgia.",
+   "quote": "He who believes that new benefits will cause great personages to forget old injuries is deceived",
+   "prompt": "cardinals in red robes gathering in a Vatican chamber to elect a new pope, smoke rising",
+   "img": "prince_15",
+   "cap": "Plan of the Vatican during a conclave · public domain"
+  },
+  {
+   "ch": "Chapter VIII",
+   "chTitle": "Those Who Gained Power by Wickedness",
+   "title": "Power is not glory",
+   "text": "Agathocles rose from a potter's son to King of Syracuse by calling the senate and rich men to a meeting and having them all killed. He held power for years. Yet Machiavelli refuses to call that excellence: killing fellow citizens and betraying friends can win you an empire, but never glory.",
+   "quote": "Yet it cannot be called talent to slay fellow-citizens, to deceive friends, to be without faith, without mercy, without religion; such methods may gain empire, but not glory.",
+   "prompt": "an ancient Greek tyrant standing among toppled senators' chairs in a marble hall, soldiers in shadow",
+   "img": "prince_16",
+   "cap": "Agathocles, bust in the Vatican Museums · public domain"
+  },
+  {
+   "ch": "Chapter VIII",
+   "chTitle": "Those Who Gained Power by Wickedness",
+   "title": "Cruelty used well and badly",
+   "text": "Machiavelli's chilling distinction: cruelty is 'well used' when done all at once for safety and then stopped, turning to the people's benefit. It is badly used when it starts small and grows. Hurt people all at once so they feel it less; give benefits slowly so they enjoy them more.",
+   "quote": "injuries ought to be done all at one time, so that, being tasted less, they offend less; benefits ought to be given little by little, so that the flavour of them may last longer",
+   "prompt": "a scale balancing a sword on one side and a basket of bread on the other, chiaroscuro engraving",
+   "img": "prince_17",
+   "cap": "Justice with scales and sword · public domain"
+  },
+  {
+   "ch": "Chapter IX",
+   "chTitle": "The Civil Principality",
+   "title": "Climb with the people",
+   "text": "Some become prince through the favour of fellow citizens. In every city there are two moods: the people want freedom from oppression, and the nobles want to oppress them. A prince made by the nobles is surrounded by equals who won't obey. One raised by the people stands alone and is much safer, because the people only want not to be crushed.",
+   "quote": "the nobles wish to rule and oppress the people",
+   "prompt": "a prince on a balcony waving to a cheering crowd of townspeople below, nobles frowning to the side",
+   "img": "prince_18",
+   "cap": "Lorenzo de' Medici Rubens · public domain"
+  },
+  {
+   "ch": "Chapter IX",
+   "chTitle": "The Civil Principality",
+   "title": "Keep the people friendly",
+   "text": "The people's wishes are more honest than the nobles', since the people only want not to be oppressed. A prince can never secure himself against a hostile people because there are too many of them. So even if the nobles made you, win over the people — it is cheap and essential in hard times.",
+   "quote": "it is necessary for a prince to have the people friendly, otherwise he has no security in adversity",
+   "prompt": "farmers and craftsmen bringing grain to a castle gate where a prince greets them warmly",
+   "img": "prince_19",
+   "cap": "Peasants at work, after Holbein · public domain"
+  },
+  {
+   "ch": "Chapter X",
+   "chTitle": "Measuring a Principality's Strength",
+   "title": "Walls, stores and goodwill",
+   "text": "Strong princes can raise an army and fight anyone. Weaker ones must hide behind walls. Then they need good fortifications, a year's supply of food and fuel, and a people who are not hostile. Machiavelli notes the German free cities: well stocked, well walled, and nobody dares attack them.",
+   "quote": "a prince who has a strong city, and had not made himself odious, will not be attacked",
+   "prompt": "a walled German city with thick towers, granaries and townsfolk carrying firewood inside",
+   "img": "prince_20",
+   "cap": "Hartmann Schedel - Nuremberg Chronicle, Page 100 - View of the city of Nuremberg · public domain"
+  },
+  {
+   "ch": "Chapter XI",
+   "chTitle": "Ecclesiastical Principalities",
+   "title": "Held by heaven",
+   "text": "Ecclesiastical states, run by the Church, are won by ability or luck but kept without either, because ancient religious customs hold them up. These princes have lands they do not defend and subjects they do not govern — yet no one takes them away. Machiavelli says it would be presumptuous to discuss them, then explains how the pontiff Alexander VI and Julius II made the Church a great temporal power.",
+   "quote": "they are acquired either by capacity or good fortune, and they can be held without either",
+   "prompt": "Saint Peter's basilica dome under construction with a pope's procession in front",
+   "img": "prince_21",
+   "cap": "Heemskerck Construction of St Peters · public domain"
+  },
+  {
+   "ch": "Chapter XII",
+   "chTitle": "Kinds of Soldiery and Mercenaries",
+   "title": "Good laws need good arms",
+   "text": "Every state rests on two foundations: good laws and good arms. You cannot have good laws without good arms, and where there are good arms, good laws follow. Mercenaries are useless and dangerous: disunited, ambitious, disloyal, brave among friends and cowards in front of enemies.",
+   "quote": "The chief foundations of all states, new as well as old or composite, are good laws and good arms",
+   "prompt": "a group of hired soldiers counting gold coins at a table while their banner lies forgotten on the floor",
+   "img": "prince_22",
+   "cap": "Stör, Niklas Zwei Landsknechte · public domain"
+  },
+  {
+   "ch": "Chapter XII",
+   "chTitle": "Kinds of Soldiery and Mercenaries",
+   "title": "Paid to avoid battle",
+   "text": "Mercenaries have no reason to stay in a fight except a little pay — not enough to make them want to die for you. They love being your soldiers in peacetime; when war comes they run or leave. Italy's ruin, he says, came from relying on hired condottieri for many years.",
+   "quote": "They are ready enough to be your soldiers whilst you do not make war, but if war comes they take themselves off or run from the foe",
+   "prompt": "mercenary soldiers fleeing a battlefield with their pikes, leaving a lone captain behind",
+   "img": "prince_23",
+   "cap": "Battle scene, 16th-century print · public domain"
+  },
+  {
+   "ch": "Chapter XIII",
+   "chTitle": "Auxiliaries, Mixed Soldiery, and One's Own",
+   "title": "Borrowed armies own you",
+   "text": "Auxiliaries — troops borrowed from a powerful neighbour — are even worse than mercenaries. If they lose, you are undone; if they win, you are their captive. A wise prince prefers to lose with his own men than win with others', because a victory gained with foreign arms is not a real victory.",
+   "quote": "The wise prince, therefore, has always avoided these arms and turned to his own",
+   "prompt": "David refusing the heavy armour of King Saul, holding only his sling and stones",
+   "img": "prince_24",
+   "cap": "David receives Saul's armour · public domain"
+  },
+  {
+   "ch": "Chapter XIII",
+   "chTitle": "Auxiliaries, Mixed Soldiery, and One's Own",
+   "title": "David's armour",
+   "text": "Machiavelli recalls David, who refused Saul's armour to fight Goliath because it would weigh him down; he chose his own sling. Other people's arms either fall off you, weigh you down, or bind you. No principality is secure without its own forces; without them it depends entirely on fortune.",
+   "quote": "the arms of others either fall from your back, or they weigh you down, or they bind you fast",
+   "prompt": "young David with a sling facing giant Goliath in a valley, armies on both hillsides",
+   "img": "prince_25",
+   "cap": "David and Goliath · public domain"
+  },
+  {
+   "ch": "Chapter XIV",
+   "chTitle": "A Prince and Military Affairs",
+   "title": "Think of war in peacetime",
+   "text": "A prince should have no other aim or study than war and its discipline. Being unarmed makes you contemptible. In peace he should train even harder — hunting to learn terrain, reading history to study great captains. Then, when fortune turns, he is ready to resist her.",
+   "quote": "A prince ought to have no other aim or thought, nor select anything else for his study, than war and its rules and discipline",
+   "prompt": "a prince hunting on horseback with dogs through hills and forest, studying the land",
+   "img": "prince_26",
+   "cap": "Hunting with a leopard · public domain"
+  },
+  {
+   "ch": "Chapter XV",
+   "chTitle": "What Men, Especially Princes, Are Praised or Blamed For",
+   "title": "Real, not imagined",
+   "text": "Here Machiavelli breaks with all earlier writers. Many have imagined perfect republics and princes that never existed. He wants to describe things as they really are. The gap between how people live and how they ought to live is so wide that whoever ignores what is done for what should be done learns his own ruin.",
+   "quote": "how one lives is so far distant from how one ought to live, that he who neglects what is done for what ought to be done, sooner effects his ruin than his preservation",
+   "prompt": "a scholar at a desk tearing a page from a book of utopian drawings while looking out at a real crowded street",
+   "img": "prince_27",
+   "cap": "Albrecht Dürer, Saint Jerome in His Study, 1514 · public domain"
+  },
+  {
+   "ch": "Chapter XV",
+   "chTitle": "What Men, Especially Princes, Are Praised or Blamed For",
+   "title": "Learn how not to be good",
+   "text": "A man who wants to be good in everything will be destroyed among so many who are not good. So a prince must learn how not to be good, and use or not use that knowledge as needed. He should avoid the vices that would cost him his state, but not worry too much about others if they help keep it.",
+   "quote": "it is necessary for a prince wishing to hold his own to know how to do wrong, and to make use of it or not according to necessity",
+   "prompt": "a theatre mask split in two, one half calm and saintly, the other half cunning, on a draped table",
+   "img": "prince_28",
+   "cap": "Janus and the Four Seasons · public domain"
+  },
+  {
+   "ch": "Chapter XVI",
+   "chTitle": "Liberality and Meanness",
+   "title": "The trap of generosity",
+   "text": "Everyone wants to be called generous. But a prince who spends lavishly to look generous will burn through his treasury and then must tax his people heavily, becoming hated. Better to accept being called mean (stingy): over time, people see he defends them without new taxes, and his parsimony looks like prudence.",
+   "quote": "there is nothing wastes so rapidly as liberality, for even whilst you exercise it you lose the power to do so",
+   "prompt": "an overflowing treasure chest tipped over with coins spilling onto the floor as hands grab at them",
+   "img": "prince_29",
+   "cap": "Quentin Massys, The Moneylender and his Wife, 1514 · public domain"
+  },
+  {
+   "ch": "Chapter XVI",
+   "chTitle": "Liberality and Meanness",
+   "title": "Spend other people's money",
+   "text": "There is one exception. A prince can be generous with what he takes from enemies through war — loot and ransom — because that money was never his own people's. Caesar and Alexander were generous this way. But spending your own wealth or your subjects' only leads to poverty or to being hated.",
+   "quote": "a prince should guard himself, above all things, against being despised and hated; and liberality leads you to both",
+   "prompt": "a Roman general distributing captured treasure to his soldiers outside a tent",
+   "img": "prince_30",
+   "cap": "The Triumphs of Caesar, after Mantegna · public domain"
+  },
+  {
+   "ch": "Chapter XVII",
+   "chTitle": "Cruelty and Clemency",
+   "title": "Mercy that causes chaos",
+   "text": "Every prince wants a reputation for clemency, not cruelty. But Cesare Borgia, called cruel, brought peace and order to the Romagna, while the Florentines, wanting to avoid looking cruel, let the city of Pistoia be destroyed by riots. A few harsh examples can be more merciful than letting disorder spread murder and theft.",
+   "quote": "a prince, so long as he keeps his subjects united and loyal, ought not to mind the reproach of cruelty",
+   "prompt": "an orderly Renaissance town square at peace with merchants and guards, a single gallows on a far hill",
+   "img": "prince_31",
+   "cap": "Beheading of John the Baptist, woodcut · public domain"
+  },
+  {
+   "ch": "Chapter XVII",
+   "chTitle": "Cruelty and Clemency",
+   "title": "Feared or loved?",
+   "text": "The famous question: is it better to be loved than feared, or the reverse? Ideally both — but since that is hard, it is much safer to be feared. Love is a chain of obligation that men break whenever it suits them. Fear is kept by a dread of punishment that never fails.",
+   "quote": "it is much safer to be feared than loved, when, of the two, either must be dispensed with",
+   "prompt": "a stern prince on a high throne with a lion at his feet while courtiers bow in fear and awe",
+   "img": "prince_32",
+   "cap": "Genealogy of Emperor Maximilian I · public domain"
+  },
+  {
+   "ch": "Chapter XVII",
+   "chTitle": "Cruelty and Clemency",
+   "title": "Never take their property",
+   "text": "Being feared is fine; being hated is not. The prince must keep his hands off the property and the women of his subjects. If he must execute someone, he needs a clear reason. Above all, he must not seize property, because men forget the death of their father sooner than the loss of their inheritance.",
+   "quote": "men more quickly forget the death of their father than the loss of their patrimony",
+   "prompt": "a grieving son in a hallway holding a deed scroll tightly, a family estate behind him",
+   "img": "prince_33",
+   "cap": "Rembrandt Harmensz van Rijn - Return of the Prodigal Son · public domain"
+  },
+  {
+   "ch": "Chapter XVIII",
+   "chTitle": "How Princes Should Keep Faith",
+   "title": "The fox and the lion",
+   "text": "There are two ways to fight: by law, which is human, and by force, which is for beasts. Since the first is often not enough, a prince must know how to use the beast. He should be both a fox and a lion: the lion cannot defend himself from traps, the fox cannot defend himself from wolves.",
+   "quote": "it is necessary to be a fox to discover the snares and a lion to terrify the wolves",
+   "prompt": "a fox and a lion side by side in a forest clearing, a hunter's snare hidden on the ground",
+   "img": "prince_34",
+   "cap": "A fox, engraving · public domain"
+  },
+  {
+   "ch": "Chapter XVIII",
+   "chTitle": "How Princes Should Keep Faith",
+   "title": "Promises are tools",
+   "text": "A wise ruler cannot and should not keep his word when doing so would hurt him and when the reasons he gave it are gone. If all men were good, this would be bad advice — but they are not, and they will not keep faith with you. Princes have never lacked good excuses to cover their perfidy.",
+   "quote": "a wise lord cannot, nor ought he to, keep faith when such observance may be turned against him",
+   "prompt": "two Renaissance lords shaking hands while one holds a dagger behind his back",
+   "img": "prince_35",
+   "cap": "Conrad Ermisch - Pazzi conspiracy in 1478 · public domain"
+  },
+  {
+   "ch": "Chapter XVIII",
+   "chTitle": "How Princes Should Keep Faith",
+   "title": "Seem, don't need to be",
+   "text": "A prince does not need to have all the good qualities — mercy, faith, kindness, honesty, religion — but he must seem to have them — a great pretender and dissembler. Everyone sees what you appear to be; few touch what you are. And those few dare not oppose the opinion of the many.",
+   "quote": "Every one sees what you appear to be, few really know what you are",
+   "prompt": "a prince holding an ornate mask in front of his face, a crowd seeing only the mask",
+   "img": "prince_36",
+   "cap": "Portrait of Niccolò Machiavelli by Santi di Tito · public domain"
+  },
+  {
+   "ch": "Chapter XVIII",
+   "chTitle": "How Princes Should Keep Faith",
+   "title": "Judged by results",
+   "text": "Men judge more by the eye than by the hand: everyone can see, few can feel. In the actions of princes, where there is no court to appeal to, people look at results. Keep and win the state, and your methods will always be called honourable and praised by everyone.",
+   "quote": "men judge generally more by the eye than by the hand",
+   "prompt": "a crowd looking up at a grand triumphal parade, a prince on a chariot under an arch",
+   "img": "prince_37",
+   "cap": "Burgkmair, The Triumphal Procession of Emperor Maximilian I · public domain"
+  },
+  {
+   "ch": "Chapter XIX",
+   "chTitle": "Avoiding Contempt and Hatred",
+   "title": "Two things to avoid",
+   "text": "A prince must avoid being hated or despised. He becomes hated through avarice and seizing property; he falls into contempt by being fickle, frivolous, cowardly, weak or irresolute. Instead his actions should show greatness, courage, seriousness and strength, and his decisions should be final.",
+   "quote": "It makes him contemptible to be considered fickle, frivolous, effeminate, mean-spirited, irresolute",
+   "prompt": "a weak king shrinking on a throne while courtiers laugh behind their hands",
+   "img": "prince_38",
+   "cap": "Albrecht Dürer - Ship of Fools · public domain"
+  },
+  {
+   "ch": "Chapter XIX",
+   "chTitle": "Avoiding Contempt and Hatred",
+   "title": "Two fears, one cure",
+   "text": "A prince faces two dangers: rebellion inside and attack from outside. Against outside threats, good arms and good allies. Against conspiracy inside, the best defence is not being hated by the people — a conspirator always hopes the people will be happy at the prince's death. If they would be outraged, he does not dare.",
+   "quote": "one of the most efficacious remedies that a prince can have against conspiracies is not to be hated and despised by the people",
+   "prompt": "hooded conspirators whispering in a dark stone corridor lit by a single torch",
+   "img": "prince_39",
+   "cap": "Gunpowder Plot conspirators · public domain"
+  },
+  {
+   "ch": "Chapter XIX",
+   "chTitle": "Avoiding Contempt and Hatred",
+   "title": "Let others deliver bad news",
+   "text": "Princes should give unpopular tasks to others and keep the pleasing ones for themselves. France built a parliament to keep the nobles in check, so the king never had to take the blame. Hatred, he adds, is earned by good works as well as bad ones.",
+   "quote": "princes ought to leave affairs of reproach to the management of others, and keep those of grace in their own hands",
+   "prompt": "a king smiling and handing out gifts at the front while an official reads a harsh decree behind him",
+   "img": "prince_40",
+   "cap": "Voyage Gênes Marot Louis XII · public domain"
+  },
+  {
+   "ch": "Chapter XX",
+   "chTitle": "Fortresses and Other Tools of Princes",
+   "title": "The best fortress",
+   "text": "Should a prince disarm his people, divide cities by factions, build castles? New princes should arm their subjects, because arms given to people make them yours. Fortresses help against the people only if you fear them more than foreigners. In the end, the best fortress is not to be hated by your people.",
+   "quote": "the best possible fortress is—not to be hated by the people",
+   "prompt": "a lonely abandoned castle on a crag, while below a happy town thrives around its market",
+   "img": "prince_41",
+   "cap": "Badingen Castle Merian 1650 · public domain"
+  },
+  {
+   "ch": "Chapter XXI",
+   "chTitle": "How a Prince Should Act to Gain Renown",
+   "title": "Great deeds, big name",
+   "text": "Nothing gives a prince so much renown as great undertakings and rare examples. Ferdinand of Aragon went from a weak king to the foremost sovereign in Christendom by keeping people busy with one bold campaign after another, so no one had time to plot against him.",
+   "quote": "Nothing makes a prince so much esteemed as great enterprises and setting a fine example",
+   "prompt": "a Spanish king on horseback leading a grand army toward a Moorish fortress city",
+   "img": "prince_42",
+   "cap": "Ferdinand of Aragon, Isabella of Castile · public domain"
+  },
+  {
+   "ch": "Chapter XXI",
+   "chTitle": "How a Prince Should Act to Gain Renown",
+   "title": "Never stay neutral",
+   "text": "When two neighbours fight, pick a side openly. If you stay neutral, the winner will see you as a coward who didn't help, and the loser will have no reason to shelter you. Irresolute princes take the neutral path to avoid present danger and are usually ruined by it.",
+   "quote": "irresolute princes, to avoid present dangers, generally follow the neutral path, and are generally ruined",
+   "prompt": "a lone figure standing at a fork in a road, two armies clashing on either side",
+   "img": "prince_43",
+   "cap": "Battle of Ravenna (1512) · public domain"
+  },
+  {
+   "ch": "Chapter XXII",
+   "chTitle": "A Prince's Secretaries",
+   "title": "Judge a prince by his staff",
+   "text": "The first way to judge a ruler's intelligence is to look at the people around him. Capable and loyal advisers mean he is wise. To test a minister: if he thinks more of himself than of you, he will never be trustworthy. Hold a good one in high esteem, with honour and riches, so he does not want more elsewhere.",
+   "quote": "the first opinion which one forms of a prince, and of his understanding, is by observing the men he has around him",
+   "prompt": "a prince at a long table surrounded by attentive ministers and scribes with ledgers",
+   "img": "prince_44",
+   "cap": "Justinian in Council · public domain"
+  },
+  {
+   "ch": "Chapter XXIII",
+   "chTitle": "How Flatterers Should Be Avoided",
+   "title": "Make truth safe",
+   "text": "Courts are full of flatterers, and men enjoy flattery so much it is hard to resist. The only defence is to make people understand that telling you the truth will not offend you. But if everyone can tell you the truth, you lose respect — so pick a few wise advisers, let them speak freely, but only when you ask.",
+   "quote": "there is no other way of guarding oneself from flatterers except letting men understand that to tell you the truth does not offend you",
+   "prompt": "a court jester whispering praise into a king's ear while an honest old adviser stands apart",
+   "img": "prince_45",
+   "cap": "The Fool, engraving · public domain"
+  },
+  {
+   "ch": "Chapter XXIII",
+   "chTitle": "How Flatterers Should Be Avoided",
+   "title": "Good advice needs a wise ruler",
+   "text": "A prince who is not wise himself cannot be well advised, unless by luck he hands everything to one very prudent man — who would soon take his state. Good advice, wherever it comes from, comes from the wisdom of the prince, not the wisdom of the prince from good advice.",
+   "quote": "good counsels, whencesoever they come, are born of the wisdom of the prince, and not the wisdom of the prince from good counsels",
+   "prompt": "a prince reading many letters by candlelight, weighing scrolls in each hand",
+   "img": "prince_46",
+   "cap": "Hans Holbein d. J. - Portrait of Erasmus of Rotterdam Writing · public domain"
+  },
+  {
+   "ch": "Chapter XXIV",
+   "chTitle": "Why Italian Princes Lost Their States",
+   "title": "Don't blame fortune",
+   "text": "The Italian princes who lost their lands should not blame fortune, but their own laziness. In good times they never thought the weather would change — a common mistake of men, never to plan for storms in calm. When bad times came, they ran instead of defending themselves.",
+   "quote": "it is a common defect in man not to make any provision in the calm against the tempest",
+   "prompt": "a ship in calm sea with dark storm clouds gathering on the horizon, sailors idle on deck",
+   "img": "prince_47",
+   "cap": "A Ship in a Rough Sea · public domain"
+  },
+  {
+   "ch": "Chapter XXV",
+   "chTitle": "Fortune in Human Affairs",
+   "title": "Fortune is a river",
+   "text": "Many believe God and fortune control everything, so effort is pointless. Machiavelli says fortune controls about half of what we do and leaves the other half to us. He compares fortune to a raging river that floods the plain — but in calm weather, men can build dykes and banks to hold it back.",
+   "quote": "Fortune is the arbiter of one-half of our actions",
+   "prompt": "a raging flooded river tearing through fields while workers build stone dykes and embankments",
+   "img": "prince_48",
+   "cap": "Virgil Solis, The Deluge · public domain"
+  },
+  {
+   "ch": "Chapter XXV",
+   "chTitle": "Fortune in Human Affairs",
+   "title": "Match the times",
+   "text": "Two people with the same methods can get opposite results, because one acts in times that suit him and the other does not. A cautious man succeeds when cautious times come and fails when they need boldness. The trouble is, people can't change their nature, so fortune changes and they stay the same.",
+   "quote": "he will be successful who directs his actions according to the spirit of the times",
+   "prompt": "a giant wheel of fortune with figures rising and falling around its rim, a blindfolded woman turning it",
+   "img": "prince_49",
+   "cap": "Dürer, Time and a Fox Turning the Wheel of Fortune · public domain"
+  },
+  {
+   "ch": "Chapter XXV",
+   "chTitle": "Fortune in Human Affairs",
+   "title": "Better bold than cautious",
+   "text": "Pope Julius II was impetuous in everything, and because the times suited him, he always succeeded. Machiavelli concludes it is better to be bold than circumspect, because fortune tends to favour those who are young, daring and less careful.",
+   "quote": "it is better to be adventurous than cautious",
+   "prompt": "an elderly pope in armour leading troops on horseback through a city gate",
+   "img": "prince_50",
+   "cap": "Pope Julius II · public domain"
+  },
+  {
+   "ch": "Chapter XXVI",
+   "chTitle": "An Exhortation to Liberate Italy",
+   "title": "Italy waits for a redeemer",
+   "text": "In the final chapter Machiavelli drops his cool tone. Italy is leaderless, beaten, robbed, torn and overrun — the perfect moment for a new prince. Like the Israelites waiting for Moses, Italy waits for a redeemer to heal her wounds. He begs the Medici family to take up the cause.",
+   "quote": "To all of us this barbarous dominion stinks.",
+   "prompt": "a ruined Italian landscape with broken columns, a lone banner raised on a hilltop at dawn",
+   "img": "prince_51",
+   "cap": "Paolo Monaldi - Peasants near Roman Ruins · public domain"
+  },
+  {
+   "ch": "Chapter XXVI",
+   "chTitle": "An Exhortation to Liberate Italy",
+   "title": "Courage against fury",
+   "text": "He says Italians are strong and clever one-on-one but fail in armies, because their leaders are weak. A national army of its own people, led well, could drive out the barbarians. He ends with a line from the poet Petrarch: the ancient Italian valour is not yet dead.",
+   "quote": "Virtue against fury shall advance the fight",
+   "prompt": "Italian citizen-soldiers marching with pikes under a rising sun, laurel wreath in the sky",
+   "img": "prince_52",
+   "cap": "A battle scene (1561) · public domain"
+  }
+ ]
+}

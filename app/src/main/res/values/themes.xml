@@ -1,0 +1,10 @@
+<resources>
+    <style name="Theme.Folio" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/vellum</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+    <color name="vellum">#EFE9DD</color>
+    <color name="ink">#1A1814</color>
+    <color name="rubric">#8E1B12</color>
+</resources>
