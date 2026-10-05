@@ -1,12 +1,12 @@
 {
- "version": 1,
+ "version": 2,
  "id": "artofwar",
  "title": "The Art of War",
- "short": "Sun Tzŭ",
- "author": "Sun Tzŭ",
+ "short": "Sun Tzu",
+ "author": "Sun Tzu",
  "year": "c. 500 BC",
  "translator": "Lionel Giles, 1910 (public domain, Project Gutenberg #132)",
- "era": "ancient",
+ "era": "eastern",
  "cover": "artofwar_cover",
  "blurb": "Thirteen short chapters from ancient China on winning — ideally without a fight. Read by generals, CEOs and chess players for 2,500 years.",
  "glossary": {
@@ -112,7 +112,9 @@
    "text": "Sun Tzŭ opens plainly: war is the most serious thing a state does. It decides who lives and who falls. So before any fight, a wise sovereign compares five things on both sides — the Moral Law (do people believe in their leader?), Heaven (weather, seasons), Earth (terrain, distance), the commander, and discipline. Whoever wins the comparison usually wins the war.",
    "quote": "The art of war is of vital importance to the State.",
    "img": "artofwar_01",
-   "cap": "Emperor Taizong Receiving the Tibetan Envoy(Bunian Tu) · public domain"
+   "cap": "Emperor Taizong Receiving the Tibetan Envoy(Bunian Tu) · public domain",
+   "qMean": "War is the most serious thing a country does.",
+   "qLife": "Starting a lawsuit is a big decision — think hard before you do it."
   },
   {
    "ch": "Chapter I",
@@ -121,7 +123,9 @@
    "text": "The most famous line of the book. Hide your strength and show weakness. When near, seem far; when far, seem near. Hold out bait to tempt the enemy, feign disorder, then strike. If your opponent is choleric, irritate him. If he is arrogant, make him prouder. Attack where he is not ready.",
    "quote": "All warfare is based on deception.",
    "img": "artofwar_02",
-   "cap": "Victory banquet given by the emperor for distinguished officers and soldiers · public domain"
+   "cap": "Victory banquet given by the emperor for distinguished officers and soldiers · public domain",
+   "qMean": "Every war depends on tricking the enemy.",
+   "qLife": "Poker players hide their real hand with a calm face."
   },
   {
    "ch": "Chapter II",
@@ -130,7 +134,9 @@
    "text": "War burns money. Armies need provisions, chariots, armour and pay, a thousand ounces of silver a day. A protracted campaign drains the treasury and tires the soldiers, and then neighbours take advantage. Sun Tzŭ prefers a fast, rough victory over a long, clever one.",
    "quote": "In war, then, let your great object be victory, not lengthy campaigns.",
    "img": "artofwar_03",
-   "cap": "Paintings on east wall of Xu Xianxiu Tomb · public domain"
+   "cap": "Paintings on east wall of Xu Xianxiu Tomb · public domain",
+   "qMean": "In conflict, aim to win quickly, not to drag things out.",
+   "qLife": "Settle a dispute with a neighbour fast before it becomes a years-long feud."
   },
   {
    "ch": "Chapter II",
@@ -139,7 +145,9 @@
    "text": "Carrying food from home across long distances ruins your own people. A wise general feeds his army from the enemy's stores — one cartload taken from them is worth twenty of your own. Treat captured soldiers kindly and use them; this way you grow stronger with every win.",
    "quote": "There is no instance of a country having benefited from prolonged warfare.",
    "img": "artofwar_04",
-   "cap": "1787 Battle at Fangliao · public domain"
+   "cap": "1787 Battle at Fangliao · public domain",
+   "qMean": "No country has ever gained from a long war.",
+   "qLife": "A long divorce case leaves both sides poorer; only the lawyers gain."
   },
   {
    "ch": "Chapter III",
@@ -148,7 +156,9 @@
    "text": "The best victory keeps the enemy's country whole. Smashing it is second best. Fighting and winning a hundred battles is not the height of skill. The highest skill is to break the enemy's will and plans so completely that no battle is needed at all.",
    "quote": "supreme excellence consists in breaking the enemy's resistance without fighting.",
    "img": "artofwar_05",
-   "cap": "Night Revels of Han Xizai pipa player · public domain"
+   "cap": "Night Revels of Han Xizai pipa player · public domain",
+   "qMean": "The best victory is breaking the other side's will without fighting.",
+   "qLife": "Winning a deal because your offer is so good the rival gives up."
   },
   {
    "ch": "Chapter III",
@@ -157,7 +167,9 @@
    "text": "Sun Tzŭ ranks the ways to win: first, spoil the enemy's plans; then break his alliances; then fight his army; last and worst, besiege his walled cities. And the key to all of it is knowledge — of the other side and of yourself.",
    "quote": "If you know the enemy and know yourself, you need not fear the result of a hundred battles.",
    "img": "artofwar_06",
-   "cap": "Receiving the surrender of the Yili · public domain"
+   "cap": "Receiving the surrender of the Yili · public domain",
+   "qMean": "Know your opponent and yourself, and you won't fear any contest.",
+   "qLife": "Before a debate, learn the other side's points and your own weak spots."
   },
   {
    "ch": "Chapter IV",
@@ -166,7 +178,9 @@
    "text": "Good fighters of old first made themselves impossible to defeat, then waited for the enemy to make a mistake. Your own safety is in your hands; the chance to win is given by the enemy. So you can know how to win without being able to force it.",
    "quote": "The good fighters of old first put themselves beyond the possibility of defeat, and then waited for an opportunity of defeating the enemy.",
    "img": "artofwar_07",
-   "cap": "Landscape Dedicated to Xiang Yuanbian · public domain"
+   "cap": "Landscape Dedicated to Xiang Yuanbian · public domain",
+   "qMean": "First make yourself impossible to beat, then wait for the enemy's mistake.",
+   "qLife": "Save money and build skills, then pounce when a great job opens."
   },
   {
    "ch": "Chapter IV",
@@ -175,7 +189,9 @@
    "text": "A true master wins so easily that nobody calls him brave or brilliant — the victory looks obvious. That is because the win was set up before the fight began. The loser does the opposite: he fights first and hopes to find a way to win along the way.",
    "quote": "the victorious strategist only seeks battle after the victory has been won",
    "img": "artofwar_08",
-   "cap": "Guo Xi - Early Spring (large) · public domain"
+   "cap": "Guo Xi - Early Spring (large) · public domain",
+   "qMean": "Winners set up the win before the fight; losers fight first and hope.",
+   "qLife": "Students who revised early walk into the exam already confident."
   },
   {
    "ch": "Chapter V",
@@ -184,7 +200,9 @@
    "text": "There are only two kinds of attack: the direct (the obvious, head-on force) and the indirect (the surprise). Yet, like five musical notes making endless melodies, these two combine into endless manoeuvres. Use the direct to engage, the indirect to win.",
    "quote": "In battle, there are not more than two methods of attack—the direct and the indirect; yet these two in combination give rise to an endless series of manœuvers.",
    "img": "artofwar_09",
-   "cap": "11th century basketry fire arrow rocket launcher · public domain"
+   "cap": "11th century basketry fire arrow rocket launcher · public domain",
+   "qMean": "There are only direct and indirect attacks, but they combine endlessly.",
+   "qLife": "In football, the plain pass and the surprise trick play mix into countless moves."
   },
   {
    "ch": "Chapter V",
@@ -193,7 +211,9 @@
    "text": "Energy is like a crossbow drawn tight; timing is the release. A skilled general does not demand too much from each soldier — he puts the whole army in a position where momentum does the work, like round stones rolling down a steep mountain.",
    "quote": "the onset of troops is like the rush of a torrent which will even roll stones along in its course.",
    "img": "artofwar_10",
-   "cap": "Chinese repeating crossbow · public domain"
+   "cap": "Chinese repeating crossbow · public domain",
+   "qMean": "A charging army is like a torrent that rolls stones along.",
+   "qLife": "Once a sale becomes a trend, it sells itself like a snowball."
   },
   {
    "ch": "Chapter VI",
@@ -202,7 +222,9 @@
    "text": "Whoever arrives first and waits is fresh; whoever rushes in late is tired. A clever fighter makes the enemy come to him, on his terms. Tempt him with an advantage, or block him with a threat — but always set the stage yourself.",
    "quote": "the clever combatant imposes his will on the enemy, but does not allow the enemy's will to be imposed on him.",
    "img": "artofwar_11",
-   "cap": "Eight Steeds · public domain"
+   "cap": "Eight Steeds · public domain",
+   "qMean": "A clever fighter controls the situation and never lets the enemy control him.",
+   "qLife": "Set the meeting agenda yourself instead of reacting to someone else's."
   },
   {
    "ch": "Chapter VI",
@@ -211,7 +233,9 @@
    "text": "Water flows away from high places and rushes into low ones. An army should do the same: avoid what is strong, strike what is weak. Water has no fixed shape — it follows the ground. In war, too, there are no fixed conditions; adapt to the enemy and you seem almost divine.",
    "quote": "Military tactics are like unto water; for water in its natural course runs away from high places and hastens downwards.",
    "img": "artofwar_12",
-   "cap": "Ma Yuan - Water Album - The Yellow River Breaches its Course · public domain"
+   "cap": "Ma Yuan - Water Album - The Yellow River Breaches its Course · public domain",
+   "qMean": "Tactics should be like water: avoid the high, strong points, flow to the weak ones.",
+   "qLife": "A new café opens where there's no coffee shop, not next to a famous one."
   },
   {
    "ch": "Chapter VII",
@@ -220,7 +244,9 @@
    "text": "Manœuvering is the hardest part of war: turning the long way round into the short way. Sun Tzŭ's motto for movement: swift as the wind, compact as the forest, raiding like fire, still as a mountain. And keep your plans hidden until the moment you strike.",
    "quote": "Let your plans be dark and impenetrable as night, and when you move, fall like a thunderbolt.",
    "img": "artofwar_13",
-   "cap": "The Battle of Qurman · public domain"
+   "cap": "The Battle of Qurman · public domain",
+   "qMean": "Keep your plans dark as night, then strike fast like lightning.",
+   "qLife": "Work quietly on your project, then launch it all at once."
   },
   {
    "ch": "Chapter VII",
@@ -229,7 +255,9 @@
    "text": "Don't attack troops eager to fight, or chase an army pretending to flee. And a classic warning: when you surround an enemy, leave a way out. Men with no exit become desperate — and a desperate foe fights to the death.",
    "quote": "When you surround an army, leave an outlet free.",
    "img": "artofwar_14",
-   "cap": "Destroying Chinese war junks, by E. Duncan (1843) · public domain"
+   "cap": "Destroying Chinese war junks, by E. Duncan (1843) · public domain",
+   "qMean": "When you surround an enemy, leave them a way out.",
+   "qLife": "In an argument, let the other person save face so they don't fight to the end."
   },
   {
    "ch": "Chapter VIII",
@@ -238,7 +266,9 @@
    "text": "A general must bend rules to circumstances. Some roads should not be taken, some towns not attacked, some orders from the sovereign not obeyed. Wise leaders weigh both gain and harm in every choice — hope in danger, danger in hope.",
    "quote": "There are roads which must not be followed",
    "img": "artofwar_15",
-   "cap": "Dai Jin, Travellers Through Mountain Passes · public domain"
+   "cap": "Dai Jin, Travellers Through Mountain Passes · public domain",
+   "qMean": "Some roads should not be taken.",
+   "qLife": "Not every job offer or deal is worth accepting."
   },
   {
    "ch": "Chapter VIII",
@@ -247,7 +277,9 @@
    "text": "Sun Tzŭ lists five faults that ruin a general: recklessness, which leads to destruction; cowardice, which leads to capture; a hasty temper, easily provoked by insults; a pride in honour that is easily shamed; and too much worry for his men, which leaves him exhausted.",
    "quote": "Recklessness, which leads to destruction",
    "img": "artofwar_16",
-   "cap": "Guan Yu · public domain"
+   "cap": "Guan Yu · public domain",
+   "qMean": "Rashness leads to ruin.",
+   "qLife": "Quitting your job in anger, without a plan, often ends badly."
   },
   {
    "ch": "Chapter IX",
@@ -256,7 +288,9 @@
    "text": "This chapter is a field guide to reading the enemy. Birds rising mean an ambush. Dust high and narrow means chariots; low and wide means infantry. Soldiers leaning on spears are hungry. Polite words with hidden preparations mean an attack is coming.",
    "quote": "Humble words and increased preparations are signs that the enemy is about to advance.",
    "img": "artofwar_17",
-   "cap": "The Qianlong Emperor hunting hare · public domain"
+   "cap": "The Qianlong Emperor hunting hare · public domain",
+   "qMean": "Polite words plus quiet preparations mean the enemy is about to attack.",
+   "qLife": "A suddenly super-friendly rival may be planning something."
   },
   {
    "ch": "Chapter IX",
@@ -265,7 +299,9 @@
    "text": "Soldiers must first be bonded to you by kindness; only then will punishment work. Punish them before they are attached to you and they will not obey; never punish once they are, and they become useless. Treat them with humanity, but keep them in control with iron discipline.",
    "quote": "Soldiers must be treated in the first instance with humanity, but kept under control by means of iron discipline.",
    "img": "artofwar_18",
-   "cap": "1787 Crossing the Taiwan Strait and returning in triumph · public domain"
+   "cap": "1787 Crossing the Taiwan Strait and returning in triumph · public domain",
+   "qMean": "Treat soldiers kindly first, but keep firm discipline.",
+   "qLife": "A good teacher is warm with students but still enforces deadlines."
   },
   {
    "ch": "Chapter X",
@@ -274,7 +310,9 @@
    "text": "Sun Tzŭ names six kinds of terrain — open, entangling, temporising, narrow passes, steep heights and distant positions — each with its own rules. A general who knows the terrain, the enemy and himself has a complete picture of victory.",
    "quote": "If you know the enemy and know yourself, your victory will not stand in doubt",
    "img": "artofwar_19",
-   "cap": "Hermit-Fisherman on a Spring River · public domain"
+   "cap": "Hermit-Fisherman on a Spring River · public domain",
+   "qMean": "Know the enemy and yourself, and victory is certain.",
+   "qLife": "A shop that knows its customers and its own strengths rarely fails."
   },
   {
    "ch": "Chapter X",
@@ -283,7 +321,9 @@
    "text": "A leader who cares for his soldiers like his own children will be followed into the deepest valleys. But kindness without authority spoils them, like indulged children who are useless when it matters.",
    "quote": "Regard your soldiers as your children, and they will follow you into the deepest valleys",
    "img": "artofwar_20",
-   "cap": "Portrait of the Qing general Mingliang, 1776 · public domain"
+   "cap": "Portrait of the Qing general Mingliang, 1776 · public domain",
+   "qMean": "Care for your soldiers like children, and they'll follow you anywhere.",
+   "qLife": "A manager who protects the team gets loyal staff."
   },
   {
    "ch": "Chapter XI",
@@ -292,7 +332,9 @@
    "text": "Deep in enemy land, soldiers with no road home fight with full morale and unity. Sun Tzŭ even advises placing troops where escape is impossible — then they stop fearing and fight as one, like the snake that strikes back with head and tail.",
    "quote": "Throw your soldiers into positions whence there is no escape, and they will prefer death to flight.",
    "img": "artofwar_21",
-   "cap": "The siege of Jinzhou, Qing painting · public domain"
+   "cap": "The siege of Jinzhou, Qing painting · public domain",
+   "qMean": "Put soldiers where there's no escape and they will fight with everything.",
+   "qLife": "Burning your bridges — like announcing a launch date — forces you to finish."
   },
   {
    "ch": "Chapter XI",
@@ -301,7 +343,9 @@
    "text": "Speed is the essence of war: reach the enemy before he is ready, go by unexpected routes, hit where he is unguarded. And the shortcut to control: grab the thing your opponent values most, and he will follow your lead.",
    "quote": "Begin by seizing something which your opponent holds dear; then he will be amenable to your will.",
    "img": "artofwar_22",
-   "cap": "Water scene with a distant fortress, Chinese school · public domain"
+   "cap": "Water scene with a distant fortress, Chinese school · public domain",
+   "qMean": "Seize what your opponent values most, and he will do as you say.",
+   "qLife": "A child who hides the TV remote suddenly has everyone's attention."
   },
   {
    "ch": "Chapter XII",
@@ -310,7 +354,9 @@
    "text": "Sun Tzŭ explains five ways to attack with fire — burning soldiers, stores, baggage, arsenals, and supply lines — and the right winds and dry seasons for them. But the chapter turns into a warning: never move unless there is real advantage.",
    "quote": "Move not unless you see an advantage; use not your troops unless there is something to be gained; fight not unless the position is critical.",
    "img": "artofwar_23",
-   "cap": "11th century basketry fire arrow rocket launcher · public domain"
+   "cap": "11th century basketry fire arrow rocket launcher · public domain",
+   "qMean": "Act only when there's real advantage; fight only when you must.",
+   "qLife": "Don't argue in the group chat unless something important is at stake."
   },
   {
    "ch": "Chapter XII",
@@ -319,7 +365,9 @@
    "text": "Anger fades and happiness returns, but a ruined kingdom stays ruined and the dead stay dead. So the enlightened ruler is careful, and the good general cautious. A war started from pique or spleen is a war already half lost.",
    "quote": "No ruler should put troops into the field merely to gratify his own spleen; no general should fight a battle simply out of pique.",
    "img": "artofwar_24",
-   "cap": "The Burning of the USS Missouri in Gibraltar · public domain"
+   "cap": "The Burning of the USS Missouri in Gibraltar · public domain",
+   "qMean": "Never go to war out of anger or wounded pride.",
+   "qLife": "Don't send that angry email at midnight."
   },
   {
    "ch": "Chapter XIII",
@@ -328,7 +376,9 @@
    "text": "Armies cost fortunes and years. It is foolish to save a little money on information and lose everything. Foreknowledge cannot come from spirits or guesses — only from people who know the enemy's situation.",
    "quote": "what enables the wise sovereign and the good general to strike and conquer, and achieve things beyond the reach of ordinary men, is foreknowledge.",
    "img": "artofwar_25",
-   "cap": "Sun Bin · public domain"
+   "cap": "Sun Bin · public domain",
+   "qMean": "Wise leaders win because they know things in advance.",
+   "qLife": "A trader who reads the news early acts before others."
   },
   {
    "ch": "Chapter XIII",
@@ -337,7 +387,9 @@
    "text": "Local spies, inward spies (officials of the enemy), converted spies (the enemy's own spies, turned), doomed spies (fed false news on purpose), and surviving spies (who bring news back). The converted spy matters most: through him you learn how to use all the others.",
    "quote": "Hence the use of spies, of whom there are five classes",
    "img": "artofwar_26",
-   "cap": "Poems on painting plum blossoms and bamboo · public domain"
+   "cap": "Poems on painting plum blossoms and bamboo · public domain",
+   "qMean": "That is why spies are used — and there are five kinds.",
+   "qLife": "Companies research rivals through customers, ex-staff and public reports."
   }
  ]
 }

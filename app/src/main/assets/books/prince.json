@@ -1,5 +1,5 @@
 {
- "version": 1,
+ "version": 2,
  "id": "prince",
  "title": "The Prince",
  "author": "Niccolò Machiavelli",
@@ -254,7 +254,9 @@
    "quote": "to understand the nature of the people it needs to be a prince, and to understand that of princes it needs to be of the people",
    "prompt": "a humble scholar kneeling and offering a small leather book to a richly dressed Medici lord in a palace hall",
    "img": "prince_01",
-   "cap": "Engraving made for Folio"
+   "cap": "Engraving made for Folio",
+   "qMean": "To see ordinary people clearly you need a ruler's distance; to see rulers clearly you need to be ordinary.",
+   "qLife": "Your manager can't see what the team really thinks, and the team can't see the pressure the manager is under."
   },
   {
    "ch": "Dedication",
@@ -264,7 +266,9 @@
    "quote": "those who draw landscapes place themselves below in the plain to contemplate the nature of the mountains",
    "prompt": "an artist with easel in a valley sketching tall mountains with a castle on top, Tuscan hills",
    "img": "prince_02",
-   "cap": "Engraving made for Folio"
+   "cap": "Engraving made for Folio",
+   "qMean": "You often see something big best from far below it, not from on top of it.",
+   "qLife": "The new intern spots the confusing parts of an app that the people who built it no longer notice."
   },
   {
    "ch": "Chapter I",
@@ -274,7 +278,9 @@
    "quote": "All states, all powers, that have held and hold rule over men have been and are either republics or principalities.",
    "prompt": "a map of Renaissance Italy split into city-states with tiny castles, a compass rose, decorative border",
    "img": "prince_03",
-   "cap": "Engraving made for Folio"
+   "cap": "Engraving made for Folio",
+   "qMean": "Every government is either run by citizens (a republic) or by one ruler (a principality).",
+   "qLife": "A cricket club run by votes of all members versus one run by the owner alone."
   },
   {
    "ch": "Chapter II",
@@ -284,7 +290,9 @@
    "quote": "For the hereditary prince has less cause and less necessity to offend; hence it happens that he will be more loved",
    "prompt": "an old king on a throne with his young son beside him, family coat of arms and ancestral portraits on the wall",
    "img": "prince_04",
-   "cap": "Engraving made for Folio"
+   "cap": "Engraving made for Folio",
+   "qMean": "A ruler who inherits power has fewer reasons to hurt people, so people like him more.",
+   "qLife": "The boss's daughter who grew up in the family firm doesn't need to prove herself by firing anyone."
   },
   {
    "ch": "Chapter III",
@@ -294,7 +302,9 @@
    "quote": "men change their rulers willingly, hoping to better themselves",
    "prompt": "soldiers marching through an Italian town gate while townspeople watch suspiciously from windows",
    "img": "prince_05",
-   "cap": "Engraving made for Folio"
+   "cap": "Engraving made for Folio",
+   "qMean": "People happily swap leaders because they hope the new one will make life better.",
+   "qLife": "Voters switch parties each election, hoping this time prices will fall."
   },
   {
    "ch": "Chapter III",
@@ -304,7 +314,9 @@
    "quote": "men ought either to be well treated or crushed, because they can avenge themselves of lighter injuries, of more serious ones they cannot",
    "prompt": "a prince on horseback with settlers and wagons arriving to build houses in a conquered valley",
    "img": "prince_06",
-   "cap": "Engraving made for Folio"
+   "cap": "Engraving made for Folio",
+   "qMean": "Either treat people well or remove their power completely; a small injury just makes them want revenge.",
+   "qLife": "Half-criticising a coworker in public makes an enemy who can still hurt you."
   },
   {
    "ch": "Chapter III",
@@ -314,7 +326,9 @@
    "quote": "he who is the cause of another becoming powerful is ruined",
    "prompt": "a Renaissance physician checking the pulse of a sick man in bed, with a Roman legion seen through the window",
    "img": "prince_07",
-   "cap": "Engraving made for Folio"
+   "cap": "Engraving made for Folio",
+   "qMean": "Whoever helps someone else rise to power usually gets dropped by them later.",
+   "qLife": "The friend who introduced you to the startup gets edged out once you're the CEO."
   },
   {
    "ch": "Chapter IV",
@@ -324,7 +338,9 @@
    "quote": "the principalities of which one has record are found to be governed in two different ways",
    "prompt": "two scenes side by side: a sultan alone on a throne with bowing servants, and a French king surrounded by armoured nobles",
    "img": "prince_08",
-   "cap": "Suleiman Turc Emperor, 1535 · public domain"
+   "cap": "Suleiman Turc Emperor, 1535 · public domain",
+   "qMean": "Countries have been governed in two main ways.",
+   "qLife": "Some offices have one boss and assistants; others have a boss plus powerful department heads."
   },
   {
    "ch": "Chapter V",
@@ -334,7 +350,9 @@
    "quote": "in republics there is more vitality, greater hatred, and more desire for vengeance, which will never permit them to allow the memory of their former liberty to rest",
    "prompt": "citizens of a free Italian republic gathered in a town square around a bell tower, a banner flying",
    "img": "prince_09",
-   "cap": "Florence Nuremberg Chronicle · public domain"
+   "cap": "Florence Nuremberg Chronicle · public domain",
+   "qMean": "People who once lived free never stop resenting a new master; the memory of freedom stays.",
+   "qLife": "A team that used to set its own hours will grumble for years about a strict new schedule."
   },
   {
    "ch": "Chapter VI",
@@ -344,7 +362,9 @@
    "quote": "A wise man ought always to follow the paths beaten by great men, and to imitate those who have been supreme",
    "prompt": "an archer aiming an arrow high into the sky above a distant target, classical columns in background",
    "img": "prince_10",
-   "cap": "Romulus and Remus suckling the she-wolf on a riverbank · public domain"
+   "cap": "Romulus and Remus suckling the she-wolf on a riverbank · public domain",
+   "qMean": "Copy the habits of the greatest people in your field.",
+   "qLife": "A young cook practises the recipes of master chefs before inventing her own."
   },
   {
    "ch": "Chapter VI",
@@ -354,7 +374,9 @@
    "quote": "there is nothing more difficult to take in hand, more perilous to conduct, or more uncertain in its success, than to take the lead in the introduction of a new order of things",
    "prompt": "a robed preacher in a crowded square with armoured guards beside him holding pikes",
    "img": "prince_11",
-   "cap": "Sermon on the Art of Dying Well, Florentine woodcut · public domain"
+   "cap": "Sermon on the Art of Dying Well, Florentine woodcut · public domain",
+   "qMean": "Changing how things are done is the hardest, riskiest job there is.",
+   "qLife": "Switching a whole office to new software meets complaints from everyone used to the old one."
   },
   {
    "ch": "Chapter VI",
@@ -364,7 +386,9 @@
    "quote": "all armed prophets have conquered, and the unarmed ones have been destroyed",
    "prompt": "a friar preaching from a pulpit to an empty crowd as night falls, a lone candle",
    "img": "prince_12",
-   "cap": "Stefano Ussi - The Execution of Savonarola · public domain"
+   "cap": "Stefano Ussi - The Execution of Savonarola · public domain",
+   "qMean": "Ideas backed by real power win; ideas without power get crushed.",
+   "qLife": "A good proposal with no sponsor dies in the meeting; the same idea from the director passes."
   },
   {
    "ch": "Chapter VII",
@@ -374,7 +398,9 @@
    "quote": "Those who solely by good fortune become princes from being private citizens have little trouble in rising, but much in keeping atop",
    "prompt": "a young sapling with shallow roots being torn up by a storm wind, a castle behind",
    "img": "prince_13",
-   "cap": "A Gust of Wind, engraving · public domain"
+   "cap": "A Gust of Wind, engraving · public domain",
+   "qMean": "Luck can lift you up easily, but keeping your place after luck is hard.",
+   "qLife": "A viral video makes someone famous overnight; staying popular takes real work."
   },
   {
    "ch": "Chapter VII",
@@ -384,7 +410,9 @@
    "quote": "The barbarity of this spectacle caused the people to be at once satisfied and dismayed",
    "prompt": "Cesare Borgia in armour with a confident gaze, a Renaissance duke on horseback overlooking the Romagna",
    "img": "prince_14",
-   "cap": "Cesare Borgia, duca di Romagna · public domain"
+   "cap": "Cesare Borgia, duca di Romagna · public domain",
+   "qMean": "The cruel display left the people both relieved and frightened.",
+   "qLife": "When the bullying manager is fired publicly, staff feel both glad and nervous."
   },
   {
    "ch": "Chapter VII",
@@ -394,7 +422,9 @@
    "quote": "He who believes that new benefits will cause great personages to forget old injuries is deceived",
    "prompt": "cardinals in red robes gathering in a Vatican chamber to elect a new pope, smoke rising",
    "img": "prince_15",
-   "cap": "Plan of the Vatican during a conclave · public domain"
+   "cap": "Plan of the Vatican during a conclave · public domain",
+   "qMean": "New favours don't make powerful people forget old wrongs you did them.",
+   "qLife": "Buying your sister a gift won't make her forget you read her diary."
   },
   {
    "ch": "Chapter VIII",
@@ -404,7 +434,9 @@
    "quote": "Yet it cannot be called talent to slay fellow-citizens, to deceive friends, to be without faith, without mercy, without religion; such methods may gain empire, but not glory.",
    "prompt": "an ancient Greek tyrant standing among toppled senators' chairs in a marble hall, soldiers in shadow",
    "img": "prince_16",
-   "cap": "Agathocles, bust in the Vatican Museums · public domain"
+   "cap": "Agathocles, bust in the Vatican Museums · public domain",
+   "qMean": "Killing and betraying can win power, but never real respect or glory.",
+   "qLife": "A cheater may win the tournament, but no one admires the trophy."
   },
   {
    "ch": "Chapter VIII",
@@ -414,7 +446,9 @@
    "quote": "injuries ought to be done all at one time, so that, being tasted less, they offend less; benefits ought to be given little by little, so that the flavour of them may last longer",
    "prompt": "a scale balancing a sword on one side and a basket of bread on the other, chiaroscuro engraving",
    "img": "prince_17",
-   "cap": "Justice with scales and sword · public domain"
+   "cap": "Justice with scales and sword · public domain",
+   "qMean": "Do the painful things all at once, and give good things slowly so they're enjoyed longer.",
+   "qLife": "Rip the bandage off quickly; hand out the holiday bonus in two parts."
   },
   {
    "ch": "Chapter IX",
@@ -424,7 +458,9 @@
    "quote": "the nobles wish to rule and oppress the people",
    "prompt": "a prince on a balcony waving to a cheering crowd of townspeople below, nobles frowning to the side",
    "img": "prince_18",
-   "cap": "Lorenzo de' Medici Rubens · public domain"
+   "cap": "Lorenzo de' Medici Rubens · public domain",
+   "qMean": "The powerful want to control and squeeze ordinary people.",
+   "qLife": "Big landlords push rents up whenever they can."
   },
   {
    "ch": "Chapter IX",
@@ -434,7 +470,9 @@
    "quote": "it is necessary for a prince to have the people friendly, otherwise he has no security in adversity",
    "prompt": "farmers and craftsmen bringing grain to a castle gate where a prince greets them warmly",
    "img": "prince_19",
-   "cap": "Peasants at work, after Holbein · public domain"
+   "cap": "Peasants at work, after Holbein · public domain",
+   "qMean": "A leader needs ordinary people on his side, or he has no safety in hard times.",
+   "qLife": "A captain loved by the players is backed when results go badly."
   },
   {
    "ch": "Chapter X",
@@ -444,7 +482,9 @@
    "quote": "a prince who has a strong city, and had not made himself odious, will not be attacked",
    "prompt": "a walled German city with thick towers, granaries and townsfolk carrying firewood inside",
    "img": "prince_20",
-   "cap": "Hartmann Schedel - Nuremberg Chronicle, Page 100 - View of the city of Nuremberg · public domain"
+   "cap": "Hartmann Schedel - Nuremberg Chronicle, Page 100 - View of the city of Nuremberg · public domain",
+   "qMean": "A well-defended place whose ruler isn't hated rarely gets attacked.",
+   "qLife": "A shop with good locks and friendly neighbours is seldom robbed."
   },
   {
    "ch": "Chapter XI",
@@ -454,7 +494,9 @@
    "quote": "they are acquired either by capacity or good fortune, and they can be held without either",
    "prompt": "Saint Peter's basilica dome under construction with a pope's procession in front",
    "img": "prince_21",
-   "cap": "Heemskerck Construction of St Peters · public domain"
+   "cap": "Heemskerck Construction of St Peters · public domain",
+   "qMean": "Church states are won by skill or luck but held by tradition alone.",
+   "qLife": "An old family temple keeps its trust for centuries without anyone campaigning."
   },
   {
    "ch": "Chapter XII",
@@ -464,7 +506,9 @@
    "quote": "The chief foundations of all states, new as well as old or composite, are good laws and good arms",
    "prompt": "a group of hired soldiers counting gold coins at a table while their banner lies forgotten on the floor",
    "img": "prince_22",
-   "cap": "Stör, Niklas Zwei Landsknechte · public domain"
+   "cap": "Stör, Niklas Zwei Landsknechte · public domain",
+   "qMean": "Every state stands on good laws and a strong defence.",
+   "qLife": "A school needs both fair rules and teachers who enforce them."
   },
   {
    "ch": "Chapter XII",
@@ -474,7 +518,9 @@
    "quote": "They are ready enough to be your soldiers whilst you do not make war, but if war comes they take themselves off or run from the foe",
    "prompt": "mercenary soldiers fleeing a battlefield with their pikes, leaving a lone captain behind",
    "img": "prince_23",
-   "cap": "Battle scene, 16th-century print · public domain"
+   "cap": "Battle scene, 16th-century print · public domain",
+   "qMean": "Hired soldiers love the pay in peacetime and vanish when real fighting starts.",
+   "qLife": "Fair-weather friends are around for parties but busy when you need to move house."
   },
   {
    "ch": "Chapter XIII",
@@ -484,7 +530,9 @@
    "quote": "The wise prince, therefore, has always avoided these arms and turned to his own",
    "prompt": "David refusing the heavy armour of King Saul, holding only his sling and stones",
    "img": "prince_24",
-   "cap": "David receives Saul's armour · public domain"
+   "cap": "David receives Saul's armour · public domain",
+   "qMean": "A wise leader relies on his own people, not borrowed or hired help.",
+   "qLife": "A shop owner trains her own staff instead of depending on temp agencies."
   },
   {
    "ch": "Chapter XIII",
@@ -494,7 +542,9 @@
    "quote": "the arms of others either fall from your back, or they weigh you down, or they bind you fast",
    "prompt": "young David with a sling facing giant Goliath in a valley, armies on both hillsides",
    "img": "prince_25",
-   "cap": "David and Goliath · public domain"
+   "cap": "David and Goliath · public domain",
+   "qMean": "Borrowed help either fails you, burdens you or controls you.",
+   "qLife": "A loan from a pushy relative comes with endless opinions on how you spend it."
   },
   {
    "ch": "Chapter XIV",
@@ -504,7 +554,9 @@
    "quote": "A prince ought to have no other aim or thought, nor select anything else for his study, than war and its rules and discipline",
    "prompt": "a prince hunting on horseback with dogs through hills and forest, studying the land",
    "img": "prince_26",
-   "cap": "Hunting with a leopard · public domain"
+   "cap": "Hunting with a leopard · public domain",
+   "qMean": "A ruler must think about defence above everything else.",
+   "qLife": "A business owner should always think about competitors, even in a good year."
   },
   {
    "ch": "Chapter XV",
@@ -514,7 +566,9 @@
    "quote": "how one lives is so far distant from how one ought to live, that he who neglects what is done for what ought to be done, sooner effects his ruin than his preservation",
    "prompt": "a scholar at a desk tearing a page from a book of utopian drawings while looking out at a real crowded street",
    "img": "prince_27",
-   "cap": "Albrecht Dürer, Saint Jerome in His Study, 1514 · public domain"
+   "cap": "Albrecht Dürer, Saint Jerome in His Study, 1514 · public domain",
+   "qMean": "Real life is very different from how life should be; ignoring that ruins you.",
+   "qLife": "Plans built on 'everyone will be on time' fall apart in real traffic."
   },
   {
    "ch": "Chapter XV",
@@ -524,7 +578,9 @@
    "quote": "it is necessary for a prince wishing to hold his own to know how to do wrong, and to make use of it or not according to necessity",
    "prompt": "a theatre mask split in two, one half calm and saintly, the other half cunning, on a draped table",
    "img": "prince_28",
-   "cap": "Janus and the Four Seasons · public domain"
+   "cap": "Janus and the Four Seasons · public domain",
+   "qMean": "To survive, a leader must know how to do wrong and use it only when needed.",
+   "qLife": "A good negotiator knows the tricks even if they rarely use them."
   },
   {
    "ch": "Chapter XVI",
@@ -534,7 +590,9 @@
    "quote": "there is nothing wastes so rapidly as liberality, for even whilst you exercise it you lose the power to do so",
    "prompt": "an overflowing treasure chest tipped over with coins spilling onto the floor as hands grab at them",
    "img": "prince_29",
-   "cap": "Quentin Massys, The Moneylender and his Wife, 1514 · public domain"
+   "cap": "Quentin Massys, The Moneylender and his Wife, 1514 · public domain",
+   "qMean": "Spending freely to look generous quickly drains you.",
+   "qLife": "Paying for everyone's dinner every week empties your wallet fast."
   },
   {
    "ch": "Chapter XVI",
@@ -544,7 +602,9 @@
    "quote": "a prince should guard himself, above all things, against being despised and hated; and liberality leads you to both",
    "prompt": "a Roman general distributing captured treasure to his soldiers outside a tent",
    "img": "prince_30",
-   "cap": "The Triumphs of Caesar, after Mantegna · public domain"
+   "cap": "The Triumphs of Caesar, after Mantegna · public domain",
+   "qMean": "Above all avoid being hated or looked down on; showy generosity leads to both.",
+   "qLife": "The boss who hands out favours, then cuts them, ends up resented."
   },
   {
    "ch": "Chapter XVII",
@@ -554,7 +614,9 @@
    "quote": "a prince, so long as he keeps his subjects united and loyal, ought not to mind the reproach of cruelty",
    "prompt": "an orderly Renaissance town square at peace with merchants and guards, a single gallows on a far hill",
    "img": "prince_31",
-   "cap": "Beheading of John the Baptist, woodcut · public domain"
+   "cap": "Beheading of John the Baptist, woodcut · public domain",
+   "qMean": "A ruler who keeps people safe and united shouldn't worry about being called harsh.",
+   "qLife": "A strict teacher whose class does well is respected, even if called tough."
   },
   {
    "ch": "Chapter XVII",
@@ -564,7 +626,9 @@
    "quote": "it is much safer to be feared than loved, when, of the two, either must be dispensed with",
    "prompt": "a stern prince on a high throne with a lion at his feet while courtiers bow in fear and awe",
    "img": "prince_32",
-   "cap": "Genealogy of Emperor Maximilian I · public domain"
+   "cap": "Genealogy of Emperor Maximilian I · public domain",
+   "qMean": "If you can't have both, it's safer to be feared than loved.",
+   "qLife": "Students obey the strict teacher's deadline more reliably than the friendly one's."
   },
   {
    "ch": "Chapter XVII",
@@ -574,7 +638,9 @@
    "quote": "men more quickly forget the death of their father than the loss of their patrimony",
    "prompt": "a grieving son in a hallway holding a deed scroll tightly, a family estate behind him",
    "img": "prince_33",
-   "cap": "Rembrandt Harmensz van Rijn - Return of the Prodigal Son · public domain"
+   "cap": "Rembrandt Harmensz van Rijn - Return of the Prodigal Son · public domain",
+   "qMean": "People forgive a death sooner than the loss of their property.",
+   "qLife": "Families fight longer over an inheritance than over the funeral."
   },
   {
    "ch": "Chapter XVIII",
@@ -584,7 +650,9 @@
    "quote": "it is necessary to be a fox to discover the snares and a lion to terrify the wolves",
    "prompt": "a fox and a lion side by side in a forest clearing, a hunter's snare hidden on the ground",
    "img": "prince_34",
-   "cap": "A fox, engraving · public domain"
+   "cap": "A fox, engraving · public domain",
+   "qMean": "Be clever like a fox to spot traps, and strong like a lion to scare off enemies.",
+   "qLife": "Read the contract's fine print, and also have the confidence to walk away."
   },
   {
    "ch": "Chapter XVIII",
@@ -594,7 +662,9 @@
    "quote": "a wise lord cannot, nor ought he to, keep faith when such observance may be turned against him",
    "prompt": "two Renaissance lords shaking hands while one holds a dagger behind his back",
    "img": "prince_35",
-   "cap": "Conrad Ermisch - Pazzi conspiracy in 1478 · public domain"
+   "cap": "Conrad Ermisch - Pazzi conspiracy in 1478 · public domain",
+   "qMean": "A smart leader needn't keep a promise that would now harm him.",
+   "qLife": "A business drops a deal when the partner has already broken their side."
   },
   {
    "ch": "Chapter XVIII",
@@ -604,7 +674,9 @@
    "quote": "Every one sees what you appear to be, few really know what you are",
    "prompt": "a prince holding an ornate mask in front of his face, a crowd seeing only the mask",
    "img": "prince_36",
-   "cap": "Portrait of Niccolò Machiavelli by Santi di Tito · public domain"
+   "cap": "Portrait of Niccolò Machiavelli by Santi di Tito · public domain",
+   "qMean": "Everyone sees your image; very few know who you really are.",
+   "qLife": "Social media shows the holiday photos, not the arguments."
   },
   {
    "ch": "Chapter XVIII",
@@ -614,7 +686,9 @@
    "quote": "men judge generally more by the eye than by the hand",
    "prompt": "a crowd looking up at a grand triumphal parade, a prince on a chariot under an arch",
    "img": "prince_37",
-   "cap": "Burgkmair, The Triumphal Procession of Emperor Maximilian I · public domain"
+   "cap": "Burgkmair, The Triumphal Procession of Emperor Maximilian I · public domain",
+   "qMean": "People judge by what they see, not by what they can touch or test.",
+   "qLife": "A nicely packaged product sells better than a better product in a plain box."
   },
   {
    "ch": "Chapter XIX",
@@ -624,7 +698,9 @@
    "quote": "It makes him contemptible to be considered fickle, frivolous, effeminate, mean-spirited, irresolute",
    "prompt": "a weak king shrinking on a throne while courtiers laugh behind their hands",
    "img": "prince_38",
-   "cap": "Albrecht Dürer - Ship of Fools · public domain"
+   "cap": "Albrecht Dürer - Ship of Fools · public domain",
+   "qMean": "Being changeable, silly or indecisive makes people look down on you.",
+   "qLife": "A leader who changes the plan every day loses the team's respect."
   },
   {
    "ch": "Chapter XIX",
@@ -634,7 +710,9 @@
    "quote": "one of the most efficacious remedies that a prince can have against conspiracies is not to be hated and despised by the people",
    "prompt": "hooded conspirators whispering in a dark stone corridor lit by a single torch",
    "img": "prince_39",
-   "cap": "Gunpowder Plot conspirators · public domain"
+   "cap": "Gunpowder Plot conspirators · public domain",
+   "qMean": "The best protection against plots is not being hated by ordinary people.",
+   "qLife": "A well-liked manager hears about trouble before it starts."
   },
   {
    "ch": "Chapter XIX",
@@ -644,7 +722,9 @@
    "quote": "princes ought to leave affairs of reproach to the management of others, and keep those of grace in their own hands",
    "prompt": "a king smiling and handing out gifts at the front while an official reads a harsh decree behind him",
    "img": "prince_40",
-   "cap": "Voyage Gênes Marot Louis XII · public domain"
+   "cap": "Voyage Gênes Marot Louis XII · public domain",
+   "qMean": "Let others deliver bad news; keep the pleasant tasks for yourself.",
+   "qLife": "The CEO announces bonuses; HR announces the layoffs."
   },
   {
    "ch": "Chapter XX",
@@ -654,7 +734,9 @@
    "quote": "the best possible fortress is—not to be hated by the people",
    "prompt": "a lonely abandoned castle on a crag, while below a happy town thrives around its market",
    "img": "prince_41",
-   "cap": "Badingen Castle Merian 1650 · public domain"
+   "cap": "Badingen Castle Merian 1650 · public domain",
+   "qMean": "The best defence is not being hated by your own people.",
+   "qLife": "A shop owner liked by the street has neighbours who watch the shop."
   },
   {
    "ch": "Chapter XXI",
@@ -664,7 +746,9 @@
    "quote": "Nothing makes a prince so much esteemed as great enterprises and setting a fine example",
    "prompt": "a Spanish king on horseback leading a grand army toward a Moorish fortress city",
    "img": "prince_42",
-   "cap": "Ferdinand of Aragon, Isabella of Castile · public domain"
+   "cap": "Ferdinand of Aragon, Isabella of Castile · public domain",
+   "qMean": "Nothing earns respect like big achievements and setting an example.",
+   "qLife": "The team respects the captain who scored the winning goal."
   },
   {
    "ch": "Chapter XXI",
@@ -674,7 +758,9 @@
    "quote": "irresolute princes, to avoid present dangers, generally follow the neutral path, and are generally ruined",
    "prompt": "a lone figure standing at a fork in a road, two armies clashing on either side",
    "img": "prince_43",
-   "cap": "Battle of Ravenna (1512) · public domain"
+   "cap": "Battle of Ravenna (1512) · public domain",
+   "qMean": "Leaders who can't decide stay neutral to avoid trouble, and usually lose anyway.",
+   "qLife": "The friend who won't take a side in a fight ends up trusted by neither."
   },
   {
    "ch": "Chapter XXII",
@@ -684,7 +770,9 @@
    "quote": "the first opinion which one forms of a prince, and of his understanding, is by observing the men he has around him",
    "prompt": "a prince at a long table surrounded by attentive ministers and scribes with ledgers",
    "img": "prince_44",
-   "cap": "Justinian in Council · public domain"
+   "cap": "Justinian in Council · public domain",
+   "qMean": "You judge a leader first by the people they keep around them.",
+   "qLife": "You can tell a lot about a startup founder from who they hire."
   },
   {
    "ch": "Chapter XXIII",
@@ -694,7 +782,9 @@
    "quote": "there is no other way of guarding oneself from flatterers except letting men understand that to tell you the truth does not offend you",
    "prompt": "a court jester whispering praise into a king's ear while an honest old adviser stands apart",
    "img": "prince_45",
-   "cap": "The Fool, engraving · public domain"
+   "cap": "The Fool, engraving · public domain",
+   "qMean": "The only defence against flatterers is letting people know honesty won't anger you.",
+   "qLife": "A good boss says 'tell me the bad news first' and means it."
   },
   {
    "ch": "Chapter XXIII",
@@ -704,7 +794,9 @@
    "quote": "good counsels, whencesoever they come, are born of the wisdom of the prince, and not the wisdom of the prince from good counsels",
    "prompt": "a prince reading many letters by candlelight, weighing scrolls in each hand",
    "img": "prince_46",
-   "cap": "Hans Holbein d. J. - Portrait of Erasmus of Rotterdam Writing · public domain"
+   "cap": "Hans Holbein d. J. - Portrait of Erasmus of Rotterdam Writing · public domain",
+   "qMean": "Good advice only helps a leader who is wise enough to recognise it.",
+   "qLife": "A great coach's tips are wasted on a player who won't listen."
   },
   {
    "ch": "Chapter XXIV",
@@ -714,7 +806,9 @@
    "quote": "it is a common defect in man not to make any provision in the calm against the tempest",
    "prompt": "a ship in calm sea with dark storm clouds gathering on the horizon, sailors idle on deck",
    "img": "prince_47",
-   "cap": "A Ship in a Rough Sea · public domain"
+   "cap": "A Ship in a Rough Sea · public domain",
+   "qMean": "People rarely prepare for bad times while things are calm.",
+   "qLife": "Nobody saves an emergency fund until the car breaks down."
   },
   {
    "ch": "Chapter XXV",
@@ -724,7 +818,9 @@
    "quote": "Fortune is the arbiter of one-half of our actions",
    "prompt": "a raging flooded river tearing through fields while workers build stone dykes and embankments",
    "img": "prince_48",
-   "cap": "Virgil Solis, The Deluge · public domain"
+   "cap": "Virgil Solis, The Deluge · public domain",
+   "qMean": "Luck controls about half of what happens to us; the rest is up to us.",
+   "qLife": "You can't control the exam questions, but you can control how much you study."
   },
   {
    "ch": "Chapter XXV",
@@ -734,7 +830,9 @@
    "quote": "he will be successful who directs his actions according to the spirit of the times",
    "prompt": "a giant wheel of fortune with figures rising and falling around its rim, a blindfolded woman turning it",
    "img": "prince_49",
-   "cap": "Dürer, Time and a Fox Turning the Wheel of Fortune · public domain"
+   "cap": "Dürer, Time and a Fox Turning the Wheel of Fortune · public domain",
+   "qMean": "Success comes to those who act in a way that suits the times.",
+   "qLife": "Shops that started selling online early did well when the lockdowns came."
   },
   {
    "ch": "Chapter XXV",
@@ -744,7 +842,9 @@
    "quote": "it is better to be adventurous than cautious",
    "prompt": "an elderly pope in armour leading troops on horseback through a city gate",
    "img": "prince_50",
-   "cap": "Pope Julius II · public domain"
+   "cap": "Pope Julius II · public domain",
+   "qMean": "Taking a bold risk is usually better than being too careful.",
+   "qLife": "Applying for the job you're not sure you'll get beats never applying."
   },
   {
    "ch": "Chapter XXVI",
@@ -754,7 +854,9 @@
    "quote": "To all of us this barbarous dominion stinks.",
    "prompt": "a ruined Italian landscape with broken columns, a lone banner raised on a hilltop at dawn",
    "img": "prince_51",
-   "cap": "Paolo Monaldi - Peasants near Roman Ruins · public domain"
+   "cap": "Paolo Monaldi - Peasants near Roman Ruins · public domain",
+   "qMean": "Everyone is sick of this foreign domination.",
+   "qLife": "The whole neighbourhood is fed up with the noisy factory and wants change."
   },
   {
    "ch": "Chapter XXVI",
@@ -764,7 +866,9 @@
    "quote": "Virtue against fury shall advance the fight",
    "prompt": "Italian citizen-soldiers marching with pikes under a rising sun, laurel wreath in the sky",
    "img": "prince_52",
-   "cap": "A battle scene (1561) · public domain"
+   "cap": "A battle scene (1561) · public domain",
+   "qMean": "Courage will win against blind rage.",
+   "qLife": "A calm team beats an angry one that keeps getting yellow cards."
   }
  ]
 }

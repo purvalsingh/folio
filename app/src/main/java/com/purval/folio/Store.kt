@@ -165,6 +165,18 @@ class Store(ctx: Context) {
     }
 
     fun persist() {
+        val o = snapshot()
+        o.put("gemini", geminiKey)
+        night?.let { o.put("night", it) }
+        prefs.edit().putString("state", o.toString())?.apply() // ?. : layoutlib stub returns null
+        dirty = true
+    }
+
+    /** set whenever local progress changes; cleared after a successful cloud push */
+    var dirty = false
+
+    /** Everything worth syncing (no API keys, no display settings). */
+    fun snapshot(): JSONObject {
         val o = JSONObject()
         o.put("sealed", JSONObject().apply { sealed.forEach { (k, v) -> put(k, JSONArray(v.toList())) } })
         o.put("position", JSONObject(position.toMap()))
@@ -177,9 +189,37 @@ class Store(ctx: Context) {
         })
         o.put("days", JSONObject(days.toMap()))
         o.put("honours", JSONArray(honours.toList()))
-        o.put("xp", xp).put("goal", goal).put("gemini", geminiKey).put("last", lastBook ?: "")
-        night?.let { o.put("night", it) }
-        prefs.edit().putString("state", o.toString())?.apply() // ?. : layoutlib stub returns null
+        o.put("xp", xp).put("goal", goal).put("last", lastBook ?: "")
+        return o
+    }
+
+    /**
+     * Folds another device's library into this one. Nothing is ever lost: pages, words, quotes,
+     * bookmarks and seals are unioned, daily counts and xp take the larger value.
+     */
+    fun merge(json: String) {
+        val o = runCatching { JSONObject(json) }.getOrNull() ?: return
+        o.optJSONObject("sealed")?.let { s ->
+            s.keys().forEach { k -> val a = s.getJSONArray(k); sealed.getOrPut(k) { mutableSetOf() }.addAll((0 until a.length()).map { a.getInt(it) }) }
+        }
+        o.optJSONObject("position")?.let { p -> p.keys().forEach { if (it !in position) position[it] = p.getInt(it) } }
+        o.optJSONArray("bookmarks")?.let { a -> (0 until a.length()).map { a.getString(it) }.filter { it !in bookmarks }.forEach { bookmarks += it } }
+        o.optJSONArray("lexicon")?.let { a ->
+            (0 until a.length()).map { a.getJSONObject(it) }.filter { w -> lexicon.none { it.word.equals(w.getString("w"), true) } }.forEach {
+                lexicon += SavedWord(it.getString("w"), it.getString("m"), it.optString("e"), it.optString("b"), it.optLong("t"))
+            }
+        }
+        o.optJSONArray("quotes")?.let { a ->
+            (0 until a.length()).map { a.getJSONObject(it) }.filter { q -> quotes.none { it.bookId == q.getString("b") && it.idx == q.getInt("i") } }.forEach {
+                quotes += SavedQuote(it.getString("q"), it.getString("b"), it.getInt("i"), it.optLong("t"))
+            }
+        }
+        o.optJSONObject("days")?.let { d -> d.keys().forEach { days[it] = maxOf(days[it] ?: 0, d.getInt(it)) } }
+        o.optJSONArray("honours")?.let { a -> (0 until a.length()).forEach { honours += a.getString(it) } }
+        xp = maxOf(xp, o.optInt("xp"))
+        if (lastBook == null) lastBook = o.optString("last").ifBlank { null }
+        tick++
+        persist()
     }
 
     private fun load() {

@@ -44,13 +44,25 @@ object Fonts {
     val oldStandard = FontFamily(Font(R.font.oldstandard), Font(R.font.oldstandard_italic, style = FontStyle.Italic))
     val typewriter = FontFamily(Font(R.font.specialelite))
     val garamond = FontFamily(Font(R.font.garamond))
+    val brush = FontFamily(Font(R.font.yujimai))
+    val zen = FontFamily(Font(R.font.zenantique))
+    val amita = FontFamily(Font(R.font.amita))
+    val tiro = FontFamily(Font(R.font.tiro), Font(R.font.tiro_italic, style = FontStyle.Italic))
+    val copperplate = FontFamily(Font(R.font.pinyon))
+    val primer = FontFamily(Font(R.font.greatprimer), Font(R.font.greatprimer_italic, style = FontStyle.Italic))
 }
 
-/** Each era gets the letterforms its books were actually printed in. */
-enum class Era(val label: String, val span: String, val display: FontFamily, val body: FontFamily) {
-    ANCIENT("Antiquity", "before 500", Fonts.cinzel, Fonts.garamond),
+/**
+ * Each era gets the letterforms its books were actually written or printed in: [display] for titles
+ * and the big initial, [body] for reading, [fleuron] as the ornament between summary and quote.
+ */
+enum class Era(val label: String, val span: String, val display: FontFamily, val body: FontFamily, val fleuron: String = "❦", val capScale: Float = 0.78f) {
+    ANCIENT("Antiquity", "Greece & Rome", Fonts.cinzel, Fonts.garamond, "❧"),
+    INDIC("Ancient India", "Sanskrit classics", Fonts.amita, Fonts.tiro, "ॐ", 0.7f),
+    EASTERN("Ancient China", "brush & woodblock", Fonts.brush, Fonts.zen, "❖", 0.72f),
     RENAISSANCE("Renaissance", "1450–1600", Fonts.fraktur, Fonts.fell),
-    ENLIGHTENMENT("Enlightenment", "1600–1800", Fonts.pica, Fonts.pica),
+    BAROQUE("Baroque", "1600–1750", Fonts.copperplate, Fonts.primer, "✥", 0.9f),
+    ENLIGHTENMENT("Enlightenment", "1650–1800", Fonts.pica, Fonts.pica),
     VICTORIAN("Victorian", "1800–1900", Fonts.oldStandard, Fonts.oldStandard),
     MODERN("Modern", "1900–", Fonts.typewriter, Fonts.oldStandard);
 

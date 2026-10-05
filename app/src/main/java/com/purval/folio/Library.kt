@@ -28,7 +28,7 @@ object Library {
         val id: String, val version: Int, val title: String, val author: String, val year: String,
         val era: Era, val cards: Int, val sizeKb: Int, val blurb: String, val images: List<String>,
     )
-    data class Catalog(val app: Release?, val books: List<Entry>)
+    data class Catalog(val app: Release?, val books: List<Entry>, val cloudBase: String = "", val cloudKey: String = "")
 
     private fun get(url: String): HttpURLConnection = (URL(url).openConnection() as HttpURLConnection).apply {
         connectTimeout = 15000; readTimeout = 30000
@@ -52,7 +52,8 @@ object Library {
                     b.optString("year"), Era.of(b.optString("era")), b.optInt("cards"), b.optInt("sizeKb"),
                     b.optString("blurb"), (0 until imgs.length()).map { imgs.getString(it) })
             }
-            Catalog(app, books)
+            val cloud = o.optJSONObject("cloud")
+            Catalog(app, books, cloud?.optString("base").orEmpty(), cloud?.optString("anonKey").orEmpty())
         }.getOrNull()
     }
 

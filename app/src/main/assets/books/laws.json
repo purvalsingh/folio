@@ -1,12 +1,12 @@
 {
- "version": 1,
+ "version": 2,
  "id": "laws",
  "title": "The 48 Laws of Power",
  "short": "Robert Greene",
  "author": "Robert Greene",
  "year": "1998",
  "translator": "A Folio digest: original summaries of each law, with quotes from the public-domain classics behind them. Greene's book is copyrighted — read the full text in print.",
- "era": "enlightenment",
+ "era": "baroque",
  "cover": "laws_cover",
  "blurb": "Forty-eight rules of power, from royal courts to modern offices — each law in a minute, paired with a line from Machiavelli, Sun Tzŭ, Gracián or La Rochefoucauld. Know them to use them, or to spot them used on you.",
  "glossary": {
@@ -106,7 +106,9 @@
    "quote": "All victories breed hate, and that over your superior is foolish or fatal.",
    "qBy": "Baltasar Gracián, The Art of Worldly Wisdom (1647, tr. Jacobs)",
    "img": "laws_01",
-   "cap": "Portrait Nicolas Fouquet par Charles Le Brun · public domain"
+   "cap": "Portrait Nicolas Fouquet par Charles Le Brun · public domain",
+   "qMean": "Beating your boss creates hatred; it is foolish or even disastrous.",
+   "qLife": "Correcting your manager in front of the client may cost you the next promotion."
   },
   {
    "ch": "Law 2",
@@ -116,7 +118,9 @@
    "quote": "A wise man gets more use from his enemies than a fool from his friends.",
    "qBy": "Baltasar Gracián, The Art of Worldly Wisdom (1647, tr. Jacobs)",
    "img": "laws_02",
-   "cap": "The Madrid Skylitzes, Byzantine chronicle · public domain"
+   "cap": "The Madrid Skylitzes, Byzantine chronicle · public domain",
+   "qMean": "A smart person learns more from enemies than a fool from friends.",
+   "qLife": "A harsh online review often teaches a café more than its friends' praise."
   },
   {
    "ch": "Law 3",
@@ -126,7 +130,9 @@
    "quote": "It is both useless and insipid to play with the cards on the table.",
    "qBy": "Baltasar Gracián, The Art of Worldly Wisdom (1647, tr. Jacobs)",
    "img": "laws_03",
-   "cap": "Charles Maurice de Talleyrand-Périgord - Pierre-Paul Prud'hon · public domain"
+   "cap": "Charles Maurice de Talleyrand-Périgord - Pierre-Paul Prud'hon · public domain",
+   "qMean": "Showing all your plans at once is pointless and boring.",
+   "qLife": "Announcing your job search to the whole office before you have an offer."
   },
   {
    "ch": "Law 4",
@@ -136,7 +142,9 @@
    "quote": "Cautious silence is the holy of holies of worldly wisdom.",
    "qBy": "Baltasar Gracián, The Art of Worldly Wisdom (1647, tr. Jacobs)",
    "img": "laws_04",
-   "cap": "Louis XIV Rigaud Condé Chantilly · public domain"
+   "cap": "Louis XIV Rigaud Condé Chantilly · public domain",
+   "qMean": "Careful silence is the deepest form of practical wisdom.",
+   "qLife": "In a negotiation, the one who stays quiet longer usually gets the better deal."
   },
   {
    "ch": "Law 5",
@@ -146,7 +154,9 @@
    "quote": "if it clings to you with a nickname, your reputation is in danger.",
    "qBy": "Baltasar Gracián, The Art of Worldly Wisdom (1647, tr. Jacobs)",
    "img": "laws_05",
-   "cap": "Pericles, Roman copy of a Greek bust · public domain"
+   "cap": "Pericles, Roman copy of a Greek bust · public domain",
+   "qMean": "Once a mocking nickname sticks, your reputation is in danger.",
+   "qLife": "A teacher nicknamed 'Snore' struggles to be taken seriously by new classes."
   },
   {
    "ch": "Law 6",
@@ -156,7 +166,9 @@
    "quote": "Display startling novelties, rise afresh like the sun every day.",
    "qBy": "Baltasar Gracián, The Art of Worldly Wisdom (1647, tr. Jacobs)",
    "img": "laws_06",
-   "cap": "Life of P. T. Barnum frontispiece 1855 · public domain"
+   "cap": "Life of P. T. Barnum frontispiece 1855 · public domain",
+   "qMean": "Keep showing something new and surprising, like a sunrise every day.",
+   "qLife": "Creators who post fresh content keep their audience; those who repeat lose it."
   },
   {
    "ch": "Law 7",
@@ -166,7 +178,9 @@
    "quote": "you thus obtain the fame of an oracle by others' toil.",
    "qBy": "Baltasar Gracián, The Art of Worldly Wisdom (1647, tr. Jacobs)",
    "img": "laws_07",
-   "cap": "Nikola Tesla by Sarony c1898 · public domain"
+   "cap": "Nikola Tesla by Sarony c1898 · public domain",
+   "qMean": "You can look wise by using the hard work of others.",
+   "qLife": "A manager presents the team's research and gets the applause."
   },
   {
    "ch": "Law 8",
@@ -176,7 +190,9 @@
    "quote": "the clever combatant imposes his will on the enemy, but does not allow the enemy's will to be imposed on him.",
    "qBy": "Sun Tzŭ, The Art of War (tr. Giles, 1910)",
    "img": "laws_08",
-   "cap": "The Congress of Vienna, 1815 · public domain"
+   "cap": "The Congress of Vienna, 1815 · public domain",
+   "qMean": "A clever fighter makes the enemy follow his plan, never the other way round.",
+   "qLife": "Choose the meeting place and time yourself instead of fitting someone else's."
   },
   {
    "ch": "Law 9",
@@ -186,7 +202,9 @@
    "quote": "To dissent from others' views is regarded as an insult",
    "qBy": "Baltasar Gracián, The Art of Worldly Wisdom (1647, tr. Jacobs)",
    "img": "laws_09",
-   "cap": "Michelango Portrait by Volterra · public domain"
+   "cap": "Michelango Portrait by Volterra · public domain",
+   "qMean": "Disagreeing with people's opinions feels like an insult to them.",
+   "qLife": "Telling a friend their favourite film is bad starts an argument, not a discussion."
   },
   {
    "ch": "Law 10",
@@ -196,7 +214,9 @@
    "quote": "Ill-luck is generally the penalty of folly, and there is no disease so contagious to those who share in it.",
    "qBy": "Baltasar Gracián, The Art of Worldly Wisdom (1647, tr. Jacobs)",
    "img": "laws_10",
-   "cap": "Lola Montez - 1851 · public domain"
+   "cap": "Lola Montez - 1851 · public domain",
+   "qMean": "Bad luck often comes from foolishness, and it spreads to those close by.",
+   "qLife": "Hanging around a friend who always gets in trouble drags you into trouble too."
   },
   {
    "ch": "Law 11",
@@ -206,7 +226,9 @@
    "quote": "The wise man would rather see men needing him than thanking him.",
    "qBy": "Baltasar Gracián, The Art of Worldly Wisdom (1647, tr. Jacobs)",
    "img": "laws_11",
-   "cap": "Franz von Lenbach - Bildnis Otto Eduard Leopold von Bismarck (Indianapolis) · public domain"
+   "cap": "Franz von Lenbach - Bildnis Otto Eduard Leopold von Bismarck (Indianapolis) · public domain",
+   "qMean": "A wise person prefers to be needed rather than merely thanked.",
+   "qLife": "The only person who knows the server password is never let go."
   },
   {
    "ch": "Law 12",
@@ -216,7 +238,9 @@
    "quote": "benefits ought to be given little by little, so that the flavour of them may last longer.",
    "qBy": "Niccolò Machiavelli, The Prince (1532)",
    "img": "laws_12",
-   "cap": "Gravelot, The Trojan Horse · public domain"
+   "cap": "Gravelot, The Trojan Horse · public domain",
+   "qMean": "Give good things little by little so they are appreciated longer.",
+   "qLife": "A series that releases one episode a week keeps viewers talking longer."
   },
   {
    "ch": "Law 13",
@@ -226,7 +250,9 @@
    "quote": "Interest speaks all sorts of tongues and plays all sorts of characters; even that of disinterestedness.",
    "qBy": "La Rochefoucauld, Maxims (1665)",
    "img": "laws_13",
-   "cap": "Thucydides, bust · public domain"
+   "cap": "Thucydides, bust · public domain",
+   "qMean": "Self-interest can pretend to be anything, even generosity.",
+   "qLife": "A 'free' webinar that ends with a sales pitch."
   },
   {
    "ch": "Law 14",
@@ -236,7 +262,9 @@
    "quote": "what enables the wise sovereign and the good general to strike and conquer, and achieve things beyond the reach of ordinary men, is foreknowledge.",
    "qBy": "Sun Tzŭ, The Art of War (tr. Giles, 1910)",
    "img": "laws_14",
-   "cap": "Portrait of Joseph Fouché · public domain"
+   "cap": "Portrait of Joseph Fouché · public domain",
+   "qMean": "Wise leaders win because they know what will happen before it happens.",
+   "qLife": "Checking the weather before a trip saves you from being caught in the rain."
   },
   {
    "ch": "Law 15",
@@ -246,7 +274,9 @@
    "quote": "men ought either to be well treated or crushed, because they can avenge themselves of lighter injuries, of more serious ones they cannot",
    "qBy": "Niccolò Machiavelli, The Prince (1532)",
    "img": "laws_15",
-   "cap": "Empress Wu Zetian · public domain"
+   "cap": "Empress Wu Zetian · public domain",
+   "qMean": "Either treat people well or remove their power to strike back.",
+   "qLife": "If you must report a bully, report everything at once, not one small thing."
   },
   {
    "ch": "Law 16",
@@ -256,7 +286,9 @@
    "quote": "Change too the scene on which you shine, so that your loss may be felt in the old scenes of your triumph",
    "qBy": "Baltasar Gracián, The Art of Worldly Wisdom (1647, tr. Jacobs)",
    "img": "laws_16",
-   "cap": "Portrait of Ninon de l'Enclos · public domain"
+   "cap": "Portrait of Ninon de l'Enclos · public domain",
+   "qMean": "Move away from where you shine so people miss you.",
+   "qLife": "A singer who takes a year off returns to bigger crowds."
   },
   {
    "ch": "Law 17",
@@ -266,7 +298,9 @@
    "quote": "Vary the Mode of Action ; not always the same way, so as to distract attention, especially if there be a rival.",
    "qBy": "Baltasar Gracián, The Art of Worldly Wisdom (1647, tr. Jacobs)",
    "img": "laws_17",
-   "cap": "Caxton, The Game and Playe of the Chesse, 1474 · public domain"
+   "cap": "Caxton, The Game and Playe of the Chesse, 1474 · public domain",
+   "qMean": "Don't always act the same way, so rivals can't predict you.",
+   "qLife": "A footballer who doesn't always shoot the same way keeps keepers guessing."
   },
   {
    "ch": "Law 18",
@@ -276,7 +310,9 @@
    "quote": "the best possible fortress is—not to be hated by the people",
    "qBy": "Niccolò Machiavelli, The Prince (1532)",
    "img": "laws_18",
-   "cap": "Portrait of Qin Shi Huang · public domain"
+   "cap": "Portrait of Qin Shi Huang · public domain",
+   "qMean": "The safest defence is to not be hated by ordinary people.",
+   "qLife": "A landlord who treats tenants fairly rarely has trouble collecting rent."
   },
   {
    "ch": "Law 19",
@@ -286,7 +322,9 @@
    "quote": "If you know the enemy and know yourself, you need not fear the result of a hundred battles.",
    "qBy": "Sun Tzŭ, The Art of War (tr. Giles, 1910)",
    "img": "laws_19",
-   "cap": "Vasnetsov, Tsar Ivan IV · public domain"
+   "cap": "Vasnetsov, Tsar Ivan IV · public domain",
+   "qMean": "Know your rival and yourself, and you need not fear any contest.",
+   "qLife": "Study the other team's tactics and your own weaknesses before the final."
   },
   {
    "ch": "Law 20",
@@ -296,7 +334,9 @@
    "quote": "You should aim to be independent of any one vote, of any one fashion, of any one century.",
    "qBy": "Baltasar Gracián, The Art of Worldly Wisdom (1647, tr. Jacobs)",
    "img": "laws_20",
-   "cap": "Elizabeth I (Armada Portrait) · public domain"
+   "cap": "Elizabeth I (Armada Portrait) · public domain",
+   "qMean": "Stay free of any single group, trend or era.",
+   "qLife": "Don't let one client become your only source of income."
   },
   {
    "ch": "Law 21",
@@ -306,7 +346,9 @@
    "quote": "there are times when the greatest wisdom lies in seeming not to be wise.",
    "qBy": "Baltasar Gracián, The Art of Worldly Wisdom (1647, tr. Jacobs)",
    "img": "laws_21",
-   "cap": "Emperor Claudius, marble bust · public domain"
+   "cap": "Emperor Claudius, marble bust · public domain",
+   "qMean": "Sometimes the wisest move is to look less clever than you are.",
+   "qLife": "Letting the know-it-all explain something you already understand, to keep the peace."
   },
   {
    "ch": "Law 22",
@@ -316,7 +358,9 @@
    "quote": "Pretend to be weak, that he may grow arrogant.",
    "qBy": "Sun Tzŭ, The Art of War (tr. Giles, 1910)",
    "img": "laws_22",
-   "cap": "Velazquez-The Surrender of Breda · public domain"
+   "cap": "Velazquez-The Surrender of Breda · public domain",
+   "qMean": "Pretend to be weak so your opponent becomes overconfident.",
+   "qLife": "Act unsure at the start of a chess game so your rival plays carelessly."
   },
   {
    "ch": "Law 23",
@@ -326,7 +370,9 @@
    "quote": "we can form a single united body, while the enemy must split up into fractions.",
    "qBy": "Sun Tzŭ, The Art of War (tr. Giles, 1910)",
    "img": "laws_23",
-   "cap": "The House of Rothschild · public domain"
+   "cap": "The House of Rothschild · public domain",
+   "qMean": "Stay united while forcing the other side to split up.",
+   "qLife": "A team that sticks together while the other team argues wins the match."
   },
   {
    "ch": "Law 24",
@@ -336,7 +382,9 @@
    "quote": "pay respect that you may be respected, and know that to be esteemed you must show esteem.",
    "qBy": "Baltasar Gracián, The Art of Worldly Wisdom (1647, tr. Jacobs)",
    "img": "laws_24",
-   "cap": "Baldassare Castiglione, by Raffaello Sanzio, from C2RMF retouched · public domain"
+   "cap": "Baldassare Castiglione, by Raffaello Sanzio, from C2RMF retouched · public domain",
+   "qMean": "Respect others if you want respect back.",
+   "qLife": "Greet the security guard by name and they'll help you when you forget your badge."
   },
   {
    "ch": "Law 25",
@@ -346,7 +394,9 @@
    "quote": "Renew your Brilliance. 'Tis the privilege of the Phoenix.",
    "qBy": "Baltasar Gracián, The Art of Worldly Wisdom (1647, tr. Jacobs)",
    "img": "laws_25",
-   "cap": "George Sand by Nadar, 1864 · public domain"
+   "cap": "George Sand by Nadar, 1864 · public domain",
+   "qMean": "Refresh your talents and image, like a phoenix rising again.",
+   "qLife": "An old brand redesigns its logo and suddenly feels new again."
   },
   {
    "ch": "Law 26",
@@ -356,7 +406,9 @@
    "quote": "princes ought to leave affairs of reproach to the management of others, and keep those of grace in their own hands.",
    "qBy": "Niccolò Machiavelli, The Prince (1532)",
    "img": "laws_26",
-   "cap": "Catarina de' Medici Uffizi · public domain"
+   "cap": "Catarina de' Medici Uffizi · public domain",
+   "qMean": "Let others do the unpopular tasks; keep the pleasant ones yourself.",
+   "qLife": "The principal announces the trip; the vice-principal handles the detentions."
   },
   {
    "ch": "Law 27",
@@ -366,7 +418,9 @@
    "quote": "the vulgar are always taken by what a thing seems to be and by what comes of it",
    "qBy": "Niccolò Machiavelli, The Prince (1532)",
    "img": "laws_27",
-   "cap": "Franz Anton Mesmer · public domain"
+   "cap": "Franz Anton Mesmer · public domain",
+   "qMean": "Most people are won over by appearances and results.",
+   "qLife": "Crowds trust the fancy-looking shop more than the plain one next door."
   },
   {
    "ch": "Law 28",
@@ -376,7 +430,9 @@
    "quote": "it is better to be adventurous than cautious",
    "qBy": "Niccolò Machiavelli, The Prince (1532)",
    "img": "laws_28",
-   "cap": "Titian, Portrait of Pietro Aretino · public domain"
+   "cap": "Titian, Portrait of Pietro Aretino · public domain",
+   "qMean": "Taking bold risks usually beats being too cautious.",
+   "qLife": "The person who speaks first in the meeting sets the agenda."
   },
   {
    "ch": "Law 29",
@@ -386,7 +442,9 @@
    "quote": "the victorious strategist only seeks battle after the victory has been won",
    "qBy": "Sun Tzŭ, The Art of War (tr. Giles, 1910)",
    "img": "laws_29",
-   "cap": "La bataille d'Austerlitz. 2 decembre 1805 (François Gérard) · public domain"
+   "cap": "La bataille d'Austerlitz. 2 decembre 1805 (François Gérard) · public domain",
+   "qMean": "The winner plans the victory before the fight; the loser fights hoping to win.",
+   "qLife": "Plan your route and parking before the job interview, not on the way."
   },
   {
    "ch": "Law 30",
@@ -396,7 +454,9 @@
    "quote": "What the ancients called a clever fighter is one who not only wins, but excels in winning with ease.",
    "qBy": "Sun Tzŭ, The Art of War (tr. Giles, 1910)",
    "img": "laws_30",
-   "cap": "Houdini in Handcuffs, 1918 · public domain"
+   "cap": "Houdini in Handcuffs, 1918 · public domain",
+   "qMean": "A clever fighter wins, and wins easily.",
+   "qLife": "The best students make exams look easy because they prepared for months."
   },
   {
    "ch": "Law 31",
@@ -406,7 +466,9 @@
    "quote": "By holding out advantages to him, he can cause the enemy to approach of his own accord",
    "qBy": "Sun Tzŭ, The Art of War (tr. Giles, 1910)",
    "img": "laws_31",
-   "cap": "Profile portrait of Ivan IV of Russia (engraving) · public domain"
+   "cap": "Profile portrait of Ivan IV of Russia (engraving) · public domain",
+   "qMean": "Offer something attractive so the other side comes to you willingly.",
+   "qLife": "A shop's free samples draw people in without any advertising."
   },
   {
    "ch": "Law 32",
@@ -416,7 +478,9 @@
    "quote": "he who seeks to deceive will always find someone who will allow himself to be deceived.",
    "qBy": "Niccolò Machiavelli, The Prince (1532)",
    "img": "laws_32",
-   "cap": "Portret van Alessandro Cagliostro · public domain"
+   "cap": "Portret van Alessandro Cagliostro · public domain",
+   "qMean": "Anyone who wants to deceive will always find someone ready to believe.",
+   "qLife": "Scam messages work because a few people always click."
   },
   {
    "ch": "Law 33",
@@ -426,7 +490,9 @@
    "quote": "Find out each Man's Thumbscrew. 'Tis the art of setting their wills in action.",
    "qBy": "Baltasar Gracián, The Art of Worldly Wisdom (1647, tr. Jacobs)",
    "img": "laws_33",
-   "cap": "Triple Portrait of Cardinal de Richelieu probably 1642, Philippe de Champaigne · public domain"
+   "cap": "Triple Portrait of Cardinal de Richelieu probably 1642, Philippe de Champaigne · public domain",
+   "qMean": "Learn what drives each person; that is how you move them.",
+   "qLife": "One colleague wants praise, another wants time off — reward each differently."
   },
   {
    "ch": "Law 34",
@@ -436,7 +502,9 @@
    "quote": "Let each deed of a man in its degree, though he be not a king, be worthy of a prince",
    "qBy": "Baltasar Gracián, The Art of Worldly Wisdom (1647, tr. Jacobs)",
    "img": "laws_34",
-   "cap": "Portrait of a Man, Said to be Christopher Columbus · public domain"
+   "cap": "Portrait of a Man, Said to be Christopher Columbus · public domain",
+   "qMean": "Act with dignity, as if you were royalty, whatever your rank.",
+   "qLife": "A waiter who carries himself with pride gets more respect than a sloppy manager."
   },
   {
    "ch": "Law 35",
@@ -446,7 +514,9 @@
    "quote": "Time and I against any two.",
    "qBy": "Baltasar Gracián, The Art of Worldly Wisdom (1647, tr. Jacobs)",
    "img": "laws_35",
-   "cap": "Rembrandt - Quintus Fabius Maximus · public domain"
+   "cap": "Rembrandt - Quintus Fabius Maximus · public domain",
+   "qMean": "Patience and time can beat any two opponents.",
+   "qLife": "Waiting for a sale instead of buying at full price."
   },
   {
    "ch": "Law 36",
@@ -456,7 +526,9 @@
    "quote": "Fools depreciate all men",
    "qBy": "Baltasar Gracián, The Art of Worldly Wisdom (1647, tr. Jacobs)",
    "img": "laws_36",
-   "cap": "After Hans Holbein the Younger - Portrait of Henry VIII · public domain"
+   "cap": "After Hans Holbein the Younger - Portrait of Henry VIII · public domain",
+   "qMean": "Foolish people look down on everyone.",
+   "qLife": "A troll mocking everything online shows only their own emptiness."
   },
   {
    "ch": "Law 37",
@@ -466,7 +538,9 @@
    "quote": "Nothing makes a prince so much esteemed as great enterprises and setting a fine example.",
    "qBy": "Niccolò Machiavelli, The Prince (1532)",
    "img": "laws_37",
-   "cap": "Ballet de la nuit 1653 · public domain"
+   "cap": "Ballet de la nuit 1653 · public domain",
+   "qMean": "Big projects and good examples earn the most respect.",
+   "qLife": "A mayor who builds a bridge is remembered more than one who gives speeches."
   },
   {
    "ch": "Law 38",
@@ -476,7 +550,9 @@
    "quote": "Think with the Few and speak with the Many.",
    "qBy": "Baltasar Gracián, The Art of Worldly Wisdom (1647, tr. Jacobs)",
    "img": "laws_38",
-   "cap": "Galileo before the Holy Office · public domain"
+   "cap": "Galileo before the Holy Office · public domain",
+   "qMean": "Think freely with a few trusted people; talk like everyone else in public.",
+   "qLife": "Share your wild business idea with close friends, not the whole family WhatsApp."
   },
   {
    "ch": "Law 39",
@@ -486,7 +562,9 @@
    "quote": "If your opponent is of choleric temper, seek to irritate him.",
    "qBy": "Sun Tzŭ, The Art of War (tr. Giles, 1910)",
    "img": "laws_39",
-   "cap": "Antoine-Jean Gros - Bonaparte Visiting the Plague Victims of Jaffa · public domain"
+   "cap": "Antoine-Jean Gros - Bonaparte Visiting the Plague Victims of Jaffa · public domain",
+   "qMean": "If your opponent is short-tempered, provoke him so he makes mistakes.",
+   "qLife": "Trash talk in sport is meant to make the other player lose focus."
   },
   {
    "ch": "Law 40",
@@ -496,7 +574,9 @@
    "quote": "What costs little is little worth.",
    "qBy": "Baltasar Gracián, The Art of Worldly Wisdom (1647, tr. Jacobs)",
    "img": "laws_40",
-   "cap": "Portrait of J. D. Rockefeller · public domain"
+   "cap": "Portrait of J. D. Rockefeller · public domain",
+   "qMean": "Things that cost nothing are usually worth little.",
+   "qLife": "The free gym trial nobody uses versus the paid membership people actually go to."
   },
   {
    "ch": "Law 41",
@@ -506,7 +586,9 @@
    "quote": "It is no great gain if a poor successor makes the predecessor seem good",
    "qBy": "Baltasar Gracián, The Art of Worldly Wisdom (1647, tr. Jacobs)",
    "img": "laws_41",
-   "cap": "Alexander the Great mosaic · public domain"
+   "cap": "Alexander the Great mosaic · public domain",
+   "qMean": "It's no honour if you only look good because a weak successor follows you.",
+   "qLife": "A coach who leaves a team in chaos isn't great just because the next coach is worse."
   },
   {
    "ch": "Law 42",
@@ -516,7 +598,9 @@
    "quote": "Begin by seizing something which your opponent holds dear; then he will be amenable to your will.",
    "qBy": "Sun Tzŭ, The Art of War (tr. Giles, 1910)",
    "img": "laws_42",
-   "cap": "\"The good Shepherd\" mosaic - Mausoleum of Galla Placidia · public domain"
+   "cap": "\"The good Shepherd\" mosaic - Mausoleum of Galla Placidia · public domain",
+   "qMean": "Take what your opponent values most, and he will do what you want.",
+   "qLife": "Hold the TV remote and the whole family listens to your plan."
   },
   {
    "ch": "Law 43",
@@ -526,7 +610,9 @@
    "quote": "it is necessary for a prince to have the people friendly, otherwise he has no security in adversity.",
    "qBy": "Niccolò Machiavelli, The Prince (1532)",
    "img": "laws_43",
-   "cap": "Louise Elisabeth Vigée-Lebrun - Marie-Antoinette de Lorraine-Habsbourg, reine de France et ses enfants · public domain"
+   "cap": "Louise Elisabeth Vigée-Lebrun - Marie-Antoinette de Lorraine-Habsbourg, reine de France et ses enfants · public domain",
+   "qMean": "A leader needs the people on his side or he has no safety in bad times.",
+   "qLife": "A brand loved by its customers survives a bad product launch."
   },
   {
    "ch": "Law 44",
@@ -536,7 +622,9 @@
    "quote": "Success in warfare is gained by carefully accommodating ourselves to the enemy's purpose.",
    "qBy": "Sun Tzŭ, The Art of War (tr. Giles, 1910)",
    "img": "laws_44",
-   "cap": "Narcissus-Caravaggio (1594-96) edited · public domain"
+   "cap": "Narcissus-Caravaggio (1594-96) edited · public domain",
+   "qMean": "Win by carefully adapting to what the other side is trying to do.",
+   "qLife": "A good salesperson mirrors the customer's pace and style."
   },
   {
    "ch": "Law 45",
@@ -546,7 +634,9 @@
    "quote": "there is nothing more difficult to take in hand, more perilous to conduct, or more uncertain in its success, than to take the lead in the introduction of a new order of things",
    "qBy": "Niccolò Machiavelli, The Prince (1532)",
    "img": "laws_45",
-   "cap": "Cromwell,Thomas(1EEssex)01 · public domain"
+   "cap": "Cromwell,Thomas(1EEssex)01 · public domain",
+   "qMean": "Introducing a new way of doing things is the hardest, riskiest task.",
+   "qLife": "Changing the family's holiday tradition meets more resistance than you'd expect."
   },
   {
    "ch": "Law 46",
@@ -556,7 +646,9 @@
    "quote": "Allow Yourself some venial Fault. Some such carelessness is often the greatest recommendation of talent.",
    "qBy": "Baltasar Gracián, The Art of Worldly Wisdom (1647, tr. Jacobs)",
    "img": "laws_46",
-   "cap": "Augustins - Aristide, 1806 - Charles Brocas · public domain"
+   "cap": "Augustins - Aristide, 1806 - Charles Brocas · public domain",
+   "qMean": "Allow yourself a small harmless flaw; it makes your talent less threatening.",
+   "qLife": "The brilliant new colleague who admits she can't park is liked more."
   },
   {
    "ch": "Law 47",
@@ -566,7 +658,9 @@
    "quote": "Leave your Luck while Winning. All the best players do it. A fine retreat is as good as a gallant attack.",
    "qBy": "Baltasar Gracián, The Art of Worldly Wisdom (1647, tr. Jacobs)",
    "img": "laws_47",
-   "cap": "Croesus at the Stake, after Hans Holbein the Younger · public domain"
+   "cap": "Croesus at the Stake, after Hans Holbein the Younger · public domain",
+   "qMean": "Quit while you're winning; a good retreat is as good as a bold attack.",
+   "qLife": "Leave the casino after a win instead of betting it all again."
   },
   {
    "ch": "Law 48",
@@ -576,7 +670,9 @@
    "quote": "Military tactics are like unto water; for water in its natural course runs away from high places and hastens downwards.",
    "qBy": "Sun Tzŭ, The Art of War (tr. Giles, 1910)",
    "img": "laws_48",
-   "cap": "Tsunami by hokusai 19th century · public domain"
+   "cap": "Tsunami by hokusai 19th century · public domain",
+   "qMean": "Be flexible like water, flowing around obstacles.",
+   "qLife": "When a road is blocked, a good driver takes side streets instead of waiting."
   }
  ]
 }

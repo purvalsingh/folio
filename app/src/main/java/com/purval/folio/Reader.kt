@@ -37,6 +37,7 @@ import androidx.compose.material.icons.filled.Bookmark
 import androidx.compose.material.icons.filled.FormatQuote
 import androidx.compose.material.icons.outlined.BookmarkBorder
 import androidx.compose.material.icons.outlined.FormatQuote
+import androidx.compose.material.icons.outlined.Lightbulb
 import androidx.compose.material.icons.outlined.Share
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
@@ -84,6 +85,7 @@ fun Reader(app: App, book: Book, start: Int, onBack: () -> Unit) {
     val scope = rememberCoroutineScope()
     var word by remember { mutableStateOf<Gloss?>(null) }
     var contents by remember { mutableStateOf(false) }
+    var explain by remember { mutableStateOf<Int?>(null) }
 
     LaunchedEffect(pager) {
         var page = pager.currentPage
@@ -140,13 +142,16 @@ fun Reader(app: App, book: Book, start: Int, onBack: () -> Unit) {
                 scaleX = s; scaleY = s
                 transformOrigin = androidx.compose.ui.graphics.TransformOrigin(if (off > 0) 1f else 0f, 0.5f)
             }) {
-                FolioCard(app, book, i, onWord = { word = it }, onSealed = {
+                FolioCard(app, book, i, onWord = { word = it }, onQuote = { explain = i }, onSealed = {
                     scope.launch { delay(650); if (i + 1 < book.cards.size) pager.animateScrollToPage(i + 1, animationSpec = tween(520)) }
                 })
             }
         }
     }
 
+    explain?.let { i ->
+        ModalBottomSheet(onDismissRequest = { explain = null }, containerColor = ink.paper) { QuoteSheet(app, book, i) }
+    }
     word?.let { g ->
         ModalBottomSheet(onDismissRequest = { word = null }, containerColor = ink.paper) {
             WordSheet(app, g, book.id)
@@ -182,7 +187,7 @@ fun Reader(app: App, book: Book, start: Int, onBack: () -> Unit) {
 }
 
 @Composable
-private fun FolioCard(app: App, book: Book, i: Int, onWord: (Gloss) -> Unit, onSealed: () -> Unit) {
+private fun FolioCard(app: App, book: Book, i: Int, onWord: (Gloss) -> Unit, onQuote: () -> Unit, onSealed: () -> Unit) {
     val ink = LocalInk.current
     val store = app.store
     val c = book.cards[i]
@@ -208,20 +213,20 @@ private fun FolioCard(app: App, book: Book, i: Int, onWord: (Gloss) -> Unit, onS
         if (c.cap.isNotBlank()) Text(c.cap, fontFamily = Fonts.fell, fontStyle = FontStyle.Italic, fontSize = 11.sp, color = ink.faded,
             textAlign = TextAlign.Center, modifier = Modifier.fillMaxWidth().padding(top = 4.dp), maxLines = 2, overflow = TextOverflow.Ellipsis)
         Spacer(Modifier.height(16.dp))
-        Text(c.title, fontFamily = era.display, fontSize = if (era == Era.RENAISSANCE) 31.sp else 27.sp,
-            lineHeight = 36.sp, color = ink.ink)
+        Text(c.title, fontFamily = era.display, fontSize = when (era) { Era.RENAISSANCE -> 31.sp; Era.BAROQUE -> 36.sp; else -> 28.sp },
+            lineHeight = if (era == Era.BAROQUE) 42.sp else 36.sp, color = ink.ink)
         Spacer(Modifier.height(12.dp))
         val text = remember(c.text, ink) { glossed(c.text, book.glossary, ink, onWord) }
-        if (chapterStart) DropCapText(text, body, era.display, lines = if (i == 0) 4 else 3, illuminated = i == 0)
+        if (chapterStart) DropCapText(text, body, era.display, lines = if (i == 0) 4 else 3, illuminated = i == 0, capScale = era.capScale)
         else Text(text, style = body)
 
         if (c.quote.isNotBlank()) {
             Spacer(Modifier.height(18.dp))
-            Fleuron()
+            Fleuron(glyph = era.fleuron)
             Spacer(Modifier.height(10.dp))
             val q = remember(c.quote, ink) { glossed("“${c.quote}”", book.glossary, ink, onWord) }
             Text(q, fontFamily = era.body, fontStyle = FontStyle.Italic, fontSize = 20.sp, lineHeight = 29.sp,
-                color = ink.ink, textAlign = TextAlign.Center, modifier = Modifier.fillMaxWidth())
+                color = ink.ink, textAlign = TextAlign.Center, modifier = Modifier.fillMaxWidth().clickable(onClick = onQuote))
             Text(if (c.qBy.isNotBlank()) "— ${c.qBy}" else "— ${book.short}, ${c.ch}", fontFamily = Fonts.fellSc, fontSize = 12.sp,
                 color = ink.faded, textAlign = TextAlign.Center, modifier = Modifier.fillMaxWidth().padding(top = 6.dp))
             Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.Center) {
@@ -234,6 +239,12 @@ private fun FolioCard(app: App, book: Book, i: Int, onWord: (Gloss) -> Unit, onS
                     ctx.startActivity(Intent.createChooser(Intent(Intent.ACTION_SEND).setType("text/plain")
                         .putExtra(Intent.EXTRA_TEXT, "“${c.quote}”\n— ${c.attribution(book)}"), "Share quote"))
                 }) { Icon(Icons.Outlined.Share, "Share quote", tint = ink.faded) }
+            }
+            Row(Modifier.fillMaxWidth().clip(RoundedCornerShape(50)).clickable(onClick = onQuote).padding(vertical = 4.dp),
+                horizontalArrangement = Arrangement.Center, verticalAlignment = Alignment.CenterVertically) {
+                Icon(Icons.Outlined.Lightbulb, null, tint = ink.rubric, modifier = Modifier.size(16.dp))
+                Spacer(Modifier.width(6.dp))
+                Text("Tap the quote for its meaning", fontFamily = Fonts.fell, fontStyle = FontStyle.Italic, fontSize = 13.sp, color = ink.rubric)
             }
         }
         Spacer(Modifier.height(14.dp))
@@ -314,6 +325,48 @@ fun WordSheet(app: App, g: Gloss, bookId: String) {
                         fontSize = 16.sp, letterSpacing = 1.sp, color = if (has) ink.rubric else ink.paper)
                 }
             }
+        }
+    }
+}
+
+/** The quote, then what it means in plain English and how it shows up in everyday life. */
+@Composable
+fun QuoteSheet(app: App, book: Book, i: Int) {
+    val ink = LocalInk.current
+    val c = book.cards[i]
+    val store = app.store
+    val explained by produceState(if (c.qMean.isNotBlank()) c.qMean to c.qLife else null, c) {
+        if (value == null && store.geminiKey.isNotBlank()) value = Dict.explainQuote(c.quote, book.title, store.geminiKey)
+    }
+    Column(Modifier.fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = 26.dp).padding(bottom = 32.dp)) {
+        Text("“${c.quote}”", fontFamily = book.era.body, fontStyle = FontStyle.Italic, fontSize = 21.sp, lineHeight = 30.sp, color = ink.ink)
+        Text("— ${c.attribution(book)}", fontFamily = Fonts.fellSc, fontSize = 12.sp, color = ink.faded, modifier = Modifier.padding(top = 4.dp))
+        Spacer(Modifier.height(18.dp))
+        val e = explained
+        when {
+            e != null -> {
+                Text("IN PLAIN ENGLISH", fontFamily = Fonts.fellSc, fontSize = 12.sp, letterSpacing = 2.sp, color = ink.rubric)
+                Text(e.first, fontFamily = Fonts.fell, fontSize = 19.sp, lineHeight = 27.sp, color = ink.ink)
+                if (e.second.isNotBlank()) {
+                    Spacer(Modifier.height(14.dp))
+                    Text("IN DAILY LIFE", fontFamily = Fonts.fellSc, fontSize = 12.sp, letterSpacing = 2.sp, color = ink.rubric)
+                    Text(e.second, fontFamily = Fonts.fell, fontStyle = FontStyle.Italic, fontSize = 18.sp, lineHeight = 26.sp, color = ink.ink)
+                }
+            }
+            store.geminiKey.isNotBlank() -> Text("Translating into plain English…", fontFamily = Fonts.fell, fontStyle = FontStyle.Italic, color = ink.faded, fontSize = 16.sp)
+            else -> Text("Plain-English explanations for your own imported books need the optional Gemini key (Honours → Plain-English helper).",
+                fontFamily = Fonts.fell, fontSize = 15.sp, lineHeight = 21.sp, color = ink.faded)
+        }
+        Spacer(Modifier.height(20.dp))
+        val kept = remember(store.quotes.size) { store.hasQuote(book.id, i) }
+        Box(
+            Modifier.fillMaxWidth().clip(RoundedCornerShape(50)).background(if (kept) ink.paper else ink.ink)
+                .then(if (kept) Modifier.doubleRule(ink, 3.dp) else Modifier)
+                .clickable { store.toggleQuote(book, i, app.books) }.padding(vertical = 14.dp),
+            contentAlignment = Alignment.Center,
+        ) {
+            Text(if (kept) "✓ In your Commonplace Book" else "Keep this quote", fontFamily = Fonts.fellSc,
+                fontSize = 16.sp, letterSpacing = 1.sp, color = if (kept) ink.rubric else ink.paper)
         }
     }
 }

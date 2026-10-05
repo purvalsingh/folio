@@ -130,8 +130,8 @@ card("Chapter XIII", "The Use of Spies", "Five kinds of spies",
  "Hence the use of spies, of whom there are five classes")
 
 ABOUT = {
- "version": 1, "id": "artofwar", "title": "The Art of War", "short": "Sun Tzŭ", "author": "Sun Tzŭ", "year": "c. 500 BC",
- "translator": "Lionel Giles, 1910 (public domain, Project Gutenberg #132)", "era": "ancient", "cover": "artofwar_cover",
+ "version": 2, "id": "artofwar", "title": "The Art of War", "short": "Sun Tzu", "author": "Sun Tzu", "year": "c. 500 BC",
+ "translator": "Lionel Giles, 1910 (public domain, Project Gutenberg #132)", "era": "eastern", "cover": "artofwar_cover",
  "self_src": "sunzi",
  "blurb": "Thirteen short chapters from ancient China on winning — ideally without a fight. Read by generals, CEOs and chess players for 2,500 years.",
 }

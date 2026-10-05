@@ -80,12 +80,54 @@ class App(ctx: Context) {
     fun book(id: String) = books.firstOrNull { it.id == id }
     fun removeBook(b: Book) { Shelf.delete(appCtx, b.id); books.remove(b); store.forgetBook(b.id) }
 
+    init { CloudConfig.load(appCtx) }
+    var session by mutableStateOf(Cloud.load(appCtx))
+    var syncNote by mutableStateOf<String?>(null)
+    var syncing by mutableStateOf(false)
+
+    suspend fun signedIn(s: Session) { session = s; Cloud.save(appCtx, s); sync() }
+
+    /** Pull, merge, push. The cloud copy is encrypted with a key only this account's password can make. */
+    suspend fun sync(pushOnly: Boolean = false) {
+        val s0 = session ?: return
+        if (syncing || !CloudConfig.ready) return
+        syncing = true
+        try {
+            val s = Cloud.fresh(s0).also { if (it != s0) { session = it; Cloud.save(appCtx, it) } }
+            var replaced = false
+            if (!pushOnly) {
+                when (val remote = Cloud.pull(s)) {
+                    null -> replaced = true
+                    "" -> Unit
+                    else -> store.merge(remote)
+                }
+            } else if (!store.dirty) return
+            Cloud.push(s, store.snapshot().toString())
+            store.dirty = false
+            syncNote = if (replaced) "Your older cloud copy was locked with a previous password, so this phone's library replaced it."
+                else "Synced just now"
+        } catch (e: AuthError) {
+            if (e.message?.contains("session ended") == true) { session = null; Cloud.save(appCtx, null) }
+            syncNote = e.message
+        } catch (e: Exception) {
+            syncNote = "Offline — will sync next time."
+        } finally { syncing = false }
+    }
+
+    suspend fun signOut() {
+        session?.let { sync(pushOnly = true); Cloud.signOut(it) }
+        session = null; Cloud.save(appCtx, null); syncNote = null
+    }
+
     /** Fetch the catalog; quietly bring every book on the shelf up to its latest edition. */
     suspend fun refresh() {
         if (checking) return
         checking = true
         try {
-            val c = Library.fetch() ?: return
+            val c = Library.fetch()
+            if (c != null) CloudConfig.update(appCtx, c.cloudBase, c.cloudKey)
+            sync()
+            if (c == null) return
             catalog = c
             c.books.forEach { e ->
                 val have = book(e.id) ?: return@forEach
@@ -118,10 +160,17 @@ private sealed interface Route {
     data object Home : Route
     data class Read(val bookId: String, val idx: Int) : Route
     data object Bind : Route
+    data object Account : Route
 }
 
 class MainActivity : ComponentActivity() {
     private lateinit var app: App
+
+    override fun onStop() {
+        super.onStop()
+        // push unsynced progress when the reader leaves the app
+        if (::app.isInitialized) kotlinx.coroutines.MainScope().launch { app.sync(pushOnly = true) }
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -163,6 +212,10 @@ private fun Root(app: App) {
                         Reader(app, b, r.idx) { route = Route.Home }
                     }
                 }
+                Route.Account -> {
+                    BackHandler { route = Route.Home }
+                    AccountScreen(app) { route = Route.Home }
+                }
                 Route.Bind -> {
                     BackHandler { route = Route.Home }
                     BindScreen(app, onBack = { route = Route.Home }, onBound = { b -> open(b, 0) })
@@ -175,7 +228,7 @@ private fun Root(app: App) {
                                 Tab.LEXICON -> LexiconScreen(app)
                                 Tab.QUOTES -> CommonplaceScreen(app, open)
                                 Tab.MARKS -> MarksScreen(app, open)
-                                Tab.HONOURS -> HonoursScreen(app)
+                                Tab.HONOURS -> HonoursScreen(app) { route = Route.Account }
                             }
                         }
                     }

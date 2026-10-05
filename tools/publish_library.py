@@ -44,7 +44,8 @@ def main():
         app = dict(versionCode=code, versionName=name, notes=notes, sizeKb=apk.stat().st_size // 1024,
                    sha256=hashlib.sha256(apk.read_bytes()).hexdigest(),
                    apk=f"https://github.com/{REPO}/releases/download/v{name}/Folio.apk")
-    cat = {"app": app, "books": books}
+    cloud = json.loads((ROOT / "cloud/public.json").read_text()) if (ROOT / "cloud/public.json").exists() else old.get("cloud")
+    cat = {"app": app, "books": books, "cloud": cloud}
     cat_path.write_text(json.dumps(cat, ensure_ascii=False, indent=1))
     print(f"catalog: {len(books)} books" + (f", app {app['versionName']} ({app['versionCode']})" if app else ", no app release"))
 

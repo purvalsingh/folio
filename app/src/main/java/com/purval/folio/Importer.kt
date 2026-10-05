@@ -42,6 +42,13 @@ object Gemini {
 
 object Dict {
     /** Simple meaning + everyday example. Gemini if the reader added a key, else the free dictionary API. */
+    /** Plain-English meaning + everyday example of a quote from an imported book (needs the reader's Gemini key). */
+    suspend fun explainQuote(quote: String, title: String, key: String): Pair<String, String>? = withContext(Dispatchers.IO) {
+        Gemini.ask(key, "A reader of the old book \"$title\" found this line hard: \"$quote\". Return JSON {\"m\": what it means in plain modern English, at most 30 words, \"e\": one short example of the same idea in everyday modern life}.")
+            ?.let { runCatching { JSONObject(it) }.getOrNull() }
+            ?.let { it.getString("m") to it.optString("e") }
+    }
+
     suspend fun lookup(word: String, key: String): Gloss? = withContext(Dispatchers.IO) {
         if (key.isNotBlank()) {
             Gemini.ask(key, "Explain the English word \"$word\" for someone who has never seen it. Return JSON {\"m\": simple meaning in at most 15 plain words, \"e\": one short everyday modern example sentence using it}.")

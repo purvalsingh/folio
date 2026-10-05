@@ -308,7 +308,7 @@ card("Chapter XXVI", "An Exhortation to Liberate Italy", "Courage against fury",
  "Italian citizen-soldiers marching with pikes under a rising sun, laurel wreath in the sky")
 
 ABOUT = {
- "version": 1, "id": "prince", "title": "The Prince", "author": "Niccolò Machiavelli", "short": "Machiavelli", "year": "1532",
+ "version": 2, "id": "prince", "title": "The Prince", "author": "Niccolò Machiavelli", "short": "Machiavelli", "year": "1532",
  "translator": "W. K. Marriott, 1908 (public domain, Project Gutenberg #1232)",
  "era": "renaissance", "cover": "prince_cover",
  "blurb": "A banished Florentine diplomat's handbook on how power is won, held and lost. Five hundred years later it still names the game: appearances, fear, loyalty, luck.",
@@ -355,6 +355,8 @@ def main():
     unused = [w for w in gl if not re.search(r"\b" + re.escape(w.lower()) + r"\b", alltext)]
     gl = {w: v for w, v in gl.items() if w not in unused}  # only ship words that actually appear
     out = dict(ABOUT, glossary=gl, cards=[{k: v for k, v in c.items()} for c in C])
+    import meanings
+    meanings.apply("prince", out["cards"])
     dst = here.parent / "app/src/main/assets/books/prince.json"
     dst.parent.mkdir(parents=True, exist_ok=True)
     dst.write_text(json.dumps(out, ensure_ascii=False, indent=1))

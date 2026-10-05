@@ -198,7 +198,7 @@ fun glossed(text: String, glossary: Map<String, Gloss>, ink: Ink, onWord: (Gloss
 @Composable
 fun DropCapText(
     text: AnnotatedString, style: TextStyle, capFont: FontFamily, lines: Int, illuminated: Boolean,
-    modifier: Modifier = Modifier,
+    modifier: Modifier = Modifier, capScale: Float = 0.78f,
 ) {
     val ink = LocalInk.current
     if (text.isEmpty()) return
@@ -233,7 +233,7 @@ fun DropCapText(
                     contentAlignment = Alignment.Center,
                 ) {
                     Text(text.text.take(1), fontFamily = capFont, color = if (illuminated) Color(0xFFF6EBDD) else ink.rubric,
-                        fontSize = with(density) { (capBox * 0.78f).toSp() }, lineHeight = with(density) { capBox.toSp() })
+                        fontSize = with(density) { (capBox * capScale).toSp() }, lineHeight = with(density) { capBox.toSp() })
                 }
                 Spacer(Modifier.width(gap))
                 Text(rest.subSequence(0, split), style = style)

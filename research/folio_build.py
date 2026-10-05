@@ -84,6 +84,8 @@ def build(about, glossary, cards, credits_file=None, caps=None):
     alltext = " ".join(c["text"] + " " + c["quote"] for c in cards).lower()
     gl = {w: v for w, v in gl.items() if re.search(r"\b" + re.escape(w.lower()) + r"\b", alltext)}
     roots = {v.get("root", w) for w, v in gl.items()}
+    import meanings
+    meanings.apply(about["id"], cards)
     out = {k: v for k, v in about.items() if k != "self_src"}
     out.update(glossary=gl, cards=cards)
     dst = HERE.parent / f"app/src/main/assets/books/{about['id']}.json"

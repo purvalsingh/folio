@@ -79,6 +79,9 @@ import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.Dialog
 import androidx.compose.ui.window.DialogProperties
 import kotlinx.coroutines.launch
+import androidx.compose.foundation.layout.statusBarsPadding
+import androidx.compose.foundation.layout.imePadding
+import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import java.time.LocalDate
 import java.time.LocalTime
 import java.time.format.TextStyle as JTextStyle
@@ -375,6 +378,10 @@ fun CommonplaceScreen(app: App, open: (Book, Int) -> Unit) {
                     Column {
                         Text("“", fontFamily = Fonts.fraktur, fontSize = 44.sp, lineHeight = 30.sp, color = ink.rubric)
                         Text(q.text, fontFamily = b?.era?.body ?: Fonts.fell, fontStyle = FontStyle.Italic, fontSize = 19.sp, lineHeight = 27.sp, color = ink.ink)
+                        b?.cards?.getOrNull(q.idx)?.takeIf { it.qMean.isNotBlank() }?.let { c ->
+                            Text("In plain English: ${c.qMean}", fontFamily = Fonts.fell, fontSize = 15.sp, lineHeight = 21.sp,
+                                color = ink.faded, modifier = Modifier.padding(top = 8.dp))
+                        }
                         Spacer(Modifier.height(8.dp))
                         Row(verticalAlignment = Alignment.CenterVertically) {
                             Text(b?.cards?.getOrNull(q.idx)?.qBy?.ifBlank { null } ?: listOfNotNull(b?.author, b?.cards?.getOrNull(q.idx)?.ch).joinToString(" · "), fontFamily = Fonts.fellSc,
@@ -423,13 +430,15 @@ fun MarksScreen(app: App, open: (Book, Int) -> Unit) {
 
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
-fun HonoursScreen(app: App) {
+fun HonoursScreen(app: App, account: () -> Unit = {}) {
     val ink = LocalInk.current
     val store = app.store
     val stats = remember(store.tick, store.lexicon.size, store.quotes.size) { store.stats(app.books) }
     val lv = levelOf(store.xp)
     Column(Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(horizontal = 20.dp, vertical = 8.dp)) {
         Masthead("Honours", "Levels, seals and the rules of your reading.")
+        Spacer(Modifier.height(12.dp))
+        AccountPanel(app, account)
         Spacer(Modifier.height(16.dp))
         Column(Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally) {
             WaxSeal(roman(lv), 120.dp)
@@ -654,5 +663,130 @@ fun OnlineShelf(app: App) {
                 }
             }
         }
+    }
+}
+
+/* ---------- account ---------- */
+
+@Composable
+fun AccountPanel(app: App, open: () -> Unit) {
+    val ink = LocalInk.current
+    val scope = androidx.compose.runtime.rememberCoroutineScope()
+    val s = app.session
+    Panel {
+        Column {
+            if (s == null) {
+                Label("Your account")
+                Text("Sign in to keep your pages, words and quotes safe and in step across phones. Your library is encrypted on this phone before it is uploaded.",
+                    fontFamily = Fonts.fell, fontSize = 15.sp, lineHeight = 21.sp, color = ink.ink)
+                Spacer(Modifier.height(10.dp))
+                Pill(if (CloudConfig.ready) "Sign in or create account" else "Accounts open soon", filled = CloudConfig.ready, modifier = Modifier.fillMaxWidth()) {
+                    if (CloudConfig.ready) open()
+                }
+            } else {
+                Label("Signed in")
+                Text(s.email, fontFamily = Fonts.fell, fontSize = 18.sp, color = ink.ink)
+                Text(app.syncNote ?: "Encrypted sync is on.", fontFamily = Fonts.fell, fontStyle = FontStyle.Italic, fontSize = 13.sp,
+                    lineHeight = 18.sp, color = ink.faded)
+                Spacer(Modifier.height(10.dp))
+                Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                    Pill(if (app.syncing) "Syncing…" else "Sync now", filled = false) { scope.launch { app.sync() } }
+                    Pill("Sign out", filled = false) { scope.launch { app.signOut() } }
+                }
+            }
+        }
+    }
+}
+
+@Composable
+fun AccountScreen(app: App, done: () -> Unit) {
+    val ink = LocalInk.current
+    val scope = androidx.compose.runtime.rememberCoroutineScope()
+    var mode by rememberSaveable { mutableStateOf("in") } // in | up | forgot | code
+    var email by rememberSaveable { mutableStateOf("") }
+    var pw by remember { mutableStateOf("") }
+    var pw2 by remember { mutableStateOf("") }
+    var code by remember { mutableStateOf("") }
+    var busy by remember { mutableStateOf(false) }
+    var msg by remember { mutableStateOf<String?>(null) }
+    val emailOk = android.util.Patterns.EMAIL_ADDRESS.matcher(email.trim()).matches()
+    fun go(block: suspend () -> Unit) {
+        msg = null; busy = true
+        scope.launch {
+            runCatching { block() }.onFailure { msg = it.message ?: "Something went wrong." }
+            busy = false
+        }
+    }
+    val field = androidx.compose.ui.text.TextStyle(fontFamily = Fonts.fell, fontSize = 18.sp, color = ink.ink)
+    Column(
+        Modifier.fillMaxSize().statusBarsPadding().imePadding().verticalScroll(rememberScrollState()).padding(horizontal = 20.dp),
+    ) {
+        Row(verticalAlignment = Alignment.CenterVertically) {
+            IconButton(onClick = done) { Icon(androidx.compose.material.icons.Icons.AutoMirrored.Filled.ArrowBack, "Back", tint = ink.ink) }
+        }
+        Masthead(
+            when (mode) { "up" -> "Join Folio"; "forgot", "code" -> "New Password"; else -> "Welcome back" },
+            when (mode) {
+                "up" -> "One account keeps your library on every phone you use."
+                "forgot" -> "We'll email you a 6-digit code."
+                "code" -> "Enter the code from your email and choose a new password."
+                else -> "Sign in to sync your pages, words and quotes."
+            },
+        )
+        Spacer(Modifier.height(16.dp))
+        if (mode != "code") OutlinedTextField(email, { email = it.trim() }, Modifier.fillMaxWidth(), label = { Text("Email", fontFamily = Fonts.fell) },
+            singleLine = true, colors = fieldColors(), textStyle = field,
+            keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Email))
+        if (mode == "code") OutlinedTextField(code, { code = it.filter(Char::isDigit).take(8) }, Modifier.fillMaxWidth(),
+            label = { Text("Code from email", fontFamily = Fonts.fell) }, singleLine = true, colors = fieldColors(), textStyle = field,
+            keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number))
+        if (mode != "forgot") {
+            Spacer(Modifier.height(8.dp))
+            OutlinedTextField(pw, { pw = it }, Modifier.fillMaxWidth(), label = { Text(if (mode == "code") "New password" else "Password", fontFamily = Fonts.fell) },
+                singleLine = true, colors = fieldColors(), textStyle = field, visualTransformation = PasswordVisualTransformation(),
+                keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Password))
+        }
+        if (mode == "up" || mode == "code") {
+            Spacer(Modifier.height(8.dp))
+            OutlinedTextField(pw2, { pw2 = it }, Modifier.fillMaxWidth(), label = { Text("Repeat password", fontFamily = Fonts.fell) },
+                singleLine = true, colors = fieldColors(), textStyle = field, visualTransformation = PasswordVisualTransformation(),
+                keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Password))
+            Text("At least 8 characters. Your password also locks your synced library — keep it safe.",
+                fontFamily = Fonts.fell, fontSize = 13.sp, color = ink.faded, modifier = Modifier.padding(top = 4.dp))
+        }
+        msg?.let { Text(it, fontFamily = Fonts.fell, fontSize = 15.sp, color = ink.rubric, modifier = Modifier.padding(top = 10.dp)) }
+        Spacer(Modifier.height(16.dp))
+        val pwOk = pw.length >= 8 && (mode == "in" || pw == pw2)
+        val ok = !busy && when (mode) { "forgot" -> emailOk; "code" -> code.length >= 6 && pwOk; else -> emailOk && pwOk }
+        Pill(
+            if (busy) "One moment…" else when (mode) { "up" -> "Create account"; "forgot" -> "Email me a code"; "code" -> "Set password & sign in"; else -> "Sign in" },
+            filled = ok, modifier = Modifier.fillMaxWidth(),
+        ) {
+            if (!ok) {
+                msg = when {
+                    mode != "code" && !emailOk -> "Please enter a valid email."
+                    pw.length < 8 -> "Password needs at least 8 characters."
+                    else -> "The two passwords don't match."
+                }
+                return@Pill
+            }
+            when (mode) {
+                "in" -> go { app.signedIn(Cloud.signIn(email, pw)); done() }
+                "up" -> go { app.signedIn(Cloud.signUp(email, pw)); done() }
+                "forgot" -> go { Cloud.sendResetCode(email); mode = "code"; msg = "Code sent to $email." }
+                "code" -> go { app.signedIn(Cloud.resetPassword(email, code, pw)); done() }
+            }
+        }
+        Spacer(Modifier.height(10.dp))
+        Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween) {
+            TextButton(onClick = { msg = null; mode = if (mode == "in") "up" else "in" }) {
+                Text(if (mode == "in") "New here? Create an account" else "Have an account? Sign in", fontFamily = Fonts.fell, color = ink.ink)
+            }
+            if (mode == "in") TextButton(onClick = { msg = null; mode = "forgot" }) { Text("Forgot password?", fontFamily = Fonts.fell, color = ink.faded) }
+        }
+        Spacer(Modifier.height(18.dp))
+        Text("How your data is protected: passwords are hashed by the server and never stored on this phone. Your library is encrypted here with a key made from your password (AES-256) before upload, so even the server sees only scrambled text. The sign-in token is sealed in this phone's secure hardware.",
+            fontFamily = Fonts.fell, fontStyle = FontStyle.Italic, fontSize = 13.sp, lineHeight = 18.sp, color = ink.faded)
+        Spacer(Modifier.height(32.dp))
     }
 }
