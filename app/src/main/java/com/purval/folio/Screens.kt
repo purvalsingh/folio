@@ -481,7 +481,7 @@ fun HonoursScreen(app: App, account: () -> Unit = {}) {
         Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
             Pill("Share Folio") {
                 shareCtx.startActivity(android.content.Intent.createChooser(android.content.Intent(android.content.Intent.ACTION_SEND).setType("text/plain")
-                    .putExtra(android.content.Intent.EXTRA_TEXT, "I'm reading the great classics one minute a day with Folio, a free Android app (The Prince, the Gita, Meditations and 28 more): https://github.com/purvalsingh/folio"),
+                    .putExtra(android.content.Intent.EXTRA_TEXT, "I'm reading the great classics one minute a day with Folio, free on Android and iPhone (The Prince, the Gita, Meditations and 28 more): https://purvalsingh.github.io/folio/"),
                     "Share Folio"))
             }
             Pill("★ Star on GitHub", filled = false) { web("https://github.com/purvalsingh/folio") }

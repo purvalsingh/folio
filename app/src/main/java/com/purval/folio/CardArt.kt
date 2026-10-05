@@ -193,7 +193,7 @@ object CardArt {
 
         val fy = h - footer + (if (story) 90f else 40f)
         c.drawText("Folio", w / 2f, fy + 40f, tp(pal.accent, 46f, font(ctx, R.font.unifraktur)).apply { textAlign = Paint.Align.CENTER })
-        c.drawText("old books, one page at a time · free on Android", w / 2f, fy + 78f,
+        c.drawText("old books, one page at a time · free on Android & iPhone", w / 2f, fy + 78f,
             tp(pal.faded, 22f, font(ctx, R.font.fell_italic)).apply { textAlign = Paint.Align.CENTER })
         return bmp
     }
@@ -212,7 +212,7 @@ object CardArt {
         val c = book.cards[i]
         ctx.startActivity(Intent.createChooser(Intent(Intent.ACTION_SEND).setType("image/png")
             .putExtra(Intent.EXTRA_STREAM, uri)
-            .putExtra(Intent.EXTRA_TEXT, "“${c.quote}”\n— ${c.attribution(book)}\n\nRead it in Folio: github.com/purvalsingh/folio")
+            .putExtra(Intent.EXTRA_TEXT, "“${c.quote}”\n— ${c.attribution(book)}\n\nRead it free in Folio: purvalsingh.github.io/folio")
             .addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION), "Share quote").addFlags(Intent.FLAG_ACTIVITY_NEW_TASK))
     }
 

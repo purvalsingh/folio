@@ -12,7 +12,7 @@
 ![Android 8+](https://img.shields.io/badge/Android-8%2B-1a1814?style=flat-square&logo=android)
 ![Kotlin](https://img.shields.io/badge/Kotlin-Jetpack%20Compose-1a1814?style=flat-square&logo=kotlin)
 
-[**⬇ Download Folio for Android (free)**](https://github.com/purvalsingh/folio/releases/latest/download/Folio.apk) · native Kotlin · no ads · no tracking · works offline
+[**⬇ Android app (free)**](https://github.com/purvalsingh/folio/releases/latest/download/Folio.apk) · [**🍎 iPhone & web (free)**](https://purvalsingh.github.io/folio/) · no ads · no tracking · works offline
 
 <img src="docs/screens/home.jpg" width="240"> <img src="docs/screens/reader.jpg" width="240"> <img src="docs/screens/bookcase.jpg" width="240">
 
@@ -33,6 +33,9 @@ You bought it. You opened it. Page three, a sentence 90 words long, and you were
 | 📜 **31 books, 10 shelves** | Power & Strategy · War & Statecraft · Persuasion · Stoic Wisdom · Eastern Paths · **Indian Wisdom** · Mind & the Crowd · The Human Mind · Love & Human Nature · Courtly Wisdom. New books land in the app without updating. |
 | 🖋 **Typeset like the original** | Machiavelli in Renaissance blackletter, the Gita in Devanagari-inspired type, Clausewitz in Prussian Fraktur, Franklin in colonial Pica, each book with its own era, drop cap and fleuron. |
 | 🔎 **Tap any hard word** | *Clemency? Patrimony?* A plain meaning plus an everyday example, in **English or Hindi**. Add it to your own Lexicon. |
+| 🔄 **Turn the page over** | The back of every page explains it in simple English, gives an everyday example, and shows the passage exactly as the author wrote it. |
+| 🧭 **Themes across books** | Power, Anger, Time, Friendship and 10 more: one idea traced through many authors. |
+| 🤔 **What would they do?** | Everyday problems (a colleague steals credit, a rival provokes you) answered by three old books. |
 | 💬 **Tap any quote** | "What does this actually mean?" A simpler version plus where you'd see it in real life. |
 | 📖 **Reading Now** | Every book you have open, with progress, minutes left and when you last read it, plus the ones you have finished. |
 | 🧠 **Daily Recall** | Spaced repetition brings back your words and quotes right before you'd forget them. |
@@ -40,7 +43,8 @@ You bought it. You opened it. Page three, a sentence 90 words long, and you were
 | 🗺 **Reading Journeys** | *Power in 7 Days*, *Calm in 7 Days*, *Win People Over in 5 Days*: three pages a day from several books on one theme. |
 | 🔊 **Read aloud** | Your phone's own voice reads any folio to you. |
 | 🏆 **Quotas, streaks, levels** | A daily goal, streaks, ranks from *Page* to *Prince of Letters*, and celebrations ("You have read 100 pages!"). |
-| 🖼 **Share quote cards** | Any quote becomes a printed plate ready for WhatsApp or Instagram. |
+| 🖼 **Share studio** | Any quote as an Instagram Story, post or square, in the book's own binding colours, a colour per chapter, paper or night. |
+| 📤 **Export your notes** | Your words and quotes as a PDF, Markdown, or an Anki flashcard deck. |
 | 🌅 **Home-screen widget + reminder** | Quote of the day on your home screen and a gentle nudge at your chosen hour. |
 | 📕 **Bind your own PDF** | Import any PDF and Folio binds it into flashcards. |
 | 🌙 **Lamplight mode, text size, line spacing** | Comfortable at midnight, comfortable at 60. |
@@ -107,6 +111,10 @@ What we hope to add next. Updates arrive inside the app, no reinstall needed.
 Have an idea? [Open an issue](https://github.com/purvalsingh/folio/issues/new) or ⭐ star the repo to follow along.
 
 ## Install
+
+**iPhone:** open [purvalsingh.github.io/folio](https://purvalsingh.github.io/folio/) in Safari, tap **Share** ⬆, then **Add to Home Screen**. That's it: Folio gets its own icon and works offline.
+
+**Android:**
 
 1. Download [**Folio.apk**](https://github.com/purvalsingh/folio/releases/latest/download/Folio.apk) on your Android phone (Android 8+).
 2. Open it and allow "install from this source" when asked.
