@@ -1,0 +1,112 @@
+{
+ "id": "thinketh",
+ "title": "As a Man Thinketh",
+ "short": "James Allen",
+ "author": "James Allen",
+ "year": "1903",
+ "translator": "Original English text (public domain, Project Gutenberg #4507)",
+ "era": "modern",
+ "shelf": "Mind & the Crowd",
+ "blurb": "A tiny classic of self-help: your thoughts are seeds, your life is the garden.",
+ "version": 2,
+ "cover": "thinketh_cover",
+ "glossary": {
+  "cultivated": {
+   "m": "Carefully grown or developed.",
+   "e": "She cultivated a habit of reading daily."
+  },
+  "circumstance": {
+   "m": "A condition or fact around you.",
+   "e": "Bad circumstances can still teach good lessons."
+  },
+  "circumstances": {
+   "m": "A condition or fact around you.",
+   "e": "Bad circumstances can still teach good lessons.",
+   "root": "circumstance"
+  },
+  "calmness": {
+   "m": "The state of being calm.",
+   "e": "Her calmness in the exam hall helped her think."
+  }
+ },
+ "cards": [
+  {
+   "ch": "Thought and Character",
+   "chTitle": "",
+   "title": "You are what you think",
+   "text": "Allen starts from an old proverb: as a man thinks in his heart, so he is. Character, he says, is the sum of all our thoughts.",
+   "quote": "\"As a man thinketh in his heart so is he,\"",
+   "qMean": "Who you are comes from what you think.",
+   "qLife": "Telling yourself 'I'm a learner' makes you keep learning.",
+   "orig": "THE aphorism, \"As a man thinketh in his heart so is he,\" not only embraces the whole of a man's being, but is so comprehensive as to reach out to every condition and circumstance of his life. A man is literally what he thinks, his character being the complete sum of all his thoughts.\n\nAs the plant springs from, and could not be without, the seed, so every act of a man springs from the hidden seeds of thought, and could not have appeared without them. This applies equally to those acts called \"spontaneous\" and \"unpremeditated\" as to those, which are deliberately executed.",
+   "origFrom": "James Allen, As a Man Thinketh (1903)",
+   "img": "thinketh_01",
+   "cap": "The Thinker, Rodin · public domain"
+  },
+  {
+   "ch": "Effect of Thought on Circumstances",
+   "chTitle": "",
+   "title": "The mind is a garden",
+   "text": "The mind is like a garden. Plant nothing and weeds grow on their own. A good gardener pulls out weeds and plants flowers; a wise person does the same with thoughts.",
+   "quote": "MAN'S mind may be likened to a garden, which may be intelligently cultivated or allowed to run wild",
+   "qMean": "Your mind is a garden: tend it or it grows weeds.",
+   "qLife": "Choosing what to watch and read instead of scrolling whatever comes.",
+   "orig": "MAN'S mind may be likened to a garden, which may be intelligently cultivated or allowed to run wild; but whether cultivated or neglected, it must, and will, bring forth. If no useful seeds are put into it, then an abundance of useless weed-seeds will fall therein, and will continue to produce their kind.\n\nJust as a gardener cultivates his plot, keeping it free from weeds, and growing the flowers and fruits which he requires, so may a man tend the garden of his mind, weeding out all the wrong, useless, and impure thoughts, and cultivating toward perfection the flowers and fruits of right, useful, and pure thoughts. By pursuing this process, a man sooner or later discovers that he is the master-gardener of his soul, the director of his life. He also reveals, within himself, the laws of thought, and understands, with ever-increasing accuracy, how the thought-forces and mind elements operate in the shaping of his character, circumstances, and destiny.",
+   "origFrom": "James Allen, As a Man Thinketh (1903)",
+   "img": "thinketh_02",
+   "cap": "The Garden Palace- interior of the Victorian Court · public domain"
+  },
+  {
+   "ch": "Effect of Thought on Circumstances",
+   "chTitle": "",
+   "title": "Circumstance reveals",
+   "text": "Hard situations don't create who we are; they show it. The habits of thought we built quietly come out when life tests us.",
+   "quote": "Circumstance does not make the man; it reveals him to himself",
+   "qMean": "Situations don't make you; they show who you already are.",
+   "qLife": "A crisis at work shows who stays calm and who panics.",
+   "orig": "A man does not come to the almshouse or the jail by the tyranny of fate or circumstance, but by the pathway of grovelling thoughts and base desires. Nor does a pure-minded man fall suddenly into crime by stress of any mere external force; the criminal thought had long been secretly fostered in the heart, and the hour of opportunity revealed its gathered power. Circumstance does not make the man; it reveals him to himself No such conditions can exist as descending into vice and its attendant sufferings apart from vicious inclinations, or ascending into virtue and its pure happiness without the continued cultivation of virtuous aspirations; and man, therefore, as the lord and master of thought, is the maker of himself the shaper and author of environment. Even at birth the soul comes to its own and through every step of its earthly pilgrimage it attracts those combinations of conditions which reveal itself, which are the reflections of its own purity and, impurity, its strength and weakness.",
+   "origFrom": "James Allen, As a Man Thinketh (1903)",
+   "img": "thinketh_03",
+   "cap": "T. C. Hart - Hart-98135 - Storm at sea · public domain"
+  },
+  {
+   "ch": "Effect of Thought on Circumstances",
+   "chTitle": "",
+   "title": "Change yourself first",
+   "text": "People want better lives but don't want to change their habits, so they stay stuck. Improve yourself and your situation follows.",
+   "quote": "Men are anxious to improve their circumstances, but are unwilling to improve themselves; they therefore remain bound.",
+   "qMean": "People want better lives but won't change themselves, so they stay stuck.",
+   "qLife": "Wanting a promotion but not learning the new skill it needs.",
+   "orig": "Men are anxious to improve their circumstances, but are unwilling to improve themselves; they therefore remain bound. The man who does not shrink from self-crucifixion can never fail to accomplish the object upon which his heart is set. This is as true of earthly as of heavenly things. Even the man whose sole object is to acquire wealth must be prepared to make great personal sacrifices before he can accomplish his object; and how much more so he who would realize a strong and well-poised life?",
+   "origFrom": "James Allen, As a Man Thinketh (1903)",
+   "img": "thinketh_04",
+   "cap": "American 19th Century, Man Named Hubbard Reading \"Boston Atlas\", 1843 or after · public domain"
+  },
+  {
+   "ch": "Thought and Purpose",
+   "chTitle": "",
+   "title": "Purpose makes thought powerful",
+   "text": "Thought joined to a clear purpose becomes a creative force. Without aim, thoughts wander and waste energy.",
+   "quote": "Thought allied fearlessly to purpose becomes creative force",
+   "qMean": "Thinking with a clear goal turns ideas into results.",
+   "qLife": "A clear plan to save for a bike makes small savings add up.",
+   "orig": "He who has conquered doubt and fear has conquered failure. His every thought is allied with power, and all difficulties are bravely met and wisely overcome. His purposes are seasonably planted, and they bloom and bring forth fruit, which does not fall prematurely to the ground.\n\nThought allied fearlessly to purpose becomes creative force: he who knows this is ready to become something higher and stronger than a mere bundle of wavering thoughts and fluctuating sensations; he who does this has become the conscious and intelligent wielder of his mental powers.\n\nTHE THOUGHT-FACTOR IN ACHIEVEMENT",
+   "origFrom": "James Allen, As a Man Thinketh (1903)",
+   "img": "thinketh_05",
+   "cap": "Johann Hamza blacksmiths forge 1900 · public domain"
+  },
+  {
+   "ch": "Serenity",
+   "chTitle": "",
+   "title": "Calm is power",
+   "text": "The book ends with calm: it comes from long practice in self-control, and it is a jewel of wisdom. Self-control is strength; calmness is power.",
+   "quote": "Self-control is strength; Right Thought is mastery; Calmness is power.",
+   "qMean": "Controlling yourself is strength, and staying calm is power.",
+   "qLife": "The calm negotiator usually gets the better deal.",
+   "orig": "Tempest-tossed souls, wherever ye may be, under whatsoever conditions ye may live, know this in the ocean of life the isles of Blessedness are smiling, and the sunny shore of your ideal awaits your coming. Keep your hand firmly upon the helm of thought. In the bark of your soul reclines the commanding Master; He does but sleep: wake Him. Self-control is strength; Right Thought is mastery; Calmness is power. Say unto your heart, \"Peace, be still!\"",
+   "origFrom": "James Allen, As a Man Thinketh (1903)",
+   "img": "thinketh_06",
+   "cap": "Dubovskoy Calm before a storm Minsk · public domain"
+  }
+ ]
+}

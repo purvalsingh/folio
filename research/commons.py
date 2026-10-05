@@ -25,7 +25,7 @@ def get(url):
         except Exception:
             if k == 4: raise
             time.sleep(4 * (k + 1))
-def pick(q, skip=0):
+def pick(q, skip=0, used=()):
     api = "https://commons.wikimedia.org/w/api.php?" + urllib.parse.urlencode(dict(
         action="query", format="json", generator="search", gsrsearch=q + " filetype:bitmap", gsrnamespace=6, gsrlimit=12,
         prop="imageinfo", iiprop="url|extmetadata|size", iiurlwidth=1000))
@@ -37,6 +37,7 @@ def pick(q, skip=0):
         if not re.search(r"public domain|^PD|CC0", lic, re.I): continue
         if ii["width"] < 500: continue
         if not 0.55 <= ii["width"] / ii["height"] <= 2.0: continue  # skip long scrolls / tall strips
+        if p["title"] in used: continue  # never the same picture twice in one book
         ok.append((p["title"], ii["thumburl"], lic))
     return ok[skip] if len(ok) > skip else None
 BOOK = "prince"
@@ -48,7 +49,8 @@ credits = json.loads(pathlib.Path("commons/credits.json").read_text()) if pathli
 for i in ids:
     skip = 0; q = Q.get(i)
     if ":" in i: i, skip = i.split(":")[0], int(i.split(":")[1]); q = Q[i]
-    r = pick(q, skip)
+    used = {v["file"] for k, v in credits.items() if k.startswith(BOOK + "_") and k != f"{BOOK}_{i}"}
+    r = pick(q, skip, used)
     if not r: print(i, "NONE", q); continue
     title, url, lic = r
     (pathlib.Path("commons") / f"{BOOK}_{i}.jpg").write_bytes(get(url))

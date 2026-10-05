@@ -1,0 +1,167 @@
+{
+ "id": "meditations",
+ "title": "Meditations",
+ "short": "Marcus Aurelius",
+ "author": "Marcus Aurelius",
+ "year": "c. 175",
+ "translator": "Meric Casaubon, 1634 (public domain, Project Gutenberg #2680)",
+ "era": "ancient",
+ "shelf": "Stoic Wisdom",
+ "blurb": "The private notebook of a Roman emperor, written in army camps at night: how to stay calm, fair and useful when the world is not.",
+ "version": 2,
+ "cover": "meditations_cover",
+ "glossary": {
+  "betimes": {
+   "m": "Early; in good time (old use).",
+   "e": "Betimes on Monday, plan the week before the emails arrive."
+  },
+  "railer": {
+   "m": "Someone who complains or insults angrily.",
+   "e": "Every office has a railer who hates every new rule."
+  },
+  "meek": {
+   "m": "Gentle and patient; not easily angered.",
+   "e": "The meek waiter stayed polite with the rudest customer."
+  },
+  "vanity": {
+   "m": "Too much pride in yourself or your looks.",
+   "e": "Posting ten selfies a day can be vanity."
+  },
+  "brambles": {
+   "m": "Prickly wild bushes.",
+   "e": "We took the long path to avoid the brambles."
+  }
+ },
+ "cards": [
+  {
+   "ch": "Book I",
+   "chTitle": "Debts of Gratitude",
+   "title": "Thank you, grandfather",
+   "text": "Marcus opens not with ideas but with thanks. Line by line he lists what each person taught him: gentleness from his grandfather, modesty from his father, generosity from his mother. Before he lectures himself, he remembers that character is borrowed from the people we admire.",
+   "quote": "Of my grandfather Verus I have learned to be gentle and meek, and to refrain from all anger and passion.",
+   "qMean": "From my grandfather I learned to be gentle and to control my temper.",
+   "qLife": "Noticing you handle stress calmly because your mum always did.",
+   "orig": "I. Of my grandfather Verus I have learned to be gentle and meek, and to refrain from all anger and passion. From the fame and memory of him that begot me I have learned both shamefastness and manlike behaviour. Of my mother I have learned to be religious, and bountiful; and to forbear, not only to do, but to intend any evil; to content myself with a spare diet, and to fly all such excess as is incidental to great wealth. Of my great-grandfather, both to frequent public schools and auditories, and to get me good and able teachers at home; and that I ought not to think much, if upon such occasions, I were at excessive charges.",
+   "origFrom": "Marcus Aurelius, Meditations (tr. Casaubon, 1634)",
+   "img": "meditations_01",
+   "cap": "Marcus Aurelius, marble head · public domain"
+  },
+  {
+   "ch": "Book II",
+   "chTitle": "Morning Preparation",
+   "title": "Expect difficult people",
+   "text": "Each morning, Marcus warns himself: today I will meet rude, ungrateful, jealous people. They act this way from ignorance of what is truly good. Since we are made to work together, like hands and feet, he refuses to be harmed by them or to hate them.",
+   "quote": "Betimes in the morning say to thyself, This day I shalt have to do with an idle curious man, with an unthankful man, a railer, a crafty, false, or an envious man",
+   "qMean": "Every morning, remind yourself you will meet nosy, ungrateful, rude or jealous people today.",
+   "qLife": "Walking into a family wedding already decided not to let your one difficult uncle ruin it.",
+   "orig": "XV. In the country of the Quadi at Granua, these. Betimes in the morning say to thyself, This day I shalt have to do with an idle curious man, with an unthankful man, a railer, a crafty, false, or an envious man; an unsociable uncharitable man. All these ill qualities have happened unto them, through ignorance of that which is truly good and truly bad. But I that understand the nature of that which is good, that it only is to be desired, and of that which is bad, that it only is truly odious and shameful: who know moreover, that this transgressor, whosoever he be, is my kinsman, not by the same blood and seed, but by participation of the same reason, and of the same divine particle; How can I either be hurt by any of those, since it is not in their power to make me incur anything that is truly reproachful? or angry, and ill affected towards him, who by nature is so near unto me? for we are all born to be fellow-workers, as the feet, the hands, and the eyelids; as the rows of the upper and under teeth: for such therefore to be in opposition, is against nature; and what is it to chafe at, and to be averse from, but to be in opposition?",
+   "origFrom": "Marcus Aurelius, Meditations (tr. Casaubon, 1634)",
+   "img": "meditations_02",
+   "cap": "Column of Marcus Aurelius, relief · public domain"
+  },
+  {
+   "ch": "Book II",
+   "chTitle": "No More Delay",
+   "title": "Stop putting it off",
+   "text": "How many times have you said 'tomorrow'? Marcus tells himself his time is limited; if he wastes it, it will pass and never return. The cure for anxiety is simple: do the task in front of you as if it were the last thing you'll ever do — carefully, honestly, without fuss.",
+   "quote": "Remember how long thou hast already put off these things",
+   "qMean": "Think about how long you've been postponing what matters.",
+   "qLife": "The gym membership you've 'started next Monday' for a year.",
+   "orig": "I. Remember how long thou hast already put off these things, and how often a certain day and hour as it were, having been set unto thee by the gods, thou hast neglected it. It is high time for thee to understand the true nature both of the world, whereof thou art a part; and of that Lord and Governor of the world, from whom, as a channel from the spring, thou thyself didst flow: and that there is but a certain limit of time appointed unto thee, which if thou shalt not make use of to calm and allay the many distempers of thy soul, it will pass away and thou with it, and never after return.",
+   "origFrom": "Marcus Aurelius, Meditations (tr. Casaubon, 1634)",
+   "img": "meditations_03",
+   "cap": "Lord and lady walking with figure of death hiding behind a tree, holding an hourglass, after Dürer · public domain"
+  },
+  {
+   "ch": "Book II",
+   "chTitle": "Act As If It's the Last",
+   "title": "The last action",
+   "text": "Do each thing as if it were your final act: without show, without selfishness, without complaining. This takes away the restless worry that ruins most days. Few rules are needed for a good life, and the gods ask nothing more.",
+   "quote": "if thou shalt go about every action as thy last action, free from all vanity",
+   "qMean": "Do everything as if it were the last thing you'll do — without showing off.",
+   "qLife": "Writing a birthday message as if it might be the last one you send that person.",
+   "orig": "II. Let it be thy earnest and incessant care as a Roman and a man to perform whatsoever it is that thou art about, with true and unfeigned gravity, natural affection, freedom and justice: and as for all other cares, and imaginations, how thou mayest ease thy mind of them. Which thou shalt do; if thou shalt go about every action as thy last action, free from all vanity, all passionate and wilful aberration from reason, and from all hypocrisy, and self-love, and dislike of those things, which by the fates or appointment of God have happened unto thee. Thou seest that those things, which for a man to hold on in a prosperous course, and to live a divine life, are requisite and necessary, are not many, for the gods will require no more of any man, that shall but keep and observe these things.",
+   "origFrom": "Marcus Aurelius, Meditations (tr. Casaubon, 1634)",
+   "img": "meditations_04",
+   "cap": "Père Duchesne wood engraving Memento Mori · public domain"
+  },
+  {
+   "ch": "Book IV",
+   "chTitle": "The Inner Citadel",
+   "title": "Retreat into yourself",
+   "text": "People look for peace in country houses and beaches. Marcus says you can retreat any time — into your own mind. Keep a few short, true principles ready, and a moment of reflection will refresh you better than any holiday.",
+   "quote": "At what time soever thou wilt, it is in thy power to retire into thyself, and to be at rest",
+   "qMean": "Whenever you choose, you can step back into your own mind and find calm.",
+   "qLife": "Three slow breaths in a crowded metro instead of losing your temper.",
+   "orig": "III. They seek for themselves private retiring places, as country villages, the sea-shore, mountains; yea thou thyself art wont to long much after such places. But all this thou must know proceeds from simplicity in the highest degree. At what time soever thou wilt, it is in thy power to retire into thyself, and to be at rest, and free from all businesses. A man cannot any whither retire better than to his own soul; he especially who is beforehand provided of such things within, which whensoever he doth withdraw himself to look in, may presently afford unto him perfect ease and tranquillity. By tranquillity I understand a decent orderly disposition and carriage, free from all confusion and tumultuousness. Afford then thyself this retiring continually, and thereby refresh and renew thyself. Let these precepts be brief and fundamental, which as soon as thou dost call them to mind, may suffice thee to purge thy soul throughly, and to send thee away well pleased with those things whatsoever they be, which now again after this short withdrawing of thy soul into herself thou dost return unto. …",
+   "origFrom": "Marcus Aurelius, Meditations (tr. Casaubon, 1634)",
+   "img": "meditations_05",
+   "cap": "Roman villa fresco, Oplontis · public domain"
+  },
+  {
+   "ch": "Book IV",
+   "chTitle": "Everything Changes",
+   "title": "This world is change",
+   "text": "Look around: everything you see will soon change and vanish, as you have already seen many things change in your own lifetime. Most of our suffering comes from opinions, not from things. Change the opinion and the hurt changes too.",
+   "quote": "This world is mere change, and this life, opinion.",
+   "qMean": "Everything keeps changing, and how we feel about life depends on our views of it.",
+   "qLife": "The exam that felt like the end of the world at sixteen barely matters at twenty-five.",
+   "orig": "… and of this part, how many in number, and what manner of men are they, that will commend thee? What remains then, but that thou often put in practice this kind of retiring of thyself, to this little part of thyself; and above all things, keep thyself from distraction, and intend not anything vehemently, but be free and consider all things, as a man whose proper object is Virtue, as a man whose true nature is to be kind and sociable, as a citizen, as a mortal creature. Among other things, which to consider, and look into thou must use to withdraw thyself, let those two be among the most obvious and at hand. One, that the things or objects themselves reach not unto the soul, but stand without still and quiet, and that it is from the opinion only which is within, that all the tumult and all the trouble doth proceed. The next, that all these things, which now thou seest, shall within a very little while be changed, and be no more: and ever call to mind, how many changes and alterations in the world thou thyself hast already been an eyewitness of in thy time. This world is mere change, and this life, opinion.",
+   "origFrom": "Marcus Aurelius, Meditations (tr. Casaubon, 1634)",
+   "img": "meditations_06",
+   "cap": "Piranesi, Roman ruins · public domain"
+  },
+  {
+   "ch": "Book IV",
+   "chTitle": "Fame Fades",
+   "title": "Fame is a breath",
+   "text": "Many people have never heard your name, many who have will soon forget it, and some who praise you today will mock you tomorrow. So don't build your life on fame or praise; build it on doing what is right.",
+   "quote": "how many that will soon forget it; how many who but even now did commend thee, within a very little while perchance will speak ill of thee",
+   "qMean": "People who praise you now may forget you or criticise you soon.",
+   "qLife": "A viral post's fans move on to someone else within a week.",
+   "orig": "XXIX. From some high place as it were to look down, and to behold here flocks, and there sacrifices, without number; and all kind of navigation; some in a rough and stormy sea, and some in a calm: the general differences, or different estates of things, some, that are now first upon being; the several and mutual relations of those things that are together; and some other things that are at their last. Their lives also, who were long ago, and theirs who shall be hereafter, and the present estate and life of those many nations of barbarians that are now in the world, thou must likewise consider in thy mind. And how many there be, who never so much as heard of thy name, how many that will soon forget it; how many who but even now did commend thee, within a very little while perchance will speak ill of thee. So that neither fame, nor honour, nor anything else that this world doth afford, is worth the while. The sum then of all; whatsoever doth happen unto thee, whereof God is the cause, to accept it contentedly: whatsoever thou doest, whereof thou thyself art the cause, to do it justly: which will be, if both in thy resolution and in thy action thou have no further end, than to do good unto others, as being that, which by thy natural constitution, as a man, thou art bound unto.",
+   "origFrom": "Marcus Aurelius, Meditations (tr. Casaubon, 1634)",
+   "img": "meditations_07",
+   "cap": "Piranesi, View of the Roman Forum · public domain"
+  },
+  {
+   "ch": "Book V",
+   "chTitle": "Getting Out of Bed",
+   "title": "Get up — there's work to do",
+   "text": "On mornings when he wants to stay under the blanket, Marcus argues with himself: was I born only to feel warm? Plants, birds and bees all do their work; should a human refuse to do a human's work?",
+   "quote": "In the morning when thou findest thyself unwilling to rise, consider with thyself presently, it is to go about a man's work that I am stirred up.",
+   "qMean": "When you don't want to get up, remind yourself you're getting up to do your real work.",
+   "qLife": "Turning off the snooze button by thinking of the people counting on you today.",
+   "orig": "I. In the morning when thou findest thyself unwilling to rise, consider with thyself presently, it is to go about a man's work that I am stirred up. Am I then yet unwilling to go about that, for which I myself was born and brought forth into this world? Or was I made for this, to lay me down, and make much of myself in a warm bed? 'O but this is pleasing.' And was it then for this that thou wert born, that thou mightest enjoy pleasure? Was it not in very truth for this, that thou mightest always be busy and in action? Seest thou not how all things in the world besides, how every tree md plant, how sparrows and ants, spiders and bees: how all in their kind are intent as it were orderly to perform whatsoever (towards the preservation of this orderly universe) naturally doth become and belong unto thin? And wilt not thou do that, which belongs unto a man to do? Wilt not thou run to do that, which thy nature doth require? 'But thou must have some rest.' Yes, thou must. Nature hath of that also, as well as of eating and drinking, allowed thee a certain stint. …",
+   "origFrom": "Marcus Aurelius, Meditations (tr. Casaubon, 1634)",
+   "img": "meditations_08",
+   "cap": "After Guido Reni, Aurora · public domain"
+  },
+  {
+   "ch": "Book VI",
+   "chTitle": "The Future",
+   "title": "Don't fear tomorrow",
+   "text": "Worrying about the future is wasted strength. Whatever comes, you will face it with the same reason that helps you handle today. Be ready, not anxious.",
+   "quote": "Let not things future trouble thee.",
+   "qMean": "Don't let worries about the future upset you now.",
+   "qLife": "Preparing for an interview, then sleeping well instead of imagining every bad outcome.",
+   "orig": "VI. Let not things future trouble thee. For if necessity so require that they come to pass, thou shalt (whensoever that is) be provided for them with the same reason, by which whatsoever is now present, is made both tolerable and acceptable unto thee. All things are linked and knitted together, and the knot is sacred, neither is there anything in the world, that is not kind and natural in regard of any other thing, or, that hath not some kind of reference and natural correspondence with whatsoever is in the world besides. For all things are ranked together, and by that decency of its due place and order that each particular doth observe, they all concur together to the making of one and the same κόσμος or world: as if you said, a comely piece, or an orderly composition. For all things throughout, there is but one and the same order; and through all things, one and the same God, the same substance and the same law. There is one common reason, and one common truth, that belongs unto all reasonable creatures, for neither is there save one perfection of all creatures that are of the same kind, and partakers of the same reason.",
+   "origFrom": "Marcus Aurelius, Meditations (tr. Casaubon, 1634)",
+   "img": "meditations_09",
+   "cap": "Portrait of a philosopher, engraving · public domain"
+  },
+  {
+   "ch": "Book VIII",
+   "chTitle": "Bitter Cucumbers",
+   "title": "Just step around it",
+   "text": "A bitter cucumber? Throw it away. Brambles on the path? Walk around them. Don't add a complaint about why such things exist. Most of life's small annoyances need action or acceptance, not philosophy.",
+   "quote": "Is the cucumber bitter? set it away. Brambles are in the way? avoid them.",
+   "qMean": "If something's bad, put it aside; if something's in the way, go around it.",
+   "qLife": "A slow app? Delete it and move on instead of ranting online.",
+   "orig": "XLVIII. Is the cucumber bitter? set it away. Brambles are in the way? avoid them. Let this suffice. Add not presently speaking unto thyself, What serve these things for in the world? For, this, one that is acquainted with the mysteries of nature, will laugh at thee for it; as a carpenter would or a shoemaker, if meeting in either of their shops with some shavings, or small remnants of their work, thou shouldest blame them for it. And yet those men, it is not for want of a place where to throw them that they keep them in their shops for a while: but the nature of the universe hath no such out-place; but herein doth consist the wonder of her art and skill, that she having once circumscribed herself within some certain bounds and limits, whatsoever is within her that seems either corrupted, or old, or unprofitable, she can change it into herself, and of these very things can make new things; so that she needeth not to seek elsewhere out of herself either for a new supply of matter and substance, or for a place where to throw out whatsoever is irrecoverably putrid and corrupt. Thus she, as for place, so for matter and art, is herself sufficient unto herself.",
+   "origFrom": "Marcus Aurelius, Meditations (tr. Casaubon, 1634)",
+   "img": "meditations_10",
+   "cap": "Cucumber and eggplant, botanical print · public domain"
+  }
+ ]
+}
