@@ -28,6 +28,8 @@ data class Book(
     val version: Int = 1,
     /** where this book's plates live on disk; null = only the APK's assets */
     val dir: File? = null,
+    /** which bookcase shelf it stands on, e.g. "Power & Strategy" */
+    val shelf: String = "",
 ) {
     fun cardId(i: Int) = "$id#$i"
     /** Index of the first card of every chapter, used for drop caps and the contents sheet. */
@@ -73,7 +75,7 @@ object Shelf {
             o.getString("id"), o.getString("title"), o.optString("author"), o.optString("year"),
             o.optString("translator"), Era.of(o.optString("era")), o.optString("blurb"),
             o.optString("cover").ifBlank { null }, glossary, cards, imported,
-            o.optString("short").ifBlank { o.optString("author") }, o.optInt("version", 1), dir,
+            o.optString("short").ifBlank { o.optString("author") }, o.optInt("version", 1), dir, o.optString("shelf"),
         )
     }
 

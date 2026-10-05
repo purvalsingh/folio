@@ -1,0 +1,99 @@
+{
+ "id": "crowd",
+ "title": "The Crowd",
+ "short": "Gustave Le Bon",
+ "author": "Gustave Le Bon",
+ "year": "1895",
+ "translator": "English translation, 1896 (public domain, Project Gutenberg #445)",
+ "era": "victorian",
+ "shelf": "Mind & the Crowd",
+ "blurb": "A French doctor explains why sensible people turn wild in a mob — the book later studied by propagandists, marketers and dictators.",
+ "version": 1,
+ "cover": "crowd_cover",
+ "glossary": {
+  "contagion": {
+   "m": "The spreading of a feeling or idea from person to person.",
+   "e": "Laughter in a cinema spreads by contagion."
+  },
+  "affirmation": {
+   "m": "A firm statement presented as true.",
+   "e": "Ads use affirmation: 'The best tea in India.'"
+  },
+  "illusions": {
+   "m": "False ideas or beliefs that seem real.",
+   "e": "Get-rich-quick schemes sell illusions."
+  },
+  "barbarian": {
+   "m": "A wild, uncivilised person.",
+   "e": "At the match he shouted like a barbarian."
+  }
+ },
+ "cards": [
+  {
+   "ch": "Book I",
+   "chTitle": "The Mind of Crowds",
+   "title": "Down the ladder",
+   "text": "Le Bon's key idea: a person in a crowd is not the same person alone. Joining a mob, a man drops several steps down the ladder of civilisation — he becomes impulsive, emotional and easy to lead.",
+   "quote": "by the mere fact that he forms part of an organised crowd, a man descends several rungs in the ladder of civilisation.",
+   "qMean": "In a crowd, people behave less thoughtfully than they would alone.",
+   "qLife": "Normally calm fans throwing bottles after their team loses.",
+   "img": "crowd_01",
+   "cap": "The zenith of French glory; -the pinnacle of liberty · public domain"
+  },
+  {
+   "ch": "Book I",
+   "chTitle": "The Mind of Crowds",
+   "title": "Barbarian in a crowd",
+   "text": "Alone, someone may be thoughtful and educated; in a crowd, instinct takes over. Crowds feel quickly, decide quickly, and forget quickly.",
+   "quote": "Isolated, he may be a cultivated individual; in a crowd, he is a barbarian",
+   "qMean": "On your own you may be civilised; in a crowd you may act wildly.",
+   "qLife": "A polite colleague who joins a pile-on in a group chat.",
+   "img": "crowd_02",
+   "cap": "The Storming of the Bastille, 1789 · public domain"
+  },
+  {
+   "ch": "Book I",
+   "chTitle": "Contagion",
+   "title": "Feelings are contagious",
+   "text": "Emotions and actions spread through a crowd like an infection. One person panics or cheers, and soon everyone does — even against their own interests.",
+   "quote": "Contagion is a phenomenon of which it is easy to establish the presence",
+   "qMean": "Feelings spread through groups like a disease.",
+   "qLife": "One person runs at a sale and suddenly everyone is running.",
+   "img": "crowd_03",
+   "cap": "Jan Brueghel the Younger - Allegory of the Tulipomania, 1640s · public domain"
+  },
+  {
+   "ch": "Book II",
+   "chTitle": "Words and Images",
+   "title": "Words over reasons",
+   "text": "Crowds don't follow arguments; they follow words and pictures. A striking slogan can move them to things none would do alone.",
+   "quote": "allows himself to be impressed by words and images",
+   "qMean": "Crowds are moved by catchy words and pictures, not by logic.",
+   "qLife": "A short election slogan sways more voters than a long policy paper.",
+   "img": "crowd_04",
+   "cap": "The rioting mobs gathered in front of the Royal Palace, 9 March 1817 · public domain"
+  },
+  {
+   "ch": "Book II",
+   "chTitle": "Illusions",
+   "title": "Crowds want illusions",
+   "text": "Masses have never wanted hard truth. They prefer comforting illusions, and whoever supplies them becomes their master.",
+   "quote": "The masses have never thirsted after truth.",
+   "qMean": "Most people prefer comforting stories to uncomfortable facts.",
+   "qLife": "Miracle-cure ads sell better than honest doctors' advice.",
+   "img": "crowd_05",
+   "cap": "Honoré Daumier, crowd lithograph · public domain"
+  },
+  {
+   "ch": "Book II",
+   "chTitle": "How Leaders Persuade",
+   "title": "Say it, repeat it, spread it",
+   "text": "Leaders win crowds with three tools: bold affirmation without proof, endless repetition, and contagion — letting the idea spread on its own.",
+   "quote": "affirmation, repetition, and contagion",
+   "qMean": "Leaders persuade by stating things boldly, repeating them, and letting them spread.",
+   "qLife": "A jingle repeated on every channel until everyone hums it.",
+   "img": "crowd_06",
+   "cap": "Napoleon on the Battlefield of Eylau (Antoine-Jean Gros) · public domain"
+  }
+ ]
+}

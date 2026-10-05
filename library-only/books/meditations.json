@@ -1,0 +1,147 @@
+{
+ "id": "meditations",
+ "title": "Meditations",
+ "short": "Marcus Aurelius",
+ "author": "Marcus Aurelius",
+ "year": "c. 175",
+ "translator": "Meric Casaubon, 1634 (public domain, Project Gutenberg #2680)",
+ "era": "ancient",
+ "shelf": "Stoic Wisdom",
+ "blurb": "The private notebook of a Roman emperor, written in army camps at night: how to stay calm, fair and useful when the world is not.",
+ "version": 1,
+ "cover": "meditations_cover",
+ "glossary": {
+  "betimes": {
+   "m": "Early; in good time (old use).",
+   "e": "Betimes on Monday, plan the week before the emails arrive."
+  },
+  "railer": {
+   "m": "Someone who complains or insults angrily.",
+   "e": "Every office has a railer who hates every new rule."
+  },
+  "meek": {
+   "m": "Gentle and patient; not easily angered.",
+   "e": "The meek waiter stayed polite with the rudest customer."
+  },
+  "vanity": {
+   "m": "Too much pride in yourself or your looks.",
+   "e": "Posting ten selfies a day can be vanity."
+  },
+  "brambles": {
+   "m": "Prickly wild bushes.",
+   "e": "We took the long path to avoid the brambles."
+  }
+ },
+ "cards": [
+  {
+   "ch": "Book I",
+   "chTitle": "Debts of Gratitude",
+   "title": "Thank you, grandfather",
+   "text": "Marcus opens not with ideas but with thanks. Line by line he lists what each person taught him: gentleness from his grandfather, modesty from his father, generosity from his mother. Before he lectures himself, he remembers that character is borrowed from the people we admire.",
+   "quote": "Of my grandfather Verus I have learned to be gentle and meek, and to refrain from all anger and passion.",
+   "qMean": "From my grandfather I learned to be gentle and to control my temper.",
+   "qLife": "Noticing you handle stress calmly because your mum always did.",
+   "img": "meditations_01",
+   "cap": "Marcus Aurelius, marble head · public domain"
+  },
+  {
+   "ch": "Book II",
+   "chTitle": "Morning Preparation",
+   "title": "Expect difficult people",
+   "text": "Each morning, Marcus warns himself: today I will meet rude, ungrateful, jealous people. They act this way from ignorance of what is truly good. Since we are made to work together, like hands and feet, he refuses to be harmed by them or to hate them.",
+   "quote": "Betimes in the morning say to thyself, This day I shalt have to do with an idle curious man, with an unthankful man, a railer, a crafty, false, or an envious man",
+   "qMean": "Every morning, remind yourself you will meet nosy, ungrateful, rude or jealous people today.",
+   "qLife": "Walking into a family wedding already decided not to let your one difficult uncle ruin it.",
+   "img": "meditations_02",
+   "cap": "Column of Marcus Aurelius, relief · public domain"
+  },
+  {
+   "ch": "Book II",
+   "chTitle": "No More Delay",
+   "title": "Stop putting it off",
+   "text": "How many times have you said 'tomorrow'? Marcus tells himself his time is limited; if he wastes it, it will pass and never return. The cure for anxiety is simple: do the task in front of you as if it were the last thing you'll ever do — carefully, honestly, without fuss.",
+   "quote": "Remember how long thou hast already put off these things",
+   "qMean": "Think about how long you've been postponing what matters.",
+   "qLife": "The gym membership you've 'started next Monday' for a year.",
+   "img": "meditations_03",
+   "cap": "Lord and lady walking with figure of death hiding behind a tree, holding an hourglass, after Dürer · public domain"
+  },
+  {
+   "ch": "Book II",
+   "chTitle": "Act As If It's the Last",
+   "title": "The last action",
+   "text": "Do each thing as if it were your final act: without show, without selfishness, without complaining. This takes away the restless worry that ruins most days. Few rules are needed for a good life, and the gods ask nothing more.",
+   "quote": "if thou shalt go about every action as thy last action, free from all vanity",
+   "qMean": "Do everything as if it were the last thing you'll do — without showing off.",
+   "qLife": "Writing a birthday message as if it might be the last one you send that person.",
+   "img": "meditations_04",
+   "cap": "Père Duchesne wood engraving Memento Mori · public domain"
+  },
+  {
+   "ch": "Book IV",
+   "chTitle": "The Inner Citadel",
+   "title": "Retreat into yourself",
+   "text": "People look for peace in country houses and beaches. Marcus says you can retreat any time — into your own mind. Keep a few short, true principles ready, and a moment of reflection will refresh you better than any holiday.",
+   "quote": "At what time soever thou wilt, it is in thy power to retire into thyself, and to be at rest",
+   "qMean": "Whenever you choose, you can step back into your own mind and find calm.",
+   "qLife": "Three slow breaths in a crowded metro instead of losing your temper.",
+   "img": "meditations_05",
+   "cap": "Roman villa fresco, Oplontis · public domain"
+  },
+  {
+   "ch": "Book IV",
+   "chTitle": "Everything Changes",
+   "title": "This world is change",
+   "text": "Look around: everything you see will soon change and vanish, as you have already seen many things change in your own lifetime. Most of our suffering comes from opinions, not from things. Change the opinion and the hurt changes too.",
+   "quote": "This world is mere change, and this life, opinion.",
+   "qMean": "Everything keeps changing, and how we feel about life depends on our views of it.",
+   "qLife": "The exam that felt like the end of the world at sixteen barely matters at twenty-five.",
+   "img": "meditations_06",
+   "cap": "Piranesi, Roman ruins · public domain"
+  },
+  {
+   "ch": "Book IV",
+   "chTitle": "Fame Fades",
+   "title": "Fame is a breath",
+   "text": "Many people have never heard your name, many who have will soon forget it, and some who praise you today will mock you tomorrow. So don't build your life on fame or praise; build it on doing what is right.",
+   "quote": "how many that will soon forget it; how many who but even now did commend thee, within a very little while perchance will speak ill of thee",
+   "qMean": "People who praise you now may forget you or criticise you soon.",
+   "qLife": "A viral post's fans move on to someone else within a week.",
+   "img": "meditations_07",
+   "cap": "Piranesi, View of the Roman Forum · public domain"
+  },
+  {
+   "ch": "Book V",
+   "chTitle": "Getting Out of Bed",
+   "title": "Get up — there's work to do",
+   "text": "On mornings when he wants to stay under the blanket, Marcus argues with himself: was I born only to feel warm? Plants, birds and bees all do their work; should a human refuse to do a human's work?",
+   "quote": "In the morning when thou findest thyself unwilling to rise, consider with thyself presently, it is to go about a man's work that I am stirred up.",
+   "qMean": "When you don't want to get up, remind yourself you're getting up to do your real work.",
+   "qLife": "Turning off the snooze button by thinking of the people counting on you today.",
+   "img": "meditations_08",
+   "cap": "After Guido Reni, Aurora · public domain"
+  },
+  {
+   "ch": "Book VI",
+   "chTitle": "The Future",
+   "title": "Don't fear tomorrow",
+   "text": "Worrying about the future is wasted strength. Whatever comes, you will face it with the same reason that helps you handle today. Be ready, not anxious.",
+   "quote": "Let not things future trouble thee.",
+   "qMean": "Don't let worries about the future upset you now.",
+   "qLife": "Preparing for an interview, then sleeping well instead of imagining every bad outcome.",
+   "img": "meditations_09",
+   "cap": "Portrait of a philosopher, engraving · public domain"
+  },
+  {
+   "ch": "Book VIII",
+   "chTitle": "Bitter Cucumbers",
+   "title": "Just step around it",
+   "text": "A bitter cucumber? Throw it away. Brambles on the path? Walk around them. Don't add a complaint about why such things exist. Most of life's small annoyances need action or acceptance, not philosophy.",
+   "quote": "Is the cucumber bitter? set it away. Brambles are in the way? avoid them.",
+   "qMean": "If something's bad, put it aside; if something's in the way, go around it.",
+   "qLife": "A slow app? Delete it and move on instead of ranting online.",
+   "img": "meditations_10",
+   "cap": "Cucumber and eggplant, botanical print · public domain"
+  }
+ ]
+}

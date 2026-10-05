@@ -1,0 +1,57 @@
+{
+ "shelves": [
+  {
+   "name": "Power & Strategy",
+   "note": "Rulers, generals and the craft of influence"
+  },
+  {
+   "name": "Stoic Wisdom",
+   "note": "Calm in a world you cannot control"
+  },
+  {
+   "name": "Eastern Paths",
+   "note": "The Way, the Gita and the Buddha's verses"
+  },
+  {
+   "name": "Mind & the Crowd",
+   "note": "How thought shapes us, and crowds shape thought"
+  },
+  {
+   "name": "The Human Mind",
+   "note": "Habits, dreams, emotions and the unconscious"
+  },
+  {
+   "name": "Courtly Wisdom",
+   "note": "Maxims for surviving the courts of kings"
+  }
+ ],
+ "coming": [
+  {
+   "name": "Persuasion & Rhetoric",
+   "note": "In the bindery",
+   "titles": [
+    "Rhetoric",
+    "On the Orator",
+    "The Art of Speaking"
+   ]
+  },
+  {
+   "name": "War & Statecraft",
+   "note": "In the bindery",
+   "titles": [
+    "On War",
+    "Discourses on Livy",
+    "The Republic"
+   ]
+  },
+  {
+   "name": "Love & Human Nature",
+   "note": "In the bindery",
+   "titles": [
+    "The Art of Love",
+    "On Love",
+    "Characters"
+   ]
+  }
+ ]
+}

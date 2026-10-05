@@ -224,7 +224,7 @@ private fun Root(app: App) {
                     Box(Modifier.weight(1f)) {
                         AnimatedContent(tab, transitionSpec = { fadeIn(tween(220)) togetherWith fadeOut(tween(120)) }, label = "tab") { t ->
                             when (t) {
-                                Tab.LIBRARY -> LibraryScreen(app, open) { route = Route.Bind }
+                                Tab.LIBRARY -> BookcaseScreen(app, open) { route = Route.Bind }
                                 Tab.LEXICON -> LexiconScreen(app)
                                 Tab.QUOTES -> CommonplaceScreen(app, open)
                                 Tab.MARKS -> MarksScreen(app, open)

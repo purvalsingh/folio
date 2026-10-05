@@ -1,0 +1,103 @@
+{
+ "id": "dreams",
+ "title": "Dream Psychology",
+ "short": "Sigmund Freud",
+ "author": "Sigmund Freud",
+ "year": "1920",
+ "translator": "M. D. Eder, 1920 (public domain, Project Gutenberg #15489)",
+ "era": "germanic",
+ "shelf": "The Human Mind",
+ "blurb": "Freud's own short guide to his most famous idea: dreams are not nonsense — they are wishes in disguise.",
+ "version": 1,
+ "cover": "dreams_cover",
+ "glossary": {
+  "manifest": {
+   "m": "Clearly shown; visible on the surface.",
+   "e": "The manifest problem was a flat tyre; the real one was no spare."
+  },
+  "latent": {
+   "m": "Hidden; present but not yet visible.",
+   "e": "Her latent talent for drawing appeared at forty."
+  },
+  "repression": {
+   "m": "Pushing painful thoughts out of awareness.",
+   "e": "Repression made him 'forget' the embarrassing day."
+  },
+  "censorship": {
+   "m": "Blocking what is not allowed to be seen or said.",
+   "e": "The film was cut by censorship."
+  },
+  "condensation": {
+   "m": "Squeezing many things into one.",
+   "e": "In the dream, condensation made her teacher look like her aunt."
+  }
+ },
+ "cards": [
+  {
+   "ch": "Chapter I",
+   "chTitle": "Dreams Have a Meaning",
+   "title": "What you see and what it means",
+   "text": "Freud splits every dream in two: what you remember (the manifest content) and the hidden thoughts behind it (the latent content). Interpretation means going from the first to the second.",
+   "quote": "the former I call the dream's manifest content; the latter, without at first further subdivision, its latent content.",
+   "qMean": "A dream has a surface story and a hidden meaning.",
+   "qLife": "Dreaming of missing a train might really be about fearing a missed chance.",
+   "img": "dreams_01",
+   "cap": "Thomas Burke The Nightmare engraving · public domain"
+  },
+  {
+   "ch": "Chapter III",
+   "chTitle": "Why the Dream Disguises",
+   "title": "Children's dreams are simple",
+   "text": "Small children's dreams are plain: they wanted something during the day and got it in the dream. Adult dreams are harder because the wish is disguised.",
+   "quote": "They are simply and undisguisedly realizations of wishes.",
+   "qMean": "Children's dreams openly give them what they wanted.",
+   "qLife": "A kid denied ice cream dreams of an ice-cream mountain.",
+   "img": "dreams_02",
+   "cap": "Van Gogh, Child with Orange · public domain"
+  },
+  {
+   "ch": "Chapter II",
+   "chTitle": "The Dream-Work",
+   "title": "Many in one",
+   "text": "Dreams compress: one dream person can combine several real people, one place several places. Freud calls this condensation.",
+   "quote": "the more deeply you go into the analysis, the more deeply you are impressed by it.",
+   "qMean": "The more you study a dream, the more you see how much is packed into it.",
+   "qLife": "A dream house that is both your school and your grandmother's home.",
+   "img": "dreams_03",
+   "cap": "Francisco José de Goya y Lucientes - The sleep of reason produces monsters (No. 43), from Los Caprichos · public domain"
+  },
+  {
+   "ch": "Chapter IV",
+   "chTitle": "The Censor",
+   "title": "The inner censor",
+   "text": "Between the unconscious and awareness, Freud imagines a censor. It lets through only what is acceptable and pushes the rest back — and that is why dreams come in code.",
+   "quote": "a censorship is established which only passes what pleases it, keeping back everything else.",
+   "qMean": "Your mind blocks thoughts it finds unacceptable.",
+   "qLife": "Laughing off a remark that actually hurt you.",
+   "img": "dreams_04",
+   "cap": "In the Crisis Censor Stops News from Manila · public domain"
+  },
+  {
+   "ch": "Chapter IV",
+   "chTitle": "Repression",
+   "title": "Pushed out of mind",
+   "text": "What the censor rejects stays repressed — not gone, just kept out of awareness. Dreams are one of the few ways it slips back.",
+   "quote": "I call this particular condition \"Repression.\"",
+   "qMean": "Freud named this pushing-away of thoughts 'repression'.",
+   "qLife": "Not being able to remember a painful exam result at all.",
+   "img": "dreams_05",
+   "cap": "Odilon Redon - Buddha · public domain"
+  },
+  {
+   "ch": "Chapter V",
+   "chTitle": "Forgetting Dreams",
+   "title": "The part you forget matters",
+   "text": "When part of a dream vanishes as you wake, Freud says that missing piece is usually the most important clue — forgotten exactly because it was too revealing.",
+   "quote": "This fragment so forgotten invariably contains the best and readiest approach to an understanding of the dream.",
+   "qMean": "The part of a dream you forget is often the key to it.",
+   "qLife": "Remembering everything about a dream except who was in the car.",
+   "img": "dreams_06",
+   "cap": "Freud's couch, Freud Museum, London · public domain"
+  }
+ ]
+}

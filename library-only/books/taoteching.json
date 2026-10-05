@@ -1,0 +1,140 @@
+{
+ "id": "taoteching",
+ "title": "Tao Te Ching",
+ "short": "Lao Tzu",
+ "author": "Lao Tzu",
+ "year": "c. 400 BC",
+ "translator": "James Legge, 1891 (public domain, Project Gutenberg #216)",
+ "era": "eastern",
+ "shelf": "Eastern Paths",
+ "blurb": "Eighty-one tiny poems on the Way: soft beats hard, empty is useful, the leader who leads least leads best.",
+ "version": 1,
+ "cover": "taoteching_cover",
+ "glossary": {
+  "tao": {
+   "m": "'The Way' — the natural flow behind everything.",
+   "e": "Gardeners who work with the seasons follow the Tao of plants."
+  },
+  "sage": {
+   "m": "A very wise person.",
+   "e": "Grandma was the family sage everyone asked for advice."
+  },
+  "nave": {
+   "m": "The centre of a wheel where the spokes meet.",
+   "e": "The bicycle's nave was rusted."
+  },
+  "obscurity": {
+   "m": "Being unknown or unnoticed.",
+   "e": "After retiring, the famous actor lived in obscurity."
+  },
+  "excellence": {
+   "m": "Very high quality.",
+   "e": "The restaurant is known for its excellence."
+  },
+  "discerning": {
+   "m": "Good at judging things well.",
+   "e": "A discerning buyer checks reviews first."
+  }
+ },
+ "cards": [
+  {
+   "ch": "Chapter 1",
+   "chTitle": "The Nameless Way",
+   "title": "The Tao that can't be named",
+   "text": "The book opens with a puzzle: the true Way cannot be fully spoken. Any name we give it is a label, not the thing itself. Lao Tzu is warning us — words point at wisdom, but living it is something else.",
+   "quote": "The Tao that can be trodden is not the enduring and unchanging Tao.",
+   "qMean": "Any Way you can fully describe is not the deepest, everlasting Way.",
+   "qLife": "No recipe can fully capture how your mother's dal tastes.",
+   "img": "taoteching_01",
+   "cap": "Chinese landscape fan painting · public domain"
+  },
+  {
+   "ch": "Chapter 7",
+   "chTitle": "Last, Yet First",
+   "title": "Put yourself last",
+   "text": "The sage puts himself last and ends up first; he forgets himself and is kept safe. Because he has no selfish aims, his real aims are achieved.",
+   "quote": "Therefore the sage puts his own person last, and yet it is found in the foremost place",
+   "qMean": "The wise person puts themselves last, and ends up ahead.",
+   "qLife": "A captain who passes the ball and lets others score becomes the team's leader.",
+   "img": "taoteching_02",
+   "cap": "Portrait of a Chinese sage · public domain"
+  },
+  {
+   "ch": "Chapter 8",
+   "chTitle": "Like Water",
+   "title": "The highest good is like water",
+   "text": "Water helps all things and fights with none. It flows to the low places that people avoid. Lao Tzu's ideal is just as humble, useful and patient.",
+   "quote": "The highest excellence is like (that of) water.",
+   "qMean": "The best kind of goodness is like water — helpful and humble.",
+   "qLife": "A colleague who quietly helps everyone and never competes for credit.",
+   "img": "taoteching_03",
+   "cap": "The Waterfall · public domain"
+  },
+  {
+   "ch": "Chapter 9",
+   "chTitle": "Know When to Stop",
+   "title": "Step back when it's done",
+   "text": "Fill a bowl to the brim and it spills; sharpen a blade too much and it breaks. When the work is done and your name is known, step back. That is the way of Heaven.",
+   "quote": "When the work is done, and one's name is becoming distinguished, to withdraw into obscurity is the way of Heaven.",
+   "qMean": "When the job's done and you're getting famous, quietly step aside.",
+   "qLife": "A founder who hands the company to new leaders at its peak.",
+   "img": "taoteching_04",
+   "cap": "Xu Yang - Hermit's cottage in the mountains · public domain"
+  },
+  {
+   "ch": "Chapter 11",
+   "chTitle": "The Use of Emptiness",
+   "title": "Empty is useful",
+   "text": "Thirty spokes meet at the hub, but the hole in the middle makes the wheel work. A pot is useful because it is hollow; a room because of its empty space. What isn't there matters as much as what is.",
+   "quote": "The thirty spokes unite in the one nave; but it is on the empty space (for the axle), that the use of the wheel depends.",
+   "qMean": "A wheel works because of the empty space at its centre.",
+   "qLife": "A calendar with free time in it is what lets you handle surprises.",
+   "img": "taoteching_05",
+   "cap": "Chariot Wheel with Bronze Hub, Tomb of Marquis Yi of Zeng · public domain"
+  },
+  {
+   "ch": "Chapter 33",
+   "chTitle": "Knowing Yourself",
+   "title": "Mastering yourself",
+   "text": "Knowing others is cleverness; knowing yourself is wisdom. Beating others shows strength; beating your own habits shows real power. Being content is being rich.",
+   "quote": "He who knows other men is discerning; he who knows himself is intelligent.",
+   "qMean": "Understanding others is clever; understanding yourself is wise.",
+   "qLife": "Knowing you get cranky when hungry, and eating before the big meeting.",
+   "img": "taoteching_06",
+   "cap": "William Alexander - A Young Chinese Scholar · public domain"
+  },
+  {
+   "ch": "Chapter 56",
+   "chTitle": "Silent Knowing",
+   "title": "Those who know don't say",
+   "text": "People who truly understand the Way rarely lecture about it; people who talk about it constantly usually don't understand it.",
+   "quote": "He who knows (the Tao) does not (care to) speak (about it); he who is (ever ready to) speak about it does not know it.",
+   "qMean": "Those who really know don't brag; those who brag don't really know.",
+   "qLife": "The best cook in the family just cooks; the one who talks endlessly about food burns the rice.",
+   "img": "taoteching_07",
+   "cap": "The Eighteen Scholars by an anonymous Ming artist 3 · public domain"
+  },
+  {
+   "ch": "Chapter 60",
+   "chTitle": "Small Fish",
+   "title": "Govern gently",
+   "text": "Ruling a big country is like cooking small fish: poke and stir too much and they fall apart. A good ruler interferes as little as possible.",
+   "quote": "Governing a great state is like cooking small fish.",
+   "qMean": "Running a big country needs a light touch, like frying small fish.",
+   "qLife": "A manager who micromanages every email breaks the team's flow.",
+   "img": "taoteching_08",
+   "cap": "Chinese fish painting · public domain"
+  },
+  {
+   "ch": "Chapter 64",
+   "chTitle": "The First Step",
+   "title": "A thousand miles, one step",
+   "text": "Big things grow from small beginnings: a giant tree from a sprout, a tower from a heap of earth, a long journey from a single step. Handle problems while they are small.",
+   "quote": "the journey of a thousand li commenced with a single step.",
+   "qMean": "Every long journey begins with one small step.",
+   "qLife": "Writing one page today is how a whole book gets written.",
+   "img": "taoteching_09",
+   "cap": "Rocky Landscape with Pines · public domain"
+  }
+ ]
+}

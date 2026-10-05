@@ -154,133 +154,81 @@ fun Ring(fraction: Float, size: Dp, content: @Composable () -> Unit) {
 
 /* ---------- Library ---------- */
 
-@OptIn(androidx.compose.foundation.ExperimentalFoundationApi::class)
 @Composable
-fun LibraryScreen(app: App, open: (Book, Int) -> Unit, bind: () -> Unit) {
+fun LibraryScreen(app: App, open: (Book, Int) -> Unit, bind: () -> Unit) = BookcaseScreen(app, open, bind)
+
+/** Top of the Library: greeting, update notice, daily quota, rank and the book you were last reading. */
+@Composable
+fun LibraryTop(app: App, open: (Book, Int) -> Unit) {
     val ink = LocalInk.current
     val store = app.store
     val tick = store.tick
     val today = LocalDate.now()
-    var doomed by remember { mutableStateOf<Book?>(null) }
     val hour = LocalTime.now().hour
     val greet = when (hour) { in 5..11 -> "Good morrow, reader."; in 12..17 -> "Good afternoon, reader."; else -> "Good evening, reader." }
-
-    LazyColumn(Modifier.fillMaxSize(), contentPadding = PaddingValues(horizontal = 20.dp, vertical = 8.dp)) {
-        item {
-            Masthead("Folio", greet)
-            Label("${today.dayOfWeek.getDisplayName(JTextStyle.FULL, Locale.ENGLISH)} · ${roman(today.dayOfMonth)} ${today.month.getDisplayName(JTextStyle.FULL, Locale.ENGLISH)} ${roman(today.year)}", ink.faded, 11.sp)
-            Spacer(Modifier.height(16.dp))
-            UpdateBanner(app)
-        }
-        item {
-            val read = remember(tick) { store.readToday() }
-            val streak = remember(tick) { store.streak() }
-            Panel {
-                Row(verticalAlignment = Alignment.CenterVertically) {
-                    Ring(read / store.goal.toFloat(), 92.dp) {
-                        Column(horizontalAlignment = Alignment.CenterHorizontally) {
-                            Text("$read", fontFamily = Fonts.cinzel, fontSize = 26.sp, color = ink.ink)
-                            Text("of ${store.goal}", fontFamily = Fonts.fell, fontStyle = FontStyle.Italic, fontSize = 12.sp, color = ink.faded)
-                        }
-                    }
-                    Spacer(Modifier.width(16.dp))
-                    Column(Modifier.weight(1f)) {
-                        Label("Today's quota")
-                        Text(
-                            when {
-                                read >= store.goal -> "Quota kept. Anything more is glory."
-                                read == 0 -> "${store.goal} folios await. One takes a minute."
-                                else -> "${store.goal - read} more folio${if (store.goal - read == 1) "" else "s"} to keep the quota."
-                            },
-                            fontFamily = Fonts.fell, fontSize = 17.sp, lineHeight = 22.sp, color = ink.ink,
-                        )
-                        Spacer(Modifier.height(8.dp))
-                        Row(verticalAlignment = Alignment.CenterVertically) {
-                            remember(tick) { store.week() }.forEach { (d, n) ->
-                                Column(horizontalAlignment = Alignment.CenterHorizontally, modifier = Modifier.padding(end = 6.dp)) {
-                                    Box(Modifier.size(12.dp).clip(CircleShape).background(if (n > 0) ink.rubric else Color.Transparent)
-                                        .border(1.dp, if (n > 0) ink.rubric else ink.faded.copy(alpha = .5f), CircleShape))
-                                    Text(d.dayOfWeek.getDisplayName(JTextStyle.NARROW, Locale.ENGLISH), fontSize = 10.sp,
-                                        fontFamily = Fonts.fellSc, color = ink.faded)
-                                }
-                            }
-                            Spacer(Modifier.weight(1f))
-                            Text("$streak-day streak", fontFamily = Fonts.fell, fontStyle = FontStyle.Italic, fontSize = 13.sp, color = ink.faded)
-                        }
-                    }
-                }
-            }
-            Spacer(Modifier.height(12.dp))
-            LevelBar(app)
-            Spacer(Modifier.height(20.dp))
-        }
-        val last = store.lastBook?.let { app.book(it) }
-        if (last != null) item {
-            Label("Continue reading")
-            Spacer(Modifier.height(8.dp))
-            val pos = store.position[last.id] ?: 0
-            Column(Modifier.fillMaxWidth().clickable { open(last, pos) }) {
-                Plate(last, last.cards.getOrNull(pos)?.img ?: last.cover, ratio = 16f / 9f)
-                Spacer(Modifier.height(8.dp))
-                Text(last.cards.getOrNull(pos)?.title ?: last.title, fontFamily = last.era.display, fontSize = 26.sp, color = ink.ink)
-                Text("${last.title} · resume at folio ${pos + 1} of ${last.cards.size}", fontFamily = Fonts.fell,
-                    fontStyle = FontStyle.Italic, fontSize = 15.sp, color = ink.faded)
-            }
-            Spacer(Modifier.height(24.dp))
-        }
-        item { Label("The shelf"); Spacer(Modifier.height(8.dp)) }
-        items(app.books, key = { it.id }) { b ->
-            val done = remember(tick, b.id) { store.sealedCount(b.id) }
-            Row(
-                Modifier.fillMaxWidth().combinedClickable(
-                    onClick = { open(b, store.position[b.id] ?: 0) },
-                    onLongClick = { if (b.imported) doomed = b },
-                ).padding(vertical = 10.dp),
-                verticalAlignment = Alignment.CenterVertically,
-            ) {
-                Box(Modifier.width(78.dp)) { Plate(b, b.cover, ratio = 3f / 4f) }
-                Spacer(Modifier.width(14.dp))
-                Column(Modifier.weight(1f)) {
-                    Text(b.title, fontFamily = b.era.display, fontSize = 25.sp, lineHeight = 28.sp, color = ink.ink, maxLines = 2, overflow = TextOverflow.Ellipsis)
-                    Text(listOf(b.author, b.year).filter { it.isNotBlank() }.joinToString(" · "), fontFamily = Fonts.fell,
-                        fontStyle = FontStyle.Italic, fontSize = 14.sp, color = ink.faded)
-                    Text("${b.era.label} · ${b.cards.size} folios", fontFamily = Fonts.fellSc, fontSize = 12.sp, color = ink.faded)
-                    Spacer(Modifier.height(6.dp))
-                    LinearProgressIndicator(progress = { if (b.cards.isEmpty()) 0f else done / b.cards.size.toFloat() },
-                        modifier = Modifier.fillMaxWidth().height(3.dp), color = ink.rubric, trackColor = ink.rule,
-                        drawStopIndicator = {}, gapSize = 0.dp)
-                    Text(if (done == b.cards.size && done > 0) "Finis — completed" else "$done sealed", fontFamily = Fonts.fell,
-                        fontSize = 12.sp, color = if (done == b.cards.size && done > 0) ink.rubric else ink.faded)
-                }
-            }
-        }
-        item { OnlineShelf(app) }
-        item {
-            Spacer(Modifier.height(12.dp))
-            Box(
-                Modifier.fillMaxWidth().clip(RoundedCornerShape(3.dp)).border(1.dp, ink.faded.copy(alpha = .5f), RoundedCornerShape(3.dp))
-                    .clickable(onClick = bind).padding(20.dp),
-                contentAlignment = Alignment.Center,
-            ) {
+    Masthead("Folio", greet)
+    Label("${today.dayOfWeek.getDisplayName(JTextStyle.FULL, Locale.ENGLISH)} · ${roman(today.dayOfMonth)} ${today.month.getDisplayName(JTextStyle.FULL, Locale.ENGLISH)} ${roman(today.year)}", ink.faded, 11.sp)
+    Spacer(Modifier.height(14.dp))
+    UpdateBanner(app)
+    val read = remember(tick) { store.readToday() }
+    val streak = remember(tick) { store.streak() }
+    Panel {
+        Row(verticalAlignment = Alignment.CenterVertically) {
+            Ring(read / store.goal.toFloat(), 84.dp) {
                 Column(horizontalAlignment = Alignment.CenterHorizontally) {
-                    Text("✒", fontSize = 28.sp, color = ink.rubric)
-                    Text("Bind a new book", fontFamily = Fonts.fraktur, fontSize = 26.sp, color = ink.ink)
-                    Text("Give Folio any PDF — it becomes flashcards.", fontFamily = Fonts.fell, fontStyle = FontStyle.Italic,
-                        fontSize = 14.sp, color = ink.faded, textAlign = TextAlign.Center)
+                    Text("$read", fontFamily = Fonts.cinzel, fontSize = 24.sp, color = ink.ink)
+                    Text("of ${store.goal}", fontFamily = Fonts.fell, fontStyle = FontStyle.Italic, fontSize = 12.sp, color = ink.faded)
                 }
             }
-            Spacer(Modifier.height(28.dp))
+            Spacer(Modifier.width(14.dp))
+            Column(Modifier.weight(1f)) {
+                Label("Today's quota")
+                Text(
+                    when {
+                        read >= store.goal -> "Quota kept. Anything more is glory."
+                        read == 0 -> "${store.goal} folios await. One takes a minute."
+                        else -> "${store.goal - read} more folio${if (store.goal - read == 1) "" else "s"} to keep the quota."
+                    },
+                    fontFamily = Fonts.fell, fontSize = 16.sp, lineHeight = 21.sp, color = ink.ink,
+                )
+                Spacer(Modifier.height(6.dp))
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    remember(tick) { store.week() }.forEach { (d, n) ->
+                        Column(horizontalAlignment = Alignment.CenterHorizontally, modifier = Modifier.padding(end = 6.dp)) {
+                            Box(Modifier.size(11.dp).clip(CircleShape).background(if (n > 0) ink.rubric else Color.Transparent)
+                                .border(1.dp, if (n > 0) ink.rubric else ink.faded.copy(alpha = .5f), CircleShape))
+                            Text(d.dayOfWeek.getDisplayName(JTextStyle.NARROW, Locale.ENGLISH), fontSize = 10.sp, fontFamily = Fonts.fellSc, color = ink.faded)
+                        }
+                    }
+                    Spacer(Modifier.weight(1f))
+                    Text("$streak-day streak", fontFamily = Fonts.fell, fontStyle = FontStyle.Italic, fontSize = 13.sp, color = ink.faded)
+                }
+            }
         }
     }
-    doomed?.let { b ->
-        AlertDialog(
-            onDismissRequest = { doomed = null }, containerColor = ink.paper,
-            title = { Text("Unbind “${b.title}”?", fontFamily = Fonts.fell, color = ink.ink) },
-            text = { Text("The cards, plates and your progress in this book will be removed. Saved words stay in your Lexicon.", fontFamily = Fonts.fell, color = ink.ink) },
-            confirmButton = { TextButton(onClick = { app.removeBook(b); doomed = null }) { Text("Unbind", color = ink.rubric) } },
-            dismissButton = { TextButton(onClick = { doomed = null }) { Text("Keep", color = ink.ink) } },
-        )
+    Spacer(Modifier.height(12.dp))
+    LevelBar(app)
+    val last = store.lastBook?.let { app.book(it) }
+    if (last != null) {
+        Spacer(Modifier.height(16.dp))
+        val pos = store.position[last.id] ?: 0
+        Row(Modifier.fillMaxWidth().clip(RoundedCornerShape(3.dp)).clickable { open(last, pos) }.paper(ink.paper, ink).doubleRule(ink).padding(10.dp),
+            verticalAlignment = Alignment.CenterVertically) {
+            Box(Modifier.width(96.dp)) { Plate(last, last.cards.getOrNull(pos)?.img ?: last.cover) }
+            Spacer(Modifier.width(12.dp))
+            Column(Modifier.weight(1f)) {
+                Label("Continue reading", size = 11.sp)
+                Text(last.cards.getOrNull(pos)?.title ?: last.title, fontFamily = last.era.display, fontSize = 21.sp, lineHeight = 25.sp,
+                    color = ink.ink, maxLines = 2, overflow = TextOverflow.Ellipsis)
+                Text("${last.title} · folio ${pos + 1} of ${last.cards.size}", fontFamily = Fonts.fell, fontStyle = FontStyle.Italic,
+                    fontSize = 13.sp, color = ink.faded, maxLines = 1, overflow = TextOverflow.Ellipsis)
+            }
+        }
     }
+    Spacer(Modifier.height(18.dp))
+    Text("The Bookcase", fontFamily = Fonts.fraktur, fontSize = 30.sp, color = ink.ink)
+    Text("Tap a spine to pull a book from the shelf. Faded spines wait in the online library.",
+        fontFamily = Fonts.fell, fontStyle = FontStyle.Italic, fontSize = 14.sp, color = ink.faded)
 }
 
 @Composable
@@ -625,45 +573,6 @@ fun UpdateBanner(app: App) {
         }
     }
     Spacer(Modifier.height(16.dp))
-}
-
-@Composable
-fun OnlineShelf(app: App) {
-    val ink = LocalInk.current
-    val ctx = LocalContext.current
-    val scope = androidx.compose.runtime.rememberCoroutineScope()
-    val list = app.available()
-    if (list.isEmpty()) return
-    Spacer(Modifier.height(18.dp))
-    Label("From the online library")
-    Spacer(Modifier.height(6.dp))
-    list.forEach { e ->
-        var progress by remember(e.id) { mutableStateOf<Float?>(null) }
-        var error by remember(e.id) { mutableStateOf<String?>(null) }
-        Row(Modifier.fillMaxWidth().padding(vertical = 10.dp), verticalAlignment = Alignment.CenterVertically) {
-            Column(Modifier.weight(1f)) {
-                Text(e.title, fontFamily = e.era.display, fontSize = 23.sp, lineHeight = 26.sp, color = ink.ink)
-                Text(listOf(e.author, e.year).filter { it.isNotBlank() }.joinToString(" · "), fontFamily = Fonts.fell,
-                    fontStyle = FontStyle.Italic, fontSize = 14.sp, color = ink.faded)
-                Text("${e.era.label} · ${e.cards} folios · ${maxOf(1, e.sizeKb / 1024)} MB", fontFamily = Fonts.fellSc, fontSize = 12.sp, color = ink.faded)
-                if (e.blurb.isNotBlank()) Text(e.blurb, fontFamily = Fonts.fell, fontSize = 14.sp, lineHeight = 19.sp, color = ink.ink,
-                    maxLines = 3, overflow = TextOverflow.Ellipsis, modifier = Modifier.padding(top = 4.dp))
-                val p = progress
-                if (p != null) LinearProgressIndicator(progress = { p }, modifier = Modifier.fillMaxWidth().padding(top = 6.dp).height(3.dp),
-                    color = ink.rubric, trackColor = ink.rule, drawStopIndicator = {}, gapSize = 0.dp)
-                error?.let { Text(it, fontFamily = Fonts.fell, fontSize = 13.sp, color = ink.rubric) }
-            }
-            Spacer(Modifier.width(12.dp))
-            if (progress == null) Pill("Fetch", filled = false) {
-                error = null; progress = 0f
-                scope.launch {
-                    runCatching { Library.install(ctx, e) { progress = it } }
-                        .onSuccess { app.put(it); progress = null }
-                        .onFailure { progress = null; error = it.message ?: "Could not download." }
-                }
-            }
-        }
-    }
 }
 
 /* ---------- account ---------- */

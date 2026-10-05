@@ -1,5 +1,5 @@
 {
- "version": 2,
+ "version": 3,
  "id": "prince",
  "title": "The Prince",
  "author": "Niccolò Machiavelli",
@@ -7,6 +7,7 @@
  "year": "1532",
  "translator": "W. K. Marriott, 1908 (public domain, Project Gutenberg #1232)",
  "era": "renaissance",
+ "shelf": "Power & Strategy",
  "cover": "prince_cover",
  "blurb": "A banished Florentine diplomat's handbook on how power is won, held and lost. Five hundred years later it still names the game: appearances, fear, loyalty, luck.",
  "glossary": {

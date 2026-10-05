@@ -36,7 +36,7 @@ def main():
         shutil.copy2(src, LIB / "books" / src.name)
         books.append(dict(id=b["id"], version=b.get("version", 1), title=b["title"], author=b.get("author", ""),
                           year=b.get("year", ""), era=b.get("era", ""), cards=len(b["cards"]), sizeKb=size // 1024,
-                          blurb=b.get("blurb", ""), images=names))
+                          blurb=b.get("blurb", ""), images=names, shelf=b.get("shelf", "")))
     app = old.get("app")
     if len(sys.argv) >= 5 and sys.argv[1] == "--app":
         code, name, apk = int(sys.argv[2]), sys.argv[3], pathlib.Path(sys.argv[4])
@@ -45,7 +45,8 @@ def main():
                    sha256=hashlib.sha256(apk.read_bytes()).hexdigest(),
                    apk=f"https://github.com/{REPO}/releases/download/v{name}/Folio.apk")
     cloud = json.loads((ROOT / "cloud/public.json").read_text()) if (ROOT / "cloud/public.json").exists() else old.get("cloud")
-    cat = {"app": app, "books": books, "cloud": cloud}
+    sh = json.loads((EXTRA / "shelves.json").read_text()) if (EXTRA / "shelves.json").exists() else {}
+    cat = {"app": app, "books": books, "cloud": cloud, "shelves": sh.get("shelves", []), "coming": sh.get("coming", [])}
     cat_path.write_text(json.dumps(cat, ensure_ascii=False, indent=1))
     print(f"catalog: {len(books)} books" + (f", app {app['versionName']} ({app['versionCode']})" if app else ", no app release"))
 

@@ -192,9 +192,9 @@ law(48, "Assume Formlessness", "Be like water",
  "Military tactics are like unto water; for water in its natural course runs away from high places and hastens downwards.", "sunzi")
 
 ABOUT = {
- "version": 2, "id": "laws", "title": "The 48 Laws of Power", "short": "Robert Greene", "author": "Robert Greene", "year": "1998",
+ "version": 3, "id": "laws", "title": "The 48 Laws of Power", "short": "Robert Greene", "author": "Robert Greene", "year": "1998",
  "translator": "A Folio digest: original summaries of each law, with quotes from the public-domain classics behind them. Greene's book is copyrighted — read the full text in print.",
- "era": "baroque", "cover": "laws_cover", "self_src": "none",
+ "era": "baroque", "shelf": "Power & Strategy", "cover": "laws_cover", "self_src": "none",
  "blurb": "Forty-eight rules of power, from royal courts to modern offices — each law in a minute, paired with a line from Machiavelli, Sun Tzŭ, Gracián or La Rochefoucauld. Know them to use them, or to spot them used on you.",
 }
 

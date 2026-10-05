@@ -106,5 +106,154 @@
   "46": "Aristides the Just",
   "47": "Croesus on the pyre",
   "48": "The Great Wave off Kanagawa"
+ },
+ "meditations": {
+  "cover": "Equestrian statue of Marcus Aurelius",
+  "01": "Marcus Aurelius bust",
+  "02": "Column of Marcus Aurelius relief",
+  "03": "hourglass engraving",
+  "04": "memento mori engraving",
+  "05": "Roman villa garden fresco",
+  "06": "Piranesi Rome ruins",
+  "07": "Forum Romanum Piranesi",
+  "08": "Aurora Guido Reni",
+  "09": "Stoic philosopher engraving",
+  "10": "cucumber botanical illustration"
+ },
+ "enchiridion": {
+  "cover": "Epictetus engraving",
+  "01": "Epictetus portrait",
+  "02": "The Death of Socrates David",
+  "03": "Fortuna wheel woodcut",
+  "04": "Roman statue philosopher seated",
+  "05": "Roman funeral relief",
+  "06": "Roman banquet fresco",
+  "07": "Roman theatre masks mosaic",
+  "08": "Roman orator Arringatore"
+ },
+ "taoteching": {
+  "cover": "Laozi riding an ox painting",
+  "01": "Song dynasty landscape mist painting",
+  "02": "Chinese sage painting",
+  "03": "Chinese waterfall painting",
+  "04": "Chinese hermit mountain painting",
+  "05": "Chinese bronze chariot wheel",
+  "06": "Chinese scholar portrait painting",
+  "07": "Chinese scholar painting Ming",
+  "08": "Chinese carp painting",
+  "09": "Chinese landscape path hanging scroll"
+ },
+ "dhammapada": {
+  "cover": "Gandhara Buddha statue",
+  "01": "Buddha sculpture India",
+  "02": "Ajanta painting",
+  "03": "thatched hut India painting",
+  "04": "Buddha meditation painting",
+  "05": "archer Mughal painting",
+  "06": "Jataka tale painting",
+  "07": "Buddha meditation sculpture",
+  "08": "Ashoka pillar",
+  "09": "Sanchi stupa relief"
+ },
+ "arthashastra": {
+  "cover": "Lion Capital of Ashoka",
+  "01": "Indian king durbar miniature painting",
+  "02": "Indian bullock cart painting",
+  "03": "Mughal court painting justice",
+  "04": "honey bees engraving",
+  "05": "Indian fish painting",
+  "06": "Maharaja enthroned painting"
+ },
+ "crowd": {
+  "cover": "Gustave Le Bon",
+  "01": "French Revolution crowd engraving",
+  "02": "Storming of the Bastille",
+  "03": "Tulipomania Brueghel",
+  "04": "mob engraving 19th century",
+  "05": "Daumier crowd lithograph",
+  "06": "Napoleon Gros"
+ },
+ "thinketh": {
+  "cover": "cottage garden painting 19th century",
+  "01": "Rodin The Thinker",
+  "02": "Victorian gardener engraving",
+  "03": "storm at sea painting 19th century",
+  "04": "man reading painting 19th century",
+  "05": "blacksmith forge painting",
+  "06": "calm lake painting 19th century"
+ },
+ "bge": {
+  "cover": "Friedrich Nietzsche 1882",
+  "01": "Saint Michael fighting the dragon engraving",
+  "02": "Gustave Doré abyss Dante",
+  "03": "Venetian carnival mask painting",
+  "04": "Gustave Doré crowd",
+  "05": "Dürer Melencolia",
+  "06": "Gustave Doré warrior"
+ },
+ "gracian": {
+  "cover": "Baltasar Gracián portrait",
+  "01": "Las Meninas Velázquez",
+  "02": "Philip IV Velázquez",
+  "03": "The Cardsharps Caravaggio",
+  "04": "Count-Duke of Olivares Velázquez",
+  "05": "Spanish court painting 17th century",
+  "06": "Gamblers painting 17th century",
+  "07": "Vanitas painting",
+  "08": "phoenix bird woodcut"
+ },
+ "maxims": {
+  "cover": "François de La Rochefoucauld portrait",
+  "01": "French salon 17th century engraving",
+  "02": "Abraham Bosse engraving",
+  "03": "Tartuffe Molière illustration",
+  "04": "Louis XIV court painting",
+  "05": "vanity mirror painting 17th century",
+  "06": "Wheel of Fortune engraving"
+ },
+ "habit": {
+  "cover": "William James psychologist",
+  "01": "knitting woman painting 19th century",
+  "02": "Duke of Wellington portrait",
+  "03": "spinning wheel engraving",
+  "04": "pocket watch engraving",
+  "05": "Rip Van Winkle illustration",
+  "06": "staircase engraving"
+ },
+ "dreams": {
+  "cover": "Sigmund Freud portrait 1921",
+  "01": "The Nightmare Fuseli",
+  "02": "child dreaming painting",
+  "03": "Goya sleep of reason",
+  "04": "censorship caricature 19th century",
+  "05": "Odilon Redon",
+  "06": "Freud couch"
+ },
+ "emotions": {
+  "cover": "Charles Darwin 1874 portrait",
+  "01": "Duchenne de Boulogne photograph",
+  "02": "monkey engraving 19th century",
+  "03": "Expression of the Emotions in Man and Animals",
+  "04": "Le Brun passions drawing",
+  "05": "Darwin Expression of Emotions dog",
+  "06": "mother and child painting 19th century"
+ },
+ "jung": {
+  "cover": "Carl Gustav Jung portrait",
+  "01": "Joseph interprets Pharaoh's dream",
+  "02": "geological strata engraving",
+  "03": "Siegfried slays the dragon",
+  "04": "Sol and Luna alchemy",
+  "05": "Roman theatre mask",
+  "06": "Sleeping Gypsy Rousseau"
+ },
+ "redbook": {
+  "cover": "Rosarium philosophorum",
+  "01": "Splendor Solis",
+  "02": "Mutus Liber",
+  "03": "Flammarion engraving",
+  "04": "Saint George and the dragon engraving",
+  "05": "Splendor Solis king",
+  "06": "Tibetan mandala painting"
  }
 }

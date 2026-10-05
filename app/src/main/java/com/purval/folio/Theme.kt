@@ -63,6 +63,7 @@ enum class Era(val label: String, val span: String, val display: FontFamily, val
     RENAISSANCE("Renaissance", "1450–1600", Fonts.fraktur, Fonts.fell),
     BAROQUE("Baroque", "1600–1750", Fonts.copperplate, Fonts.primer, "✥", 0.9f),
     ENLIGHTENMENT("Enlightenment", "1650–1800", Fonts.pica, Fonts.pica),
+    GERMANIC("19th-c. Germany", "Fraktur print", Fonts.fraktur, Fonts.oldStandard, "✠"),
     VICTORIAN("Victorian", "1800–1900", Fonts.oldStandard, Fonts.oldStandard),
     MODERN("Modern", "1900–", Fonts.typewriter, Fonts.oldStandard);
 

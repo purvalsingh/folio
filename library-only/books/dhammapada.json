@@ -1,0 +1,136 @@
+{
+ "id": "dhammapada",
+ "title": "The Dhammapada",
+ "short": "The Buddha",
+ "author": "The Buddha (trad.)",
+ "year": "c. 250 BC",
+ "translator": "F. Max Müller, 1881 (public domain, Project Gutenberg #2017)",
+ "era": "indic",
+ "shelf": "Eastern Paths",
+ "blurb": "Short verses from the Buddha's teaching on the mind: what you think, you become.",
+ "version": 1,
+ "cover": "dhammapada_cover",
+ "glossary": {
+  "earnestness": {
+   "m": "Serious, sincere effort and alertness.",
+   "e": "Her earnestness in practice made her the best in class."
+  },
+  "nirvana": {
+   "m": "In Buddhism, freedom from suffering and desire.",
+   "e": "Monks meditate for years seeking nirvana."
+  },
+  "fletcher": {
+   "m": "A maker of arrows.",
+   "e": "The fletcher straightened each arrow over a flame."
+  },
+  "liberality": {
+   "m": "Generosity.",
+   "e": "His liberality helped the whole village build a well."
+  },
+  "passion": {
+   "m": "Strong feeling or desire.",
+   "e": "Passion for music kept him practising daily."
+  }
+ },
+ "cards": [
+  {
+   "ch": "Chapter I",
+   "chTitle": "The Twin-Verses",
+   "title": "You are your thoughts",
+   "text": "The Dhammapada begins with the mind. Everything we are comes from what we think. Act from a bad thought and pain follows like a cart wheel behind an ox; act from a pure one and happiness follows like a shadow.",
+   "quote": "All that we are is the result of what we have thought: it is founded on our thoughts, it is made up of our thoughts.",
+   "qMean": "Your life is shaped by your thoughts.",
+   "qLife": "Thinking 'I'm bad at maths' makes you stop trying — and so you stay bad at it.",
+   "img": "dhammapada_01",
+   "cap": "Seated Buddha from India · public domain"
+  },
+  {
+   "ch": "Chapter I",
+   "chTitle": "The Twin-Verses",
+   "title": "Hatred never ends hatred",
+   "text": "Answering hatred with hatred keeps it going forever. Only love — or friendliness — brings it to an end. This, says the Buddha, is an ancient law.",
+   "quote": "For hatred does not cease by hatred at any time: hatred ceases by love, this is an old rule.",
+   "qMean": "Hate never stops hate; only love stops it.",
+   "qLife": "Ending a family feud by being the first to apologise.",
+   "img": "dhammapada_02",
+   "cap": "Ajanta painting, National Museum, New Delhi · public domain"
+  },
+  {
+   "ch": "Chapter I",
+   "chTitle": "The Twin-Verses",
+   "title": "A well-thatched roof",
+   "text": "Rain leaks through a badly thatched roof; desire leaks into a mind that never reflects. A mind that pauses and thinks keeps passion out, like a good roof keeps out the rain.",
+   "quote": "As rain breaks through an ill-thatched house, passion will break through an unreflecting mind.",
+   "qMean": "A careless mind lets cravings in, like rain through a bad roof.",
+   "qLife": "Impulse-buying everything in the cart because you never stopped to think.",
+   "img": "dhammapada_03",
+   "cap": "Thatched huts by a river, Bengal · public domain"
+  },
+  {
+   "ch": "Chapter II",
+   "chTitle": "On Earnestness",
+   "title": "Wakefulness is life",
+   "text": "Alert, careful effort leads to freedom; carelessness is a kind of death. Those who stay awake to their lives truly live; the thoughtless are as if already dead.",
+   "quote": "Earnestness is the path of immortality (Nirvana), thoughtlessness the path of death.",
+   "qMean": "Paying careful attention leads to freedom; carelessness leads to ruin.",
+   "qLife": "Reading the contract carefully instead of clicking 'agree'.",
+   "img": "dhammapada_04",
+   "cap": "Buddha meditating · public domain"
+  },
+  {
+   "ch": "Chapter III",
+   "chTitle": "Thought",
+   "title": "Straighten the mind",
+   "text": "The mind trembles and wanders like a fish thrown on dry land. A wise person straightens it the way an arrow-maker straightens an arrow — patiently, with skill.",
+   "quote": "As a fletcher makes straight his arrow, a wise man makes straight his trembling and unsteady thought",
+   "qMean": "A wise person steadies their restless mind like an arrow-maker straightens an arrow.",
+   "qLife": "Bringing your attention back to the page every time your phone buzzes.",
+   "img": "dhammapada_05",
+   "cap": "Archery Competition-Mughal-India · public domain"
+  },
+  {
+   "ch": "Chapter V",
+   "chTitle": "The Fool",
+   "title": "The wise fool",
+   "text": "A fool who knows he is a fool is at least that much wise; the real fool is the one who thinks himself wise.",
+   "quote": "The fool who knows his foolishness, is wise at least so far.",
+   "qMean": "Knowing you don't know is a kind of wisdom.",
+   "qLife": "The new employee who asks questions learns faster than the one who pretends.",
+   "img": "dhammapada_06",
+   "cap": "Jataka tales, illustrated manuscript · public domain"
+  },
+  {
+   "ch": "Chapter VI",
+   "chTitle": "The Wise Man",
+   "title": "Like a rock",
+   "text": "A solid rock is not moved by the wind; the wise are not moved by praise or blame. They stay calm and clear like a deep lake.",
+   "quote": "As a solid rock is not shaken by the wind, wise people falter not amidst blame and praise.",
+   "qMean": "Wise people stay steady whether they are praised or criticised.",
+   "qLife": "Reading both good and bad comments on your work without your mood swinging.",
+   "img": "dhammapada_07",
+   "cap": "Sculpture of Buddha Muchalinda, NUS Museum · public domain"
+  },
+  {
+   "ch": "Chapter VIII",
+   "chTitle": "The Thousands",
+   "title": "The greatest victory",
+   "text": "Winning a thousand battles is less than winning over yourself. Self-mastery is a victory nobody can take away.",
+   "quote": "If one man conquer in battle a thousand times thousand men, and if another conquer himself, he is the greatest of conquerors.",
+   "qMean": "Beating your own weaknesses is greater than beating any army.",
+   "qLife": "Quitting smoking is a bigger win than any argument you ever won.",
+   "img": "dhammapada_08",
+   "cap": "Pillar of Ashoka (replica) · public domain"
+  },
+  {
+   "ch": "Chapter XVII",
+   "chTitle": "Anger",
+   "title": "Answer anger with love",
+   "text": "Overcome anger with kindness, evil with good, greed with generosity, and lies with truth.",
+   "quote": "Let a man overcome anger by love, let him overcome evil by good; let him overcome the greedy by liberality, the liar by truth!",
+   "qMean": "Beat anger with love, greed with generosity, and lies with truth.",
+   "qLife": "Replying calmly and kindly to an angry customer until they calm down too.",
+   "img": "dhammapada_09",
+   "cap": "Sanchi Stupa 2 reliefs · public domain"
+  }
+ ]
+}

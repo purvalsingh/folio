@@ -26,9 +26,10 @@ object Library {
     data class Release(val versionCode: Int, val versionName: String, val apk: String, val sha256: String, val notes: String, val sizeKb: Int)
     data class Entry(
         val id: String, val version: Int, val title: String, val author: String, val year: String,
-        val era: Era, val cards: Int, val sizeKb: Int, val blurb: String, val images: List<String>,
+        val era: Era, val cards: Int, val sizeKb: Int, val blurb: String, val images: List<String>, val shelf: String = "",
     )
-    data class Catalog(val app: Release?, val books: List<Entry>, val cloudBase: String = "", val cloudKey: String = "")
+    data class Catalog(val app: Release?, val books: List<Entry>, val cloudBase: String = "", val cloudKey: String = "",
+                       val shelves: List<ShelfInfo> = emptyList(), val coming: List<ShelfInfo> = emptyList())
 
     private fun get(url: String): HttpURLConnection = (URL(url).openConnection() as HttpURLConnection).apply {
         connectTimeout = 15000; readTimeout = 30000
@@ -50,10 +51,16 @@ object Library {
                 val imgs = b.getJSONArray("images")
                 Entry(b.getString("id"), b.getInt("version"), b.getString("title"), b.optString("author"),
                     b.optString("year"), Era.of(b.optString("era")), b.optInt("cards"), b.optInt("sizeKb"),
-                    b.optString("blurb"), (0 until imgs.length()).map { imgs.getString(it) })
+                    b.optString("blurb"), (0 until imgs.length()).map { imgs.getString(it) }, b.optString("shelf"))
             }
             val cloud = o.optJSONObject("cloud")
-            Catalog(app, books, cloud?.optString("base").orEmpty(), cloud?.optString("anonKey").orEmpty())
+            fun shelves(key: String) = o.optJSONArray(key)?.let { a ->
+                (0 until a.length()).map { a.getJSONObject(it) }.map { s ->
+                    val t = s.optJSONArray("titles")
+                    ShelfInfo(s.getString("name"), s.optString("note"), (0 until (t?.length() ?: 0)).map { t!!.getString(it) })
+                }
+            }.orEmpty()
+            Catalog(app, books, cloud?.optString("base").orEmpty(), cloud?.optString("anonKey").orEmpty(), shelves("shelves"), shelves("coming"))
         }.getOrNull()
     }
 

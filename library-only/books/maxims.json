@@ -1,0 +1,103 @@
+{
+ "id": "maxims",
+ "title": "Maxims",
+ "short": "La Rochefoucauld",
+ "author": "François de La Rochefoucauld",
+ "year": "1665",
+ "translator": "J. W. Willis Bund & J. Hain Friswell, 1871 (public domain, Project Gutenberg #9105)",
+ "era": "baroque",
+ "shelf": "Courtly Wisdom",
+ "blurb": "A French duke's razor-sharp one-liners about vanity, self-interest and the hidden motives behind our 'virtues'.",
+ "version": 1,
+ "cover": "maxims_cover",
+ "glossary": {
+  "self-love": {
+   "m": "Love of yourself; vanity.",
+   "e": "Self-love made him fish for compliments."
+  },
+  "disinterestedness": {
+   "m": "Not caring about personal gain.",
+   "e": "Her disinterestedness made her a fair judge."
+  },
+  "hypocrisy": {
+   "m": "Pretending to have virtues you don't have.",
+   "e": "Preaching saving money while splurging is hypocrisy."
+  },
+  "homage": {
+   "m": "Respect shown publicly.",
+   "e": "The crowd paid homage to the old singer."
+  },
+  "misfortunes": {
+   "m": "Bad events; bad luck.",
+   "e": "Their misfortunes included a flood and a fire."
+  }
+ },
+ "cards": [
+  {
+   "ch": "Maxim 39",
+   "chTitle": "",
+   "title": "Self-interest speaks every language",
+   "text": "Self-interest can pretend to be anything — even someone who cares nothing for gain.",
+   "quote": "Interest speaks all sorts of tongues and plays all sorts of characters; even that of disinterestedness.",
+   "qMean": "Self-interest can disguise itself as anything, even generosity.",
+   "qLife": "A 'free' trial that quietly turns into a monthly charge.",
+   "img": "maxims_01",
+   "cap": "Portrait engraving, 17th-century France · public domain"
+  },
+  {
+   "ch": "Maxim 19",
+   "chTitle": "",
+   "title": "Others' troubles are light",
+   "text": "We all have plenty of strength to bear other people's misfortunes.",
+   "quote": "We have all sufficient strength to support the misfortunes of others.",
+   "qMean": "It's easy to be brave about other people's problems.",
+   "qLife": "Telling a friend 'it's just a breakup, you'll be fine.'",
+   "img": "maxims_02",
+   "cap": "Abraham Bosse - Graveurs en taille-douce · public domain"
+  },
+  {
+   "ch": "Maxim 218",
+   "chTitle": "",
+   "title": "Hypocrisy pays respect",
+   "text": "When people fake virtue, they admit that virtue is valuable.",
+   "quote": "Hypocrisy is the homage vice pays to virtue.",
+   "qMean": "Pretending to be good shows that even bad people respect goodness.",
+   "qLife": "A polluting company adding green leaves to its logo.",
+   "img": "maxims_03",
+   "cap": "Illustration for Molière's Tartuffe · public domain"
+  },
+  {
+   "ch": "Maxim 38",
+   "chTitle": "",
+   "title": "Promises and fears",
+   "text": "We promise according to our hopes and deliver according to our fears.",
+   "quote": "We promise according to our hopes; we perform according to our fears.",
+   "qMean": "We promise big when hopeful, and do less when afraid.",
+   "qLife": "Promising to finish the project in a week, then delivering half because of worry.",
+   "img": "maxims_04",
+   "cap": "Van der Meulen, Louis XIV and his court · public domain"
+  },
+  {
+   "ch": "Maxim 2",
+   "chTitle": "",
+   "title": "The best flatterer",
+   "text": "Nobody flatters you as well as your own self-love.",
+   "quote": "Self-love is the greatest of flatterers.",
+   "qMean": "Your own vanity praises you more than anyone else does.",
+   "qLife": "Thinking you sang perfectly until you hear the recording.",
+   "img": "maxims_05",
+   "cap": "Unknown French Master - Allegory of the Vanity of Earthly Things - 2 · public domain"
+  },
+  {
+   "ch": "Maxim 49",
+   "chTitle": "",
+   "title": "Never as happy or sad",
+   "text": "We are never as happy or as unhappy as we imagine.",
+   "quote": "We are never so happy or so unhappy as we suppose.",
+   "qMean": "Good and bad times are rarely as extreme as they feel.",
+   "qLife": "The rejection that felt like the end turned out to be a small bump.",
+   "img": "maxims_06",
+   "cap": "The Triumph of Fortune · public domain"
+  }
+ ]
+}

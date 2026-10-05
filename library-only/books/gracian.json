@@ -1,0 +1,121 @@
+{
+ "id": "gracian",
+ "title": "The Art of Worldly Wisdom",
+ "short": "Baltasar Gracián",
+ "author": "Baltasar Gracián",
+ "year": "1647",
+ "translator": "Joseph Jacobs, 1892 (public domain, archive.org)",
+ "era": "baroque",
+ "shelf": "Courtly Wisdom",
+ "blurb": "Three hundred maxims by a Spanish Jesuit on getting on in a dangerous world — the source behind many of the 48 Laws.",
+ "version": 1,
+ "cover": "gracian_cover",
+ "glossary": {
+  "insipid": {
+   "m": "Dull; lacking flavour or interest.",
+   "e": "The insipid soup needed salt."
+  },
+  "thumbscrew": {
+   "m": "An old torture tool; here, the pressure point that moves someone.",
+   "e": "Praise is his thumbscrew."
+  },
+  "venial": {
+   "m": "Small and easily forgiven.",
+   "e": "Being five minutes late is a venial fault."
+  },
+  "phoenix": {
+   "m": "A mythical bird that is reborn from its ashes.",
+   "e": "The old company rose like a phoenix after bankruptcy."
+  }
+ },
+ "cards": [
+  {
+   "ch": "Maxim v",
+   "chTitle": "Create a Feeling of Dependence",
+   "title": "Be needed",
+   "text": "Gracián: people honour you while they need you, and forget you once satisfied. Keep others hoping rather than fully paid off.",
+   "quote": "The wise man would rather see men needing him than thanking him.",
+   "qMean": "It's better to be needed than just thanked.",
+   "qLife": "The plumber everyone calls back because nobody else understands the old pipes.",
+   "img": "gracian_01",
+   "cap": "Velázquez, Las Meninas · public domain"
+  },
+  {
+   "ch": "Maxim vii",
+   "chTitle": "Avoid Victories over Superiors",
+   "title": "Don't beat the boss",
+   "text": "Everyone hates being outshone, and bosses most of all. Hide your advantages from those above you.",
+   "quote": "All victories breed hate, and that over your superior is foolish or fatal.",
+   "qMean": "Winning against your boss makes them hate you.",
+   "qLife": "Not correcting your manager's spelling in front of the whole team.",
+   "img": "gracian_02",
+   "cap": "Velázquez, Philip IV as a Hunter · public domain"
+  },
+  {
+   "ch": "Maxim iii",
+   "chTitle": "Keep Matters in Suspense",
+   "title": "Don't show all your cards",
+   "text": "Novelty creates admiration. Don't announce everything at once; a little mystery makes people watch you.",
+   "quote": "It is both useless and insipid to play with the cards on the table.",
+   "qMean": "Revealing everything at once is pointless and dull.",
+   "qLife": "Teasing a product launch instead of posting all details on day one.",
+   "img": "gracian_03",
+   "cap": "Caravaggio (Michelangelo Merisi) - The Cardsharps · public domain"
+  },
+  {
+   "ch": "Maxim xxvi",
+   "chTitle": "Find out Each Man's Thumbscrew",
+   "title": "Know what moves people",
+   "text": "Everyone has a pressure point — fame, money, pleasure. Find it and you know how to move them.",
+   "quote": "Find out each Man's Thumbscrew. 'Tis the art of setting their wills in action.",
+   "qMean": "Learn what drives each person; that's how you motivate them.",
+   "qLife": "One friend joins the trip for food, another for photos — invite each with their reason.",
+   "img": "gracian_04",
+   "cap": "Count-Duke of Olivares · public domain"
+  },
+  {
+   "ch": "Maxim xliii",
+   "chTitle": "Think with the Few",
+   "title": "Think freely, speak plainly",
+   "text": "Swimming against the stream is dangerous. Hold your rare opinions among a few trusted friends, and speak like everyone else in public.",
+   "quote": "Think with the Few and speak with the Many.",
+   "qMean": "Think independently, but talk the way most people do.",
+   "qLife": "Keeping your unusual views off the family WhatsApp group.",
+   "img": "gracian_05",
+   "cap": "Portrait of a Lady, Spanish school, 17th century · public domain"
+  },
+  {
+   "ch": "Maxim xxxviii",
+   "chTitle": "Leave Your Luck while Winning",
+   "title": "Quit while ahead",
+   "text": "Good players leave the table while they're winning. A good retreat is as fine as a brave attack.",
+   "quote": "Leave your Luck while Winning. All the best players do it. A fine retreat is as good as a gallant attack.",
+   "qMean": "Stop while you're winning; a smart exit is as good as a bold move.",
+   "qLife": "Selling your shares after a big gain instead of waiting for more.",
+   "img": "gracian_06",
+   "cap": "Master of the Gamblers - The incredulity of St Thomas · public domain"
+  },
+  {
+   "ch": "Maxim lxxxiii",
+   "chTitle": "Allow Yourself some venial Fault",
+   "title": "A small flaw protects you",
+   "text": "Envy attacks perfection. A small harmless flaw makes your talent easier for others to accept.",
+   "quote": "Allow Yourself some venial Fault. Some such carelessness is often the greatest recommendation of talent.",
+   "qMean": "A small harmless flaw makes your talents more likeable.",
+   "qLife": "The brilliant student who laughs at her own terrible handwriting.",
+   "img": "gracian_07",
+   "cap": "Franciscus Gijsbrechts, Vanitas still life · public domain"
+  },
+  {
+   "ch": "Maxim lxxxi",
+   "chTitle": "Renew your Brilliance",
+   "title": "Keep reinventing",
+   "text": "Talent grows stale and fame fades. Like the phoenix, renew yourself so you don't become old news.",
+   "quote": "Renew your Brilliance. 'Tis the privilege of the Phoenix.",
+   "qMean": "Keep refreshing yourself so you stay interesting.",
+   "qLife": "A singer who changes style every few years to stay fresh.",
+   "img": "gracian_08",
+   "cap": "Gheeraerts, The Phoenix, 1568 · public domain"
+  }
+ ]
+}

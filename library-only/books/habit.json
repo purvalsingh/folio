@@ -1,0 +1,104 @@
+{
+ "id": "habit",
+ "title": "Talks on Habit",
+ "short": "William James",
+ "author": "William James",
+ "year": "1899",
+ "translator": "From Talks to Teachers on Psychology (public domain, Project Gutenberg #16287)",
+ "era": "victorian",
+ "shelf": "The Human Mind",
+ "blurb": "The father of American psychology on why we are 'walking bundles of habits' — and four rules for building better ones.",
+ "version": 1,
+ "cover": "habit_cover",
+ "glossary": {
+  "plastic": {
+   "m": "Easy to shape or change.",
+   "e": "A child's mind is plastic — it learns languages fast."
+  },
+  "habit": {
+   "m": "Something you do regularly, often without thinking.",
+   "e": "Brushing your teeth before bed is a habit."
+  },
+  "habits": {
+   "m": "Something you do regularly, often without thinking.",
+   "e": "Brushing your teeth before bed is a habit.",
+   "root": "habit"
+  },
+  "resolution": {
+   "m": "A firm decision to do something.",
+   "e": "Her New Year resolution was to read daily."
+  },
+  "gratuitous": {
+   "m": "Done without need or reason.",
+   "e": "A gratuitous cold shower builds willpower."
+  }
+ },
+ "cards": [
+  {
+   "ch": "Chapter VIII",
+   "chTitle": "The Laws of Habit",
+   "title": "Walking bundles of habits",
+   "text": "William James's warning to young people: you are setting into habits right now. Every small choice repeated becomes who you are, so pay attention while you are still 'plastic' enough to change.",
+   "quote": "how soon they will become mere walking bundles of habits",
+   "qMean": "We quickly become little more than our habits.",
+   "qLife": "Your morning phone-check routine runs on autopilot before you're even awake.",
+   "img": "habit_01",
+   "cap": "Neapolitan Woman (1866), by Bernhard Reinhold · public domain"
+  },
+  {
+   "ch": "Chapter VIII",
+   "chTitle": "The Laws of Habit",
+   "title": "Second nature",
+   "text": "Habit is a second nature — the Duke of Wellington called it ten times nature. By adulthood, our trained habits have replaced most of our natural impulses.",
+   "quote": "Habit is thus a second nature",
+   "qMean": "Habits become as natural to us as instinct.",
+   "qLife": "After years of driving, you change gear without thinking.",
+   "img": "habit_02",
+   "cap": "Sir Arthur Wellesley, 1st Duke of Wellington · public domain"
+  },
+  {
+   "ch": "Chapter VIII",
+   "chTitle": "The Laws of Habit",
+   "title": "No exceptions",
+   "text": "James's second rule for a new habit: never allow an exception until it's firmly rooted. One slip is like dropping a ball of string you're winding — it undoes many turns.",
+   "quote": "Never suffer an exception to occur till the new habit is securely rooted in your life",
+   "qMean": "Don't skip even once until a new habit is solid.",
+   "qLife": "Not missing a single morning walk in the first month.",
+   "img": "habit_03",
+   "cap": "Spinning wheel, engraving · public domain"
+  },
+  {
+   "ch": "Chapter VIII",
+   "chTitle": "The Laws of Habit",
+   "title": "Act at once",
+   "text": "Resolutions don't build habits; actions do. Act on a good intention the very first chance you get, or the feeling fades and leaves you weaker.",
+   "quote": "Seize the very first possible opportunity to act on every resolution you make",
+   "qMean": "Act on a good decision immediately, before the feeling fades.",
+   "qLife": "Signing up for the course the moment you decide, not 'next week'.",
+   "img": "habit_04",
+   "cap": "Pocket watch, 1905 · public domain"
+  },
+  {
+   "ch": "Chapter VIII",
+   "chTitle": "The Laws of Habit",
+   "title": "It's all being counted",
+   "text": "A character in a play keeps drinking, saying 'I won't count this time!' James replies: you may not count it, but your nerves and brain are counting every time.",
+   "quote": "We are spinning our own fates, good or evil, and never to be undone.",
+   "qMean": "Every small choice adds up to the life we end up with.",
+   "qLife": "'Just one more episode' every night adds up to months of lost sleep.",
+   "img": "habit_05",
+   "cap": "Rip Van Winkle and Gnomes · public domain"
+  },
+  {
+   "ch": "Chapter VIII",
+   "chTitle": "The Laws of Habit",
+   "title": "Practise being heroic",
+   "text": "Do something difficult every day for no reason except that it's difficult. Then, when a real test comes, you'll be ready — like buying insurance.",
+   "quote": "Keep the faculty of effort alive in you by a little gratuitous exercise every day.",
+   "qMean": "Do one hard thing daily just to keep your willpower strong.",
+   "qLife": "Taking the stairs instead of the lift, even when you're tired.",
+   "img": "habit_06",
+   "cap": "Staircase at Southeast Angle, Painted Chamber, Westminster · public domain"
+  }
+ ]
+}

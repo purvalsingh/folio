@@ -128,9 +128,9 @@ card("Chapter XVIII", "Deliverance", "Take refuge",
  "Make Me thy single refuge! I will free Thy soul from all its sins! Be of good cheer!")
 
 ABOUT = {
- "version": 2, "id": "gita", "title": "The Bhagavad Gita", "short": "Bhagavad Gita", "author": "Vyasa (trad.)", "year": "c. 400 BC",
+ "version": 3, "id": "gita", "title": "The Bhagavad Gita", "short": "Bhagavad Gita", "author": "Vyasa (trad.)", "year": "c. 400 BC",
  "translator": "Sir Edwin Arnold, The Song Celestial, 1885 (public domain, Project Gutenberg #2388)",
- "era": "indic", "cover": "gita_cover", "self_src": "gita",
+ "era": "indic", "shelf": "Eastern Paths", "cover": "gita_cover", "self_src": "gita",
  "blurb": "On a battlefield, a great archer loses his nerve, and his charioteer — God himself — talks him through duty, action, death and devotion. Eighteen chapters of the world's most loved spiritual dialogue.",
 }
 

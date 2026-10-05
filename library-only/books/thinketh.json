@@ -1,0 +1,100 @@
+{
+ "id": "thinketh",
+ "title": "As a Man Thinketh",
+ "short": "James Allen",
+ "author": "James Allen",
+ "year": "1903",
+ "translator": "Original English text (public domain, Project Gutenberg #4507)",
+ "era": "modern",
+ "shelf": "Mind & the Crowd",
+ "blurb": "A tiny classic of self-help: your thoughts are seeds, your life is the garden.",
+ "version": 1,
+ "cover": "thinketh_cover",
+ "glossary": {
+  "cultivated": {
+   "m": "Carefully grown or developed.",
+   "e": "She cultivated a habit of reading daily."
+  },
+  "circumstance": {
+   "m": "A condition or fact around you.",
+   "e": "Bad circumstances can still teach good lessons."
+  },
+  "circumstances": {
+   "m": "A condition or fact around you.",
+   "e": "Bad circumstances can still teach good lessons.",
+   "root": "circumstance"
+  },
+  "calmness": {
+   "m": "The state of being calm.",
+   "e": "Her calmness in the exam hall helped her think."
+  }
+ },
+ "cards": [
+  {
+   "ch": "Thought and Character",
+   "chTitle": "",
+   "title": "You are what you think",
+   "text": "Allen starts from an old proverb: as a man thinks in his heart, so he is. Character, he says, is the sum of all our thoughts.",
+   "quote": "\"As a man thinketh in his heart so is he,\"",
+   "qMean": "Who you are comes from what you think.",
+   "qLife": "Telling yourself 'I'm a learner' makes you keep learning.",
+   "img": "thinketh_01",
+   "cap": "The Thinker, Rodin · public domain"
+  },
+  {
+   "ch": "Effect of Thought on Circumstances",
+   "chTitle": "",
+   "title": "The mind is a garden",
+   "text": "The mind is like a garden. Plant nothing and weeds grow on their own. A good gardener pulls out weeds and plants flowers; a wise person does the same with thoughts.",
+   "quote": "MAN'S mind may be likened to a garden, which may be intelligently cultivated or allowed to run wild",
+   "qMean": "Your mind is a garden: tend it or it grows weeds.",
+   "qLife": "Choosing what to watch and read instead of scrolling whatever comes.",
+   "img": "thinketh_02",
+   "cap": "The Garden Palace- interior of the Victorian Court · public domain"
+  },
+  {
+   "ch": "Effect of Thought on Circumstances",
+   "chTitle": "",
+   "title": "Circumstance reveals",
+   "text": "Hard situations don't create who we are; they show it. The habits of thought we built quietly come out when life tests us.",
+   "quote": "Circumstance does not make the man; it reveals him to himself",
+   "qMean": "Situations don't make you; they show who you already are.",
+   "qLife": "A crisis at work shows who stays calm and who panics.",
+   "img": "thinketh_03",
+   "cap": "T. C. Hart - Hart-98135 - Storm at sea · public domain"
+  },
+  {
+   "ch": "Effect of Thought on Circumstances",
+   "chTitle": "",
+   "title": "Change yourself first",
+   "text": "People want better lives but don't want to change their habits, so they stay stuck. Improve yourself and your situation follows.",
+   "quote": "Men are anxious to improve their circumstances, but are unwilling to improve themselves; they therefore remain bound.",
+   "qMean": "People want better lives but won't change themselves, so they stay stuck.",
+   "qLife": "Wanting a promotion but not learning the new skill it needs.",
+   "img": "thinketh_04",
+   "cap": "American 19th Century, Man Named Hubbard Reading \"Boston Atlas\", 1843 or after · public domain"
+  },
+  {
+   "ch": "Thought and Purpose",
+   "chTitle": "",
+   "title": "Purpose makes thought powerful",
+   "text": "Thought joined to a clear purpose becomes a creative force. Without aim, thoughts wander and waste energy.",
+   "quote": "Thought allied fearlessly to purpose becomes creative force",
+   "qMean": "Thinking with a clear goal turns ideas into results.",
+   "qLife": "A clear plan to save for a bike makes small savings add up.",
+   "img": "thinketh_05",
+   "cap": "Johann Hamza blacksmiths forge 1900 · public domain"
+  },
+  {
+   "ch": "Serenity",
+   "chTitle": "",
+   "title": "Calm is power",
+   "text": "The book ends with calm: it comes from long practice in self-control, and it is a jewel of wisdom. Self-control is strength; calmness is power.",
+   "quote": "Self-control is strength; Right Thought is mastery; Calmness is power.",
+   "qMean": "Controlling yourself is strength, and staying calm is power.",
+   "qLife": "The calm negotiator usually gets the better deal.",
+   "img": "thinketh_06",
+   "cap": "Dubovskoy Calm before a storm Minsk · public domain"
+  }
+ ]
+}
