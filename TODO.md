@@ -5,7 +5,8 @@
 - [x] Export notes: PDF / Markdown / Anki
 - [x] Share studio (Story/Post/Square × 3 styles × 4 looks)
 - [x] Snapshots + story previews sent
-- [x] Bump all book versions, release 1.6 (1.6.2 now)
+- [x] Bump all book versions, release 1.6 (1.6.4 now)
+- [x] Ship audited plates in Android 1.6.4; correct 15 stale or raw captions
 - [x] iPhone web app live: purvalsingh.github.io/folio
 - [x] Flip card: back = simple English + daily life + as written
 - [x] The Prince deeper (77 pages, bridges)
