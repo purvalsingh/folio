@@ -1,0 +1,106 @@
+{
+ "id": "jung",
+ "title": "Psychology of the Unconscious",
+ "short": "C. G. Jung",
+ "author": "Carl Gustav Jung",
+ "year": "1912",
+ "translator": "Beatrice M. Hinkle, 1916 (public domain, Project Gutenberg #65903)",
+ "era": "germanic",
+ "shelf": "The Human Mind",
+ "blurb": "The book that split Jung from Freud: myths, dreams and symbols as the deep, shared language of the human mind.",
+ "version": 1,
+ "cover": "jung_cover",
+ "glossary": {
+  "unconscious": {
+   "m": "The part of the mind we are not aware of.",
+   "e": "Her unconscious fear of dogs showed in her dreams."
+  },
+  "persona": {
+   "m": "The public 'mask' or role we show the world.",
+   "e": "His office persona is cheerful; at home he is quiet."
+  },
+  "strata": {
+   "m": "Layers, one on top of another.",
+   "e": "The cliff shows strata of rock from different ages."
+  },
+  "stratum": {
+   "m": "Layers, one on top of another.",
+   "e": "The cliff shows strata of rock from different ages.",
+   "root": "strata"
+  },
+  "antiquity": {
+   "m": "The ancient past.",
+   "e": "The coin dates from antiquity."
+  }
+ },
+ "cards": [
+  {
+   "ch": "Part I",
+   "chTitle": "Two Kinds of Thinking",
+   "title": "Dreams are ancient",
+   "text": "Jung starts with history: humans have always believed dreams mean something, from Egypt to the Bible's Joseph. He wants to explain why.",
+   "quote": "The dream interpretations of the Egyptians and Chaldeans, and the story of Joseph who interpreted Pharaoh's dreams, are known to every one",
+   "qMean": "People have interpreted dreams since ancient times.",
+   "qLife": "Grandparents who still ask 'what did you dream?' at breakfast.",
+   "img": "jung_01",
+   "cap": "Poussin, Joseph Interprets Pharaoh's Dream · public domain"
+  },
+  {
+   "ch": "Part I",
+   "chTitle": "Two Kinds of Thinking",
+   "title": "Layers of the soul",
+   "text": "Jung proposes that the mind has layers, like rock. The deepest layer is the unconscious, and it is old — shared with our ancestors.",
+   "quote": "the soul possesses in some degree historical strata, the oldest stratum of which would correspond to the unconscious.",
+   "qMean": "The mind has layers; the deepest, oldest one is the unconscious.",
+   "qLife": "A sudden fear of the dark that feels older than you.",
+   "img": "jung_02",
+   "cap": "Geological map showing rock strata · public domain"
+  },
+  {
+   "ch": "Part I",
+   "chTitle": "The Hero",
+   "title": "Myths speak for everyone",
+   "text": "A myth is not a record of real events; it carries a thought common to all humanity, told again in new form.",
+   "quote": "It does not set forth any account of the old events, but rather acts in such a way that it always reveals a thought common to humanity, and once more rejuvenated.",
+   "qMean": "Myths express shared human ideas, renewed in every age.",
+   "qLife": "Superhero films retell the old hero myths for today.",
+   "img": "jung_03",
+   "cap": "Siegfried kills Fafnir · public domain"
+  },
+  {
+   "ch": "Part II",
+   "chTitle": "Symbols",
+   "title": "Sun father, moon mother",
+   "text": "The ancients saw the sun as a great father and the moon as a fruitful mother. Jung finds these images still alive in modern dreams.",
+   "quote": "The naïve man of antiquity saw in the sun the great Father of the heaven and the earth, and in the moon the fruitful good Mother.",
+   "qMean": "Ancient people saw the sun as a father and the moon as a mother.",
+   "qLife": "Calling the moon 'Chanda Mama' in children's songs.",
+   "img": "jung_04",
+   "cap": "Emblema XXV. DRACO non moritur, nisi cum fratre & sorore sua interficiatur, qui sunt Sol & Luna. - DPLA - 1e3938492016f0545f4b87f717398f38 · public domain"
+  },
+  {
+   "ch": "Essay",
+   "chTitle": "The Persona",
+   "title": "The actor's mask",
+   "text": "Jung's word for the face we show society is persona — Latin for an actor's mask. We often mistake the mask for ourselves.",
+   "quote": "The term persona is really an excellent one, for persona was originally the mask which an actor wore",
+   "qMean": "'Persona' comes from the actor's mask — the role we play in public.",
+   "qLife": "The cheerful 'work voice' you use on the phone.",
+   "qBy": "C. G. Jung, Collected Papers on Analytical Psychology (1916)",
+   "img": "jung_05",
+   "cap": "Pompeii - Theatre Mask - MAN · public domain"
+  },
+  {
+   "ch": "Essay",
+   "chTitle": "Dreams",
+   "title": "Everything is you",
+   "text": "In Jung's view, every person and object in a dream can be a part of the dreamer.",
+   "quote": "The whole dream is the dreamer",
+   "qMean": "Every part of your dream represents part of you.",
+   "qLife": "Dreaming of a lost child may be about a neglected part of yourself.",
+   "qBy": "C. G. Jung, Collected Papers on Analytical Psychology (1916)",
+   "img": "jung_06",
+   "cap": "La Bohémienne endormie · public domain"
+  }
+ ]
+}

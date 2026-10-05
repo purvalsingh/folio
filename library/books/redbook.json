@@ -1,0 +1,119 @@
+{
+ "id": "redbook",
+ "title": "The Red Book",
+ "short": "C. G. Jung",
+ "author": "Carl Gustav Jung",
+ "year": "1914–1930",
+ "translator": "A Folio digest. Jung's Liber Novus (published 2009) is in copyright: these are original summaries, with quotes from his public-domain writings of 1916.",
+ "era": "germanic",
+ "shelf": "The Human Mind",
+ "blurb": "For sixteen years Jung recorded his own visions in a huge red-leather book, in calligraphy and paintings. Kept secret for a century, it is the map of his journey into the unconscious.",
+ "version": 1,
+ "cover": "redbook_cover",
+ "glossary": {
+  "liber novus": {
+   "m": "Latin for 'The New Book' — Jung's title for the Red Book.",
+   "e": ""
+  },
+  "visions": {
+   "m": "Images seen in the mind, as in a dream while awake.",
+   "e": "The artist painted her visions."
+  },
+  "vision": {
+   "m": "Images seen in the mind, as in a dream while awake.",
+   "e": "The artist painted her visions.",
+   "root": "visions"
+  },
+  "unconscious": {
+   "m": "The part of the mind we're not aware of.",
+   "e": "Habits run on the unconscious."
+  },
+  "individuation": {
+   "m": "Jung's word for becoming your whole, true self.",
+   "e": "Therapy helped her individuation — she stopped living others' plans."
+  },
+  "mandalas": {
+   "m": "A circular design symbolising wholeness.",
+   "e": "She draws a mandala every morning to calm her mind.",
+   "root": "mandala"
+  },
+  "collective": {
+   "m": "Shared by everyone.",
+   "e": "Fairy tales live in our collective memory."
+  }
+ },
+ "cards": [
+  {
+   "ch": "The Book",
+   "chTitle": "Liber Novus",
+   "title": "A secret red book",
+   "text": "From about 1914 to 1930, Jung copied his inner visions into a large red-leather volume, in gothic calligraphy with his own paintings. He called it Liber Novus, 'The New Book', and kept it private; it was published only in 2009.",
+   "quote": "we naturally dwell unconsciously in a world of werwolves, demons, magicians",
+   "qMean": "Deep down, our minds still live among old myths and monsters.",
+   "qLife": "Why a horror film can scare grown adults who 'know' it's fake.",
+   "qBy": "C. G. Jung, Collected Papers on Analytical Psychology (1916)",
+   "img": "redbook_01",
+   "cap": "Splendor Solis 21 women washing clothes · public domain"
+  },
+  {
+   "ch": "1913",
+   "chTitle": "Confrontation",
+   "title": "Letting the depths speak",
+   "text": "After his painful break with Freud in 1913, Jung chose to let his fantasies rise freely and wrote down what he saw — floods, blood, voices. He later called this his 'confrontation with the unconscious'.",
+   "quote": "the soul possesses in some degree historical strata, the oldest stratum of which would correspond to the unconscious.",
+   "qMean": "The mind has layers; its deepest layer is the unconscious.",
+   "qLife": "Journalling late at night and surprising yourself with what comes out.",
+   "qBy": "C. G. Jung, Psychology of the Unconscious (tr. Hinkle, 1916)",
+   "img": "redbook_02",
+   "cap": "Mutus Liber (the Silent Book), 1677 · public domain"
+  },
+  {
+   "ch": "Liber Primus",
+   "chTitle": "Spirit of the Depths",
+   "title": "The mask falls",
+   "text": "The book opens with Jung realising he had lived for success and the 'spirit of the time'. Another voice — the spirit of the depths — tells him to find his lost soul. The respectable public self, he decides, was only a mask.",
+   "quote": "a mask which simulates individuality, making others and oneself believe that one is individual, whilst one is only acting a part through which the collective psyche speaks.",
+   "qMean": "The public mask makes us think we're being ourselves when we're just playing a role.",
+   "qLife": "Realising your 'dream job' was really your parents' dream.",
+   "qBy": "C. G. Jung, Collected Papers on Analytical Psychology (1916)",
+   "img": "redbook_03",
+   "cap": "FlammarionWoodcut · public domain"
+  },
+  {
+   "ch": "Liber Primus",
+   "chTitle": "The Murder of the Hero",
+   "title": "Killing the hero",
+   "text": "In one vision, Jung kills Siegfried, the shining hero. He reads it as the end of his own heroic ideal — the will to conquer everything — so that something deeper can live.",
+   "quote": "It does not set forth any account of the old events, but rather acts in such a way that it always reveals a thought common to humanity, and once more rejuvenated.",
+   "qMean": "Myths express shared human ideas again and again.",
+   "qLife": "Letting go of 'I must win at everything' after burnout.",
+   "qBy": "C. G. Jung, Psychology of the Unconscious (tr. Hinkle, 1916)",
+   "img": "redbook_04",
+   "cap": "Saint George and the Dragon · public domain"
+  },
+  {
+   "ch": "Liber Secundus",
+   "chTitle": "Inner Teachers",
+   "title": "Gods and devils within",
+   "text": "Figures appear and teach him: the prophet Elijah, Salome, and above all Philemon, a wise old man with kingfisher wings. Jung treats them as real voices of the psyche — parts of himself he must listen to.",
+   "quote": "We have just as much a part in gods and devils, saviours and criminals.",
+   "qMean": "We all carry both saint and villain inside us.",
+   "qLife": "Recognising the bully and the kind friend in yourself.",
+   "qBy": "C. G. Jung, Collected Papers on Analytical Psychology (1916)",
+   "img": "redbook_05",
+   "cap": "Splendor Solis 18 · public domain"
+  },
+  {
+   "ch": "Later Years",
+   "chTitle": "Mandalas",
+   "title": "Becoming whole",
+   "text": "In the later pages Jung paints circular mandalas. They became, for him, pictures of wholeness — the self uniting its opposites. This process he named individuation, the heart of his later psychology.",
+   "quote": "leads to individuation beyond the type, and thereby to a new relation to the world and mind.",
+   "qMean": "Growing past your usual type leads to becoming your whole self.",
+   "qLife": "A logical person learning to trust feelings, and growing because of it.",
+   "qBy": "C. G. Jung, Collected Papers on Analytical Psychology (1916)",
+   "img": "redbook_06",
+   "cap": "Four Mandalas, Ngor Monastery, Tibet · public domain"
+  }
+ ]
+}

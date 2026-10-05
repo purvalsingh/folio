@@ -1,0 +1,112 @@
+{
+ "id": "bge",
+ "title": "Beyond Good and Evil",
+ "short": "Nietzsche",
+ "author": "Friedrich Nietzsche",
+ "year": "1886",
+ "translator": "Helen Zimmern, 1907 (public domain, Project Gutenberg #4363)",
+ "era": "germanic",
+ "shelf": "Mind & the Crowd",
+ "blurb": "Nietzsche's sharpest book: our morals hide deeper drives, every deep thinker wears a mask, and the herd hates whoever stands apart.",
+ "version": 1,
+ "cover": "bge_cover",
+ "glossary": {
+  "abyss": {
+   "m": "A very deep hole; a frightening emptiness.",
+   "e": "Staring into the abyss of debt kept him awake."
+  },
+  "esteems": {
+   "m": "Respects; holds in high regard.",
+   "e": "She esteems her teacher deeply."
+  },
+  "profound": {
+   "m": "Very deep or serious.",
+   "e": "Losing a pet can be a profound sadness."
+  },
+  "militant": {
+   "m": "Ready to fight, aggressive.",
+   "e": "The militant fan argued with everyone online."
+  },
+  "insanity": {
+   "m": "Madness; extreme foolishness.",
+   "e": "Driving at that speed in rain is insanity."
+  },
+  "despises": {
+   "m": "Feels strong dislike and disrespect for.",
+   "e": "He despises people who litter."
+  },
+  "despiser": {
+   "m": "Feels strong dislike and disrespect for.",
+   "e": "He despises people who litter.",
+   "root": "despises"
+  }
+ },
+ "cards": [
+  {
+   "ch": "Aphorism 146",
+   "chTitle": "Apophthegms",
+   "title": "Fighting monsters",
+   "text": "Nietzsche's most quoted warning: whoever fights monsters must be careful not to become one. Stare too long into darkness and it gets into you.",
+   "quote": "He who fights with monsters should be careful lest he thereby become a monster.",
+   "qMean": "When you fight something evil, be careful not to become evil yourself.",
+   "qLife": "A team fighting online trolls by turning into trolls themselves.",
+   "img": "bge_01",
+   "cap": "Saint Michael Fighting the Dragon, from The Apocalypse · public domain"
+  },
+  {
+   "ch": "Aphorism 146",
+   "chTitle": "Apophthegms",
+   "title": "The abyss looks back",
+   "text": "The second half of the line: gaze long into an abyss and the abyss gazes into you. What we obsess over changes us.",
+   "quote": "And if thou gaze long into an abyss, the abyss will also gaze into thee.",
+   "qMean": "If you dwell on darkness too long, it starts to change you.",
+   "qLife": "Reading crime news all night and then fearing every stranger.",
+   "img": "bge_02",
+   "cap": "Gustave Doré, Into the Abyss (Dante's Inferno) · public domain"
+  },
+  {
+   "ch": "Aphorism 40",
+   "chTitle": "The Free Spirit",
+   "title": "Every deep mind wears a mask",
+   "text": "Deep people grow masks, partly because others always misunderstand them. The mask is protection, not just deceit.",
+   "quote": "Every profound spirit needs a mask",
+   "qMean": "Deep thinkers hide behind a public face.",
+   "qLife": "A comedian who jokes all the time but is serious in private.",
+   "img": "bge_03",
+   "cap": "Venetian Jugglers in front of the Palace of the Doge (SM 1529) · public domain"
+  },
+  {
+   "ch": "Aphorism 156",
+   "chTitle": "Apophthegms",
+   "title": "The madness of groups",
+   "text": "Madness is rare in single people but normal in groups, parties, nations and eras.",
+   "quote": "Insanity in individuals is something rare--but in groups, parties, nations, and epochs it is the rule.",
+   "qMean": "One person rarely goes mad, but groups often do.",
+   "qLife": "Sensible people joining a crazy online trend together.",
+   "img": "bge_04",
+   "cap": "Paul Addresses the Crowd After His Arrest by Gustave Doré · public domain"
+  },
+  {
+   "ch": "Aphorism 78",
+   "chTitle": "Apophthegms",
+   "title": "Self-contempt is pride",
+   "text": "Even someone who despises himself still respects himself — as the one who judges.",
+   "quote": "He who despises himself, nevertheless esteems himself thereby, as a despiser.",
+   "qMean": "Even self-criticism hides a little self-respect.",
+   "qLife": "The person who says 'I'm the worst' is often waiting for you to disagree.",
+   "img": "bge_05",
+   "cap": "Albrecht Dürer - Melencolia I · public domain"
+  },
+  {
+   "ch": "Aphorism 76",
+   "chTitle": "Apophthegms",
+   "title": "Fighters at peace",
+   "text": "In peaceful times, the fighting kind of person turns against himself.",
+   "quote": "Under peaceful conditions the militant man attacks himself.",
+   "qMean": "Fighters with no outside enemy start fighting themselves.",
+   "qLife": "An athlete forced to rest starts being hard on themselves.",
+   "img": "bge_06",
+   "cap": "Saladin the Victorious · public domain"
+  }
+ ]
+}

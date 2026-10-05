@@ -1,0 +1,104 @@
+{
+ "id": "emotions",
+ "title": "The Expression of the Emotions",
+ "short": "Charles Darwin",
+ "author": "Charles Darwin",
+ "year": "1872",
+ "translator": "Original English text (public domain, Project Gutenberg #1227)",
+ "era": "victorian",
+ "shelf": "The Human Mind",
+ "blurb": "Darwin studies smiles, sneers, tears and blushes in people and animals — the first science of body language.",
+ "version": 1,
+ "cover": "emotions_cover",
+ "glossary": {
+  "blush": {
+   "m": "To go red in the face from shyness or shame.",
+   "e": "She blushed when everyone sang to her."
+  },
+  "blushing": {
+   "m": "To go red in the face from shyness or shame.",
+   "e": "She blushed when everyone sang to her.",
+   "root": "blush"
+  },
+  "gestures": {
+   "m": "Movements of the hands or body that show meaning.",
+   "e": "He talks with big gestures."
+  },
+  "intensifies": {
+   "m": "Makes stronger.",
+   "e": "Shouting intensifies an argument."
+  },
+  "passion": {
+   "m": "Strong emotion, especially anger or love.",
+   "e": "In a fit of passion he slammed the door."
+  }
+ },
+ "cards": [
+  {
+   "ch": "Chapter XIII",
+   "chTitle": "Blushing",
+   "title": "The most human expression",
+   "text": "Of all expressions, blushing is the most uniquely human. It comes from thinking about what others think of us.",
+   "quote": "Blushing is the most peculiar and the most human of all expressions.",
+   "qMean": "Blushing is the most unusual and human way we show feelings.",
+   "qLife": "Going red when the class turns to look at you.",
+   "img": "emotions_01",
+   "cap": "Duchenne de Boulogne's experiments on facial expression · public domain"
+  },
+  {
+   "ch": "Chapter XIII",
+   "chTitle": "Blushing",
+   "title": "No animal blushes",
+   "text": "Monkeys go red with anger, but Darwin doubts any animal blushes from shame. It needs self-awareness.",
+   "quote": "Monkeys redden from passion, but it would require an overwhelming amount of evidence to make us believe that any animal could blush.",
+   "qMean": "Animals can redden with anger, but probably never blush.",
+   "qLife": "Your dog looks guilty, but it isn't blushing.",
+   "img": "emotions_02",
+   "cap": "Twee jongens, een man en een aap bij een hek · public domain"
+  },
+  {
+   "ch": "Chapter XIV",
+   "chTitle": "Concluding Remarks",
+   "title": "Showing a feeling grows it",
+   "text": "Letting an emotion show strengthens it; holding back its outward signs calms it.",
+   "quote": "The free expression by outward signs of an emotion intensifies it.",
+   "qMean": "Acting out a feeling makes it stronger.",
+   "qLife": "Pacing and shouting when angry makes you angrier.",
+   "img": "emotions_03",
+   "cap": "Expression of the Emotions Figure 21 · public domain"
+  },
+  {
+   "ch": "Chapter XIV",
+   "chTitle": "Concluding Remarks",
+   "title": "Rage feeds on gestures",
+   "text": "Whoever gives in to violent gestures increases their rage. Control the signs and you control the feeling.",
+   "quote": "He who gives way to violent gestures will increase his rage",
+   "qMean": "Wild angry movements make anger worse.",
+   "qLife": "Taking a slow breath instead of banging the table.",
+   "img": "emotions_04",
+   "cap": "Desire (Le Brun Travested, or Caricatures of the Passions) · public domain"
+  },
+  {
+   "ch": "Chapter XIV",
+   "chTitle": "Concluding Remarks",
+   "title": "Faces matter",
+   "text": "Our facial expressions aren't trivial — they help us survive and connect, whatever their origin.",
+   "quote": "The movements of expression in the face and body, whatever their origin may have been, are in themselves of much importance for our welfare.",
+   "qMean": "Facial expressions are important for our wellbeing.",
+   "qLife": "A smile from a stranger can change a bad day.",
+   "img": "emotions_05",
+   "cap": "Expression of the Emotions Figure 6 · public domain"
+  },
+  {
+   "ch": "Chapter XIV",
+   "chTitle": "Concluding Remarks",
+   "title": "The first language",
+   "text": "Long before words, a mother and her baby talk with faces: she smiles approval, frowns warning.",
+   "quote": "They serve as the first means of communication between the mother and her infant",
+   "qMean": "Facial expressions are how mothers and babies first talk.",
+   "qLife": "A baby smiling back at its mother before it can speak.",
+   "img": "emotions_06",
+   "cap": "Mother and child, 19th-century painting · public domain"
+  }
+ ]
+}

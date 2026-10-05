@@ -1,0 +1,117 @@
+{
+ "id": "enchiridion",
+ "title": "The Enchiridion",
+ "short": "Epictetus",
+ "author": "Epictetus",
+ "year": "c. 125",
+ "translator": "Thomas Wentworth Higginson (public domain, Project Gutenberg #45109)",
+ "era": "ancient",
+ "shelf": "Stoic Wisdom",
+ "blurb": "A pocket handbook from a philosopher born a slave: separate what you control from what you don't, and you will never be a slave again.",
+ "version": 1,
+ "cover": "enchiridion_cover",
+ "glossary": {
+  "impediment": {
+   "m": "Something that blocks or slows you.",
+   "e": "His injury was an impediment to playing football."
+  },
+  "banquet": {
+   "m": "A large formal feast.",
+   "e": "The wedding banquet had twenty dishes."
+  },
+  "drama": {
+   "m": "A play; a story acted out.",
+   "e": "The school drama needed someone to play the king."
+  }
+ },
+ "cards": [
+  {
+   "ch": "I",
+   "chTitle": "What Is Ours",
+   "title": "Control what you can",
+   "text": "The whole handbook rests on one split. Some things are up to us: our opinions, aims, desires and dislikes. Others are not: our body, property, reputation and position. Treat the second kind as yours and you will be frustrated and blame everyone. Focus on the first and nobody can harm you.",
+   "quote": "There are things which are within our power, and there are things which are beyond our power.",
+   "qMean": "Some things you can control; some things you can't.",
+   "qLife": "You can't control the traffic, but you can control when you leave home.",
+   "img": "enchiridion_01",
+   "cap": "Epictetus, engraving, 1653 · public domain"
+  },
+  {
+   "ch": "V",
+   "chTitle": "Views, Not Things",
+   "title": "It's the story you tell",
+   "text": "We are not upset by events, but by our judgements about them. Death is not terrible — otherwise Socrates would have feared it. When we are troubled, we should blame our own views, not others.",
+   "quote": "Men are disturbed not by things, but by the views which they take of things.",
+   "qMean": "What upsets us is not what happens, but what we think about it.",
+   "qLife": "Two people stuck in the same rain: one is miserable, the other enjoys the smell.",
+   "img": "enchiridion_02",
+   "cap": "David - The Death of Socrates · public domain"
+  },
+  {
+   "ch": "VIII",
+   "chTitle": "Want What Happens",
+   "title": "Wish for what is",
+   "text": "Don't demand that the world go your way. Wish instead that things happen as they actually do happen, and you will live at peace.",
+   "quote": "Demand not that events should happen as you wish; but wish them to happen as they do happen, and you will go on well.",
+   "qMean": "Stop insisting things go your way; accept how they go, and life is easier.",
+   "qLife": "Rain on your picnic day? Move it indoors and have fun anyway.",
+   "img": "enchiridion_03",
+   "cap": "Wheel of Fortune with the Fates · public domain"
+  },
+  {
+   "ch": "IX",
+   "chTitle": "The Free Will",
+   "title": "The body can be stopped",
+   "text": "Illness can stop the body, but not the will — unless the will agrees. Lameness stops the leg, not the mind. Whatever happens, ask what it stops, and you'll find it stops something else, not you.",
+   "quote": "Sickness is an impediment to the body, but not to the will unless itself pleases.",
+   "qMean": "Illness can limit your body, but not your choices, unless you let it.",
+   "qLife": "A friend with a broken leg who still finishes her course online.",
+   "img": "enchiridion_04",
+   "cap": "Marble statue of a draped seated man · public domain"
+  },
+  {
+   "ch": "XI",
+   "chTitle": "Given Back",
+   "title": "Nothing is lost, only returned",
+   "text": "Never say 'I have lost it' — say 'I have given it back.' Everything we have is on loan from life. While it is with you, take care of it, as a traveller takes care of an inn.",
+   "quote": "Never say of anything, “I have lost it,” but, “I have restored it.”",
+   "qMean": "Don't call things lost; think of them as returned to where they came from.",
+   "qLife": "When an old phone dies, being grateful for the years it worked.",
+   "img": "enchiridion_05",
+   "cap": "Roman funeral relief, Galleria Borghese · public domain"
+  },
+  {
+   "ch": "XV",
+   "chTitle": "The Banquet",
+   "title": "Take a modest share",
+   "text": "Behave in life as at a dinner party. When a dish comes to you, take a polite portion. If it passes you by, don't grab at it. If it hasn't come yet, wait. Treat children, money and status the same way.",
+   "quote": "Remember that you must behave as at a banquet.",
+   "qMean": "Act in life like a polite guest at a big dinner.",
+   "qLife": "Not pushing for a promotion that isn't open yet, but being ready when it comes.",
+   "img": "enchiridion_06",
+   "cap": "Banquet scene, fresco from Herculaneum · public domain"
+  },
+  {
+   "ch": "XVII",
+   "chTitle": "The Actor",
+   "title": "Play your role well",
+   "text": "You are an actor in a play written by someone else. Whether your part is short or long, poor or royal, your job is to play it well; choosing the part is not.",
+   "quote": "Remember that you are an actor in a drama of such sort as the Author chooses",
+   "qMean": "You don't choose your role in life, but you choose how well you play it.",
+   "qLife": "Being the best possible assistant manager instead of sulking about not being the boss.",
+   "img": "enchiridion_07",
+   "cap": "Theatre masks, Roman mosaic, Naples · public domain"
+  },
+  {
+   "ch": "XLII",
+   "chTitle": "When Others Wrong You",
+   "title": "They think they're right",
+   "text": "When someone harms or insults you, remember they acted on what seemed right to them. If they are wrong, they are the ones deceived and hurt. Say to yourself: 'It seemed so to him.'",
+   "quote": "When any person does ill by you, or speaks ill of you, remember that he acts or speaks from an impression that it is right for him to do so.",
+   "qMean": "When someone hurts you, remember they believe they're right.",
+   "qLife": "The driver who honked at you probably thought you cut him off.",
+   "img": "enchiridion_08",
+   "cap": "The Orator (Aulus Metellus), Roman bronze · public domain"
+  }
+ ]
+}

@@ -1,0 +1,99 @@
+{
+ "id": "arthashastra",
+ "title": "Arthashastra",
+ "short": "Kautilya",
+ "author": "Kautilya (Chanakya)",
+ "year": "c. 300 BC",
+ "translator": "R. Shamasastry, 1915 (public domain, archive.org)",
+ "era": "indic",
+ "shelf": "Power & Strategy",
+ "blurb": "India's ancient handbook of statecraft, by the strategist who helped build the Maurya empire: ministers, spies, money, punishment — and a king who must serve his people.",
+ "version": 1,
+ "cover": "arthashastra_cover",
+ "glossary": {
+  "subjects": {
+   "m": "People ruled by a king.",
+   "e": "The king's subjects paid taxes in grain."
+  },
+  "ministers": {
+   "m": "Senior advisers who help run a government.",
+   "e": "The ministers met every morning with the king."
+  },
+  "punishment": {
+   "m": "A penalty for doing wrong.",
+   "e": "The punishment for littering is a fine."
+  },
+  "contemptible": {
+   "m": "Deserving no respect.",
+   "e": "Cheating your own friends is contemptible."
+  }
+ },
+ "cards": [
+  {
+   "ch": "Book I",
+   "chTitle": "Duties of a King",
+   "title": "The king's happiness",
+   "text": "Kautilya's most famous line turns power upside down: a king's happiness lies in his people's happiness. He must not call good what pleases him, but what pleases them. So a king must always be active and alert.",
+   "quote": "In the happiness of his subjects lies his happiness; in their welfare his welfare",
+   "qMean": "A ruler is happy only when the people are happy.",
+   "qLife": "A school head who measures success by how the students are doing, not by her own awards.",
+   "img": "arthashastra_01",
+   "cap": "Ghulam Murtaza Khan The Delhi Darbar of Akbar II · public domain"
+  },
+  {
+   "ch": "Book I",
+   "chTitle": "The Saintly King",
+   "title": "One wheel can't move",
+   "text": "Power can't be held alone. Just as a cart needs two wheels, a ruler needs ministers and their honest opinions.",
+   "quote": "A single wheel can never move.",
+   "qMean": "No one can rule or succeed alone.",
+   "qLife": "A startup founder who hires good people instead of doing everything herself.",
+   "img": "arthashastra_02",
+   "cap": "Bullock Cart 1937 · public domain"
+  },
+  {
+   "ch": "Book I",
+   "chTitle": "On Punishment",
+   "title": "Neither harsh nor soft",
+   "text": "Some teachers say rule by fear. Kautilya disagrees: too-harsh punishment makes a ruler hated, too-mild punishment makes him a joke. Only fair punishment, matched to the wrong, earns respect.",
+   "quote": "for whoever imposes severe punishment becomes repulsive to the people; while he who awards mild punishment becomes contemptible.",
+   "qMean": "Too much punishment makes people hate you; too little makes them not respect you.",
+   "qLife": "A parent whose rules are fair is obeyed more than one who shouts or one who never says no.",
+   "img": "arthashastra_03",
+   "cap": "Shaykh Sa'di seated with a musician, India, Provincial Mughal, Awadh, circa 1760 · public domain"
+  },
+  {
+   "ch": "Book II",
+   "chTitle": "Embezzlement",
+   "title": "Honey on the tongue",
+   "text": "Kautilya, a realist, says officials handling money will be tempted, as surely as you'd taste honey placed on your tongue. So a wise government doesn't rely on trust alone: it checks, rotates and audits its officers.",
+   "quote": "it is impossible not to taste the honey or the poison that finds itself at the tip of the tongue",
+   "qMean": "When you handle something tempting, it's almost impossible not to take a little.",
+   "qLife": "Why companies audit accounts even when they trust the accountant.",
+   "img": "arthashastra_04",
+   "cap": "A Practical Treatise on the Hive and Honey-Bee · public domain"
+  },
+  {
+   "ch": "Book II",
+   "chTitle": "Embezzlement",
+   "title": "Fish in water",
+   "text": "Just as you can't see a fish drinking water, you can't easily see an official quietly taking money. Watch results and records, not appearances.",
+   "quote": "Just as fish moving under water cannot possibly be found out either as drinking or not drinking water, so government servants employed in the government work cannot be found out (while) taking money (for themselves).",
+   "qMean": "Hidden dishonesty is hard to spot, like a fish drinking underwater.",
+   "qLife": "Checking the stock count, not just the cashier's smile.",
+   "img": "arthashastra_05",
+   "cap": "Fishing in India, old engraving · public domain"
+  },
+  {
+   "ch": "Book I",
+   "chTitle": "The King's Vow",
+   "title": "Action is the king's prayer",
+   "text": "For a king, Kautilya says, the holy vow is being ready to act; doing his duties well is his sacrifice; treating everyone equally is his gift to the priests.",
+   "quote": "Of a king, the religious vow is his readiness to action",
+   "qMean": "A leader's true devotion is being ready to act.",
+   "qLife": "A manager who answers problems the same day instead of 'looking into it' for weeks.",
+   "img": "arthashastra_06",
+   "cap": "Painting of Maharaja Sher Singh in Durbar (court), enthroned with attendants and local ladies, attributed to Bishan Singh, circa 19th century · public domain"
+  }
+ ]
+}

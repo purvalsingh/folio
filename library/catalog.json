@@ -1,22 +1,22 @@
 {
  "app": {
-  "versionCode": 3,
-  "versionName": "1.2",
-  "notes": "Tap any quote for its meaning in plain English and an everyday example. Each book now has its own era lettering: brush script for The Art of War, Sanskrit-style for the Gita, copperplate for the 48 Laws. Accounts with encrypted sync are on the way.",
-  "sizeKb": 26306,
-  "sha256": "35237166cbe776c0b5da6673f89fcd770d2d5bdca7eb54a8aca078b07938b12b",
-  "apk": "https://github.com/purvalsingh/folio/releases/download/v1.2/Folio.apk"
+  "versionCode": 4,
+  "versionName": "1.3",
+  "notes": "A new Bookcase home: books stand on labelled shelves — tap a spine to pull it out. Fifteen new books in the online library: Meditations, Enchiridion, Tao Te Ching, Dhammapada, Arthashastra, The Crowd, As a Man Thinketh, Beyond Good and Evil, The Art of Worldly Wisdom, Maxims, and a new Human Mind shelf with William James, Freud, Darwin, Jung and The Red Book.",
+  "sizeKb": 26303,
+  "sha256": "f4011781a555eedb7ba10457e6cd63f4a6165b064cda282b10dca504b3859bef",
+  "apk": "https://github.com/purvalsingh/folio/releases/download/v1.3/Folio.apk"
  },
  "books": [
   {
    "id": "artofwar",
-   "version": 2,
+   "version": 3,
    "title": "The Art of War",
    "author": "Sun Tzu",
    "year": "c. 500 BC",
    "era": "eastern",
    "cards": 26,
-   "sizeKb": 2484,
+   "sizeKb": 2485,
    "blurb": "Thirteen short chapters from ancient China on winning — ideally without a fight. Read by generals, CEOs and chess players for 2,500 years.",
    "images": [
     "artofwar_01",
@@ -46,11 +46,12 @@
     "artofwar_25",
     "artofwar_26",
     "artofwar_cover"
-   ]
+   ],
+   "shelf": "Power & Strategy"
   },
   {
    "id": "gita",
-   "version": 2,
+   "version": 3,
    "title": "The Bhagavad Gita",
    "author": "Vyasa (trad.)",
    "year": "c. 400 BC",
@@ -85,11 +86,12 @@
     "gita_24",
     "gita_25",
     "gita_cover"
-   ]
+   ],
+   "shelf": "Eastern Paths"
   },
   {
    "id": "laws",
-   "version": 2,
+   "version": 3,
    "title": "The 48 Laws of Power",
    "author": "Robert Greene",
    "year": "1998",
@@ -147,11 +149,12 @@
     "laws_47",
     "laws_48",
     "laws_cover"
-   ]
+   ],
+   "shelf": "Power & Strategy"
   },
   {
    "id": "prince",
-   "version": 2,
+   "version": 3,
    "title": "The Prince",
    "author": "Niccolò Machiavelli",
    "year": "1532",
@@ -213,8 +216,393 @@
     "prince_51",
     "prince_52",
     "prince_cover"
-   ]
+   ],
+   "shelf": "Power & Strategy"
+  },
+  {
+   "id": "arthashastra",
+   "version": 1,
+   "title": "Arthashastra",
+   "author": "Kautilya (Chanakya)",
+   "year": "c. 300 BC",
+   "era": "indic",
+   "cards": 6,
+   "sizeKb": 840,
+   "blurb": "India's ancient handbook of statecraft, by the strategist who helped build the Maurya empire: ministers, spies, money, punishment — and a king who must serve his people.",
+   "images": [
+    "arthashastra_01",
+    "arthashastra_02",
+    "arthashastra_03",
+    "arthashastra_04",
+    "arthashastra_05",
+    "arthashastra_06",
+    "arthashastra_cover"
+   ],
+   "shelf": "Power & Strategy"
+  },
+  {
+   "id": "bge",
+   "version": 1,
+   "title": "Beyond Good and Evil",
+   "author": "Friedrich Nietzsche",
+   "year": "1886",
+   "era": "germanic",
+   "cards": 6,
+   "sizeKb": 1063,
+   "blurb": "Nietzsche's sharpest book: our morals hide deeper drives, every deep thinker wears a mask, and the herd hates whoever stands apart.",
+   "images": [
+    "bge_01",
+    "bge_02",
+    "bge_03",
+    "bge_04",
+    "bge_05",
+    "bge_06",
+    "bge_cover"
+   ],
+   "shelf": "Mind & the Crowd"
+  },
+  {
+   "id": "crowd",
+   "version": 1,
+   "title": "The Crowd",
+   "author": "Gustave Le Bon",
+   "year": "1895",
+   "era": "victorian",
+   "cards": 6,
+   "sizeKb": 782,
+   "blurb": "A French doctor explains why sensible people turn wild in a mob — the book later studied by propagandists, marketers and dictators.",
+   "images": [
+    "crowd_01",
+    "crowd_02",
+    "crowd_03",
+    "crowd_04",
+    "crowd_05",
+    "crowd_06",
+    "crowd_cover"
+   ],
+   "shelf": "Mind & the Crowd"
+  },
+  {
+   "id": "dhammapada",
+   "version": 1,
+   "title": "The Dhammapada",
+   "author": "The Buddha (trad.)",
+   "year": "c. 250 BC",
+   "era": "indic",
+   "cards": 9,
+   "sizeKb": 984,
+   "blurb": "Short verses from the Buddha's teaching on the mind: what you think, you become.",
+   "images": [
+    "dhammapada_01",
+    "dhammapada_02",
+    "dhammapada_03",
+    "dhammapada_04",
+    "dhammapada_05",
+    "dhammapada_06",
+    "dhammapada_07",
+    "dhammapada_08",
+    "dhammapada_09",
+    "dhammapada_cover"
+   ],
+   "shelf": "Eastern Paths"
+  },
+  {
+   "id": "dreams",
+   "version": 1,
+   "title": "Dream Psychology",
+   "author": "Sigmund Freud",
+   "year": "1920",
+   "era": "germanic",
+   "cards": 6,
+   "sizeKb": 868,
+   "blurb": "Freud's own short guide to his most famous idea: dreams are not nonsense — they are wishes in disguise.",
+   "images": [
+    "dreams_01",
+    "dreams_02",
+    "dreams_03",
+    "dreams_04",
+    "dreams_05",
+    "dreams_06",
+    "dreams_cover"
+   ],
+   "shelf": "The Human Mind"
+  },
+  {
+   "id": "emotions",
+   "version": 1,
+   "title": "The Expression of the Emotions",
+   "author": "Charles Darwin",
+   "year": "1872",
+   "era": "victorian",
+   "cards": 6,
+   "sizeKb": 542,
+   "blurb": "Darwin studies smiles, sneers, tears and blushes in people and animals — the first science of body language.",
+   "images": [
+    "emotions_01",
+    "emotions_02",
+    "emotions_03",
+    "emotions_04",
+    "emotions_05",
+    "emotions_06",
+    "emotions_cover"
+   ],
+   "shelf": "The Human Mind"
+  },
+  {
+   "id": "enchiridion",
+   "version": 1,
+   "title": "The Enchiridion",
+   "author": "Epictetus",
+   "year": "c. 125",
+   "era": "ancient",
+   "cards": 8,
+   "sizeKb": 963,
+   "blurb": "A pocket handbook from a philosopher born a slave: separate what you control from what you don't, and you will never be a slave again.",
+   "images": [
+    "enchiridion_01",
+    "enchiridion_02",
+    "enchiridion_03",
+    "enchiridion_04",
+    "enchiridion_05",
+    "enchiridion_06",
+    "enchiridion_07",
+    "enchiridion_08",
+    "enchiridion_cover"
+   ],
+   "shelf": "Stoic Wisdom"
+  },
+  {
+   "id": "gracian",
+   "version": 1,
+   "title": "The Art of Worldly Wisdom",
+   "author": "Baltasar Gracián",
+   "year": "1647",
+   "era": "baroque",
+   "cards": 8,
+   "sizeKb": 966,
+   "blurb": "Three hundred maxims by a Spanish Jesuit on getting on in a dangerous world — the source behind many of the 48 Laws.",
+   "images": [
+    "gracian_01",
+    "gracian_02",
+    "gracian_03",
+    "gracian_04",
+    "gracian_05",
+    "gracian_06",
+    "gracian_07",
+    "gracian_08",
+    "gracian_cover"
+   ],
+   "shelf": "Courtly Wisdom"
+  },
+  {
+   "id": "habit",
+   "version": 1,
+   "title": "Talks on Habit",
+   "author": "William James",
+   "year": "1899",
+   "era": "victorian",
+   "cards": 6,
+   "sizeKb": 554,
+   "blurb": "The father of American psychology on why we are 'walking bundles of habits' — and four rules for building better ones.",
+   "images": [
+    "habit_01",
+    "habit_02",
+    "habit_03",
+    "habit_04",
+    "habit_05",
+    "habit_06",
+    "habit_cover"
+   ],
+   "shelf": "The Human Mind"
+  },
+  {
+   "id": "jung",
+   "version": 1,
+   "title": "Psychology of the Unconscious",
+   "author": "Carl Gustav Jung",
+   "year": "1912",
+   "era": "germanic",
+   "cards": 6,
+   "sizeKb": 784,
+   "blurb": "The book that split Jung from Freud: myths, dreams and symbols as the deep, shared language of the human mind.",
+   "images": [
+    "jung_01",
+    "jung_02",
+    "jung_03",
+    "jung_04",
+    "jung_05",
+    "jung_06",
+    "jung_cover"
+   ],
+   "shelf": "The Human Mind"
+  },
+  {
+   "id": "maxims",
+   "version": 1,
+   "title": "Maxims",
+   "author": "François de La Rochefoucauld",
+   "year": "1665",
+   "era": "baroque",
+   "cards": 6,
+   "sizeKb": 1064,
+   "blurb": "A French duke's razor-sharp one-liners about vanity, self-interest and the hidden motives behind our 'virtues'.",
+   "images": [
+    "maxims_01",
+    "maxims_02",
+    "maxims_03",
+    "maxims_04",
+    "maxims_05",
+    "maxims_06",
+    "maxims_cover"
+   ],
+   "shelf": "Courtly Wisdom"
+  },
+  {
+   "id": "meditations",
+   "version": 1,
+   "title": "Meditations",
+   "author": "Marcus Aurelius",
+   "year": "c. 175",
+   "era": "ancient",
+   "cards": 10,
+   "sizeKb": 1055,
+   "blurb": "The private notebook of a Roman emperor, written in army camps at night: how to stay calm, fair and useful when the world is not.",
+   "images": [
+    "meditations_01",
+    "meditations_02",
+    "meditations_03",
+    "meditations_04",
+    "meditations_05",
+    "meditations_06",
+    "meditations_07",
+    "meditations_08",
+    "meditations_09",
+    "meditations_10",
+    "meditations_cover"
+   ],
+   "shelf": "Stoic Wisdom"
+  },
+  {
+   "id": "redbook",
+   "version": 1,
+   "title": "The Red Book",
+   "author": "Carl Gustav Jung",
+   "year": "1914–1930",
+   "era": "germanic",
+   "cards": 6,
+   "sizeKb": 886,
+   "blurb": "For sixteen years Jung recorded his own visions in a huge red-leather book, in calligraphy and paintings. Kept secret for a century, it is the map of his journey into the unconscious.",
+   "images": [
+    "redbook_01",
+    "redbook_02",
+    "redbook_03",
+    "redbook_04",
+    "redbook_05",
+    "redbook_06",
+    "redbook_cover"
+   ],
+   "shelf": "The Human Mind"
+  },
+  {
+   "id": "taoteching",
+   "version": 1,
+   "title": "Tao Te Ching",
+   "author": "Lao Tzu",
+   "year": "c. 400 BC",
+   "era": "eastern",
+   "cards": 9,
+   "sizeKb": 791,
+   "blurb": "Eighty-one tiny poems on the Way: soft beats hard, empty is useful, the leader who leads least leads best.",
+   "images": [
+    "taoteching_01",
+    "taoteching_02",
+    "taoteching_03",
+    "taoteching_04",
+    "taoteching_05",
+    "taoteching_06",
+    "taoteching_07",
+    "taoteching_08",
+    "taoteching_09",
+    "taoteching_cover"
+   ],
+   "shelf": "Eastern Paths"
+  },
+  {
+   "id": "thinketh",
+   "version": 1,
+   "title": "As a Man Thinketh",
+   "author": "James Allen",
+   "year": "1903",
+   "era": "modern",
+   "cards": 6,
+   "sizeKb": 753,
+   "blurb": "A tiny classic of self-help: your thoughts are seeds, your life is the garden.",
+   "images": [
+    "thinketh_01",
+    "thinketh_02",
+    "thinketh_03",
+    "thinketh_04",
+    "thinketh_05",
+    "thinketh_06",
+    "thinketh_cover"
+   ],
+   "shelf": "Mind & the Crowd"
   }
  ],
- "cloud": null
+ "cloud": null,
+ "shelves": [
+  {
+   "name": "Power & Strategy",
+   "note": "Rulers, generals and the craft of influence"
+  },
+  {
+   "name": "Stoic Wisdom",
+   "note": "Calm in a world you cannot control"
+  },
+  {
+   "name": "Eastern Paths",
+   "note": "The Way, the Gita and the Buddha's verses"
+  },
+  {
+   "name": "Mind & the Crowd",
+   "note": "How thought shapes us, and crowds shape thought"
+  },
+  {
+   "name": "The Human Mind",
+   "note": "Habits, dreams, emotions and the unconscious"
+  },
+  {
+   "name": "Courtly Wisdom",
+   "note": "Maxims for surviving the courts of kings"
+  }
+ ],
+ "coming": [
+  {
+   "name": "Persuasion & Rhetoric",
+   "note": "In the bindery",
+   "titles": [
+    "Rhetoric",
+    "On the Orator",
+    "The Art of Speaking"
+   ]
+  },
+  {
+   "name": "War & Statecraft",
+   "note": "In the bindery",
+   "titles": [
+    "On War",
+    "Discourses on Livy",
+    "The Republic"
+   ]
+  },
+  {
+   "name": "Love & Human Nature",
+   "note": "In the bindery",
+   "titles": [
+    "The Art of Love",
+    "On Love",
+    "Characters"
+   ]
+  }
+ ]
 }
