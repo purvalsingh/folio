@@ -110,5 +110,27 @@
       "gita_01.png",
       "gita_01.webp"
     ]
+  },
+  "wealth_cover": {
+    "book": "wealth",
+    "card": "Cover",
+    "file": "Original Folio sketch: eighteenth-century pin workshop and market",
+    "source": "ImageGen original",
+    "license": "Folio original",
+    "files": [
+      "wealth_cover.png",
+      "wealth_cover.webp"
+    ]
+  },
+  "gitanjali_cover": {
+    "book": "gitanjali",
+    "card": "Cover",
+    "file": "Original Folio sketch: Bengali river, reed flute and earthen vessel",
+    "source": "ImageGen original",
+    "license": "Folio original",
+    "files": [
+      "gitanjali_cover.png",
+      "gitanjali_cover.webp"
+    ]
   }
 }

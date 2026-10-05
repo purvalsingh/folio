@@ -1,4 +1,5 @@
 """Draft varied-shelf expansion. Builds to research/staging, never the live catalog."""
+import json
 from pathlib import Path
 
 from folio_build import SOURCES, build
@@ -10,23 +11,7 @@ SOURCES.update({
     "gitanjali": ("gitanjali.txt", "Rabindranath Tagore, Gitanjali (English version, 1913)"),
 })
 
-CAPS = {
-    "wealth_01": "Adam Smith, portrait attributed to the Muir family collection",
-    "wealth_02": "Maritime scene by Ashley Bowen",
-    "wealth_03": "A baker's boy, 19th-century print",
-    "wealth_04": "The Stocks Market, London, painted by Joseph Nickolls",
-    "wealth_05": "The Stocks Market, London, painted by Joseph Nickolls",
-    "walden_01": "Henry David Thoreau, daguerreotype by Benjamin Maxham",
-    "walden_02": "Thoreau approaches his cabin at Walden Pond, imagined scene",
-    "walden_03": "Thoreau's Cove at Walden Pond, historic postcard",
-    "walden_04": "The site of Thoreau's cabin beside Walden Pond",
-    "walden_05": "Thoreau's Cove at Walden Pond, historic postcard",
-    "gitanjali_01": "Rabindranath Tagore, photographed in 1909",
-    "gitanjali_02": "A page of Tagore's Bengali handwriting",
-    "gitanjali_03": "Title page of Gitanjali, English edition",
-    "gitanjali_04": "Portrait of Tagore by Abanindranath Tagore",
-    "gitanjali_05": "Title page of Gitanjali, English edition",
-}
+CAPS = {"walden_02": "Thoreau approaches his cabin at Walden Pond"}
 
 GLOSS = {
     "wealth": {
@@ -130,5 +115,13 @@ if __name__ == "__main__":
     out.mkdir(parents=True, exist_ok=True)
     for about, src, rows in BOOKS:
         cards = C(src, rows)
-        build(dict(about, version=1, self_src=src, cover=f"{about['id']}_cover"), GLOSS[about['id']], cards,
+        cover = f"{about['id']}_cover" if about['id'] in {'wealth', 'gitanjali'} else ''
+        build(dict(about, version=1, self_src=src, cover=cover), GLOSS[about['id']], cards,
               credits_file="commons/credits.json", caps=CAPS, out_dir=out)
+        path = out / f"{about['id']}.json"
+        book = json.loads(path.read_text())
+        for card in book['cards']:
+            if card['img'] != 'walden_02':
+                card['img'] = ''
+                card['cap'] = ''
+        path.write_text(json.dumps(book, ensure_ascii=False, indent=1) + '\n')

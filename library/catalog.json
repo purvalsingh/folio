@@ -202,6 +202,21 @@
    "shelf": "Persuasion & Rhetoric"
   },
   {
+   "id": "gitanjali",
+   "version": 1,
+   "title": "Gitanjali",
+   "author": "Rabindranath Tagore",
+   "year": "1913",
+   "era": "modern",
+   "cards": 5,
+   "sizeKb": 413,
+   "blurb": "Songs of devotion, work and shared life in the English collection that brought Tagore a worldwide readership.",
+   "images": [
+    "gitanjali_cover"
+   ],
+   "shelf": "Poetry of Life"
+  },
+  {
    "id": "gracian",
    "version": 4,
    "title": "The Art of Worldly Wisdom",
@@ -421,6 +436,36 @@
    "blurb": "A tiny classic of self-help: your thoughts are seeds, your life is the garden.",
    "images": [],
    "shelf": "Mind & the Crowd"
+  },
+  {
+   "id": "walden",
+   "version": 1,
+   "title": "Walden",
+   "author": "Henry David Thoreau",
+   "year": "1854",
+   "era": "modern",
+   "cards": 5,
+   "sizeKb": 240,
+   "blurb": "Two years beside a Massachusetts pond became a challenge to hurry less and choose life deliberately.",
+   "images": [
+    "walden_02"
+   ],
+   "shelf": "Nature & Simple Living"
+  },
+  {
+   "id": "wealth",
+   "version": 1,
+   "title": "The Wealth of Nations",
+   "author": "Adam Smith",
+   "year": "1776",
+   "era": "enlightenment",
+   "cards": 5,
+   "sizeKb": 485,
+   "blurb": "Why work becomes productive, why people trade, and why an economy should serve those who use what it makes.",
+   "images": [
+    "wealth_cover"
+   ],
+   "shelf": "Fortune & Wealth"
   }
  ],
  "cloud": null,
@@ -464,6 +509,18 @@
   {
    "name": "Courtly Wisdom",
    "note": "Maxims for surviving the courts of kings"
+  },
+  {
+   "name": "Fortune & Wealth",
+   "note": "Work, trade and living well"
+  },
+  {
+   "name": "Nature & Simple Living",
+   "note": "A deliberate life outdoors"
+  },
+  {
+   "name": "Poetry of Life",
+   "note": "Songs, verse and inner life"
   }
  ],
  "coming": [
@@ -471,8 +528,6 @@
    "name": "Fortune & Wealth",
    "note": "In the bindery",
    "titles": [
-    "The Wealth of Nations",
-    "Walden",
     "The Richest Man in Babylon"
    ]
   },
@@ -481,7 +536,6 @@
    "note": "In the bindery",
    "titles": [
     "Rubaiyat",
-    "Gitanjali",
     "Leaves of Grass"
    ]
   },

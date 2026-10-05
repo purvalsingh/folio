@@ -1,19 +1,82 @@
 {
  "shelves": [
-  {"name": "Power & Strategy", "note": "Rulers, generals and the craft of influence"},
-  {"name": "War & Statecraft", "note": "Duels, republics and the art of ruling well"},
-  {"name": "Persuasion & Rhetoric", "note": "Speaking, charming and winning people over"},
-  {"name": "Stoic Wisdom", "note": "Calm in a world you cannot control"},
-  {"name": "Eastern Paths", "note": "The Way, the Gita and the Buddha's verses"},
-  {"name": "Indian Wisdom", "note": "Fables, couplets and counsel from old India"},
-  {"name": "Mind & the Crowd", "note": "How thought shapes us, and crowds shape thought"},
-  {"name": "The Human Mind", "note": "Habits, dreams, emotions and the unconscious"},
-  {"name": "Love & Human Nature", "note": "Romance, friendship and trusting yourself"},
-  {"name": "Courtly Wisdom", "note": "Maxims for surviving the courts of kings"}
+  {
+   "name": "Power & Strategy",
+   "note": "Rulers, generals and the craft of influence"
+  },
+  {
+   "name": "War & Statecraft",
+   "note": "Duels, republics and the art of ruling well"
+  },
+  {
+   "name": "Persuasion & Rhetoric",
+   "note": "Speaking, charming and winning people over"
+  },
+  {
+   "name": "Stoic Wisdom",
+   "note": "Calm in a world you cannot control"
+  },
+  {
+   "name": "Eastern Paths",
+   "note": "The Way, the Gita and the Buddha's verses"
+  },
+  {
+   "name": "Indian Wisdom",
+   "note": "Fables, couplets and counsel from old India"
+  },
+  {
+   "name": "Mind & the Crowd",
+   "note": "How thought shapes us, and crowds shape thought"
+  },
+  {
+   "name": "The Human Mind",
+   "note": "Habits, dreams, emotions and the unconscious"
+  },
+  {
+   "name": "Love & Human Nature",
+   "note": "Romance, friendship and trusting yourself"
+  },
+  {
+   "name": "Courtly Wisdom",
+   "note": "Maxims for surviving the courts of kings"
+  },
+  {
+   "name": "Fortune & Wealth",
+   "note": "Work, trade and living well"
+  },
+  {
+   "name": "Nature & Simple Living",
+   "note": "A deliberate life outdoors"
+  },
+  {
+   "name": "Poetry of Life",
+   "note": "Songs, verse and inner life"
+  }
  ],
  "coming": [
-  {"name": "Fortune & Wealth", "note": "In the bindery", "titles": ["The Wealth of Nations", "Walden", "The Richest Man in Babylon"]},
-  {"name": "Poetry of Life", "note": "In the bindery", "titles": ["Rubaiyat", "Gitanjali", "Leaves of Grass"]},
-  {"name": "Myth & Hero", "note": "In the bindery", "titles": ["The Odyssey", "Mahabharata Tales", "Beowulf"]}
+  {
+   "name": "Fortune & Wealth",
+   "note": "In the bindery",
+   "titles": [
+    "The Richest Man in Babylon"
+   ]
+  },
+  {
+   "name": "Poetry of Life",
+   "note": "In the bindery",
+   "titles": [
+    "Rubaiyat",
+    "Leaves of Grass"
+   ]
+  },
+  {
+   "name": "Myth & Hero",
+   "note": "In the bindery",
+   "titles": [
+    "The Odyssey",
+    "Mahabharata Tales",
+    "Beowulf"
+   ]
+  }
  ]
 }

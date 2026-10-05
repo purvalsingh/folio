@@ -31,6 +31,7 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.ModalBottomSheet
+import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.rememberModalBottomSheetState
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -109,13 +110,19 @@ fun BookcaseScreen(app: App, open: (Book, Int) -> Unit, bind: () -> Unit, recall
     val list = rememberLazyListState()
     val scope = rememberCoroutineScope()
     var picked by remember { mutableStateOf<Volume?>(null) }
+    var query by remember { mutableStateOf("") }
+    val visibleShelves = if (query.isBlank()) shelves else shelves.map { (info, volumes) ->
+        info to volumes.filter { it.title.contains(query, ignoreCase = true) || it.author.contains(query, ignoreCase = true) }
+    }.filter { it.second.isNotEmpty() }
     val headerItems = 2 // masthead block + sticky tabs
 
     LazyColumn(Modifier.fillMaxSize(), state = list, contentPadding = PaddingValues(bottom = 28.dp)) {
         item { Column(Modifier.padding(horizontal = 20.dp)) { LibraryTop(app, open, recall, journey, desk, theme, scenario) } }
         stickyHeader {
             Column(Modifier.fillMaxWidth().paper(ink.page, ink)) {
-                LazyRow(contentPadding = PaddingValues(horizontal = 16.dp, vertical = 8.dp), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                OutlinedTextField(query, onValueChange = { query = it }, modifier = Modifier.fillMaxWidth().padding(horizontal = 16.dp, vertical = 6.dp),
+                    placeholder = { Text("Search title or author") }, singleLine = true)
+                if (query.isBlank()) LazyRow(contentPadding = PaddingValues(horizontal = 16.dp, vertical = 8.dp), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                     val open = app.desk().count { !it.finished }
                     if (open > 0) item {
                         Box(
@@ -144,11 +151,15 @@ fun BookcaseScreen(app: App, open: (Book, Int) -> Unit, bind: () -> Unit, recall
                 Box(Modifier.fillMaxWidth().height(0.6.dp).background(ink.rule))
             }
         }
-        items(shelves.size) { i ->
-            val (s, vols) = shelves[i]
+        items(visibleShelves.size) { i ->
+            val (s, vols) = visibleShelves[i]
             Shelf(app, s, vols, picked?.id, onPick = { picked = it }, bind = bind.takeIf { s.name == BOUND_SHELF })
         }
-        item {
+        if (query.isNotBlank() && visibleShelves.isEmpty()) item {
+            Text("No books found", modifier = Modifier.fillMaxWidth().padding(28.dp),
+                fontFamily = Fonts.fell, fontSize = 18.sp, color = ink.faded, textAlign = TextAlign.Center)
+        }
+        if (query.isBlank()) item {
             // shelves still in the bindery: announced, not yet written
             val coming = app.catalog?.coming.orEmpty().ifEmpty { DEFAULT_COMING }
             coming.forEach { s -> Shelf(app, s, emptyList(), null, onPick = {}, bind = null) }
