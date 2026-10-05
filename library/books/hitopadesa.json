@@ -1,0 +1,78 @@
+{
+ "id": "hitopadesa",
+ "title": "The Hitopadesha",
+ "short": "Narayana",
+ "author": "Narayana (trad.)",
+ "year": "c. 1100",
+ "translator": "Sir Edwin Arnold, The Book of Good Counsels (public domain, Project Gutenberg #13268)",
+ "era": "indic",
+ "shelf": "Indian Wisdom",
+ "blurb": "'Beneficial advice': Sanskrit fables of crows, deer, tigers and kings, packed with verses on friendship, money and war.",
+ "version": 1,
+ "cover": "hitopadesa_cover",
+ "glossary": {
+  "enmity": {
+   "m": "Deep hostility between enemies.",
+   "e": "The old enmity between the families ended at the wedding."
+  },
+  "scripture": {
+   "m": "Holy writings.",
+   "e": "She quoted scripture at the ceremony."
+  },
+  "scripture-learning": {
+   "m": "Holy writings.",
+   "e": "She quoted scripture at the ceremony.",
+   "root": "scripture"
+  },
+  "fate": {
+   "m": "A force believed to decide events.",
+   "e": "He blamed fate for the missed train."
+  }
+ },
+ "cards": [
+  {
+   "ch": "Book I",
+   "chTitle": "Winning of Friends",
+   "title": "An unlikely friendship",
+   "text": "A crow asks a mouse to be his friend. The mouse laughs — crows eat mice! The story asks whether trust can cross natural enmity.",
+   "quote": "give me thy friendship",
+   "qMean": "Please be my friend.",
+   "qLife": "Making friends with a rival team's player.",
+   "img": "hitopadesa_01",
+   "cap": "The lion, crow, wolf and jackal, Kalila wa Dimna · public domain"
+  },
+  {
+   "ch": "Book I",
+   "chTitle": "Winning of Friends",
+   "title": "Money and respect",
+   "text": "A bitter verse: people treat wealth as friends, family and even wisdom — and the fable calls this a shame.",
+   "quote": "Wealth is friends, home, father, brother",
+   "qMean": "Money buys people's attention and respect.",
+   "qLife": "Suddenly having many 'friends' after a lottery win.",
+   "img": "hitopadesa_02",
+   "cap": "The merchant returns, Tuti-nama, Mughal, 16th century · public domain"
+  },
+  {
+   "ch": "Book I",
+   "chTitle": "Winning of Friends",
+   "title": "Some things never change",
+   "text": "However learned a cheat is, he's still a cheat; however bitter the pasture, a cow's milk is sweet. Nature shows through.",
+   "quote": "Be his Scripture-learning wondrous, yet the cheat will be a cheat",
+   "qMean": "Education doesn't change a dishonest nature.",
+   "qLife": "A well-spoken scammer is still a scammer.",
+   "img": "hitopadesa_03",
+   "cap": "Krishna with flute · public domain"
+  },
+  {
+   "ch": "Introduction",
+   "chTitle": "On Effort",
+   "title": "Lions must hunt",
+   "text": "Fate isn't enough: even a hungry lion must hunt, for no deer walks into his den while he sleeps.",
+   "quote": "While the hungry lion slumbers, not a deer comes to his den.",
+   "qMean": "Success needs effort; it won't come to you while you sleep.",
+   "qLife": "Job offers don't arrive unless you apply.",
+   "img": "hitopadesa_04",
+   "cap": "Abu'l Hasan, Raja Anup Rai intercepting a lion, c. 1615 · public domain"
+  }
+ ]
+}

@@ -1,0 +1,84 @@
+{
+ "id": "speaking",
+ "title": "The Art of Public Speaking",
+ "short": "Esenwein & Carnegie",
+ "author": "J. Berg Esenwein & Dale Carnegie",
+ "year": "1915",
+ "translator": "Original text (public domain, Project Gutenberg #16317)",
+ "era": "modern",
+ "shelf": "Persuasion & Rhetoric",
+ "blurb": "Dale Carnegie's first book, written before How to Win Friends: beating stage fright, killing monotony, and speaking so people listen.",
+ "version": 1,
+ "cover": "speaking_cover",
+ "glossary": {
+  "monotony": {
+   "m": "Boring sameness, with no change.",
+   "e": "The monotony of the long drive made him sleepy."
+  },
+  "self-confidence": {
+   "m": "Trust in your own abilities.",
+   "e": "Practice gave her the self-confidence to sing on stage."
+  },
+  "audience": {
+   "m": "The people watching or listening.",
+   "e": "The audience laughed at the first joke."
+  }
+ },
+ "cards": [
+  {
+   "ch": "Chapter I",
+   "chTitle": "Acquiring Confidence",
+   "title": "Everyone gets stage fright",
+   "text": "The book opens with the question every beginner asks: how do I stop being afraid in front of people? The authors promise it can be learned.",
+   "quote": "the fear that paralyzes me before an audience",
+   "qMean": "The fear that freezes you when everyone is watching.",
+   "qLife": "Your mind going blank during a class presentation.",
+   "img": "speaking_01",
+   "cap": "Robert Dighton, The Specious Orator · public domain"
+  },
+  {
+   "ch": "Chapter I",
+   "chTitle": "Acquiring Confidence",
+   "title": "Be like the calm horses",
+   "text": "From a train window you see some horses bolt at the noise and others keep grazing, used to it. Speakers grow calm the same way — by facing audiences again and again.",
+   "quote": "some horses feed near the track and never even pause to look up at the thundering cars",
+   "qMean": "Repeated exposure makes frightening things ordinary.",
+   "qLife": "After ten presentations, the eleventh barely scares you.",
+   "img": "speaking_02",
+   "cap": "Franz Marc, Grazing Horses, 1911 · public domain"
+  },
+  {
+   "ch": "Chapter I",
+   "chTitle": "Acquiring Confidence",
+   "title": "Confidence needs content",
+   "text": "You can't fake confidence. Know your subject so well that you have something real to be confident about.",
+   "quote": "to acquire self-confidence you must have something in which to be confident.",
+   "qMean": "Real confidence comes from being well prepared.",
+   "qLife": "Knowing your project inside out before the client meeting.",
+   "img": "speaking_03",
+   "cap": "Reading room, Bibliothèque Mazarine, 19th c. · public domain"
+  },
+  {
+   "ch": "Chapter II",
+   "chTitle": "The Sin of Monotony",
+   "title": "Don't drone",
+   "text": "The deadliest fault in speaking is monotony — the same tone, pace and pitch. Vary them and people stay awake.",
+   "quote": "the nature--and the curse--of monotony",
+   "qMean": "Speaking in one flat tone ruins a talk.",
+   "qLife": "A lecturer who reads slides in the same voice for an hour.",
+   "img": "speaking_04",
+   "cap": "William Hogarth, The Sleeping Congregation · public domain"
+  },
+  {
+   "ch": "Chapter III",
+   "chTitle": "Efficiency through Emphasis",
+   "title": "Be natural — by practice",
+   "text": "Telling someone to 'be natural' doesn't help. Natural speaking is built by copying what good speakers do until it becomes your own.",
+   "quote": "It is useless to warn the student that he must be natural.",
+   "qMean": "Just saying 'be natural' doesn't make anyone natural.",
+   "qLife": "Rehearsing a toast many times so it sounds effortless.",
+   "img": "speaking_05",
+   "cap": "Demosthenes, bust · public domain"
+  }
+ ]
+}

@@ -1,0 +1,80 @@
+{
+ "id": "ovid",
+ "title": "The Art of Love",
+ "short": "Ovid",
+ "author": "Ovid",
+ "year": "c. 2 AD",
+ "translator": "Henry T. Riley, 1885 (public domain, Project Gutenberg #47677)",
+ "era": "ancient",
+ "shelf": "Love & Human Nature",
+ "blurb": "Rome's cheekiest poet writes a mock-serious handbook on romance — so popular, and so naughty, that the emperor exiled him.",
+ "version": 1,
+ "cover": "ovid_cover",
+ "glossary": {
+  "compliments": {
+   "m": "Words of praise.",
+   "e": "He paid her compliments on her cooking."
+  },
+  "fair": {
+   "m": "(Old use) a beautiful woman; the beloved.",
+   "e": "Poets wrote endless songs to the fair."
+  }
+ },
+ "cards": [
+  {
+   "ch": "Book I",
+   "chTitle": "The Plan",
+   "title": "Love as a campaign",
+   "text": "Ovid jokes that a lover is like a new soldier: first find someone to love, then win them by pleasing, then make the love last.",
+   "quote": "are now coming for the first time to engage as a soldier in a new service.",
+   "qMean": "Starting a romance is like signing up for a new campaign.",
+   "qLife": "Planning a first date like a careful project.",
+   "img": "ovid_01",
+   "cap": "Mongez, Mars and Venus · public domain"
+  },
+  {
+   "ch": "Book I",
+   "chTitle": "Winning Hearts",
+   "title": "Please first",
+   "text": "The second task, he says, is simply to please — kindness and attention come before any grand gesture.",
+   "quote": "The next task after that, is to prevail on the fair by pleasing her.",
+   "qMean": "The next step is to win them over by being pleasant.",
+   "qLife": "Remembering someone's favourite tea before trying to impress them.",
+   "img": "ovid_02",
+   "cap": "Vénus et Adonis (Nicolas Poussin) · public domain"
+  },
+  {
+   "ch": "Book I",
+   "chTitle": "Letters",
+   "title": "Write it down",
+   "text": "Ovid advises sending letters full of compliments — words reach where you cannot.",
+   "quote": "Let it carry your compliments",
+   "qMean": "Let your message carry your praise.",
+   "qLife": "A thoughtful text after a first meeting.",
+   "img": "ovid_03",
+   "cap": "'Sappho' with writing tablets, Pompeii fresco · public domain"
+  },
+  {
+   "ch": "Book I",
+   "chTitle": "Grooming",
+   "title": "Don't overdo it",
+   "text": "He tells men not to fuss too much over looks; heroes of myth won hearts without curling their hair.",
+   "quote": "A neglect of beauty becomes men",
+   "qMean": "Men don't need to over-groom to be attractive.",
+   "qLife": "Clean and simple beats ten hair products.",
+   "img": "ovid_04",
+   "cap": "Hercules and Omphale by F.Goya · public domain"
+  },
+  {
+   "ch": "Book I",
+   "chTitle": "Promises",
+   "title": "The danger of easy promises",
+   "text": "Ovid cheekily says lovers promise everything — and the gods laugh at lovers' broken vows. Read it as satire: two thousand years ago, people already knew sweet talk is cheap.",
+   "quote": "promises attract the fair",
+   "qMean": "Promises are attractive — which is why they're easily made.",
+   "qLife": "Be wary of someone who promises the moon on day one.",
+   "img": "ovid_05",
+   "cap": "Francesco Bartolozzi - Nymph and Cupid · public domain"
+  }
+ ]
+}

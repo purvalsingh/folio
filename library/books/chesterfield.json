@@ -1,0 +1,95 @@
+{
+ "id": "chesterfield",
+ "title": "Letters to His Son",
+ "short": "Lord Chesterfield",
+ "author": "Philip Stanhope, Lord Chesterfield",
+ "year": "1774",
+ "translator": "Original text (public domain, Project Gutenberg #3361)",
+ "era": "enlightenment",
+ "shelf": "Persuasion & Rhetoric",
+ "blurb": "A worldly English lord's private letters to his son on charm, manners, attention and getting on in society — the 18th century's guide to being liked.",
+ "version": 1,
+ "cover": "chesterfield_cover",
+ "glossary": {
+  "resent": {
+   "m": "Feel bitter or annoyed about.",
+   "e": "She resented being left out of the plan."
+  },
+  "attention": {
+   "m": "Careful focus on something.",
+   "e": "Give the recipe your full attention."
+  },
+  "learning": {
+   "m": "Knowledge gained by study.",
+   "e": "Her learning showed in every answer."
+  }
+ },
+ "cards": [
+  {
+   "ch": "Letter",
+   "chTitle": "On Learning",
+   "title": "Hide your watch",
+   "text": "Don't show off your knowledge. Keep it like a watch in your pocket: bring it out when someone asks the time, not every minute to show you own one.",
+   "quote": "Wear your learning, like your watch, in a private pocket",
+   "qMean": "Don't show off what you know.",
+   "qLife": "Answering a question simply instead of lecturing about it.",
+   "img": "chesterfield_01",
+   "cap": "Pocket watch, 18th century · public domain"
+  },
+  {
+   "ch": "Letter",
+   "chTitle": "On Company",
+   "title": "Don't seem wiser",
+   "text": "Never try to look smarter or more educated than the people you're with. It makes them resent you.",
+   "quote": "Never seem wiser, nor more learned, than the people you are with.",
+   "qMean": "Don't act cleverer than the people around you.",
+   "qLife": "Not correcting a friend's grammar at dinner.",
+   "img": "chesterfield_02",
+   "cap": "William Hogarth, The Holland House Group · public domain"
+  },
+  {
+   "ch": "Letter",
+   "chTitle": "On Attention",
+   "title": "Do it well or not at all",
+   "text": "Whatever is worth doing is worth doing well, and nothing is done well without attention — even dancing and dressing.",
+   "quote": "ver is worth doing at all, is worth doing well",
+   "qMean": "If something is worth doing, do it properly.",
+   "qLife": "Writing a thank-you note carefully, not in five seconds.",
+   "img": "chesterfield_03",
+   "cap": "The York Minuet, 18th-century print · public domain"
+  },
+  {
+   "ch": "Letter",
+   "chTitle": "On Time",
+   "title": "Seize every moment",
+   "text": "Know what time is worth; use every moment. No laziness, no putting off till tomorrow what you can do today.",
+   "quote": "Know the true value of time; snatch, seize, and enjoy every moment of it.",
+   "qMean": "Value your time and use it fully.",
+   "qLife": "Finishing a small task now instead of adding it to tomorrow's list.",
+   "img": "chesterfield_04",
+   "cap": "Lord and lady with Death and the hourglass, after Dürer · public domain"
+  },
+  {
+   "ch": "Letter",
+   "chTitle": "On Pleasing",
+   "title": "The art of pleasing",
+   "text": "Being liked is a skill — necessary and hard. It can't be fully reduced to rules; watch people and learn.",
+   "quote": "The art of pleasing is a very necessary one to possess; but a very difficult one to acquire.",
+   "qMean": "Being pleasant to others is important but hard to learn.",
+   "qLife": "Noticing what makes a colleague smile and doing more of it.",
+   "img": "chesterfield_05",
+   "cap": "Wanstead Assembly at Wanstead House by Hogarth · public domain"
+  },
+  {
+   "ch": "Letter",
+   "chTitle": "On Truth",
+   "title": "Fools lie most",
+   "text": "In his experience the biggest fools are the biggest liars; he judges people's honesty by their intelligence.",
+   "quote": "the greatest fools are the greatest liars.",
+   "qMean": "The most foolish people tend to lie the most.",
+   "qLife": "The friend with wild excuses is rarely the sharpest.",
+   "img": "chesterfield_06",
+   "cap": "William Hogarth - A Rake's Progress - Tavern Scene · public domain"
+  }
+ ]
+}

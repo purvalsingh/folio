@@ -1,11 +1,11 @@
 {
  "app": {
-  "versionCode": 4,
-  "versionName": "1.3",
-  "notes": "A new Bookcase home: books stand on labelled shelves — tap a spine to pull it out. Fifteen new books in the online library: Meditations, Enchiridion, Tao Te Ching, Dhammapada, Arthashastra, The Crowd, As a Man Thinketh, Beyond Good and Evil, The Art of Worldly Wisdom, Maxims, and a new Human Mind shelf with William James, Freud, Darwin, Jung and The Red Book.",
-  "sizeKb": 26303,
-  "sha256": "f4011781a555eedb7ba10457e6cd63f4a6165b064cda282b10dca504b3859bef",
-  "apk": "https://github.com/purvalsingh/folio/releases/download/v1.3/Folio.apk"
+  "versionCode": 5,
+  "versionName": "1.4",
+  "notes": "Daily Recall (spaced repetition), chapter checks, read-aloud, daily reminder, quote-of-the-day widget, shareable quote cards, Reading Journeys, Hindi meanings, text size and spacing. 12 new books: On War, Discourses on Livy, The Republic, Carnegie's Art of Public Speaking, Franklin, Chesterfield, Ovid, Emerson, Seneca, and a new Indian Wisdom shelf (Panchatantra, Hitopadesha, Thirukkural).",
+  "sizeKb": 88412,
+  "sha256": "acbf593737fce40dfe26b8b397044fa6c874d7bb10510508f31bab180643315c",
+  "apk": "https://github.com/purvalsingh/folio/releases/download/v1.4/Folio.apk"
  },
  "books": [
   {
@@ -262,6 +262,27 @@
    "shelf": "Mind & the Crowd"
   },
   {
+   "id": "chesterfield",
+   "version": 1,
+   "title": "Letters to His Son",
+   "author": "Philip Stanhope, Lord Chesterfield",
+   "year": "1774",
+   "era": "enlightenment",
+   "cards": 6,
+   "sizeKb": 708,
+   "blurb": "A worldly English lord's private letters to his son on charm, manners, attention and getting on in society — the 18th century's guide to being liked.",
+   "images": [
+    "chesterfield_01",
+    "chesterfield_02",
+    "chesterfield_03",
+    "chesterfield_04",
+    "chesterfield_05",
+    "chesterfield_06",
+    "chesterfield_cover"
+   ],
+   "shelf": "Persuasion & Rhetoric"
+  },
+  {
    "id": "crowd",
    "version": 1,
    "title": "The Crowd",
@@ -328,6 +349,27 @@
    "shelf": "The Human Mind"
   },
   {
+   "id": "emerson",
+   "version": 1,
+   "title": "Self-Reliance & Other Essays",
+   "author": "Ralph Waldo Emerson",
+   "year": "1841",
+   "era": "victorian",
+   "cards": 6,
+   "sizeKb": 539,
+   "blurb": "America's great essayist on trusting yourself, on love, and on friendship — short, quotable and fearless.",
+   "images": [
+    "emerson_01",
+    "emerson_02",
+    "emerson_03",
+    "emerson_04",
+    "emerson_05",
+    "emerson_06",
+    "emerson_cover"
+   ],
+   "shelf": "Love & Human Nature"
+  },
+  {
    "id": "emotions",
    "version": 1,
    "title": "The Expression of the Emotions",
@@ -370,6 +412,27 @@
     "enchiridion_cover"
    ],
    "shelf": "Stoic Wisdom"
+  },
+  {
+   "id": "franklin",
+   "version": 1,
+   "title": "The Autobiography",
+   "author": "Benjamin Franklin",
+   "year": "1791",
+   "era": "enlightenment",
+   "cards": 6,
+   "sizeKb": 655,
+   "blurb": "How a runaway printer's apprentice became one of history's great persuaders — by never arguing, keeping a little book of virtues, and asking favours.",
+   "images": [
+    "franklin_01",
+    "franklin_02",
+    "franklin_03",
+    "franklin_04",
+    "franklin_05",
+    "franklin_06",
+    "franklin_cover"
+   ],
+   "shelf": "Persuasion & Rhetoric"
   },
   {
    "id": "gracian",
@@ -416,6 +479,25 @@
    "shelf": "The Human Mind"
   },
   {
+   "id": "hitopadesa",
+   "version": 1,
+   "title": "The Hitopadesha",
+   "author": "Narayana (trad.)",
+   "year": "c. 1100",
+   "era": "indic",
+   "cards": 4,
+   "sizeKb": 653,
+   "blurb": "'Beneficial advice': Sanskrit fables of crows, deer, tigers and kings, packed with verses on friendship, money and war.",
+   "images": [
+    "hitopadesa_01",
+    "hitopadesa_02",
+    "hitopadesa_03",
+    "hitopadesa_04",
+    "hitopadesa_cover"
+   ],
+   "shelf": "Indian Wisdom"
+  },
+  {
    "id": "jung",
    "version": 1,
    "title": "Psychology of the Unconscious",
@@ -435,6 +517,45 @@
     "jung_cover"
    ],
    "shelf": "The Human Mind"
+  },
+  {
+   "id": "kural",
+   "version": 1,
+   "title": "The Thirukkural",
+   "author": "Tiruvalluvar",
+   "year": "c. 300 BC–500 AD",
+   "era": "indic",
+   "cards": 6,
+   "sizeKb": 493,
+   "blurb": "1,330 two-line couplets from Tamil Nadu on virtue, wealth and love — the 'universal scripture' of South India.",
+   "images": [
+    "kural_01",
+    "kural_02",
+    "kural_03",
+    "kural_04",
+    "kural_05",
+    "kural_06",
+    "kural_cover"
+   ],
+   "shelf": "Indian Wisdom"
+  },
+  {
+   "id": "livy",
+   "version": 1,
+   "title": "Discourses on Livy",
+   "author": "Niccolò Machiavelli",
+   "year": "1531",
+   "era": "renaissance",
+   "cards": 3,
+   "sizeKb": 501,
+   "blurb": "The other Machiavelli: a love letter to republics, arguing that free peoples are wiser and steadier than princes.",
+   "images": [
+    "livy_01",
+    "livy_02",
+    "livy_03",
+    "livy_cover"
+   ],
+   "shelf": "War & Statecraft"
   },
   {
    "id": "maxims",
@@ -483,6 +604,64 @@
    "shelf": "Stoic Wisdom"
   },
   {
+   "id": "onwar",
+   "version": 1,
+   "title": "On War",
+   "author": "Carl von Clausewitz",
+   "year": "1832",
+   "era": "germanic",
+   "cards": 4,
+   "sizeKb": 418,
+   "blurb": "A Prussian general's deep study of war: a duel, a gamble, a fog — and always the servant of politics.",
+   "images": [
+    "onwar_01",
+    "onwar_02",
+    "onwar_03",
+    "onwar_04",
+    "onwar_cover"
+   ],
+   "shelf": "War & Statecraft"
+  },
+  {
+   "id": "ovid",
+   "version": 1,
+   "title": "The Art of Love",
+   "author": "Ovid",
+   "year": "c. 2 AD",
+   "era": "ancient",
+   "cards": 5,
+   "sizeKb": 652,
+   "blurb": "Rome's cheekiest poet writes a mock-serious handbook on romance — so popular, and so naughty, that the emperor exiled him.",
+   "images": [
+    "ovid_01",
+    "ovid_02",
+    "ovid_03",
+    "ovid_04",
+    "ovid_05",
+    "ovid_cover"
+   ],
+   "shelf": "Love & Human Nature"
+  },
+  {
+   "id": "panchatantra",
+   "version": 1,
+   "title": "The Panchatantra",
+   "author": "Vishnu Sharma (trad.)",
+   "year": "c. 300 BC",
+   "era": "indic",
+   "cards": 4,
+   "sizeKb": 697,
+   "blurb": "Animal fables written to teach three dull princes the art of ruling — the world's most travelled storybook, ancestor of Aesop and La Fontaine.",
+   "images": [
+    "panchatantra_01",
+    "panchatantra_02",
+    "panchatantra_03",
+    "panchatantra_04",
+    "panchatantra_cover"
+   ],
+   "shelf": "Indian Wisdom"
+  },
+  {
    "id": "redbook",
    "version": 1,
    "title": "The Red Book",
@@ -502,6 +681,65 @@
     "redbook_cover"
    ],
    "shelf": "The Human Mind"
+  },
+  {
+   "id": "republic",
+   "version": 1,
+   "title": "The Republic",
+   "author": "Plato",
+   "year": "c. 375 BC",
+   "era": "ancient",
+   "cards": 5,
+   "sizeKb": 621,
+   "blurb": "Socrates asks what justice is — and imagines a whole city to find out. Home of the cave, the ring of invisibility and the philosopher-king.",
+   "images": [
+    "republic_01",
+    "republic_02",
+    "republic_03",
+    "republic_04",
+    "republic_05",
+    "republic_cover"
+   ],
+   "shelf": "War & Statecraft"
+  },
+  {
+   "id": "seneca",
+   "version": 1,
+   "title": "On the Shortness of Life",
+   "author": "Lucius Annaeus Seneca",
+   "year": "c. 49 AD",
+   "era": "ancient",
+   "cards": 4,
+   "sizeKb": 568,
+   "blurb": "Life isn't short — we waste it. Seneca's sharp little essay on time, busyness and living now.",
+   "images": [
+    "seneca_01",
+    "seneca_02",
+    "seneca_03",
+    "seneca_04",
+    "seneca_cover"
+   ],
+   "shelf": "Stoic Wisdom"
+  },
+  {
+   "id": "speaking",
+   "version": 1,
+   "title": "The Art of Public Speaking",
+   "author": "J. Berg Esenwein & Dale Carnegie",
+   "year": "1915",
+   "era": "modern",
+   "cards": 5,
+   "sizeKb": 661,
+   "blurb": "Dale Carnegie's first book, written before How to Win Friends: beating stage fright, killing monotony, and speaking so people listen.",
+   "images": [
+    "speaking_01",
+    "speaking_02",
+    "speaking_03",
+    "speaking_04",
+    "speaking_05",
+    "speaking_cover"
+   ],
+   "shelf": "Persuasion & Rhetoric"
   },
   {
    "id": "taoteching",
@@ -556,12 +794,24 @@
    "note": "Rulers, generals and the craft of influence"
   },
   {
+   "name": "War & Statecraft",
+   "note": "Duels, republics and the art of ruling well"
+  },
+  {
+   "name": "Persuasion & Rhetoric",
+   "note": "Speaking, charming and winning people over"
+  },
+  {
    "name": "Stoic Wisdom",
    "note": "Calm in a world you cannot control"
   },
   {
    "name": "Eastern Paths",
    "note": "The Way, the Gita and the Buddha's verses"
+  },
+  {
+   "name": "Indian Wisdom",
+   "note": "Fables, couplets and counsel from old India"
   },
   {
    "name": "Mind & the Crowd",
@@ -572,36 +822,190 @@
    "note": "Habits, dreams, emotions and the unconscious"
   },
   {
+   "name": "Love & Human Nature",
+   "note": "Romance, friendship and trusting yourself"
+  },
+  {
    "name": "Courtly Wisdom",
    "note": "Maxims for surviving the courts of kings"
   }
  ],
  "coming": [
   {
-   "name": "Persuasion & Rhetoric",
+   "name": "Fortune & Wealth",
    "note": "In the bindery",
    "titles": [
-    "Rhetoric",
-    "On the Orator",
-    "The Art of Speaking"
+    "The Wealth of Nations",
+    "Walden",
+    "The Richest Man in Babylon"
    ]
   },
   {
-   "name": "War & Statecraft",
+   "name": "Poetry of Life",
    "note": "In the bindery",
    "titles": [
-    "On War",
-    "Discourses on Livy",
-    "The Republic"
+    "Rubaiyat",
+    "Gitanjali",
+    "Leaves of Grass"
    ]
   },
   {
-   "name": "Love & Human Nature",
+   "name": "Myth & Hero",
    "note": "In the bindery",
    "titles": [
-    "The Art of Love",
-    "On Love",
-    "Characters"
+    "The Odyssey",
+    "Mahabharata Tales",
+    "Beowulf"
+   ]
+  }
+ ],
+ "journeys": [
+  {
+   "id": "power7",
+   "title": "Power in 7 Days",
+   "blurb": "Machiavelli, Greene and Sun Tzu side by side — one sharp idea each, every day.",
+   "days": [
+    [
+     "prince#0",
+     "laws#0",
+     "artofwar#1"
+    ],
+    [
+     "prince#5",
+     "laws#3",
+     "artofwar#4"
+    ],
+    [
+     "prince#10",
+     "laws#6",
+     "artofwar#5"
+    ],
+    [
+     "laws#8",
+     "artofwar#11",
+     "onwar#1"
+    ],
+    [
+     "prince#13",
+     "laws#16",
+     "artofwar#13"
+    ],
+    [
+     "laws#13",
+     "livy#0",
+     "chesterfield#1"
+    ],
+    [
+     "artofwar#7",
+     "laws#15",
+     "republic#4"
+    ]
+   ]
+  },
+  {
+   "id": "calm7",
+   "title": "Calm in 7 Days",
+   "blurb": "Stoics, the Gita, the Buddha and the Tao on staying steady when life is not.",
+   "days": [
+    [
+     "enchiridion#0",
+     "meditations#1",
+     "gita#4"
+    ],
+    [
+     "dhammapada#0",
+     "thinketh#0",
+     "enchiridion#1"
+    ],
+    [
+     "meditations#2",
+     "seneca#0",
+     "taoteching#2"
+    ],
+    [
+     "gita#5",
+     "dhammapada#1",
+     "meditations#9"
+    ],
+    [
+     "seneca#2",
+     "enchiridion#2",
+     "taoteching#3"
+    ],
+    [
+     "gita#11",
+     "dhammapada#7",
+     "thinketh#5"
+    ],
+    [
+     "meditations#8",
+     "taoteching#8",
+     "gita#12"
+    ]
+   ]
+  },
+  {
+   "id": "mind5",
+   "title": "Know Your Mind in 5 Days",
+   "blurb": "Habits, emotions, crowds and the stories you tell yourself.",
+   "days": [
+    [
+     "habit#0",
+     "habit#2",
+     "thinketh#1"
+    ],
+    [
+     "emotions#0",
+     "emotions#2",
+     "dhammapada#4"
+    ],
+    [
+     "crowd#0",
+     "crowd#2",
+     "crowd#4"
+    ],
+    [
+     "habit#3",
+     "franklin#3",
+     "seneca#1"
+    ],
+    [
+     "habit#5",
+     "thinketh#3",
+     "kural#3"
+    ]
+   ]
+  },
+  {
+   "id": "charm5",
+   "title": "Win People Over in 5 Days",
+   "blurb": "Franklin, Chesterfield, Carnegie and Tiruvalluvar on being liked and heard.",
+   "days": [
+    [
+     "franklin#0",
+     "franklin#1",
+     "chesterfield#0"
+    ],
+    [
+     "franklin#2",
+     "emerson#4",
+     "kural#1"
+    ],
+    [
+     "speaking#0",
+     "speaking#2",
+     "speaking#3"
+    ],
+    [
+     "chesterfield#4",
+     "kural#2",
+     "laws#12"
+    ],
+    [
+     "emerson#0",
+     "kural#5",
+     "chesterfield#3"
+    ]
    ]
   }
  ]

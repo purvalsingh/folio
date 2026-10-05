@@ -1,0 +1,95 @@
+{
+ "id": "emerson",
+ "title": "Self-Reliance & Other Essays",
+ "short": "Emerson",
+ "author": "Ralph Waldo Emerson",
+ "year": "1841",
+ "translator": "From Essays: First Series (public domain, Project Gutenberg #2944)",
+ "era": "victorian",
+ "shelf": "Love & Human Nature",
+ "blurb": "America's great essayist on trusting yourself, on love, and on friendship — short, quotable and fearless.",
+ "version": 1,
+ "cover": "emerson_cover",
+ "glossary": {
+  "nonconformist": {
+   "m": "Someone who doesn't follow the crowd's rules.",
+   "e": "The nonconformist wore sandals to the wedding."
+  },
+  "hobgoblin": {
+   "m": "A mischievous imp; a silly fear.",
+   "e": "Worry about trends was his hobgoblin."
+  },
+  "consistency": {
+   "m": "Always doing or saying the same thing.",
+   "e": "Consistency matters in training a puppy."
+  }
+ },
+ "cards": [
+  {
+   "ch": "Self-Reliance",
+   "chTitle": "",
+   "title": "Trust yourself",
+   "text": "Emerson's call: trust your own thoughts. Every heart responds to that iron string of self-trust.",
+   "quote": "Trust thyself: every heart vibrates to that iron string.",
+   "qMean": "Believe in yourself; everyone feels the pull of self-trust.",
+   "qLife": "Choosing the career you love over the 'safe' one.",
+   "img": "emerson_01",
+   "cap": "Caspar David Friedrich - Wanderer above the sea of fog · public domain"
+  },
+  {
+   "ch": "Self-Reliance",
+   "chTitle": "",
+   "title": "Be a nonconformist",
+   "text": "To be your own person, you must not simply follow the crowd's idea of right.",
+   "quote": "Whoso would be a man, must be a nonconformist.",
+   "qMean": "To be truly yourself, you can't just follow everyone else.",
+   "qLife": "Wearing what you like instead of what's trending.",
+   "img": "emerson_02",
+   "cap": "Walden Pond · public domain"
+  },
+  {
+   "ch": "Self-Reliance",
+   "chTitle": "",
+   "title": "Foolish consistency",
+   "text": "Don't be trapped by what you said yesterday. Changing your mind when you learn more is a strength.",
+   "quote": "A foolish consistency is the hobgoblin of little minds",
+   "qMean": "Refusing to change your mind is a small-minded habit.",
+   "qLife": "Admitting you were wrong about a restaurant after trying it.",
+   "img": "emerson_03",
+   "cap": "Autumn Landscape on the Hudson River, by Jasper Francis Cropsey · public domain"
+  },
+  {
+   "ch": "Self-Reliance",
+   "chTitle": "",
+   "title": "Misunderstood greatness",
+   "text": "Socrates, Jesus, Galileo and Newton were all misunderstood. Being misunderstood is not a sign you're wrong.",
+   "quote": "To be great is to be misunderstood.",
+   "qMean": "Great people are often misunderstood.",
+   "qLife": "An inventor laughed at before the idea succeeds.",
+   "img": "emerson_04",
+   "cap": "Galileo before the Holy Office · public domain"
+  },
+  {
+   "ch": "Friendship",
+   "chTitle": "",
+   "title": "Be a friend",
+   "text": "You can't buy or chase friendship. The only way to have a friend is to be one.",
+   "quote": "the only way to have a friend is to be one.",
+   "qMean": "To have friends, be a good friend first.",
+   "qLife": "Calling to check on someone instead of waiting for them to call.",
+   "img": "emerson_05",
+   "cap": "Two Friends by Oliver Ingraham Lay (1877) · public domain"
+  },
+  {
+   "ch": "Love",
+   "chTitle": "",
+   "title": "All love a lover",
+   "text": "Everyone warms to someone in love; love brings out kindness and grace even in rough people.",
+   "quote": "All mankind love a lover.",
+   "qMean": "Everyone likes seeing someone in love.",
+   "qLife": "The whole office smiling at a colleague's engagement news.",
+   "img": "emerson_06",
+   "cap": "Frank Bernard Dicksee - Romeo and Juliet, 1884 · public domain"
+  }
+ ]
+}

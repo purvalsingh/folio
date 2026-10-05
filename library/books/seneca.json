@@ -1,0 +1,69 @@
+{
+ "id": "seneca",
+ "title": "On the Shortness of Life",
+ "short": "Seneca",
+ "author": "Lucius Annaeus Seneca",
+ "year": "c. 49 AD",
+ "translator": "Aubrey Stewart, 1889 (public domain, Project Gutenberg #64576)",
+ "era": "ancient",
+ "shelf": "Stoic Wisdom",
+ "blurb": "Life isn't short — we waste it. Seneca's sharp little essay on time, busyness and living now.",
+ "version": 1,
+ "cover": "seneca_cover",
+ "glossary": {
+  "carelessness": {
+   "m": "Not paying attention or care.",
+   "e": "Carelessness cost him his keys."
+  },
+  "luxury": {
+   "m": "Expensive comfort.",
+   "e": "A spa day felt like pure luxury."
+  }
+ },
+ "cards": [
+  {
+   "ch": "I",
+   "chTitle": "Life Is Long Enough",
+   "title": "Life is long — if used",
+   "text": "We complain life is short, but we waste so much of it. Used well, it is long enough for great things.",
+   "quote": "life is long enough to carry out the most important projects",
+   "qMean": "Life is long enough if you use it well.",
+   "qLife": "Two focused hours a day can write a book in a year.",
+   "img": "seneca_01",
+   "cap": "Adriaen Coorte - Vanitas Still Life with skull and hourglass · public domain"
+  },
+  {
+   "ch": "I",
+   "chTitle": "Life Is Long Enough",
+   "title": "Where time leaks",
+   "text": "Luxury and carelessness drain our days; we only notice at the end how fast it slipped away.",
+   "quote": "when it all runs to waste through luxury and carelessness",
+   "qMean": "Time disappears through comfort and carelessness.",
+   "qLife": "Hours vanishing into scrolling on the sofa.",
+   "img": "seneca_02",
+   "cap": "A coronation banquet, 18th century · public domain"
+  },
+  {
+   "ch": "II",
+   "chTitle": "Busy People",
+   "title": "Busy, but life is hurrying",
+   "text": "Busy people keep postponing living. Meanwhile life rushes on, and death won't wait for their schedule.",
+   "quote": "you are busy, but life is hurrying on",
+   "qMean": "While you're busy, life passes quickly.",
+   "qLife": "Always 'too busy' to visit grandparents.",
+   "img": "seneca_03",
+   "cap": "Manuel Domínguez, The Death of Seneca · public domain"
+  },
+  {
+   "ch": "II",
+   "chTitle": "Busy People",
+   "title": "Nobody owns himself",
+   "text": "Everyone gives their time to others — clients, cases, crowds — but no one claims time for himself.",
+   "quote": "no one lays claim to his own self, every one wastes his time over some one else.",
+   "qMean": "People give all their time to others and none to themselves.",
+   "qLife": "Answering every message instantly but never having an hour for yourself.",
+   "img": "seneca_04",
+   "cap": "Johannes Lingelbach, Roman Street Scene · public domain"
+  }
+ ]
+}
