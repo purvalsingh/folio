@@ -1,11 +1,11 @@
 {
  "app": {
-  "versionCode": 16,
-  "versionName": "1.6.7",
-  "notes": "Original illustrated Gita cover and first thirteen folios.",
+  "versionCode": 17,
+  "versionName": "1.6.8",
+  "notes": "Share cards preserve full artwork and keep text inside the frame across Story, Post and Square.",
   "sizeKb": 26906,
-  "sha256": "aa72252b03289f7b031e3f48803d2a15de895d3bd0171db565b5477a64d5c70f",
-  "apk": "https://github.com/purvalsingh/folio/releases/download/v1.6.7/Folio.apk"
+  "sha256": "52b68d29461bfb572f0d4ef2aa5a0dd2e4f6459ad163d449023a83f04c6960b8",
+  "apk": "https://github.com/purvalsingh/folio/releases/download/v1.6.8/Folio.apk"
  },
  "books": [
   {
