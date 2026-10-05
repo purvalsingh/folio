@@ -167,6 +167,7 @@ fun LibraryScreen(app: App, open: (Book, Int) -> Unit, bind: () -> Unit) {
             Masthead("Folio", greet)
             Label("${today.dayOfWeek.getDisplayName(JTextStyle.FULL, Locale.ENGLISH)} · ${roman(today.dayOfMonth)} ${today.month.getDisplayName(JTextStyle.FULL, Locale.ENGLISH)} ${roman(today.year)}", ink.faded, 11.sp)
             Spacer(Modifier.height(16.dp))
+            UpdateBanner(app)
         }
         item {
             val read = remember(tick) { store.readToday() }
@@ -250,6 +251,7 @@ fun LibraryScreen(app: App, open: (Book, Int) -> Unit, bind: () -> Unit) {
                 }
             }
         }
+        item { OnlineShelf(app) }
         item {
             Spacer(Modifier.height(12.dp))
             Box(
@@ -489,6 +491,14 @@ fun HonoursScreen(app: App) {
         OutlinedTextField(key, { key = it.trim(); store.geminiKey = key; store.persist() }, Modifier.fillMaxWidth(),
             placeholder = { Text("Gemini API key", fontFamily = Fonts.fell) }, singleLine = true, colors = fieldColors(),
             visualTransformation = PasswordVisualTransformation(), keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Password))
+        Spacer(Modifier.height(20.dp))
+        Label("Edition")
+        val ctx = LocalContext.current
+        val scope = androidx.compose.runtime.rememberCoroutineScope()
+        Text("Folio ${Library.installedVersionName(ctx)}" + (app.updateWaiting()?.let { " · version ${it.versionName} is ready in the Library" } ?: ""),
+            fontFamily = Fonts.fell, fontSize = 15.sp, color = ink.ink)
+        Spacer(Modifier.height(8.dp))
+        Pill(if (app.checking) "Checking…" else "Check for new books & updates", filled = false) { scope.launch { app.refresh() } }
         Spacer(Modifier.height(24.dp))
         Text("Texts: The Prince (Marriott, 1908), The Art of War (Giles, 1910) and the Bhagavad Gita (Arnold, 1885) via Project Gutenberg; Gracián (Jacobs, 1892) via archive.org. The 48 Laws of Power (Greene, 1998) is in copyright: Folio carries original summaries only, with quotes from the public-domain classics behind each law. Summaries written for Folio. Plates: engravings made for Folio, and public-domain Renaissance prints and paintings via Wikimedia Commons, credited under each card. Type: UnifrakturMaguntia, IM Fell, Cinzel, Old Standard, Special Elite (SIL OFL / Apache).",
             fontFamily = Fonts.fell, fontStyle = FontStyle.Italic, fontSize = 12.sp, color = ink.faded, textAlign = TextAlign.Center, modifier = Modifier.fillMaxWidth())
@@ -552,4 +562,97 @@ fun CelebrationCard(c: Celebration, stamp: Float, spin: Float, burst: Float, onD
                 Pill("Onward  ❧", onClick = onDone)
             }
         }
+}
+
+/* ---------- online library: app updates + new books ---------- */
+
+@Composable
+fun UpdateBanner(app: App) {
+    val ink = LocalInk.current
+    val ctx = LocalContext.current
+    val scope = androidx.compose.runtime.rememberCoroutineScope()
+    val r = app.updateWaiting() ?: return
+    var progress by remember { mutableStateOf<Float?>(null) }
+    var error by remember { mutableStateOf<String?>(null) }
+    var apk by remember { mutableStateOf<java.io.File?>(null) }
+    Panel {
+        Column {
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                WaxSeal("✦", 40.dp)
+                Spacer(Modifier.width(12.dp))
+                Column(Modifier.weight(1f)) {
+                    Label("A new edition of Folio")
+                    Text("Version ${r.versionName}" + if (r.sizeKb > 0) " · ${r.sizeKb / 1024} MB" else "",
+                        fontFamily = Fonts.fell, fontSize = 16.sp, color = ink.ink)
+                }
+            }
+            if (r.notes.isNotBlank()) Text(r.notes, fontFamily = Fonts.fell, fontStyle = FontStyle.Italic, fontSize = 14.sp,
+                lineHeight = 19.sp, color = ink.faded, modifier = Modifier.padding(top = 6.dp))
+            Spacer(Modifier.height(10.dp))
+            val p = progress
+            if (p != null) {
+                LinearProgressIndicator(progress = { p }, modifier = Modifier.fillMaxWidth().height(3.dp), color = ink.rubric,
+                    trackColor = ink.rule, drawStopIndicator = {}, gapSize = 0.dp)
+                Text("Fetching the new edition…", fontFamily = Fonts.fell, fontSize = 13.sp, color = ink.faded)
+            } else {
+                Pill(if (apk != null) "Install update" else "Update — your progress is kept", modifier = Modifier.fillMaxWidth()) {
+                    error = null
+                    val ready = apk
+                    when {
+                        !Library.canInstall(ctx) -> Library.askInstallPermission(ctx)
+                        ready != null -> Library.launchInstaller(ctx, ready)
+                        else -> scope.launch {
+                            progress = 0f
+                            runCatching { Library.downloadApk(ctx, r) { progress = it } }
+                                .onSuccess { apk = it; progress = null; Library.launchInstaller(ctx, it) }
+                                .onFailure { progress = null; error = it.message ?: "Download failed." }
+                        }
+                    }
+                }
+                if (!Library.canInstall(ctx)) Text("Android will ask once to allow Folio to install its own updates.",
+                    fontFamily = Fonts.fell, fontSize = 12.sp, color = ink.faded, modifier = Modifier.padding(top = 6.dp))
+            }
+            error?.let { Text(it, fontFamily = Fonts.fell, fontSize = 13.sp, color = ink.rubric, modifier = Modifier.padding(top = 6.dp)) }
+        }
+    }
+    Spacer(Modifier.height(16.dp))
+}
+
+@Composable
+fun OnlineShelf(app: App) {
+    val ink = LocalInk.current
+    val ctx = LocalContext.current
+    val scope = androidx.compose.runtime.rememberCoroutineScope()
+    val list = app.available()
+    if (list.isEmpty()) return
+    Spacer(Modifier.height(18.dp))
+    Label("From the online library")
+    Spacer(Modifier.height(6.dp))
+    list.forEach { e ->
+        var progress by remember(e.id) { mutableStateOf<Float?>(null) }
+        var error by remember(e.id) { mutableStateOf<String?>(null) }
+        Row(Modifier.fillMaxWidth().padding(vertical = 10.dp), verticalAlignment = Alignment.CenterVertically) {
+            Column(Modifier.weight(1f)) {
+                Text(e.title, fontFamily = e.era.display, fontSize = 23.sp, lineHeight = 26.sp, color = ink.ink)
+                Text(listOf(e.author, e.year).filter { it.isNotBlank() }.joinToString(" · "), fontFamily = Fonts.fell,
+                    fontStyle = FontStyle.Italic, fontSize = 14.sp, color = ink.faded)
+                Text("${e.era.label} · ${e.cards} folios · ${maxOf(1, e.sizeKb / 1024)} MB", fontFamily = Fonts.fellSc, fontSize = 12.sp, color = ink.faded)
+                if (e.blurb.isNotBlank()) Text(e.blurb, fontFamily = Fonts.fell, fontSize = 14.sp, lineHeight = 19.sp, color = ink.ink,
+                    maxLines = 3, overflow = TextOverflow.Ellipsis, modifier = Modifier.padding(top = 4.dp))
+                val p = progress
+                if (p != null) LinearProgressIndicator(progress = { p }, modifier = Modifier.fillMaxWidth().padding(top = 6.dp).height(3.dp),
+                    color = ink.rubric, trackColor = ink.rule, drawStopIndicator = {}, gapSize = 0.dp)
+                error?.let { Text(it, fontFamily = Fonts.fell, fontSize = 13.sp, color = ink.rubric) }
+            }
+            Spacer(Modifier.width(12.dp))
+            if (progress == null) Pill("Fetch", filled = false) {
+                error = null; progress = 0f
+                scope.launch {
+                    runCatching { Library.install(ctx, e) { progress = it } }
+                        .onSuccess { app.put(it); progress = null }
+                        .onFailure { progress = null; error = it.message ?: "Could not download." }
+                }
+            }
+        }
+    }
 }

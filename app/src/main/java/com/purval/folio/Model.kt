@@ -22,6 +22,10 @@ data class Book(
     val cards: List<Card>, val imported: Boolean,
     /** how quotes are signed on cards, e.g. "Machiavelli" */
     val short: String = author,
+    /** bumped in the catalog when the content changes */
+    val version: Int = 1,
+    /** where this book's plates live on disk; null = only the APK's assets */
+    val dir: File? = null,
 ) {
     fun cardId(i: Int) = "$id#$i"
     /** Index of the first card of every chapter, used for drop caps and the contents sheet. */
@@ -30,6 +34,8 @@ data class Book(
 
 object Shelf {
     fun importedDir(ctx: Context) = File(ctx.filesDir, "books").apply { mkdirs() }
+    /** books (and newer editions of bundled books) downloaded from the online library */
+    fun remoteDir(ctx: Context) = File(ctx.filesDir, "remote").apply { mkdirs() }
 
     fun loadAll(ctx: Context): List<Book> {
         val order = listOf("prince", "laws", "artofwar", "gita")
@@ -37,13 +43,19 @@ object Shelf {
             .sortedBy { order.indexOf(it.removeSuffix(".json")).let { i -> if (i < 0) 99 else i } }.map {
             parse(JSONObject(ctx.assets.open("books/$it").bufferedReader().readText()), imported = false)
         }
+        val remote = remoteDir(ctx).listFiles { f -> f.name.endsWith(".json") }.orEmpty()
+            .mapNotNull { f -> runCatching { parse(JSONObject(f.readText()), false, File(remoteDir(ctx), f.nameWithoutExtension)) }.getOrNull() }
+            .associateBy { it.id }
+        // a downloaded edition replaces the bundled one only if it is newer
+        val shelf = builtIn.map { b -> remote[b.id]?.takeIf { it.version > b.version } ?: b } +
+            remote.values.filter { r -> builtIn.none { it.id == r.id } }.sortedBy { it.title }
         val imported = importedDir(ctx).listFiles { f -> f.name.endsWith(".json") }.orEmpty()
             .sortedBy { it.lastModified() }
-            .mapNotNull { runCatching { parse(JSONObject(it.readText()), imported = true) }.getOrNull() }
-        return builtIn + imported
+            .mapNotNull { runCatching { parse(JSONObject(it.readText()), true, File(importedDir(ctx), it.nameWithoutExtension)) }.getOrNull() }
+        return shelf + imported
     }
 
-    fun parse(o: JSONObject, imported: Boolean): Book {
+    fun parse(o: JSONObject, imported: Boolean, dir: File? = null): Book {
         val gl = o.optJSONObject("glossary") ?: JSONObject()
         val glossary = gl.keys().asSequence().associate { k ->
             val g = gl.getJSONObject(k)
@@ -59,7 +71,7 @@ object Shelf {
             o.getString("id"), o.getString("title"), o.optString("author"), o.optString("year"),
             o.optString("translator"), Era.of(o.optString("era")), o.optString("blurb"),
             o.optString("cover").ifBlank { null }, glossary, cards, imported,
-            o.optString("short").ifBlank { o.optString("author") },
+            o.optString("short").ifBlank { o.optString("author") }, o.optInt("version", 1), dir,
         )
     }
 

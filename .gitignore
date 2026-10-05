@@ -5,3 +5,8 @@ local.properties
 *.jks
 keystore.properties
 research/raw/
+release/
+research/commons/*.jpg
+research/*flat*.txt
+research/log_*.txt
+research/__pycache__/

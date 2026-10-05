@@ -131,7 +131,7 @@ object Importer {
                 Card(i, p.chapter, "", l.title ?: "A Passage", l.summary ?: "", l.quote ?: "", "c$i")
             }
             val book = Book(id, title, author, "", "Imported from your PDF", era,
-                "Your own book, bound as ${cards.size} flashcards.", "c0", glossary, cards, imported = true)
+                "Your own book, bound as ${cards.size} flashcards.", "c0", glossary, cards, imported = true, dir = dir)
             Shelf.save(ctx, book)
             book
         } catch (t: Throwable) {

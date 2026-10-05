@@ -75,8 +75,35 @@ class App(ctx: Context) {
     val store = Store(ctx)
     val books = mutableStateListOf<Book>().apply { addAll(Shelf.loadAll(ctx)) }
     private val appCtx = ctx.applicationContext
+    var catalog by mutableStateOf<Library.Catalog?>(null)
+    var checking by mutableStateOf(false)
     fun book(id: String) = books.firstOrNull { it.id == id }
     fun removeBook(b: Book) { Shelf.delete(appCtx, b.id); books.remove(b); store.forgetBook(b.id) }
+
+    /** Fetch the catalog; quietly bring every book on the shelf up to its latest edition. */
+    suspend fun refresh() {
+        if (checking) return
+        checking = true
+        try {
+            val c = Library.fetch() ?: return
+            catalog = c
+            c.books.forEach { e ->
+                val have = book(e.id) ?: return@forEach
+                if (have.imported || e.version <= have.version) return@forEach
+                runCatching { Library.install(appCtx, e) }.onSuccess { put(it) }
+            }
+        } finally { checking = false }
+    }
+
+    fun put(b: Book) {
+        val i = books.indexOfFirst { it.id == b.id }
+        if (i >= 0) books[i] = b else books.add(books.indexOfFirst { it.imported }.takeIf { it >= 0 } ?: books.size, b)
+    }
+
+    /** Catalog books not yet on this shelf. */
+    fun available() = catalog?.books.orEmpty().filter { e -> books.none { it.id == e.id } }
+
+    fun updateWaiting(): Library.Release? = catalog?.app?.takeIf { it.versionCode > Library.installedVersionCode(appCtx) }
 }
 
 private enum class Tab(val label: String, val icon: ImageVector) {
@@ -121,6 +148,7 @@ private fun Root(app: App) {
     var route by remember { mutableStateOf<Route>(Route.Home) }
     var tab by rememberSaveable { mutableStateOf(Tab.LIBRARY) }
     val open: (Book, Int) -> Unit = { b, i -> route = Route.Read(b.id, i) }
+    androidx.compose.runtime.LaunchedEffect(Unit) { app.refresh() }
 
     Box(Modifier.fillMaxSize().paper(ink.page, ink)) {
         AnimatedContent(route, transitionSpec = {
