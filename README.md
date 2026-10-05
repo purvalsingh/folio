@@ -6,6 +6,12 @@
 
 **Machiavelli, Sun Tzu, the Bhagavad Gita, Marcus Aurelius, Plato, Jung, the Thirukkural and 20+ more — turned into short illustrated flashcards you can actually finish.**
 
+[![Downloads](https://img.shields.io/github/downloads/purvalsingh/folio/total?label=downloads&color=8e1b12&style=flat-square)](https://github.com/purvalsingh/folio/releases)
+[![Latest release](https://img.shields.io/github/v/release/purvalsingh/folio?color=1a1814&style=flat-square)](https://github.com/purvalsingh/folio/releases/latest)
+[![Stars](https://img.shields.io/github/stars/purvalsingh/folio?color=8e1b12&style=flat-square)](https://github.com/purvalsingh/folio/stargazers)
+![Android 8+](https://img.shields.io/badge/Android-8%2B-1a1814?style=flat-square&logo=android)
+![Kotlin](https://img.shields.io/badge/Kotlin-Jetpack%20Compose-1a1814?style=flat-square&logo=kotlin)
+
 [**⬇ Download Folio for Android (free)**](https://github.com/purvalsingh/folio/releases/latest/download/Folio.apk) · native Kotlin · no ads · no tracking · works offline
 
 <img src="docs/screens/home.jpg" width="240"> <img src="docs/screens/reader.jpg" width="240"> <img src="docs/screens/bookcase.jpg" width="240">
@@ -80,6 +86,8 @@ You bought it. You opened it. Page three, a sentence 90 words long, and you were
 1. Download [**Folio.apk**](https://github.com/purvalsingh/folio/releases/latest/download/Folio.apk) on your Android phone (Android 8+).
 2. Open it and allow "install from this source" when asked.
 3. That's it. Folio updates itself: new versions and new books appear inside the app.
+
+**Like it?** ⭐ Star the repo so more readers find it, and tell us which book should be bound next in [Issues](https://github.com/purvalsingh/folio/issues).
 
 ---
 
