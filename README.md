@@ -14,6 +14,8 @@
 
 [**⬇ Android app (free)**](https://github.com/purvalsingh/folio/releases/latest/download/Folio.apk) · [**🍎 iPhone & web (free)**](https://purvalsingh.github.io/folio/) · no ads · no tracking · works offline
 
+[**Explore the Folio website**](https://folio-site-liart.vercel.app/) — app preview, reading features, and a link to the latest Android APK.
+
 <img src="docs/screens/home.jpg" width="240"> <img src="docs/screens/reader.jpg" width="240"> <img src="docs/screens/bookcase.jpg" width="240">
 
 </div>

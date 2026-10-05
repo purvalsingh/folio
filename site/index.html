@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f3eee3">
+  <meta name="description" content="Folio turns great, difficult books into short illustrated pages you can actually finish. Free on Android and the web.">
+  <meta property="og:title" content="Folio — Great books, one page at a time">
+  <meta property="og:description" content="Read the ideas. See the original words. Turn each page into something you can use.">
+  <meta property="og:image" content="/assets/home.jpg">
+  <link rel="icon" href="/assets/icon.png">
+  <title>Folio — Great books, one page at a time</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <div class="reading-line" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="wordmark" href="#top" aria-label="Folio, back to top">𝔉𝔬𝔩𝔦𝔬<span class="wordmark-dot">✦</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#how">How it reads</a><a href="#inside">Inside Folio</a><a href="#questions">Questions</a>
+    </nav>
+    <a class="nav-download" href="https://github.com/purvalsingh/folio/releases/latest/download/Folio.apk" data-apk>Get the app <span aria-hidden="true">↗</span></a>
+  </header>
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <span class="edition-stamp">A little time with a great book</span>
+        <h1 id="hero-title">The books you mean to read.<br><em>The pages you actually will.</em></h1>
+        <p>Folio opens the world's most demanding classics into short, illustrated pages. Start with the idea, turn over for the author's words, and keep what stays with you.</p>
+        <div class="hero-actions">
+          <a class="button button-ink" href="https://github.com/purvalsingh/folio/releases/latest/download/Folio.apk" data-apk><span>Download for Android</span><span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="https://purvalsingh.github.io/folio/">Read on iPhone or web <span aria-hidden="true">↗</span></a>
+        </div>
+        <p class="small-note">Free · Android 8+ · No ads or account needed <span id="release-version"></span></p>
+      </div>
+      <div class="hero-art" aria-label="Folio reader showing an illustrated page from The Prince">
+        <div class="orbit orbit-one" aria-hidden="true"></div><div class="orbit orbit-two" aria-hidden="true"></div>
+        <div class="book-object"><div class="book-spine" aria-hidden="true"></div><img src="/assets/reader.jpg" alt="Illustrated Folio page explaining a passage from The Prince" width="540" height="1200" fetchpriority="high"></div>
+        <span class="art-caption">A whole idea, in a page.</span>
+      </div>
+      <a class="scroll-cue" href="#how">Open the book <span aria-hidden="true">↓</span></a>
+    </section>
+
+    <section class="opening" id="how" aria-labelledby="how-title">
+      <div class="section-heading"><span class="section-index">The reading experience</span><h2 id="how-title">The hard part is starting.<br><em>So start here.</em></h2></div>
+      <div class="reading-stage">
+        <div class="stage-copy">
+          <div class="stage-rule" aria-hidden="true"><span id="stage-progress"></span></div>
+          <p class="stage-step" id="stage-step">01 / 03</p>
+          <h3 id="stage-title">One page at a time</h3>
+          <p id="stage-description">A short, clear explanation opens each idea. Original artwork gives you a place and a moment to remember it by.</p>
+          <div class="stage-controls"><button type="button" id="prev-page" aria-label="Previous preview" disabled>←</button><button type="button" id="next-page" aria-label="Next preview">Turn the page →</button></div>
+        </div>
+        <div class="stage-visual"><div class="page-stack"><img id="stage-image" src="/assets/reader.jpg" alt="A Folio reading page" width="540" height="1200"></div><span class="page-hint">Tap “Turn the page” to explore</span></div>
+      </div>
+    </section>
+
+    <section class="books-section" id="inside" aria-labelledby="books-title">
+      <div class="shelf-intro"><span class="section-index">On the shelves</span><h2 id="books-title">Old books.<br><em>New ways in.</em></h2><p>Move from strategy to stillness, from the Bhagavad Gita to Machiavelli. Folio gives each work its own pages, voice and visual world.</p><span class="live-count" id="book-count">A growing library of classics</span></div>
+      <div class="shelf-strip" aria-label="Example books and topics">
+        <div class="book-tile tile-one"><span>Power & strategy</span><strong>The Prince</strong><small>Niccolò Machiavelli</small></div>
+        <div class="book-tile tile-two"><span>Indian wisdom</span><strong>Bhagavad Gita</strong><small>Vyasa, traditionally</small></div>
+        <div class="book-tile tile-three"><span>Stoic wisdom</span><strong>Meditations</strong><small>Marcus Aurelius</small></div>
+        <div class="book-tile tile-four"><span>Eastern paths</span><strong>Tao Te Ching</strong><small>Laozi</small></div>
+      </div>
+      <div class="feature-ledger">
+        <div><span class="ledger-icon" aria-hidden="true">✧</span><h3>Understand it</h3><p>Plain English first. Tap difficult words for meanings in English or Hindi.</p></div>
+        <div><span class="ledger-icon" aria-hidden="true">↺</span><h3>Hear the author</h3><p>Turn the page for the passage as written and an everyday example.</p></div>
+        <div><span class="ledger-icon" aria-hidden="true">◇</span><h3>Make it yours</h3><p>Save quotes, revisit them with Daily Recall, and export your notes.</p></div>
+      </div>
+    </section>
+
+    <section class="journey-section" aria-labelledby="journey-title">
+      <div class="journey-image"><img src="/assets/journey.jpg" alt="A Folio Reading Journey on a phone" loading="lazy" width="540" height="1200"></div>
+      <div class="journey-copy"><span class="section-index">Keep going</span><h2 id="journey-title">A reading habit with room to breathe.</h2><p>Take a short journey through a theme, check what you remember, or simply read the next page. Your place waits for you.</p><ul><li>Reading Journeys through ideas across books</li><li>Quick chapter checks and Daily Recall</li><li>Comfortable type, spacing and Lamplight mode</li></ul></div>
+    </section>
+
+    <section class="download-section" id="download" aria-labelledby="download-title"><div class="download-ornament" aria-hidden="true">❧</div><span class="section-index">Your next page is ready</span><h2 id="download-title">Begin with a book<br>you've always meant to read.</h2><p>Free to read. No ads, trackers, or account required.</p><div class="download-actions"><a class="button button-paper" href="https://github.com/purvalsingh/folio/releases/latest/download/Folio.apk" data-apk>Download the Android APK <span aria-hidden="true">↗</span></a><a class="text-link light-link" href="https://purvalsingh.github.io/folio/">Open the iPhone & web app <span aria-hidden="true">↗</span></a></div><small id="download-version">The button always opens the latest GitHub release.</small></section>
+
+    <section class="faq" id="questions" aria-labelledby="faq-title"><h2 id="faq-title">Good to know</h2><div class="faq-list"><details><summary>Can I read on iPhone?</summary><p>Yes. Open the <a href="https://purvalsingh.github.io/folio/">web app</a> in Safari and use Share → Add to Home Screen. The APK is for Android only.</p></details><details><summary>Will the Android download stay current?</summary><p>Yes. This page checks Folio's latest GitHub release for the current APK. The app also checks for new versions and books.</p></details><details><summary>Do I need an account or internet?</summary><p>No account is needed. Folio keeps your reading on your device and works offline after content is available. New books and updates need a connection to download.</p></details><details><summary>What kind of books are inside?</summary><p>Classic works in strategy, philosophy, psychology, Indian wisdom and more. Some newer additions are short introductions while deeper editions are being developed.</p></details></div></section>
+  </main>
+  <footer><a class="wordmark" href="#top">𝔉𝔬𝔩𝔦𝔬</a><p>Made for the books worth returning to.</p><div><a href="https://github.com/purvalsingh/folio">GitHub</a><a href="https://github.com/purvalsingh/folio/issues/new">Suggest a book</a></div><small>© <span id="year"></span> Folio</small></footer>
+</body>
+</html>
