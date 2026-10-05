@@ -41,6 +41,7 @@ import androidx.compose.ui.graphics.asImageBitmap
 import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.platform.LocalInspectionMode
 import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.LinkAnnotation
@@ -140,16 +141,17 @@ private val imgCache = LruCache<String, ImageBitmap>(20)
 fun rememberPlate(book: Book, name: String?): ImageBitmap? {
     val ctx = LocalContext.current
     val key = "${book.id}/${book.version}/$name"
-    val v by produceState(imgCache[key], key) {
-        if (value == null && name != null) value = withContext(Dispatchers.IO) {
-            runCatching {
-                val f = book.dir?.let { File(it, "$name.webp") }
-                val bmp = if (f != null && f.exists()) BitmapFactory.decodeFile(f.path)
-                else if (book.imported) null
-                else ctx.assets.open("img/$name.webp").use { BitmapFactory.decodeStream(it) }
-                bmp?.asImageBitmap()?.also { imgCache.put(key, it) }
-            }.getOrNull()
-        }
+    fun load(): ImageBitmap? = if (name == null) null else runCatching {
+        val f = book.dir?.let { File(it, "$name.webp") }
+        val bmp = if (f != null && f.exists()) BitmapFactory.decodeFile(f.path)
+        else if (book.imported) null
+        else ctx.assets.open("img/$name.webp").use { BitmapFactory.decodeStream(it) }
+        bmp?.asImageBitmap()?.also { imgCache.put(key, it) }
+    }.getOrNull()
+    // previews and snapshots render a single frame, so they decode up front; the app decodes off the main thread
+    val first = imgCache[key] ?: if (LocalInspectionMode.current) load() else null
+    val v by produceState(first, key) {
+        if (value == null && name != null) value = withContext(Dispatchers.IO) { load() }
     }
     return v
 }

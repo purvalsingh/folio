@@ -21,7 +21,8 @@ class Shots {
             app.books += Shelf.parse(org.json.JSONObject(java.io.File("src/main/assets/books/$it.json").readText()), false)
         }
         paparazzi.snapshot {
-            androidx.compose.runtime.CompositionLocalProvider(androidx.activity.compose.LocalActivityResultRegistryOwner provides NoResults) {
+            androidx.compose.runtime.CompositionLocalProvider(androidx.activity.compose.LocalActivityResultRegistryOwner provides NoResults,
+                androidx.compose.ui.platform.LocalInspectionMode provides true) {
                 FolioTheme(night) { Box(Modifier.fillMaxSize().paper(LocalInk.current.page, LocalInk.current)) { body(app) } }
             }
         }

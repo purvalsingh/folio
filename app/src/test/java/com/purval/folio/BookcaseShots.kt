@@ -31,7 +31,7 @@ class BookcaseShots {
         }
         app.catalog = Library.Catalog(null, remote)
         paparazzi.snapshot {
-            FolioTheme(night) { Box(Modifier.fillMaxSize().paper(LocalInk.current.page, LocalInk.current)) { BookcaseScreen(app, { _, _ -> }, {}) } }
+            androidx.compose.runtime.CompositionLocalProvider(androidx.compose.ui.platform.LocalInspectionMode provides true) { FolioTheme(night) { Box(Modifier.fillMaxSize().paper(LocalInk.current.page, LocalInk.current)) { BookcaseScreen(app, { _, _ -> }, {}) } } }
         }
     }
 }
