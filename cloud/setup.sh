@@ -11,10 +11,10 @@ cat > proxy/vercel.json <<JSON
 JSON
 echo '<!doctype html><title>Folio sync</title><p>Folio sync relay.</p>' > proxy/index.html
 cd proxy
-npx -y vercel link --yes --project folio-sync >/dev/null
+npx -y vercel link --yes --project folio-reader-sync >/dev/null
 rm -f .env*; printf '.env*\n' > .vercelignore
 URL=$(npx -y vercel deploy --prod --yes 2>/dev/null | tail -1)
-ALIAS=$(npx -y vercel inspect "$URL" 2>&1 | grep -oE 'https://folio-sync[a-z0-9-]*\.vercel\.app' | head -1)
+ALIAS=https://folio-reader-sync.vercel.app
 BASE=${ALIAS:-$URL}/sb
 cd ..
 code=$(curl -s -o /dev/null -w "%{http_code}" "$BASE/auth/v1/health" -H "apikey: $KEY")
