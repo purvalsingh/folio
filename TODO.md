@@ -24,3 +24,5 @@
 - [x] Publish five-card introductions for Wealth of Nations, Walden, Gitanjali with original art
 - [ ] Grow to 120–130 source-grounded books across varied shelves
 - [ ] Replace 629 hidden image placements with relevant original sketches
+
+- [~] Gita original plate pass: cover + folios 1–13 reviewed and staged; 14–59 pending

@@ -1,5 +1,5 @@
 {
- "version": 10,
+ "version": 11,
  "id": "gita",
  "title": "The Bhagavad Gita",
  "short": "Bhagavad Gita",
@@ -8,7 +8,7 @@
  "translator": "Sir Edwin Arnold, The Song Celestial, 1885 (public domain, Project Gutenberg #2388)",
  "era": "indic",
  "shelf": "Eastern Paths",
- "cover": "",
+ "cover": "gita_cover",
  "blurb": "On a battlefield, a great archer loses his nerve, and his charioteer — God himself — talks him through duty, action, death and devotion. Eighteen chapters of the world's most loved spiritual dialogue.",
  "deep": true,
  "glossary": {
@@ -127,7 +127,7 @@
    "orig": "Dhritirashtra: Ranged thus for battle on the sacred plain-- On Kurukshetra--say, Sanjaya! say What wrought my people, and the Pandavas?\n\nSanjaya: When he beheld the host of Pandavas, Raja Duryodhana to Drona drew, And spake these words: \"Ah, Guru! see this line, How vast it is of Pandu fighting-men, Embattled by the son of Drupada, Thy scholar in the war! Therein stand ranked Chiefs like Arjuna, like to Bhima chiefs, Benders of bows; Virata, Yuyudhan, Drupada, eminent upon his car, Dhrishtaket, Chekitan, Kasi's stout lord, Purujit, Kuntibhoj, and Saivya, With Yudhamanyu, and Uttamauj Subhadra's child; and Drupadi's;-all famed! All mounted on their shining chariots! On our side, too,--thou best of Brahmans! see Excellent chiefs, commanders of my line, Whose names I joy to count: thyself the first, Then Bhishma, Karna, Kripa fierce in fight, Vikarna, Aswatthaman; next to these Strong Saumadatti, with full many more Valiant and tried, ready this day to die For me their king, each with his weapon grasped, Each skilful in the field. Weakest-meseems- Our battle shows where Bhishma holds command, And Bhima, fronting him, something too strong! Have care our captains nigh to Bhishma's ranks Prepare what help they may! Now, blow my shell!\"",
    "origFrom": "The Bhagavad Gita (tr. Edwin Arnold, 1885)",
    "img": "gita_01",
-   "cap": "Original Folio illustration: Krishna drives Arjuna between the armies of Kurukshetra.",
+   "cap": "Original Folio illustration: Two armies, one doubt.",
    "qMean": "The blind king asks Sanjaya what happened when the two armies met at Kurukshetra.",
    "qLife": "Like asking a friend at the stadium for live updates of the match."
   },
@@ -139,8 +139,8 @@
    "quote": "In pity lost, by doubtings tossed, My thoughts-distracted-turn To Thee, the Guide I reverence most, That I may counsel learn",
    "orig": "Better to live on beggar's bread With those we love alive, Than taste their blood in rich feasts spread, And guiltily survive! Ah! were it worse-who knows?--to be Victor or vanquished here, When those confront us angrily Whose death leaves living drear? In pity lost, by doubtings tossed, My thoughts-distracted-turn To Thee, the Guide I reverence most, That I may counsel learn: I know not what would heal the grief Burned into soul and sense, If I were earth's unchallenged chief-- A god--and these gone thence!",
    "origFrom": "The Bhagavad Gita (tr. Edwin Arnold, 1885)",
-   "img": "",
-   "cap": "",
+   "img": "gita_02",
+   "cap": "Original Folio illustration: The bow slips.",
    "qMean": "Arjuna is lost in pity and doubt and turns to Krishna for advice.",
    "qLife": "Before a big decision, you call the one person you trust most."
   },
@@ -152,10 +152,10 @@
    "quote": "Better I deem it, if my kinsmen strike, To face them weaponless, and bare my breast To shaft and spear, than answer blow with blow.",
    "qMean": "I would rather be killed unarmed than strike back at my family.",
    "qLife": "Someone so hurt by a family feud that they'd rather give up everything than fight their own relatives.",
-   "img": "",
+   "img": "gita_03",
    "orig": "The rule of all Three Worlds; then, how much less To seize an earthly kingdom! Killing these Must breed but anguish, Krishna! If they be Guilty, we shall grow guilty by their deaths; Their sins will light on us, if we shall slay Those sons of Dhritirashtra, and our kin; What peace could come of that, O Madhava? For if indeed, blinded by lust and wrath, These cannot see, or will not see, the sin Of kingly lines o'erthrown and kinsmen slain, How should not we, who see, shun such a crime-- We who perceive the guilt and feel the shame-- O thou Delight of Men, Janardana? By overthrow of houses perisheth Their sweet continuous household piety, And-rites neglected, piety extinct-- Enters impiety upon that home; Its women grow unwomaned, whence there spring Mad passions, and the mingling-up of castes, Sending a Hell-ward road that family, And whoso wrought its doom by wicked wrath. Nay, and the souls of honoured ancestors Fall from their place of peace, being bereft Of funeral-cakes and the wan death-water. So teach our holy hymns. Thus, if we slay Kinsfolk and friends for love of earthly power, Ahovat! what an evil fault it were! Better I deem it, if my kinsmen strike, To face them weaponless, and bare my breast To shaft and spear, than answer blow with blow.",
    "origFrom": "The Bhagavad Gita (tr. Edwin Arnold, 1885)",
-   "cap": ""
+   "cap": "Original Folio illustration: Rather die unarmed."
   },
   {
    "ch": "Chapter II",
@@ -165,8 +165,8 @@
    "quote": "Thou grievest where no grief should be!",
    "orig": "Krishna. Thou grievest where no grief should be! thou speak'st Words lacking wisdom! for the wise in heart Mourn not for those that live, nor those that die. Nor I, nor thou, nor any one of these, Ever was not, nor ever will not be, For ever and for ever afterwards. All, that doth live, lives always! To man's frame As there come infancy and youth and age, So come there raisings-up and layings-down Of other and of other life-abodes, Which the wise know, and fear not. This that irks-- Thy sense-life, thrilling to the elements-- Bringing thee heat and cold, sorrows and joys, 'Tis brief and mutable! Bear with it, Prince! As the wise bear. The soul which is not moved, The soul that with a strong and constant calm Takes sorrow and takes joy indifferently, Lives in the life undying! That which is Can never cease to be; that which is not Will not exist. To see this truth of both Is theirs who part essence from accident, Substance from shadow. Indestructible, Learn thou! the Life is, spreading life through all; It cannot anywhere, by any means, Be anywise diminished, stayed, or changed. …",
    "origFrom": "The Bhagavad Gita (tr. Edwin Arnold, 1885)",
-   "img": "",
-   "cap": "",
+   "img": "gita_04",
+   "cap": "Original Folio illustration: Grief without cause.",
    "qMean": "You are sad about something that isn't truly worth grieving.",
    "qLife": "Crying over a lost phone when your family is safe at home.",
    "link": "Arjuna has dropped his bow and refuses to fight. Krishna, his charioteer, begins to answer him."
@@ -179,10 +179,10 @@
    "quote": "That which is Can never cease to be; that which is not Will not exist.",
    "qMean": "What is truly real never ends; what is unreal never really existed.",
    "qLife": "Your love for a friend outlasts the many small fights that pass like weather.",
-   "img": "",
+   "img": "gita_05",
    "orig": "… Nor I, nor thou, nor any one of these, Ever was not, nor ever will not be, For ever and for ever afterwards. All, that doth live, lives always! To man's frame As there come infancy and youth and age, So come there raisings-up and layings-down Of other and of other life-abodes, Which the wise know, and fear not. This that irks-- Thy sense-life, thrilling to the elements-- Bringing thee heat and cold, sorrows and joys, 'Tis brief and mutable! Bear with it, Prince! As the wise bear. The soul which is not moved, The soul that with a strong and constant calm Takes sorrow and takes joy indifferently, Lives in the life undying! That which is Can never cease to be; that which is not Will not exist. To see this truth of both Is theirs who part essence from accident, Substance from shadow. Indestructible, Learn thou! the Life is, spreading life through all; It cannot anywhere, by any means, Be anywise diminished, stayed, or changed. But for these fleeting frames which it informs With spirit deathless, endless, infinite, They perish. Let them perish, Prince! …",
    "origFrom": "The Bhagavad Gita (tr. Edwin Arnold, 1885)",
-   "cap": ""
+   "cap": "Original Folio illustration: What is real cannot end."
   },
   {
    "ch": "Chapter II",
@@ -192,8 +192,8 @@
    "quote": "Never the spirit was born; the spirit shall cease to be never; Never was time it was not; End and Beginning are dreams!",
    "orig": "… This that irks-- Thy sense-life, thrilling to the elements-- Bringing thee heat and cold, sorrows and joys, 'Tis brief and mutable! Bear with it, Prince! As the wise bear. The soul which is not moved, The soul that with a strong and constant calm Takes sorrow and takes joy indifferently, Lives in the life undying! That which is Can never cease to be; that which is not Will not exist. To see this truth of both Is theirs who part essence from accident, Substance from shadow. Indestructible, Learn thou! the Life is, spreading life through all; It cannot anywhere, by any means, Be anywise diminished, stayed, or changed. But for these fleeting frames which it informs With spirit deathless, endless, infinite, They perish. Let them perish, Prince! and fight! He who shall say, \"Lo! I have slain a man!\" He who shall think, \"Lo! I am slain!\" those both Know naught! Life cannot slay. Life is not slain! Never the spirit was born; the spirit shall cease to be never; Never was time it was not; End and Beginning are dreams! Birthless and deathless and changeless remaineth the spirit for ever; Death hath not touched it at all, dead though the house of it seems!",
    "origFrom": "The Bhagavad Gita (tr. Edwin Arnold, 1885)",
-   "img": "",
-   "cap": "",
+   "img": "gita_06",
+   "cap": "Original Folio illustration: The spirit never dies.",
    "qMean": "The soul was never born and will never die; beginnings and endings are like dreams.",
    "qLife": "People change and age, but the person you love stays the same inside."
   },
@@ -205,8 +205,8 @@
    "quote": "Let right deeds be Thy motive, not the fruit which comes from them.",
    "orig": "… Specious, but wrongful deem The speech of those ill-taught ones who extol The letter of their Vedas, saying, \"This Is all we have, or need;\" being weak at heart With wants, seekers of Heaven: which comes--they say-- As \"fruit of good deeds done;\" promising men Much profit in new births for works of faith; In various rites abounding; following whereon Large merit shall accrue towards wealth and power; Albeit, who wealth and power do most desire Least fixity of soul have such, least hold On heavenly meditation. Much these teach, From Veds, concerning the \"three qualities;\" But thou, be free of the \"three qualities,\" Free of the \"pairs of opposites,\" and free From that sad righteousness which calculates; Self-ruled, Arjuna! simple, satisfied! Look! like as when a tank pours water forth To suit all needs, so do these Brahmans draw Text for all wants from tank of Holy Writ. But thou, want not! ask not! Find full reward Of doing right in right! Let right deeds be Thy motive, not the fruit which comes from them. And live in action! Labour! Make thine acts Thy piety, casting all self aside, Contemning gain and merit; equable In good or evil: equability Is Yog, is piety!",
    "origFrom": "The Bhagavad Gita (tr. Edwin Arnold, 1885)",
-   "img": "",
-   "cap": "",
+   "img": "gita_07",
+   "cap": "Original Folio illustration: Work, not rewards.",
    "qMean": "Do the right thing for its own sake, not for the reward.",
    "qLife": "Study to learn, not just for marks — and the marks often follow."
   },
@@ -218,8 +218,8 @@
    "quote": "As the wise tortoise draws its four feet safe Under its shield, his five frail senses back",
    "orig": "Krishna. When one, O Pritha's Son! Abandoning desires which shake the mind-- Finds in his soul full comfort for his soul, He hath attained the Yog--that man is such! In sorrows not dejected, and in joys Not overjoyed; dwelling outside the stress Of passion, fear, and anger; fixed in calms Of lofty contemplation;--such an one Is Muni, is the Sage, the true Recluse! He who to none and nowhere overbound By ties of flesh, takes evil things and good Neither desponding nor exulting, such Bears wisdom's plainest mark! He who shall draw As the wise tortoise draws its four feet safe Under its shield, his five frail senses back Under the spirit's buckler from the world Which else assails them, such an one, my Prince! Hath wisdom's mark! Things that solicit sense Hold off from the self-governed; nay, it comes, The appetites of him who lives beyond Depart,--aroused no more. Yet may it chance, O Son of Kunti! that a governed mind Shall some time feel the sense-storms sweep, and wrest Strong self-control by the roots. Let him regain His kingdom! let him conquer this, and sit On Me intent. …",
    "origFrom": "The Bhagavad Gita (tr. Edwin Arnold, 1885)",
-   "img": "",
-   "cap": "",
+   "img": "gita_08",
+   "cap": "Original Folio illustration: The steady mind.",
    "qMean": "A wise person pulls back the senses from distractions, like a tortoise pulls in its legs.",
    "qLife": "Putting your phone in a drawer while you study."
   },
@@ -231,11 +231,11 @@
    "quote": "No man shall 'scape from act By shunning action",
    "qMean": "You can't avoid acting by refusing to act; doing nothing is also a choice.",
    "qLife": "Not replying to an important message is still a reply.",
-   "img": "",
+   "img": "gita_09",
    "orig": "First The Sankhya's, which doth save in way of works Prescribed by reason; next, the Yog, which bids Attain by meditation, spiritually: Yet these are one! No man shall 'scape from act By shunning action; nay, and none shall come By mere renouncements unto perfectness. Nay, and no jot of time, at any time, Rests any actionless; his nature's law Compels him, even unwilling, into act; [For thought is act in fancy]. He who sits Suppressing all the instruments of flesh, Yet in his idle heart thinking on them, Plays the inept and guilty hypocrite: But he who, with strong body serving mind, Gives up his mortal powers to worthy work, Not seeking gain, Arjuna! such an one Is honourable. Do thine allotted task! Work is more excellent than idleness; The body's life proceeds not, lacking work. There is a task of holiness to do, Unlike world-binding toil, which bindeth not The faithful soul; such earthly duty do Free from desire, and thou shalt well perform Thy heavenly purpose. Spake Prajapati-- In the beginning, when all men were made, And, with mankind, the sacrifice-- \"Do this! …",
    "origFrom": "The Bhagavad Gita (tr. Edwin Arnold, 1885)",
    "link": "Krishna has praised the steady, detached mind. Arjuna asks: then why act at all?",
-   "cap": ""
+   "cap": "Original Folio illustration: No escape from action."
   },
   {
    "ch": "Chapter III",
@@ -245,8 +245,8 @@
    "quote": "Work is more excellent than idleness",
    "orig": "… No man shall 'scape from act By shunning action; nay, and none shall come By mere renouncements unto perfectness. Nay, and no jot of time, at any time, Rests any actionless; his nature's law Compels him, even unwilling, into act; [For thought is act in fancy]. He who sits Suppressing all the instruments of flesh, Yet in his idle heart thinking on them, Plays the inept and guilty hypocrite: But he who, with strong body serving mind, Gives up his mortal powers to worthy work, Not seeking gain, Arjuna! such an one Is honourable. Do thine allotted task! Work is more excellent than idleness; The body's life proceeds not, lacking work. There is a task of holiness to do, Unlike world-binding toil, which bindeth not The faithful soul; such earthly duty do Free from desire, and thou shalt well perform Thy heavenly purpose. Spake Prajapati-- In the beginning, when all men were made, And, with mankind, the sacrifice-- \"Do this! Work! sacrifice! Increase and multiply With sacrifice! This shall be Kamaduk, Your 'Cow of Plenty,' giving back her milk Of all abundance. Worship the gods thereby; …",
    "origFrom": "The Bhagavad Gita (tr. Edwin Arnold, 1885)",
-   "img": "",
-   "cap": "",
+   "img": "gita_10",
+   "cap": "Original Folio illustration: Better to act.",
    "qMean": "Doing your work is better than doing nothing.",
    "qLife": "Even a small walk beats a whole day on the sofa."
   },
@@ -258,10 +258,10 @@
    "quote": "What the wise choose The unwise people take; what best men do The multitude will follow.",
    "qMean": "Ordinary people copy what respected people do.",
    "qLife": "When the class topper starts taking notes by hand, half the class does too.",
-   "img": "",
+   "img": "gita_11",
    "orig": "… Existing for himself, Self-concentrated, serving self alone, No part hath he in aught; nothing achieved, Nought wrought or unwrought toucheth him; no hope Of help for all the living things of earth Depends from him. Therefore, thy task prescribed With spirit unattached gladly perform, Since in performance of plain duty man Mounts to his highest bliss. By works alone Janak and ancient saints reached blessedness! Moreover, for the upholding of thy kind, Action thou should'st embrace. What the wise choose The unwise people take; what best men do The multitude will follow. Look on me, Thou Son of Pritha! in the three wide worlds I am not bound to any toil, no height Awaits to scale, no gift remains to gain, Yet I act here! and, if I acted not-- Earnest and watchful--those that look to me For guidance, sinking back to sloth again Because I slumbered, would decline from good, And I should break earth's order and commit Her offspring unto ruin, Bharata! Even as the unknowing toil, wedded to sense, So let the enlightened toil, sense-freed, but set To bring the world deliverance, and its bliss; Not sowing in those simple, busy hearts Seed of despair. …",
    "origFrom": "The Bhagavad Gita (tr. Edwin Arnold, 1885)",
-   "cap": ""
+   "cap": "Original Folio illustration: People follow the best."
   },
   {
    "ch": "Chapter III",
@@ -271,8 +271,8 @@
    "quote": "Finally, this is better, that one do His own task as he may, even though he fail, Than take tasks not his own, though they seem good.",
    "orig": "… \"but--ah, thou strong-armed Prince!-- A better-lessoned mind, knowing the play Of visible things within the world of sense, And how the qualities must qualify, Standeth aloof even from his acts. Th' untaught Live mixed with them, knowing not Nature's way, Of highest aims unwitting, slow and dull. Those make thou not to stumble, having the light; But all thy dues discharging, for My sake, With meditation centred inwardly, Seeking no profit, satisfied, serene, Heedless of issue--fight! They who shall keep My ordinance thus, the wise and willing hearts, Have quittance from all issue of their acts; But those who disregard My ordinance, Thinking they know, know nought, and fall to loss, Confused and foolish. 'Sooth, the instructed one Doth of his kind, following what fits him most: And lower creatures of their kind; in vain Contending 'gainst the law. Needs must it be The objects of the sense will stir the sense To like and dislike, yet th' enlightened man Yields not to these, knowing them enemies. Finally, this is better, that one do His own task as he may, even though he fail, Than take tasks not his own, though they seem good. To die performing duty is no ill; But who seeks other roads shall wander still.",
    "origFrom": "The Bhagavad Gita (tr. Edwin Arnold, 1885)",
-   "img": "",
-   "cap": "",
+   "img": "gita_12",
+   "cap": "Original Folio illustration: Your own path.",
    "qMean": "Do your own task, even imperfectly, rather than someone else's.",
    "qLife": "Be a good version of yourself instead of copying a cousin's career."
   },
@@ -284,8 +284,8 @@
    "quote": "When Righteousness Declines, O Bharata! when Wickedness Is strong, I rise, from age to age, and take Visible shape, and move a man with men, Succouring the good, thrusting the evil back",
    "orig": "Krishna. Manifold the renewals of my birth Have been, Arjuna! and of thy births, too! But mine I know, and thine thou knowest not, O Slayer of thy Foes! Albeit I be Unborn, undying, indestructible, The Lord of all things living; not the less-- By Maya, by my magic which I stamp On floating Nature-forms, the primal vast-- I come, and go, and come. When Righteousness Declines, O Bharata! when Wickedness Is strong, I rise, from age to age, and take Visible shape, and move a man with men, Succouring the good, thrusting the evil back, And setting Virtue on her seat again. Who knows the truth touching my births on earth And my divine work, when he quits the flesh Puts on its load no more, falls no more down To earthly birth: to Me he comes, dear Prince! Many there be who come! from fear set free, From anger, from desire; keeping their hearts Fixed upon me--my Faithful--purified By sacred flame of Knowledge. Such as these Mix with my being. Whoso worship me, Them I exalt; but all men everywhere Shall fall into my path; albeit, those souls Which seek reward for works, make sacrifice Now, to the lower gods. …",
    "origFrom": "The Bhagavad Gita (tr. Edwin Arnold, 1885)",
-   "img": "",
-   "cap": "",
+   "img": "gita_13",
+   "cap": "Original Folio illustration: Whenever goodness fails.",
    "qMean": "Whenever goodness fades and evil grows, God comes to restore what is right.",
    "qLife": "When things go wrong in a community, someone always rises to set them right.",
    "link": "Action is unavoidable. Now Krishna reveals who he is, and how knowledge frees action from its chains."

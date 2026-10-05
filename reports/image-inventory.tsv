@@ -1,5 +1,18 @@
 book	page	page_title	image_id	provenance	source_file	license	local_file_exists	page_relevance_review
-gita	1	Two armies, one doubt	gita_01	original	Original Folio sketch: Krishna drives Arjuna between the armies of Kurukshetra	Folio original	True	original
+gita	cover	The Bhagavad Gita	gita_cover	original	Original Folio illustration: Bhagavad Gita cover	Folio original	True	original
+gita	1	Two armies, one doubt	gita_01	original	Original Folio illustration: Two armies, one doubt	Folio original	True	original
+gita	2	The bow slips	gita_02	original	Original Folio illustration: The bow slips	Folio original	True	original
+gita	3	Rather die unarmed	gita_03	original	Original Folio illustration: Rather die unarmed	Folio original	True	original
+gita	4	Grief without cause	gita_04	original	Original Folio illustration: Grief without cause	Folio original	True	original
+gita	5	What is real cannot end	gita_05	original	Original Folio illustration: What is real cannot end	Folio original	True	original
+gita	6	The spirit never dies	gita_06	original	Original Folio illustration: The spirit never dies	Folio original	True	original
+gita	7	Work, not rewards	gita_07	original	Original Folio illustration: Work, not rewards	Folio original	True	original
+gita	8	The steady mind	gita_08	original	Original Folio illustration: The steady mind	Folio original	True	original
+gita	9	No escape from action	gita_09	original	Original Folio illustration: No escape from action	Folio original	True	original
+gita	10	Better to act	gita_10	original	Original Folio illustration: Better to act	Folio original	True	original
+gita	11	People follow the best	gita_11	original	Original Folio illustration: People follow the best	Folio original	True	original
+gita	12	Your own path	gita_12	original	Original Folio illustration: Your own path	Folio original	True	original
+gita	13	Whenever goodness fails	gita_13	original	Original Folio illustration: Whenever goodness fails	Folio original	True	original
 prince	cover	The Prince	prince_cover	original	Original Folio engraving: The Prince cover	Folio original	True	original
 prince	1	A gift worth more than gold	prince_01	original	Original Folio engraving: A gift worth more than gold	Folio original	True	original
 prince	2	Looking up the mountain	prince_02	original	Original Folio engraving: Looking up the mountain	Folio original	True	original

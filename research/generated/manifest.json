@@ -102,9 +102,8 @@
   "gita_01": {
     "book": "gita",
     "card": "Two armies, one doubt",
-    "prompt": "Original Indian miniature style drawing of Arjuna and Krishna between the two armies on the plain of Kurukshetra at dawn; no text.",
+    "file": "Original Folio illustration: Two armies, one doubt",
     "source": "ImageGen original",
-    "file": "Original Folio sketch: Krishna drives Arjuna between the armies of Kurukshetra",
     "license": "Folio original",
     "files": [
       "gita_01.png",
@@ -131,6 +130,149 @@
     "files": [
       "gitanjali_cover.png",
       "gitanjali_cover.webp"
+    ]
+  },
+  "gita_cover": {
+    "book": "gita",
+    "card": "Bhagavad Gita cover",
+    "file": "Original Folio illustration: Bhagavad Gita cover",
+    "source": "ImageGen original",
+    "license": "Folio original",
+    "files": [
+      "gita_cover.png",
+      "gita_cover.webp"
+    ]
+  },
+  "gita_02": {
+    "book": "gita",
+    "card": "The bow slips",
+    "file": "Original Folio illustration: The bow slips",
+    "source": "ImageGen original",
+    "license": "Folio original",
+    "files": [
+      "gita_02.png",
+      "gita_02.webp"
+    ]
+  },
+  "gita_03": {
+    "book": "gita",
+    "card": "Rather die unarmed",
+    "file": "Original Folio illustration: Rather die unarmed",
+    "source": "ImageGen original",
+    "license": "Folio original",
+    "files": [
+      "gita_03.png",
+      "gita_03.webp"
+    ]
+  },
+  "gita_04": {
+    "book": "gita",
+    "card": "Grief without cause",
+    "file": "Original Folio illustration: Grief without cause",
+    "source": "ImageGen original",
+    "license": "Folio original",
+    "files": [
+      "gita_04.png",
+      "gita_04.webp"
+    ]
+  },
+  "gita_05": {
+    "book": "gita",
+    "card": "What is real cannot end",
+    "file": "Original Folio illustration: What is real cannot end",
+    "source": "ImageGen original",
+    "license": "Folio original",
+    "files": [
+      "gita_05.png",
+      "gita_05.webp"
+    ]
+  },
+  "gita_06": {
+    "book": "gita",
+    "card": "The spirit never dies",
+    "file": "Original Folio illustration: The spirit never dies",
+    "source": "ImageGen original",
+    "license": "Folio original",
+    "files": [
+      "gita_06.png",
+      "gita_06.webp"
+    ]
+  },
+  "gita_07": {
+    "book": "gita",
+    "card": "Work, not rewards",
+    "file": "Original Folio illustration: Work, not rewards",
+    "source": "ImageGen original",
+    "license": "Folio original",
+    "files": [
+      "gita_07.png",
+      "gita_07.webp"
+    ]
+  },
+  "gita_08": {
+    "book": "gita",
+    "card": "The steady mind",
+    "file": "Original Folio illustration: The steady mind",
+    "source": "ImageGen original",
+    "license": "Folio original",
+    "files": [
+      "gita_08.png",
+      "gita_08.webp"
+    ]
+  },
+  "gita_09": {
+    "book": "gita",
+    "card": "No escape from action",
+    "file": "Original Folio illustration: No escape from action",
+    "source": "ImageGen original",
+    "license": "Folio original",
+    "files": [
+      "gita_09.png",
+      "gita_09.webp"
+    ]
+  },
+  "gita_10": {
+    "book": "gita",
+    "card": "Better to act",
+    "file": "Original Folio illustration: Better to act",
+    "source": "ImageGen original",
+    "license": "Folio original",
+    "files": [
+      "gita_10.png",
+      "gita_10.webp"
+    ]
+  },
+  "gita_11": {
+    "book": "gita",
+    "card": "People follow the best",
+    "file": "Original Folio illustration: People follow the best",
+    "source": "ImageGen original",
+    "license": "Folio original",
+    "files": [
+      "gita_11.png",
+      "gita_11.webp"
+    ]
+  },
+  "gita_12": {
+    "book": "gita",
+    "card": "Your own path",
+    "file": "Original Folio illustration: Your own path",
+    "source": "ImageGen original",
+    "license": "Folio original",
+    "files": [
+      "gita_12.png",
+      "gita_12.webp"
+    ]
+  },
+  "gita_13": {
+    "book": "gita",
+    "card": "Whenever goodness fails",
+    "file": "Original Folio illustration: Whenever goodness fails",
+    "source": "ImageGen original",
+    "license": "Folio original",
+    "files": [
+      "gita_13.png",
+      "gita_13.webp"
     ]
   }
 }

@@ -2,13 +2,13 @@
 
 CURRENT OBJECTIVE: Grow the short illustrated folio catalog from 31 to 120–130 diverse books. Every live plate must be original Folio art and relevant to its card. Audit Android UX with Antigravity and fix verified defects.
 
-STATUS: 34 live books in Android 1.6.6 and the online catalog. A 2026-10-05 migration removed references/files for all 629 third-party plates; 12 Folio originals are live (Prince cover + 7 cards, Gita opening card, Wealth and Gitanjali covers, Walden card 2). The app uses its ornament for missing plates. `tools/publish_library.py` now rejects non-original IDs. Wealth of Nations, Walden, and Gitanjali five-card introductions are in the live catalog and retain staged source files.
+STATUS: 34 live books in Android 1.6.6 and the online catalog. A 2026-10-05 migration removed references/files for all 629 third-party plates; 25 Folio originals are staged for release (Prince cover + 7 cards, Gita cover + first 13 cards, Wealth and Gitanjali covers, Walden card 2). The app uses its ornament for missing plates. `tools/publish_library.py` now rejects non-original IDs. Wealth of Nations, Walden, and Gitanjali five-card introductions are in the live catalog and retain staged source files.
 
 COMPLETED THIS ROUND:
 - Android 15 emulator `FolioReview` created. Antigravity reviewed the app; report in `reports/ANTIGRAVITY_REVIEW.md` (its claimed screenshots were not retained).
 - Fixed half-height book sheet CTA, chapter quiz scrolling, fast flip back from card verso, possessive/initial glossary taps, Journey preview labels and title wrapping, dormant account copy, and Power Journey blurb.
-- Built image provenance ledger `reports/image-inventory.tsv` via `tools/image_inventory.py`; current live set is 12 original / 0 third-party.
-- Generated original Gita card 1 and Walden draft sketches in `research/generated/`; original-art manifest holds 12 works (all live).
+- Built image provenance ledger `reports/image-inventory.tsv` via `tools/image_inventory.py`; staged catalog is 25 original / 0 third-party.
+- Generated original Gita card 1 and Walden draft sketches in `research/generated/`; original-art manifest holds 25 works (14 Gita images).
 
 DECISIONS / CONSTRAINTS:
 - Keep the current short, illustrated folio format. New titles stay staged until source text, quote accuracy, card content, and original artwork are verified.
@@ -16,7 +16,7 @@ DECISIONS / CONSTRAINTS:
 - `research/shelf5_content.py` validates the three introductory editions but flags all as too shallow for a deep edition. Expand them later.
 - Cloud sync remains dormant (`cloud=null`); prior review found account-switch, deletion, and stale-position issues before enabling.
 
-NEXT ACTION: Develop original art and source-grounded editions in batches toward 125 books; continue the three new introductions into deeper editions.
+NEXT ACTION: Publish Gita folios 1–13 plus cover, then create and review Gita folios 14–59 before returning to catalog expansion.
 
 IMPORTANT FILES: `tools/publish_library.py`, `tools/hide_third_party_plates.py`, `tools/image_inventory.py`, `reports/IMAGE_AUDIT_2026-10-05.md`, `reports/ANTIGRAVITY_REVIEW.md`, `research/generated/manifest.json`, `research/shelf5_content.py`, `research/staging/books/`.
 

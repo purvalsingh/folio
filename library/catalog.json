@@ -23,16 +23,29 @@
   },
   {
    "id": "gita",
-   "version": 10,
+   "version": 11,
    "title": "The Bhagavad Gita",
    "author": "Vyasa (trad.)",
    "year": "c. 400 BC",
    "era": "indic",
    "cards": 59,
-   "sizeKb": 491,
+   "sizeKb": 6685,
    "blurb": "On a battlefield, a great archer loses his nerve, and his charioteer — God himself — talks him through duty, action, death and devotion. Eighteen chapters of the world's most loved spiritual dialogue.",
    "images": [
-    "gita_01"
+    "gita_01",
+    "gita_02",
+    "gita_03",
+    "gita_04",
+    "gita_05",
+    "gita_06",
+    "gita_07",
+    "gita_08",
+    "gita_09",
+    "gita_10",
+    "gita_11",
+    "gita_12",
+    "gita_13",
+    "gita_cover"
    ],
    "shelf": "Eastern Paths"
   },
