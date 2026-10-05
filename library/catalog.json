@@ -1,11 +1,11 @@
 {
  "app": {
-  "versionCode": 10,
-  "versionName": "1.6.1",
-  "notes": "The Prince, deeper edition: 77 pages (25 new) and a short bridge at the start of every chapter linking it to the last, so the book reads as one argument. Chapter bridges now show in every book that has them.",
-  "sizeKb": 39800,
-  "sha256": "fd0d362266690b1305a73d0cd5f3a87fb3bfc26dd9f9900ceec89bdaf9052fb9",
-  "apk": "https://github.com/purvalsingh/folio/releases/download/v1.6.1/Folio.apk"
+  "versionCode": 11,
+  "versionName": "1.6.2",
+  "notes": "Folio now also works on iPhone: open purvalsingh.github.io/folio in Safari and Add to Home Screen. Shared quote cards and the Share Folio button now point friends on any phone to it.",
+  "sizeKb": 39801,
+  "sha256": "5cbe42d32d0fd58e0320a5e80a7040fa8c98bc233b3c722e825f67b679a22331",
+  "apk": "https://github.com/purvalsingh/folio/releases/download/v1.6.2/Folio.apk"
  },
  "books": [
   {
