@@ -8,7 +8,7 @@
  "era": "ancient",
  "shelf": "War & Statecraft",
  "blurb": "Socrates asks what justice is — and imagines a whole city to find out. Home of the cave, the ring of invisibility and the philosopher-king.",
- "version": 2,
+ "version": 3,
  "cover": "republic_cover",
  "glossary": {
   "justice": {
@@ -49,7 +49,7 @@
    "orig": "‘To do injustice is said to be a good; to suffer injustice an evil. As the evil is discovered by experience to be greater than the good, the sufferers, who cannot also be doers, make a compact that they will have neither, and this compact or mean is called justice, but is really the impossibility of doing injustice. No one would observe such a compact if he were not obliged. Let us suppose that the just and unjust have two rings, like that of Gyges in the well-known story, which make them invisible, and then no difference will appear in them, for every one will do evil if he can. And he who abstains will be regarded by the world as a fool for his pains. Men may praise him in public out of fear for themselves, but they will laugh at him in their hearts (Cp. Gorgias.)",
    "origFrom": "Plato, The Republic (tr. Jowett)",
    "img": "republic_02",
-   "cap": "A shepherd's rural scene · public domain"
+   "cap": "Gyges vindt de ring in een bronzen paard · public domain"
   },
   {
    "ch": "Book II",
