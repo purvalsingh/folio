@@ -16,12 +16,18 @@ android {
     namespace = "com.purval.folio"
     compileSdk = 36
 
+    packaging {
+        jniLibs.useLegacyPackaging = true
+        resources.excludes += "org/bouncycastle/pqc/**"  // post-quantum tables PDF decryption never uses
+    }
     defaultConfig {
+        // phones only: the Hindi translator's native code is ~17 MB per CPU type
+        ndk { abiFilters += listOf("arm64-v8a", "armeabi-v7a") }
         applicationId = "com.purval.folio"
         minSdk = 26
         targetSdk = 36
-        versionCode = 5
-        versionName = "1.4"
+        versionCode = 6
+        versionName = "1.4.1"
     }
 
     signingConfigs {
