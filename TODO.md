@@ -9,5 +9,6 @@
 - [x] iPhone web app live: purvalsingh.github.io/folio
 - [x] Flip card: back = simple English + daily life + as written
 - [x] The Prince deeper (77 pages, bridges)
-- [ ] Deep editions for the other 30 books (see PROJECT_STATE NEXT ACTION)
+- [~] Deep editions: 9/31 live (prince gita artofwar laws meditations enchiridion taoteching dhammapada thinketh); 22 to go (see PROJECT_STATE)
+- [ ] Review leftovers: sync A1/A3/A4 before enabling cloud; stable card ids for marks/positions; README platform matrix; 48dp tap targets
 - [-] old line: The Prince deeper: ~4 cards/chapter (opener linking to previous chapter, argument cards, takeaway), more Commons plates, all quotes verified
