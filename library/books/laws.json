@@ -1,5 +1,5 @@
 {
- "version": 4,
+ "version": 7,
  "id": "laws",
  "title": "The 48 Laws of Power",
  "short": "Robert Greene",
@@ -10,6 +10,7 @@
  "shelf": "Power & Strategy",
  "cover": "laws_cover",
  "blurb": "Forty-eight rules of power, from royal courts to modern offices — each law in a minute, paired with a line from Machiavelli, Sun Tzŭ, Gracián or La Rochefoucauld. Know them to use them, or to spot them used on you.",
+ "deep": true,
  "glossary": {
   "courtier": {
    "m": "A person who attends a king's court, often seeking favour.",
@@ -114,6 +115,20 @@
    "qLife": "Correcting your manager in front of the client may cost you the next promotion."
   },
   {
+   "ch": "Law 1",
+   "chTitle": "Never Outshine the Master",
+   "title": "In history: Fouquet's party",
+   "text": "In 1661 Nicolas Fouquet, France's finance minister, threw a dazzling party at his new château for the young Louis XIV. Fireworks, a new Molière play, gold plates. The king felt outshone. Within weeks Fouquet was arrested, and he died in prison. Louis later built Versailles, bigger than anything Fouquet had.",
+   "quote": "Never seem wiser, nor more learned, than the people you are with.",
+   "qMean": "Don't act cleverer or grander than those around you.",
+   "qLife": "Showing up the boss in a meeting can cost you more than the idea was worth.",
+   "img": "laws_49",
+   "orig": "There is another species of learned men, who, though less dogmatical and supercilious, are not less impertinent. These are the communicative and shining pedants, who adorn their conversation, even with women, by happy quotations of Greek and Latin; and who have contracted such a familiarity with the Greek and Roman authors, that they, call them by certain names or epithets denoting intimacy. As OLD Homer; that SLY ROGUE Horace; MARO, instead of Virgil; and Naso, Instead of Ovid. These are often imitated by coxcombs, who have no learning at all; but who have got some names and some scraps of ancient authors by heart, which they improperly and impertinently retail in all companies, in hopes of passing for scholars. If, therefore, you would avoid the accusation of pedantry on one hand, or the suspicion of ignorance on the other, abstain from learned ostentation. Speak the language of the company that you are in; speak it purely, and unlarded with any other. Never seem wiser, nor more learned, than the people you are with. Wear your learning, like your watch, in a private pocket: and do not pull it out and strike it; merely to show that you have one. If you are asked what o’clock it is, tell it; but do not proclaim it hourly and unasked, like the watchman.",
+   "origFrom": "Lord Chesterfield, Letters to His Son (1774)",
+   "qBy": "Lord Chesterfield, Letters to His Son (1774)",
+   "cap": "Portrait of Nicolas Fouquet - Vanderbilt Fine Arts Gallery - 1956.018 · public domain"
+  },
+  {
    "ch": "Law 2",
    "chTitle": "Never Put Too Much Trust in Friends, Learn How to Use Enemies",
    "title": "Friends and enemies",
@@ -125,7 +140,22 @@
    "img": "laws_02",
    "cap": "The Madrid Skylitzes, Byzantine chronicle · public domain",
    "qMean": "A smart person learns more from enemies than a fool from friends.",
-   "qLife": "A harsh online review often teaches a café more than its friends' praise."
+   "qLife": "A harsh online review often teaches a café more than its friends' praise.",
+   "link": "Don't threaten those above you. And don't trust too easily those beside you."
+  },
+  {
+   "ch": "Law 2",
+   "chTitle": "Never Put Too Much Trust in Friends, Learn How to Use Enemies",
+   "title": "In history: a friend turned killer",
+   "text": "The Byzantine emperor Michael III raised his friend Basil, a stable groom, to co-emperor. Basil had him murdered and took the throne. Benjamin Franklin found the opposite trick: he turned a rival into a lifelong friend by asking to borrow a book.",
+   "quote": "He that has once done you a kindness will be more ready to do you another, than he whom you yourself have obliged.",
+   "qMean": "People who have helped you once tend to like you more, not less.",
+   "qLife": "Asking a cold colleague for advice can warm them up.",
+   "img": "laws_50",
+   "orig": "I therefore did not like the opposition of this new member, who was a gentleman of fortune and education, with talents that were likely to give him, in time, great influence in the House, which, indeed, afterwards happened. I did not, however, aim at gaining his favour by paying any servile respect to him, but, after some time, took this other method. Having heard that he had in his library a certain very scarce and curious book, I wrote a note to him, expressing my desire of perusing that book, and requesting he would do me the favour of lending it to me for a few days. He sent it immediately, and I return'd it in about a week with another note, expressing strongly my sense of the favour. When we next met in the House, he spoke to me (which he had never done before), and with great civility; and he ever after manifested a readiness to serve me on all occasions, so that we became great friends, and our friendship continued to his death. This is another instance of the truth of an old maxim I had learned, which says, \"He that has once done you a kindness will be more ready to do you another, than he whom you yourself have obliged.\" And it shows how much more profitable it is prudently to remove, than to resent, return, and continue inimical proceedings.",
+   "origFrom": "Benjamin Franklin, Autobiography (1791)",
+   "qBy": "Benjamin Franklin, Autobiography (1791)",
+   "cap": "MadridSkylitzesCoronationBasilFol80rb · public domain"
   },
   {
    "ch": "Law 3",
@@ -139,7 +169,22 @@
    "img": "laws_03",
    "cap": "Charles Maurice de Talleyrand-Périgord - Pierre-Paul Prud'hon · public domain",
    "qMean": "Showing all your plans at once is pointless and boring.",
-   "qLife": "Announcing your job search to the whole office before you have an offer."
+   "qLife": "Announcing your job search to the whole office before you have an offer.",
+   "link": "Friends can turn. So keep your real plans to yourself."
+  },
+  {
+   "ch": "Law 3",
+   "chTitle": "Conceal Your Intentions",
+   "title": "In history: Bismarck's peace speech",
+   "text": "In 1850 Otto von Bismarck shocked his colleagues by giving a speech praising peace with Austria, the rival he despised. It won him the post he wanted. Years later, in power, he went to war with Austria and won. Nobody had seen his real plan.",
+   "quote": "Every one sees what you appear to be, few really know what you are",
+   "qMean": "People see your surface; few know what's underneath.",
+   "qLife": "A quiet student who nobody expects to top the exam.",
+   "img": "laws_51",
+   "orig": "For this reason a prince ought to take care that he never lets anything slip from his lips that is not replete with the above-named five qualities, that he may appear to him who sees and hears him altogether merciful, faithful, humane, upright, and religious. There is nothing more necessary to appear to have than this last quality, inasmuch as men judge generally more by the eye than by the hand, because it belongs to everybody to see you, to few to come in touch with you. Every one sees what you appear to be, few really know what you are, and those few dare not oppose themselves to the opinion of the many, who have the majesty of the state to defend them; and in the actions of all men, and especially of princes, which it is not prudent to challenge, one judges by the result.",
+   "origFrom": "Niccolò Machiavelli, The Prince (1532)",
+   "qBy": "Niccolò Machiavelli, The Prince (1532)",
+   "cap": "Franz von Lenbach - Bismarck in halberstädter Kürassieruniform (1890) · public domain"
   },
   {
    "ch": "Law 4",
@@ -153,7 +198,22 @@
    "img": "laws_04",
    "cap": "Louis XIV Rigaud Condé Chantilly · public domain",
    "qMean": "Careful silence is the deepest form of practical wisdom.",
-   "qLife": "In a negotiation, the one who stays quiet longer usually gets the better deal."
+   "qLife": "In a negotiation, the one who stays quiet longer usually gets the better deal.",
+   "link": "Hiding your aims starts with your mouth: say less."
+  },
+  {
+   "ch": "Law 4",
+   "chTitle": "Always Say Less Than Necessary",
+   "title": "In history: Coriolanus talks too much",
+   "text": "Coriolanus was a Roman war hero, and the people were ready to make him consul. Then he started talking, insulting the common people in speech after speech. They turned on him and drove him into exile. His deeds won them; his words lost them.",
+   "quote": "Speak not but what may benefit others or yourself; avoid trifling conversation.",
+   "qMean": "Only say what helps; skip pointless talk.",
+   "qLife": "Saying less in a job interview often impresses more than talking nonstop.",
+   "img": "laws_52",
+   "orig": "1. Temperance.\n\nEat not to dullness; drink not to elevation.\n\n2. Silence.\n\nSpeak not but what may benefit others or yourself; avoid trifling conversation.\n\n3. Order.\n\nLet all your things have their places; let each part of your business have its time.\n\n4. Resolution.\n\nResolve to perform what you ought; perform without fail what you resolve.",
+   "origFrom": "Benjamin Franklin, Autobiography (1791)",
+   "qBy": "Benjamin Franklin, Autobiography (1791)",
+   "cap": "Gavin Hamilton - Coriolanus Act V, Scene III edit2 · public domain"
   },
   {
    "ch": "Law 5",
@@ -167,7 +227,22 @@
    "img": "laws_05",
    "cap": "Pericles, Roman copy of a Greek bust · public domain",
    "qMean": "Once a mocking nickname sticks, your reputation is in danger.",
-   "qLife": "A teacher nicknamed 'Snore' struggles to be taken seriously by new classes."
+   "qLife": "A teacher nicknamed 'Snore' struggles to be taken seriously by new classes.",
+   "link": "What you don't say protects you. What others say about you protects you more: your reputation."
+  },
+  {
+   "ch": "Law 5",
+   "chTitle": "So Much Depends on Reputation — Guard It with Your Life",
+   "title": "In history: guarding a name",
+   "text": "Julius Caesar divorced his wife Pompeia after a scandal, though he said he believed she was innocent. His reason: Caesar's wife must be above suspicion. He understood that a reputation, once stained, is very hard to clean.",
+   "quote": "a prince should guard himself, above all things, against being despised and hated",
+   "qMean": "Above all, a leader must avoid being looked down on or hated.",
+   "qLife": "One viral bad review can hurt a restaurant more than ten good ones help.",
+   "img": "laws_53",
+   "orig": "And there is nothing wastes so rapidly as liberality, for even whilst you exercise it you lose the power to do so, and so become either poor or despised, or else, in avoiding poverty, rapacious and hated. And a prince should guard himself, above all things, against being despised and hated; and liberality leads you to both. Therefore it is wiser to have a reputation for meanness which brings reproach without hatred, than to be compelled through seeking a reputation for liberality to incur a name for rapacity which begets reproach with hatred.",
+   "origFrom": "Niccolò Machiavelli, The Prince (1532)",
+   "qBy": "Niccolò Machiavelli, The Prince (1532)",
+   "cap": "Bust of Julius Caesar · public domain"
   },
   {
    "ch": "Law 6",
@@ -181,7 +256,22 @@
    "img": "laws_06",
    "cap": "Life of P. T. Barnum frontispiece 1855 · public domain",
    "qMean": "Keep showing something new and surprising, like a sunrise every day.",
-   "qLife": "Creators who post fresh content keep their audience; those who repeat lose it."
+   "qLife": "Creators who post fresh content keep their audience; those who repeat lose it.",
+   "link": "A reputation needs fuel. Attention is the fuel."
+  },
+  {
+   "ch": "Law 6",
+   "chTitle": "Court Attention at All Costs",
+   "title": "In history: Barnum's mermaid",
+   "text": "P. T. Barnum advertised a real 'Fiji mermaid' all over New York. It was a monkey sewn to a fish. Crowds paid to see it anyway, and the arguments about whether it was fake only brought more. Barnum knew attention of any kind could be turned into fame.",
+   "quote": "affirmation, repetition, and contagion",
+   "qMean": "Ideas spread by bold statements, repeated, that catch on like a cold.",
+   "qLife": "A catchy jingle you can't get out of your head.",
+   "img": "laws_54",
+   "orig": "When, however, it is proposed to imbue the mind of a crowd with ideas and beliefs--with modern social theories, for instance--the leaders have recourse to different expedients. The principal of them are three in number and clearly defined--affirmation, repetition, and contagion. Their action is somewhat slow, but its effects, once produced, are very lasting.",
+   "origFrom": "Gustave Le Bon, The Crowd (1895)",
+   "qBy": "Gustave Le Bon, The Crowd (1895)",
+   "cap": "Fiji Mermaid (Zumwalt cartoon) · public domain"
   },
   {
    "ch": "Law 7",
@@ -195,7 +285,22 @@
    "img": "laws_07",
    "cap": "Nikola Tesla by Sarony c1898 · public domain",
    "qMean": "You can look wise by using the hard work of others.",
-   "qLife": "A manager presents the team's research and gets the applause."
+   "qLife": "A manager presents the team's research and gets the applause.",
+   "link": "Attention follows achievement. Here is the cynical shortcut: borrowed achievement."
+  },
+  {
+   "ch": "Law 7",
+   "chTitle": "Get Others to Do the Work for You, but Always Take the Credit",
+   "title": "In history: the inventor and the businessman",
+   "text": "Nikola Tesla worked for Thomas Edison and solved hard engineering problems, but the credit and the money went elsewhere. Edison ran a workshop where many minds worked under one name. Sun Tzu would have understood: great results come from combined effort, not one exhausted individual.",
+   "quote": "The clever combatant looks to the effect of combined energy, and does not require too much from individuals.",
+   "qMean": "A smart leader relies on teamwork rather than demanding everything from one person.",
+   "qLife": "A film director takes the bow for the work of hundreds.",
+   "img": "laws_55",
+   "orig": "20. By holding out baits, he keeps him on the march; then with a body of picked men he lies in wait for him.\n\n21. The clever combatant looks to the effect of combined energy, and does not require too much from individuals.\n\nHence his ability to pick out the right men and utilise combined energy.\n\n22. When he utilises combined energy, his fighting men become as it were like unto rolling logs or stones. For it is the nature of a log or stone to remain motionless on level ground, and to move when on a slope; if four-cornered, to come to a standstill, but if round-shaped, to go rolling down.",
+   "origFrom": "Sun Tzŭ, The Art of War (tr. Giles, 1910)",
+   "qBy": "Sun Tzŭ, The Art of War (tr. Giles, 1910)",
+   "cap": "Nikola Tesla by Sarony · public domain"
   },
   {
    "ch": "Law 8",
@@ -209,7 +314,22 @@
    "img": "laws_08",
    "cap": "The Congress of Vienna, 1815 · public domain",
    "qMean": "A clever fighter makes the enemy follow his plan, never the other way round.",
-   "qLife": "Choose the meeting place and time yourself instead of fitting someone else's."
+   "qLife": "Choose the meeting place and time yourself instead of fitting someone else's.",
+   "link": "Make others work for you, and make them come to you too."
+  },
+  {
+   "ch": "Law 8",
+   "chTitle": "Make Other People Come to You — Use Bait if Necessary",
+   "title": "In history: the waiting general",
+   "text": "Sun Tzu's oldest advice is to arrive first, rest, and let the enemy come to you tired. Talleyrand, the French diplomat, played the same game at the Congress of Vienna, waiting while others rushed, and won far more for defeated France than anyone expected.",
+   "quote": "Whoever is first in the field and awaits the coming of the enemy, will be fresh for the fight",
+   "qMean": "Whoever gets there first and waits will be fresh when the fight comes.",
+   "qLife": "Arriving early to a negotiation and letting the other side hurry in.",
+   "img": "laws_56",
+   "orig": "Chapter VI. WEAK POINTS AND STRONG\n\n1. Sun Tzŭ said: Whoever is first in the field and awaits the coming of the enemy, will be fresh for the fight; whoever is second in the field and has to hasten to battle, will arrive exhausted.\n\n2. Therefore the clever combatant imposes his will on the enemy, but does not allow the enemy’s will to be imposed on him.",
+   "origFrom": "Sun Tzŭ, The Art of War (tr. Giles, 1910)",
+   "qBy": "Sun Tzŭ, The Art of War (tr. Giles, 1910)",
+   "cap": "Charles Maurice de Talleyrand-Périgord by François Gérard, 1808 · public domain"
   },
   {
    "ch": "Law 9",
@@ -223,7 +343,22 @@
    "img": "laws_09",
    "cap": "Michelango Portrait by Volterra · public domain",
    "qMean": "Disagreeing with people's opinions feels like an insult to them.",
-   "qLife": "Telling a friend their favourite film is bad starts an argument, not a discussion."
+   "qLife": "Telling a friend their favourite film is bad starts an argument, not a discussion.",
+   "link": "When they come, don't argue with them. Show them."
+  },
+  {
+   "ch": "Law 9",
+   "chTitle": "Win Through Your Actions, Never Through Argument",
+   "title": "In history: Michelangelo's nose job",
+   "text": "The mayor of Florence told Michelangelo that his giant David's nose was too big. Michelangelo didn't argue. He climbed up with a little marble dust, pretended to chisel, let the dust fall, and asked, 'Better?' 'Much better,' said the mayor. The statue was unchanged.",
+   "quote": "I made it a rule to forbear all direct contradiction to the sentiments of others, and all positive assertion of my own.",
+   "qMean": "I made it a rule never to contradict people directly or insist I was right.",
+   "qLife": "Letting a parent think the plan was their idea.",
+   "img": "laws_57",
+   "orig": "I cannot boast of much success in acquiring the reality of this virtue, but I had a good deal with regard to the appearance of it. I made it a rule to forbear all direct contradiction to the sentiments of others, and all positive assertion of my own. I even forbid myself, agreeably to the old laws of our Junto, the use of every word or expression in the language that imported a fix'd opinion, such as certainly, undoubtedly, etc., and I adopted, instead of them, I conceive, I apprehend, or I imagine a thing to be so or so; or it so appears to me at present. When another asserted something that I thought an error, I deny'd myself the pleasure of contradicting him abruptly, and of showing immediately some absurdity in his proposition; and in answering I began by observing that in certain cases or circumstances his opinion would be right, but in the present case there appear'd or seem'd to me some difference, etc. I soon found the advantage of this change in my manner; the conversations I engag'd in went on more pleasantly. The modest way in which I propos'd my opinions procur'd them a readier reception and less contradiction; …",
+   "origFrom": "Benjamin Franklin, Autobiography (1791)",
+   "qBy": "Benjamin Franklin, Autobiography (1791)",
+   "cap": "'David' by Michelangelo JBU05 · public domain"
   },
   {
    "ch": "Law 10",
@@ -237,7 +372,22 @@
    "img": "laws_10",
    "cap": "Lola Montez - 1851 · public domain",
    "qMean": "Bad luck often comes from foolishness, and it spreads to those close by.",
-   "qLife": "Hanging around a friend who always gets in trouble drags you into trouble too."
+   "qLife": "Hanging around a friend who always gets in trouble drags you into trouble too.",
+   "link": "Choose carefully whom you let close: unhappiness spreads."
+  },
+  {
+   "ch": "Law 10",
+   "chTitle": "Infection: Avoid the Unhappy and Unlucky",
+   "title": "In history: a dangerous charm",
+   "text": "Lola Montez, a dancer of the 1840s, left trouble wherever she went. King Ludwig I of Bavaria fell for her, gave her titles and power, and lost his throne in the uproar. The Buddha's advice on companions is blunt: better to travel alone than with a fool.",
+   "quote": "If a traveller does not meet with one who is his better, or his equal, let him firmly keep to his solitary journey; there is no companionship with a fool.",
+   "qMean": "If you can't find good company, go alone rather than with a fool.",
+   "qLife": "Better to eat lunch alone than with a group that drags you down.",
+   "img": "laws_58",
+   "orig": "61. If a traveller does not meet with one who is his better, or his equal, let him firmly keep to his solitary journey; there is no companionship with a fool.\n\n62. \"These sons belong to me, and this wealth belongs to me,\" with such thoughts a fool is tormented. He himself does not belong to himself; how much less sons and wealth?",
+   "origFrom": "The Dhammapada (tr. Max Müller, 1881)",
+   "qBy": "The Dhammapada (tr. Max Müller, 1881)",
+   "cap": "Stieler - Lola Montez (Schönheitengalerie) · public domain"
   },
   {
    "ch": "Law 11",
@@ -251,7 +401,22 @@
    "img": "laws_11",
    "cap": "Franz von Lenbach - Bildnis Otto Eduard Leopold von Bismarck (Indianapolis) · public domain",
    "qMean": "A wise person prefers to be needed rather than merely thanked.",
-   "qLife": "The only person who knows the server password is never let go."
+   "qLife": "The only person who knows the server password is never let go.",
+   "link": "Keep the right people near, and make them need you."
+  },
+  {
+   "ch": "Law 11",
+   "chTitle": "Learn to Keep People Dependent on You",
+   "title": "In history: the indispensable minister",
+   "text": "Machiavelli advised rulers to arrange things so that the people always need the state and the ruler; then they stay loyal. Court advisers learned the same lesson: those who held the secrets nobody else understood could never be dismissed.",
+   "quote": "a wise prince ought to adopt such a course that his citizens will always in every sort and kind of circumstance have need of the state and of him, and then he will always find them faithful",
+   "qMean": "Make sure people always need you, and they will stay loyal.",
+   "qLife": "The only person who knows how the old billing system works never gets laid off.",
+   "img": "laws_59",
+   "orig": "… In the latter case their government is weaker and more insecure, because it rests entirely on the goodwill of those citizens who are raised to the magistracy, and who, especially in troubled times, can destroy the government with great ease, either by intrigue or open defiance; and the prince has not the chance amid tumults to exercise absolute authority, because the citizens and subjects, accustomed to receive orders from magistrates, are not of a mind to obey him amid these confusions, and there will always be in doubtful times a scarcity of men whom he can trust. For such a prince cannot rely upon what he observes in quiet times, when citizens have need of the state, because then every one agrees with him; they all promise, and when death is far distant they all wish to die for him; but in troubled times, when the state has need of its citizens, then he finds but few. And so much the more is this experiment dangerous, inasmuch as it can only be tried once. Therefore a wise prince ought to adopt such a course that his citizens will always in every sort and kind of circumstance have need of the state and of him, and then he will always find them faithful.",
+   "origFrom": "Niccolò Machiavelli, The Prince (1532)",
+   "qBy": "Niccolò Machiavelli, The Prince (1532)",
+   "cap": "MonumentalTablet ThomasDalby (Died1526) ArchdeaconOfRichmond · public domain"
   },
   {
    "ch": "Law 12",
@@ -265,7 +430,22 @@
    "img": "laws_12",
    "cap": "Gravelot, The Trojan Horse · public domain",
    "qMean": "Give good things little by little so they are appreciated longer.",
-   "qLife": "A series that releases one episode a week keeps viewers talking longer."
+   "qLife": "A series that releases one episode a week keeps viewers talking longer.",
+   "link": "To be needed you must be trusted. Sometimes trust is bought with one honest act."
+  },
+  {
+   "ch": "Law 12",
+   "chTitle": "Use Selective Honesty and Generosity to Disarm Your Victim",
+   "title": "In history: the honest con",
+   "text": "A swindler once borrowed $50,000 from Al Capone, promising to double it. He kept the money untouched, then returned it, apologising that the deal failed. Capone, amazed at the honesty, gave him $5,000 as a reward, which was all the conman had wanted.",
+   "quote": "Hypocrisy is the homage vice pays to virtue.",
+   "qMean": "Even dishonest people pretend to be honest, because honesty is admired.",
+   "qLife": "A shop that loudly refunds one small order to look trustworthy.",
+   "img": "laws_60",
+   "orig": "217.--Intrepidity is an extraordinary strength of soul which raises it above the troubles, disorders, and emotions which the sight of great perils can arouse in it: by this strength heroes maintain a calm aspect and preserve their reason and liberty in the most surprising and terrible accidents.\n\n218.--Hypocrisy is the homage vice pays to virtue.",
+   "origFrom": "La Rochefoucauld, Maxims (1665)",
+   "qBy": "La Rochefoucauld, Maxims (1665)",
+   "cap": "AlCaponemugshotCPD · public domain"
   },
   {
    "ch": "Law 13",
@@ -279,7 +459,22 @@
    "img": "laws_13",
    "cap": "Thucydides, bust · public domain",
    "qMean": "Self-interest can pretend to be anything, even generosity.",
-   "qLife": "A 'free' webinar that ends with a sales pitch."
+   "qLife": "A 'free' webinar that ends with a sales pitch.",
+   "link": "When you need something back, speak to self-interest, not gratitude."
+  },
+  {
+   "ch": "Law 13",
+   "chTitle": "When Asking for Help, Appeal to Self-Interest",
+   "title": "In history: Corcyra asks Athens",
+   "text": "In 433 BC the island of Corcyra asked Athens for help. It didn't remind Athens of friendship or past favours; it had none. It argued that its navy would make Athens stronger. Athens agreed. Appeals to self-interest work where appeals to gratitude fail.",
+   "quote": "Self-love is the greatest of flatterers.",
+   "qMean": "We are always ready to be persuaded by what benefits us.",
+   "qLife": "Ask a busy friend for help by showing how it helps them too.",
+   "img": "laws_61",
+   "orig": "\"Who combats bravely is not therefore brave, He dreads a death-bed like the meanest slave; Who reasons wisely is not therefore wise, His pride in reasoning, not in acting, lies.\" Pope, Moral Essays, Ep. i. line 115.\n\n2.--Self-love is the greatest of flatterers.\n\n3.--Whatever discoveries have been made in the region of self-love, there remain many unexplored territories there.",
+   "origFrom": "La Rochefoucauld, Maxims (1665)",
+   "qBy": "La Rochefoucauld, Maxims (1665)",
+   "cap": "Hellenic War Museum Model of Athenian Trireme (Trieres) · public domain"
   },
   {
    "ch": "Law 14",
@@ -293,7 +488,22 @@
    "img": "laws_14",
    "cap": "Portrait of Joseph Fouché · public domain",
    "qMean": "Wise leaders win because they know what will happen before it happens.",
-   "qLife": "Checking the weather before a trip saves you from being caught in the rain."
+   "qLife": "Checking the weather before a trip saves you from being caught in the rain.",
+   "link": "Knowing what others want requires watching them closely."
+  },
+  {
+   "ch": "Law 14",
+   "chTitle": "Pose as a Friend, Work as a Spy",
+   "title": "In history: Talleyrand's dinners",
+   "text": "Talleyrand learned more over dinner than spies learned in months. Charming and relaxed, he got guests talking, and remembered everything. Sun Tzu's last advice on spies fits him: be subtle, and use information everywhere.",
+   "quote": "Be subtle! be subtle! and use your spies for every kind of business.",
+   "qMean": "Quietly gather information in everything you do.",
+   "qLife": "A good journalist listens far more than they talk.",
+   "img": "laws_62",
+   "orig": "17. Without subtle ingenuity of mind, one cannot make certain of the truth of their reports.\n\n18. Be subtle! be subtle! and use your spies for every kind of business.\n\n19. If a secret piece of news is divulged by a spy before the time is ripe, he must be put to death together with the man to whom the secret was told.\n\n20. Whether the object be to crush an army, to storm a city, or to assassinate an individual, it is always necessary to begin by finding out the names of the attendants, the aides-de- camp,",
+   "origFrom": "Sun Tzŭ, The Art of War (tr. Giles, 1910)",
+   "qBy": "Sun Tzŭ, The Art of War (tr. Giles, 1910)",
+   "cap": "Thanksgiving LCCN2012645611 · public domain"
   },
   {
    "ch": "Law 15",
@@ -307,7 +517,22 @@
    "img": "laws_15",
    "cap": "Empress Wu Zetian · public domain",
    "qMean": "Either treat people well or remove their power to strike back.",
-   "qLife": "If you must report a bully, report everything at once, not one small thing."
+   "qLife": "If you must report a bully, report everything at once, not one small thing.",
+   "link": "What you learn about an enemy, use completely."
+  },
+  {
+   "ch": "Law 15",
+   "chTitle": "Crush Your Enemy Totally",
+   "title": "In history: injuries all at once",
+   "text": "Machiavelli praises leaders who do harsh things all at once and then stop, so people can forget, and condemns those who drag cruelty out bit by bit. Half-defeated enemies recover and come back; that is the whole argument of this law.",
+   "quote": "injuries ought to be done all at one time, so that, being tasted less, they offend less",
+   "qMean": "If you must do something painful, do it all at once.",
+   "qLife": "Ripping off a plaster quickly hurts less than peeling it slowly.",
+   "img": "laws_63",
+   "orig": "Hence it is to be remarked that, in seizing a state, the usurper ought to examine closely into all those injuries which it is necessary for him to inflict, and to do them all at one stroke so as not to have to repeat them daily; and thus by not unsettling men he will be able to reassure them, and win them to himself by benefits. He who does otherwise, either from timidity or evil advice, is always compelled to keep the knife in his hand; neither can he rely on his subjects, nor can they attach themselves to him, owing to their continued and repeated wrongs. For injuries ought to be done all at one time, so that, being tasted less, they offend less; benefits ought to be given little by little, so that the flavour of them may last longer.",
+   "origFrom": "Niccolò Machiavelli, The Prince (1532)",
+   "qBy": "Niccolò Machiavelli, The Prince (1532)",
+   "cap": "Figures in a cortege, tomb of Li Xian, Tang Dynasty · public domain"
   },
   {
    "ch": "Law 16",
@@ -321,7 +546,22 @@
    "img": "laws_16",
    "cap": "Portrait of Ninon de l'Enclos · public domain",
    "qMean": "Move away from where you shine so people miss you.",
-   "qLife": "A singer who takes a year off returns to bigger crowds."
+   "qLife": "A singer who takes a year off returns to bigger crowds.",
+   "link": "After victory, step back. Absence makes people value you."
+  },
+  {
+   "ch": "Law 16",
+   "chTitle": "Use Absence to Increase Respect and Honor",
+   "title": "In history: the vanishing king",
+   "text": "Herodotus tells of Deioces, a judge among the Medes so fair that everyone came to him. Then he withdrew, refusing to judge. Chaos followed, and the people begged him to return as king. He agreed, and lived hidden in a palace, seen by almost no one.",
+   "quote": "When the work is done, and one's name is becoming distinguished, to withdraw into obscurity is the way of Heaven.",
+   "qMean": "Once you've succeeded, step back quietly; that is wise.",
+   "qLife": "A band that takes a long break comes back to sold-out shows.",
+   "img": "laws_64",
+   "orig": "2. When gold and jade fill the hall, their possessor cannot keep them safe. When wealth and honours lead to arrogancy, this brings its evil on itself. When the work is done, and one's name is becoming distinguished, to withdraw into obscurity is the way of Heaven.\n\n10. 1. When the intelligent and animal souls are held together in one embrace, they can be kept from separating. When one gives undivided attention to the (vital) breath, and brings it to the utmost degree of pliancy, he can become as a (tender) babe. When he has cleansed away the most mysterious sights (of his imagination), he can become without a flaw.",
+   "origFrom": "Lao Tzu, Tao Te Ching (tr. Legge, 1891)",
+   "qBy": "Lao Tzu, Tao Te Ching (tr. Legge, 1891)",
+   "cap": "Rock Inscription at Bisotun, Persia, a steel engraving, 1860 · public domain"
   },
   {
    "ch": "Law 17",
@@ -335,7 +575,22 @@
    "img": "laws_17",
    "cap": "Caxton, The Game and Playe of the Chesse, 1474 · public domain",
    "qMean": "Don't always act the same way, so rivals can't predict you.",
-   "qLife": "A footballer who doesn't always shoot the same way keeps keepers guessing."
+   "qLife": "A footballer who doesn't always shoot the same way keeps keepers guessing.",
+   "link": "Being hard to predict keeps others off balance."
+  },
+  {
+   "ch": "Law 17",
+   "chTitle": "Keep Others in Suspended Terror: Cultivate an Air of Unpredictability",
+   "title": "In history: Fischer at Reykjavík",
+   "text": "In 1972 Bobby Fischer arrived late, complained about the lights, the cameras, the chairs, and nearly walked out of the world championship. His opponent, Boris Spassky, was rattled before a game was played. Fischer won the title.",
+   "quote": "Let your plans be dark and impenetrable as night, and when you move, fall like a thunderbolt.",
+   "qMean": "Keep your plans hidden, then act suddenly and powerfully.",
+   "qLife": "A rival team that changes tactics every match is hard to prepare for.",
+   "img": "laws_65",
+   "orig": "18. In raiding and plundering be like fire,\n\nin immovability like a mountain.\n\n19. Let your plans be dark and impenetrable as night, and when you move, fall like a thunderbolt.\n\n20. When you plunder a countryside, let the spoil be divided amongst your men;\n\nwhen you capture new territory, cut it up into allotments for the benefit of the soldiery.",
+   "origFrom": "Sun Tzŭ, The Art of War (tr. Giles, 1910)",
+   "qBy": "Sun Tzŭ, The Art of War (tr. Giles, 1910)",
+   "cap": "Lawrence Alma-Tadema Egyptian Chess Players · public domain"
   },
   {
    "ch": "Law 18",
@@ -349,7 +604,22 @@
    "img": "laws_18",
    "cap": "Portrait of Qin Shi Huang · public domain",
    "qMean": "The safest defence is to not be hated by ordinary people.",
-   "qLife": "A landlord who treats tenants fairly rarely has trouble collecting rent."
+   "qLife": "A landlord who treats tenants fairly rarely has trouble collecting rent.",
+   "link": "Don't hide away in safety. Isolation is its own danger."
+  },
+  {
+   "ch": "Law 18",
+   "chTitle": "Do Not Build Fortresses to Protect Yourself — Isolation Is Dangerous",
+   "title": "In history: the hidden emperor",
+   "text": "Qin Shi Huang, China's first emperor, grew so afraid of assassins that he built hundreds of palaces linked by covered walkways and told no one where he slept. Cut off from his advisers, he lost touch with his empire, which collapsed soon after he died.",
+   "quote": "A single wheel can never move.",
+   "qMean": "No ruler can govern alone, just as one wheel can't move a cart.",
+   "qLife": "A boss who never talks to the team soon has no idea what's going on.",
+   "img": "laws_66",
+   "orig": "Kautilya's Arthashastra\n\nhim of his careless proceedings even in secret shall invariably be respected.\n\nSovereignty (rdjatva) is possible only with assistance. A single wheel can never move. Hence he shall employ ministers and hear their opinion.\n\nCHAPTER VIII. CREATION OF MINISTERS.\n\n\"THE King,\" says Bhdradvaja, \"shall employ his classmates as his ministers; for they can be trusted by him inasmuch as he has personal knowledge of their honesty and capacity.\"",
+   "origFrom": "Kautilya, Arthashastra (tr. Shamasastry, 1915)",
+   "qBy": "Kautilya, Arthashastra (tr. Shamasastry, 1915)",
+   "cap": "Qin Shi Huang · public domain"
   },
   {
    "ch": "Law 19",
@@ -363,7 +633,22 @@
    "img": "laws_19",
    "cap": "Vasnetsov, Tsar Ivan IV · public domain",
    "qMean": "Know your rival and yourself, and you need not fear any contest.",
-   "qLife": "Study the other team's tactics and your own weaknesses before the final."
+   "qLife": "Study the other team's tactics and your own weaknesses before the final.",
+   "link": "Moving among people, know exactly whom you are dealing with."
+  },
+  {
+   "ch": "Law 19",
+   "chTitle": "Know Who You're Dealing With — Do Not Offend the Wrong Person",
+   "title": "In history: Sun Bin's revenge",
+   "text": "Pang Juan, a jealous general, framed his brilliant classmate Sun Bin and had his feet mutilated. Sun Bin escaped, became a strategist for a rival state, lured Pang Juan into an ambush at Maling, and destroyed his army. Pang Juan had badly misjudged whom he was hurting.",
+   "quote": "He who exercises no forethought but makes light of his opponents is sure to be captured by them.",
+   "qMean": "Underestimate an opponent and you will lose to them.",
+   "qLife": "Mocking the quiet new kid who turns out to be the best player.",
+   "img": "laws_67",
+   "orig": "41. He who exercises no forethought but makes light of his opponents is sure to be captured by them.\n\n42. If soldiers are punished before they have grown attached to you, they will not prove submissive; and, unless submissive, then will be practically useless. If, when the soldiers have become attached to you, punishments are not enforced, they will still be useless.",
+   "origFrom": "Sun Tzŭ, The Art of War (tr. Giles, 1910)",
+   "qBy": "Sun Tzŭ, The Art of War (tr. Giles, 1910)",
+   "cap": "Warring States Bronze Jian (Sword) · public domain"
   },
   {
    "ch": "Law 20",
@@ -377,7 +662,22 @@
    "img": "laws_20",
    "cap": "Elizabeth I (Armada Portrait) · public domain",
    "qMean": "Stay free of any single group, trend or era.",
-   "qLife": "Don't let one client become your only source of income."
+   "qLife": "Don't let one client become your only source of income.",
+   "link": "Know them, but don't belong to any of them."
+  },
+  {
+   "ch": "Law 20",
+   "chTitle": "Do Not Commit to Anyone",
+   "title": "In history: the Virgin Queen",
+   "text": "Elizabeth I of England was courted by princes from France, Spain and Austria. She never married, keeping each suitor hoping and each kingdom friendly. Machiavelli warned that neutral rulers usually fall; Elizabeth showed that staying uncommitted can work, if you keep everyone guessing.",
+   "quote": "irresolute princes, to avoid present dangers, generally follow the neutral path",
+   "qMean": "Hesitant rulers often stay neutral to avoid danger, and usually regret it.",
+   "qLife": "Being friendly with both groups at school without joining either.",
+   "img": "laws_68",
+   "orig": "… This question came to be discussed in the council of the Achaeans, where the legate of Antiochus urged them to stand neutral. To this the Roman legate answered: “As for that which has been said, that it is better and more advantageous for your state not to interfere in our war, nothing can be more erroneous; because by not interfering you will be left, without favour or consideration, the guerdon of the conqueror.” Thus it will always happen that he who is not your friend will demand your neutrality, whilst he who is your friend will entreat you to declare yourself with arms. And irresolute princes, to avoid present dangers, generally follow the neutral path, and are generally ruined. But when a prince declares himself gallantly in favour of one side, if the party with whom he allies himself conquers, although the victor may be powerful and may have him at his mercy, yet he is indebted to him, and there is established a bond of amity; and men are never so shameless as to become a monument of ingratitude by oppressing you. Victories after all are never so complete that the victor must not show some regard, especially to justice. But if he with whom you ally yourself loses, you may be sheltered by him, and whilst he is able he may aid you, and you become companions on a fortune that may rise again.",
+   "origFrom": "Niccolò Machiavelli, The Prince (1532)",
+   "qBy": "Niccolò Machiavelli, The Prince (1532)",
+   "cap": "Armada Portrait Elizabeth I Queens House · public domain"
   },
   {
    "ch": "Law 21",
@@ -391,7 +691,22 @@
    "img": "laws_21",
    "cap": "Emperor Claudius, marble bust · public domain",
    "qMean": "Sometimes the wisest move is to look less clever than you are.",
-   "qLife": "Letting the know-it-all explain something you already understand, to keep the peace."
+   "qLife": "Letting the know-it-all explain something you already understand, to keep the peace.",
+   "link": "Staying free sometimes means looking less clever than you are."
+  },
+  {
+   "ch": "Law 21",
+   "chTitle": "Play a Sucker to Catch a Sucker — Seem Dumber Than Your Mark",
+   "title": "In history: Claudius the fool",
+   "text": "Claudius stuttered and limped, and his family treated him as a harmless idiot. He survived the murderous reigns of Tiberius and Caligula because no one saw him as a threat. When Caligula was killed, the soldiers made Claudius emperor, and he ruled capably for thirteen years.",
+   "quote": "Wear your learning, like your watch, in a private pocket",
+   "qMean": "Keep your cleverness hidden, like a watch in your pocket.",
+   "qLife": "The quiet employee everyone underestimates who ends up running the company.",
+   "img": "laws_69",
+   "orig": "There is another species of learned men, who, though less dogmatical and supercilious, are not less impertinent. These are the communicative and shining pedants, who adorn their conversation, even with women, by happy quotations of Greek and Latin; and who have contracted such a familiarity with the Greek and Roman authors, that they, call them by certain names or epithets denoting intimacy. As OLD Homer; that SLY ROGUE Horace; MARO, instead of Virgil; and Naso, Instead of Ovid. These are often imitated by coxcombs, who have no learning at all; but who have got some names and some scraps of ancient authors by heart, which they improperly and impertinently retail in all companies, in hopes of passing for scholars. If, therefore, you would avoid the accusation of pedantry on one hand, or the suspicion of ignorance on the other, abstain from learned ostentation. Speak the language of the company that you are in; speak it purely, and unlarded with any other. Never seem wiser, nor more learned, than the people you are with. Wear your learning, like your watch, in a private pocket: and do not pull it out and strike it; merely to show that you have one. If you are asked what o’clock it is, tell it; but do not proclaim it hourly and unasked, like the watchman.",
+   "origFrom": "Lord Chesterfield, Letters to His Son (1774)",
+   "qBy": "Lord Chesterfield, Letters to His Son (1774)",
+   "cap": "Statue of Emperor Claudius in Vatican Museum · public domain"
   },
   {
    "ch": "Law 22",
@@ -405,7 +720,22 @@
    "img": "laws_22",
    "cap": "Velazquez-The Surrender of Breda · public domain",
    "qMean": "Pretend to be weak so your opponent becomes overconfident.",
-   "qLife": "Act unsure at the start of a chess game so your rival plays carelessly."
+   "qLife": "Act unsure at the start of a chess game so your rival plays carelessly.",
+   "link": "Looking weak can be a weapon. So can surrender."
+  },
+  {
+   "ch": "Law 22",
+   "chTitle": "Use the Surrender Tactic: Transform Weakness into Power",
+   "title": "In history: the willow and the oak",
+   "text": "An old fable: the proud oak stood stiff against the storm and was torn out by the roots; the willow bent to the ground and stood again when the wind passed. The Tao Te Ching puts the same idea in one line: the sage places himself last, and ends up first.",
+   "quote": "Therefore the sage puts his own person last, and yet it is found in the foremost place",
+   "qMean": "The wise put themselves last and end up first.",
+   "qLife": "Apologising first in an argument often earns more respect than winning it.",
+   "img": "laws_70",
+   "orig": "2. Therefore the sage puts his own person last, and yet it is found in the foremost place; he treats his person as if it were foreign to him, and yet that person is preserved. Is it not because he has no personal and private ends, that therefore such ends are realised?\n\n8. 1. The highest excellence is like (that of) water. The excellence of water appears in its benefiting all things, and in its occupying, without striving (to the contrary), the low place which all men dislike. Hence (its way) is near to (that of) the Tao.",
+   "origFrom": "Lao Tzu, Tao Te Ching (tr. Legge, 1891)",
+   "qBy": "Lao Tzu, Tao Te Ching (tr. Legge, 1891)",
+   "cap": "Hanging scroll, painting · public domain"
   },
   {
    "ch": "Law 23",
@@ -419,7 +749,22 @@
    "img": "laws_23",
    "cap": "The House of Rothschild · public domain",
    "qMean": "Stay united while forcing the other side to split up.",
-   "qLife": "A team that sticks together while the other team argues wins the match."
+   "qLife": "A team that sticks together while the other team argues wins the match.",
+   "link": "Bend when you must; but when you strike, strike in one place."
+  },
+  {
+   "ch": "Law 23",
+   "chTitle": "Concentrate Your Forces",
+   "title": "In history: the Rothschild brothers",
+   "text": "Mayer Amschel Rothschild sent his five sons to five European cities, but they worked as one family firm, sharing information by private couriers. Concentrated trust made them the most powerful bankers in Europe. Chesterfield's advice to his son is the everyday version: one thing at a time.",
+   "quote": "There is time enough for everything, in the course of the day, if you do but one thing at once",
+   "qMean": "If you focus on one thing at a time, you'll find time for everything.",
+   "qLife": "Turning off notifications to finish one assignment properly.",
+   "img": "laws_71",
+   "orig": "… A man is fit for neither business nor pleasure, who either cannot, or does not, command and direct his attention to the present object, and, in some degree, banish for that time all other objects from his thoughts. If at a ball, a supper, or a party of pleasure, a man were to be solving, in his own mind, a problem in Euclid, he would be a very bad companion, and make a very poor figure in that company; or if, in studying a problem in his closet, he were to think of a minuet, I am apt to believe that he would make a very poor mathematician. There is time enough for everything, in the course of the day, if you do but one thing at once; but there is not time enough in the year, if you will do two things at a time. The Pensionary de Witt, who was torn to pieces in the year 1672, did the whole business of the Republic, and yet had time left to go to assemblies in the evening, and sup in company. Being asked how he could possibly find time to go through so much business, and yet amuse himself in the evenings as he did, he answered, there was nothing so easy; …",
+   "origFrom": "Lord Chesterfield, Letters to His Son (1774)",
+   "qBy": "Lord Chesterfield, Letters to His Son (1774)",
+   "cap": "Anselm Meier von Rothschild (Amschel Mayer Rothschild), Frankfurt a. M. 1773-1855 · public domain"
   },
   {
    "ch": "Law 24",
@@ -433,7 +778,22 @@
    "img": "laws_24",
    "cap": "Baldassare Castiglione, by Raffaello Sanzio, from C2RMF retouched · public domain",
    "qMean": "Respect others if you want respect back.",
-   "qLife": "Greet the security guard by name and they'll help you when you forget your badge."
+   "qLife": "Greet the security guard by name and they'll help you when you forget your badge.",
+   "link": "Focus works at court too. The perfect courtier is focused charm."
+  },
+  {
+   "ch": "Law 24",
+   "chTitle": "Play the Perfect Courtier",
+   "title": "In history: The Book of the Courtier",
+   "text": "In 1528 Baldassare Castiglione described the perfect courtier: graceful, witty, never showing effort, always pleasing. Kings read it for two hundred years. Chesterfield, writing to his son, agreed that pleasing others is a skill to be learned, and a hard one.",
+   "quote": "The art of pleasing is a very necessary one to possess; but a very difficult one to acquire.",
+   "qMean": "Being pleasant to others is important, but hard to learn.",
+   "qLife": "A great receptionist makes every visitor feel welcome.",
+   "img": "laws_72",
+   "orig": "DEAR BOY: The art of pleasing is a very necessary one to possess; but a very difficult one to acquire. It can hardly be reduced to rules; and your own good sense and observation will teach you more of it than I can. Do as you would be done by, is the surest method that I know of pleasing. Observe carefully what pleases you in others, and probably the same thing in you will please others. If you are pleased with the complaisance and attention of others to your humors, your tastes, or your weaknesses, depend upon it the same complaisance and attention, on your part to theirs, will equally please them. Take the tone of the company that you are in, and do not pretend to give it; be serious, gay, or even trifling, as you find the present humor of the company; this is an attention due from every individual to the majority. Do not tell stories in company; there is nothing more tedious and disagreeable; if by chance you know a very short story, and exceedingly applicable to the present subject of conversation, tell it in as few words as possible; …",
+   "origFrom": "Lord Chesterfield, Letters to His Son (1774)",
+   "qBy": "Lord Chesterfield, Letters to His Son (1774)",
+   "cap": "Titian - Portrait of Baldassare Castiglione, c.1536-1538 · public domain"
   },
   {
    "ch": "Law 25",
@@ -447,7 +807,22 @@
    "img": "laws_25",
    "cap": "George Sand by Nadar, 1864 · public domain",
    "qMean": "Refresh your talents and image, like a phoenix rising again.",
-   "qLife": "An old brand redesigns its logo and suddenly feels new again."
+   "qLife": "An old brand redesigns its logo and suddenly feels new again.",
+   "link": "Playing a role well leads to the boldest move: writing your own role."
+  },
+  {
+   "ch": "Law 25",
+   "chTitle": "Re-Create Yourself",
+   "title": "In history: Caesar the actor",
+   "text": "Julius Caesar built his public self like a play: generous games, daring speeches, dramatic gestures like crossing the Rubicon. He refused to stay the man people expected. Emerson said the same in his own way: don't be trapped by what you were yesterday.",
+   "quote": "A foolish consistency is the hobgoblin of little minds",
+   "qMean": "Refusing to change just to stay consistent is small-minded.",
+   "qLife": "Changing your career path when you discover what you really love.",
+   "img": "laws_73",
+   "orig": "A foolish consistency is the hobgoblin of little minds, adored by little statesmen and philosophers and divines. With consistency a great soul has simply nothing to do. He may as well concern himself with his shadow on the wall. Speak what you think now in hard words and to-morrow speak what to-morrow thinks in hard words again, though it contradict every thing you said to-day.—‘Ah, so you shall be sure to be misunderstood.’—Is it so bad then to be misunderstood? Pythagoras was misunderstood, and Socrates, and Jesus, and Luther, and Copernicus, and Galileo, and Newton, and every pure and wise spirit that ever took flesh. To be great is to be misunderstood.",
+   "origFrom": "Ralph Waldo Emerson, Essays: First Series (1841)",
+   "qBy": "Ralph Waldo Emerson, Essays: First Series (1841)",
+   "cap": "Gustave Boulanger, Jules-César arrivé au Rubicon, 1854, Musée Picardie · public domain"
   },
   {
    "ch": "Law 26",
@@ -461,7 +836,22 @@
    "img": "laws_26",
    "cap": "Catarina de' Medici Uffizi · public domain",
    "qMean": "Let others do the unpopular tasks; keep the pleasant ones yourself.",
-   "qLife": "The principal announces the trip; the vice-principal handles the detentions."
+   "qLife": "The principal announces the trip; the vice-principal handles the detentions.",
+   "link": "A new self must stay spotless. Let others carry the dirt."
+  },
+  {
+   "ch": "Law 26",
+   "chTitle": "Keep Your Hands Clean",
+   "title": "In history: Borgia's scapegoat",
+   "text": "Cesare Borgia sent the brutal Remirro de Orco to tame the Romagna. When the people grew to hate the harshness, Borgia had Remirro cut in two and displayed in the square. The people were satisfied, and Borgia's hands looked clean.",
+   "quote": "The barbarity of this spectacle caused the people to be at once satisfied and dismayed",
+   "qMean": "The cruel display both pleased and frightened the people.",
+   "qLife": "A company that fires one manager to take the blame for a scandal.",
+   "img": "laws_74",
+   "orig": "… and so, wishing to bring back peace and obedience to authority, he considered it necessary to give it a good governor. Thereupon he promoted Messer Ramiro d’Orco, a swift and cruel man, to whom he gave the fullest power. This man in a short time restored peace and unity with the greatest success. Afterwards the duke considered that it was not advisable to confer such excessive authority, for he had no doubt but that he would become odious, so he set up a court of judgment in the country, under a most excellent president, wherein all cities had their advocates. And because he knew that the past severity had caused some hatred against himself, so, to clear himself in the minds of the people, and gain them entirely to himself, he desired to show that, if any cruelty had been practised, it had not originated with him, but in the natural sternness of the minister. Under this pretence he took Ramiro, and one morning caused him to be executed and left on the piazza at Cesena with the block and a bloody knife at his side. The barbarity of this spectacle caused the people to be at once satisfied and dismayed.",
+   "origFrom": "Niccolò Machiavelli, The Prince (1532)",
+   "qBy": "Niccolò Machiavelli, The Prince (1532)",
+   "cap": "Cesena Rocca dei Malatesta · public domain"
   },
   {
    "ch": "Law 27",
@@ -475,7 +865,22 @@
    "img": "laws_27",
    "cap": "Franz Anton Mesmer · public domain",
    "qMean": "Most people are won over by appearances and results.",
-   "qLife": "Crowds trust the fancy-looking shop more than the plain one next door."
+   "qLife": "Crowds trust the fancy-looking shop more than the plain one next door.",
+   "link": "With clean hands you can become something more: a figure people believe in."
+  },
+  {
+   "ch": "Law 27",
+   "chTitle": "Play on People's Need to Believe to Create a Cultlike Following",
+   "title": "In history: Mesmer's tubs",
+   "text": "Franz Mesmer claimed an invisible 'animal magnetism' could cure illness. In dim Paris salons, patients sat around tubs of iron filings while music played, and many felt better. A royal commission found no magnetism at all, only belief. Le Bon later wrote why it works.",
+   "quote": "The masses have never thirsted after truth.",
+   "qMean": "Crowds want something to believe in more than they want the truth.",
+   "qLife": "Viral miracle cures that spread despite no evidence.",
+   "img": "laws_75",
+   "orig": "Notwithstanding all its progress, philosophy has been unable as yet to offer the masses any ideal that can charm them; but, as they must have their illusions at all cost, they turn instinctively, as the insect seeks the light, to the rhetoricians who accord them what they want. Not truth, but error has always been the chief factor in the evolution of nations, and the reason why socialism is so powerful to-day is that it constitutes the last illusion that is still vital. In spite of all scientific demonstrations it continues on the increase. Its principal strength lies in the fact that it is championed by minds sufficiently ignorant of things as they are in reality to venture boldly to promise mankind happiness. The social illusion reigns to-day upon all the heaped-up ruins of the past, and to it belongs the future. The masses have never thirsted after truth. They turn aside from evidence that is not to their taste, preferring to deify error, if error seduce them. Whoever can supply them with illusions is easily their master; whoever attempts to destroy their illusions is always their victim.",
+   "origFrom": "Gustave Le Bon, The Crowd (1895)",
+   "qBy": "Gustave Le Bon, The Crowd (1895)",
+   "cap": "FREE mesmer painting · public domain"
   },
   {
    "ch": "Law 28",
@@ -489,7 +894,22 @@
    "img": "laws_28",
    "cap": "Titian, Portrait of Pietro Aretino · public domain",
    "qMean": "Taking bold risks usually beats being too cautious.",
-   "qLife": "The person who speaks first in the meeting sets the agenda."
+   "qLife": "The person who speaks first in the meeting sets the agenda.",
+   "link": "Belief follows confidence. Act boldly."
+  },
+  {
+   "ch": "Law 28",
+   "chTitle": "Enter Action with Boldness",
+   "title": "In history: selling the Eiffel Tower",
+   "text": "In 1925 the conman Victor Lustig, posing as a government official, persuaded scrap dealers that Paris was selling the Eiffel Tower. His sheer boldness made the story believable. He sold it, fled with the money, and almost sold it again.",
+   "quote": "While the hungry lion slumbers, not a deer comes to his den.",
+   "qMean": "Nothing comes to you if you just wait; you must act boldly.",
+   "qLife": "The job goes to the person who applied, not the one who meant to.",
+   "img": "laws_76",
+   "orig": "\"So verily,\n\n\"Worthy ends come not by wishing. Wouldst thou? Up, and win it, then! While the hungry lion slumbers, not a deer comes to his den.\"\n\nHaving concluded his reflections, the Raja gave orders to assemble a meeting of learned men. Then said he--\n\n\"Hear now, O my Pundits! Is there one among you so wise that he will undertake to give the second birth of Wisdom to these my sons, by teaching them the Books of Policy; for they have never yet read the Sacred Writings, and are altogether going in the wrong road; and ye know that",
+   "origFrom": "The Hitopadesha (tr. Edwin Arnold)",
+   "qBy": "The Hitopadesha (tr. Edwin Arnold)",
+   "cap": "Louis-Emile Durandelle, The Eiffel Tower - State of the Construction, 1888 · public domain"
   },
   {
    "ch": "Law 29",
@@ -503,7 +923,22 @@
    "img": "laws_29",
    "cap": "La bataille d'Austerlitz. 2 decembre 1805 (François Gérard) · public domain",
    "qMean": "The winner plans the victory before the fight; the loser fights hoping to win.",
-   "qLife": "Plan your route and parking before the job interview, not on the way."
+   "qLife": "Plan your route and parking before the job interview, not on the way.",
+   "link": "Boldness is not recklessness. Plan to the very end."
+  },
+  {
+   "ch": "Law 29",
+   "chTitle": "Plan All the Way to the End",
+   "title": "In history: Napoleon in Russia",
+   "text": "In 1812 Napoleon marched 600,000 men into Russia expecting a quick battle. The Russians retreated, burned the land, and let winter do the rest. Fewer than 100,000 came back. He had planned the beginning, not the end.",
+   "quote": "Thus do many calculations lead to victory, and few calculations to defeat: how much more no calculation at all!",
+   "qMean": "Careful planning wins; little planning loses.",
+   "qLife": "Starting a trek without checking the weather on the way down.",
+   "img": "laws_77",
+   "orig": "26. Now the general who wins a battle makes many calculations in his temple ere the battle is fought.\n\nThe general who loses a battle makes but few calculations beforehand. Thus do many calculations lead to victory, and few calculations to defeat: how much more no calculation at all! It is by attention to this point that I can foresee who is likely to win or lose.\n\nChapter II. WAGING WAR",
+   "origFrom": "Sun Tzŭ, The Art of War (tr. Giles, 1910)",
+   "qBy": "Sun Tzŭ, The Art of War (tr. Giles, 1910)",
+   "cap": "Napoleons retreat from Moscow by Adolph Northen · public domain"
   },
   {
    "ch": "Law 30",
@@ -517,7 +952,22 @@
    "img": "laws_30",
    "cap": "Houdini in Handcuffs, 1918 · public domain",
    "qMean": "A clever fighter wins, and wins easily.",
-   "qLife": "The best students make exams look easy because they prepared for months."
+   "qLife": "The best students make exams look easy because they prepared for months.",
+   "link": "A planned victory should look effortless."
+  },
+  {
+   "ch": "Law 30",
+   "chTitle": "Make Your Accomplishments Seem Effortless",
+   "title": "In history: Houdini's secret work",
+   "text": "Harry Houdini's escapes looked like magic. Behind them were years of practising lock-picking, holding his breath and studying every handcuff made. Audiences saw effortless miracles because he hid the sweat.",
+   "quote": "It is useless to warn the student that he must be natural.",
+   "qMean": "You can't just tell someone to be natural; it comes from practice.",
+   "qLife": "A dancer whose effortless performance took thousands of hours.",
+   "img": "laws_78",
+   "orig": "It is useless to warn the student that he must be natural. To be natural may be to be monotonous. The little strawberry up in the arctics with a few tiny seeds and an acid tang is a natural berry, but it is not to be compared with the improved variety that we enjoy here. The dwarfed oak on the rocky hillside is natural, but a poor thing compared with the beautiful tree found in the rich, moist bottom lands. Be natural--but improve your natural gifts until you have approached the ideal, for we must strive after idealized nature, in fruit, tree, and speech.",
+   "origFrom": "J. B. Esenwein & Dale Carnegie, The Art of Public Speaking (1915)",
+   "qBy": "J. B. Esenwein & Dale Carnegie, The Art of Public Speaking (1915)",
+   "cap": "Houdini as ghostbuster (performance poster) · public domain"
   },
   {
    "ch": "Law 31",
@@ -531,7 +981,22 @@
    "img": "laws_31",
    "cap": "Profile portrait of Ivan IV of Russia (engraving) · public domain",
    "qMean": "Offer something attractive so the other side comes to you willingly.",
-   "qLife": "A shop's free samples draw people in without any advertising."
+   "qLife": "A shop's free samples draw people in without any advertising.",
+   "link": "Effortless control means choosing the choices others make."
+  },
+  {
+   "ch": "Law 31",
+   "chTitle": "Control the Options: Get Others to Play with the Cards You Deal",
+   "title": "In history: Ivan the Terrible's exit",
+   "text": "In 1564 Ivan IV suddenly left Moscow and threatened to abdicate. The terrified people and nobles begged him to return. He agreed, on his terms: unlimited power. They thought they were choosing; he had chosen for them.",
+   "quote": "the clever combatant imposes his will on the enemy",
+   "qMean": "The clever fighter makes the other side play his game.",
+   "qLife": "A parent who asks 'peas or carrots?' when vegetables were never optional.",
+   "img": "laws_79",
+   "orig": "1. Sun Tzŭ said: Whoever is first in the field and awaits the coming of the enemy, will be fresh for the fight; whoever is second in the field and has to hasten to battle, will arrive exhausted.\n\n2. Therefore the clever combatant imposes his will on the enemy, but does not allow the enemy’s will to be imposed on him.\n\n3. By holding out advantages to him, he can cause the enemy to approach of his own accord; or, by inflicting damage, he can make it impossible for the enemy to draw near.",
+   "origFrom": "Sun Tzŭ, The Art of War (tr. Giles, 1910)",
+   "qBy": "Sun Tzŭ, The Art of War (tr. Giles, 1910)",
+   "cap": "Ivan the Terrible and Harsey · public domain"
   },
   {
    "ch": "Law 32",
@@ -545,7 +1010,22 @@
    "img": "laws_32",
    "cap": "Portret van Alessandro Cagliostro · public domain",
    "qMean": "Anyone who wants to deceive will always find someone ready to believe.",
-   "qLife": "Scam messages work because a few people always click."
+   "qLife": "Scam messages work because a few people always click.",
+   "link": "People choose with their hopes. Speak to their fantasies."
+  },
+  {
+   "ch": "Law 32",
+   "chTitle": "Play to People's Fantasies",
+   "title": "In history: the Venetian alchemist",
+   "text": "In 1589 Bragadino arrived in bankrupt Venice claiming he could make gold. The desperate city gave him money and a palace. He kept delaying the miracle, until the truth came out. People wanted the dream too much to look closely, like Plato's prisoners watching shadows.",
+   "quote": "human beings living in an underground den which is open towards the light",
+   "qMean": "Plato pictures people trapped in a cave, seeing only shadows of reality.",
+   "qLife": "Believing an investment that promises to double your money in a month.",
+   "img": "laws_80",
+   "orig": "BOOK VII. And now I will describe in a figure the enlightenment or unenlightenment of our nature:—Imagine human beings living in an underground den which is open towards the light; they have been there from childhood, having their necks and legs chained, and can only see into the den. At a distance there is a fire, and between the fire and the prisoners a raised way, and a low wall is built along the way, like the screen over which marionette players show their puppets. Behind the wall appear moving figures, who hold in their hands various works of art, and among them images of men and animals, wood and stone, and some of the passers-by are talking and others silent. ‘A strange parable,’ he said, ‘and strange captives.’ They are ourselves, I replied; and they see only the shadows of the images which the fire throws on the wall of the den; to these they give names, and if we add an echo which returns from the wall, the voices of the passengers will seem to proceed from the shadows. Suppose now that you suddenly turn them round and make them look with pain and grief to themselves at the real images; …",
+   "origFrom": "Plato, The Republic (tr. Jowett)",
+   "qBy": "Plato, The Republic (tr. Jowett)",
+   "cap": "David Teniers follower - An alchemist in his workshop H0027-L05801224 · public domain"
   },
   {
    "ch": "Law 33",
@@ -559,7 +1039,22 @@
    "img": "laws_33",
    "cap": "Triple Portrait of Cardinal de Richelieu probably 1642, Philippe de Champaigne · public domain",
    "qMean": "Learn what drives each person; that is how you move them.",
-   "qLife": "One colleague wants praise, another wants time off — reward each differently."
+   "qLife": "One colleague wants praise, another wants time off — reward each differently.",
+   "link": "Every fantasy hides a weakness: find each person's lever."
+  },
+  {
+   "ch": "Law 33",
+   "chTitle": "Discover Each Man's Thumbscrew",
+   "title": "In history: Richelieu's lever",
+   "text": "Cardinal Richelieu rose by finding what the queen mother, Marie de' Medici, craved: flattery and power for herself. He gave her both, became indispensable, then used her son, Louis XIII, to push her aside. Machiavelli knew where people are most sensitive.",
+   "quote": "men more quickly forget the death of their father than the loss of their patrimony",
+   "qMean": "People forgive a parent's death sooner than losing their property.",
+   "qLife": "Touch someone's savings and you'll see how strongly they react.",
+   "img": "laws_81",
+   "orig": "Nevertheless a prince ought to inspire fear in such a way that, if he does not win love, he avoids hatred; because he can endure very well being feared whilst he is not hated, which will always be as long as he abstains from the property of his citizens and subjects and from their women. But when it is necessary for him to proceed against the life of someone, he must do it on proper justification and for manifest cause, but above all things he must keep his hands off the property of others, because men more quickly forget the death of their father than the loss of their patrimony. Besides, pretexts for taking away the property are never wanting; for he who has once begun to live by robbery will always find pretexts for seizing what belongs to others; but reasons for taking life, on the contrary, are more difficult to find and sooner lapse. But when a prince is with his army, and has under control a multitude of soldiers, then it is quite necessary for him to disregard the reputation of cruelty, for without it he would never hold his army united or disposed to its duties.",
+   "origFrom": "Niccolò Machiavelli, The Prince (1532)",
+   "qBy": "Niccolò Machiavelli, The Prince (1532)",
+   "cap": "Cardinal de Richelieu · public domain"
   },
   {
    "ch": "Law 34",
@@ -573,7 +1068,22 @@
    "img": "laws_34",
    "cap": "Portrait of a Man, Said to be Christopher Columbus · public domain",
    "qMean": "Act with dignity, as if you were royalty, whatever your rank.",
-   "qLife": "A waiter who carries himself with pride gets more respect than a sloppy manager."
+   "qLife": "A waiter who carries himself with pride gets more respect than a sloppy manager.",
+   "link": "Use levers quietly, and carry yourself like royalty."
+  },
+  {
+   "ch": "Law 34",
+   "chTitle": "Be Royal in Your Own Fashion: Act Like a King to Be Treated Like One",
+   "title": "In history: Columbus asks for titles",
+   "text": "Before sailing, Christopher Columbus, a poor sailor's son, demanded to be made Admiral of the Ocean Sea, viceroy of any lands he found, and to receive a tenth of all riches. Ferdinand and Isabella agreed, partly because he asked as if it were obvious.",
+   "quote": "Trust thyself: every heart vibrates to that iron string.",
+   "qMean": "Believe in yourself; everyone responds to that.",
+   "qLife": "Asking for the salary you're worth instead of apologising for it.",
+   "img": "laws_82",
+   "orig": "Trust thyself: every heart vibrates to that iron string. Accept the place the divine providence has found for you, the society of your contemporaries, the connection of events. Great men have always done so, and confided themselves childlike to the genius of their age, betraying their perception that the absolutely trustworthy was seated at their heart, working through their hands, predominating in all their being. And we are now men, and must accept in the highest mind the same transcendent destiny; and not minors and invalids in a protected corner, not cowards fleeing before a revolution, but guides, redeemers and benefactors, obeying the Almighty effort and advancing on Chaos and the Dark.",
+   "origFrom": "Ralph Waldo Emerson, Essays: First Series (1841)",
+   "qBy": "Ralph Waldo Emerson, Essays: First Series (1841)",
+   "cap": "Emanuel Gottlieb Leutze - Columbus Before the Queen · public domain"
   },
   {
    "ch": "Law 35",
@@ -587,7 +1097,22 @@
    "img": "laws_35",
    "cap": "Rembrandt - Quintus Fabius Maximus · public domain",
    "qMean": "Patience and time can beat any two opponents.",
-   "qLife": "Waiting for a sale instead of buying at full price."
+   "qLife": "Waiting for a sale instead of buying at full price.",
+   "link": "Royal dignity includes patience. Master timing."
+  },
+  {
+   "ch": "Law 35",
+   "chTitle": "Master the Art of Timing",
+   "title": "In history: Fouché the survivor",
+   "text": "Joseph Fouché served the Revolution, Napoleon and the returning king, switching sides at exactly the right moment each time. He survived what killed almost everyone else. His secret was waiting until the tide had clearly turned, then moving fast.",
+   "quote": "Energy may be likened to the bending of a crossbow; decision, to the releasing of the trigger.",
+   "qMean": "Build up patiently, then act decisively at the right moment.",
+   "qLife": "Waiting for the right moment to ask for a raise, then asking clearly.",
+   "img": "laws_83",
+   "orig": "14. Therefore the good fighter will be terrible in his onset, and prompt in his decision.\n\n15. Energy may be likened to the bending of a crossbow; decision, to the releasing of the trigger.\n\n16. Amid the turmoil and tumult of battle, there may be seeming disorder and yet no real disorder at all; amid confusion and chaos, your array may be without head or tail, yet it will be proof against defeat.",
+   "origFrom": "Sun Tzŭ, The Art of War (tr. Giles, 1910)",
+   "qBy": "Sun Tzŭ, The Art of War (tr. Giles, 1910)",
+   "cap": "Joseph Fouché par François Bonneville · public domain"
   },
   {
    "ch": "Law 36",
@@ -601,7 +1126,22 @@
    "img": "laws_36",
    "cap": "After Hans Holbein the Younger - Portrait of Henry VIII · public domain",
    "qMean": "Foolish people look down on everyone.",
-   "qLife": "A troll mocking everything online shows only their own emptiness."
+   "qLife": "A troll mocking everything online shows only their own emptiness.",
+   "link": "Some things will never be yours. Act as if you don't want them."
+  },
+  {
+   "ch": "Law 36",
+   "chTitle": "Disdain Things You Cannot Have: Ignoring Them Is the Best Revenge",
+   "title": "In history: the fox and the grapes",
+   "text": "Aesop's fox couldn't reach the grapes, so he walked off saying they were sour anyway. The fable mocks him, but the law takes him seriously: showing you don't care about what you can't have robs it of its power over you. Epictetus said our troubles come from how we see things.",
+   "quote": "Men are disturbed not by things, but by the views which they take of things.",
+   "qMean": "It's our opinions about things, not the things themselves, that upset us.",
+   "qLife": "Losing a game feels smaller once you decide it was just a game.",
+   "img": "laws_84",
+   "orig": "Men are disturbed not by things, but by the views which they take of things. Thus death is nothing terrible, else it would have appeared so to Socrates. But the terror consists in our notion of death, that it is terrible. When, therefore, we are hindered or disturbed, or grieved, let us never impute it to others, but to ourselves—that is, to our own views. It is the action of an uninstructed person to reproach others for his own misfortunes; of one entering upon instruction, to reproach himself; and one perfectly instructed, to reproach neither others nor himself.",
+   "origFrom": "Epictetus, The Enchiridion (tr. Higginson)",
+   "qBy": "Epictetus, The Enchiridion (tr. Higginson)",
+   "cap": "Greece-1917-war-poster-07-47x56cm · public domain"
   },
   {
    "ch": "Law 37",
@@ -615,7 +1155,22 @@
    "img": "laws_37",
    "cap": "Ballet de la nuit 1653 · public domain",
    "qMean": "Big projects and good examples earn the most respect.",
-   "qLife": "A mayor who builds a bridge is remembered more than one who gives speeches."
+   "qLife": "A mayor who builds a bridge is remembered more than one who gives speeches.",
+   "link": "Instead of chasing, create a spectacle people come to see."
+  },
+  {
+   "ch": "Law 37",
+   "chTitle": "Create Compelling Spectacles",
+   "title": "In history: Cleopatra's barge",
+   "text": "When Mark Antony summoned Cleopatra, she came up the river on a golden barge with purple sails and silver oars, dressed as Venus, with perfume drifting to the shore. Antony was conquered before they spoke. Crowds, Le Bon wrote, are moved by images, not reasons.",
+   "quote": "allows himself to be impressed by words and images",
+   "qMean": "People in crowds are swayed by striking words and pictures.",
+   "qLife": "A brilliant product launch that people remember more than the product.",
+   "img": "laws_85",
+   "orig": "Moreover, by the mere fact that he forms part of an organised crowd, a man descends several rungs in the ladder of civilisation. Isolated, he may be a cultivated individual; in a crowd, he is a barbarian--that is, a creature acting by instinct. He possesses the spontaneity, the violence, the ferocity, and also the enthusiasm and heroism of primitive beings, whom he further tends to resemble by the facility with which he allows himself to be impressed by words and images--which would be entirely without action on each of the isolated individuals composing the crowd--and to be induced to commit acts contrary to his most obvious interests and his best-known habits. An individual in a crowd is a grain of sand amid other grains of sand, which the wind stirs up at will.",
+   "origFrom": "Gustave Le Bon, The Crowd (1895)",
+   "qBy": "Gustave Le Bon, The Crowd (1895)",
+   "cap": "Sir Lawrence Alma-Tadema - The Meeting of Antony and Cleopatra · public domain"
   },
   {
    "ch": "Law 38",
@@ -629,7 +1184,22 @@
    "img": "laws_38",
    "cap": "Galileo before the Holy Office · public domain",
    "qMean": "Think freely with a few trusted people; talk like everyone else in public.",
-   "qLife": "Share your wild business idea with close friends, not the whole family WhatsApp."
+   "qLife": "Share your wild business idea with close friends, not the whole family WhatsApp.",
+   "link": "Stand out in display, but blend in with your opinions."
+  },
+  {
+   "ch": "Law 38",
+   "chTitle": "Think as You Like but Behave Like Others",
+   "title": "In history: Socrates' trial",
+   "text": "Socrates questioned everyone in Athens and openly mocked its customs. In 399 BC the city tried him for corrupting the young and executed him. Wise people since have learned to keep their most unusual thoughts to themselves.",
+   "quote": "He who knows (the Tao) does not (care to) speak (about it); he who is (ever ready to) speak about it does not know it.",
+   "qMean": "Those who truly understand rarely talk about it; those who talk the most understand least.",
+   "qLife": "The person bragging loudest at a party usually knows the least.",
+   "img": "laws_86",
+   "orig": "56. 1. He who knows (the Tao) does not (care to) speak (about it); he who is (ever ready to) speak about it does not know it.\n\n2. He (who knows it) will keep his mouth shut and close the portals (of his nostrils). He will blunt his sharp points and unravel the complications of things; he will attemper his brightness, and bring himself into agreement with the obscurity (of others). This is called 'the Mysterious Agreement.'",
+   "origFrom": "Lao Tzu, Tao Te Ching (tr. Legge, 1891)",
+   "qBy": "Lao Tzu, Tao Te Ching (tr. Legge, 1891)",
+   "cap": "David - The Death of Socrates · public domain"
   },
   {
    "ch": "Law 39",
@@ -643,7 +1213,22 @@
    "img": "laws_39",
    "cap": "Antoine-Jean Gros - Bonaparte Visiting the Plague Victims of Jaffa · public domain",
    "qMean": "If your opponent is short-tempered, provoke him so he makes mistakes.",
-   "qLife": "Trash talk in sport is meant to make the other player lose focus."
+   "qLife": "Trash talk in sport is meant to make the other player lose focus.",
+   "link": "Calm on the outside, you can unsettle others."
+  },
+  {
+   "ch": "Law 39",
+   "chTitle": "Stir Up Waters to Catch Fish",
+   "title": "In history: Fabius the delayer",
+   "text": "Hannibal tried every trick to provoke the Roman general Fabius into battle: insults, burned farms, feigned retreats. Fabius refused, shadowing him patiently. Hannibal's angry frustration, not Roman swords, slowly wore his army down. Darwin noticed that giving way to anger only feeds it.",
+   "quote": "He who gives way to violent gestures will increase his rage",
+   "qMean": "Acting out anger makes you angrier.",
+   "qLife": "Shouting back in an argument only makes both people madder.",
+   "img": "laws_87",
+   "orig": "… Whatever amount of truth the so-called science of physiognomy may contain, appears to depend, as Haller long ago remarked, on different persons bringing into frequent use different facial muscles, according to their dispositions; the development of these muscles being perhaps thus increased, and the lines or furrows on the face, due to their habitual contraction, being thus rendered deeper and more conspicuous. The free expression by outward signs of an emotion intensifies it. On the other hand, the repression, as far as this is possible, of all outward signs softens our emotions. He who gives way to violent gestures will increase his rage; he who does not control the signs of fear will experience fear in a greater degree; and he who remains passive when overwhelmed with grief loses his best chance of recovering elasticity of mind. These results follow partly from the intimate relation which exists between almost all the emotions and their outward manifestations; and partly from the direct influence of exertion on the heart, and consequently on the brain. …",
+   "origFrom": "Charles Darwin, The Expression of the Emotions (1872)",
+   "qBy": "Charles Darwin, The Expression of the Emotions (1872)",
+   "cap": "Quintus Fabius Maximus Before the Senate of Carthage Hermitage · public domain"
   },
   {
    "ch": "Law 40",
@@ -657,7 +1242,22 @@
    "img": "laws_40",
    "cap": "Portrait of J. D. Rockefeller · public domain",
    "qMean": "Things that cost nothing are usually worth little.",
-   "qLife": "The free gym trial nobody uses versus the paid membership people actually go to."
+   "qLife": "The free gym trial nobody uses versus the paid membership people actually go to.",
+   "link": "Unsettled people grab at free things. Be wary of anything free."
+  },
+  {
+   "ch": "Law 40",
+   "chTitle": "Despise the Free Lunch",
+   "title": "In history: the Trojan Horse",
+   "text": "After ten years of war, the Greeks left a giant wooden horse as a gift and sailed away. The Trojans dragged it inside their walls. That night Greek soldiers climbed out and opened the gates. The free gift cost Troy everything. Money and gifts, the Hitopadesha warns, change how people treat you.",
+   "quote": "Wealth is friends, home, father, brother",
+   "qMean": "Money brings friends, family and respect, which is why it's dangerous.",
+   "qLife": "A 'free' trial that quietly signs you up for a yearly plan.",
+   "img": "laws_88",
+   "orig": "'Wealth is friends, home, father, brother--title to respect and fame; Yea, and wealth is held for wisdom--that it should be so is shame,' 'Home is empty to the childless; hearts to them who friends deplore:-- Earth unto the idle-minded; and the three worlds to the poor.'\n\n'I can stay here no longer; and to tell my distress to another is out of the question--altogether out of the question!--",
+   "origFrom": "The Hitopadesha (tr. Edwin Arnold)",
+   "qBy": "The Hitopadesha (tr. Edwin Arnold)",
+   "cap": "Giovanni Domenico Tiepolo - The Procession of the Trojan Horse in Troy · public domain"
   },
   {
    "ch": "Law 41",
@@ -671,7 +1271,22 @@
    "img": "laws_41",
    "cap": "Alexander the Great mosaic · public domain",
    "qMean": "It's no honour if you only look good because a weak successor follows you.",
-   "qLife": "A coach who leaves a team in chaos isn't great just because the next coach is worse."
+   "qLife": "A coach who leaves a team in chaos isn't great just because the next coach is worse.",
+   "link": "Gifts and inheritances bind you. So does a great man's name."
+  },
+  {
+   "ch": "Law 41",
+   "chTitle": "Avoid Stepping into a Great Man's Shoes",
+   "title": "In history: Alexander and Philip",
+   "text": "Alexander the Great grew up in the shadow of his father Philip, who had already conquered Greece. He reportedly complained that his father would leave him nothing to win. So he went further, to Persia, Egypt and India, and made a name bigger than Philip's.",
+   "quote": "Whoso would be a man, must be a nonconformist.",
+   "qMean": "To be your own person you must not just follow the crowd, or your parents.",
+   "qLife": "Choosing your own career instead of the family business.",
+   "img": "laws_89",
+   "orig": "Whoso would be a man, must be a nonconformist. He who would gather immortal palms must not be hindered by the name of goodness, but must explore if it be goodness. Nothing is at last sacred but the integrity of your own mind. Absolve you to yourself, and you shall have the suffrage of the world. I remember an answer which when quite young I was prompted to make to a valued adviser who was wont to importune me with the dear old doctrines of the church. On my saying, “What have I to do with the sacredness of traditions, if I live wholly from within?” my friend suggested,—“But these impulses may be from below, not from above.” I replied, “They do not seem to me to be such; but if I am the Devil’s child, I will live then from the Devil.” No law can be sacred to me but that of my nature. Good and bad are but names very readily transferable to that or this; the only right is what is after my constitution; the only wrong what is against it. A man is to carry himself in the presence of all opposition as if every thing were titular and ephemeral but he. …",
+   "origFrom": "Ralph Waldo Emerson, Essays: First Series (1841)",
+   "qBy": "Ralph Waldo Emerson, Essays: First Series (1841)",
+   "cap": "Alexander (Battle of Issus) Mosaic · public domain"
   },
   {
    "ch": "Law 42",
@@ -685,7 +1300,22 @@
    "img": "laws_42",
    "cap": "\"The good Shepherd\" mosaic - Mausoleum of Galla Placidia · public domain",
    "qMean": "Take what your opponent values most, and he will do what you want.",
-   "qLife": "Hold the TV remote and the whole family listens to your plan."
+   "qLife": "Hold the TV remote and the whole family listens to your plan.",
+   "link": "Make your own name, and when attacked, go after the source."
+  },
+  {
+   "ch": "Law 42",
+   "chTitle": "Strike the Shepherd, and the Sheep Will Scatter",
+   "title": "In history: the crowd's leader",
+   "text": "Athenians sometimes held an 'ostracism': each citizen scratched on a pottery shard the name of the man they most wanted gone, and the top name was exiled for ten years. Remove the leader and the faction falls apart. Le Bon explains why crowds depend on their leaders.",
+   "quote": "by the mere fact that he forms part of an organised crowd, a man descends several rungs in the ladder of civilisation",
+   "qMean": "In a crowd, a person thinks less for themselves.",
+   "qLife": "A rowdy group of fans calms down when its loudest member leaves.",
+   "img": "laws_90",
+   "orig": "Moreover, by the mere fact that he forms part of an organised crowd, a man descends several rungs in the ladder of civilisation. Isolated, he may be a cultivated individual; in a crowd, he is a barbarian--that is, a creature acting by instinct. He possesses the spontaneity, the violence, the ferocity, and also the enthusiasm and heroism of primitive beings, whom he further tends to resemble by the facility with which he allows himself to be impressed by words and images--which would be entirely without action on each of the isolated individuals composing the crowd--and to be induced to commit acts contrary to his most obvious interests and his best-known habits. An individual in a crowd is a grain of sand amid other grains of sand, which the wind stirs up at will.",
+   "origFrom": "Gustave Le Bon, The Crowd (1895)",
+   "qBy": "Gustave Le Bon, The Crowd (1895)",
+   "cap": "AGMA Ostrakon Thémistocle 1 · public domain"
   },
   {
    "ch": "Law 43",
@@ -699,7 +1329,22 @@
    "img": "laws_43",
    "cap": "Louise Elisabeth Vigée-Lebrun - Marie-Antoinette de Lorraine-Habsbourg, reine de France et ses enfants · public domain",
    "qMean": "A leader needs the people on his side or he has no safety in bad times.",
-   "qLife": "A brand loved by its customers survives a bad product launch."
+   "qLife": "A brand loved by its customers survives a bad product launch.",
+   "link": "Force wins battles; hearts win wars."
+  },
+  {
+   "ch": "Law 43",
+   "chTitle": "Work on the Hearts and Minds of Others",
+   "title": "In history: Akbar wins hearts",
+   "text": "The Mughal emperor Akbar conquered by the sword, but he held his empire by winning hearts: he married Rajput princesses, abolished the tax on non-Muslims and welcomed scholars of every faith to debate at his court. Tiruvalluvar's way is gentler still.",
+   "quote": "Let him do them a good turn and make them ashamed in their hearts.",
+   "qMean": "Answer people who hurt you with kindness.",
+   "qLife": "Helping a neighbour who once complained about you.",
+   "img": "laws_91",
+   "orig": "313. If thou injure another, even though it be only a man who hath injured thee without any provocation, thou simply bringest down upon thyself evils that can never be remedied.\n\n314. How shall a man punish them that have injured him ? Let him do them a good turn and make them ashamed in their hearts.\n\n315. Of what avail is intelligence to a man if he doth not look on others’ pain as his own and abstain from injuring any ?",
+   "origFrom": "Tiruvalluvar, The Kural (tr. V. V. S. Aiyar, 1916)",
+   "qBy": "Tiruvalluvar, The Kural (tr. V. V. S. Aiyar, 1916)",
+   "cap": "Indian - Emperor Babur Holding Court, folio from an Akbarnama - 25-1958 - Saint Louis Art Museum · public domain"
   },
   {
    "ch": "Law 44",
@@ -713,7 +1358,22 @@
    "img": "laws_44",
    "cap": "Narcissus-Caravaggio (1594-96) edited · public domain",
    "qMean": "Win by carefully adapting to what the other side is trying to do.",
-   "qLife": "A good salesperson mirrors the customer's pace and style."
+   "qLife": "A good salesperson mirrors the customer's pace and style.",
+   "link": "To win hearts, sometimes hold up a mirror."
+  },
+  {
+   "ch": "Law 44",
+   "chTitle": "Disarm and Infuriate with the Mirror Effect",
+   "title": "In history: Diogenes and Alexander",
+   "text": "Alexander the Great found the philosopher Diogenes lying in the sun and asked what he could do for him. 'Stand out of my sunlight,' said Diogenes. Alexander, used to flattery, saw his own pride reflected back. Emerson's mirror is a kinder one.",
+   "quote": "the only way to have a friend is to be one.",
+   "qMean": "To have friends, be a good friend first.",
+   "qLife": "Being the first to say hello in a new class.",
+   "img": "laws_92",
+   "orig": "… Let us not interfere. Who set you to cast about what you should say to the select souls, or how to say any thing to such? No matter how ingenious, no matter how graceful and bland. There are innumerable degrees of folly and wisdom, and for you to say aught is to be frivolous. Wait, and thy heart shall speak. Wait until the necessary and everlasting overpowers you, until day and night avail themselves of your lips. The only reward of virtue is virtue; the only way to have a friend is to be one. You shall not come nearer a man by getting into his house. If unlike, his soul only flees the faster from you, and you shall never catch a true glance of his eye. We see the noble afar off and they repel us; why should we intrude? Late,—very late,—we perceive that no arrangements, no introductions, no consuetudes or habits of society would be of any avail to establish us in such relations with them as we desire,—but solely the uprise of nature in us to the same degree it is in them; then shall we meet as water with water; and if we should not meet them then, we shall not want them, for we are already they. …",
+   "origFrom": "Ralph Waldo Emerson, Essays: First Series (1841)",
+   "qBy": "Ralph Waldo Emerson, Essays: First Series (1841)",
+   "cap": "Caspar de Crayer Alexander and Diogenes · public domain"
   },
   {
    "ch": "Law 45",
@@ -727,7 +1387,22 @@
    "img": "laws_45",
    "cap": "Cromwell,Thomas(1EEssex)01 · public domain",
    "qMean": "Introducing a new way of doing things is the hardest, riskiest task.",
-   "qLife": "Changing the family's holiday tradition meets more resistance than you'd expect."
+   "qLife": "Changing the family's holiday tradition meets more resistance than you'd expect.",
+   "link": "Mirrors unsettle. So does too much change at once."
+  },
+  {
+   "ch": "Law 45",
+   "chTitle": "Preach the Need for Change, but Never Reform Too Much at Once",
+   "title": "In history: Cromwell's revolution",
+   "text": "Thomas Cromwell rushed through huge changes for Henry VIII: closing the monasteries, rewriting church law. The speed made enemies everywhere, and when the king turned on him, no one defended him. He was executed in 1540. Lao Tzu's advice on governing is to handle things gently.",
+   "quote": "Governing a great state is like cooking small fish.",
+   "qMean": "Govern gently, without stirring too much, or things fall apart.",
+   "qLife": "A new manager who changes everything in week one usually faces a revolt.",
+   "img": "laws_93",
+   "orig": "60. 1. Governing a great state is like cooking small fish.\n\n2. Let the kingdom be governed according to the Tao, and the manes of the departed will not manifest their spiritual energy. It is not that those manes have not that spiritual energy, but it will not be employed to hurt men. It is not that it could not hurt men, but neither does the ruling sage hurt them.",
+   "origFrom": "Lao Tzu, Tao Te Ching (tr. Legge, 1891)",
+   "qBy": "Lao Tzu, Tao Te Ching (tr. Legge, 1891)",
+   "cap": "Hans Holbein d. J. - Portrait of Thomas Cromwell · public domain"
   },
   {
    "ch": "Law 46",
@@ -741,7 +1416,22 @@
    "img": "laws_46",
    "cap": "Augustins - Aristide, 1806 - Charles Brocas · public domain",
    "qMean": "Allow yourself a small harmless flaw; it makes your talent less threatening.",
-   "qLife": "The brilliant new colleague who admits she can't park is liked more."
+   "qLife": "The brilliant new colleague who admits she can't park is liked more.",
+   "link": "Change slowly, and don't look perfect while you do it."
+  },
+  {
+   "ch": "Law 46",
+   "chTitle": "Never Appear Too Perfect",
+   "title": "In history: Cosimo's modesty",
+   "text": "Cosimo de' Medici, richest man in Florence, wore plain clothes, built modest houses and rejected a grand palace design as too showy. He ruled the city for thirty years without a title, and people let him. Nietzsche said every deep mind needs a mask.",
+   "quote": "Every profound spirit needs a mask",
+   "qMean": "Deep people need to hide parts of themselves.",
+   "qLife": "A brilliant student who doesn't brag about grades keeps more friends.",
+   "img": "laws_94",
+   "orig": "… I could imagine that a man with something costly and fragile to conceal, would roll through life clumsily and rotundly like an old, green, heavily-hooped wine-cask: the refinement of his shame requiring it to be so. A man who has depths in his shame meets his destiny and his delicate decisions upon paths which few ever reach, and with regard to the existence of which his nearest and most intimate friends may be ignorant; his mortal danger conceals itself from their eyes, and equally so his regained security. Such a hidden nature, which instinctively employs speech for silence and concealment, and is inexhaustible in evasion of communication, DESIRES and insists that a mask of himself shall occupy his place in the hearts and heads of his friends; and supposing he does not desire it, his eyes will some day be opened to the fact that there is nevertheless a mask of him there--and that it is well to be so. Every profound spirit needs a mask; nay, more, around every profound spirit there continually grows a mask, owing to the constantly false, that is to say, SUPERFICIAL interpretation of every word he utters, every step he takes, every sign of life he manifests.",
+   "origFrom": "Friedrich Nietzsche, Beyond Good and Evil (tr. Zimmern, 1907)",
+   "qBy": "Friedrich Nietzsche, Beyond Good and Evil (tr. Zimmern, 1907)",
+   "cap": "Pontormo - Ritratto di Cosimo il Vecchio · public domain"
   },
   {
    "ch": "Law 47",
@@ -755,7 +1445,22 @@
    "img": "laws_47",
    "cap": "Croesus at the Stake, after Hans Holbein the Younger · public domain",
    "qMean": "Quit while you're winning; a good retreat is as good as a bold attack.",
-   "qLife": "Leave the casino after a win instead of betting it all again."
+   "qLife": "Leave the casino after a win instead of betting it all again.",
+   "link": "Imperfection keeps you human. Knowing when to stop keeps you safe."
+  },
+  {
+   "ch": "Law 47",
+   "chTitle": "Do Not Go Past the Mark You Aimed For; In Victory, Learn When to Stop",
+   "title": "In history: Croesus goes too far",
+   "text": "Croesus of Lydia, the richest king alive, asked the oracle whether to attack Persia. 'You will destroy a great empire,' it said. He attacked, and destroyed his own. He should have stopped while ahead. Epictetus' rule: take your modest share, as at a banquet.",
+   "quote": "Remember that you must behave as at a banquet.",
+   "qMean": "Take your fair share politely, don't grab everything.",
+   "qLife": "Leaving the game while you're winning instead of betting it all.",
+   "img": "laws_95",
+   "orig": "Remember that you must behave as at a banquet. Is anything brought round to you? Put out your hand and take a moderate share. Does it pass by you? Do not stop it. Is it not yet come? Do not yearn in desire toward it, but wait till it reaches you. So with regard to children, wife, office, riches; and you will some time or other be worthy to feast with the gods. And if you do not so much as take the things which are set before you, but are able even to forego them, then you will not only be worthy to feast with the gods, but to rule with them also. For, by thus doing, Diogenes and Heraclitus, and others like them, deservedly became divine, and were so recognized.",
+   "origFrom": "Epictetus, The Enchiridion (tr. Higginson)",
+   "qBy": "Epictetus, The Enchiridion (tr. Higginson)",
+   "cap": "Kroisos stake Louvre G197 · public domain"
   },
   {
    "ch": "Law 48",
@@ -769,7 +1474,22 @@
    "img": "laws_48",
    "cap": "Tsunami by hokusai 19th century · public domain",
    "qMean": "Be flexible like water, flowing around obstacles.",
-   "qLife": "When a road is blocked, a good driver takes side streets instead of waiting."
+   "qLife": "When a road is blocked, a good driver takes side streets instead of waiting.",
+   "link": "The last law sums up all the rest: stay fluid."
+  },
+  {
+   "ch": "Law 48",
+   "chTitle": "Assume Formlessness",
+   "title": "In history: the Mongol horsemen",
+   "text": "Genghis Khan's armies had no cities to defend and no slow supply wagons. They moved fast, split up, joined again and appeared where no one expected. Fixed walls and heavy armies could not hold them. Water, in the Tao Te Ching, is the model.",
+   "quote": "The highest excellence is like (that of) water.",
+   "qMean": "The best way to be is like water: flexible and patient.",
+   "qLife": "A startup that pivots quickly while big companies are stuck.",
+   "img": "laws_96",
+   "orig": "8. 1. The highest excellence is like (that of) water. The excellence of water appears in its benefiting all things, and in its occupying, without striving (to the contrary), the low place which all men dislike. Hence (its way) is near to (that of) the Tao.\n\n2. The excellence of a residence is in (the suitability of) the place; that of the mind is in abysmal stillness; that of associations is in their being with the virtuous; that of government is in its securing good order; that of (the conduct of) affairs is in its ability; and that of (the initiation of) any movement is in its timeliness.",
+   "origFrom": "Lao Tzu, Tao Te Ching (tr. Legge, 1891)",
+   "qBy": "Lao Tzu, Tao Te Ching (tr. Legge, 1891)",
+   "cap": "Mongol lovas íjász · public domain"
   }
  ]
 }
