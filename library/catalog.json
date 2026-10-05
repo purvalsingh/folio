@@ -1,11 +1,11 @@
 {
  "app": {
-  "versionCode": 12,
-  "versionName": "1.6.3",
-  "notes": "Fixes from an independent review: scenario, theme and journey links point at the right pages again after the deep editions; reminder and update hardening; safer edition installs; Daily Recall unchanged. Web: swipe over the page turns it, reading position survives leaving mid-scroll, bookmarks list, square share images fit, dark-mode PDF readable, Anki export includes quotes, local-day quota.",
-  "sizeKb": 52417,
-  "sha256": "05fa59d13d165a911a76a6203022965ed20bd123d23697e35ad9ce2f8ef0ce37",
-  "apk": "https://github.com/purvalsingh/folio/releases/download/v1.6.3/Folio.apk"
+  "versionCode": 13,
+  "versionName": "1.6.4",
+  "notes": "Corrected and reviewed book plates; improved image captions.",
+  "sizeKb": 52521,
+  "sha256": "4e226636e3dd223a329bda10da07b503485de9702a8e2513b7062afe2f125a7c",
+  "apk": "https://github.com/purvalsingh/folio/releases/download/v1.6.4/Folio.apk"
  },
  "books": [
   {
