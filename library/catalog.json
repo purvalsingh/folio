@@ -1,11 +1,11 @@
 {
  "app": {
-  "versionCode": 11,
-  "versionName": "1.6.2",
-  "notes": "Folio now also works on iPhone: open purvalsingh.github.io/folio in Safari and Add to Home Screen. Shared quote cards and the Share Folio button now point friends on any phone to it.",
-  "sizeKb": 39801,
-  "sha256": "5cbe42d32d0fd58e0320a5e80a7040fa8c98bc233b3c722e825f67b679a22331",
-  "apk": "https://github.com/purvalsingh/folio/releases/download/v1.6.2/Folio.apk"
+  "versionCode": 12,
+  "versionName": "1.6.3",
+  "notes": "Fixes from an independent review: scenario, theme and journey links point at the right pages again after the deep editions; reminder and update hardening; safer edition installs; Daily Recall unchanged. Web: swipe over the page turns it, reading position survives leaving mid-scroll, bookmarks list, square share images fit, dark-mode PDF readable, Anki export includes quotes, local-day quota.",
+  "sizeKb": 52417,
+  "sha256": "05fa59d13d165a911a76a6203022965ed20bd123d23697e35ad9ce2f8ef0ce37",
+  "apk": "https://github.com/purvalsingh/folio/releases/download/v1.6.3/Folio.apk"
  },
  "books": [
   {
