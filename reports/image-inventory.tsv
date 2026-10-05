@@ -13,6 +13,9 @@ gita	10	Better to act	gita_10	original	Original Folio illustration: Better to ac
 gita	11	People follow the best	gita_11	original	Original Folio illustration: People follow the best	Folio original	True	original
 gita	12	Your own path	gita_12	original	Original Folio illustration: Your own path	Folio original	True	original
 gita	13	Whenever goodness fails	gita_13	original	Original Folio illustration: Whenever goodness fails	Folio original	True	original
+gita	14	Rest inside action	gita_14	original	Original Folio illustration: Rest inside action	Folio original	True	original
+gita	15	The fire of knowledge	gita_15	original	Original Folio illustration: The fire of knowledge	Folio original	True	original
+gita	16	Two good roads	gita_16	original	Original Folio illustration: Two good roads	Folio original	True	original
 prince	cover	The Prince	prince_cover	original	Original Folio engraving: The Prince cover	Folio original	True	original
 prince	1	A gift worth more than gold	prince_01	original	Original Folio engraving: A gift worth more than gold	Folio original	True	original
 prince	2	Looking up the mountain	prince_02	original	Original Folio engraving: Looking up the mountain	Folio original	True	original
@@ -21,6 +24,19 @@ prince	4	The easy throne	prince_04	original	Original Folio engraving: The easy t
 prince	6	New lands, old trouble	prince_05	original	Original Folio engraving: Old habits protect the throne	Folio original	True	original
 prince	7	Crush or care — never half	prince_06	original	Original Folio engraving: New lands, old trouble	Folio original	True	original
 prince	11	Treat problems like a fever	prince_07	original	Original Folio engraving: Crush or care — never half	Folio original	True	original
+civil_disobedience	cover	On the Duty of Civil Disobedience	civil_cover	original	Original Folio wood engraving: Cover	Folio original	True	original
+civil_disobedience	1	A tool, not a master	civil_01	original	Original Folio wood engraving: A tool, not a master	Folio original	True	original
+civil_disobedience	2	Ask for better government	civil_02	original	Original Folio wood engraving: Ask for better government	Folio original	True	original
+civil_disobedience	3	Conscience before obedience	civil_03	original	Original Folio wood engraving: Conscience before obedience	Folio original	True	original
+civil_disobedience	4	People or machines	civil_04	original	Original Folio wood engraving: People or machines	Folio original	True	original
+civil_disobedience	5	When the machine does harm	civil_05	original	Original Folio wood engraving: When the machine does harm	Folio original	True	original
+civil_disobedience	6	A vote is not enough	civil_06	original	Original Folio wood engraving: A vote is not enough	Folio original	True	original
+civil_disobedience	7	Principle changes conduct	civil_07	original	Original Folio wood engraving: Principle changes conduct	Folio original	True	original
+civil_disobedience	8	Do not become the agent	civil_08	original	Original Folio wood engraving: Do not become the agent	Folio original	True	original
+civil_disobedience	9	What prison can mean	civil_09	original	Original Folio wood engraving: What prison can mean	Folio original	True	original
+civil_disobedience	10	The poll-tax refusal	civil_10	original	Original Folio wood engraving: The poll-tax refusal	Folio original	True	original
+civil_disobedience	11	A neighbor and a subject	civil_11	original	Original Folio wood engraving: A neighbor and a subject	Folio original	True	original
+civil_disobedience	12	A freer state	civil_12	original	Original Folio wood engraving: A freer state	Folio original	True	original
 gitanjali	cover	Gitanjali	gitanjali_cover	original	Original Folio sketch: Bengali river, reed flute and earthen vessel	Folio original	True	original
 walden	2	Why he went to the woods	walden_02	original	Original Folio sketch: Thoreau approaches his cabin at Walden Pond	Folio original	True	original
 wealth	cover	The Wealth of Nations	wealth_cover	original	Original Folio sketch: eighteenth-century pin workshop and market	Folio original	True	original

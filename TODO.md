@@ -22,8 +22,9 @@
 - [x] Release UX fixes and original-only catalog to GitHub/Android (1.6.5 and 1.6.6)
 - [x] Add title/author search to the Android bookcase
 - [x] Publish five-card introductions for Wealth of Nations, Walden, Gitanjali with original art
-- [ ] Grow to 120–130 source-grounded books across varied shelves
+- [~] Grow to 120–130 source-grounded books across varied shelves: 35/125 live; 90 candidates in `research/CATALOG_125_ROADMAP.md`
 - [ ] Replace 629 hidden image placements with relevant original sketches
 
-- [~] Gita original plate pass: cover + folios 1–13 reviewed and staged; 14–59 pending
+- [~] Gita original plate pass: cover + folios 1–16 reviewed and staged; 17–59 pending
+- [x] Add a 12-page, fully illustrated Civil Disobedience edition with verified source quotes, modern explanations, daily examples and glossary
 - [x] Share Studio: preserve full artwork and keep footer inside the border across Story/Post/Square, all three styles and four looks

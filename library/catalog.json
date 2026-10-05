@@ -23,13 +23,13 @@
   },
   {
    "id": "gita",
-   "version": 11,
+   "version": 14,
    "title": "The Bhagavad Gita",
    "author": "Vyasa (trad.)",
    "year": "c. 400 BC",
    "era": "indic",
    "cards": 59,
-   "sizeKb": 6685,
+   "sizeKb": 8092,
    "blurb": "On a battlefield, a great archer loses his nerve, and his charioteer — God himself — talks him through duty, action, death and devotion. Eighteen chapters of the world's most loved spiritual dialogue.",
    "images": [
     "gita_01",
@@ -45,6 +45,9 @@
     "gita_11",
     "gita_12",
     "gita_13",
+    "gita_14",
+    "gita_15",
+    "gita_16",
     "gita_cover"
    ],
    "shelf": "Eastern Paths"
@@ -122,6 +125,33 @@
    "blurb": "A worldly English lord's private letters to his son on charm, manners, attention and getting on in society — the 18th century's guide to being liked.",
    "images": [],
    "shelf": "Persuasion & Rhetoric"
+  },
+  {
+   "id": "civil_disobedience",
+   "version": 1,
+   "title": "On the Duty of Civil Disobedience",
+   "author": "Henry David Thoreau",
+   "year": "1849",
+   "era": "victorian",
+   "cards": 12,
+   "sizeKb": 7487,
+   "blurb": "A short, uncompromising argument about conscience, unjust laws, and one night in jail; rooted in Thoreau’s opposition to slavery and the Mexican–American War.",
+   "images": [
+    "civil_01",
+    "civil_02",
+    "civil_03",
+    "civil_04",
+    "civil_05",
+    "civil_06",
+    "civil_07",
+    "civil_08",
+    "civil_09",
+    "civil_10",
+    "civil_11",
+    "civil_12",
+    "civil_cover"
+   ],
+   "shelf": "Freedom & Government"
   },
   {
    "id": "crowd",

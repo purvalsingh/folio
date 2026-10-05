@@ -84,7 +84,7 @@ You bought it. You opened it. Page three, a sentence 90 words long, and you were
 ## Honest by design
 
 - **Every quote is real.** A build step checks each one against a public-domain source text and refuses to ship a misquote.
-- **Every picture is public domain**, credited on the page (Wikimedia Commons, museum open-access collections).
+- **Every published picture is original Folio art**, checked against its book page. Pages awaiting a relevant illustration display Folio's ornament.
 - **No ads, no trackers, no account needed.** Accounts will be optional and only for sync.
 
 ## Coming to Folio

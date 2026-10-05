@@ -274,5 +274,194 @@
       "gita_13.png",
       "gita_13.webp"
     ]
+  },
+  "gita_14": {
+    "book": "gita",
+    "card": "Rest inside action",
+    "file": "Original Folio illustration: Rest inside action",
+    "source": "ImageGen original",
+    "license": "Folio original",
+    "files": [
+      "gita_14.png",
+      "gita_14.webp"
+    ]
+  },
+  "gita_15": {
+    "book": "gita",
+    "card": "The fire of knowledge",
+    "file": "Original Folio illustration: The fire of knowledge",
+    "source": "ImageGen original",
+    "license": "Folio original",
+    "files": [
+      "gita_15.png",
+      "gita_15.webp"
+    ]
+  },
+  "gita_16": {
+    "book": "gita",
+    "card": "Two good roads",
+    "file": "Original Folio illustration: Two good roads",
+    "source": "ImageGen original",
+    "license": "Folio original",
+    "files": [
+      "gita_16.png",
+      "gita_16.webp"
+    ]
+  },
+  "civil_cover": {
+    "book": "civil_disobedience",
+    "card": "Cover",
+    "file": "Original Folio wood engraving: Cover",
+    "source": "ImageGen original",
+    "license": "Folio original",
+    "reviewed": "2026-10-06: visually matched to page subject and 1840s New England engraving style",
+    "files": [
+      "civil_cover.png",
+      "civil_cover.webp"
+    ]
+  },
+  "civil_01": {
+    "book": "civil_disobedience",
+    "card": "A tool, not a master",
+    "file": "Original Folio wood engraving: A tool, not a master",
+    "source": "ImageGen original",
+    "license": "Folio original",
+    "reviewed": "2026-10-06: visually matched to page subject and 1840s New England engraving style",
+    "files": [
+      "civil_01.png",
+      "civil_01.webp"
+    ]
+  },
+  "civil_02": {
+    "book": "civil_disobedience",
+    "card": "Ask for better government",
+    "file": "Original Folio wood engraving: Ask for better government",
+    "source": "ImageGen original",
+    "license": "Folio original",
+    "reviewed": "2026-10-06: visually matched to page subject and 1840s New England engraving style",
+    "files": [
+      "civil_02.png",
+      "civil_02.webp"
+    ]
+  },
+  "civil_03": {
+    "book": "civil_disobedience",
+    "card": "Conscience before obedience",
+    "file": "Original Folio wood engraving: Conscience before obedience",
+    "source": "ImageGen original",
+    "license": "Folio original",
+    "reviewed": "2026-10-06: visually matched to page subject and 1840s New England engraving style",
+    "files": [
+      "civil_03.png",
+      "civil_03.webp"
+    ]
+  },
+  "civil_04": {
+    "book": "civil_disobedience",
+    "card": "People or machines",
+    "file": "Original Folio wood engraving: People or machines",
+    "source": "ImageGen original",
+    "license": "Folio original",
+    "reviewed": "2026-10-06: visually matched to page subject and 1840s New England engraving style",
+    "files": [
+      "civil_04.png",
+      "civil_04.webp"
+    ]
+  },
+  "civil_05": {
+    "book": "civil_disobedience",
+    "card": "When the machine does harm",
+    "file": "Original Folio wood engraving: When the machine does harm",
+    "source": "ImageGen original",
+    "license": "Folio original",
+    "reviewed": "2026-10-06: visually matched to page subject and 1840s New England engraving style",
+    "files": [
+      "civil_05.png",
+      "civil_05.webp"
+    ]
+  },
+  "civil_06": {
+    "book": "civil_disobedience",
+    "card": "A vote is not enough",
+    "file": "Original Folio wood engraving: A vote is not enough",
+    "source": "ImageGen original",
+    "license": "Folio original",
+    "reviewed": "2026-10-06: visually matched to page subject and 1840s New England engraving style",
+    "files": [
+      "civil_06.png",
+      "civil_06.webp"
+    ]
+  },
+  "civil_07": {
+    "book": "civil_disobedience",
+    "card": "Principle changes conduct",
+    "file": "Original Folio wood engraving: Principle changes conduct",
+    "source": "ImageGen original",
+    "license": "Folio original",
+    "reviewed": "2026-10-06: visually matched to page subject and 1840s New England engraving style",
+    "files": [
+      "civil_07.png",
+      "civil_07.webp"
+    ]
+  },
+  "civil_08": {
+    "book": "civil_disobedience",
+    "card": "Do not become the agent",
+    "file": "Original Folio wood engraving: Do not become the agent",
+    "source": "ImageGen original",
+    "license": "Folio original",
+    "reviewed": "2026-10-06: visually matched to page subject and 1840s New England engraving style",
+    "files": [
+      "civil_08.png",
+      "civil_08.webp"
+    ]
+  },
+  "civil_09": {
+    "book": "civil_disobedience",
+    "card": "What prison can mean",
+    "file": "Original Folio wood engraving: What prison can mean",
+    "source": "ImageGen original",
+    "license": "Folio original",
+    "reviewed": "2026-10-06: visually matched to page subject and 1840s New England engraving style",
+    "files": [
+      "civil_09.png",
+      "civil_09.webp"
+    ]
+  },
+  "civil_10": {
+    "book": "civil_disobedience",
+    "card": "The poll-tax refusal",
+    "file": "Original Folio wood engraving: The poll-tax refusal",
+    "source": "ImageGen original",
+    "license": "Folio original",
+    "reviewed": "2026-10-06: visually matched to page subject and 1840s New England engraving style",
+    "files": [
+      "civil_10.png",
+      "civil_10.webp"
+    ]
+  },
+  "civil_11": {
+    "book": "civil_disobedience",
+    "card": "A neighbor and a subject",
+    "file": "Original Folio wood engraving: A neighbor and a subject",
+    "source": "ImageGen original",
+    "license": "Folio original",
+    "reviewed": "2026-10-06: visually matched to page subject and 1840s New England engraving style",
+    "files": [
+      "civil_11.png",
+      "civil_11.webp"
+    ]
+  },
+  "civil_12": {
+    "book": "civil_disobedience",
+    "card": "A freer state",
+    "file": "Original Folio wood engraving: A freer state",
+    "source": "ImageGen original",
+    "license": "Folio original",
+    "reviewed": "2026-10-06: visually matched to page subject and 1840s New England engraving style",
+    "files": [
+      "civil_12.png",
+      "civil_12.webp"
+    ]
   }
 }

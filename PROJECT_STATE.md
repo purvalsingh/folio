@@ -1,26 +1,25 @@
 # Folio — project state
 
-CURRENT OBJECTIVE: Grow the short illustrated folio catalog from 31 to 120–130 diverse books. Every live plate must be original Folio art and relevant to its card. Audit Android UX with Antigravity and fix verified defects.
+CURRENT OBJECTIVE: Reach 125 diverse, source-grounded illustrated folio books without changing app code. Preserve original quotation wording, explain it in clear modern English, define hard words, and give faithful everyday examples. Every page image must be original and relevant.
 
-STATUS: 34 live books in Android 1.6.8 and the online catalog. A 2026-10-05 migration removed references/files for all 629 third-party plates; 25 Folio originals are live (Prince cover + 7 cards, Gita cover + first 13 cards, Wealth and Gitanjali covers, Walden card 2). The app uses its ornament for missing plates. `tools/publish_library.py` now rejects non-original IDs. Wealth of Nations, Walden, and Gitanjali five-card introductions are in the live catalog and retain staged source files.
+STATUS: 35 live books, 634 cards in the Android-downloadable catalog; Android APK remains 1.6.8. The 91-title path from the previous 34 books is in `research/CATALOG_125_ROADMAP.md`: Civil Disobedience is published; 90 titles remain. All 41 published image placements are original, 0 third-party. Gita has original cover and page images 1–16; pages 17–59 still show the ornament. Other older books still have many ornament pages awaiting original art.
 
 COMPLETED THIS ROUND:
-- Built `site/` as a responsive Folio marketing site and deployed it to Vercel at https://folio-site-liart.vercel.app/. Vercel project `folio-site` is connected to the GitHub repository with root directory `site`; the page checks GitHub's latest release for its APK and reads the live catalog for book count.
-- Android 15 emulator `FolioReview` created. Antigravity reviewed the app; report in `reports/ANTIGRAVITY_REVIEW.md` (its claimed screenshots were not retained).
-- Fixed half-height book sheet CTA, chapter quiz scrolling, fast flip back from card verso, possessive/initial glossary taps, Journey preview labels and title wrapping, dormant account copy, and Power Journey blurb.
-- Built image provenance ledger `reports/image-inventory.tsv` via `tools/image_inventory.py`; staged catalog is 25 original / 0 third-party.
-- Generated original Gita card 1 and Walden draft sketches in `research/generated/`; original-art manifest holds 25 works (14 Gita images).
+- Built `site/` as a responsive Folio marketing site and deployed it to Vercel at https://folio-site-liart.vercel.app/. The site reads the latest GitHub release and live book count.
+- Curated 13 shelves × 7 titles as a candidate path to 125, with an edition gate that requires exact-source quotes, clear explanations, glossary, everyday uses, and reviewed page-specific art.
+- Published a 12-page Civil Disobedience edition from Project Gutenberg #71, with full source paragraphs, 9 glossary entries, 12 distinct original wood-engraving-style page images, and original cover. Source text is in `research/civil_disobedience.txt`; staged and live JSON in `research/staging/books/` and `library-only/books/`.
+- Added visually reviewed original Gita plates 14–16 in Indian miniature style, matched to each page. Updated original-art manifest and online catalog.
+- Updated README image-provenance statement to match the original-only catalog.
 
 DECISIONS / CONSTRAINTS:
-- Keep the current short, illustrated folio format. New titles stay staged until source text, quote accuracy, card content, and original artwork are verified.
-- Existing 31 editions need 629 card-specific original replacements to restore full coverage; do not restore Commons images. `research/commons/credits.json` is retained for provenance, not publishing.
-- `research/shelf5_content.py` validates the three introductory editions but flags all as too shallow for a deep edition. Expand them later.
-- Cloud sync remains dormant (`cloud=null`); prior review found account-switch, deletion, and stale-position issues before enabling.
+- The user chose the current short illustrated folio format; make editions substantial enough to retain their argument or plot. No app code changes in this objective.
+- New titles remain candidates until source edition, rights, quotes, explanation, glossary, and every original image are checked. Do not publish placeholders or third-party images.
+- For difficult old English, preserve source words in the quote and original passage; write modern English in explanation fields.
 
-NEXT ACTION: Create and review Gita folios 14–59 before returning to catalog expansion.
+NEXT ACTION: Complete Gita pages 17–59 with individually reviewed original Indian images, then build the next source-grounded candidate from the 90-title roadmap. The six queued Project Gutenberg texts for Alice, Douglass, Frankenstein, Origin, Pride, and Time Machine are in `/home/purvals/folio-research-next/`.
 
-IMPORTANT FILES: `tools/publish_library.py`, `tools/hide_third_party_plates.py`, `tools/image_inventory.py`, `reports/IMAGE_AUDIT_2026-10-05.md`, `reports/ANTIGRAVITY_REVIEW.md`, `research/generated/manifest.json`, `research/shelf5_content.py`, `research/staging/books/`.
+IMPORTANT FILES: `research/CATALOG_125_ROADMAP.md`, `research/generated/manifest.json`, `research/staging/books/civil_disobedience.json`, `library-only/books/civil_disobedience.json`, `research/civil_disobedience.txt`, `tools/publish_library.py`, `tools/image_inventory.py`, `TODO.md`.
 
 WEBSITE: `site/index.html`, `site/style.css`, `site/app.js`, `site/vercel.json`; Vercel production URL: https://folio-site-liart.vercel.app/.
 
-LAST VALIDATION: Android 1.6.8 released; catalog has 34 books and 25 original / 0 third-party plates. Share Studio Post and Square exports checked on Android emulator. Paparazzi rendered the full 3×3×4 Share Studio matrix for Gita, Arthashastra, and Prince, plus long-quote stress cases from Gita, Prince, Laws, and Meditations; all inspected without crop or border collision. Android debug build, catalog publication and image inventory passed.
+LAST VALIDATION: `python3 tools/publish_library.py` passed at 35 books. `python3 tools/image_inventory.py` reported 41 original / 0 third-party placements. All 12 Civil Disobedience quotes were matched to Project Gutenberg #71 and all 13 illustrations were inspected together. Android app code was unchanged.
