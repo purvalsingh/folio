@@ -1,5 +1,5 @@
 {
- "version": 4,
+ "version": 6,
  "id": "gita",
  "title": "The Bhagavad Gita",
  "short": "Bhagavad Gita",
@@ -10,6 +10,7 @@
  "shelf": "Eastern Paths",
  "cover": "gita_cover",
  "blurb": "On a battlefield, a great archer loses his nerve, and his charioteer — God himself — talks him through duty, action, death and devotion. Eighteen chapters of the world's most loved spiritual dialogue.",
+ "deep": true,
  "glossary": {
   "kurukshetra": {
    "m": "The plain in north India where the great Mahabharata war was fought.",
@@ -79,8 +80,8 @@
    "root": "piety"
   },
   "devotion": {
-   "m": "Loving dedication to someone or something.",
-   "e": "His devotion to his old dog was touching."
+   "m": "Deep love and loyalty, especially to God.",
+   "e": "His devotion to his grandmother showed in daily visits."
   },
   "devotee": {
    "m": "Loving dedication to someone or something.",
@@ -110,6 +111,10 @@
   "refuge": {
    "m": "A place of safety and shelter.",
    "e": "The library was her refuge from the noisy house."
+  },
+  "detachment": {
+   "m": "Not clinging to results or things.",
+   "e": "She worked hard on the exam, then let go of worrying about the marks."
   }
  },
  "cards": [
@@ -140,6 +145,19 @@
    "qLife": "Before a big decision, you call the one person you trust most."
   },
   {
+   "ch": "Chapter I",
+   "chTitle": "The Distress of Arjuna",
+   "title": "Rather die unarmed",
+   "text": "Arjuna's despair reaches its lowest point. He would rather walk into the battle with no weapon and let his cousins kill him than shed the blood of his own family. Winning a kingdom, he says, could never be worth it. Then he sinks down in the chariot and drops his bow.",
+   "quote": "Better I deem it, if my kinsmen strike, To face them weaponless, and bare my breast To shaft and spear, than answer blow with blow.",
+   "qMean": "I would rather be killed unarmed than strike back at my family.",
+   "qLife": "Someone so hurt by a family feud that they'd rather give up everything than fight their own relatives.",
+   "img": "gita_26",
+   "orig": "The rule of all Three Worlds; then, how much less To seize an earthly kingdom! Killing these Must breed but anguish, Krishna! If they be Guilty, we shall grow guilty by their deaths; Their sins will light on us, if we shall slay Those sons of Dhritirashtra, and our kin; What peace could come of that, O Madhava? For if indeed, blinded by lust and wrath, These cannot see, or will not see, the sin Of kingly lines o'erthrown and kinsmen slain, How should not we, who see, shun such a crime-- We who perceive the guilt and feel the shame-- O thou Delight of Men, Janardana? By overthrow of houses perisheth Their sweet continuous household piety, And-rites neglected, piety extinct-- Enters impiety upon that home; Its women grow unwomaned, whence there spring Mad passions, and the mingling-up of castes, Sending a Hell-ward road that family, And whoso wrought its doom by wicked wrath. Nay, and the souls of honoured ancestors Fall from their place of peace, being bereft Of funeral-cakes and the wan death-water. So teach our holy hymns. Thus, if we slay Kinsfolk and friends for love of earthly power, Ahovat! what an evil fault it were! Better I deem it, if my kinsmen strike, To face them weaponless, and bare my breast To shaft and spear, than answer blow with blow.",
+   "origFrom": "The Bhagavad Gita (tr. Edwin Arnold, 1885)",
+   "cap": "Arjuna Slays Karna, page from a copy of the Razmnama. India; Attributed to Fazl · public domain"
+  },
+  {
    "ch": "Chapter II",
    "chTitle": "The Book of Doctrines",
    "title": "Grief without cause",
@@ -150,7 +168,21 @@
    "img": "gita_03",
    "cap": "\"Arjuna Battles Raja Tamradhvaja\", Folio from a Razmnama · public domain",
    "qMean": "You are sad about something that isn't truly worth grieving.",
-   "qLife": "Crying over a lost phone when your family is safe at home."
+   "qLife": "Crying over a lost phone when your family is safe at home.",
+   "link": "Arjuna has dropped his bow and refuses to fight. Krishna, his charioteer, begins to answer him."
+  },
+  {
+   "ch": "Chapter II",
+   "chTitle": "The Book of Doctrines",
+   "title": "What is real cannot end",
+   "text": "Krishna's first lesson is about what lasts. Bodies come and go like seasons, but what truly is can never stop being, and what is not real was never there at all. The wise learn to tell the lasting thing from the passing one.",
+   "quote": "That which is Can never cease to be; that which is not Will not exist.",
+   "qMean": "What is truly real never ends; what is unreal never really existed.",
+   "qLife": "Your love for a friend outlasts the many small fights that pass like weather.",
+   "img": "gita_27",
+   "orig": "… Nor I, nor thou, nor any one of these, Ever was not, nor ever will not be, For ever and for ever afterwards. All, that doth live, lives always! To man's frame As there come infancy and youth and age, So come there raisings-up and layings-down Of other and of other life-abodes, Which the wise know, and fear not. This that irks-- Thy sense-life, thrilling to the elements-- Bringing thee heat and cold, sorrows and joys, 'Tis brief and mutable! Bear with it, Prince! As the wise bear. The soul which is not moved, The soul that with a strong and constant calm Takes sorrow and takes joy indifferently, Lives in the life undying! That which is Can never cease to be; that which is not Will not exist. To see this truth of both Is theirs who part essence from accident, Substance from shadow. Indestructible, Learn thou! the Life is, spreading life through all; It cannot anywhere, by any means, Be anywise diminished, stayed, or changed. But for these fleeting frames which it informs With spirit deathless, endless, infinite, They perish. Let them perish, Prince! …",
+   "origFrom": "The Bhagavad Gita (tr. Edwin Arnold, 1885)",
+   "cap": "Krishna Arjuna Gita · public domain"
   },
   {
    "ch": "Chapter II",
@@ -194,6 +226,20 @@
   {
    "ch": "Chapter III",
    "chTitle": "Virtue in Work",
+   "title": "No escape from action",
+   "text": "Arjuna hoped quiet thought might excuse him from fighting. Krishna says no one becomes perfect just by sitting still. Even breathing and eating are actions. Refusing to act is itself a choice, and usually a worse one.",
+   "quote": "No man shall 'scape from act By shunning action",
+   "qMean": "You can't avoid acting by refusing to act; doing nothing is also a choice.",
+   "qLife": "Not replying to an important message is still a reply.",
+   "img": "gita_28",
+   "orig": "First The Sankhya's, which doth save in way of works Prescribed by reason; next, the Yog, which bids Attain by meditation, spiritually: Yet these are one! No man shall 'scape from act By shunning action; nay, and none shall come By mere renouncements unto perfectness. Nay, and no jot of time, at any time, Rests any actionless; his nature's law Compels him, even unwilling, into act; [For thought is act in fancy]. He who sits Suppressing all the instruments of flesh, Yet in his idle heart thinking on them, Plays the inept and guilty hypocrite: But he who, with strong body serving mind, Gives up his mortal powers to worthy work, Not seeking gain, Arjuna! such an one Is honourable. Do thine allotted task! Work is more excellent than idleness; The body's life proceeds not, lacking work. There is a task of holiness to do, Unlike world-binding toil, which bindeth not The faithful soul; such earthly duty do Free from desire, and thou shalt well perform Thy heavenly purpose. Spake Prajapati-- In the beginning, when all men were made, And, with mankind, the sacrifice-- \"Do this! …",
+   "origFrom": "The Bhagavad Gita (tr. Edwin Arnold, 1885)",
+   "link": "Krishna has praised the steady, detached mind. Arjuna asks: then why act at all?",
+   "cap": "India, Calcutta, Kalighat painting, 19th century - Trivikramapada (Three Steps of Vishnu) · public domain"
+  },
+  {
+   "ch": "Chapter III",
+   "chTitle": "Virtue in Work",
    "title": "Better to act",
    "text": "If knowledge is higher, Arjuna asks, why must I fight? Krishna says nobody can escape action — even keeping the body alive is work. The world itself runs on action. So act, but act without selfishness, as an offering. Great people should work, because others copy them.",
    "quote": "Work is more excellent than idleness",
@@ -203,6 +249,19 @@
    "cap": "Arjuna Slays Karna, page from a copy of the Razmnama, Mughal period · public domain",
    "qMean": "Doing your work is better than doing nothing.",
    "qLife": "Even a small walk beats a whole day on the sofa."
+  },
+  {
+   "ch": "Chapter III",
+   "chTitle": "Virtue in Work",
+   "title": "People follow the best",
+   "text": "Leaders carry a special duty. Whatever the respected do, everyone else copies, and whatever standard they set, the world follows. So even a wise person who needs nothing should keep working, as an example.",
+   "quote": "What the wise choose The unwise people take; what best men do The multitude will follow.",
+   "qMean": "Ordinary people copy what respected people do.",
+   "qLife": "When the class topper starts taking notes by hand, half the class does too.",
+   "img": "gita_29",
+   "orig": "… Existing for himself, Self-concentrated, serving self alone, No part hath he in aught; nothing achieved, Nought wrought or unwrought toucheth him; no hope Of help for all the living things of earth Depends from him. Therefore, thy task prescribed With spirit unattached gladly perform, Since in performance of plain duty man Mounts to his highest bliss. By works alone Janak and ancient saints reached blessedness! Moreover, for the upholding of thy kind, Action thou should'st embrace. What the wise choose The unwise people take; what best men do The multitude will follow. Look on me, Thou Son of Pritha! in the three wide worlds I am not bound to any toil, no height Awaits to scale, no gift remains to gain, Yet I act here! and, if I acted not-- Earnest and watchful--those that look to me For guidance, sinking back to sloth again Because I slumbered, would decline from good, And I should break earth's order and commit Her offspring unto ruin, Bharata! Even as the unknowing toil, wedded to sense, So let the enlightened toil, sense-freed, but set To bring the world deliverance, and its bliss; Not sowing in those simple, busy hearts Seed of despair. …",
+   "origFrom": "The Bhagavad Gita (tr. Edwin Arnold, 1885)",
+   "cap": "Mughal Emperor Akbar II riding on an elephant in a state procession from the Red Fort to the mosque for prayer, c. 1815-22 (BL Add Or 888) · public domain"
   },
   {
    "ch": "Chapter III",
@@ -228,7 +287,21 @@
    "img": "gita_09",
    "cap": "Rama and Laksmana Fighting Ravana · public domain",
    "qMean": "Whenever goodness fades and evil grows, God comes to restore what is right.",
-   "qLife": "When things go wrong in a community, someone always rises to set them right."
+   "qLife": "When things go wrong in a community, someone always rises to set them right.",
+   "link": "Action is unavoidable. Now Krishna reveals who he is, and how knowledge frees action from its chains."
+  },
+  {
+   "ch": "Chapter IV",
+   "chTitle": "The Religion of Knowledge",
+   "title": "Rest inside action",
+   "text": "Krishna offers a puzzle: true action can feel like rest, and true rest can be a kind of action. The wise person does the work without the inner restlessness of wanting, so even busy days stay calm inside.",
+   "quote": "He who sees How action may be rest, rest action--he Is wisest 'mid his kind; he hath the truth!",
+   "qMean": "The wisest people can be busy yet calm, or still yet useful.",
+   "qLife": "A surgeon who works fast but feels calm inside.",
+   "img": "gita_30",
+   "orig": "Thou sayst, perplexed, It hath been asked before By singers and by sages, \"What is act, And what inaction? \"I will teach thee this, And, knowing, thou shalt learn which work doth save Needs must one rightly meditate those three-- Doing,--not doing,--and undoing. Here Thorny and dark the path is! He who sees How action may be rest, rest action--he Is wisest 'mid his kind; he hath the truth! He doeth well, acting or resting. Freed In all his works from prickings of desire, Burned clean in act by the white fire of truth, The wise call that man wise; and such an one, Renouncing fruit of deeds, always content. Always self-satisfying, if he works, Doth nothing that shall stain his separate soul, Which--quit of fear and hope--subduing self-- Rejecting outward impulse--yielding up To body's need nothing save body, dwells Sinless amid all sin, with equal calm Taking what may befall, by grief unmoved, Unmoved by joy, unenvyingly; the same In good and evil fortunes; nowise bound By bond of deeds. Nay, but of such an one, Whose crave is gone, whose soul is liberate, Whose heart is set on truth--of such an one What work he does is work of sacrifice, Which passeth purely into ash and smoke Consumed upon the altar! …",
+   "origFrom": "The Bhagavad Gita (tr. Edwin Arnold, 1885)",
+   "cap": "The Goddess Worshiped by Rishi Chyavana · public domain"
   },
   {
    "ch": "Chapter IV",
@@ -246,6 +319,20 @@
   {
    "ch": "Chapter V",
    "chTitle": "Renouncing the Fruit of Works",
+   "title": "Two good roads",
+   "text": "Is it better to give up work or to do work in a holy way? Krishna says both lead to the same peace. But of the two, working without selfishness is the better road, because it is easier to walk and does good along the way.",
+   "quote": "To cease from works Is well, and to do works in holiness Is well",
+   "qMean": "Stepping back from work and working selflessly are both good paths.",
+   "qLife": "One person serves by teaching, another by quietly praying for others; both help.",
+   "img": "gita_31",
+   "orig": "Krishna. To cease from works Is well, and to do works in holiness Is well; and both conduct to bliss supreme; But of these twain the better way is his Who working piously refraineth not. That is the true Renouncer, firm and fixed, Who--seeking nought, rejecting nought--dwells proof Against the \"opposites.\" O valiant Prince! In doing, such breaks lightly from all deed: 'Tis the new scholar talks as they were two, This Sankhya and this Yoga: wise men know Who husbands one plucks golden fruit of both! The region of high rest which Sankhyans reach Yogins attain. Who sees these twain as one Sees with clear eyes! Yet such abstraction, Chief! Is hard to win without much holiness. Whoso is fixed in holiness, self-ruled, Pure-hearted, lord of senses and of self, Lost in the common life of all which lives-- A \"Yogayukt\"--he is a Saint who wends Straightway to Brahm. Such an one is not touched By taint of deeds. \"Nought of myself I do!\" Thus will he think-who holds the truth of truths-- In seeing, hearing, touching, smelling; when He eats, or goes, or breathes; …",
+   "origFrom": "The Bhagavad Gita (tr. Edwin Arnold, 1885)",
+   "link": "Knowledge or action, giving up or doing: Arjuna wants one plain answer.",
+   "cap": "Mir Sayyid Ali - Portrait of a Young Indian Scholar · public domain"
+  },
+  {
+   "ch": "Chapter V",
+   "chTitle": "Renouncing the Fruit of Works",
    "title": "Doing and letting go",
    "text": "Is it better to give up action or to act without attachment? Krishna says both lead to the goal, but acting without attachment is easier and better. The real renouncer is not the one who quits the world, but the one who works, wanting nothing and rejecting nothing.",
    "quote": "That is the true Renouncer, firm and fixed, Who—seeking nought, rejecting nought—dwells proof Against the \"opposites.\"",
@@ -255,6 +342,19 @@
    "cap": "Govardhan. Jahangir Visiting the Ascetic Jadrup. ca. 1616-20, Musee Guimet, Paris · public domain",
    "qMean": "A true renouncer wants nothing and rejects nothing and stays steady.",
    "qLife": "A calm person accepts both a pay rise and a setback without losing balance."
+  },
+  {
+   "ch": "Chapter V",
+   "chTitle": "Renouncing the Fruit of Works",
+   "title": "The sun of wisdom",
+   "text": "When ignorance lifts, the truth appears all at once, like sunrise after night. Such a person sees the same spirit in a scholar, a cow, an elephant and a dog, and stops ranking people as higher or lower.",
+   "quote": "As if a Sun of Wisdom sprang to shed Its beams of dawn.",
+   "qMean": "Real understanding arrives like the sun rising, lighting everything.",
+   "qLife": "The moment a hard maths idea suddenly makes sense and everything else clicks.",
+   "img": "gita_32",
+   "orig": "… the unvowed, the passion-bound, Seeking a fruit from works, are fastened down. The embodied sage, withdrawn within his soul, At every act sits godlike in \"the town Which hath nine gateways,\" neither doing aught Nor causing any deed. This world's Lord makes Neither the work, nor passion for the work, Nor lust for fruit of work; the man's own self Pushes to these! The Master of this World Takes on himself the good or evil deeds Of no man--dwelling beyond! Mankind errs here By folly, darkening knowledge. But, for whom That darkness of the soul is chased by light, Splendid and clear shines manifest the Truth As if a Sun of Wisdom sprang to shed Its beams of dawn. Him meditating still, Him seeking, with Him blended, stayed on Him, The souls illuminated take that road Which hath no turning back--their sins flung off By strength of faith. [Who will may have this Light; Who hath it sees.] To him who wisely sees, The Brahman with his scrolls and sanctities, The cow, the elephant, the unclean dog, The Outcast gorging dog's meat, are all one.",
+   "origFrom": "The Bhagavad Gita (tr. Edwin Arnold, 1885)",
+   "cap": "Thomas Daniell - Pinnace sailing down the Ganges past Monghyr Fort · public domain"
   },
   {
    "ch": "Chapter VI",
@@ -267,7 +367,21 @@
    "img": "gita_12",
    "cap": "Dadupanthi ascetics, 18th-century painting · public domain",
    "qMean": "Lift yourself up by your own effort; you can be your own best friend or worst enemy.",
-   "qLife": "Your own habits can build you up — or pull you down."
+   "qLife": "Your own habits can build you up — or pull you down.",
+   "link": "Both roads meet in a disciplined mind. This chapter is about training that mind."
+  },
+  {
+   "ch": "Chapter VI",
+   "chTitle": "Self-Restraint",
+   "title": "Effort until ease",
+   "text": "Meditation does not come easily. At first the will must work hard, again and again, until effort turns into ease and even thinking falls quiet. Krishna is honest: the restless mind is like the wind, but practice and detachment can tame it.",
+   "quote": "Steadfastly the will Must toil thereto, till efforts end in ease, And thought has passed from thinking.",
+   "qMean": "Keep practising until what was hard becomes effortless.",
+   "qLife": "Learning to ride a bicycle: wobbly effort first, then it's like breathing.",
+   "img": "gita_33",
+   "orig": "Steadfastly the will Must toil thereto, till efforts end in ease, And thought has passed from thinking. Shaking off All longings bred by dreams of fame and gain, Shutting the doorways of the senses close With watchful ward; so, step by step, it comes To gift of peace assured and heart assuaged, When the mind dwells self-wrapped, and the soul broods Cumberless. But, as often as the heart Breaks--wild and wavering--from control, so oft Let him re-curb it, let him rein it back To the soul's governance; for perfect bliss Grows only in the bosom tranquillised, The spirit passionless, purged from offence, Vowed to the Infinite. He who thus vows His soul to the Supreme Soul, quitting sin, Passes unhindered to the endless bliss Of unity with Brahma. He so vowed, So blended, sees the Life-Soul resident In all things living, and all living things In that Life-Soul contained. And whoso thus Discerneth Me in all, and all in Me, I never let him go; nor looseneth he Hold upon Me; but, dwell he where he may, Whate'er his life, in Me he dwells and lives, Because he knows and worships Me, Who dwell In all which lives, and cleaves to Me in all. Arjuna! if a man sees everywhere-- Taught by his own similitude--one Life, One Essence in the Evil and the Good, Hold him a Yogi, yea! well-perfected!",
+   "origFrom": "The Bhagavad Gita (tr. Edwin Arnold, 1885)",
+   "cap": "India, Pahari, Nurpur, late 17th Century - Man Dhata in Yogi Position · public domain"
   },
   {
    "ch": "Chapter VI",
@@ -283,6 +397,19 @@
    "qLife": "During exams, a calm mind keeps its focus despite the noise."
   },
   {
+   "ch": "Chapter VI",
+   "chTitle": "Self-Restraint",
+   "title": "No effort is wasted",
+   "text": "Arjuna worries: what if someone tries and fails? Krishna comforts him. Nothing good is ever lost. The person who falls short begins again later with all the progress already made, and climbs higher.",
+   "quote": "So hath he back again what heights of heart He did achieve, and so he strives anew To perfectness",
+   "qMean": "If you fail, you keep what you learned and start again from a higher place.",
+   "qLife": "Failing a driving test still leaves you a better driver for the next attempt.",
+   "img": "gita_34",
+   "orig": "Krishna. He is not lost, thou Son of Pritha! No! Nor earth, nor heaven is forfeit, even for him, Because no heart that holds one right desire Treadeth the road of loss! He who should fail, Desiring righteousness, cometh at death Unto the Region of the Just; dwells there Measureless years, and being born anew, Beginneth life again in some fair home Amid the mild and happy. It may chance He doth descend into a Yogin house On Virtue's breast; but that is rare! Such birth Is hard to be obtained on this earth, Chief! So hath he back again what heights of heart He did achieve, and so he strives anew To perfectness, with better hope, dear Prince! For by the old desire he is drawn on Unwittingly; and only to desire The purity of Yog is to pass Beyond the Sabdabrahm, the spoken Ved. But, being Yogi, striving strong and long, Purged from transgressions, perfected by births Following on births, he plants his feet at last Upon the farther path. Such as one ranks Above ascetics, higher than the wise, Beyond achievers of vast deeds! Be thou Yogi Arjuna! And of such believe, Truest and best is he who worships Me With inmost soul, stayed on My Mystery!",
+   "origFrom": "The Bhagavad Gita (tr. Edwin Arnold, 1885)",
+   "cap": "Thebet Mountains (the Himalayan Range As Viewed From Garhwal) - British Library X768-2(10) · public domain"
+  },
+  {
    "ch": "Chapter VII",
    "chTitle": "Discernment",
    "title": "Few truly know",
@@ -293,7 +420,34 @@
    "img": "gita_14",
    "cap": "Krishna, Kangra painting · public domain",
    "qMean": "Earth, water, fire, air, space, mind and ego make up the visible world.",
-   "qLife": "Everything you see, from mountains to moods, is made of these building blocks."
+   "qLife": "Everything you see, from mountains to moods, is made of these building blocks.",
+   "link": "With the mind trained, Krishna turns to what it should know: God in everything."
+  },
+  {
+   "ch": "Chapter VII",
+   "chTitle": "Discernment",
+   "title": "One in thousands",
+   "text": "Few people even look for the truth, and of those who look, very few find it. Krishna is not discouraging Arjuna; he is telling him how rare and precious the search is.",
+   "quote": "Of many thousand mortals, one, perchance, Striveth for Truth",
+   "qMean": "Out of thousands of people, perhaps one really searches for truth.",
+   "qLife": "Many people buy a gym membership; few keep going every week.",
+   "img": "gita_35",
+   "orig": "Krishna. Learn now, dear Prince! how, if thy soul be set Ever on Me--still exercising Yog, Still making Me thy Refuge--thou shalt come Most surely unto perfect hold of Me. I will declare to thee that utmost lore, Whole and particular, which, when thou knowest, Leaveth no more to know here in this world.\n\nOf many thousand mortals, one, perchance, Striveth for Truth; and of those few that strive-- Nay, and rise high--one only--here and there-- Knoweth Me, as I am, the very Truth.\n\nEarth, water, flame, air, ether, life, and mind, And individuality--those eight Make up the showing of Me, Manifest.",
+   "origFrom": "The Bhagavad Gita (tr. Edwin Arnold, 1885)",
+   "cap": "India, Pahari Hills, Bilaspur School, 19th century - Radha and Hindu God Krishna Celebrating the Festival Holi · public domain"
+  },
+  {
+   "ch": "Chapter VII",
+   "chTitle": "Discernment",
+   "title": "Every sincere faith",
+   "text": "People worship in many ways and many forms. Krishna says that wherever faith is sincere, he is the one who gives it strength, even when people pray to other gods with other names.",
+   "quote": "Worship what shrine they will, what shapes, in faith-- 'Tis I who give them faith!",
+   "qMean": "Whatever form people worship, the faith itself comes from the one God.",
+   "qLife": "Different people find peace in a temple, a church or a quiet walk; the longing is the same.",
+   "img": "gita_36",
+   "orig": "There be those, too, whose knowledge, turned aside By this desire or that, gives them to serve Some lower gods, with various rites, constrained By that which mouldeth them. Unto all such-- Worship what shrine they will, what shapes, in faith-- 'Tis I who give them faith! I am content! The heart thus asking favour from its God, Darkened but ardent, hath the end it craves, The lesser blessing--but 'tis I who give! Yet soon is withered what small fruit they reap: Those men of little minds, who worship so, Go where they worship, passing with their gods. But Mine come unto me! Blind are the eyes Which deem th' Unmanifested manifest, Not comprehending Me in my true Self! Imperishable, viewless, undeclared, Hidden behind my magic veil of shows, I am not seen by all; I am not known-- Unborn and changeless--to the idle world. But I, Arjuna! know all things which were, And all which are, and all which are to be, Albeit not one among them knoweth Me!",
+   "origFrom": "The Bhagavad Gita (tr. Edwin Arnold, 1885)",
+   "cap": "Indian - Ascetics Before the Shrine of the Goddess - Walters W859 · public domain"
   },
   {
    "ch": "Chapter VIII",
@@ -306,7 +460,34 @@
    "img": "gita_15",
    "cap": "Bhisma on arrows bed · public domain",
    "qMean": "Keep God in your heart always, and do your duty.",
-   "qLife": "A doctor prays, then goes into surgery and does her best."
+   "qLife": "A doctor prays, then goes into surgery and does her best.",
+   "link": "Arjuna asks what happens at the end of life, and how the good find God then."
+  },
+  {
+   "ch": "Chapter VIII",
+   "chTitle": "Devotion to the One Supreme",
+   "title": "A steady heart",
+   "text": "The thought you hold most often becomes the thought you hold at the end. That is why Krishna asks Arjuna to keep him in mind always, even while fighting, and promises that a mind fixed on him reaches him.",
+   "quote": "Thou too, when heart and mind are fixed on Me, Shalt surely come to Me!",
+   "qMean": "If your heart and mind stay fixed on God, you will reach God.",
+   "qLife": "The habits you practise daily are the ones you fall back on in a crisis.",
+   "img": "gita_37",
+   "orig": "Have Me, then, in thy heart always! and fight! Thou too, when heart and mind are fixed on Me, Shalt surely come to Me! All come who cleave With never-wavering will of firmest faith, Owning none other Gods: all come to Me, The Uttermost, Purusha, Holiest!\n\nWhoso hath known Me, Lord of sage and singer, Ancient of days; of all the Three Worlds Stay, Boundless,--but unto every atom Bringer Of that which quickens it: whoso, I say,",
+   "origFrom": "The Bhagavad Gita (tr. Edwin Arnold, 1885)",
+   "cap": "Krishna with flute · public domain"
+  },
+  {
+   "ch": "Chapter VIII",
+   "chTitle": "Devotion to the One Supreme",
+   "title": "Unwavering will",
+   "text": "Those who hold on with steady, unwavering faith, not distracted by other gods or other goals, all arrive at the highest. The key is not cleverness but constancy.",
+   "quote": "All come who cleave With never-wavering will of firmest faith",
+   "qMean": "Everyone who holds on with steady faith gets there.",
+   "qLife": "The student who studies a little every day beats the one who crams in bursts.",
+   "img": "gita_38",
+   "orig": "Have Me, then, in thy heart always! and fight! Thou too, when heart and mind are fixed on Me, Shalt surely come to Me! All come who cleave With never-wavering will of firmest faith, Owning none other Gods: all come to Me, The Uttermost, Purusha, Holiest!\n\nWhoso hath known Me, Lord of sage and singer, Ancient of days; of all the Three Worlds Stay, Boundless,--but unto every atom Bringer Of that which quickens it: whoso, I say,",
+   "origFrom": "The Bhagavad Gita (tr. Edwin Arnold, 1885)",
+   "cap": "1851 Dilwara valley, Pilgrims walking to temples from Udaipur Rajasthan · public domain"
   },
   {
    "ch": "Chapter IX",
@@ -319,7 +500,34 @@
    "img": "gita_16",
    "cap": "Krishna Offering Support to the Pandavas · public domain",
    "qMean": "Even a leaf, flower, fruit or water, offered with love, is accepted.",
-   "qLife": "A handmade card from a child means more than an expensive gift."
+   "qLife": "A handmade card from a child means more than an expensive gift.",
+   "link": "Krishna now shares what he calls the royal secret: how all things rest in him."
+  },
+  {
+   "ch": "Chapter IX",
+   "chTitle": "The Kingly Knowledge",
+   "title": "Like air in the sky",
+   "text": "How can everything be in God without being God? Krishna's image: wind moves through the whole sky but is not the sky. In the same way all creatures live in him, yet he is more than all of them.",
+   "quote": "So all things are in Me, but are not I.",
+   "qMean": "Everything exists within God, but God is more than everything.",
+   "qLife": "Fish live in the sea, but the sea is much more than the fish.",
+   "img": "gita_39",
+   "orig": "Yet they are not contained, Those visible things! Receive and strive to embrace The mystery majestical! My Being-- Creating all, sustaining all--still dwells Outside of all!\n\nSee! as the shoreless airs Move in the measureless space, but are not space, [And space were space without the moving airs]; So all things are in Me, but are not I.\n\nAt closing of each Kalpa, Indian Prince! All things which be back to My Being come: At the beginning of each Kalpa, all Issue new-born from Me.",
+   "origFrom": "The Bhagavad Gita (tr. Edwin Arnold, 1885)",
+   "cap": "Indian - The Elephant King Attacked by the Crocodile - Walters W887 · public domain"
+  },
+  {
+   "ch": "Chapter IX",
+   "chTitle": "The Kingly Knowledge",
+   "title": "Easy to walk by",
+   "text": "Krishna calls his teaching the royal secret, yet he insists it is not hard. It is a light that cleans the heart, clear to see and easy to follow, and it never runs out.",
+   "quote": "a light of holiness With inmost splendour shining; plain to see; Easy to walk by, inexhaustible!",
+   "qMean": "This teaching is like a bright, clear light that is easy to follow.",
+   "qLife": "Good advice is often simple, like 'be kind and tell the truth'.",
+   "img": "gita_40",
+   "orig": "Krishna. Now will I open unto thee--whose heart Rejects not--that last lore, deepest-concealed, That farthest secret of My Heavens and Earths, Which but to know shall set thee free from ills,-- A royal lore! a Kingly mystery! Yea! for the soul such light as purgeth it From every sin; a light of holiness With inmost splendour shining; plain to see; Easy to walk by, inexhaustible!",
+   "origFrom": "The Bhagavad Gita (tr. Edwin Arnold, 1885)",
+   "cap": "1867 CE chromolithograph, Diwali, feast of lamps, by William Simpson · public domain"
   },
   {
    "ch": "Chapter X",
@@ -332,7 +540,34 @@
    "img": "gita_17",
    "cap": "Baby Vishnu, Indian school, late 18th century · public domain",
    "qMean": "With the lamp of wisdom, God removes the darkness of ignorance.",
-   "qLife": "A good teacher's explanation suddenly makes a confusing topic clear."
+   "qLife": "A good teacher's explanation suddenly makes a confusing topic clear.",
+   "link": "Arjuna asks for more. Krishna names the greatest things in creation as glimpses of himself."
+  },
+  {
+   "ch": "Chapter X",
+   "chTitle": "Divine Glories",
+   "title": "Within every heart",
+   "text": "Krishna lists his glories, the brightest star, the greatest mountain, the wisest sage, but first he says the simplest thing: he lives in the heart of every creature, giving it life and taking it back.",
+   "quote": "I am the Spirit seated deep in every creature's heart",
+   "qMean": "God lives deep inside every living being.",
+   "qLife": "Seeing something worth respecting even in a stranger on the bus.",
+   "img": "gita_41",
+   "orig": "Krishna. Hanta! So be it! Kuru Prince! I will to thee unfold Some portions of My Majesty, whose powers are manifold! I am the Spirit seated deep in every creature's heart; From Me they come; by Me they live; at My word they depart! Vishnu of the Adityas I am, those Lords of Light; Maritchi of the Maruts, the Kings of Storm and Blight; By day I gleam, the golden Sun of burning cloudless Noon; By Night, amid the asterisms I glide, the dappled Moon! Of Vedas I am Sama-Ved, of gods in Indra's Heaven Vasava; of the faculties to living beings given The mind which apprehends and thinks; of Rudras Sankara; Of Yakshas and of Rakshasas, Vittesh; and Pavaka Of Vasus, and of mountain-peaks Meru; Vrihaspati Know Me 'mid planetary Powers; 'mid Warriors heavenly Skanda; of all the water-floods the Sea which drinketh each, And Bhrigu of the holy Saints, and OM of sacred speech; Of prayers the prayer ye whisper; of hills Himala's snow, And Aswattha, the fig-tree, of all the trees that grow; Of the Devarshis, Narada; and Chitrarath of them That sing in Heaven, and Kapila of Munis, and the gem Of flying steeds, Uchchaisravas, from Amrit-wave which burst; …",
+   "origFrom": "The Bhagavad Gita (tr. Edwin Arnold, 1885)",
+   "cap": "Unknown (Indian) - Vishnu on Serpent Shesha and Vishnu Battling Demons Madhu and Kaitabha - 69.424 - Detroit Institute of Arts · public domain"
+  },
+  {
+   "ch": "Chapter X",
+   "chTitle": "Divine Glories",
+   "title": "Never enough",
+   "text": "Arjuna, delighted, asks to hear more. He says his ears can never drink enough of these words, like the nectar of immortality. Real learning makes you hungrier, not fuller.",
+   "quote": "Never enough Can mine ears drink the Amrit of such words!",
+   "qMean": "I could never hear enough of these wonderful words.",
+   "qLife": "A good story you want told again and again.",
+   "img": "gita_42",
+   "orig": "Arjuna. Yes! Thou art Parabrahm! The High Abode! The Great Purification! Thou art God Eternal, All-creating, Holy, First, Without beginning! Lord of Lords and Gods! Declared by all the Saints--by Narada, Vyasa Asita, and Devalas; And here Thyself declaring unto me! What Thou hast said now know I to be truth, O Kesava! that neither gods nor men Nor demons comprehend Thy mystery Made manifest, Divinest! Thou Thyself Thyself alone dost know, Maker Supreme! Master of all the living! Lord of Gods! King of the Universe! To Thee alone Belongs to tell the heavenly excellence Of those perfections wherewith Thou dost fill These worlds of Thine; Pervading, Immanent! How shall I learn, Supremest Mystery! To know Thee, though I muse continually? Under what form of Thine unnumbered forms Mayst Thou be grasped? Ah! yet again recount, Clear and complete, Thy great appearances, The secrets of Thy Majesty and Might, Thou High Delight of Men! Never enough Can mine ears drink the Amrit of such words!",
+   "origFrom": "The Bhagavad Gita (tr. Edwin Arnold, 1885)",
+   "cap": "Krishna, Arjuna and Pradyuma release a shower of arrows at the Demon Nikumbha · public domain"
   },
   {
    "ch": "Chapter XI",
@@ -345,7 +580,34 @@
    "img": "gita_18",
    "cap": "Vishnu Vishvarupa cropped · public domain",
    "qMean": "Krishna reveals himself as Time, which destroys everything.",
-   "qLife": "Time eventually wears down even the strongest buildings and empires."
+   "qLife": "Time eventually wears down even the strongest buildings and empires.",
+   "link": "Hearing is not enough. Arjuna asks to see Krishna's universal form with his own eyes."
+  },
+  {
+   "ch": "Chapter XI",
+   "chTitle": "The Vision of the Universal Form",
+   "title": "Arms without end",
+   "text": "Krishna shows Arjuna his universal form. Arjuna sees countless arms, faces and eyes in every direction, with no beginning, middle or end, brighter than a thousand suns. He is terrified and amazed.",
+   "quote": "I see Thy thousand thousand arms, and breasts, and faces, And eyes",
+   "qMean": "Arjuna sees God's form, endless in every direction.",
+   "qLife": "Seeing the night sky full of stars and feeling how small you are.",
+   "img": "gita_43",
+   "orig": "Of Brahma, sitting lone Upon His lotus-throne; Of saints and sages, and the serpent races Ananta, Vasuki; Yea! mightiest Lord! I see Thy thousand thousand arms, and breasts, and faces, And eyes,--on every side Perfect, diversified; And nowhere end of Thee, nowhere beginning, Nowhere a centre! Shifts-- Wherever soul's gaze lifts-- Thy central Self, all-wielding, and all-winning!",
+   "origFrom": "The Bhagavad Gita (tr. Edwin Arnold, 1885)",
+   "cap": "Brooklyn Museum - Vishvarupa The Cosmic Form of Krishna · public domain"
+  },
+  {
+   "ch": "Chapter XI",
+   "chTitle": "The Vision of the Universal Form",
+   "title": "You only strike the fallen",
+   "text": "In the vision Arjuna sees the warriors already swallowed by time. Krishna tells him the outcome is settled; Arjuna is only the instrument. Do your part, he says, without the burden of thinking it all depends on you.",
+   "quote": "Thou wilt but slay the slain",
+   "qMean": "The result is already decided; you only carry out your part.",
+   "qLife": "A relay runner runs their leg well without carrying the whole race on their shoulders.",
+   "img": "gita_44",
+   "orig": "Krishna. Thou seest Me as Time who kills, Time who brings all to doom, The Slayer Time, Ancient of Days, come hither to consume; Excepting thee, of all these hosts of hostile chiefs arrayed, There stands not one shall leave alive the battlefield! Dismayed No longer be! Arise! obtain renown! destroy thy foes! Fight for the kingdom waiting thee when thou hast vanquished those. By Me they fall--not thee! the stroke of death is dealt them now, Even as they show thus gallantly; My instrument art thou! Strike, strong-armed Prince, at Drona! at Bhishma strike! deal death On Karna, Jyadratha; stay all their warlike breath! 'Tis I who bid them perish! Thou wilt but slay the slain; Fight! they must fall, and thou must live, victor upon this plain!",
+   "origFrom": "The Bhagavad Gita (tr. Edwin Arnold, 1885)",
+   "cap": "A battle scence from Mahabharata · public domain"
   },
   {
    "ch": "Chapter XII",
@@ -358,7 +620,34 @@
    "img": "gita_19",
    "cap": "Kangra painting of Mirabai, the female Bhakti saint · public domain",
    "qMean": "The person dear to God hates no living being, is kind, and free of pride.",
-   "qLife": "A neighbour who helps everyone without boasting about it."
+   "qLife": "A neighbour who helps everyone without boasting about it.",
+   "link": "After the terrifying vision, a gentle question: which kind of devotion is best?"
+  },
+  {
+   "ch": "Chapter XII",
+   "chTitle": "Devotion",
+   "title": "Untroubled and untroubling",
+   "text": "Krishna describes the devotee he loves: someone who doesn't upset others and isn't upset by them, free of anger, beyond wild joy and fear. Calm is not coldness; it is love that stays steady.",
+   "quote": "Who troubleth not his kind, And is not troubled by them; clear of wrath",
+   "qMean": "God loves the person who neither disturbs others nor is easily disturbed.",
+   "qLife": "A friend who never starts drama and doesn't get pulled into it.",
+   "img": "gita_45",
+   "orig": "Who hateth nought Of all which lives, living himself benign, Compassionate, from arrogance exempt, Exempt from love of self, unchangeable By good or ill; patient, contented, firm In faith, mastering himself, true to his word, Seeking Me, heart and soul; vowed unto Me,-- That man I love! Who troubleth not his kind, And is not troubled by them; clear of wrath, Living too high for gladness, grief, or fear, That man I love! Who, dwelling quiet-eyed, Stainless, serene, well-balanced, unperplexed, Working with Me, yet from all works detached, That man I love! Who, fixed in faith on Me, Dotes upon none, scorns none; rejoices not, And grieves not, letting good or evil hap Light when it will, and when it will depart, That man I love! Who, unto friend and foe Keeping an equal heart, with equal mind Bears shame and glory; with an equal peace Takes heat and cold, pleasure and pain; abides Quit of desires, hears praise or calumny In passionless restraint, unmoved by each; Linked by no ties to earth, steadfast in Me, That man I love! But most of all I love Those happy ones to whom 'tis life to live In single fervid faith and love unseeing, Drinking the blessed Amrit of my Being!",
+   "origFrom": "The Bhagavad Gita (tr. Edwin Arnold, 1885)",
+   "cap": "A wandering Shaivite ascetic with his dog · public domain"
+  },
+  {
+   "ch": "Chapter XII",
+   "chTitle": "Devotion",
+   "title": "Work done for love",
+   "text": "If deep meditation is too hard, Krishna offers another way: do your work for love of God. Ordinary work done with that love is enough to reach him.",
+   "quote": "For he that laboureth right for love of Me Shall finally attain!",
+   "qMean": "Whoever works well out of love for God will reach God.",
+   "qLife": "A mother cooking for her family with love turns a chore into devotion.",
+   "img": "gita_46",
+   "orig": "Yet, hard The travail is for such as bend their minds To reach th' Unmanifest That viewless path Shall scarce be trod by man bearing the flesh! But whereso any doeth all his deeds Renouncing self for Me, full of Me, fixed To serve only the Highest, night and day Musing on Me--him will I swiftly lift Forth from life's ocean of distress and death, Whose soul clings fast to Me. Cling thou to Me! Clasp Me with heart and mind! so shalt thou dwell Surely with Me on high. But if thy thought Droops from such height; if thou be'st weak to set Body and soul upon Me constantly, Despair not! give Me lower service! seek To reach Me, worshipping with steadfast will; And, if thou canst not worship steadfastly, Work for Me, toil in works pleasing to Me! For he that laboureth right for love of Me Shall finally attain! But, if in this Thy faint heart fails, bring Me thy failure! find Refuge in Me! let fruits of labour go, Renouncing hope for Me, with lowliest heart, So shalt thou come; for, though to know is more Than diligence, yet worship better is Than knowing, and renouncing better still. Near to renunciation--very near-- Dwelleth Eternal Peace!",
+   "origFrom": "The Bhagavad Gita (tr. Edwin Arnold, 1885)",
+   "cap": "Portrait of an Indian Lady, traditionally called the Bibi of John Wombwell (d. 1795) (by Arthur William Devis) · public domain"
   },
   {
    "ch": "Chapter XIII",
@@ -371,7 +660,34 @@
    "img": "gita_20",
    "cap": "The sage Vyasa and the king Janamejaya. · public domain",
    "qMean": "Humility, honesty, non-violence, patience and respect for the wise mark true knowledge.",
-   "qLife": "The smartest people you meet are often the most modest."
+   "qLife": "The smartest people you meet are often the most modest.",
+   "link": "From the devotee to the body and soul: the field, and the one who knows the field."
+  },
+  {
+   "ch": "Chapter XIII",
+   "chTitle": "Matter and Spirit",
+   "title": "Light of lights",
+   "text": "The knower inside us, the true self, is described as the light behind all lights, shining in the middle of darkness. It is in every heart, guiding those who look for it.",
+   "quote": "The Light of Lights He is, in the heart of the Dark Shining eternally.",
+   "qMean": "The divine is the source of all light, shining even in darkness.",
+   "qLife": "Hope that keeps burning even in the worst week of your life.",
+   "img": "gita_47",
+   "orig": "Now will I speak of knowledge best to know- That Truth which giveth man Amrit to drink, The Truth of HIM, the Para-Brahm, the All, The Uncreated;; not Asat, not Sat, Not Form, nor the Unformed; yet both, and more;-- Whose hands are everywhere, and everywhere Planted His feet, and everywhere His eyes Beholding, and His ears in every place Hearing, and all His faces everywhere Enlightening and encompassing His worlds. Glorified in the senses He hath given, Yet beyond sense He is; sustaining all, Yet dwells He unattached: of forms and modes Master, yet neither form nor mode hath He; He is within all beings--and without-- Motionless, yet still moving; not discerned For subtlety of instant presence; close To all, to each; yet measurelessly far! Not manifold, and yet subsisting still In all which lives; for ever to be known As the Sustainer, yet, at the End of Times, He maketh all to end--and re-creates. The Light of Lights He is, in the heart of the Dark Shining eternally. Wisdom He is And Wisdom's way, and Guide of all the wise, Planted in every heart.",
+   "origFrom": "The Bhagavad Gita (tr. Edwin Arnold, 1885)",
+   "cap": "19th-century Sukunda ritual lamp, Newar Nepal · public domain"
+  },
+  {
+   "ch": "Chapter XIII",
+   "chTitle": "Matter and Spirit",
+   "title": "Untouched by the body",
+   "text": "The highest self lives inside the body but is not stained by what the body does, just as space touches everything but is touched by nothing. Seeing this ends fear.",
+   "quote": "Taketh no stain of acts, worketh in nought!",
+   "qMean": "The true self is not stained by the body's actions.",
+   "qLife": "Clear sky isn't dirtied by the smoke that passes through it.",
+   "img": "gita_48",
+   "orig": "O Prince! That Ultimate, High Spirit, Uncreate, Unqualified, even when it entereth flesh Taketh no stain of acts, worketh in nought! Like to the ethereal air, pervading all, Which, for sheer subtlety, avoideth taint, The subtle Soul sits everywhere, unstained: Like to the light of the all-piercing sun [Which is not changed by aught it shines upon,] The Soul's light shineth pure in every place; And they who, by such eye of wisdom, see How Matter, and what deals with it, divide; And how the Spirit and the flesh have strife, Those wise ones go the way which leads to Life!",
+   "origFrom": "The Bhagavad Gita (tr. Edwin Arnold, 1885)",
+   "cap": "Joachim Frich - Landscape with stormy Sky - NG.M.03292 - National Museum of Art, Architecture and Design · public domain"
   },
   {
    "ch": "Chapter XIV",
@@ -384,7 +700,34 @@
    "img": "gita_21",
    "cap": "Goddess Bhadrakali Worshipped by the Gods- from a tantric Devi series · public domain",
    "qMean": "Nature has three qualities: goodness, passion and dullness.",
-   "qLife": "A calm morning, a stressful rush hour and a lazy afternoon — all three in one day."
+   "qLife": "A calm morning, a stressful rush hour and a lazy afternoon — all three in one day.",
+   "link": "Krishna explains the three threads that weave every human nature."
+  },
+  {
+   "ch": "Chapter XIV",
+   "chTitle": "The Three Qualities",
+   "title": "The dark thread",
+   "text": "Of the three threads, the darkest is ignorance. It blinds people and ties them down with dullness, laziness and sleep. Recognising it in yourself is the first step out.",
+   "quote": "But Ignorance, begot Of Darkness, blinding mortal men, binds down Their souls to stupor, sloth, and drowsiness.",
+   "qMean": "Ignorance blinds people and binds them with dullness and laziness.",
+   "qLife": "Scrolling for hours half-asleep when you meant to do something important.",
+   "img": "gita_49",
+   "orig": "Sattwan, Rajas, and Tamas, so are named The qualities of Nature, \"Soothfastness,\" \"Passion,\" and \"Ignorance.\" These three bind down The changeless Spirit in the changeful flesh. Whereof sweet \"Soothfastness,\" by purity Living unsullied and enlightened, binds The sinless Soul to happiness and truth; And Passion, being kin to appetite, And breeding impulse and propensity, Binds the embodied Soul, O Kunti's Son! By tie of works. But Ignorance, begot Of Darkness, blinding mortal men, binds down Their souls to stupor, sloth, and drowsiness. Yea, Prince of India! Soothfastness binds souls In pleasant wise to flesh; and Passion binds By toilsome strain; but Ignorance, which blots The beams of wisdom, binds the soul to sloth. Passion and Ignorance, once overcome, Leave Soothfastness, O Bharata! Where this With Ignorance are absent, Passion rules; And Ignorance in hearts not good nor quick. When at all gateways of the Body shines The Lamp of Knowledge, then may one see well Soothfastness settled in that city reigns; Where longing is, and ardour, and unrest, Impulse to strive and gain, and avarice, Those spring from Passion--Prince!--engrained; and where Darkness and dulness, sloth and stupor are, 'Tis Ignorance hath caused them, Kuru Chief!",
+   "origFrom": "The Bhagavad Gita (tr. Edwin Arnold, 1885)",
+   "cap": "India, Farrukhabad, Mughal, 18th century - A Princess on a Terrace with Attendants at Night - 2013.341.a - Cleveland Museum of Art · public domain"
+  },
+  {
+   "ch": "Chapter XIV",
+   "chTitle": "The Three Qualities",
+   "title": "Like breeds like",
+   "text": "Each thread produces more of itself. Clarity grows clarity, restless desire grows more desire, and darkness grows confusion. Whatever you feed, grows.",
+   "quote": "For Light brings light, and Passion ache to have",
+   "qMean": "Good brings more good; craving brings more craving.",
+   "qLife": "One good habit, like an early night, makes the next good choice easier.",
+   "img": "gita_50",
+   "orig": "The fruit of Soothfastness is true and sweet; The fruit of lusts is pain and toil; the fruit Of Ignorance is deeper darkness. Yea! For Light brings light, and Passion ache to have; And gloom, bewilderments, and ignorance Grow forth from Ignorance. Those of the first Rise ever higher; those of the second mode Take a mid place; the darkened souls sink back To lower deeps, loaded with witlessness!",
+   "origFrom": "The Bhagavad Gita (tr. Edwin Arnold, 1885)",
+   "cap": "Navaneeta Krishna · public domain"
   },
   {
    "ch": "Chapter XV",
@@ -397,7 +740,34 @@
    "img": "gita_22",
    "cap": "A spreading banyan tree-John Greig after James Forbes, 1774 · public domain",
    "qMean": "The world is like an upside-down tree with roots above and branches below.",
-   "qLife": "Your actions branch out from deep, hidden roots — your desires."
+   "qLife": "Your actions branch out from deep, hidden roots — your desires.",
+   "link": "The three threads tangle us in the world. Here is the world pictured as an upside-down tree."
+  },
+  {
+   "ch": "Chapter XV",
+   "chTitle": "The Supreme Person",
+   "title": "Leaves that whisper",
+   "text": "The holy fig tree with roots above and branches below is the world. Its leaves are the sacred hymns, whispering truth to those who listen. Cutting through it with the axe of detachment, the wise find the way home.",
+   "quote": "its leaves Are green and waving hymns which whisper Truth!",
+   "qMean": "The tree's leaves are like holy songs that speak the truth.",
+   "qLife": "Finding wisdom in ordinary things, like a tree in the wind.",
+   "img": "gita_51",
+   "orig": "Krishna. Men call the Aswattha,--the Banyan-tree,-- Which hath its boughs beneath, its roots above,-- The ever-holy tree. Yea! for its leaves Are green and waving hymns which whisper Truth! Who knows the Aswattha, knows Veds, and all.\n\nIts branches shoot to heaven and sink to earth, Even as the deeds of men, which take their birth From qualities: its silver sprays and blooms, And all the eager verdure of its girth, Leap to quick life at kiss of sun and air, As men's lives quicken to the temptings fair Of wooing sense: its hanging rootlets seek The soil beneath, helping to hold it there,",
+   "origFrom": "The Bhagavad Gita (tr. Edwin Arnold, 1885)",
+   "cap": "\"Runjeet Singh (Ranjit Singh) and his Suwarree, or Cavalcade, of Seiks (Sikhs) Encamped under a Banyan Tree on the River Sutlej,\" a steel engraving by Fisher and Son, London, 1837, based on a drawing made in 1831 · public domain"
+  },
+  {
+   "ch": "Chapter XV",
+   "chTitle": "The Supreme Person",
+   "title": "As the wind carries scent",
+   "text": "When the soul moves from one body to the next, it carries the mind and senses with it, the way the wind carries the scent of flowers. Only the wise see this happening.",
+   "quote": "as the wind gathers scents, Blowing above the flower-beds",
+   "qMean": "The soul carries the mind with it like wind carries a flower's scent.",
+   "qLife": "A person moving house still carries their habits and memories with them.",
+   "img": "gita_52",
+   "orig": "When, in this world of manifested life, The undying Spirit, setting forth from Me, Taketh on form, it draweth to itself From Being's storehouse,--which containeth all,-- Senses and intellect. The Sovereign Soul Thus entering the flesh, or quitting it, Gathers these up, as the wind gathers scents, Blowing above the flower-beds. Ear and Eye, And Touch and Taste, and Smelling, these it takes,-- Yea, and a sentient mind;--linking itself To sense-things so.",
+   "origFrom": "The Bhagavad Gita (tr. Edwin Arnold, 1885)",
+   "cap": "Mughal harem · public domain"
   },
   {
    "ch": "Chapter XVI",
@@ -410,7 +780,34 @@
    "img": "gita_23",
    "cap": "Malhar Rao Holkar contemporary · public domain",
    "qMean": "A good person is truthful, slow to anger, and lets go of what others cling to.",
-   "qLife": "Not fighting over the last slice of pizza."
+   "qLife": "Not fighting over the last slice of pizza.",
+   "link": "Two kinds of people walk that tree: those drawn upward and those drawn down."
+  },
+  {
+   "ch": "Chapter XVI",
+   "chTitle": "Divine and Demonic Natures",
+   "title": "The boaster",
+   "text": "Krishna paints the proud, ungodly mind in its own words: today I beat one enemy, tomorrow I beat another; I am rich, I am powerful, who is like me? It is a mind that never rests.",
+   "quote": "To-day we slew a foe, and we will slay Our other enemy to-morrow!",
+   "qMean": "The proud boast of beating one enemy after another.",
+   "qLife": "A bully who always needs a new target to feel big.",
+   "img": "gita_53",
+   "orig": "Ensnared In nooses of a hundred idle hopes, Slaves to their passion and their wrath, they buy Wealth with base deeds, to glut hot appetites; \"Thus much, to-day,\" they say, \"we gained! thereby Such and such wish of heart shall have its fill; And this is ours! and th' other shall be ours! To-day we slew a foe, and we will slay Our other enemy to-morrow! Look! Are we not lords? Make we not goodly cheer? Is not our fortune famous, brave, and great? Rich are we, proudly born! What other men Live like to us? Kill, then, for sacrifice! Cast largesse, and be merry!\" So they speak Darkened by ignorance; and so they fall-- Tossed to and fro with projects, tricked, and bound In net of black delusion, lost in lusts-- Down to foul Naraka. Conceited, fond, Stubborn and proud, dead-drunken with the wine Of wealth, and reckless, all their offerings Have but a show of reverence, being not made In piety of ancient faith. Thus vowed To self-hood, force, insolence, feasting, wrath, These My blasphemers, in the forms they wear And in the forms they breed, my foemen are, Hateful and hating; …",
+   "origFrom": "The Bhagavad Gita (tr. Edwin Arnold, 1885)",
+   "cap": "The Emperor Ahmad Shah, equestrian, in the hunting field 1750 San Diego Museum of Art · public domain"
+  },
+  {
+   "ch": "Chapter XVI",
+   "chTitle": "Divine and Demonic Natures",
+   "title": "Three doors to ruin",
+   "text": "There are three gates to self-destruction: lust, anger and greed. Krishna's advice is simple: shut all three, and walk the better road.",
+   "quote": "The Doors of Hell Are threefold, whereby men to ruin pass,-- The door of Lust, the door of Wrath, the door Of Avarice.",
+   "qMean": "Lust, anger and greed are the three doors to ruin.",
+   "qLife": "Most bad decisions you regret came from wanting too much, getting angry, or getting greedy.",
+   "img": "gita_54",
+   "orig": "… and so they fall-- Tossed to and fro with projects, tricked, and bound In net of black delusion, lost in lusts-- Down to foul Naraka. Conceited, fond, Stubborn and proud, dead-drunken with the wine Of wealth, and reckless, all their offerings Have but a show of reverence, being not made In piety of ancient faith. Thus vowed To self-hood, force, insolence, feasting, wrath, These My blasphemers, in the forms they wear And in the forms they breed, my foemen are, Hateful and hating; cruel, evil, vile, Lowest and least of men, whom I cast down Again, and yet again, at end of lives, Into some devilish womb, whence--birth by birth-- The devilish wombs re-spawn them, all beguiled; And, till they find and worship Me, sweet Prince! Tread they that Nether Road. The Doors of Hell Are threefold, whereby men to ruin pass,-- The door of Lust, the door of Wrath, the door Of Avarice. Let a man shun those three! He who shall turn aside from entering All those three gates of Narak, wendeth straight To find his peace, and comes to Swarga's gate. . . . . …",
+   "origFrom": "The Bhagavad Gita (tr. Edwin Arnold, 1885)",
+   "cap": "Weeks Edwin Gate Of The Fortress At Agra India · public domain"
   },
   {
    "ch": "Chapter XVII",
@@ -423,7 +820,74 @@
    "img": "gita_24",
    "cap": "Krishna playing the flute, temple fresco · public domain",
    "qMean": "Each person's faith matches their true nature.",
-   "qLife": "A patient person is drawn to quiet prayer; an energetic one to festivals."
+   "qLife": "A patient person is drawn to quiet prayer; an energetic one to festivals.",
+   "link": "What separates them shows in their faith, their food, their gifts and their speech."
+  },
+  {
+   "ch": "Chapter XVII",
+   "chTitle": "Three Kinds of Faith",
+   "title": "Kind true words",
+   "text": "Speech can be a discipline too. Words that hurt no one, that are true, gentle and pleasant, and that come from study, are a quiet kind of worship.",
+   "quote": "Words causing no man woe, words ever true, Gentle and pleasing words",
+   "qMean": "Speak words that are true, kind and hurt no one.",
+   "qLife": "Telling a friend an honest truth gently, not harshly.",
+   "img": "gita_55",
+   "orig": "Words causing no man woe, words ever true, Gentle and pleasing words, and those ye say In murmured reading of a Sacred Writ,-- These make the true religiousness of Speech.\n\nSerenity of soul, benignity, Sway of the silent Spirit, constant stress To sanctify the Nature,--these things make Good rite, and true religiousness of Mind.",
+   "origFrom": "The Bhagavad Gita (tr. Edwin Arnold, 1885)",
+   "cap": "Painting of the Dadupanthi figures Chain Ram and Kishan Dev together · public domain"
+  },
+  {
+   "ch": "Chapter XVII",
+   "chTitle": "Three Kinds of Faith",
+   "title": "Showing off",
+   "text": "Religion done for display, to get praise, honour and attention, belongs to restless passion. It looks holy but is really about the self, and its rewards don't last.",
+   "quote": "Religion shown in act of proud display To win good entertainment, worship, fame",
+   "qMean": "Showy religion done for fame is selfish, not holy.",
+   "qLife": "Donating loudly for photos instead of quietly to help.",
+   "img": "gita_56",
+   "orig": "Such threefold faith, in highest piety Kept, with no hope of gain, by hearts devote, Is perfect work of Sattwan, true belief.\n\nReligion shown in act of proud display To win good entertainment, worship, fame, Such--say I--is of Rajas, rash and vain.\n\nReligion followed by a witless will To torture self, or come at power to hurt Another,--'tis of Tamas, dark and ill.",
+   "origFrom": "The Bhagavad Gita (tr. Edwin Arnold, 1885)",
+   "cap": "Indian - A Wedding Procession - Walters W883 · public domain"
+  },
+  {
+   "ch": "Chapter XVIII",
+   "chTitle": "Deliverance",
+   "title": "Do it, but let go",
+   "text": "Should good works like worship and charity be given up? No, Krishna says, they purify us. But they must be done without clinging to them or to what they bring. That letting go is the real renunciation.",
+   "quote": "Yet must be practised even those high works In yielding up attachment, and all fruit Produced by works.",
+   "qMean": "Keep doing good deeds, but without clinging to them or their rewards.",
+   "qLife": "Volunteering every week without needing anyone to notice.",
+   "img": "gita_57",
+   "orig": "Yet must be practised even those high works In yielding up attachment, and all fruit Produced by works. This is My judgment, Prince! This My insuperable and fixed decree!\n\nAbstaining from a work by right prescribed Never is meet! So to abstain doth spring From \"Darkness,\" and Delusion teacheth it. Abstaining from a work grievous to flesh, When one saith \"'Tis unpleasing!\" this is null! Such an one acts from \"passion;\" nought of gain Wins his Renunciation! But, Arjun! Abstaining from attachment to the work, Abstaining from rewardment in the work, While yet one doeth it full faithfully, Saying, \"Tis right to do!\" that is \"true \" act And abstinence! Who doeth duties so, Unvexed if his work fail, if it succeed Unflattered, in his own heart justified, Quit of debates and doubts, his is \"true\" act: For, being in the body, none may stand Wholly aloof from act; yet, who abstains From profit of his acts is abstinent.",
+   "origFrom": "The Bhagavad Gita (tr. Edwin Arnold, 1885)",
+   "link": "The final chapter gathers every thread: what true giving-up means, and Krishna's last word.",
+   "cap": "R Varma Charity · public domain"
+  },
+  {
+   "ch": "Chapter XVIII",
+   "chTitle": "Deliverance",
+   "title": "Every fire has smoke",
+   "text": "No work is perfect. Every action has some fault in it, as every flame has some smoke. So don't abandon your own duty because it is imperfect.",
+   "quote": "For every work hath blame, as every flame Is wrapped in smoke!",
+   "qMean": "Every job has flaws, just as every fire has smoke.",
+   "qLife": "No profession is perfect; that's not a reason to quit yours.",
+   "img": "gita_58",
+   "orig": "Better thine own work is, though done with fault, Than doing others' work, ev'n excellently. He shall not fall in sin who fronts the task Set him by Nature's hand! Let no man leave His natural duty, Prince! though it bear blame! For every work hath blame, as every flame Is wrapped in smoke! Only that man attains Perfect surcease of work whose work was wrought With mind unfettered, soul wholly subdued, Desires for ever dead, results renounced.",
+   "origFrom": "The Bhagavad Gita (tr. Edwin Arnold, 1885)",
+   "cap": "Radha and Krishna Walking at Night, folio from the Tehri Garhwal series of the Gita Govinda · public domain"
+  },
+  {
+   "ch": "Chapter XVIII",
+   "chTitle": "Deliverance",
+   "title": "The stubborn fool",
+   "text": "There is a bad kind of steadfastness too: the fool who clings to laziness, sadness, fear and despair. Being stubborn is only a virtue when you hold on to the right things.",
+   "quote": "Sad is the steadfastness wherewith the fool Cleaves to his sloth, his sorrow, and his fears",
+   "qMean": "Clinging stubbornly to laziness and fear is foolish, not strong.",
+   "qLife": "Refusing every new idea just because you've 'always done it this way'.",
+   "img": "gita_59",
+   "orig": "Good is the steadfastness whereby a man Masters his beats of heart, his very breath Of life, the action of his senses; fixed In never-shaken faith and piety: That is of Sattwan, Prince! \"soothfast\" and fair! Stained is the steadfastness whereby a man Holds to his duty, purpose, effort, end, For life's sake, and the love of goods to gain, Arjuna! 'tis of Rajas, passion-stamped! Sad is the steadfastness wherewith the fool Cleaves to his sloth, his sorrow, and his fears, His folly and despair. This--Pritha's Son!-- Is born of Tamas, \"dark\" and miserable!",
+   "origFrom": "The Bhagavad Gita (tr. Edwin Arnold, 1885)",
+   "cap": "Lalita Ragini' man walking away from a woman sleeping on a couch. Amber, 1610, British Museum, London · public domain"
   },
   {
    "ch": "Chapter XVIII",
