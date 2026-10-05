@@ -2,7 +2,7 @@
 
 CURRENT OBJECTIVE: native Android (Kotlin + Compose, one Java class) flashcard reader for old books. Shelf: The Prince (52), 48 Laws of Power digest (48), The Art of War (26), Bhagavad Gita (25).
 
-STATUS: v1.0 built, signed release APK at ~/Desktop/Folio.apk (also app/build/outputs/apk/release/).
+STATUS: v1.1 released at github.com/purvalsingh/folio (public). In-app updater + online library live. v1.0 built, signed release APK at ~/Desktop/Folio.apk (also app/build/outputs/apk/release/).
 
 COMPLETED
 - 52 cards of The Prince (Marriott 1908, Gutenberg #1232): plain summaries + verbatim quotes (auto-verified) + 55 glossary forms.
@@ -13,6 +13,8 @@ COMPLETED
 - Bind (import) a PDF: PdfBox text -> Distiller.java (offline extractive) or Gemini (plain-English, quote verified against text); plates = real page facsimiles; per-era typefaces.
 
 DECISIONS
+- Updates: app fetches raw.githubusercontent.com/purvalsingh/folio/main/library/catalog.json on launch. App releases = GitHub Releases APK (sha256-checked, system installer). Books = library/books + library/img, auto-updated when catalog version > local. Release with ./release.sh <ver> "notes" or ./release.sh books. Bump a book's "version" in its *_content.py to push a corrected edition.
+- Signing key ~/.folio-signing is the ONLY key that can update installed copies — back it up.
 - 48 Laws is copyrighted (Greene 1998): original summaries + PD quotes (Machiavelli/Sun Tzu/Gracián/La Rochefoucauld), each card carries qBy attribution. Never ship Greene's text.
 - Content scripts: research/{prince,laws,artofwar,gita}_content.py via folio_build.py (quote verifier; fuzzy only for OCR'd Gracián). Plates: research/commons.py <book> with queries.json.
 - No Room/Navigation libs: state in one JSON in SharedPreferences, routes as a sealed interface.
