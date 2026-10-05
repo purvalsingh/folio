@@ -161,6 +161,9 @@ private sealed interface Route {
     data class Read(val bookId: String, val idx: Int) : Route
     data object Bind : Route
     data object Account : Route
+    data object Recall : Route
+    data class Trip(val id: String) : Route
+    data class TripDay(val id: String, val day: Int) : Route
 }
 
 class MainActivity : ComponentActivity() {
@@ -197,7 +200,13 @@ private fun Root(app: App) {
     var route by remember { mutableStateOf<Route>(Route.Home) }
     var tab by rememberSaveable { mutableStateOf(Tab.LIBRARY) }
     val open: (Book, Int) -> Unit = { b, i -> route = Route.Read(b.id, i) }
-    androidx.compose.runtime.LaunchedEffect(Unit) { app.refresh() }
+    val ctx = LocalContext.current
+    androidx.compose.runtime.LaunchedEffect(Unit) {
+        app.refresh()
+        QuoteWidget.refreshAll(ctx)
+        Reminder.schedule(ctx, app.store.remind, app.store.remindHour)
+    }
+    fun journey(id: String) = app.journeys(ctx).firstOrNull { it.id == id }
 
     Box(Modifier.fillMaxSize().paper(ink.page, ink)) {
         AnimatedContent(route, transitionSpec = {
@@ -216,6 +225,20 @@ private fun Root(app: App) {
                     BackHandler { route = Route.Home }
                     AccountScreen(app) { route = Route.Home }
                 }
+                Route.Recall -> {
+                    BackHandler { route = Route.Home }
+                    RecallScreen(app) { route = Route.Home }
+                }
+                is Route.Trip -> {
+                    val j = journey(r.id)
+                    BackHandler { route = Route.Home }
+                    if (j == null) route = Route.Home else JourneyScreen(app, j, back = { route = Route.Home }, read = { d -> route = Route.TripDay(j.id, d) })
+                }
+                is Route.TripDay -> {
+                    val j = journey(r.id)
+                    BackHandler { route = Route.Trip(r.id) }
+                    if (j == null) route = Route.Home else JourneyReader(app, j, r.day) { route = Route.Trip(r.id) }
+                }
                 Route.Bind -> {
                     BackHandler { route = Route.Home }
                     BindScreen(app, onBack = { route = Route.Home }, onBound = { b -> open(b, 0) })
@@ -224,7 +247,8 @@ private fun Root(app: App) {
                     Box(Modifier.weight(1f)) {
                         AnimatedContent(tab, transitionSpec = { fadeIn(tween(220)) togetherWith fadeOut(tween(120)) }, label = "tab") { t ->
                             when (t) {
-                                Tab.LIBRARY -> BookcaseScreen(app, open) { route = Route.Bind }
+                                Tab.LIBRARY -> BookcaseScreen(app, open, bind = { route = Route.Bind }, recall = { route = Route.Recall },
+                                    journey = { route = Route.Trip(it.id) })
                                 Tab.LEXICON -> LexiconScreen(app)
                                 Tab.QUOTES -> CommonplaceScreen(app, open)
                                 Tab.MARKS -> MarksScreen(app, open)

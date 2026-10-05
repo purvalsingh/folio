@@ -1,0 +1,95 @@
+{
+ "id": "kural",
+ "title": "The Thirukkural",
+ "short": "Tiruvalluvar",
+ "author": "Tiruvalluvar",
+ "year": "c. 300 BC–500 AD",
+ "translator": "V. V. S. Aiyar, 1916 (public domain; archive.org)",
+ "era": "indic",
+ "shelf": "Indian Wisdom",
+ "blurb": "1,330 two-line couplets from Tamil Nadu on virtue, wealth and love — the 'universal scripture' of South India.",
+ "version": 1,
+ "cover": "kural_cover",
+ "glossary": {
+  "knowledge": {
+   "m": "What you know and understand.",
+   "e": "Her knowledge of plants saved the garden."
+  },
+  "garment": {
+   "m": "A piece of clothing.",
+   "e": "She folded each garment neatly."
+  },
+  "instinctively": {
+   "m": "Without thinking; naturally.",
+   "e": "He instinctively ducked when the ball flew past."
+  }
+ },
+ "cards": [
+  {
+   "ch": "Couplet 1",
+   "chTitle": "In Praise of the Lord",
+   "title": "A is the first letter",
+   "text": "The Kural opens with a famous image: as 'A' begins every alphabet, so the divine begins everything that exists.",
+   "quote": "A is the starting-point of the world of sound",
+   "qMean": "Just as 'A' starts every alphabet…",
+   "qLife": "Every great journey begins with a first, simple step.",
+   "img": "kural_01",
+   "cap": "Palm-leaf style manuscript, 16th century · public domain"
+  },
+  {
+   "ch": "Couplet 100",
+   "chTitle": "Sweet Speech",
+   "title": "Why choose harsh words?",
+   "text": "Using hard words when gentle ones would work is like choosing unripe fruit over ripe.",
+   "quote": "Behold the man who useth hard words when sweet ones serve : he preferreth the unripe fruit to the ripe.",
+   "qMean": "Choosing harsh words over kind ones is foolish.",
+   "qLife": "Snapping at a waiter when a polite word would work better.",
+   "img": "kural_02",
+   "cap": "A mango bird on a branch · public domain"
+  },
+  {
+   "ch": "Couplet 314",
+   "chTitle": "Not Doing Evil",
+   "title": "Shame them with kindness",
+   "text": "The best punishment for those who hurt you: do them a good turn, so they feel ashamed.",
+   "quote": "Let him do them a good turn and make them ashamed in their hearts.",
+   "qMean": "Answer people who hurt you with kindness.",
+   "qLife": "Helping a neighbour who once complained about you.",
+   "img": "kural_03",
+   "cap": "Raja Ravi Varma, Mandodari · public domain"
+  },
+  {
+   "ch": "Couplet 396",
+   "chTitle": "Learning",
+   "title": "Knowledge is a spring",
+   "text": "Knowledge is like water from a sand-spring: the more you dig, the more freely it flows.",
+   "quote": "Knowledge is like unto a sand-spring: the more thou diggest and drawest thereat, the more excellent is the flow thereof.",
+   "qMean": "The more you learn, the more you're able to learn.",
+   "qLife": "Learning a second language makes the third easier.",
+   "img": "kural_04",
+   "cap": "Encounter at the well, Indian painting · public domain"
+  },
+  {
+   "ch": "Couplet 664",
+   "chTitle": "Firmness in Action",
+   "title": "Saying vs doing",
+   "text": "Anyone can say a thing; doing it as promised is rare.",
+   "quote": "To say a thing is easy for any man : but to do it in the manner undertaken is a rare thing indeed.",
+   "qMean": "Talking is easy; doing what you promised is rare.",
+   "qLife": "Everyone plans to start the gym; few actually go.",
+   "img": "kural_05",
+   "cap": "A blacksmith, gouache on mica · public domain"
+  },
+  {
+   "ch": "Couplet 788",
+   "chTitle": "Friendship",
+   "title": "Like a hand catching a slipping cloth",
+   "text": "A true friend rushes to help in trouble as instinctively as your hand grabs a garment blown loose.",
+   "quote": "Behold the hand of the man whose garment bath been blown aside",
+   "qMean": "A real friend helps instantly, without being asked.",
+   "qLife": "The friend who shows up at the hospital before you call.",
+   "img": "kural_06",
+   "cap": "Krishna welcoming Sudama, Bhagavata Purana · public domain"
+  }
+ ]
+}

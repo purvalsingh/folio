@@ -38,6 +38,8 @@ import androidx.compose.material.icons.filled.FormatQuote
 import androidx.compose.material.icons.outlined.BookmarkBorder
 import androidx.compose.material.icons.outlined.FormatQuote
 import androidx.compose.material.icons.outlined.Lightbulb
+import androidx.compose.material.icons.automirrored.filled.VolumeOff
+import androidx.compose.material.icons.automirrored.outlined.VolumeUp
 import androidx.compose.material.icons.outlined.Share
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
@@ -86,12 +88,42 @@ fun Reader(app: App, book: Book, start: Int, onBack: () -> Unit) {
     var word by remember { mutableStateOf<Gloss?>(null) }
     var contents by remember { mutableStateOf(false) }
     var explain by remember { mutableStateOf<Int?>(null) }
+    var checkFor by remember { mutableStateOf<Int?>(null) }
+    val ctx = LocalContext.current
+    // read-aloud with the phone's own voice: offline, free
+    var speaking by remember { mutableStateOf(false) }
+    // the voice engine starts on first use only, so pages that are never read aloud cost nothing
+    val tts = remember { arrayOfNulls<android.speech.tts.TextToSpeech>(1) }
+    fun say(text: String) {
+        tts[0]?.let { it.speak(text, android.speech.tts.TextToSpeech.QUEUE_FLUSH, null, "folio"); return }
+        var t: android.speech.tts.TextToSpeech? = null
+        t = android.speech.tts.TextToSpeech(ctx) { ok ->
+            if (ok == android.speech.tts.TextToSpeech.SUCCESS) {
+                t?.language = java.util.Locale.UK; t?.setSpeechRate(0.95f)
+                t?.speak(text, android.speech.tts.TextToSpeech.QUEUE_FLUSH, null, "folio")
+            } else speaking = false
+        }
+        t.setOnUtteranceProgressListener(object : android.speech.tts.UtteranceProgressListener() {
+            override fun onStart(id: String?) {}
+            override fun onDone(id: String?) { speaking = false }
+            @Deprecated("") override fun onError(id: String?) { speaking = false }
+        })
+        tts[0] = t
+    }
+    androidx.compose.runtime.DisposableEffect(Unit) { onDispose { tts[0]?.run { stop(); shutdown() } } }
+    /** after a page is sealed: if that finished its chapter, offer the chapter check */
+    fun afterSeal(i: Int) {
+        val start = book.chapterStarts.lastOrNull { it <= i } ?: return
+        val end = book.chapterStarts.firstOrNull { it > start } ?: book.cards.size
+        if ((start until end).all { store.isSealed(book.id, it) } && "${book.id}#$start" !in store.checked && end - start >= 1) checkFor = start
+    }
 
     LaunchedEffect(pager) {
         var page = pager.currentPage
         var since = System.currentTimeMillis()
         snapshotFlow { pager.currentPage }.collect { p ->
             if (p == page + 1 && System.currentTimeMillis() - since >= DWELL_MS) store.seal(book, page, app.books)
+            if (speaking) { tts[0]?.stop(); speaking = false }
             page = p; since = System.currentTimeMillis()
             store.setPosition(book.id, p)
         }
@@ -106,6 +138,16 @@ fun Reader(app: App, book: Book, start: Int, onBack: () -> Unit) {
                     maxLines = 1, overflow = TextOverflow.Ellipsis)
                 Text("Folio ${pager.currentPage + 1} of ${book.cards.size}", fontFamily = Fonts.fell, fontStyle = FontStyle.Italic,
                     fontSize = 12.sp, color = ink.faded)
+            }
+            IconButton(onClick = {
+                if (speaking) { tts[0]?.stop(); speaking = false } else {
+                    val c = book.cards[pager.currentPage]
+                    say("${c.title}. ${c.text} … ${c.quote}")
+                    speaking = true
+                }
+            }) {
+                Icon(if (speaking) Icons.AutoMirrored.Filled.VolumeOff else Icons.AutoMirrored.Outlined.VolumeUp,
+                    if (speaking) "Stop reading aloud" else "Read aloud", tint = if (speaking) ink.rubric else ink.ink)
             }
             IconButton(onClick = { contents = true }) { Icon(Icons.AutoMirrored.Outlined.MenuBook, "Contents", tint = ink.ink) }
             val id = book.cardId(pager.currentPage)
@@ -143,12 +185,22 @@ fun Reader(app: App, book: Book, start: Int, onBack: () -> Unit) {
                 transformOrigin = androidx.compose.ui.graphics.TransformOrigin(if (off > 0) 1f else 0f, 0.5f)
             }) {
                 FolioCard(app, book, i, onWord = { word = it }, onQuote = { explain = i }, onSealed = {
-                    scope.launch { delay(650); if (i + 1 < book.cards.size) pager.animateScrollToPage(i + 1, animationSpec = tween(520)) }
+                    afterSeal(i)
+                    scope.launch { delay(650); if (checkFor == null && i + 1 < book.cards.size) pager.animateScrollToPage(i + 1, animationSpec = tween(520)) }
                 })
             }
         }
     }
 
+    checkFor?.let { s ->
+        ModalBottomSheet(onDismissRequest = { checkFor = null }, containerColor = ink.paper) {
+            ChapterCheck(app, book, s) {
+                checkFor = null
+                val next = book.chapterStarts.firstOrNull { it > s }
+                if (next != null) scope.launch { pager.animateScrollToPage(next) }
+            }
+        }
+    }
     explain?.let { i ->
         ModalBottomSheet(onDismissRequest = { explain = null }, containerColor = ink.paper) { QuoteSheet(app, book, i) }
     }
@@ -177,7 +229,10 @@ fun Reader(app: App, book: Book, start: Int, onBack: () -> Unit) {
                             Text(c.ch.uppercase(), fontFamily = Fonts.fellSc, fontSize = 12.sp, color = ink.rubric, letterSpacing = 1.5.sp)
                             Text(c.chTitle, fontFamily = book.era.body, fontSize = 17.sp, color = ink.ink)
                         }
-                        Text("$read/${end - s}", fontFamily = Fonts.fell, fontSize = 13.sp,
+                        val passed = "${book.id}#$s" in store.checked
+                        if (read == end - s && !passed) Text("check ›", fontFamily = Fonts.fellSc, fontSize = 13.sp, color = ink.rubric,
+                            modifier = Modifier.clickable { contents = false; checkFor = s }.padding(end = 10.dp))
+                        Text(if (passed) "✦ $read/${end - s}" else "$read/${end - s}", fontFamily = Fonts.fell, fontSize = 13.sp,
                             color = if (read == end - s) ink.rubric else ink.faded)
                     }
                 }
@@ -187,7 +242,7 @@ fun Reader(app: App, book: Book, start: Int, onBack: () -> Unit) {
 }
 
 @Composable
-private fun FolioCard(app: App, book: Book, i: Int, onWord: (Gloss) -> Unit, onQuote: () -> Unit, onSealed: () -> Unit) {
+internal fun FolioCard(app: App, book: Book, i: Int, onWord: (Gloss) -> Unit, onQuote: () -> Unit, onSealed: () -> Unit) {
     val ink = LocalInk.current
     val store = app.store
     val c = book.cards[i]
@@ -195,7 +250,8 @@ private fun FolioCard(app: App, book: Book, i: Int, onWord: (Gloss) -> Unit, onQ
     val haptic = LocalHapticFeedback.current
     val era = book.era
     val chapterStart = i in book.chapterStarts
-    val body = TextStyle(fontFamily = era.body, fontSize = 18.sp, lineHeight = 27.sp, color = ink.ink)
+    val ts = store.textScale; val ls = store.lineScale
+    val body = TextStyle(fontFamily = era.body, fontSize = (18 * ts).sp, lineHeight = (27 * ts * ls).sp, color = ink.ink)
     val sealedNow = remember(store.tick) { store.isSealed(book.id, i) }
 
     Column(
@@ -225,7 +281,7 @@ private fun FolioCard(app: App, book: Book, i: Int, onWord: (Gloss) -> Unit, onQ
             Fleuron(glyph = era.fleuron)
             Spacer(Modifier.height(10.dp))
             val q = remember(c.quote, ink) { glossed("“${c.quote}”", book.glossary, ink, onWord) }
-            Text(q, fontFamily = era.body, fontStyle = FontStyle.Italic, fontSize = 20.sp, lineHeight = 29.sp,
+            Text(q, fontFamily = era.body, fontStyle = FontStyle.Italic, fontSize = (20 * ts).sp, lineHeight = (29 * ts * ls).sp,
                 color = ink.ink, textAlign = TextAlign.Center, modifier = Modifier.fillMaxWidth().clickable(onClick = onQuote))
             Text(if (c.qBy.isNotBlank()) "— ${c.qBy}" else "— ${book.short}, ${c.ch}", fontFamily = Fonts.fellSc, fontSize = 12.sp,
                 color = ink.faded, textAlign = TextAlign.Center, modifier = Modifier.fillMaxWidth().padding(top = 6.dp))
@@ -235,10 +291,7 @@ private fun FolioCard(app: App, book: Book, i: Int, onWord: (Gloss) -> Unit, onQ
                     Icon(if (kept) Icons.Filled.FormatQuote else Icons.Outlined.FormatQuote,
                         if (kept) "Remove from Commonplace Book" else "Keep this quote", tint = if (kept) ink.rubric else ink.faded)
                 }
-                IconButton(onClick = {
-                    ctx.startActivity(Intent.createChooser(Intent(Intent.ACTION_SEND).setType("text/plain")
-                        .putExtra(Intent.EXTRA_TEXT, "“${c.quote}”\n— ${c.attribution(book)}"), "Share quote"))
-                }) { Icon(Icons.Outlined.Share, "Share quote", tint = ink.faded) }
+                IconButton(onClick = { CardArt.share(ctx, book, i) }) { Icon(Icons.Outlined.Share, "Share quote as a picture", tint = ink.faded) }
             }
             Row(Modifier.fillMaxWidth().clip(RoundedCornerShape(50)).clickable(onClick = onQuote).padding(vertical = 4.dp),
                 horizontalArrangement = Arrangement.Center, verticalAlignment = Alignment.CenterVertically) {
@@ -306,12 +359,13 @@ fun WordSheet(app: App, g: Gloss, bookId: String) {
             Text("Consulting the dictionary…", fontFamily = Fonts.fell, fontStyle = FontStyle.Italic, color = ink.faded, fontSize = 16.sp)
         } else {
             Text("MEANING", fontFamily = Fonts.fellSc, fontSize = 12.sp, letterSpacing = 2.sp, color = ink.rubric)
-            Text(e.meaning, fontFamily = Fonts.fell, fontSize = 19.sp, lineHeight = 27.sp, color = ink.ink)
+            Text(e.meaning, fontFamily = Fonts.fell, fontSize = (19 * store.textScale).sp, lineHeight = (27 * store.textScale).sp, color = ink.ink)
             if (e.example.isNotBlank()) {
                 Spacer(Modifier.height(14.dp))
                 Text("IN DAILY LIFE", fontFamily = Fonts.fellSc, fontSize = 12.sp, letterSpacing = 2.sp, color = ink.rubric)
                 Text("“${e.example}”", fontFamily = Fonts.fell, fontStyle = FontStyle.Italic, fontSize = 18.sp, lineHeight = 26.sp, color = ink.ink)
             }
+            if (store.hindi) HindiBlock(e.meaning, e.example)
             Spacer(Modifier.height(20.dp))
             val has = remember(store.lexicon.size) { store.hasWord(e.word) }
             AnimatedVisibility(true, enter = fadeIn() + scaleIn()) {
@@ -352,6 +406,7 @@ fun QuoteSheet(app: App, book: Book, i: Int) {
                     Text("IN DAILY LIFE", fontFamily = Fonts.fellSc, fontSize = 12.sp, letterSpacing = 2.sp, color = ink.rubric)
                     Text(e.second, fontFamily = Fonts.fell, fontStyle = FontStyle.Italic, fontSize = 18.sp, lineHeight = 26.sp, color = ink.ink)
                 }
+                if (store.hindi) HindiBlock(e.first, e.second)
             }
             store.geminiKey.isNotBlank() -> Text("Translating into plain English…", fontFamily = Fonts.fell, fontStyle = FontStyle.Italic, color = ink.faded, fontSize = 16.sp)
             else -> Text("Plain-English explanations for your own imported books need the optional Gemini key (Honours → Plain-English helper).",
@@ -367,6 +422,28 @@ fun QuoteSheet(app: App, book: Book, i: Int) {
         ) {
             Text(if (kept) "✓ In your Commonplace Book" else "Keep this quote", fontFamily = Fonts.fellSc,
                 fontSize = 16.sp, letterSpacing = 1.sp, color = if (kept) ink.rubric else ink.paper)
+        }
+    }
+}
+
+/** The same meaning and example in simple Hindi, translated on the phone. */
+@Composable
+fun HindiBlock(meaning: String, example: String) {
+    val ink = LocalInk.current
+    val hi by produceState<Pair<String, String>?>(null, meaning, example) {
+        val m = Hindi.of(meaning); val x = Hindi.of(example)
+        value = if (m == null) "" to "" else m to (x ?: "")
+    }
+    Spacer(Modifier.height(14.dp))
+    Text("हिंदी में", fontFamily = Fonts.tiro, fontSize = 14.sp, color = ink.rubric)
+    val h = hi
+    when {
+        h == null -> Text("अनुवाद हो रहा है…", fontFamily = Fonts.tiro, fontSize = 15.sp, color = ink.faded)
+        h.first.isBlank() -> Text("Hindi needs a one-time download — connect to the internet.", fontFamily = Fonts.fell, fontSize = 14.sp, color = ink.faded)
+        else -> {
+            Text(h.first, fontFamily = Fonts.tiro, fontSize = 18.sp, lineHeight = 28.sp, color = ink.ink)
+            if (h.second.isNotBlank()) Text("“${h.second}”", fontFamily = Fonts.tiro, fontStyle = FontStyle.Italic, fontSize = 16.sp, lineHeight = 25.sp,
+                color = ink.faded, modifier = Modifier.padding(top = 4.dp))
         }
     }
 }

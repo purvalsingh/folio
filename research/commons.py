@@ -46,7 +46,7 @@ if sys.argv[1:] and not sys.argv[1][0].isdigit():
 ids = sys.argv[1:] or list(Q)
 credits = json.loads(pathlib.Path("commons/credits.json").read_text()) if pathlib.Path("commons/credits.json").exists() else {}
 for i in ids:
-    q = Q[i]; skip = 0
+    skip = 0; q = Q.get(i)
     if ":" in i: i, skip = i.split(":")[0], int(i.split(":")[1]); q = Q[i]
     r = pick(q, skip)
     if not r: print(i, "NONE", q); continue

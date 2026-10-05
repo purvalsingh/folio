@@ -1062,5 +1062,285 @@
  "habit_04": {
   "file": "File:Houghton Ticka Pocket Watch Style Camera (disguised Camera Manufactured From 1905; USED 16 X 22mm Special Cassette Film; Fixed Focus F16-30mm Meniscus Lens; I and T Shutter) MH30123.jpg",
   "license": "Public domain"
+ },
+ "franklin_cover": {
+  "file": "File:Benjamin Franklin after Joseph Siffred Duplessis.jpg",
+  "license": "Public domain"
+ },
+ "franklin_01": {
+  "file": "File:Benjamin Franklin as an apprentice.jpg",
+  "license": "Public domain"
+ },
+ "franklin_02": {
+  "file": "File:Benjamin Franklin at the Court of France - NARA - 518217.jpg",
+  "license": "Public domain"
+ },
+ "franklin_03": {
+  "file": "File:Page from 18th Century almanac- t.p. of Continental Almanac...1780; allegorical patriotic illus. LCCN2006687380.jpg",
+  "license": "Public domain"
+ },
+ "franklin_04": {
+  "file": "File:Poor Richard's Almanac, 1733, cover.jpg",
+  "license": "Public domain"
+ },
+ "franklin_05": {
+  "file": "File:Franklin the printer2.jpg",
+  "license": "Public domain"
+ },
+ "franklin_06": {
+  "file": "File:Christian Schussele - Benjamin Franklin Appearing before the Privy Council.jpg",
+  "license": "Public domain"
+ },
+ "chesterfield_cover": {
+  "file": "File:William Hoare - Portrait of Philip Dormer Stanhope, Fourth Earl of Chesterfield, K. G. - 54.171 - Rhode Island School of Design Museum.jpg",
+  "license": "Public domain"
+ },
+ "chesterfield_01": {
+  "file": "File:Watch MET DP-12739-101.jpg",
+  "license": "CC0"
+ },
+ "chesterfield_02": {
+  "file": "File:William Hogarth (1697-1764) - The Hervey Conversation Piece, 'The Holland House Group' - 851983 - National Trust.jpg",
+  "license": "Public domain"
+ },
+ "chesterfield_03": {
+  "file": "File:The York-Minuet Met DP889949.jpg",
+  "license": "CC0"
+ },
+ "chesterfield_04": {
+  "file": "File:Lord and lady walking with figure of death hiding behind a tree, holding an hourglass, after Dürer MET DP820345.jpg",
+  "license": "CC0"
+ },
+ "chesterfield_06": {
+  "file": "File:William Hogarth - A Rake's Progress - Tavern Scene.jpg",
+  "license": "Public domain"
+ },
+ "onwar_cover": {
+  "file": "File:Clausewitz.jpg",
+  "license": "Public domain"
+ },
+ "onwar_01": {
+  "file": "File:Battle of 13 March 1806.jpg",
+  "license": "Public domain"
+ },
+ "onwar_02": {
+  "file": "File:Congresso de Viena, 1819.jpg",
+  "license": "Public domain"
+ },
+ "onwar_03": {
+  "file": "File:Adolphe Yvon (1817-1893) - Marshall Ney at retreat in Russia.jpg",
+  "license": "Public domain"
+ },
+ "livy_cover": {
+  "file": "File:Portret van Titus Livius, RP-P-1958-49.jpg",
+  "license": "CC0"
+ },
+ "livy_01": {
+  "file": "File:Cesare Maccari. Appius Claudius Caecus in senate.jpg",
+  "license": "Public domain"
+ },
+ "livy_02": {
+  "file": "File:Forum and Column of Trajan restored (Ancient Rome) engraving.jpg",
+  "license": "Public domain"
+ },
+ "livy_03": {
+  "file": "File:Bustes van Lucius Junius Brutus en Marcus Junius Brutus, RP-P-OB-23.334.jpg",
+  "license": "CC0"
+ },
+ "republic_cover": {
+  "file": "File:\"The School of Athens\" by Raffaello Sanzio da Urbino.jpg",
+  "license": "Public domain"
+ },
+ "republic_01": {
+  "file": "File:Bust Socrates Musei Capitolini MC1163.jpg",
+  "license": "Public domain"
+ },
+ "republic_02": {
+  "file": "File:Rural Scene - Nationalmuseum - 23752.tif",
+  "license": "Public domain"
+ },
+ "republic_03": {
+  "file": "File:Attic Red-figure Ceramic Kylix, by Douris, depicting School for Privileged Pupils, c. 480 BC, found in Cerveteri, Italy (28454187850).jpg",
+  "license": "CC0"
+ },
+ "republic_04": {
+  "file": "File:David - The Death of Socrates.jpg",
+  "license": "Public domain"
+ },
+ "republic_05": {
+  "file": "File:Platon Cave Sanraedam 1604.jpg",
+  "license": "Public domain"
+ },
+ "ovid_cover": {
+  "file": "File:Allegorische titelpagina met portret van Publius Ovidius Naso Titelpagina voor Publius Ovidius Naso, Metamorphosis, 1637, RP-P-1964-3401.jpg",
+  "license": "CC0"
+ },
+ "ovid_01": {
+  "file": "File:Mongez Mars et Venus.jpg",
+  "license": "Public domain"
+ },
+ "ovid_02": {
+  "file": "File:Vénus et Adonis (Nicolas Poussin).jpg",
+  "license": "Public domain"
+ },
+ "ovid_04": {
+  "file": "File:Hercules and Omphale by F.Goya.jpg",
+  "license": "Public domain"
+ },
+ "ovid_05": {
+  "file": "File:Francesco Bartolozzi - Nymph and Cupid - B1977.14.19762 - Yale Center for British Art.jpg",
+  "license": "CC0"
+ },
+ "emerson_cover": {
+  "file": "File:Ralph Waldo Emerson MET DP225540.jpg",
+  "license": "CC0"
+ },
+ "emerson_01": {
+  "file": "File:Caspar David Friedrich - Wanderer above the sea of fog.jpg",
+  "license": "Public domain"
+ },
+ "emerson_02": {
+  "file": "File:Walden Pond.jpg",
+  "license": "Public domain"
+ },
+ "emerson_03": {
+  "file": "File:Autumn Landscape on the Hudson River, by Jasper Francis Cropsey.jpg",
+  "license": "Public domain"
+ },
+ "emerson_04": {
+  "file": "File:Galileo before the Holy Office.jpg",
+  "license": "Public domain"
+ },
+ "emerson_05": {
+  "file": "File:Two Friends by Oliver Ingraham Lay (1877).jpg",
+  "license": "Public domain"
+ },
+ "emerson_06": {
+  "file": "File:Frank Bernard Dicksee - Romeo and Juliet, 1884.jpg",
+  "license": "Public domain"
+ },
+ "seneca_cover": {
+  "file": "File:Bust of Pseudo-Seneca MET DP359039.jpg",
+  "license": "CC0"
+ },
+ "seneca_01": {
+  "file": "File:Adriaen Coorte - Vanitas Still Life with skull and hourglass.jpg",
+  "license": "Public domain"
+ },
+ "seneca_02": {
+  "file": "File:Coronation Banquet of Joseph II in Frankfurt.jpg",
+  "license": "Public domain"
+ },
+ "seneca_03": {
+  "file": "File:Manuel Domínguez Sánchez - El suicidio de Séneca.jpg",
+  "license": "Public domain"
+ },
+ "seneca_04": {
+  "file": "File:Johannes Lingelbach (1622-1674) (possibly) - Roman Street Scene with Card Players - L896 - National Gallery.jpg",
+  "license": "Public domain"
+ },
+ "panchatantra_cover": {
+  "file": "File:18th century Panchatantra manuscript page, the talkative turtle.jpg",
+  "license": "Public domain"
+ },
+ "panchatantra_01": {
+  "file": "File:Kalila-wa-Dimna 1.jpg",
+  "license": "Public domain"
+ },
+ "panchatantra_02": {
+  "file": "File:Dimna presents himself to the lion. Kalila and Dimna, 1375-1385 (Topkapi, H.362).jpg",
+  "license": "Public domain"
+ },
+ "panchatantra_03": {
+  "file": "File:The monkeys outwitting the bears - Anvar-i Suhayli (1600-1601), f.124v - BL Or. 6317.jpg",
+  "license": "CC0"
+ },
+ "hitopadesa_cover": {
+  "file": "File:The Hitopadesa or book of good council, a Sikh book of fables, signed by Pandit Diya Ram, North India, Punjab, Ludhiana, dated 1280 AH (1864 AD) 03.jpg",
+  "license": "Public domain"
+ },
+ "hitopadesa_02": {
+  "file": "File:India, Mughal, Reign of Akbar, 16th century - Page from Tales of a Parrot (Tuti-nama)- Fiftieth night- The merchant retur - 1962.279.318.b - Cleveland Museum of Art.jpg",
+  "license": "CC0"
+ },
+ "hitopadesa_03": {
+  "file": "File:Krishna with flute.jpg",
+  "license": "CC0"
+ },
+ "hitopadesa_04": {
+  "file": "File:'Courtier Raja Anup Rai Intercepting a Lion Attack, with Mughal Emperor Jahangir and Prince Khurram', by Abu’l Hasan, ca.1611–1630.jpg",
+  "license": "Public domain"
+ },
+ "kural_cover": {
+  "file": "File:Thiruvalluvar (Likely Representation).jpg",
+  "license": "CC0"
+ },
+ "kural_03": {
+  "file": "File:Mandodari, by Raja Ravi Varma (cropped).jpg",
+  "license": "Public domain"
+ },
+ "kural_05": {
+  "file": "File:Gouache painting on mica of a blacksmith.jpg",
+  "license": "Public domain"
+ },
+ "kural_06": {
+  "file": "File:Krishna welcoming Sudama, from a Bhagavata Purna - Google Art Project.jpg",
+  "license": "Public domain"
+ },
+ "speaking_02": {
+  "file": "File:Grazing Horses IV, Three Red Horses, Franz Marc, 1911.jpg",
+  "license": "Public domain"
+ },
+ "speaking_03": {
+  "file": "File:Bibliotheque Mazarine - Salle de lecture 19e.JPG",
+  "license": "Public domain"
+ },
+ "speaking_04": {
+  "file": "File:William Hogarth - The Sleeping Congregation - 58.10 - Minneapolis Institute of Arts.jpg",
+  "license": "Public domain"
+ },
+ "speaking_05": {
+  "file": "File:Greece from the Coming of the Hellenes to AD. 14, page 219, Demosthenes.jpg",
+  "license": "CC0"
+ },
+ "chesterfield_05": {
+  "file": "File:Wanstead Assembly at Wanstead House by Hogarth.jpg",
+  "license": "Public domain"
+ },
+ "onwar_04": {
+  "file": "File:George Jones (1786-1869) - Battle of Borodino - N00391 - National Gallery.jpg",
+  "license": "Public domain"
+ },
+ "ovid_03": {
+  "file": "File:Fresco showing a woman so-called Sappho holding writing implements, from Pompeii, Naples National Archaeological Museum (14842101892) restored.jpg",
+  "license": "Public domain"
+ },
+ "hitopadesa_01": {
+  "file": "File:\"The Attack on the Camel by the Lion, Crow, Wolf, and Jackal\", Folio from a Kalila wa Dimna MET DP300742.jpg",
+  "license": "CC0"
+ },
+ "kural_01": {
+  "file": "File:Newar Language Manuscript from 16th century.jpg",
+  "license": "Public domain"
+ },
+ "kural_02": {
+  "file": "File:A Mango Bird (Oriolus kundoo) Perched on a Branch of a Tree (6125140902).jpg",
+  "license": "Public domain"
+ },
+ "kural_04": {
+  "file": "File:Unknown (Indian) - Encounter at the Well - 71.327.A - Detroit Institute of Arts.jpg",
+  "license": "Public domain"
+ },
+ "speaking_cover": {
+  "file": "File:William-Jennings-Bryan-speaking-c1896.jpeg",
+  "license": "Public domain"
+ },
+ "panchatantra_04": {
+  "file": "File:Weeks Edwin Arrival Of Prince Humbert The Rajah At The Palace Of Amber.jpg",
+  "license": "Public domain"
+ },
+ "speaking_01": {
+  "file": "File:Robert Dighton - The Specious Orator - 6808.jpg",
+  "license": "Public domain"
  }
 }

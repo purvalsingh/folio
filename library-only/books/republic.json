@@ -1,0 +1,84 @@
+{
+ "id": "republic",
+ "title": "The Republic",
+ "short": "Plato",
+ "author": "Plato",
+ "year": "c. 375 BC",
+ "translator": "Benjamin Jowett (public domain, Project Gutenberg #1497)",
+ "era": "ancient",
+ "shelf": "War & Statecraft",
+ "blurb": "Socrates asks what justice is — and imagines a whole city to find out. Home of the cave, the ring of invisibility and the philosopher-king.",
+ "version": 1,
+ "cover": "republic_cover",
+ "glossary": {
+  "justice": {
+   "m": "Fairness; giving each what is right.",
+   "e": "Justice was served when the thief returned the bike."
+  },
+  "philosophers": {
+   "m": "Lovers of wisdom; deep thinkers.",
+   "e": "Philosophers argue about what makes life good."
+  },
+  "den": {
+   "m": "A cave or hidden room.",
+   "e": "The bear slept in its den."
+  }
+ },
+ "cards": [
+  {
+   "ch": "Book I",
+   "chTitle": "Thrasymachus",
+   "title": "Might is right?",
+   "text": "A brash teacher, Thrasymachus, claims justice is just whatever benefits the strong. Socrates spends the whole book proving him wrong.",
+   "quote": "justice the interest of the stronger",
+   "qMean": "Some argue 'justice' is just what helps the powerful.",
+   "qLife": "When rules seem written to protect the rich.",
+   "img": "republic_01",
+   "cap": "Bust of Socrates, Capitoline Museums · public domain"
+  },
+  {
+   "ch": "Book II",
+   "chTitle": "The Ring of Gyges",
+   "title": "If no one could see you",
+   "text": "A shepherd finds a ring that makes him invisible — and uses it for crime. Would anyone stay good if they could never be caught?",
+   "quote": "every one will do evil if he can.",
+   "qMean": "Some say everyone would do wrong if they couldn't be caught.",
+   "qLife": "Would you return extra change if no one would ever know?",
+   "img": "republic_02",
+   "cap": "A shepherd's rural scene · public domain"
+  },
+  {
+   "ch": "Book II",
+   "chTitle": "Education",
+   "title": "Beginnings matter most",
+   "text": "Childhood shapes character more than anything later, so what children hear and see must be chosen with care.",
+   "quote": "the beginning is the most important part of any work",
+   "qMean": "The start of anything matters most.",
+   "qLife": "Good habits learned young last a lifetime.",
+   "img": "republic_03",
+   "cap": "Douris, red-figure school cup, c. 480 BC · public domain"
+  },
+  {
+   "ch": "Book V",
+   "chTitle": "Philosopher-Kings",
+   "title": "Wise rulers",
+   "text": "Plato's boldest claim: cities will have no rest from trouble until philosophers rule or rulers become philosophers.",
+   "quote": "philosophers are kings",
+   "qMean": "Leaders should be truly wise people.",
+   "qLife": "Wishing your city's mayor were an expert, not a celebrity.",
+   "img": "republic_04",
+   "cap": "David - The Death of Socrates · public domain"
+  },
+  {
+   "ch": "Book VII",
+   "chTitle": "The Cave",
+   "title": "The cave",
+   "text": "Prisoners chained in a cave see only shadows on a wall and think that is reality. One escapes into sunlight — and when he returns, no one believes him.",
+   "quote": "human beings living in an underground den which is open towards the light",
+   "qMean": "Most people mistake shadows for reality.",
+   "qLife": "Believing social-media highlights are what people's lives are really like.",
+   "img": "republic_05",
+   "cap": "Jan Saenredam, Plato's Cave, 1604 · public domain"
+  }
+ ]
+}

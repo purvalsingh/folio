@@ -72,10 +72,14 @@ data class ShelfInfo(val name: String, val note: String, val coming: List<String
 /** Default shelf order, used until the online catalog says otherwise. */
 val DEFAULT_SHELVES = listOf(
     ShelfInfo("Power & Strategy", "Rulers, generals and the craft of influence", emptyList()),
+    ShelfInfo("War & Statecraft", "Duels, republics and the art of ruling well", emptyList()),
+    ShelfInfo("Persuasion & Rhetoric", "Speaking, charming and winning people over", emptyList()),
     ShelfInfo("Stoic Wisdom", "Calm in a world you cannot control", emptyList()),
     ShelfInfo("Eastern Paths", "The Way, the Gita and the Buddha's verses", emptyList()),
+    ShelfInfo("Indian Wisdom", "Fables, couplets and counsel from old India", emptyList()),
     ShelfInfo("Mind & the Crowd", "How thought shapes us, and crowds shape thought", emptyList()),
     ShelfInfo("The Human Mind", "Habits, dreams, emotions and the unconscious", emptyList()),
+    ShelfInfo("Love & Human Nature", "Romance, friendship and trusting yourself", emptyList()),
     ShelfInfo("Courtly Wisdom", "Maxims for surviving the courts of kings", emptyList()),
 )
 const val BOUND_SHELF = "Your Bound Books"
@@ -96,7 +100,7 @@ fun App.shelves(): List<Pair<ShelfInfo, List<Volume>>> {
 
 @OptIn(ExperimentalFoundationApi::class)
 @Composable
-fun BookcaseScreen(app: App, open: (Book, Int) -> Unit, bind: () -> Unit) {
+fun BookcaseScreen(app: App, open: (Book, Int) -> Unit, bind: () -> Unit, recall: () -> Unit = {}, journey: (Journey) -> Unit = {}) {
     val ink = LocalInk.current
     val shelves = app.shelves()
     val list = rememberLazyListState()
@@ -105,7 +109,7 @@ fun BookcaseScreen(app: App, open: (Book, Int) -> Unit, bind: () -> Unit) {
     val headerItems = 2 // masthead block + sticky tabs
 
     LazyColumn(Modifier.fillMaxSize(), state = list, contentPadding = PaddingValues(bottom = 28.dp)) {
-        item { LibraryHeader(app, open) }
+        item { Column(Modifier.padding(horizontal = 20.dp)) { LibraryTop(app, open, recall, journey) } }
         stickyHeader {
             Column(Modifier.fillMaxWidth().paper(ink.page, ink)) {
                 LazyRow(contentPadding = PaddingValues(horizontal = 16.dp, vertical = 8.dp), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
@@ -147,15 +151,10 @@ fun BookcaseScreen(app: App, open: (Book, Int) -> Unit, bind: () -> Unit) {
 }
 
 val DEFAULT_COMING = listOf(
-    ShelfInfo("Persuasion & Rhetoric", "In the bindery", listOf("Rhetoric", "On the Orator", "Letters")),
-    ShelfInfo("War & Statecraft", "In the bindery", listOf("On War", "Discourses on Livy", "The Republic")),
+    ShelfInfo("Fortune & Wealth", "In the bindery", listOf("The Wealth of Nations", "Walden", "The Richest Man in Babylon")),
+    ShelfInfo("Poetry of Life", "In the bindery", listOf("Rubaiyat", "Gitanjali", "Leaves of Grass")),
+    ShelfInfo("Myth & Hero", "In the bindery", listOf("The Odyssey", "Mahabharata Tales", "Beowulf")),
 )
-
-@Composable
-private fun LibraryHeader(app: App, open: (Book, Int) -> Unit) {
-    // the old Library header (masthead, quota, level, update banner, continue-reading) lives on
-    Column(Modifier.padding(horizontal = 20.dp)) { LibraryTop(app, open) }
-}
 
 /* ---------- one shelf ---------- */
 

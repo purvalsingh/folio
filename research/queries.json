@@ -255,5 +255,99 @@
   "04": "Saint George and the dragon engraving",
   "05": "Splendor Solis king",
   "06": "Tibetan mandala painting"
+ },
+ "speaking": {
+  "cover": "William Jennings Bryan speaking",
+  "01": "orator engraving",
+  "02": "horses grazing painting",
+  "03": "lecture 19th century engraving",
+  "04": "Hogarth Sleeping Congregation",
+  "05": "Demosthenes"
+ },
+ "franklin": {
+  "cover": "Benjamin Franklin Duplessis portrait",
+  "01": "Franklin printing press engraving",
+  "02": "Benjamin Franklin at the court of France",
+  "03": "old library books engraving 18th century",
+  "04": "Poor Richard's Almanack",
+  "05": "Franklin printing press painting",
+  "06": "Franklin before the Privy Council"
+ },
+ "chesterfield": {
+  "cover": "Philip Dormer Stanhope Chesterfield portrait",
+  "01": "Tompion watch",
+  "02": "Hogarth conversation piece",
+  "03": "minuet dancing 18th century engraving",
+  "04": "hourglass engraving",
+  "05": "Hogarth Assembly at Wanstead House",
+  "06": "Hogarth Rake's Progress"
+ },
+ "onwar": {
+  "cover": "Carl von Clausewitz portrait",
+  "01": "Napoleonic battle engraving",
+  "02": "Congress of Vienna Isabey",
+  "03": "Retreat from Moscow painting",
+  "04": "Battle of Borodino painting"
+ },
+ "livy": {
+  "cover": "Titus Livius portrait",
+  "01": "Roman senate Maccari",
+  "02": "Roman forum engraving",
+  "03": "Brutus consul"
+ },
+ "republic": {
+  "cover": "Plato Raphael School of Athens",
+  "01": "Socrates bust",
+  "02": "shepherd ring engraving",
+  "03": "Douris school cup",
+  "04": "Death of Socrates David",
+  "05": "Plato allegory of the cave engraving"
+ },
+ "ovid": {
+  "cover": "Ovid portrait engraving",
+  "01": "Mars and Venus painting",
+  "02": "Poussin Venus Adonis",
+  "03": "Sappho fresco Pompeii",
+  "04": "Hercules and Omphale",
+  "05": "Cupid engraving"
+ },
+ "emerson": {
+  "cover": "Ralph Waldo Emerson portrait",
+  "01": "Wanderer above the Sea of Fog",
+  "02": "Walden Pond",
+  "03": "Hudson River School landscape",
+  "04": "Galileo before the Holy Office",
+  "05": "two friends 19th century painting",
+  "06": "Romeo and Juliet balcony 19th century"
+ },
+ "seneca": {
+  "cover": "Seneca bust",
+  "01": "hourglass vanitas painting",
+  "02": "Roman banquet painting",
+  "03": "Death of Seneca",
+  "04": "Roman street scene painting"
+ },
+ "panchatantra": {
+  "cover": "Panchatantra manuscript",
+  "01": "Kalila wa Dimna manuscript",
+  "02": "Kalila and Dimna lion",
+  "03": "Anvar-i Suhayli",
+  "04": "Amber Fort painting"
+ },
+ "hitopadesa": {
+  "cover": "Hitopadesha manuscript",
+  "01": "Kalila wa Dimna crow",
+  "02": "Mughal painting merchant",
+  "03": "Kangra painting cows",
+  "04": "lion hunt Mughal painting"
+ },
+ "kural": {
+  "cover": "Thiruvalluvar",
+  "01": "palm leaf manuscript",
+  "02": "mango Company painting",
+  "03": "giving alms painting India",
+  "04": "Indian well painting",
+  "05": "Indian blacksmith painting",
+  "06": "Krishna Sudama painting"
  }
 }

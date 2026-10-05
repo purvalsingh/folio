@@ -1,0 +1,73 @@
+{
+ "id": "onwar",
+ "title": "On War",
+ "short": "Clausewitz",
+ "author": "Carl von Clausewitz",
+ "year": "1832",
+ "translator": "J. J. Graham, 1873 (public domain, Project Gutenberg #1946)",
+ "era": "germanic",
+ "shelf": "War & Statecraft",
+ "blurb": "A Prussian general's deep study of war: a duel, a gamble, a fog — and always the servant of politics.",
+ "version": 1,
+ "cover": "onwar_cover",
+ "glossary": {
+  "friction": {
+   "m": "Small difficulties that make simple things hard.",
+   "e": "Traffic, rain and a missed call added friction to the move."
+  },
+  "policy": {
+   "m": "A government's plan or aim.",
+   "e": "The new policy cut school fees."
+  },
+  "duel": {
+   "m": "A fight between two people.",
+   "e": "The chess final was a duel of minds."
+  }
+ },
+ "cards": [
+  {
+   "ch": "Book I",
+   "chTitle": "What Is War?",
+   "title": "A duel on a large scale",
+   "text": "Clausewitz begins simply: war is two wrestlers, each trying to throw the other and make him do what he wants.",
+   "quote": "War is nothing but a duel on an extensive scale.",
+   "qMean": "War is like a fight between two people, but huge.",
+   "qLife": "Two companies fighting for the same market share.",
+   "img": "onwar_01",
+   "cap": "Naval battle of 13 March 1806 · public domain"
+  },
+  {
+   "ch": "Book I",
+   "chTitle": "War and Politics",
+   "title": "Politics by other means",
+   "text": "His most famous idea: war is never its own purpose. It continues a country's political aims with other tools.",
+   "quote": "ntinuation of State policy by other means",
+   "qMean": "War is politics carried on with force.",
+   "qLife": "A trade war is economics used to win a political argument.",
+   "img": "onwar_02",
+   "cap": "The Congress of Vienna · public domain"
+  },
+  {
+   "ch": "Book I",
+   "chTitle": "Friction",
+   "title": "Everything is simple — and hard",
+   "text": "On paper war looks simple. In reality, tiny problems pile up — tired horses, wrong reports, rain — and the simplest action becomes hard. He calls it friction.",
+   "quote": "s very simple in War, but the simplest thing is difficult.",
+   "qMean": "Plans look easy, but small problems make them hard.",
+   "qLife": "A simple house move becomes chaos when the van is late.",
+   "img": "onwar_03",
+   "cap": "Adolphe Yvon, Marshal Ney in the retreat from Russia · public domain"
+  },
+  {
+   "ch": "Book I",
+   "chTitle": "Friction",
+   "title": "The fog of war",
+   "text": "Weather and chance cloud every decision: fog hides the enemy, rain delays a battalion. A general must act without full information.",
+   "quote": "the fog prevents the enemy from being discovered in time",
+   "qMean": "You often must decide without seeing everything clearly.",
+   "qLife": "Launching a product without knowing exactly how customers will react.",
+   "img": "onwar_04",
+   "cap": "George Jones, The Battle of Borodino · public domain"
+  }
+ ]
+}

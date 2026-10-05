@@ -13,7 +13,8 @@ data class SavedWord(val word: String, val meaning: String, val example: String,
 data class SavedQuote(val text: String, val bookId: String, val idx: Int, val at: Long)
 data class Celebration(val title: String, val message: String, val seal: String)
 
-data class Stats(val folios: Int, val books: Int, val words: Int, val quotes: Int, val streak: Int, val goalDays: Int)
+data class Stats(val folios: Int, val books: Int, val words: Int, val quotes: Int, val streak: Int, val goalDays: Int,
+                 val recalled: Int = 0, val chapters: Int = 0)
 
 class Milestone(val id: String, val title: String, val line: String, val seal: String, val reached: (Stats) -> Boolean)
 
@@ -37,6 +38,10 @@ val MILESTONES = listOf(
     Milestone("s30", "Month of Devotion", "A 30-day reading streak.", "XXX") { it.streak >= 30 },
     Milestone("g1", "Quota Kept", "You met your daily quota for the first time.", "✓") { it.goalDays >= 1 },
     Milestone("g10", "Ten Good Days", "Daily quota met on 10 days.", "X") { it.goalDays >= 10 },
+    Milestone("r10", "Good Memory", "10 answers recalled correctly.", "X") { it.recalled >= 10 },
+    Milestone("r100", "Memory Palace", "100 answers recalled correctly.", "C") { it.recalled >= 100 },
+    Milestone("c1", "Chapter Mastered", "You passed your first chapter check.", "✦") { it.chapters >= 1 },
+    Milestone("c10", "Ten Chapters Mastered", "Ten chapter checks passed.", "X") { it.chapters >= 10 },
 )
 
 val RANKS = listOf("Page", "Squire", "Scribe", "Clerk", "Scholar", "Courtier", "Counsellor", "Magister", "Sage", "Prince of Letters")
@@ -80,6 +85,39 @@ class Store(ctx: Context) {
     var tick by mutableStateOf(0); private set
     val party = mutableStateListOf<Celebration>()
 
+    /** spaced repetition: item key ("w:word" / "q:book#i") -> [box 0..5, due epoch-day] */
+    val recall = mutableMapOf<String, IntArray>()
+    var recalled by mutableStateOf(0); private set
+    /** chapters whose check was passed: "book#firstCardIndex" */
+    val checked = mutableSetOf<String>()
+    // reading comfort and reminders (this phone only, not synced)
+    var textScale by mutableStateOf(1f)
+    var lineScale by mutableStateOf(1f)
+    var remind by mutableStateOf(false)
+    var remindHour by mutableStateOf(20)
+    var hindi by mutableStateOf(false)
+
+    private val gaps = intArrayOf(0, 1, 2, 4, 8, 16, 32)
+    private fun epochDay() = LocalDate.now().toEpochDay().toInt()
+    fun isDue(key: String) = (recall[key]?.get(1) ?: 0) <= epochDay()
+
+    /** Leitner boxes: right answers push an item further into the future, a wrong one brings it back tomorrow. */
+    fun answer(key: String, right: Boolean, all: List<Book>) {
+        val lv = levelOf(xp)
+        val box = if (right) ((recall[key]?.get(0) ?: 0) + 1).coerceAtMost(6) else 0
+        recall[key] = intArrayOf(box, epochDay() + if (right) gaps[box] else 1)
+        if (right) { recalled++; xp += 3 }
+        afterGain(lv, all)
+    }
+
+    fun passChapter(book: Book, start: Int, all: List<Book>) {
+        if (!checked.add("${book.id}#$start")) return
+        val lv = levelOf(xp)
+        xp += 15
+        party += Celebration("Chapter Mastered", "You passed the check for ${book.cards[start].ch} of “${book.title}”.", "✦")
+        afterGain(lv, all)
+    }
+
     init { load() }
 
     fun today() = LocalDate.now().toString()
@@ -90,7 +128,7 @@ class Store(ctx: Context) {
 
     fun stats(books: List<Book>): Stats {
         val done = books.count { b -> b.cards.isNotEmpty() && sealedCount(b.id) >= b.cards.size }
-        return Stats(sealed.values.sumOf { it.size }, done, lexicon.size, quotes.size, streak(), days.values.count { it >= goal })
+        return Stats(sealed.values.sumOf { it.size }, done, lexicon.size, quotes.size, streak(), days.values.count { it >= goal }, recalled, checked.size)
     }
 
     fun streak(): Int {
@@ -166,7 +204,8 @@ class Store(ctx: Context) {
 
     fun persist() {
         val o = snapshot()
-        o.put("gemini", geminiKey)
+        o.put("gemini", geminiKey).put("textScale", textScale.toDouble()).put("lineScale", lineScale.toDouble())
+            .put("remind", remind).put("remindHour", remindHour).put("hindi", hindi)
         night?.let { o.put("night", it) }
         prefs.edit().putString("state", o.toString())?.apply() // ?. : layoutlib stub returns null
         dirty = true
@@ -189,7 +228,9 @@ class Store(ctx: Context) {
         })
         o.put("days", JSONObject(days.toMap()))
         o.put("honours", JSONArray(honours.toList()))
-        o.put("xp", xp).put("goal", goal).put("last", lastBook ?: "")
+        o.put("xp", xp).put("goal", goal).put("last", lastBook ?: "").put("recalled", recalled)
+        o.put("recall", JSONObject().apply { recall.forEach { (k, v) -> put(k, JSONArray(v.toList())) } })
+        o.put("checked", JSONArray(checked.toList()))
         return o
     }
 
@@ -217,6 +258,11 @@ class Store(ctx: Context) {
         o.optJSONObject("days")?.let { d -> d.keys().forEach { days[it] = maxOf(days[it] ?: 0, d.getInt(it)) } }
         o.optJSONArray("honours")?.let { a -> (0 until a.length()).forEach { honours += a.getString(it) } }
         xp = maxOf(xp, o.optInt("xp"))
+        recalled = maxOf(recalled, o.optInt("recalled"))
+        o.optJSONObject("recall")?.let { r ->
+            r.keys().forEach { k -> val a = r.getJSONArray(k); if (k !in recall || recall[k]!![1] < a.getInt(1)) recall[k] = intArrayOf(a.getInt(0), a.getInt(1)) }
+        }
+        o.optJSONArray("checked")?.let { a -> (0 until a.length()).forEach { checked += a.getString(it) } }
         if (lastBook == null) lastBook = o.optString("last").ifBlank { null }
         tick++
         persist()
@@ -244,5 +290,10 @@ class Store(ctx: Context) {
         xp = o.optInt("xp"); goal = o.optInt("goal", 10); geminiKey = o.optString("gemini")
         lastBook = o.optString("last").ifBlank { null }
         night = if (o.has("night")) o.getBoolean("night") else null
+        recalled = o.optInt("recalled")
+        o.optJSONObject("recall")?.let { r -> r.keys().forEach { k -> val a = r.getJSONArray(k); recall[k] = intArrayOf(a.getInt(0), a.getInt(1)) } }
+        o.optJSONArray("checked")?.let { a -> (0 until a.length()).forEach { checked += a.getString(it) } }
+        textScale = o.optDouble("textScale", 1.0).toFloat(); lineScale = o.optDouble("lineScale", 1.0).toFloat()
+        remind = o.optBoolean("remind"); remindHour = o.optInt("remindHour", 20); hindi = o.optBoolean("hindi")
     }
 }

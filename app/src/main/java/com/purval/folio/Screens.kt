@@ -159,7 +159,7 @@ fun LibraryScreen(app: App, open: (Book, Int) -> Unit, bind: () -> Unit) = Bookc
 
 /** Top of the Library: greeting, update notice, daily quota, rank and the book you were last reading. */
 @Composable
-fun LibraryTop(app: App, open: (Book, Int) -> Unit) {
+fun LibraryTop(app: App, open: (Book, Int) -> Unit, recall: () -> Unit = {}, journey: (Journey) -> Unit = {}) {
     val ink = LocalInk.current
     val store = app.store
     val tick = store.tick
@@ -208,6 +208,23 @@ fun LibraryTop(app: App, open: (Book, Int) -> Unit) {
     }
     Spacer(Modifier.height(12.dp))
     LevelBar(app)
+    // daily recall: spaced repetition of saved words, quotes and words from pages read
+    val due = remember(tick, store.lexicon.size, store.quotes.size) { Quiz.dueCount(app) }
+    if (due > 0) {
+        Spacer(Modifier.height(14.dp))
+        Row(Modifier.fillMaxWidth().clip(RoundedCornerShape(3.dp)).clickable(onClick = recall).paper(ink.paper, ink).doubleRule(ink).padding(14.dp),
+            verticalAlignment = Alignment.CenterVertically) {
+            WaxSeal("$due", 46.dp)
+            Spacer(Modifier.width(12.dp))
+            Column(Modifier.weight(1f)) {
+                Label("Daily recall")
+                Text("${minOf(due, 10)} quick questions on words and lines you've met. Two minutes.", fontFamily = Fonts.fell, fontSize = 15.sp,
+                    lineHeight = 20.sp, color = ink.ink)
+            }
+            Text("›", fontSize = 28.sp, color = ink.rubric)
+        }
+    }
+    JourneysRow(app, journey)
     val last = store.lastBook?.let { app.book(it) }
     if (last != null) {
         Spacer(Modifier.height(16.dp))
@@ -335,9 +352,9 @@ fun CommonplaceScreen(app: App, open: (Book, Int) -> Unit) {
                             Text(b?.cards?.getOrNull(q.idx)?.qBy?.ifBlank { null } ?: listOfNotNull(b?.author, b?.cards?.getOrNull(q.idx)?.ch).joinToString(" · "), fontFamily = Fonts.fellSc,
                                 fontSize = 12.sp, color = ink.faded, modifier = Modifier.weight(1f))
                             IconButton(onClick = {
-                                ctx.startActivity(Intent.createChooser(Intent(Intent.ACTION_SEND).setType("text/plain")
-                                    .putExtra(Intent.EXTRA_TEXT, "“${q.text}”\n— ${b?.cards?.getOrNull(q.idx)?.attribution(b) ?: ""}"), "Share quote"))
-                            }) { Icon(Icons.Outlined.Share, "Share", tint = ink.faded) }
+                                if (b != null) CardArt.share(ctx, b, q.idx)
+                                else ctx.startActivity(Intent.createChooser(Intent(Intent.ACTION_SEND).setType("text/plain").putExtra(Intent.EXTRA_TEXT, "“${q.text}”"), "Share quote"))
+                            }) { Icon(Icons.Outlined.Share, "Share as a picture", tint = ink.faded) }
                             IconButton(onClick = { store.quotes.remove(q); store.persist() }) { Icon(Icons.Outlined.Delete, "Remove", tint = ink.faded) }
                         }
                     }
@@ -431,6 +448,29 @@ fun HonoursScreen(app: App, account: () -> Unit = {}) {
         Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
             listOf(5, 10, 15, 20, 30).forEach { n -> Pill("$n", filled = store.goal == n) { store.goal = n; store.persist() } }
         }
+        Spacer(Modifier.height(20.dp))
+        ComfortSettings(app)
+        Spacer(Modifier.height(20.dp))
+        ReminderSettings(app)
+        Spacer(Modifier.height(20.dp))
+        Label("Meanings in Hindi")
+        Text("Show every word meaning and quote explanation in simple Hindi too. Uses a free on-phone translator (one-time ~30 MB download, then offline).",
+            fontFamily = Fonts.fell, fontSize = 14.sp, lineHeight = 19.sp, color = ink.faded)
+        Spacer(Modifier.height(8.dp))
+        var hiState by remember { mutableStateOf<String?>(null) }
+        val scopeHi = androidx.compose.runtime.rememberCoroutineScope()
+        Row(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalAlignment = Alignment.CenterVertically) {
+            Pill("English only", filled = !store.hindi) { store.hindi = false; store.persist() }
+            Pill("English + हिंदी", filled = store.hindi) {
+                store.hindi = true; store.persist(); hiState = "Downloading Hindi…"
+                scopeHi.launch { hiState = if (Hindi.prepare()) "Hindi is ready." else "Couldn't download — try again online." }
+            }
+        }
+        hiState?.let { Text(it, fontFamily = Fonts.fell, fontStyle = FontStyle.Italic, fontSize = 13.sp, color = ink.faded, modifier = Modifier.padding(top = 4.dp)) }
+        Spacer(Modifier.height(20.dp))
+        Label("Home-screen widget")
+        Text("Long-press your home screen → Widgets → Folio to add the Quote of the Day.", fontFamily = Fonts.fell, fontSize = 14.sp,
+            lineHeight = 19.sp, color = ink.faded)
         Spacer(Modifier.height(20.dp))
         Label("Reading light")
         Spacer(Modifier.height(8.dp))
@@ -697,5 +737,52 @@ fun AccountScreen(app: App, done: () -> Unit) {
         Text("How your data is protected: passwords are hashed by the server and never stored on this phone. Your library is encrypted here with a key made from your password (AES-256) before upload, so even the server sees only scrambled text. The sign-in token is sealed in this phone's secure hardware.",
             fontFamily = Fonts.fell, fontStyle = FontStyle.Italic, fontSize = 13.sp, lineHeight = 18.sp, color = ink.faded)
         Spacer(Modifier.height(32.dp))
+    }
+}
+
+/* ---------- reading comfort & reminder settings ---------- */
+
+@Composable
+fun ComfortSettings(app: App) {
+    val ink = LocalInk.current
+    val store = app.store
+    Label("Reading comfort")
+    Text("Text size ${(store.textScale * 100).toInt()}% · line spacing ${(store.lineScale * 100).toInt()}%", fontFamily = Fonts.fell, fontSize = 14.sp, color = ink.faded)
+    val colors = androidx.compose.material3.SliderDefaults.colors(thumbColor = ink.rubric, activeTrackColor = ink.rubric, inactiveTrackColor = ink.rule)
+    androidx.compose.material3.Slider(store.textScale, { store.textScale = (it * 20).toInt() / 20f }, valueRange = 0.85f..1.4f,
+        onValueChangeFinished = { store.persist() }, colors = colors)
+    androidx.compose.material3.Slider(store.lineScale, { store.lineScale = (it * 20).toInt() / 20f }, valueRange = 1f..1.6f,
+        onValueChangeFinished = { store.persist() }, colors = colors)
+    Text("A prince ought to have no other aim or thought than the welfare of his people.", fontFamily = Fonts.fell,
+        fontSize = (18 * store.textScale).sp, lineHeight = (27 * store.textScale * store.lineScale).sp, color = ink.ink,
+        modifier = Modifier.fillMaxWidth().paper(ink.paper, ink).doubleRule(ink, 3.dp).padding(12.dp))
+}
+
+@Composable
+fun ReminderSettings(app: App) {
+    val ink = LocalInk.current
+    val ctx = LocalContext.current
+    val store = app.store
+    val ask = androidx.activity.compose.rememberLauncherForActivityResult(androidx.activity.result.contract.ActivityResultContracts.RequestPermission()) { ok ->
+        store.remind = ok; store.persist(); Reminder.schedule(ctx, ok, store.remindHour)
+    }
+    Label("Daily reminder")
+    Text(if (store.remind) "A nudge at ${store.remindHour}:00 if today's quota isn't met yet." else "Off. Turn it on for a gentle nudge each day.",
+        fontFamily = Fonts.fell, fontSize = 14.sp, color = ink.faded)
+    Spacer(Modifier.height(8.dp))
+    Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+        Pill(if (store.remind) "On" else "Off", filled = store.remind) {
+            if (store.remind) { store.remind = false; store.persist(); Reminder.schedule(ctx, false, store.remindHour) }
+            else if (Reminder.canNotify(ctx)) { store.remind = true; store.persist(); Reminder.schedule(ctx, true, store.remindHour) }
+            else ask.launch(android.Manifest.permission.POST_NOTIFICATIONS)
+        }
+    }
+    if (store.remind) {
+        Spacer(Modifier.height(8.dp))
+        androidx.compose.foundation.lazy.LazyRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+            items(listOf(7, 9, 13, 18, 20, 22)) { h ->
+                Pill("$h:00", filled = store.remindHour == h) { store.remindHour = h; store.persist(); Reminder.schedule(ctx, true, h) }
+            }
+        }
     }
 }

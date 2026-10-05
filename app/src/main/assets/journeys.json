@@ -1,0 +1,16 @@
+[
+ {"id": "power7", "title": "Power in 7 Days", "blurb": "Machiavelli, Greene and Sun Tzu side by side — one sharp idea each, every day.",
+  "days": [["prince#0", "laws#0", "artofwar#1"], ["prince#5", "laws#3", "artofwar#4"], ["prince#10", "laws#6", "artofwar#5"],
+           ["laws#8", "artofwar#11", "onwar#1"], ["prince#13", "laws#16", "artofwar#13"], ["laws#13", "livy#0", "chesterfield#1"],
+           ["artofwar#7", "laws#15", "republic#4"]]},
+ {"id": "calm7", "title": "Calm in 7 Days", "blurb": "Stoics, the Gita, the Buddha and the Tao on staying steady when life is not.",
+  "days": [["enchiridion#0", "meditations#1", "gita#4"], ["dhammapada#0", "thinketh#0", "enchiridion#1"], ["meditations#2", "seneca#0", "taoteching#2"],
+           ["gita#5", "dhammapada#1", "meditations#9"], ["seneca#2", "enchiridion#2", "taoteching#3"], ["gita#11", "dhammapada#7", "thinketh#5"],
+           ["meditations#8", "taoteching#8", "gita#12"]]},
+ {"id": "mind5", "title": "Know Your Mind in 5 Days", "blurb": "Habits, emotions, crowds and the stories you tell yourself.",
+  "days": [["habit#0", "habit#2", "thinketh#1"], ["emotions#0", "emotions#2", "dhammapada#4"], ["crowd#0", "crowd#2", "crowd#4"],
+           ["habit#3", "franklin#3", "seneca#1"], ["habit#5", "thinketh#3", "kural#3"]]},
+ {"id": "charm5", "title": "Win People Over in 5 Days", "blurb": "Franklin, Chesterfield, Carnegie and Tiruvalluvar on being liked and heard.",
+  "days": [["franklin#0", "franklin#1", "chesterfield#0"], ["franklin#2", "emerson#4", "kural#1"], ["speaking#0", "speaking#2", "speaking#3"],
+           ["chesterfield#4", "kural#2", "laws#12"], ["emerson#0", "kural#5", "chesterfield#3"]]}
+]

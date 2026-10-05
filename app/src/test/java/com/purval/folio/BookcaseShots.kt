@@ -13,7 +13,7 @@ import java.io.File
 /** The whole bookcase on one tall canvas, with the online library's books shown as faded spines. */
 class BookcaseShots {
     @get:Rule
-    val paparazzi = Paparazzi(deviceConfig = DeviceConfig.PIXEL_6.copy(screenHeight = 6200), showSystemUi = false, maxPercentDifference = 1.0, useDeviceResolution = true)
+    val paparazzi = Paparazzi(deviceConfig = DeviceConfig.PIXEL_6.copy(screenHeight = 8600), showSystemUi = false, maxPercentDifference = 1.0, useDeviceResolution = true)
 
     @Test fun bookcase() {
         val app = App(paparazzi.context)

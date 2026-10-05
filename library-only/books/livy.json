@@ -1,0 +1,62 @@
+{
+ "id": "livy",
+ "title": "Discourses on Livy",
+ "short": "Machiavelli",
+ "author": "Niccolò Machiavelli",
+ "year": "1531",
+ "translator": "Ninian Hill Thomson, 1883 (public domain, Project Gutenberg #10827)",
+ "era": "renaissance",
+ "shelf": "War & Statecraft",
+ "blurb": "The other Machiavelli: a love letter to republics, arguing that free peoples are wiser and steadier than princes.",
+ "version": 1,
+ "cover": "livy_cover",
+ "glossary": {
+  "commonwealth": {
+   "m": "A state governed for the common good.",
+   "e": "The town ran itself like a small commonwealth."
+  },
+  "prudent": {
+   "m": "Careful and sensible.",
+   "e": "A prudent driver slows down in rain."
+  },
+  "inclinations": {
+   "m": "Natural tendencies or likings.",
+   "e": "His inclinations lean towards music."
+  }
+ },
+ "cards": [
+  {
+   "ch": "Book I",
+   "chTitle": "Founders and Laws",
+   "title": "Assume the worst",
+   "text": "Anyone founding a state must write laws as if people will misbehave when given the chance — not because everyone is evil, but because good laws must hold even when they are.",
+   "quote": "all men are bad, and will always, when they have free field, give loose to their evil inclinations",
+   "qMean": "Design rules assuming people will misuse freedom.",
+   "qLife": "Apps add two-step login because some people will try to break in.",
+   "img": "livy_01",
+   "cap": "Cesare Maccari, Appius Claudius in the Senate · public domain"
+  },
+  {
+   "ch": "Book I",
+   "chTitle": "The People",
+   "title": "The people are wiser",
+   "text": "Surprising from the author of The Prince: a people, he argues, is more prudent, more stable and has better judgement than a prince.",
+   "quote": "a people is more prudent, more stable, and of better judgment than a prince.",
+   "qMean": "Ordinary people together judge better than a single ruler.",
+   "qLife": "A team vote often beats the boss's hunch.",
+   "img": "livy_02",
+   "cap": "Forum and Column of Trajan restored (Ancient Rome) engraving · public domain"
+  },
+  {
+   "ch": "Book I",
+   "chTitle": "Succession",
+   "title": "Plan for the next leader",
+   "text": "Good states don't depend on one great ruler; they arrange a steady succession of able ones.",
+   "quote": "in every well ordered commonwealth provision will be made for a succession of this sort.",
+   "qMean": "Well-run places plan who leads next.",
+   "qLife": "A family business training the next generation early.",
+   "img": "livy_03",
+   "cap": "Busts of Lucius and Marcus Junius Brutus · public domain"
+  }
+ ]
+}

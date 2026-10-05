@@ -1,0 +1,69 @@
+{
+ "id": "panchatantra",
+ "title": "The Panchatantra",
+ "short": "Vishnu Sharma",
+ "author": "Vishnu Sharma (trad.)",
+ "year": "c. 300 BC",
+ "translator": "Arthur W. Ryder, 1925 (public domain in the US; archive.org)",
+ "era": "indic",
+ "shelf": "Indian Wisdom",
+ "blurb": "Animal fables written to teach three dull princes the art of ruling — the world's most travelled storybook, ancestor of Aesop and La Fontaine.",
+ "version": 1,
+ "cover": "panchatantra_cover",
+ "glossary": {
+  "fetters": {
+   "m": "Chains that hold someone back.",
+   "e": "Debt became fetters on his freedom."
+  },
+  "fortress": {
+   "m": "A strong castle.",
+   "e": "The hill fort was a fortress no army took."
+  }
+ },
+ "cards": [
+  {
+   "ch": "Introduction",
+   "chTitle": "Why the Book Was Written",
+   "title": "A book for dull princes",
+   "text": "A king despaired: his three sons hated learning. The wise Vishnu Sharma promised to make them wise in six months — by telling stories of animals who scheme, trust and betray.",
+   "quote": "intercourse with like-minded friends",
+   "qMean": "Spending time with friends who think like you.",
+   "qLife": "A study group that keeps each other on track.",
+   "img": "panchatantra_01",
+   "cap": "Kalila wa Dimna, manuscript page · public domain"
+  },
+  {
+   "ch": "Book I",
+   "chTitle": "The Loss of Friends",
+   "title": "Wisdom first",
+   "text": "In the fables, wisdom must lead every undertaking; then memory, plans and good advice follow.",
+   "quote": "For Wisdom broods o'er the inception",
+   "qMean": "Wisdom should guide the start of anything.",
+   "qLife": "Researching before starting a business.",
+   "img": "panchatantra_02",
+   "cap": "Dimna presents himself to the lion, Kalila and Dimna, c. 1380 · public domain"
+  },
+  {
+   "ch": "Book I",
+   "chTitle": "The Loss of Friends",
+   "title": "Riches as chains",
+   "text": "A merchant reflects that wealth hoarded and never used is just foolish chains, kept for someone else to enjoy.",
+   "quote": "His riches serve as foolish fetters",
+   "qMean": "Unused wealth only ties you down.",
+   "qLife": "Saving every rupee but never enjoying any of it.",
+   "img": "panchatantra_03",
+   "cap": "The monkeys outwit the bears, Anvar-i Suhayli, 1600 · public domain"
+  },
+  {
+   "ch": "Book III",
+   "chTitle": "Crows and Owls",
+   "title": "Safety behind walls",
+   "text": "The animals of the fables talk like generals: one well-defended fortress is worth thousands of soldiers.",
+   "quote": "A single royal fortress adds More military force Than do a thousand elephants",
+   "qMean": "A strong defence beats a huge army.",
+   "qLife": "One good password manager protects better than many weak passwords.",
+   "img": "panchatantra_04",
+   "cap": "Edwin Lord Weeks, The Palace of Amber · public domain"
+  }
+ ]
+}
