@@ -5,7 +5,9 @@
 - [x] Export notes: PDF / Markdown / Anki
 - [x] Share studio (Story/Post/Square × 3 styles × 4 looks)
 - [x] Snapshots + story previews sent
-- [ ] Bump all book versions, release 1.6
-- [ ] iPhone: free web app (PWA) on GitHub Pages, same catalog; Add-to-Home-Screen guide; README + portfolio links
+- [x] Bump all book versions, release 1.6 (1.6.2 now)
+- [x] iPhone web app live: purvalsingh.github.io/folio
 - [x] Flip card: back = simple English + daily life + as written
-- [ ] The Prince deeper: ~4 cards/chapter (opener linking to previous chapter, argument cards, takeaway), more Commons plates, all quotes verified
+- [x] The Prince deeper (77 pages, bridges)
+- [ ] Deep editions for the other 30 books (see PROJECT_STATE NEXT ACTION)
+- [-] old line: The Prince deeper: ~4 cards/chapter (opener linking to previous chapter, argument cards, takeaway), more Commons plates, all quotes verified
