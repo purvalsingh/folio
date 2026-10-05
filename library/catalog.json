@@ -10,7 +10,7 @@
  "books": [
   {
    "id": "artofwar",
-   "version": 7,
+   "version": 8,
    "title": "The Art of War",
    "author": "Sun Tzu",
    "year": "c. 500 BC",
@@ -78,13 +78,13 @@
   },
   {
    "id": "gita",
-   "version": 7,
+   "version": 8,
    "title": "The Bhagavad Gita",
    "author": "Vyasa (trad.)",
    "year": "c. 400 BC",
    "era": "indic",
    "cards": 59,
-   "sizeKb": 6597,
+   "sizeKb": 6596,
    "blurb": "On a battlefield, a great archer loses his nerve, and his charioteer — God himself — talks him through duty, action, death and devotion. Eighteen chapters of the world's most loved spiritual dialogue.",
    "images": [
     "gita_01",
@@ -152,7 +152,7 @@
   },
   {
    "id": "laws",
-   "version": 9,
+   "version": 10,
    "title": "The 48 Laws of Power",
    "author": "Robert Greene",
    "year": "1998",
@@ -263,7 +263,7 @@
   },
   {
    "id": "prince",
-   "version": 6,
+   "version": 7,
    "title": "The Prince",
    "author": "Niccolò Machiavelli",
    "year": "1532",

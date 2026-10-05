@@ -320,7 +320,7 @@ CAP = {  # hand-written captions where the Commons title is Dutch or catalogue-s
  "prince_23": "Battle scene, 16th-century print", "prince_24": "David receives Saul's armour",
  "prince_28": "Janus and the Four Seasons", "prince_29": "Quentin Massys, The Moneylender and his Wife, 1514",
  "prince_31": "Beheading of John the Baptist, woodcut", "prince_34": "A fox, engraving",
- "prince_37": "Burgkmair, The Triumphal Procession of Emperor Maximilian I", "prince_45": "The Fool, engraving",
+ "prince_37": "Mantegna, Caesar on his chariot, from The Triumphs of Caesar", "prince_38": "The Ship of Fools, woodcut", "prince_45": "The Fool, engraving",
  "prince_48": "Virgil Solis, The Deluge", "prince_49": "Dürer, Time and a Fox Turning the Wheel of Fortune",
  "prince_16": "Agathocles, bust in the Vatican Museums", "prince_19": "Peasants at work, after Holbein",
 }

@@ -13,9 +13,16 @@ _cache = {}
 OCR = {"gracian"}  # scanned sources: allow small OCR differences
 CAPS = {  # hand-written where Commons titles are catalogue-speak
     "artofwar_10": "Chinese repeating crossbow", "artofwar_15": "Dai Jin, Travellers Through Mountain Passes",
-    "artofwar_20": "Portrait of the Qing general Mingliang, 1776", "artofwar_21": "The siege of Jinzhou, Qing painting",
-    "artofwar_22": "Water scene with a distant fortress, Chinese school", "artofwar_26": "Poems on painting plum blossoms and bamboo",
-    "gita_05": "Krishna and Arjuna, fresco from Mansar", "gita_12": "Dadupanthi ascetics, 18th-century painting",
+    "artofwar_20": "Portrait of the Qing general Mingliang, 1776", "artofwar_21": "The siege of Songtao, Qing painting",
+    "artofwar_22": "Water scene with a distant fortress, Chinese school", "artofwar_26": "Two illustrations from a Chinese Three Kingdoms edition",
+    "artofwar_09": "The three heroes fight Lü Bu, Three Kingdoms woodblock print",
+    "artofwar_14": "Breaking through the siege at Hesui, Qing battle painting",
+    "artofwar_24": "Zhuge Liang and Zhang Fei, Three Kingdoms illustration",
+    "gita_05": "Krishna and Balarama lead the cattle, Bhagavata Purana manuscript",
+    "gita_23": "The churning of the ocean, Indian painting, c. 1820",
+    "gita_26": "Illustrated Sanskrit Bhagavad Gita manuscript, 19th century",
+    "gita_48": "The sacred lotus, botanical illustration",
+    "gita_51": "Rigveda manuscript", "gita_12": "Dadupanthi ascetics, 18th-century painting",
     "gita_14": "Krishna, Kangra painting", "gita_17": "Baby Vishnu, Indian school, late 18th century",
     "gita_24": "Krishna playing the flute, temple fresco",
     "laws_02": "The Madrid Skylitzes, Byzantine chronicle", "laws_05": "Pericles, Roman copy of a Greek bust",
@@ -23,6 +30,9 @@ CAPS = {  # hand-written where Commons titles are catalogue-speak
     "laws_15": "Empress Wu Zetian", "laws_17": "Caxton, The Game and Playe of the Chesse, 1474",
     "laws_19": "Vasnetsov, Tsar Ivan IV", "laws_21": "Emperor Claudius, marble bust",
     "laws_23": "The House of Rothschild", "laws_28": "Titian, Portrait of Pietro Aretino",
+    "laws_18": "Qin Shi Huang, 18th-century portrait",
+    "laws_54": "P. T. Barnum's mermaid advertisement",
+    "laws_70": "Birds flocking at a willow embankment, Xia Shuwen",
 }
 
 
