@@ -1,11 +1,11 @@
 {
  "app": {
-  "versionCode": 5,
-  "versionName": "1.4",
-  "notes": "Daily Recall (spaced repetition), chapter checks, read-aloud, daily reminder, quote-of-the-day widget, shareable quote cards, Reading Journeys, Hindi meanings, text size and spacing. 12 new books: On War, Discourses on Livy, The Republic, Carnegie's Art of Public Speaking, Franklin, Chesterfield, Ovid, Emerson, Seneca, and a new Indian Wisdom shelf (Panchatantra, Hitopadesha, Thirukkural).",
-  "sizeKb": 88412,
-  "sha256": "acbf593737fce40dfe26b8b397044fa6c874d7bb10510508f31bab180643315c",
-  "apk": "https://github.com/purvalsingh/folio/releases/download/v1.4/Folio.apk"
+  "versionCode": 6,
+  "versionName": "1.4.1",
+  "notes": "Smaller download (36 MB, was 90 MB). Same features as 1.4: Daily Recall, chapter checks, read-aloud, reminders, quote widget, quote cards, Reading Journeys, Hindi meanings, comfort settings, and 12 new books including the Indian Wisdom shelf.",
+  "sizeKb": 35623,
+  "sha256": "23e08e7d435e60dd1afb150bf0528136a2eb756757a3c4c044b359d7a7f16f3f",
+  "apk": "https://github.com/purvalsingh/folio/releases/download/v1.4.1/Folio.apk"
  },
  "books": [
   {
