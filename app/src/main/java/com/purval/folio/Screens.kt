@@ -43,6 +43,8 @@ import androidx.compose.material3.IconButton
 import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.OutlinedTextFieldDefaults
+import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.ModalBottomSheet
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
@@ -92,10 +94,10 @@ import kotlin.math.sin
 /* ---------- shared bits ---------- */
 
 @Composable
-fun Masthead(title: String, line: String, font: FontFamily = Fonts.fraktur) {
+fun Masthead(title: String, line: String, font: FontFamily = Fonts.fraktur, size: TextUnit = 46.sp) {
     val ink = LocalInk.current
     Column(Modifier.fillMaxWidth().padding(top = 18.dp, bottom = 6.dp)) {
-        Text(title, fontFamily = font, fontSize = 46.sp, lineHeight = 52.sp, color = ink.ink)
+        Text(title, fontFamily = font, fontSize = size, lineHeight = size * 1.13f, color = ink.ink)
         Text(line, fontFamily = Fonts.fell, fontStyle = FontStyle.Italic, fontSize = 16.sp, color = ink.faded)
         Spacer(Modifier.height(10.dp))
         Box(Modifier.fillMaxWidth().height(3.dp).border(0.6.dp, ink.ink.copy(alpha = .6f)))
@@ -159,7 +161,8 @@ fun LibraryScreen(app: App, open: (Book, Int) -> Unit, bind: () -> Unit) = Bookc
 
 /** Top of the Library: greeting, update notice, daily quota, rank and the book you were last reading. */
 @Composable
-fun LibraryTop(app: App, open: (Book, Int) -> Unit, recall: () -> Unit = {}, journey: (Journey) -> Unit = {}, desk: () -> Unit = {}) {
+fun LibraryTop(app: App, open: (Book, Int) -> Unit, recall: () -> Unit = {}, journey: (Journey) -> Unit = {}, desk: () -> Unit = {},
+               theme: (Theme) -> Unit = {}, scenario: (Scenario) -> Unit = {}) {
     val ink = LocalInk.current
     val store = app.store
     val tick = store.tick
@@ -225,6 +228,7 @@ fun LibraryTop(app: App, open: (Book, Int) -> Unit, recall: () -> Unit = {}, jou
         }
     }
     JourneysRow(app, journey)
+    ExploreRows(app, theme, scenario)
     ReadingNowRow(app, open, desk)
     Spacer(Modifier.height(18.dp))
     Text("The Bookcase", fontFamily = Fonts.fraktur, fontSize = 30.sp, color = ink.ink)
@@ -255,16 +259,21 @@ fun LevelBar(app: App) {
 
 /* ---------- Lexicon ---------- */
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun LexiconScreen(app: App) {
     val ink = LocalInk.current
     val store = app.store
+    var exporting by remember { mutableStateOf(false) }
+    if (exporting) ModalBottomSheet(onDismissRequest = { exporting = false }, containerColor = ink.paper) { ExportSheet(app) { exporting = false } }
     var q by rememberSaveable { mutableStateOf("") }
     var test by rememberSaveable { mutableStateOf(false) }
     val shown = store.lexicon.filter { q.isBlank() || it.word.contains(q, true) || it.meaning.contains(q, true) }
     LazyColumn(Modifier.fillMaxSize(), contentPadding = PaddingValues(horizontal = 20.dp, vertical = 8.dp)) {
         item {
             Masthead("Lexicon", "Your dictionary of rare words — ${store.lexicon.size} collected.")
+            if (store.lexicon.isNotEmpty()) Text("Export as PDF, Markdown or Anki ›", fontFamily = Fonts.fellSc, fontSize = 14.sp, color = ink.rubric,
+                modifier = Modifier.padding(bottom = 8.dp).clickable { exporting = true })
             if (store.lexicon.isNotEmpty()) {
                 Row(verticalAlignment = Alignment.CenterVertically) {
                     OutlinedTextField(q, { q = it }, Modifier.weight(1f), placeholder = { Text("Search words", fontFamily = Fonts.fell) },
@@ -309,14 +318,21 @@ fun fieldColors() = LocalInk.current.let { ink ->
 
 /* ---------- Commonplace book ---------- */
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun CommonplaceScreen(app: App, open: (Book, Int) -> Unit) {
     val ink = LocalInk.current
     val store = app.store
     val ctx = LocalContext.current
+    var exporting by remember { mutableStateOf(false) }
+    var studio by remember { mutableStateOf<Pair<Book, Int>?>(null) }
+    if (exporting) ModalBottomSheet(onDismissRequest = { exporting = false }, containerColor = ink.paper) { ExportSheet(app) { exporting = false } }
+    studio?.let { (b, i) -> ModalBottomSheet(onDismissRequest = { studio = null }, containerColor = ink.paper) { ShareStudio(b, i) { studio = null } } }
     LazyColumn(Modifier.fillMaxSize(), contentPadding = PaddingValues(horizontal = 20.dp, vertical = 8.dp)) {
         item {
             Masthead("Commonplace", "Renaissance readers copied the lines worth keeping into a commonplace book. This is yours.")
+            if (store.quotes.isNotEmpty() || store.lexicon.isNotEmpty()) Text("Export as PDF, Markdown or Anki ›", fontFamily = Fonts.fellSc, fontSize = 14.sp,
+                color = ink.rubric, modifier = Modifier.padding(top = 4.dp).clickable { exporting = true })
             Spacer(Modifier.height(8.dp))
         }
         if (store.quotes.isEmpty()) item { Empty("❦", "Tap the quote mark under any card\nto keep a line here.") }
@@ -336,7 +352,7 @@ fun CommonplaceScreen(app: App, open: (Book, Int) -> Unit) {
                             Text(b?.cards?.getOrNull(q.idx)?.qBy?.ifBlank { null } ?: listOfNotNull(b?.author, b?.cards?.getOrNull(q.idx)?.ch).joinToString(" · "), fontFamily = Fonts.fellSc,
                                 fontSize = 12.sp, color = ink.faded, modifier = Modifier.weight(1f))
                             IconButton(onClick = {
-                                if (b != null) CardArt.share(ctx, b, q.idx)
+                                if (b != null) studio = b to q.idx
                                 else ctx.startActivity(Intent.createChooser(Intent(Intent.ACTION_SEND).setType("text/plain").putExtra(Intent.EXTRA_TEXT, "“${q.text}”"), "Share quote"))
                             }) { Icon(Icons.Outlined.Share, "Share as a picture", tint = ink.faded) }
                             IconButton(onClick = { store.quotes.remove(q); store.persist() }) { Icon(Icons.Outlined.Delete, "Remove", tint = ink.faded) }

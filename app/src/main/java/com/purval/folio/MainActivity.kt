@@ -163,6 +163,8 @@ private sealed interface Route {
     data object Account : Route
     data object Recall : Route
     data object Desk : Route
+    data class Topic(val id: String) : Route
+    data class Scene(val id: String) : Route
     data class Trip(val id: String) : Route
     data class TripDay(val id: String, val day: Int) : Route
 }
@@ -226,6 +228,16 @@ private fun Root(app: App) {
                     BackHandler { route = Route.Home }
                     AccountScreen(app) { route = Route.Home }
                 }
+                is Route.Topic -> {
+                    BackHandler { route = Route.Home }
+                    val t = app.themes(LocalContext.current).firstOrNull { it.id == r.id }
+                    if (t == null) route = Route.Home else ThemeScreen(app, t, open) { route = Route.Home }
+                }
+                is Route.Scene -> {
+                    BackHandler { route = Route.Home }
+                    val s = app.scenarios(LocalContext.current).firstOrNull { it.id == r.id }
+                    if (s == null) route = Route.Home else ScenarioScreen(app, s, open) { route = Route.Home }
+                }
                 Route.Desk -> {
                     BackHandler { route = Route.Home }
                     ReadingNowScreen(app, open) { route = Route.Home }
@@ -253,7 +265,8 @@ private fun Root(app: App) {
                         AnimatedContent(tab, transitionSpec = { fadeIn(tween(220)) togetherWith fadeOut(tween(120)) }, label = "tab") { t ->
                             when (t) {
                                 Tab.LIBRARY -> BookcaseScreen(app, open, bind = { route = Route.Bind }, recall = { route = Route.Recall },
-                                    journey = { route = Route.Trip(it.id) }, desk = { route = Route.Desk })
+                                    journey = { route = Route.Trip(it.id) }, desk = { route = Route.Desk },
+                                    theme = { route = Route.Topic(it.id) }, scenario = { route = Route.Scene(it.id) })
                                 Tab.LEXICON -> LexiconScreen(app)
                                 Tab.QUOTES -> CommonplaceScreen(app, open)
                                 Tab.MARKS -> MarksScreen(app, open)

@@ -14,6 +14,8 @@ data class Card(
     val qBy: String = "",
     /** the quote in plain modern English, and an everyday example of it */
     val qMean: String = "", val qLife: String = "",
+    /** the passage the quote comes from, exactly as printed, and which edition it is from */
+    val orig: String = "", val origFrom: String = "",
 ) {
     fun attribution(b: Book) = qBy.ifBlank { "${b.author}, ${b.title}" }
 }
@@ -69,7 +71,8 @@ object Shelf {
         val cards = (0 until arr.length()).map { i ->
             val c = arr.getJSONObject(i)
             Card(i, c.optString("ch"), c.optString("chTitle"), c.optString("title"), c.optString("text"),
-                c.optString("quote"), c.optString("img").ifBlank { null }, c.optString("cap"), c.optString("qBy"), c.optString("qMean"), c.optString("qLife"))
+                c.optString("quote"), c.optString("img").ifBlank { null }, c.optString("cap"), c.optString("qBy"), c.optString("qMean"), c.optString("qLife"),
+                c.optString("orig"), c.optString("origFrom"))
         }
         return Book(
             o.getString("id"), o.getString("title"), o.optString("author"), o.optString("year"),
@@ -85,7 +88,8 @@ object Shelf {
         val cards = JSONArray()
         b.cards.forEach { c ->
             cards.put(JSONObject().put("ch", c.ch).put("chTitle", c.chTitle).put("title", c.title)
-                .put("text", c.text).put("quote", c.quote).put("img", c.img ?: "").put("cap", c.cap).put("qBy", c.qBy).put("qMean", c.qMean).put("qLife", c.qLife))
+                .put("text", c.text).put("quote", c.quote).put("img", c.img ?: "").put("cap", c.cap).put("qBy", c.qBy).put("qMean", c.qMean).put("qLife", c.qLife)
+                .put("orig", c.orig).put("origFrom", c.origFrom))
         }
         val o = JSONObject().put("id", b.id).put("title", b.title).put("author", b.author).put("year", b.year)
             .put("translator", b.translator).put("era", b.era.name).put("blurb", b.blurb)

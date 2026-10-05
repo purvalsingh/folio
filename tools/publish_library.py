@@ -47,7 +47,9 @@ def main():
     cloud = json.loads((ROOT / "cloud/public.json").read_text()) if (ROOT / "cloud/public.json").exists() else old.get("cloud")
     sh = json.loads((EXTRA / "shelves.json").read_text()) if (EXTRA / "shelves.json").exists() else {}
     cat = {"app": app, "books": books, "cloud": cloud, "shelves": sh.get("shelves", []), "coming": sh.get("coming", []),
-           "journeys": json.loads((EXTRA / "journeys.json").read_text()) if (EXTRA / "journeys.json").exists() else []}
+           "journeys": json.loads((EXTRA / "journeys.json").read_text()) if (EXTRA / "journeys.json").exists() else [],
+           "themes": json.loads((EXTRA / "themes.json").read_text()) if (EXTRA / "themes.json").exists() else [],
+           "scenarios": json.loads((EXTRA / "scenarios.json").read_text()) if (EXTRA / "scenarios.json").exists() else []}
     cat_path.write_text(json.dumps(cat, ensure_ascii=False, indent=1))
     print(f"catalog: {len(books)} books" + (f", app {app['versionName']} ({app['versionCode']})" if app else ", no app release"))
 

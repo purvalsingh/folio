@@ -1,0 +1,11 @@
+# Folio 1.6
+- [x] Read it as written (on the back of every page)
+- [x] Themes across books (14)
+- [x] What would they do? (14 scenarios)
+- [x] Export notes: PDF / Markdown / Anki
+- [x] Share studio (Story/Post/Square × 3 styles × 4 looks)
+- [x] Snapshots + story previews sent
+- [ ] Bump all book versions, release 1.6
+- [ ] iPhone: free web app (PWA) on GitHub Pages, same catalog; Add-to-Home-Screen guide; README + portfolio links
+- [x] Flip card: back = simple English + daily life + as written
+- [ ] The Prince deeper: ~4 cards/chapter (opener linking to previous chapter, argument cards, takeaway), more Commons plates, all quotes verified

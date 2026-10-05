@@ -30,7 +30,8 @@ object Library {
     )
     data class Catalog(val app: Release?, val books: List<Entry>, val cloudBase: String = "", val cloudKey: String = "",
                        val shelves: List<ShelfInfo> = emptyList(), val coming: List<ShelfInfo> = emptyList(),
-                       val journeys: List<Journey> = emptyList())
+                       val journeys: List<Journey> = emptyList(), val themes: List<Theme> = emptyList(),
+                       val scenarios: List<Scenario> = emptyList())
 
     private fun get(url: String): HttpURLConnection = (URL(url).openConnection() as HttpURLConnection).apply {
         connectTimeout = 15000; readTimeout = 30000
@@ -62,7 +63,9 @@ object Library {
                 }
             }.orEmpty()
             Catalog(app, books, cloud?.optString("base").orEmpty(), cloud?.optString("anonKey").orEmpty(), shelves("shelves"), shelves("coming"),
-                runCatching { Journeys.parse(o.optJSONArray("journeys")) }.getOrDefault(emptyList()))
+                runCatching { Journeys.parse(o.optJSONArray("journeys")) }.getOrDefault(emptyList()),
+                runCatching { Explore.themes(o.optJSONArray("themes")) }.getOrDefault(emptyList()),
+                runCatching { Explore.scenarios(o.optJSONArray("scenarios")) }.getOrDefault(emptyList()))
         }.getOrNull()
     }
 

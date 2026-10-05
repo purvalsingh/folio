@@ -40,18 +40,16 @@ def text(key):
     return _cache[key]
 
 
-def found(quote, key):
-    """Exact match after normalisation; OCR'd sources (Gracián) may differ by a few characters."""
-    q, t = norm(quote), text(key)
-    if q in t:
-        return True
-    if key not in OCR:
-        return False
+def locate(q, t, ocr):
+    """Index of normalised quote q in normalised text t, or -1. OCR'd sources may differ by a few characters."""
+    i = t.find(q)
+    if i >= 0 or not ocr:
+        return i
     head = q[:18]
     for m in re.finditer(re.escape(head[:10]), t):
         window = t[m.start(): m.start() + len(q) + 10]
         if difflib.SequenceMatcher(None, q, window[:len(q)]).ratio() >= 0.9:
-            return True
+            return m.start()
     # head may itself contain an OCR error: slide over candidate windows sharing a rare word
     words = sorted(set(re.findall(r"[a-z]{7,}", q)), key=len, reverse=True)[:2]
     for w in words:
@@ -59,8 +57,67 @@ def found(quote, key):
             off = q.find(w)
             start = max(0, m.start() - off)
             if difflib.SequenceMatcher(None, q, t[start: start + len(q)]).ratio() >= 0.9:
-                return True
-    return False
+                return start
+    return -1
+
+
+def found(quote, key):
+    return locate(norm(quote), text(key), key in OCR) >= 0
+
+
+_paras = {}
+
+
+def clean(p):
+    p = re.sub(r"\[(FN#)?\d+\]|_", "", p)
+    p = re.sub(r"-\s*\n\s*(?=[a-z])", "", p)
+    return re.sub(r"\s+", " ", p).strip()
+
+
+def original(quote, key, lo=320, hi=1300):
+    """The passage a quote comes from, as printed: its paragraph, widened to neighbours when the
+    paragraph is a single verse line, trimmed to whole sentences around the quote when very long."""
+    if key not in _paras:
+        raw = [x for x in re.split(r"\n\s*\n", (HERE / SOURCES[key][0]).read_text()) if x.strip()]
+        nrm = [norm(x) for x in raw]
+        starts, pos = [], 0
+        for n in nrm:
+            starts.append(pos); pos += len(n) + 1
+        _paras[key] = (raw, nrm, starts, " ".join(nrm))
+    raw, nrm, starts, joined = _paras[key]
+    q = norm(quote)
+    i = locate(q, joined, key in OCR)
+    if i < 0:
+        return ""
+    first = max(k for k, st in enumerate(starts) if st <= i)
+    last = max(k for k, st in enumerate(starts) if st <= i + len(q) - 1)
+    # editors' bracketed notes (Giles, Arnold) are not the author's words: widen over the text only
+    note = lambda k: raw[k].lstrip().startswith("[") and not (first <= k <= last)
+    pick = list(range(first, last + 1))
+    size = lambda: sum(len(nrm[k]) for k in pick)
+    a, b = first, last
+    while size() < lo and (a > 0 or b < len(raw) - 1):
+        if b < len(raw) - 1:
+            b += 1
+            if not note(b): pick.append(b)
+        if size() < lo and a > 0:
+            a -= 1
+            if not note(a): pick.insert(0, a)
+    out = "\n\n".join(clean(raw[k]) for k in pick)
+    if len(out) > hi:  # one huge paragraph: keep whole sentences around the quote
+        sents = re.split(r"(?<=[.!?;:])\s+", out)
+        nq = q[:40]
+        at = next((k for k, x in enumerate(sents) if nq[:25] in norm(x)), None)
+        if at is None:
+            at = next((k for k, x in enumerate(sents) if any(w in norm(x) for w in q.split()[:4] if len(w) > 5)), 0)
+        a2 = b2 = at
+        while len(" ".join(sents[a2:b2 + 1])) < hi * .8 and (a2 > 0 or b2 < len(sents) - 1):
+            if a2 > 0: a2 -= 1
+            if b2 < len(sents) - 1: b2 += 1
+        out = ("… " if a2 > 0 else "") + " ".join(sents[a2:b2 + 1]) + (" …" if b2 < len(sents) - 1 else "")
+    if out[:1].islower():  # scanned page breaks can start mid-sentence
+        out = "… " + out
+    return out
 
 
 def build(about, glossary, cards, credits_file=None, caps=None, out_dir=None):
@@ -71,6 +128,8 @@ def build(about, glossary, cards, credits_file=None, caps=None, out_dir=None):
         src = c.pop("src")
         if not found(c["quote"], src):
             bad.append((i + 1, src, c["quote"]))
+        c["orig"] = original(c["quote"], src)
+        c["origFrom"] = SOURCES[src][1]
         if src != about.get("self_src"):
             c["qBy"] = SOURCES[src][1]
         c["img"] = f"{about['id']}_{i + 1:02d}"
@@ -99,9 +158,23 @@ def build(about, glossary, cards, credits_file=None, caps=None, out_dir=None):
         sys.exit(1)
 
 
+def _selfcheck():
+    """python3 folio_build.py: the passage must contain its quote, start with a capital, stay readable in size."""
+    for quote, key in [("it is much safer to be feared than loved", "prince"),
+                       ("All warfare is based on deception", "sunzi")]:
+        o = original(quote, key)
+        assert norm(quote) in norm(o), (key, o[:200])
+        assert 200 < len(o) < 1700, len(o)
+    print("original(): ok")
+
+
 def caption(f):
     f = re.sub(r"^File:|\.(jpe?g|png|tiff?)$", "", f, flags=re.I)
     f = re.sub(r"\s*[-,]?\s*(WGA\d+|MET DP\d+|RP-P-[\w.-]+|NGA \d+|Google Art Project|Walters \d+|LACMA [\d.]+|RMG \w+|\(BM [^)]*\)|[\d.]+ - Cleveland Museum of Art|\(cropped\)|\(titel op object\)|\(serietitel\))", "", f)
     f = re.sub(r"[\u3000-\u9fff\uff00-\uffef]+[-\s]*", "", f)  # CJK title prefix
     f = re.sub(r"^Anonymous - |\s*-\s*[\d.]+\s*-\s*(Metropolitan Museum of Art|Cleveland Museum of Art)|MET [\d ]+$|\((CBL|IA|BM)[^)]*\)|OeNB \d+|inv\d+|\(\d{6,}\)|- FA\d+.*$|- RCIN.*$|-bust-cutout ROM|- B19[\d.]+.*$", "", f)
     return re.sub(r"\s+", " ", f).strip(" -,") + " · public domain"
+
+
+if __name__ == "__main__":
+    _selfcheck()

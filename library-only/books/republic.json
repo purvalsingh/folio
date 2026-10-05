@@ -8,7 +8,7 @@
  "era": "ancient",
  "shelf": "War & Statecraft",
  "blurb": "Socrates asks what justice is — and imagines a whole city to find out. Home of the cave, the ring of invisibility and the philosopher-king.",
- "version": 1,
+ "version": 2,
  "cover": "republic_cover",
  "glossary": {
   "justice": {
@@ -33,6 +33,8 @@
    "quote": "justice the interest of the stronger",
    "qMean": "Some argue 'justice' is just what helps the powerful.",
    "qLife": "When rules seem written to protect the rich.",
+   "orig": "… ‘Socrates,’ he says, ‘what folly is this?—Why do you agree to be vanquished by one another in a pretended argument?’ He then prohibits all the ordinary definitions of justice; to which Socrates replies that he cannot tell how many twelve is, if he is forbidden to say 2 x 6, or 3 x 4, or 6 x 2, or 4 x 3. At first Thrasymachus is reluctant to argue; but at length, with a promise of payment on the part of the company and of praise from Socrates, he is induced to open the game. ‘Listen,’ he says, ‘my answer is that might is right, justice the interest of the stronger: now praise me.’ Let me understand you first. Do you mean that because Polydamas the wrestler, who is stronger than we are, finds the eating of beef for his interest, the eating of beef is also for our interest, who are not so strong? Thrasymachus is indignant at the illustration, and in pompous words, apparently intended to restore dignity to the argument, he explains his meaning to be that the rulers make laws for their own interests. But suppose, says Socrates, that the ruler or stronger makes a mistake—then the interest of the stronger is not his interest. …",
+   "origFrom": "Plato, The Republic (tr. Jowett)",
    "img": "republic_01",
    "cap": "Bust of Socrates, Capitoline Museums · public domain"
   },
@@ -44,6 +46,8 @@
    "quote": "every one will do evil if he can.",
    "qMean": "Some say everyone would do wrong if they couldn't be caught.",
    "qLife": "Would you return extra change if no one would ever know?",
+   "orig": "‘To do injustice is said to be a good; to suffer injustice an evil. As the evil is discovered by experience to be greater than the good, the sufferers, who cannot also be doers, make a compact that they will have neither, and this compact or mean is called justice, but is really the impossibility of doing injustice. No one would observe such a compact if he were not obliged. Let us suppose that the just and unjust have two rings, like that of Gyges in the well-known story, which make them invisible, and then no difference will appear in them, for every one will do evil if he can. And he who abstains will be regarded by the world as a fool for his pains. Men may praise him in public out of fear for themselves, but they will laugh at him in their hearts (Cp. Gorgias.)",
+   "origFrom": "Plato, The Republic (tr. Jowett)",
    "img": "republic_02",
    "cap": "A shepherd's rural scene · public domain"
   },
@@ -55,6 +59,8 @@
    "quote": "the beginning is the most important part of any work",
    "qMean": "The start of anything matters most.",
    "qLife": "Good habits learned young last a lifetime.",
+   "orig": "Quite right, he said.\n\nYou know also that the beginning is the most important part of any work, especially in the case of a young and tender thing; for that is the time at which the character is being formed and the desired impression is more readily taken.\n\nQuite true.\n\nAnd shall we just carelessly allow children to hear any casual tales which may be devised by casual persons, and to receive into their minds ideas for the most part the very opposite of those which we should wish them to have when they are grown up?",
+   "origFrom": "Plato, The Republic (tr. Jowett)",
    "img": "republic_03",
    "cap": "Douris, red-figure school cup, c. 480 BC · public domain"
   },
@@ -66,6 +72,8 @@
    "quote": "philosophers are kings",
    "qMean": "Leaders should be truly wise people.",
    "qLife": "Wishing your city's mayor were an expert, not a celebrity.",
+   "orig": "The argument of the Republic is the search after Justice, the nature of which is first hinted at by Cephalus, the just and blameless old man—then discussed on the basis of proverbial morality by Socrates and Polemarchus—then caricatured by Thrasymachus and partially explained by Socrates—reduced to an abstraction by Glaucon and Adeimantus, and having become invisible in the individual reappears at length in the ideal State which is constructed by Socrates. The first care of the rulers is to be education, of which an outline is drawn after the old Hellenic model, providing only for an improved religion and morality, and more simplicity in music and gymnastic, a manlier strain of poetry, and greater harmony of the individual and the State. We are thus led on to the conception of a higher State, in which ‘no man calls anything his own,’ and in which there is neither ‘marrying nor giving in marriage,’ and ‘kings are philosophers’ and ‘philosophers are kings;’ and there is another and higher education, intellectual as well as moral and religious, of science as well as of art, and not of youth only but of the whole of life. Such a State is hardly to be realized in this world and quickly degenerates. To the perfect ideal succeeds the government of the soldier and the lover of honour, this again declining into democracy, and democracy into tyranny, in an imaginary but regular order having not much resemblance to the actual facts. …",
+   "origFrom": "Plato, The Republic (tr. Jowett)",
    "img": "republic_04",
    "cap": "David - The Death of Socrates · public domain"
   },
@@ -77,6 +85,8 @@
    "quote": "human beings living in an underground den which is open towards the light",
    "qMean": "Most people mistake shadows for reality.",
    "qLife": "Believing social-media highlights are what people's lives are really like.",
+   "orig": "BOOK VII. And now I will describe in a figure the enlightenment or unenlightenment of our nature:—Imagine human beings living in an underground den which is open towards the light; they have been there from childhood, having their necks and legs chained, and can only see into the den. At a distance there is a fire, and between the fire and the prisoners a raised way, and a low wall is built along the way, like the screen over which marionette players show their puppets. Behind the wall appear moving figures, who hold in their hands various works of art, and among them images of men and animals, wood and stone, and some of the passers-by are talking and others silent. ‘A strange parable,’ he said, ‘and strange captives.’ They are ourselves, I replied; and they see only the shadows of the images which the fire throws on the wall of the den; to these they give names, and if we add an echo which returns from the wall, the voices of the passengers will seem to proceed from the shadows. Suppose now that you suddenly turn them round and make them look with pain and grief to themselves at the real images; …",
+   "origFrom": "Plato, The Republic (tr. Jowett)",
    "img": "republic_05",
    "cap": "Jan Saenredam, Plato's Cave, 1604 · public domain"
   }

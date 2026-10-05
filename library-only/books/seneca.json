@@ -8,7 +8,7 @@
  "era": "ancient",
  "shelf": "Stoic Wisdom",
  "blurb": "Life isn't short — we waste it. Seneca's sharp little essay on time, busyness and living now.",
- "version": 1,
+ "version": 2,
  "cover": "seneca_cover",
  "glossary": {
   "carelessness": {
@@ -29,6 +29,8 @@
    "quote": "life is long enough to carry out the most important projects",
    "qMean": "Life is long enough if you use it well.",
    "qLife": "Two focused hours a day can write a book in a year.",
+   "orig": "… nor is it only the common herd and the ignorant vulgar who mourn over this universal misfortune, as they consider it to be: this reflection has wrung complaints even from great men. Hence comes that well-known saying of physicians, that art is long but life is short: hence arose that quarrel, so unbefitting a sage, which Aristotle picked with Nature, because she had indulged animals with such length of days that some of them lived for ten or fifteen centuries, while man, although born for many and such great exploits, had the term of his existence cut so much shorter. We do not have a very short time assigned to us, but we lose a great deal of it: life is long enough to carry out the most important projects: we {289} have an ample portion, if we do but arrange the whole of it aright: but when it all runs to waste through luxury and carelessness, when it is not devoted to any good purpose, then at the last we are forced to feel that it is all over, although we never noticed how it glided away. Thus it is: we do not receive a short life, but we make it a short one, and we are not poor in days, but wasteful of them. When great and kinglike riches fall into the hands of a bad master, they are dispersed straightway, but even a moderate fortune, when bestowed upon a wise guardian, increases by use: …",
+   "origFrom": "Seneca, On the Shortness of Life (tr. Stewart, 1889)",
    "img": "seneca_01",
    "cap": "Adriaen Coorte - Vanitas Still Life with skull and hourglass · public domain"
   },
@@ -40,6 +42,8 @@
    "quote": "when it all runs to waste through luxury and carelessness",
    "qMean": "Time disappears through comfort and carelessness.",
    "qLife": "Hours vanishing into scrolling on the sofa.",
+   "orig": "… hence arose that quarrel, so unbefitting a sage, which Aristotle picked with Nature, because she had indulged animals with such length of days that some of them lived for ten or fifteen centuries, while man, although born for many and such great exploits, had the term of his existence cut so much shorter. We do not have a very short time assigned to us, but we lose a great deal of it: life is long enough to carry out the most important projects: we {289} have an ample portion, if we do but arrange the whole of it aright: but when it all runs to waste through luxury and carelessness, when it is not devoted to any good purpose, then at the last we are forced to feel that it is all over, although we never noticed how it glided away. Thus it is: we do not receive a short life, but we make it a short one, and we are not poor in days, but wasteful of them. When great and kinglike riches fall into the hands of a bad master, they are dispersed straightway, but even a moderate fortune, when bestowed upon a wise guardian, increases by use: and in like manner our life has great opportunities for one who knows how to dispose of it to the best advantage.",
+   "origFrom": "Seneca, On the Shortness of Life (tr. Stewart, 1889)",
    "img": "seneca_02",
    "cap": "A coronation banquet, 18th century · public domain"
   },
@@ -51,6 +55,8 @@
    "quote": "you are busy, but life is hurrying on",
    "qMean": "While you're busy, life passes quickly.",
    "qLife": "Always 'too busy' to visit grandparents.",
+   "orig": "… Yet you have no reason to suppose that they do not know how dear a thing time is: they are wont to say to those whom they especially love that they are ready to give them a part of their own years. They do give them, and know not that they are giving them; but they give them in such a manner that they themselves lose them without the others gaining them. They do not, however, know whence they obtain their supply, and therefore they are able to endure the waste of what is not seen: yet no one will give you back your years, no one will restore them to you again: your life will run its course when once it has begun, and will neither begin again or efface what it has done. It will make no disturbance, it will give you no warning of how fast it flies: it will move silently on: it will not prolong itself at the command of a king, or at the wish of a nation: as it started on its first day, so it will run: it will never turn aside, never delay. What follows, then? Why! you are busy, but life is hurrying on: death will be here some time or other, and you must attend to him, whether you will or no.",
+   "origFrom": "Seneca, On the Shortness of Life (tr. Stewart, 1889)",
    "img": "seneca_03",
    "cap": "Manuel Domínguez, The Death of Seneca · public domain"
   },
@@ -62,6 +68,8 @@
    "quote": "no one lays claim to his own self, every one wastes his time over some one else.",
    "qMean": "People give all their time to others and none to themselves.",
    "qLife": "Answering every message instantly but never having an hour for yourself.",
+   "orig": "… Nay, look at those whose prosperity all men run to see: they are choked by their own good things. To how many men do riches prove a heavy burden? how many men’s eloquence and continual desire to display their own cleverness has cost them their lives? how many are sallow with constant sensual indulgence? how many have no freedom left them by the tribe of clients that surges around them? Look through all these, from the lowest to the highest:—this man calls his friends to support him, this one is present in court, this one is the defendant, this one pleads for him, this one is on the jury: but no one lays claim to his own self, every one wastes his time over some one else. Investigate those men, whose names are in every one’s mouth: you will find that they bear just the same marks: A is devoted to B, and B to C: no one belongs to himself. Moreover some men are full of most irrational anger: they complain of the insolence of their chiefs, because they have not granted them an audience when they wished for it; as if a man had any right to complain of being so haughtily shut out by another, when he never has {291} leisure to give his own conscience a hearing. …",
+   "origFrom": "Seneca, On the Shortness of Life (tr. Stewart, 1889)",
    "img": "seneca_04",
    "cap": "Johannes Lingelbach, Roman Street Scene · public domain"
   }

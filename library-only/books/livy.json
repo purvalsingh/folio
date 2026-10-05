@@ -8,7 +8,7 @@
  "era": "renaissance",
  "shelf": "War & Statecraft",
  "blurb": "The other Machiavelli: a love letter to republics, arguing that free peoples are wiser and steadier than princes.",
- "version": 1,
+ "version": 2,
  "cover": "livy_cover",
  "glossary": {
   "commonwealth": {
@@ -33,6 +33,8 @@
    "quote": "all men are bad, and will always, when they have free field, give loose to their evil inclinations",
    "qMean": "Design rules assuming people will misuse freedom.",
    "qLife": "Apps add two-step login because some people will try to break in.",
+   "orig": "They who lay the foundations of a State and furnish it with laws must, as is shown by all who have treated of civil government, and by examples of which history is full, assume that ‘all men are bad, and will always, when they have free field, give loose to their evil inclinations; and that if these for a while remain hidden, it is owing to some secret cause, which, from our having no contrary experience, we do not recognize at once, but which is afterwards revealed by Time, of whom we speak as the father of all truth.",
+   "origFrom": "Niccolò Machiavelli, Discourses on Livy (tr. Thomson, 1883)",
    "img": "livy_01",
    "cap": "Cesare Maccari, Appius Claudius in the Senate · public domain"
   },
@@ -44,6 +46,8 @@
    "quote": "a people is more prudent, more stable, and of better judgment than a prince.",
    "qMean": "Ordinary people together judge better than a single ruler.",
    "qLife": "A team vote often beats the boss's hunch.",
+   "orig": "… And further, I say that any difference in their methods of acting results not from any difference in their nature, that being the same in both, or, if there be advantage on either side, the advantage resting with the people, but from their having more or less respect for the laws under which each lives. And whosoever attentively considers the history of the Roman people, may see that for four hundred years they never relaxed in their hatred of the regal name, and were constantly devoted to the glory and welfare of their country, and will find numberless proofs given by them of their consistency in both particulars. And should any allege against me the ingratitude they showed to Scipio, I reply by what has already been said at length on that head, where I proved that peoples are less ungrateful than princes. But as for prudence and stability of purpose, I affirm that a people is more prudent, more stable, and of better judgment than a prince. Nor is it without reason that the voice of the people has been likened to the voice of God; for we see that wide-spread beliefs fulfil themselves, and bring about marvellous results, so as to have the appearance of presaging by some occult quality either weal or woe. Again, as to the justice of their opinions on public affairs, seldom find that after hearing two speakers of equal ability urging them in opposite directions, they do not adopt the sounder view, or are unable to decide on the truth of what they hear. …",
+   "origFrom": "Niccolò Machiavelli, Discourses on Livy (tr. Thomson, 1883)",
    "img": "livy_02",
    "cap": "Forum and Column of Trajan restored (Ancient Rome) engraving · public domain"
   },
@@ -55,6 +59,8 @@
    "quote": "in every well ordered commonwealth provision will be made for a succession of this sort.",
    "qMean": "Well-run places plan who leads next.",
    "qLife": "A family business training the next generation early.",
+   "orig": "When Rome had driven out her kings, she was freed from those dangers to which, as I have said, she was exposed by the possible succession of a weak or wicked prince. For the chief share in the government then devolved upon the consuls, who took their authority not by inheritance, nor yet by craft or by ambitious violence, but by the free suffrages of their fellow-citizens, and were always men of signal worth; by whose valour and good fortune Rome being constantly aided, was able to reach the height of her greatness in the same number of years as she had lived under her kings. And since we find that two successive reigns of valiant princes, as of Philip of Macedon and his son Alexander, suffice to conquer the world, this ought to be still easier for a commonwealth, which has it in its power to choose, not two excellent rulers only, but an endless number in succession. And in every well ordered commonwealth provision will be made for a succession of this sort.",
+   "origFrom": "Niccolò Machiavelli, Discourses on Livy (tr. Thomson, 1883)",
    "img": "livy_03",
    "cap": "Busts of Lucius and Marcus Junius Brutus · public domain"
   }

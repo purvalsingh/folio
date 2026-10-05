@@ -173,7 +173,6 @@ fun JourneyReader(app: App, j: Journey, day: Int, back: () -> Unit) {
     val pager = rememberPagerState { pages.size }
     val scope = rememberCoroutineScope()
     var word by remember { mutableStateOf<Pair<Gloss, String>?>(null) }
-    var explain by remember { mutableStateOf<Pair<Book, Int>?>(null) }
     Column(Modifier.fillMaxSize().paper(ink.page, ink).statusBarsPadding().navigationBarsPadding()) {
         Row(Modifier.fillMaxWidth().padding(horizontal = 4.dp), verticalAlignment = Alignment.CenterVertically) {
             IconButton(onClick = back) { Icon(Icons.AutoMirrored.Filled.ArrowBack, "Back", tint = ink.ink) }
@@ -185,11 +184,10 @@ fun JourneyReader(app: App, j: Journey, day: Int, back: () -> Unit) {
         }
         HorizontalPager(state = pager, modifier = Modifier.weight(1f), contentPadding = PaddingValues(horizontal = 18.dp, vertical = 14.dp), pageSpacing = 10.dp) { p ->
             val (b, i) = pages[p]
-            FolioCard(app, b, i, onWord = { word = it to b.id }, onQuote = { explain = b to i }, onSealed = {
+            FolioCard(app, b, i, onWord = { word = it to b.id }, onSealed = {
                 scope.launch { delay(650); if (p + 1 < pages.size) pager.animateScrollToPage(p + 1) }
             })
         }
     }
-    explain?.let { (b, i) -> ModalBottomSheet(onDismissRequest = { explain = null }, containerColor = ink.paper) { QuoteSheet(app, b, i) } }
     word?.let { (g, bid) -> ModalBottomSheet(onDismissRequest = { word = null }, containerColor = ink.paper) { WordSheet(app, g, bid) } }
 }

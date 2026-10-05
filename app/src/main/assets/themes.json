@@ -1,0 +1,228 @@
+[
+ {
+  "id": "power",
+  "title": "Power",
+  "blurb": "Who gets it, who keeps it, and what it costs.",
+  "cards": [
+   "prince#31",
+   "prince#35",
+   "laws#0",
+   "arthashastra#2",
+   "livy#0",
+   "republic#0",
+   "prince#5",
+   "taoteching#7",
+   "prince#40",
+   "gracian#0"
+  ]
+ },
+ {
+  "id": "fear",
+  "title": "Fear & Courage",
+  "blurb": "What the old books say to a frightened mind.",
+  "cards": [
+   "gita#2",
+   "gita#3",
+   "meditations#8",
+   "prince#49",
+   "speaking#0",
+   "speaking#1",
+   "dhammapada#6",
+   "habit#5"
+  ]
+ },
+ {
+  "id": "anger",
+  "title": "Anger",
+  "blurb": "Why it burns, and how the wise put it out.",
+  "cards": [
+   "dhammapada#8",
+   "dhammapada#1",
+   "artofwar#23",
+   "emotions#3",
+   "enchiridion#7",
+   "kural#2",
+   "kural#1",
+   "laws#38",
+   "gita#22"
+  ]
+ },
+ {
+  "id": "friendship",
+  "title": "Friendship",
+  "blurb": "Finding friends, keeping them, and knowing the false ones.",
+  "cards": [
+   "emerson#4",
+   "kural#5",
+   "hitopadesa#0",
+   "franklin#2",
+   "laws#1",
+   "panchatantra#0",
+   "hitopadesa#1"
+  ]
+ },
+ {
+  "id": "love",
+  "title": "Love & Desire",
+  "blurb": "Romance, devotion and the self-love that fools us.",
+  "cards": [
+   "emerson#5",
+   "ovid#0",
+   "ovid#1",
+   "ovid#4",
+   "gita#15",
+   "maxims#4",
+   "dhammapada#8"
+  ]
+ },
+ {
+  "id": "time",
+  "title": "Time",
+  "blurb": "Life is long enough, if you stop wasting it.",
+  "cards": [
+   "seneca#0",
+   "seneca#1",
+   "seneca#2",
+   "seneca#3",
+   "chesterfield#3",
+   "meditations#2",
+   "meditations#3",
+   "franklin#4",
+   "gita#17",
+   "laws#34"
+  ]
+ },
+ {
+  "id": "selfcontrol",
+  "title": "Self-Control",
+  "blurb": "Ruling yourself before anything else.",
+  "cards": [
+   "gita#5",
+   "gita#12",
+   "dhammapada#2",
+   "dhammapada#7",
+   "thinketh#5",
+   "taoteching#5",
+   "dhammapada#4",
+   "emotions#2",
+   "habit#2"
+  ]
+ },
+ {
+  "id": "mind",
+  "title": "Your Mind Makes Your World",
+  "blurb": "How your thoughts shape what happens to you.",
+  "cards": [
+   "dhammapada#0",
+   "thinketh#0",
+   "thinketh#1",
+   "enchiridion#1",
+   "meditations#4",
+   "meditations#5",
+   "maxims#5",
+   "gita#11"
+  ]
+ },
+ {
+  "id": "fortune",
+  "title": "Fortune & Fate",
+  "blurb": "Luck, chance and the part that is still yours.",
+  "cards": [
+   "prince#47",
+   "prince#46",
+   "prince#48",
+   "prince#12",
+   "enchiridion#2",
+   "enchiridion#6",
+   "habit#4",
+   "hitopadesa#3",
+   "thinketh#2",
+   "laws#9"
+  ]
+ },
+ {
+  "id": "leading",
+  "title": "Leading People",
+  "blurb": "Generals, kings and sages on being followed.",
+  "cards": [
+   "artofwar#17",
+   "artofwar#19",
+   "arthashastra#0",
+   "prince#43",
+   "prince#44",
+   "taoteching#1",
+   "livy#1",
+   "laws#42",
+   "republic#3"
+  ]
+ },
+ {
+  "id": "masks",
+  "title": "Truth & Masks",
+  "blurb": "Deception, appearances and the faces we wear.",
+  "cards": [
+   "artofwar#1",
+   "prince#33",
+   "prince#34",
+   "prince#35",
+   "bge#2",
+   "jung#4",
+   "redbook#2",
+   "maxims#2",
+   "chesterfield#5",
+   "republic#1",
+   "crowd#4"
+  ]
+ },
+ {
+  "id": "persuasion",
+  "title": "Winning People Over",
+  "blurb": "Persuading without pushing.",
+  "cards": [
+   "franklin#0",
+   "franklin#1",
+   "chesterfield#1",
+   "chesterfield#4",
+   "laws#8",
+   "kural#1",
+   "crowd#3",
+   "crowd#5",
+   "maxims#0",
+   "gracian#3",
+   "speaking#2"
+  ]
+ },
+ {
+  "id": "action",
+  "title": "Action over Talk",
+  "blurb": "Stop planning, start doing.",
+  "cards": [
+   "gita#6",
+   "gita#4",
+   "arthashastra#5",
+   "habit#3",
+   "kural#4",
+   "taoteching#8",
+   "meditations#7",
+   "laws#27",
+   "republic#2",
+   "hitopadesa#3"
+  ]
+ },
+ {
+  "id": "learning",
+  "title": "Learning & Wisdom",
+  "blurb": "Knowing, not knowing, and knowing that you don't.",
+  "cards": [
+   "kural#3",
+   "dhammapada#5",
+   "taoteching#6",
+   "chesterfield#0",
+   "gita#16",
+   "prince#9",
+   "republic#4",
+   "panchatantra#1",
+   "laws#20"
+  ]
+ }
+]

@@ -101,7 +101,8 @@ fun App.shelves(): List<Pair<ShelfInfo, List<Volume>>> {
 
 @OptIn(ExperimentalFoundationApi::class)
 @Composable
-fun BookcaseScreen(app: App, open: (Book, Int) -> Unit, bind: () -> Unit, recall: () -> Unit = {}, journey: (Journey) -> Unit = {}, desk: () -> Unit = {}) {
+fun BookcaseScreen(app: App, open: (Book, Int) -> Unit, bind: () -> Unit, recall: () -> Unit = {}, journey: (Journey) -> Unit = {}, desk: () -> Unit = {},
+                   theme: (Theme) -> Unit = {}, scenario: (Scenario) -> Unit = {}) {
     val ink = LocalInk.current
     val shelves = app.shelves()
     val list = rememberLazyListState()
@@ -110,7 +111,7 @@ fun BookcaseScreen(app: App, open: (Book, Int) -> Unit, bind: () -> Unit, recall
     val headerItems = 2 // masthead block + sticky tabs
 
     LazyColumn(Modifier.fillMaxSize(), state = list, contentPadding = PaddingValues(bottom = 28.dp)) {
-        item { Column(Modifier.padding(horizontal = 20.dp)) { LibraryTop(app, open, recall, journey, desk) } }
+        item { Column(Modifier.padding(horizontal = 20.dp)) { LibraryTop(app, open, recall, journey, desk, theme, scenario) } }
         stickyHeader {
             Column(Modifier.fillMaxWidth().paper(ink.page, ink)) {
                 LazyRow(contentPadding = PaddingValues(horizontal = 16.dp, vertical = 8.dp), horizontalArrangement = Arrangement.spacedBy(8.dp)) {

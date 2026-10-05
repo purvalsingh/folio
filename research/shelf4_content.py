@@ -392,5 +392,5 @@ if __name__ == "__main__":
     import pathlib
     out = pathlib.Path(__file__).parent.parent / "library-only/books"
     for about, gl, cards in BOOKS:
-        about = dict(about, version=1, cover=f"{about['id']}_cover")
+        about = dict(about, version=2, cover=f"{about['id']}_cover")
         build(about, gl, cards, credits_file="commons/credits.json", caps=CAPS4, out_dir=out)

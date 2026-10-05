@@ -308,7 +308,7 @@ card("Chapter XXVI", "An Exhortation to Liberate Italy", "Courage against fury",
  "Italian citizen-soldiers marching with pikes under a rising sun, laurel wreath in the sky")
 
 ABOUT = {
- "version": 3, "id": "prince", "title": "The Prince", "author": "Niccolò Machiavelli", "short": "Machiavelli", "year": "1532",
+ "version": 4, "id": "prince", "title": "The Prince", "author": "Niccolò Machiavelli", "short": "Machiavelli", "year": "1532",
  "translator": "W. K. Marriott, 1908 (public domain, Project Gutenberg #1232)",
  "era": "renaissance", "shelf": "Power & Strategy", "cover": "prince_cover",
  "blurb": "A banished Florentine diplomat's handbook on how power is won, held and lost. Five hundred years later it still names the game: appearances, fear, loyalty, luck.",
@@ -341,7 +341,10 @@ def main():
     src = norm((here / "prince.txt").read_text()).lower()
     bad = [c["quote"] for c in C if norm(c["quote"]).lower() not in src]
     credits = json.loads((here / "commons/credits.json").read_text())
+    import folio_build
     for i, c in enumerate(C):
+        c["orig"] = folio_build.original(c["quote"], "prince")
+        c["origFrom"] = folio_build.SOURCES["prince"][1]
         c["img"] = f"prince_{i+1:02d}"
         cr = credits.get(c["img"])
         c["cap"] = (CAP[c["img"]] + " · public domain") if c["img"] in CAP else caption(cr["file"]) if cr else "Engraving made for Folio"

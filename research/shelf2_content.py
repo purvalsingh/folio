@@ -474,5 +474,5 @@ if __name__ == "__main__":
     out = pathlib.Path(__file__).parent.parent / "library-only/books"
     out.mkdir(parents=True, exist_ok=True)
     for about, gl, cards in BOOKS:
-        about = dict(about, version=1, self_src=cards[0]["src"], cover=f"{about['id']}_cover")
+        about = dict(about, version=2, self_src=cards[0]["src"], cover=f"{about['id']}_cover")
         build(about, gl, cards, credits_file="commons/credits.json", out_dir=out)

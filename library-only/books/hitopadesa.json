@@ -8,7 +8,7 @@
  "era": "indic",
  "shelf": "Indian Wisdom",
  "blurb": "'Beneficial advice': Sanskrit fables of crows, deer, tigers and kings, packed with verses on friendship, money and war.",
- "version": 1,
+ "version": 2,
  "cover": "hitopadesa_cover",
  "glossary": {
   "enmity": {
@@ -38,6 +38,8 @@
    "quote": "give me thy friendship",
    "qMean": "Please be my friend.",
    "qLife": "Making friends with a rival team's player.",
+   "orig": "Now Light o' Leap, the Crow, had been a spectator of the whole transaction, and wondered at it so much that at last he called out, \"Ho! Golden-skin, thou very laudable Prince, let me too be a friend of thine, and give me thy friendship.\"\n\n\"Who art thou?\" said Golden-skin, who heard him, but would not come out of his hole.",
+   "origFrom": "The Hitopadesha (tr. Edwin Arnold)",
    "img": "hitopadesa_01",
    "cap": "The lion, crow, wolf and jackal, Kalila wa Dimna · public domain"
   },
@@ -49,6 +51,8 @@
    "quote": "Wealth is friends, home, father, brother",
    "qMean": "Money buys people's attention and respect.",
    "qLife": "Suddenly having many 'friends' after a lottery win.",
+   "orig": "'Wealth is friends, home, father, brother--title to respect and fame; Yea, and wealth is held for wisdom--that it should be so is shame,' 'Home is empty to the childless; hearts to them who friends deplore:-- Earth unto the idle-minded; and the three worlds to the poor.'\n\n'I can stay here no longer; and to tell my distress to another is out of the question--altogether out of the question!--",
+   "origFrom": "The Hitopadesha (tr. Edwin Arnold)",
    "img": "hitopadesa_02",
    "cap": "The merchant returns, Tuti-nama, Mughal, 16th century · public domain"
   },
@@ -60,6 +64,8 @@
    "quote": "Be his Scripture-learning wondrous, yet the cheat will be a cheat",
    "qMean": "Education doesn't change a dishonest nature.",
    "qLife": "A well-spoken scammer is still a scammer.",
+   "orig": "So saying he approached the wretched man and seized him--who meanwhile bitterly reflected--\n\n'Be his Scripture-learning wondrous, yet the cheat will be a cheat; Be her pasture ne'er so bitter, yet the cow's milk will be sweet.'\n\nAnd on that verse, too--\n\n'Trust not water, trust not weapons; trust not clawed nor horned things; Neither give thy soul to women, nor thy life to Sons of Kings.'",
+   "origFrom": "The Hitopadesha (tr. Edwin Arnold)",
    "img": "hitopadesa_03",
    "cap": "Krishna with flute · public domain"
   },
@@ -71,6 +77,8 @@
    "quote": "While the hungry lion slumbers, not a deer comes to his den.",
    "qMean": "Success needs effort; it won't come to you while you sleep.",
    "qLife": "Job offers don't arrive unless you apply.",
+   "orig": "\"So verily,\n\n\"Worthy ends come not by wishing. Wouldst thou? Up, and win it, then! While the hungry lion slumbers, not a deer comes to his den.\"\n\nHaving concluded his reflections, the Raja gave orders to assemble a meeting of learned men. Then said he--\n\n\"Hear now, O my Pundits! Is there one among you so wise that he will undertake to give the second birth of Wisdom to these my sons, by teaching them the Books of Policy; for they have never yet read the Sacred Writings, and are altogether going in the wrong road; and ye know that",
+   "origFrom": "The Hitopadesha (tr. Edwin Arnold)",
    "img": "hitopadesa_04",
    "cap": "Abu'l Hasan, Raja Anup Rai intercepting a lion, c. 1615 · public domain"
   }

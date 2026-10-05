@@ -74,6 +74,15 @@ class Shots {
         val ctx = androidx.compose.ui.platform.LocalContext.current
         androidx.compose.foundation.Image(CardArt.quoteCard(ctx, app.books[0], 30).asImageBitmap(), null, Modifier.fillMaxSize())
     }
+    private fun lib(app: App) = app.apply {
+        java.io.File("../library-only/books").listFiles()!!.sorted().forEach { f -> if (book(f.nameWithoutExtension) == null) books += Shelf.parse(org.json.JSONObject(f.readText()), false) }
+    }
+    @Test fun backSide() = shot { FolioCard(it, it.books[0], 31, {}, {}, startFlipped = true) }
+    @Test fun backSideNight() = shot(night = true) { FolioCard(it, it.book("artofwar")!!, 1, {}, {}, startFlipped = true) }
+    @Test fun theme() = shot { app -> lib(app); ThemeScreen(app, Explore.bundledThemes(paparazzi.context).ifEmpty { Explore.themes(org.json.JSONArray(java.io.File("src/main/assets/themes.json").readText())) }.first { it.id == "anger" }, { _, _ -> }) {} }
+    @Test fun scenario() = shot { app -> lib(app); ScenarioScreen(app, Explore.scenarios(org.json.JSONArray(java.io.File("src/main/assets/scenarios.json").readText())).first(), { _, _ -> }) {} }
+    @Test fun studio() = shot { ShareStudio(it.books[0], 31) {} }
+    @Test fun export() = shot { ExportSheet(seeded(it)) {} }
     @Test fun gita() = shot { Reader(it, it.book("gita")!!, 3) {} }
 }
 

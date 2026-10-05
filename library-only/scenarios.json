@@ -1,0 +1,268 @@
+[
+ {
+  "id": "credit",
+  "title": "A colleague takes credit for your work",
+  "situation": "In a meeting, a teammate presents your idea as theirs. Everyone nods. You're furious.",
+  "advice": [
+   {
+    "card": "franklin#1",
+    "say": "Don't call them a liar in public. Ask a curious question about the details only you would know, and let the room see who really did the work."
+   },
+   {
+    "card": "laws#5",
+    "say": "Make your work visible from now on: share progress early and often, so nobody can quietly borrow it again."
+   },
+   {
+    "card": "dhammapada#8",
+    "say": "Don't let anger turn this into a feud. Calm firmness wins more than a fight."
+   }
+  ]
+ },
+ {
+  "id": "delay",
+  "title": "You keep putting off something important",
+  "situation": "The course, the gym, the call you need to make. It's been 'next week' for months.",
+  "advice": [
+   {
+    "card": "seneca#2",
+    "say": "You're busy, but life isn't waiting. The 'right time' never comes."
+   },
+   {
+    "card": "meditations#2",
+    "say": "Count how long you've already delayed. That number is the argument for today."
+   },
+   {
+    "card": "habit#3",
+    "say": "Act on the decision the very first chance you get, even in a tiny way, before the feeling fades."
+   }
+  ]
+ },
+ {
+  "id": "insult",
+  "title": "Someone insults you in front of others",
+  "situation": "A sharp remark, people laugh, and your face goes hot.",
+  "advice": [
+   {
+    "card": "enchiridion#7",
+    "say": "They said it because it seemed right to them. Their mistake hurts them, not you."
+   },
+   {
+    "card": "dhammapada#8",
+    "say": "Answer with calm, not a counter-insult. Anger met with anger only grows."
+   },
+   {
+    "card": "kural#2",
+    "say": "Be decent to them later. Kindness they didn't earn is the punishment they'll remember."
+   }
+  ]
+ },
+ {
+  "id": "stage",
+  "title": "You're nervous about a presentation",
+  "situation": "Tomorrow you speak in front of the class or team, and your stomach is already in knots.",
+  "advice": [
+   {
+    "card": "speaking#2",
+    "say": "Confidence comes from preparation. Know your material so well there's nothing left to fear."
+   },
+   {
+    "card": "speaking#1",
+    "say": "Rehearse out loud, again and again. Like horses used to trains, you'll stop flinching."
+   },
+   {
+    "card": "gita#4",
+    "say": "Do the talk well and let go of how it's received. The effort is yours; the applause isn't."
+   }
+  ]
+ },
+ {
+  "id": "badidea",
+  "title": "Your boss asks what you think of their bad idea",
+  "situation": "They're excited. You can see three problems.",
+  "advice": [
+   {
+    "card": "laws#0",
+    "say": "Don't make them look foolish. Let them keep the credit for the good parts."
+   },
+   {
+    "card": "franklin#1",
+    "say": "Skip 'you're wrong'. Try 'I wonder if…' and let them discover the flaw themselves."
+   },
+   {
+    "card": "prince#44",
+    "say": "A wise leader wants the truth. If yours punishes honesty, you've learned something important about them."
+   }
+  ]
+ },
+ {
+  "id": "money",
+  "title": "A friend keeps borrowing money and never pays it back",
+  "situation": "Small amounts, always a good story, never returned.",
+  "advice": [
+   {
+    "card": "hitopadesa#1",
+    "say": "Money changes how people treat each other. Notice whether the friendship lives without it."
+   },
+   {
+    "card": "prince#28",
+    "say": "Endless generosity drains you and earns resentment, not gratitude. It's okay to stop."
+   },
+   {
+    "card": "maxims#0",
+    "say": "Watch what they want, not what they say. Self-interest can wear any face."
+   }
+  ]
+ },
+ {
+  "id": "loss",
+  "title": "You lost something you cared about",
+  "situation": "A job, a relationship, a chance you were sure of.",
+  "advice": [
+   {
+    "card": "enchiridion#4",
+    "say": "Say 'it has been returned', not 'I lost it'. It was never fully yours to keep."
+   },
+   {
+    "card": "meditations#5",
+    "say": "Everything changes; this will too. The pain is real, and so is the change still coming."
+   },
+   {
+    "card": "maxims#5",
+    "say": "You're never quite as unhappy as you feel right now. Give it time."
+   }
+  ]
+ },
+ {
+  "id": "habit",
+  "title": "You want to build a new habit",
+  "situation": "Gym, reading, waking early: you start strong and fade by week two.",
+  "advice": [
+   {
+    "card": "habit#2",
+    "say": "Allow no exceptions until it's rooted. Every skipped day undoes several good ones."
+   },
+   {
+    "card": "franklin#3",
+    "say": "Track it. Franklin kept a page per virtue and marked every slip."
+   },
+   {
+    "card": "taoteching#8",
+    "say": "Start tiny. A thousand-mile journey still begins with one step."
+   }
+  ]
+ },
+ {
+  "id": "crowd",
+  "title": "Everyone around you is doing something you think is wrong",
+  "situation": "The group chat, the team, the friends. Going along is easier.",
+  "advice": [
+   {
+    "card": "crowd#1",
+    "say": "In a crowd, good people do what they never would alone. Notice when it's happening to you."
+   },
+   {
+    "card": "emerson#1",
+    "say": "To be yourself you sometimes have to stand apart."
+   },
+   {
+    "card": "bge#3",
+    "say": "Madness is rare in one person and normal in groups. The group being sure proves nothing."
+   }
+  ]
+ },
+ {
+  "id": "lead",
+  "title": "You're leading a team for the first time",
+  "situation": "You were one of them yesterday. Now you're in charge.",
+  "advice": [
+   {
+    "card": "artofwar#17",
+    "say": "Be kind first, then firm. Humanity earns loyalty; discipline keeps it."
+   },
+   {
+    "card": "taoteching#1",
+    "say": "Put yourself last. The leader who serves ends up in front."
+   },
+   {
+    "card": "arthashastra#0",
+    "say": "Your success is their wellbeing. When the team thrives, so do you."
+   }
+  ]
+ },
+ {
+  "id": "provoke",
+  "title": "A rival is trying to provoke you",
+  "situation": "They needle you, hoping you'll snap in front of everyone.",
+  "advice": [
+   {
+    "card": "artofwar#23",
+    "say": "Never act out of anger. That's exactly what they want."
+   },
+   {
+    "card": "laws#38",
+    "say": "Stay calm and let them be the one who loses their temper."
+   },
+   {
+    "card": "meditations#9",
+    "say": "A bitter cucumber? Put it down. Brambles? Walk around. Not every thorn needs a fight."
+   }
+  ]
+ },
+ {
+  "id": "risk",
+  "title": "Safe path or risky dream?",
+  "situation": "A stable option on one side, the thing you really want on the other.",
+  "advice": [
+   {
+    "card": "prince#49",
+    "say": "Fortune favours the bold more than the cautious."
+   },
+   {
+    "card": "gita#7",
+    "say": "Your own path done imperfectly beats someone else's done well."
+   },
+   {
+    "card": "emerson#0",
+    "say": "Trust yourself. Every heart answers to that string."
+   }
+  ]
+ },
+ {
+  "id": "failed",
+  "title": "Your plan failed and you blame bad luck",
+  "situation": "You did everything right, you think, and it still fell apart.",
+  "advice": [
+   {
+    "card": "prince#46",
+    "say": "People don't prepare in calm weather. Next time, build the dykes before the flood."
+   },
+   {
+    "card": "thinketh#2",
+    "say": "Circumstances don't make you; they show you who you are. What did this one show?"
+   },
+   {
+    "card": "hitopadesa#3",
+    "say": "Luck needs effort. Even the lion has to hunt."
+   }
+  ]
+ },
+ {
+  "id": "argue",
+  "title": "You want to win an argument",
+  "situation": "You know you're right and you want them to admit it.",
+  "advice": [
+   {
+    "card": "franklin#0",
+    "say": "Ask questions like a curious beginner. People accept what they think they discovered."
+   },
+   {
+    "card": "kural#1",
+    "say": "Hard words when kind ones work is like choosing unripe fruit."
+   },
+   {
+    "card": "artofwar#4",
+    "say": "The best victory needs no battle. Win the person, not the argument."
+   }
+  ]
+ }
+]

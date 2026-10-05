@@ -213,5 +213,5 @@ if __name__ == "__main__":
     out = pathlib.Path(__file__).parent.parent / "library-only/books"
     for about, gl, cards in BOOKS:
         own = {"habit": "james", "dreams": "freud", "emotions": "darwin", "jung": "jung", "redbook": "none"}[about["id"]]
-        about = dict(about, version=1, self_src=own, cover=f"{about['id']}_cover")
+        about = dict(about, version=2, self_src=own, cover=f"{about['id']}_cover")
         build(about, gl, cards, credits_file="commons/credits.json", out_dir=out)
