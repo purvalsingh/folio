@@ -2,7 +2,7 @@
 
 CURRENT OBJECTIVE: native Android (Kotlin + Compose, one Java class) flashcard reader for old books. Shelf: The Prince (52), 48 Laws of Power digest (48), The Art of War (26), Bhagavad Gita (25).
 
-STATUS: v1.3 released — Bookcase home (genre shelves, spines, bindery shelves), 19 books (4 bundled + 15 online in library-only/). v1.2 released (quote meanings, per-era typography, account code dormant). BLOCKER: accounts need user's new Supabase 'folio' project ref + publishable key -> run cloud/setup.sh REF KEY, run cloud/schema.sql in SQL editor, Auth: confirm email OFF, recovery email template must contain {{ .Token }}. v1.1 released at github.com/purvalsingh/folio (public). In-app updater + online library live. v1.0 built, signed release APK at ~/Desktop/Folio.apk (also app/build/outputs/apk/release/).
+STATUS: v1.4.1 released (versionCode 6, 36 MB) — Daily Recall (Leitner SRS, Quiz.kt), chapter checks, lazy read-aloud (TTS), daily reminder (Daily.kt), quote-of-the-day widget, share-as-image quote cards (CardArt.kt), Reading Journeys (Journeys.kt + library-only/journeys.json, also bundled in assets), Hindi meanings (ML Kit, Hindi.kt), text size/line spacing. 31 books (4 bundled + 27 online), 10 shelves incl. Indian Wisdom; 3 'coming' shelves. Sales README with docs/screens (from Paparazzi). Portfolio card added (purvalsingh.github.io). LinkedIn post drafted, not posted. v1.2 released (quote meanings, per-era typography, account code dormant). BLOCKER: accounts need user's new Supabase 'folio' project ref + publishable key -> run cloud/setup.sh REF KEY, run cloud/schema.sql in SQL editor, Auth: confirm email OFF, recovery email template must contain {{ .Token }}. v1.1 released at github.com/purvalsingh/folio (public). In-app updater + online library live. v1.0 built, signed release APK at ~/Desktop/Folio.apk (also app/build/outputs/apk/release/).
 
 COMPLETED
 - 52 cards of The Prince (Marriott 1908, Gutenberg #1232): plain summaries + verbatim quotes (auto-verified) + 55 glossary forms.
@@ -21,6 +21,8 @@ DECISIONS
 - 48 Laws is copyrighted (Greene 1998): original summaries + PD quotes (Machiavelli/Sun Tzu/Gracián/La Rochefoucauld), each card carries qBy attribution. Never ship Greene's text.
 - Content scripts: research/{prince,laws,artofwar,gita}_content.py via folio_build.py (quote verifier; fuzzy only for OCR'd Gracián). Plates: research/commons.py <book> with queries.json.
 - No Room/Navigation libs: state in one JSON in SharedPreferences, routes as a sealed interface.
+- research/shelf4_content.py: 12 books (bindery + Indian Wisdom), CAPS4 caption overrides; Kural (Aiyar 1916) + Panchatantra (Ryder 1925) are OCR -> fuzzy match. Aristotle's Rhetoric dropped (OCR too garbled), replaced by Franklin + Chesterfield. Chanakya Niti skipped (no clean PD English source found).
+- APK size: ML Kit translate ships ~17 MB native lib per ABI -> abiFilters arm64-v8a + armeabi-v7a, compressed jniLibs, bouncycastle pqc tables excluded (90 MB -> 36 MB).
 - Era -> typeface map in Theme.kt (Renaissance = UnifrakturMaguntia + IM Fell).
 
 NEXT ACTION
@@ -34,4 +36,4 @@ IMPORTANT FILES
 - app/src/test/.../DistillerTest.kt — offline importer self-check on the real text.
 - Signing: ~/.folio-signing/ (keystore + passwords). Build: JAVA_HOME=~/.local/jdk-21 ./gradlew assembleRelease
 
-LAST VALIDATION: 2026-10-05 4 books, all quotes verified; assembleRelease OK (26 MB); Paparazzi 15/15; DistillerTest pass.
+LAST VALIDATION: 2026-10-05 v1.4.1: all 12 new books' quotes verified; Paparazzi 24/24 (recall, chapterCheck, journey, quoteCard added); CryptTest + DistillerTest pass; catalog sha256 == local APK; README images 12/12 load on GitHub.
