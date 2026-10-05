@@ -19,7 +19,7 @@
 - [x] Remove all third-party image references from live books; guard publisher
 - [x] Generate original Gita opening plate and Walden draft sketch
 - [x] Run Antigravity Android review and fix verified quiz/navigation/glossary issues
-- [~] Release UX fixes and original-only catalog to GitHub/Android
+- [x] Release UX fixes and original-only catalog to GitHub/Android (1.6.5 and 1.6.6)
 - [x] Add title/author search to the Android bookcase
 - [x] Publish five-card introductions for Wealth of Nations, Walden, Gitanjali with original art
 - [ ] Grow to 120–130 source-grounded books across varied shelves
