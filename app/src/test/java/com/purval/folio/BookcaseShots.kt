@@ -15,19 +15,23 @@ class BookcaseShots {
     @get:Rule
     val paparazzi = Paparazzi(deviceConfig = DeviceConfig.PIXEL_6.copy(screenHeight = 8600), showSystemUi = false, maxPercentDifference = 1.0, useDeviceResolution = true)
 
-    @Test fun bookcase() {
+    @Test fun bookcase() = case(false)
+    @Test fun bookcaseNight() = case(true)
+
+    private fun case(night: Boolean) {
         val app = App(paparazzi.context)
         if (app.books.isEmpty()) listOf("prince", "laws", "artofwar", "gita").forEach {
             app.books += Shelf.parse(JSONObject(File("src/main/assets/books/$it.json").readText()), false)
         }
         app.store.seal(app.books[0], 0, app.books)
+        app.store.setPosition("gita", 3); app.store.seal(app.book("gita")!!, 0, app.books)
         val remote = File("../library-only/books").listFiles()!!.sorted().map { f ->
             val b = Shelf.parse(JSONObject(f.readText()), false)
             Library.Entry(b.id, b.version, b.title, b.author, b.year, b.era, b.cards.size, 900, b.blurb, emptyList(), b.shelf)
         }
         app.catalog = Library.Catalog(null, remote)
         paparazzi.snapshot {
-            FolioTheme(false) { Box(Modifier.fillMaxSize().paper(LocalInk.current.page, LocalInk.current)) { BookcaseScreen(app, { _, _ -> }, {}) } }
+            FolioTheme(night) { Box(Modifier.fillMaxSize().paper(LocalInk.current.page, LocalInk.current)) { BookcaseScreen(app, { _, _ -> }, {}) } }
         }
     }
 }

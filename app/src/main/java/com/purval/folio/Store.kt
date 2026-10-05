@@ -71,6 +71,8 @@ class Store(ctx: Context) {
 
     val sealed = mutableMapOf<String, MutableSet<Int>>()
     val position = mutableMapOf<String, Int>()
+    /** book -> when it was last open (epoch ms), for the Reading Now desk */
+    val opened = mutableMapOf<String, Long>()
     val bookmarks = mutableStateListOf<String>()
     val lexicon = mutableStateListOf<SavedWord>()
     val quotes = mutableStateListOf<SavedQuote>()
@@ -172,7 +174,7 @@ class Store(ctx: Context) {
         persist()
     }
 
-    fun setPosition(book: String, i: Int) { position[book] = i; lastBook = book; persist() }
+    fun setPosition(book: String, i: Int) { position[book] = i; lastBook = book; opened[book] = System.currentTimeMillis(); persist() }
 
     fun toggleBookmark(id: String) { if (!bookmarks.remove(id)) bookmarks.add(0, id); persist() }
 
@@ -195,7 +197,7 @@ class Store(ctx: Context) {
     }
 
     fun forgetBook(id: String) {
-        sealed.remove(id); position.remove(id)
+        sealed.remove(id); position.remove(id); opened.remove(id)
         bookmarks.removeAll { it.startsWith("$id#") }
         quotes.removeAll { it.bookId == id }
         if (lastBook == id) lastBook = null
@@ -219,6 +221,7 @@ class Store(ctx: Context) {
         val o = JSONObject()
         o.put("sealed", JSONObject().apply { sealed.forEach { (k, v) -> put(k, JSONArray(v.toList())) } })
         o.put("position", JSONObject(position.toMap()))
+        o.put("opened", JSONObject(opened.toMap()))
         o.put("bookmarks", JSONArray(bookmarks.toList()))
         o.put("lexicon", JSONArray().apply {
             lexicon.forEach { put(JSONObject().put("w", it.word).put("m", it.meaning).put("e", it.example).put("b", it.bookId).put("t", it.at)) }
@@ -244,6 +247,7 @@ class Store(ctx: Context) {
             s.keys().forEach { k -> val a = s.getJSONArray(k); sealed.getOrPut(k) { mutableSetOf() }.addAll((0 until a.length()).map { a.getInt(it) }) }
         }
         o.optJSONObject("position")?.let { p -> p.keys().forEach { if (it !in position) position[it] = p.getInt(it) } }
+        o.optJSONObject("opened")?.let { p -> p.keys().forEach { opened[it] = maxOf(opened[it] ?: 0L, p.getLong(it)) } }
         o.optJSONArray("bookmarks")?.let { a -> (0 until a.length()).map { a.getString(it) }.filter { it !in bookmarks }.forEach { bookmarks += it } }
         o.optJSONArray("lexicon")?.let { a ->
             (0 until a.length()).map { a.getJSONObject(it) }.filter { w -> lexicon.none { it.word.equals(w.getString("w"), true) } }.forEach {
@@ -274,6 +278,7 @@ class Store(ctx: Context) {
             s.keys().forEach { k -> val a = s.getJSONArray(k); sealed[k] = (0 until a.length()).map { a.getInt(it) }.toMutableSet() }
         }
         o.optJSONObject("position")?.let { p -> p.keys().forEach { position[it] = p.getInt(it) } }
+        o.optJSONObject("opened")?.let { p -> p.keys().forEach { opened[it] = p.getLong(it) } }
         o.optJSONArray("bookmarks")?.let { a -> (0 until a.length()).forEach { bookmarks += a.getString(it) } }
         o.optJSONArray("lexicon")?.let { a ->
             (0 until a.length()).map { a.getJSONObject(it) }.forEach {

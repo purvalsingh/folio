@@ -49,6 +49,15 @@ class Shots {
     @Test fun word() = shot { WordSheet(it, it.books[0].glossary.getValue("patrimony"), "prince") }
     @Test fun laws() = shot { Reader(it, it.book("laws")!!, 0) {} }
     @Test fun artofwar() = shot { Reader(it, it.book("artofwar")!!, 10) {} }
+    private fun desk(app: App) = app.apply {
+        seeded(this)
+        listOf("gita" to 6, "artofwar" to 3).forEach { (id, n) -> val b = book(id)!!; (0 until n).forEach { store.seal(b, it, books) }; store.setPosition(id, n) }
+        val laws = book("laws")!!; laws.cards.indices.forEach { store.seal(laws, it, books) }
+        store.setPosition("prince", 12)
+    }
+    @Test fun readingNow() = shot { ReadingNowScreen(desk(it), { _, _ -> }) {} }
+    @Test fun readingNowNight() = shot(night = true) { ReadingNowScreen(desk(it), { _, _ -> }) {} }
+    @Test fun libraryDesk() = shot { LibraryScreen(desk(it), { _, _ -> }, {}) }
     @Test fun recall() = shot { RecallScreen(seeded(it)) {} }
     @Test fun chapterCheck() = shot { ChapterCheck(it, it.books[0], 0) {} }
     @Test fun journey() = shot { app ->

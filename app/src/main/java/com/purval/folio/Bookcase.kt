@@ -48,6 +48,7 @@ import androidx.compose.ui.draw.rotate
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.lerp
 import androidx.compose.ui.graphics.PathEffect
 import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.hapticfeedback.HapticFeedbackType
@@ -100,7 +101,7 @@ fun App.shelves(): List<Pair<ShelfInfo, List<Volume>>> {
 
 @OptIn(ExperimentalFoundationApi::class)
 @Composable
-fun BookcaseScreen(app: App, open: (Book, Int) -> Unit, bind: () -> Unit, recall: () -> Unit = {}, journey: (Journey) -> Unit = {}) {
+fun BookcaseScreen(app: App, open: (Book, Int) -> Unit, bind: () -> Unit, recall: () -> Unit = {}, journey: (Journey) -> Unit = {}, desk: () -> Unit = {}) {
     val ink = LocalInk.current
     val shelves = app.shelves()
     val list = rememberLazyListState()
@@ -109,10 +110,17 @@ fun BookcaseScreen(app: App, open: (Book, Int) -> Unit, bind: () -> Unit, recall
     val headerItems = 2 // masthead block + sticky tabs
 
     LazyColumn(Modifier.fillMaxSize(), state = list, contentPadding = PaddingValues(bottom = 28.dp)) {
-        item { Column(Modifier.padding(horizontal = 20.dp)) { LibraryTop(app, open, recall, journey) } }
+        item { Column(Modifier.padding(horizontal = 20.dp)) { LibraryTop(app, open, recall, journey, desk) } }
         stickyHeader {
             Column(Modifier.fillMaxWidth().paper(ink.page, ink)) {
                 LazyRow(contentPadding = PaddingValues(horizontal = 16.dp, vertical = 8.dp), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                    val open = app.desk().count { !it.finished }
+                    if (open > 0) item {
+                        Box(
+                            Modifier.clip(RoundedCornerShape(50)).background(ink.rubric).clickable(onClick = desk)
+                                .padding(horizontal = 14.dp, vertical = 7.dp),
+                        ) { Text("Reading now · $open", fontFamily = Fonts.fellSc, fontSize = 13.sp, letterSpacing = .5.sp, color = ink.paper) }
+                    }
                     items(shelves.size) { i ->
                         val (s, vols) = shelves[i]
                         Box(
@@ -203,7 +211,7 @@ private fun Shelf(app: App, info: ShelfInfo, vols: List<Volume>, pickedId: Strin
 private fun Plank(modifier: Modifier) {
     val ink = LocalInk.current
     Box(modifier.fillMaxWidth().height(10.dp).padding(horizontal = 10.dp).drawBehind {
-        drawRect(ink.ink.copy(alpha = if (ink.dark) .55f else .82f))
+        drawRect(if (ink.dark) Color(0xFF4A4037) else ink.ink.copy(alpha = .82f)) // dark oak at night, not a pale bar
         // wood grain: fine hairlines along the plank
         for (k in 1..3) drawLine(ink.paper.copy(alpha = .14f), Offset(0f, size.height * k / 4f), Offset(size.width, size.height * k / 4f), .8f)
         // brackets
@@ -217,23 +225,32 @@ private fun Plank(modifier: Modifier) {
 
 private data class SpineStyle(val bg: Color, val fg: Color, val band: Color, val outline: Boolean)
 
+/**
+ * Bindings keep their own colours day and night, like real books: dark leather carries gilt or cream
+ * lettering, pale vellum and stone carry ink. Night only dims the pale ones, it never inverts them.
+ */
 @Composable
 private fun styleFor(era: Era, seed: Int): SpineStyle {
-    val ink = LocalInk.current
-    val cream = Color(0xFFF2E8D5)
+    val dark = LocalInk.current.dark
+    val cream = Color(0xFFF3E7CF); val gilt = Color(0xFFE2C98F); val red = Color(0xFFA8382A); val inkC = Color(0xFF1C1915)
+    val shade = (seed % 3) * .045f // neighbouring volumes differ a little, like a real shelf
+    fun cloth(c: Long) = lerp(Color(c), Color.Black, shade)
+    fun pale(day: Long, night: Long) = lerp(Color(if (dark) night else day), Color.Black, shade * .5f)
     return when (era) {
-        Era.RENAISSANCE, Era.GERMANIC -> SpineStyle(ink.ink.copy(alpha = if (seed % 2 == 0) 1f else .88f), cream, ink.rubric, false)
-        Era.INDIC -> SpineStyle(ink.rubric.copy(alpha = if (seed % 2 == 0) 1f else .85f), cream, cream.copy(alpha = .8f), false)
-        Era.EASTERN -> SpineStyle(Color(0xFF2B2622), cream, ink.rubric, false)
-        Era.BAROQUE -> SpineStyle(ink.paper, ink.ink, ink.rubric, true)
-        Era.ANCIENT -> SpineStyle(Color(0xFFD9CFBD).copy(alpha = if (ink.dark) .35f else 1f), ink.ink, ink.ink.copy(alpha = .6f), true)
-        else -> SpineStyle(Color(0xFF3B3631), cream, cream.copy(alpha = .5f), false)
+        Era.RENAISSANCE, Era.GERMANIC -> SpineStyle(cloth(0xFF221E1A), gilt, red, dark)
+        Era.INDIC -> SpineStyle(cloth(0xFF84281B), cream, gilt.copy(alpha = .85f), false)
+        Era.EASTERN -> SpineStyle(cloth(0xFF2F2925), cream, red, dark)
+        Era.BAROQUE -> SpineStyle(pale(0xFFEDE3CF, 0xFFC9BFAB), inkC, red, true)
+        Era.ANCIENT -> SpineStyle(pale(0xFFD8CDB8, 0xFFB9AE9A), inkC, Color(0xFF5E564A), true)
+        Era.ENLIGHTENMENT -> SpineStyle(cloth(0xFF34414B), cream, gilt.copy(alpha = .8f), false)
+        Era.VICTORIAN -> SpineStyle(cloth(0xFF2F3C32), gilt, gilt.copy(alpha = .7f), false)
+        Era.MODERN -> SpineStyle(cloth(0xFF4A423A), cream, cream.copy(alpha = .5f), false)
     }
 }
 
 private fun spineSize(id: String): Pair<Dp, Dp> {
     val h = abs(id.hashCode())
-    return (46 + h % 18).dp to (156 + (h / 7) % 36).dp
+    return (50 + h % 16).dp to (160 + (h / 7) % 34).dp
 }
 
 @Composable
@@ -252,7 +269,7 @@ private fun Spine(app: App, v: Volume, lifted: Boolean, onTap: () -> Unit) {
     val finished = onShelf && total > 0 && done >= total
 
     Box(
-        Modifier.offset(y = lift).rotate(tilt).size(w, h).alpha(if (onShelf) 1f else .62f)
+        Modifier.offset(y = lift).rotate(tilt).size(w, h)
             .pointerInput(v.id) {
                 detectTapGestures(
                     onPress = { pressed = true; tryAwaitRelease(); pressed = false },
@@ -261,25 +278,28 @@ private fun Spine(app: App, v: Volume, lifted: Boolean, onTap: () -> Unit) {
             }
             .clip(RoundedCornerShape(topStart = 3.dp, topEnd = 3.dp, bottomStart = 1.dp, bottomEnd = 1.dp))
             .background(st.bg)
-            .then(if (st.outline) Modifier.border(1.dp, ink.ink.copy(alpha = .7f), RoundedCornerShape(topStart = 3.dp, topEnd = 3.dp)) else Modifier)
-            .then(if (!onShelf) Modifier.border(1.dp, ink.ink.copy(alpha = .5f), RoundedCornerShape(3.dp)) else Modifier)
+            .then(if (st.outline) Modifier.border(1.dp, (if (ink.dark) Color.Black else ink.ink).copy(alpha = .55f), RoundedCornerShape(topStart = 3.dp, topEnd = 3.dp)) else Modifier)
             .drawBehind {
                 // raised bands, like a hand-bound spine
                 listOf(.08f, .12f, .86f, .9f).forEach { y -> drawLine(st.band, Offset(5f, size.height * y), Offset(size.width - 5f, size.height * y), 2.2f) }
                 // a soft highlight on the curve of the spine
                 drawRect(Color.White.copy(alpha = .07f), topLeft = Offset(size.width * .18f, 0f), size = Size(size.width * .12f, size.height))
+                // still in the online library: a light veil over the cloth only, so the title stays crisp
+                if (!onShelf) drawRect(ink.page.copy(alpha = .28f))
             },
         contentAlignment = Alignment.Center,
     ) {
         // long titles wrap onto two lines down the spine instead of being cut off
-        val long = v.title.length > 13
-        val size = (if (v.era == Era.BAROQUE) 3 else 0) + if (v.title.length > 22) 12 else if (long) 13 else 16
+        // short titles in the era's display face; long ones in its text face, which stays legible at small sizes
+        val n = v.title.length
+        val long = n > 15
+        val size = when { n <= 11 -> 16 + (if (v.era == Era.BAROQUE) 3 else 0); n > 24 -> 13; else -> 14 }
         Text(
-            v.title, fontFamily = v.era.display, fontSize = size.sp, lineHeight = (size + 2).sp, color = st.fg,
-            maxLines = if (long) 2 else 1, overflow = TextOverflow.Ellipsis, textAlign = TextAlign.Center,
+            v.title, fontFamily = if (long) v.era.body else v.era.display, fontSize = size.sp, lineHeight = (size + 2).sp, color = st.fg,
+            maxLines = if (n > 11) 2 else 1, overflow = TextOverflow.Ellipsis, textAlign = TextAlign.Center,
             modifier = Modifier.requiredWidth(h * .7f).rotate(-90f),
         )
-        Text(if (onShelf) v.era.fleuron else "⇣", color = if (onShelf) st.band else st.fg, fontSize = if (onShelf) 11.sp else 14.sp,
+        Text(if (onShelf) v.era.fleuron else "⇣", color = if (onShelf) st.band else st.fg, fontSize = if (onShelf) 11.sp else 15.sp,
             modifier = Modifier.align(Alignment.BottomCenter).padding(bottom = 4.dp))
         if (reading) Box(Modifier.align(Alignment.TopEnd).padding(end = 6.dp).width(5.dp).height(h * .32f).background(ink.rubric)) // ribbon
         if (finished) WaxSeal("✓", 22.dp, modifier = Modifier.align(Alignment.TopCenter).padding(top = h * .14f))

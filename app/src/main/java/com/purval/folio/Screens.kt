@@ -103,8 +103,8 @@ fun Masthead(title: String, line: String, font: FontFamily = Fonts.fraktur) {
 }
 
 @Composable
-fun Label(text: String, color: Color = LocalInk.current.rubric, size: TextUnit = 12.sp) =
-    Text(text.uppercase(), fontFamily = Fonts.fellSc, fontSize = size, letterSpacing = 2.sp, color = color)
+fun Label(text: String, color: Color = LocalInk.current.rubric, size: TextUnit = 12.sp, modifier: Modifier = Modifier) =
+    Text(text.uppercase(), fontFamily = Fonts.fellSc, fontSize = size, letterSpacing = 2.sp, color = color, modifier = modifier)
 
 @Composable
 fun Panel(modifier: Modifier = Modifier, content: @Composable () -> Unit) {
@@ -159,7 +159,7 @@ fun LibraryScreen(app: App, open: (Book, Int) -> Unit, bind: () -> Unit) = Bookc
 
 /** Top of the Library: greeting, update notice, daily quota, rank and the book you were last reading. */
 @Composable
-fun LibraryTop(app: App, open: (Book, Int) -> Unit, recall: () -> Unit = {}, journey: (Journey) -> Unit = {}) {
+fun LibraryTop(app: App, open: (Book, Int) -> Unit, recall: () -> Unit = {}, journey: (Journey) -> Unit = {}, desk: () -> Unit = {}) {
     val ink = LocalInk.current
     val store = app.store
     val tick = store.tick
@@ -225,23 +225,7 @@ fun LibraryTop(app: App, open: (Book, Int) -> Unit, recall: () -> Unit = {}, jou
         }
     }
     JourneysRow(app, journey)
-    val last = store.lastBook?.let { app.book(it) }
-    if (last != null) {
-        Spacer(Modifier.height(16.dp))
-        val pos = store.position[last.id] ?: 0
-        Row(Modifier.fillMaxWidth().clip(RoundedCornerShape(3.dp)).clickable { open(last, pos) }.paper(ink.paper, ink).doubleRule(ink).padding(10.dp),
-            verticalAlignment = Alignment.CenterVertically) {
-            Box(Modifier.width(96.dp)) { Plate(last, last.cards.getOrNull(pos)?.img ?: last.cover) }
-            Spacer(Modifier.width(12.dp))
-            Column(Modifier.weight(1f)) {
-                Label("Continue reading", size = 11.sp)
-                Text(last.cards.getOrNull(pos)?.title ?: last.title, fontFamily = last.era.display, fontSize = 21.sp, lineHeight = 25.sp,
-                    color = ink.ink, maxLines = 2, overflow = TextOverflow.Ellipsis)
-                Text("${last.title} · folio ${pos + 1} of ${last.cards.size}", fontFamily = Fonts.fell, fontStyle = FontStyle.Italic,
-                    fontSize = 13.sp, color = ink.faded, maxLines = 1, overflow = TextOverflow.Ellipsis)
-            }
-        }
-    }
+    ReadingNowRow(app, open, desk)
     Spacer(Modifier.height(18.dp))
     Text("The Bookcase", fontFamily = Fonts.fraktur, fontSize = 30.sp, color = ink.ink)
     Text("Tap a spine to pull a book from the shelf. Faded spines wait in the online library.",

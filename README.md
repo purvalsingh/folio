@@ -28,6 +28,7 @@ You bought it. You opened it. Page three, a sentence 90 words long, and you were
 | 🖋 **Typeset like the original** | Machiavelli in Renaissance blackletter, the Gita in Devanagari-inspired type, Clausewitz in Prussian Fraktur, Franklin in colonial Pica, each book with its own era, drop cap and fleuron. |
 | 🔎 **Tap any hard word** | *Clemency? Patrimony?* A plain meaning plus an everyday example, in **English or Hindi**. Add it to your own Lexicon. |
 | 💬 **Tap any quote** | "What does this actually mean?" A simpler version plus where you'd see it in real life. |
+| 📖 **Reading Now** | Every book you have open, with progress, minutes left and when you last read it, plus the ones you have finished. |
 | 🧠 **Daily Recall** | Spaced repetition brings back your words and quotes right before you'd forget them. |
 | ✅ **Chapter checks** | Three quick questions when you finish a chapter. Pass and the chapter gets a wax seal. |
 | 🗺 **Reading Journeys** | *Power in 7 Days*, *Calm in 7 Days*, *Win People Over in 5 Days*: three pages a day from several books on one theme. |
@@ -45,7 +46,7 @@ You bought it. You opened it. Page three, a sentence 90 words long, and you were
 
 <img src="docs/screens/word.jpg" width="200"> <img src="docs/screens/recall.jpg" width="200"> <img src="docs/screens/quiz.jpg" width="200"> <img src="docs/screens/journey.jpg" width="200">
 
-<img src="docs/screens/night.jpg" width="200"> <img src="docs/screens/quotes.jpg" width="200"> <img src="docs/screens/honours.jpg" width="200"> <img src="docs/screens/celebration.jpg" width="200">
+<img src="docs/screens/reading-now.jpg" width="200"> <img src="docs/screens/bookcase-night.jpg" width="200"> <img src="docs/screens/quotes.jpg" width="200"> <img src="docs/screens/honours.jpg" width="200"> <img src="docs/screens/celebration.jpg" width="200">
 
 <img src="docs/screens/share.jpg" width="320">
 
