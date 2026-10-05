@@ -1,11 +1,11 @@
 {
  "app": {
-  "versionCode": 6,
-  "versionName": "1.4.1",
-  "notes": "Smaller download (36 MB, was 90 MB). Same features as 1.4: Daily Recall, chapter checks, read-aloud, reminders, quote widget, quote cards, Reading Journeys, Hindi meanings, comfort settings, and 12 new books including the Indian Wisdom shelf.",
-  "sizeKb": 35623,
-  "sha256": "23e08e7d435e60dd1afb150bf0528136a2eb756757a3c4c044b359d7a7f16f3f",
-  "apk": "https://github.com/purvalsingh/folio/releases/download/v1.4.1/Folio.apk"
+  "versionCode": 7,
+  "versionName": "1.5",
+  "notes": "Reading Now: a page with every book you have open (progress, minutes left, last read) and the ones you have finished, plus a Reading Now row and chip on the home page. Redesigned bookshelf: every spine is readable in day and night mode, with real leather, cloth and vellum colours, clearer titles and a dark oak shelf at night.",
+  "sizeKb": 35632,
+  "sha256": "c731db6edb2a791f35fe340aa61de2c50771d48498222940cdf6abe4b9ecd3f7",
+  "apk": "https://github.com/purvalsingh/folio/releases/download/v1.5/Folio.apk"
  },
  "books": [
   {
