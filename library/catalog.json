@@ -1,22 +1,22 @@
 {
  "app": {
-  "versionCode": 2,
-  "versionName": "1.1",
-  "notes": "Online library: new books download inside the app, and future versions install with one tap. Adds The 48 Laws of Power, The Art of War and the Bhagavad Gita.",
-  "sizeKb": 25490,
-  "sha256": "1f40f8fe90d0a01ae76362c1d135a62adb99b1c72fc3151361349c907da8c36f",
-  "apk": "https://github.com/purvalsingh/folio/releases/download/v1.1/Folio.apk"
+  "versionCode": 3,
+  "versionName": "1.2",
+  "notes": "Tap any quote for its meaning in plain English and an everyday example. Each book now has its own era lettering: brush script for The Art of War, Sanskrit-style for the Gita, copperplate for the 48 Laws. Accounts with encrypted sync are on the way.",
+  "sizeKb": 26306,
+  "sha256": "35237166cbe776c0b5da6673f89fcd770d2d5bdca7eb54a8aca078b07938b12b",
+  "apk": "https://github.com/purvalsingh/folio/releases/download/v1.2/Folio.apk"
  },
  "books": [
   {
    "id": "artofwar",
-   "version": 1,
+   "version": 2,
    "title": "The Art of War",
-   "author": "Sun Tzŭ",
+   "author": "Sun Tzu",
    "year": "c. 500 BC",
-   "era": "ancient",
+   "era": "eastern",
    "cards": 26,
-   "sizeKb": 2481,
+   "sizeKb": 2484,
    "blurb": "Thirteen short chapters from ancient China on winning — ideally without a fight. Read by generals, CEOs and chess players for 2,500 years.",
    "images": [
     "artofwar_01",
@@ -50,13 +50,13 @@
   },
   {
    "id": "gita",
-   "version": 1,
+   "version": 2,
    "title": "The Bhagavad Gita",
    "author": "Vyasa (trad.)",
    "year": "c. 400 BC",
-   "era": "ancient",
+   "era": "indic",
    "cards": 25,
-   "sizeKb": 2748,
+   "sizeKb": 2752,
    "blurb": "On a battlefield, a great archer loses his nerve, and his charioteer — God himself — talks him through duty, action, death and devotion. Eighteen chapters of the world's most loved spiritual dialogue.",
    "images": [
     "gita_01",
@@ -89,13 +89,13 @@
   },
   {
    "id": "laws",
-   "version": 1,
+   "version": 2,
    "title": "The 48 Laws of Power",
    "author": "Robert Greene",
    "year": "1998",
-   "era": "enlightenment",
+   "era": "baroque",
    "cards": 48,
-   "sizeKb": 4889,
+   "sizeKb": 4897,
    "blurb": "Forty-eight rules of power, from royal courts to modern offices — each law in a minute, paired with a line from Machiavelli, Sun Tzŭ, Gracián or La Rochefoucauld. Know them to use them, or to spot them used on you.",
    "images": [
     "laws_01",
@@ -151,13 +151,13 @@
   },
   {
    "id": "prince",
-   "version": 1,
+   "version": 2,
    "title": "The Prince",
    "author": "Niccolò Machiavelli",
    "year": "1532",
    "era": "renaissance",
    "cards": 52,
-   "sizeKb": 6314,
+   "sizeKb": 6323,
    "blurb": "A banished Florentine diplomat's handbook on how power is won, held and lost. Five hundred years later it still names the game: appearances, fear, loyalty, luck.",
    "images": [
     "prince_01",
@@ -215,5 +215,6 @@
     "prince_cover"
    ]
   }
- ]
+ ],
+ "cloud": null
 }
