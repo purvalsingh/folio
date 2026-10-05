@@ -456,6 +456,23 @@ fun HonoursScreen(app: App, account: () -> Unit = {}) {
         Text("Long-press your home screen → Widgets → Folio to add the Quote of the Day.", fontFamily = Fonts.fell, fontSize = 14.sp,
             lineHeight = 19.sp, color = ink.faded)
         Spacer(Modifier.height(20.dp))
+        Label("Spread the word")
+        Text("Folio is free and made by one reader. Sharing it, or a star on GitHub, helps the next book get bound.",
+            fontFamily = Fonts.fell, fontSize = 14.sp, lineHeight = 19.sp, color = ink.faded)
+        Spacer(Modifier.height(8.dp))
+        val shareCtx = LocalContext.current
+        fun web(url: String) = runCatching { shareCtx.startActivity(android.content.Intent(android.content.Intent.ACTION_VIEW, android.net.Uri.parse(url))) }
+        Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+            Pill("Share Folio") {
+                shareCtx.startActivity(android.content.Intent.createChooser(android.content.Intent(android.content.Intent.ACTION_SEND).setType("text/plain")
+                    .putExtra(android.content.Intent.EXTRA_TEXT, "I'm reading the great classics one minute a day with Folio, a free Android app (The Prince, the Gita, Meditations and 28 more): https://github.com/purvalsingh/folio"),
+                    "Share Folio"))
+            }
+            Pill("★ Star on GitHub", filled = false) { web("https://github.com/purvalsingh/folio") }
+        }
+        Text("Request a book ›", fontFamily = Fonts.fellSc, fontSize = 14.sp, color = ink.rubric,
+            modifier = Modifier.padding(top = 10.dp).clickable { web("https://github.com/purvalsingh/folio/issues/new?template=book-request.yml") })
+        Spacer(Modifier.height(20.dp))
         Label("Reading light")
         Spacer(Modifier.height(8.dp))
         Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
