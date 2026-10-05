@@ -1,11 +1,11 @@
 {
  "app": {
-  "versionCode": 7,
-  "versionName": "1.5",
-  "notes": "Reading Now: a page with every book you have open (progress, minutes left, last read) and the ones you have finished, plus a Reading Now row and chip on the home page. Redesigned bookshelf: every spine is readable in day and night mode, with real leather, cloth and vellum colours, clearer titles and a dark oak shelf at night.",
-  "sizeKb": 35632,
-  "sha256": "c731db6edb2a791f35fe340aa61de2c50771d48498222940cdf6abe4b9ecd3f7",
-  "apk": "https://github.com/purvalsingh/folio/releases/download/v1.5/Folio.apk"
+  "versionCode": 8,
+  "versionName": "1.5.1",
+  "notes": "Spread the word: share Folio with a friend, star it on GitHub, or request the next book, from the Honours tab.",
+  "sizeKb": 35633,
+  "sha256": "bfe9f1771f812d72b2aad3bbf4aed14bd8f3951342785b738f9ae96b83f8a48c",
+  "apk": "https://github.com/purvalsingh/folio/releases/download/v1.5.1/Folio.apk"
  },
  "books": [
   {
