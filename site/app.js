@@ -38,9 +38,20 @@ addEventListener('scroll', () => {
   requestAnimationFrame(() => {
     const max = document.documentElement.scrollHeight - innerHeight;
     document.documentElement.style.setProperty('--read', `${max > 0 ? scrollY / max * 100 : 0}%`);
+    if (!matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      const hero = document.querySelector('.hero');
+      const heroProgress = Math.max(0, Math.min(1, scrollY / hero.offsetHeight));
+      document.documentElement.style.setProperty('--hero-turn', `${heroProgress * 11}deg`);
+      document.documentElement.style.setProperty('--hero-lift', `${heroProgress * -24}px`);
+      document.querySelectorAll('.book-tile').forEach((tile, index) => {
+        const progress = Math.max(0, Math.min(1, (innerHeight - tile.getBoundingClientRect().top) / innerHeight));
+        tile.style.setProperty('--shelf-rise', `${(1 - progress) * (index % 2 ? 24 : 40)}px`);
+      });
+    }
     ticking = false;
   });
 }, {passive:true});
+dispatchEvent(new Event('scroll'));
 // GitHub's latest release API keeps the download current without a site redeploy.
 // The static latest/download URL above remains a usable fallback if the API is unavailable.
 fetch('https://api.github.com/repos/purvalsingh/folio/releases/latest', {headers:{Accept:'application/vnd.github+json'}})
