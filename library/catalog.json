@@ -1,11 +1,11 @@
 {
  "app": {
-  "versionCode": 13,
-  "versionName": "1.6.4",
-  "notes": "Corrected and reviewed book plates; improved image captions.",
-  "sizeKb": 52521,
-  "sha256": "4e226636e3dd223a329bda10da07b503485de9702a8e2513b7062afe2f125a7c",
-  "apk": "https://github.com/purvalsingh/folio/releases/download/v1.6.4/Folio.apk"
+  "versionCode": 14,
+  "versionName": "1.6.5",
+  "notes": "Original-only book art; clearer reading and quiz controls.",
+  "sizeKb": 20711,
+  "sha256": "c4f7a5de9f33e207788a6e8e59f03f5ed885b5ca793d0706e3bedf3d451e5f5c",
+  "apk": "https://github.com/purvalsingh/folio/releases/download/v1.6.5/Folio.apk"
  },
  "books": [
   {
