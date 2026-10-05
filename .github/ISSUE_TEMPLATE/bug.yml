@@ -1,0 +1,16 @@
+name: Something's wrong
+description: A bug, a typo or a misquote
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: Which book and page, and what you expected instead.
+    validations:
+      required: true
+  - type: input
+    id: phone
+    attributes:
+      label: Phone and Folio version
+      placeholder: "e.g. Pixel 7, Folio 1.5 (Honours tab shows the version)"

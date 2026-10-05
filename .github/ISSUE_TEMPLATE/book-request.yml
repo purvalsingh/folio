@@ -1,0 +1,21 @@
+name: Request a book
+description: Suggest a classic for the next shelf
+title: "Book request: "
+labels: ["book request"]
+body:
+  - type: input
+    id: book
+    attributes:
+      label: Book and author
+      placeholder: "e.g. The Wealth of Nations, Adam Smith"
+    validations:
+      required: true
+  - type: dropdown
+    id: shelf
+    attributes:
+      label: Which shelf?
+      options: [Power & Strategy, War & Statecraft, Persuasion & Rhetoric, Stoic Wisdom, Eastern Paths, Indian Wisdom, Mind & the Crowd, The Human Mind, Love & Human Nature, Courtly Wisdom, Something new]
+  - type: textarea
+    id: why
+    attributes:
+      label: Why should Folio bind it?
