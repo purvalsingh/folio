@@ -1,11 +1,11 @@
 {
  "app": {
-  "versionCode": 14,
-  "versionName": "1.6.5",
-  "notes": "Original-only book art; clearer reading and quiz controls.",
+  "versionCode": 15,
+  "versionName": "1.6.6",
+  "notes": "Search books by title or author; add Wealth of Nations, Walden, and Gitanjali.",
   "sizeKb": 20711,
-  "sha256": "c4f7a5de9f33e207788a6e8e59f03f5ed885b5ca793d0706e3bedf3d451e5f5c",
-  "apk": "https://github.com/purvalsingh/folio/releases/download/v1.6.5/Folio.apk"
+  "sha256": "56cbc1614e02ba8641d97df0716b4daf6919cc0ac093fee863f649236fac0f95",
+  "apk": "https://github.com/purvalsingh/folio/releases/download/v1.6.6/Folio.apk"
  },
  "books": [
   {
