@@ -10,3 +10,4 @@ research/commons/*.jpg
 research/*flat*.txt
 research/log_*.txt
 research/__pycache__/
+cloud/proxy/.vercel/
