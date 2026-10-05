@@ -8,7 +8,7 @@
  "era": "indic",
  "shelf": "Indian Wisdom",
  "blurb": "1,330 two-line couplets from Tamil Nadu on virtue, wealth and love — the 'universal scripture' of South India.",
- "version": 1,
+ "version": 2,
  "cover": "kural_cover",
  "glossary": {
   "knowledge": {
@@ -33,6 +33,8 @@
    "quote": "A is the starting-point of the world of sound",
    "qMean": "Just as 'A' starts every alphabet…",
    "qLife": "Every great journey begins with a first, simple step.",
+   "orig": "IN PRAISE OF THE LORD\n\n1. A is the starting-point of the world of sound : even so is the Great Original the starting-point of all that exists.\n\n2. Of what avail is all thy learning if thou worship not the holy feet of Him of the perfect intelligence ?\n\n3. Whoso taketh refuge in the sacred feet of Him whose walk is among flowers, his days will be many upon the earth.",
+   "origFrom": "Tiruvalluvar, The Kural (tr. V. V. S. Aiyar, 1916)",
    "img": "kural_01",
    "cap": "Palm-leaf style manuscript, 16th century · public domain"
   },
@@ -44,6 +46,8 @@
    "quote": "Behold the man who useth hard words when sweet ones serve : he preferreth the unripe fruit to the ripe.",
    "qMean": "Choosing harsh words over kind ones is foolish.",
    "qLife": "Snapping at a waiter when a polite word would work better.",
+   "orig": "98. Words that are kind and are removed from all littleness yield good in this life and in the next also.\n\n99. Why doth not a man cease from violent words, even after he hath felt the sweetness that kind words give ?\n\n100. Behold the man who useth hard words when sweet ones serve : he preferreth the unripe fruit to the ripe.\n\no\n\n24",
+   "origFrom": "Tiruvalluvar, The Kural (tr. V. V. S. Aiyar, 1916)",
    "img": "kural_02",
    "cap": "A mango bird on a branch · public domain"
   },
@@ -55,6 +59,8 @@
    "quote": "Let him do them a good turn and make them ashamed in their hearts.",
    "qMean": "Answer people who hurt you with kindness.",
    "qLife": "Helping a neighbour who once complained about you.",
+   "orig": "313. If thou injure another, even though it be only a man who hath injured thee without any provocation, thou simply bringest down upon thyself evils that can never be remedied.\n\n314. How shall a man punish them that have injured him ? Let him do them a good turn and make them ashamed in their hearts.\n\n315. Of what avail is intelligence to a man if he doth not look on others’ pain as his own and abstain from injuring any ?",
+   "origFrom": "Tiruvalluvar, The Kural (tr. V. V. S. Aiyar, 1916)",
    "img": "kural_03",
    "cap": "Raja Ravi Varma, Mandodari · public domain"
   },
@@ -66,6 +72,8 @@
    "quote": "Knowledge is like unto a sand-spring: the more thou diggest and drawest thereat, the more excellent is the flow thereof.",
    "qMean": "The more you learn, the more you're able to learn.",
    "qLife": "Learning a second language makes the third easier.",
+   "orig": "THE KURAL\n\n396. Knowledge is like unto a sand-spring: the more thou diggest and drawest thereat, the more excellent is the flow thereof.\n\n397. Everywhere is his home to the learned man, and everywhere his native land : why then doth a man neglect instruction up to his dying day ?\n\n398. The learning that a man hath acquired in one birth will exalt him even in all his succeeding incarnations.",
+   "origFrom": "Tiruvalluvar, The Kural (tr. V. V. S. Aiyar, 1916)",
    "img": "kural_04",
    "cap": "Encounter at the well, Indian painting · public domain"
   },
@@ -77,6 +85,8 @@
    "quote": "To say a thing is easy for any man : but to do it in the manner undertaken is a rare thing indeed.",
    "qMean": "Talking is easy; doing what you promised is rare.",
    "qLife": "Everyone plans to start the gym; few actually go.",
+   "orig": "663. The man of action letteth his purpose appear only when that purpose is achieved : for an untimely disclosure would create obstacles that cannot be surmounted.\n\n664. To say a thing is easy for any man : but to do it in the manner undertaken is a rare thing indeed.\n\n665. Behold the man who hath acquired a name for the doing of great deeds : his services will be greatly in request with the prince and will be esteemed by all*",
+   "origFrom": "Tiruvalluvar, The Kural (tr. V. V. S. Aiyar, 1916)",
    "img": "kural_05",
    "cap": "A blacksmith, gouache on mica · public domain"
   },
@@ -88,6 +98,8 @@
    "quote": "Behold the hand of the man whose garment bath been blown aside",
    "qMean": "A real friend helps instantly, without being asked.",
    "qLife": "The friend who shows up at the hospital before you call.",
+   "orig": "788. Behold the hand of the man whose garment bath been blown aside, how it hurrieth to re-cover his limbs : that is the symbol of the true friend that hasteneth to succour a man in his mis* fortune,\n\n789. Where doth friendship hold its court ? It is where two hearts beat in perfect unison and combine to lift each other up in every possible way.",
+   "origFrom": "Tiruvalluvar, The Kural (tr. V. V. S. Aiyar, 1916)",
    "img": "kural_06",
    "cap": "Krishna welcoming Sudama, Bhagavata Purana · public domain"
   }

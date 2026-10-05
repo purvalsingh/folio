@@ -8,7 +8,7 @@
  "era": "enlightenment",
  "shelf": "Persuasion & Rhetoric",
  "blurb": "How a runaway printer's apprentice became one of history's great persuaders — by never arguing, keeping a little book of virtues, and asking favours.",
- "version": 1,
+ "version": 2,
  "cover": "franklin_cover",
  "glossary": {
   "contradiction": {
@@ -37,6 +37,8 @@
    "quote": "put on the humble inquirer and doubter",
    "qMean": "Instead of arguing, ask questions like someone curious.",
    "qLife": "'Have you thought about…?' works better than 'You're wrong.'",
+   "orig": "While I was intent on improving my language, I met with an English grammar (I think it was Greenwood's), at the end of which there were two little sketches of the arts of rhetoric and logic, the latter finishing with a specimen of a dispute in the Socratic method; and soon after I procur'd Xenophon's Memorable Things of Socrates, wherein there are many instances of the same method. I was charm'd with it, adopted it, dropt my abrupt contradiction and positive argumentation, and put on the humble inquirer and doubter. And being then, from reading Shaftesbury and Collins, become a real doubter in many points of our religious doctrine, I found this method safest for myself and very embarrassing to those against whom I used it; therefore I took a delight in it, practis'd it continually, and grew very artful and expert in drawing people, even of superior knowledge, into concessions, the consequences of which they did not foresee, entangling them in difficulties out of which they could not extricate themselves, and so obtaining victories that neither myself nor my cause always deserved. …",
+   "origFrom": "Benjamin Franklin, Autobiography (1791)",
    "img": "franklin_01",
    "cap": "Benjamin Franklin as an apprentice · public domain"
   },
@@ -48,6 +50,8 @@
    "quote": "I made it a rule to forbear all direct contradiction to the sentiments of others, and all positive assertion of my own.",
    "qMean": "Don't bluntly contradict people or insist you're right.",
    "qLife": "Saying 'I might be wrong, but…' before a suggestion.",
+   "orig": "I cannot boast of much success in acquiring the reality of this virtue, but I had a good deal with regard to the appearance of it. I made it a rule to forbear all direct contradiction to the sentiments of others, and all positive assertion of my own. I even forbid myself, agreeably to the old laws of our Junto, the use of every word or expression in the language that imported a fix'd opinion, such as certainly, undoubtedly, etc., and I adopted, instead of them, I conceive, I apprehend, or I imagine a thing to be so or so; or it so appears to me at present. When another asserted something that I thought an error, I deny'd myself the pleasure of contradicting him abruptly, and of showing immediately some absurdity in his proposition; and in answering I began by observing that in certain cases or circumstances his opinion would be right, but in the present case there appear'd or seem'd to me some difference, etc. I soon found the advantage of this change in my manner; the conversations I engag'd in went on more pleasantly. The modest way in which I propos'd my opinions procur'd them a readier reception and less contradiction; …",
+   "origFrom": "Benjamin Franklin, Autobiography (1791)",
    "img": "franklin_02",
    "cap": "Benjamin Franklin at the Court of France · public domain"
   },
@@ -59,6 +63,8 @@
    "quote": "He that has once done you a kindness will be more ready to do you another, than he whom you yourself have obliged.",
    "qMean": "Someone who helped you once is more likely to help again than someone you helped.",
    "qLife": "Asking a cold colleague for advice often warms them up.",
+   "orig": "I therefore did not like the opposition of this new member, who was a gentleman of fortune and education, with talents that were likely to give him, in time, great influence in the House, which, indeed, afterwards happened. I did not, however, aim at gaining his favour by paying any servile respect to him, but, after some time, took this other method. Having heard that he had in his library a certain very scarce and curious book, I wrote a note to him, expressing my desire of perusing that book, and requesting he would do me the favour of lending it to me for a few days. He sent it immediately, and I return'd it in about a week with another note, expressing strongly my sense of the favour. When we next met in the House, he spoke to me (which he had never done before), and with great civility; and he ever after manifested a readiness to serve me on all occasions, so that we became great friends, and our friendship continued to his death. This is another instance of the truth of an old maxim I had learned, which says, \"He that has once done you a kindness will be more ready to do you another, than he whom you yourself have obliged.\" And it shows how much more profitable it is prudently to remove, than to resent, return, and continue inimical proceedings.",
+   "origFrom": "Benjamin Franklin, Autobiography (1791)",
    "img": "franklin_03",
    "cap": "The Continental Almanac, 1780 · public domain"
   },
@@ -70,6 +76,8 @@
    "quote": "I made a little book, in which I allotted a page for each of the virtues.",
    "qMean": "He tracked his habits daily in a notebook.",
    "qLife": "Ticking off 'no sugar' days on a calendar.",
+   "orig": "I made a little book, in which I allotted a page for each of the virtues. I rul'd each page with red ink, so as to have seven columns, one for each day of the week, marking each column with a letter for the day. I cross'd these columns with thirteen red lines, marking the beginning of each line with the first letter of one of the virtues, on which line, and in its proper column, I might mark, by a little black spot, every fault I found upon examination to have been committed respecting that virtue upon that day.",
+   "origFrom": "Benjamin Franklin, Autobiography (1791)",
    "img": "franklin_04",
    "cap": "Poor Richard's Almanack, 1733 · public domain"
   },
@@ -81,6 +89,8 @@
    "quote": "Lose no time; be always employ'd in something useful; cut off all unnecessary actions.",
    "qMean": "Don't waste time; keep doing useful things.",
    "qLife": "Listening to an audiobook during your commute.",
+   "orig": "5. Frugality.\n\nMake no expense but to do good to others or yourself; i. e., waste nothing.\n\n6. INDUSTRY.\n\nLose no time; be always employ'd in something useful; cut off all unnecessary actions.\n\n7. Sincerity.\n\nUse no hurtful deceit; think innocently and justly; and, if you speak, speak accordingly.\n\n8. Justice.\n\nWrong none by doing injuries, or omitting the benefits that are your duty.",
+   "origFrom": "Benjamin Franklin, Autobiography (1791)",
    "img": "franklin_05",
    "cap": "Franklin the printer · public domain"
   },
@@ -92,6 +102,8 @@
    "quote": "Speak not but what may benefit others or yourself; avoid trifling conversation.",
    "qMean": "Only say things that are helpful.",
    "qLife": "Skipping office gossip and talking about real work.",
+   "orig": "1. Temperance.\n\nEat not to dullness; drink not to elevation.\n\n2. Silence.\n\nSpeak not but what may benefit others or yourself; avoid trifling conversation.\n\n3. Order.\n\nLet all your things have their places; let each part of your business have its time.\n\n4. Resolution.\n\nResolve to perform what you ought; perform without fail what you resolve.",
+   "origFrom": "Benjamin Franklin, Autobiography (1791)",
    "img": "franklin_06",
    "cap": "Christian Schussele - Benjamin Franklin Appearing before the Privy Council · public domain"
   }

@@ -8,7 +8,7 @@
  "era": "victorian",
  "shelf": "Mind & the Crowd",
  "blurb": "A French doctor explains why sensible people turn wild in a mob — the book later studied by propagandists, marketers and dictators.",
- "version": 1,
+ "version": 2,
  "cover": "crowd_cover",
  "glossary": {
   "contagion": {
@@ -37,6 +37,8 @@
    "quote": "by the mere fact that he forms part of an organised crowd, a man descends several rungs in the ladder of civilisation.",
    "qMean": "In a crowd, people behave less thoughtfully than they would alone.",
    "qLife": "Normally calm fans throwing bottles after their team loses.",
+   "orig": "Moreover, by the mere fact that he forms part of an organised crowd, a man descends several rungs in the ladder of civilisation. Isolated, he may be a cultivated individual; in a crowd, he is a barbarian--that is, a creature acting by instinct. He possesses the spontaneity, the violence, the ferocity, and also the enthusiasm and heroism of primitive beings, whom he further tends to resemble by the facility with which he allows himself to be impressed by words and images--which would be entirely without action on each of the isolated individuals composing the crowd--and to be induced to commit acts contrary to his most obvious interests and his best-known habits. An individual in a crowd is a grain of sand amid other grains of sand, which the wind stirs up at will.",
+   "origFrom": "Gustave Le Bon, The Crowd (1895)",
    "img": "crowd_01",
    "cap": "The zenith of French glory; -the pinnacle of liberty · public domain"
   },
@@ -48,6 +50,8 @@
    "quote": "Isolated, he may be a cultivated individual; in a crowd, he is a barbarian",
    "qMean": "On your own you may be civilised; in a crowd you may act wildly.",
    "qLife": "A polite colleague who joins a pile-on in a group chat.",
+   "orig": "Moreover, by the mere fact that he forms part of an organised crowd, a man descends several rungs in the ladder of civilisation. Isolated, he may be a cultivated individual; in a crowd, he is a barbarian--that is, a creature acting by instinct. He possesses the spontaneity, the violence, the ferocity, and also the enthusiasm and heroism of primitive beings, whom he further tends to resemble by the facility with which he allows himself to be impressed by words and images--which would be entirely without action on each of the isolated individuals composing the crowd--and to be induced to commit acts contrary to his most obvious interests and his best-known habits. An individual in a crowd is a grain of sand amid other grains of sand, which the wind stirs up at will.",
+   "origFrom": "Gustave Le Bon, The Crowd (1895)",
    "img": "crowd_02",
    "cap": "The Storming of the Bastille, 1789 · public domain"
   },
@@ -59,6 +63,8 @@
    "quote": "Contagion is a phenomenon of which it is easy to establish the presence",
    "qMean": "Feelings spread through groups like a disease.",
    "qLife": "One person runs at a sale and suddenly everyone is running.",
+   "orig": "The second cause, which is contagion, also intervenes to determine the manifestation in crowds of their special characteristics, and at the same time the trend they are to take. Contagion is a phenomenon of which it is easy to establish the presence, but that it is not easy to explain. It must be classed among those phenomena of a hypnotic order, which we shall shortly study. In a crowd every sentiment and act is contagious, and contagious to such a degree that an individual readily sacrifices his personal interest to the collective interest. This is an aptitude very contrary to his nature, and of which a man is scarcely capable, except when he makes part of a crowd.",
+   "origFrom": "Gustave Le Bon, The Crowd (1895)",
    "img": "crowd_03",
    "cap": "Jan Brueghel the Younger - Allegory of the Tulipomania, 1640s · public domain"
   },
@@ -70,6 +76,8 @@
    "quote": "allows himself to be impressed by words and images",
    "qMean": "Crowds are moved by catchy words and pictures, not by logic.",
    "qLife": "A short election slogan sways more voters than a long policy paper.",
+   "orig": "Moreover, by the mere fact that he forms part of an organised crowd, a man descends several rungs in the ladder of civilisation. Isolated, he may be a cultivated individual; in a crowd, he is a barbarian--that is, a creature acting by instinct. He possesses the spontaneity, the violence, the ferocity, and also the enthusiasm and heroism of primitive beings, whom he further tends to resemble by the facility with which he allows himself to be impressed by words and images--which would be entirely without action on each of the isolated individuals composing the crowd--and to be induced to commit acts contrary to his most obvious interests and his best-known habits. An individual in a crowd is a grain of sand amid other grains of sand, which the wind stirs up at will.",
+   "origFrom": "Gustave Le Bon, The Crowd (1895)",
    "img": "crowd_04",
    "cap": "The rioting mobs gathered in front of the Royal Palace, 9 March 1817 · public domain"
   },
@@ -81,6 +89,8 @@
    "quote": "The masses have never thirsted after truth.",
    "qMean": "Most people prefer comforting stories to uncomfortable facts.",
    "qLife": "Miracle-cure ads sell better than honest doctors' advice.",
+   "orig": "Notwithstanding all its progress, philosophy has been unable as yet to offer the masses any ideal that can charm them; but, as they must have their illusions at all cost, they turn instinctively, as the insect seeks the light, to the rhetoricians who accord them what they want. Not truth, but error has always been the chief factor in the evolution of nations, and the reason why socialism is so powerful to-day is that it constitutes the last illusion that is still vital. In spite of all scientific demonstrations it continues on the increase. Its principal strength lies in the fact that it is championed by minds sufficiently ignorant of things as they are in reality to venture boldly to promise mankind happiness. The social illusion reigns to-day upon all the heaped-up ruins of the past, and to it belongs the future. The masses have never thirsted after truth. They turn aside from evidence that is not to their taste, preferring to deify error, if error seduce them. Whoever can supply them with illusions is easily their master; whoever attempts to destroy their illusions is always their victim.",
+   "origFrom": "Gustave Le Bon, The Crowd (1895)",
    "img": "crowd_05",
    "cap": "Honoré Daumier, crowd lithograph · public domain"
   },
@@ -92,6 +102,8 @@
    "quote": "affirmation, repetition, and contagion",
    "qMean": "Leaders persuade by stating things boldly, repeating them, and letting them spread.",
    "qLife": "A jingle repeated on every channel until everyone hums it.",
+   "orig": "When, however, it is proposed to imbue the mind of a crowd with ideas and beliefs--with modern social theories, for instance--the leaders have recourse to different expedients. The principal of them are three in number and clearly defined--affirmation, repetition, and contagion. Their action is somewhat slow, but its effects, once produced, are very lasting.",
+   "origFrom": "Gustave Le Bon, The Crowd (1895)",
    "img": "crowd_06",
    "cap": "Napoleon on the Battlefield of Eylau (Antoine-Jean Gros) · public domain"
   }

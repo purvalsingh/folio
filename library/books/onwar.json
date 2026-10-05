@@ -8,7 +8,7 @@
  "era": "germanic",
  "shelf": "War & Statecraft",
  "blurb": "A Prussian general's deep study of war: a duel, a gamble, a fog — and always the servant of politics.",
- "version": 1,
+ "version": 2,
  "cover": "onwar_cover",
  "glossary": {
   "friction": {
@@ -33,6 +33,8 @@
    "quote": "War is nothing but a duel on an extensive scale.",
    "qMean": "War is like a fight between two people, but huge.",
    "qLife": "Two companies fighting for the same market share.",
+   "orig": "We shall not enter into any of the abstruse definitions of War used by publicists. We shall keep to the element of the thing itself, to a duel. War is nothing but a duel on an extensive scale. If we would conceive as a unit the countless number of duels which make up a War, we shall do so best by supposing to ourselves two wrestlers. Each strives by physical force to compel the other to submit to his will: each endeavours to throw his adversary, and thus render him incapable of further resistance.",
+   "origFrom": "Carl von Clausewitz, On War (tr. Graham, 1873)",
    "img": "onwar_01",
    "cap": "Naval battle of 13 March 1806 · public domain"
   },
@@ -44,6 +46,8 @@
    "quote": "ntinuation of State policy by other means",
    "qMean": "War is politics carried on with force.",
    "qLife": "A trade war is economics used to win a political argument.",
+   "orig": "Besides establishing this real difference in Wars, another practically necessary point of view must at the same time be established, which is, that War is only a continuation of State policy by other means. This point of view being adhered to everywhere, will introduce much more unity into the consideration of the subject, and things will be more easily disentangled from each other. Although the chief application of this point of view does not commence until we get to the eighth book, still it must be completely developed in the first book, and also lend assistance throughout the revision of the first six books. Through such a revision the first six books will get rid of a good deal of dross, many rents and chasms will be closed up, and much that is of a general nature will be transformed into distinct conceptions and forms.",
+   "origFrom": "Carl von Clausewitz, On War (tr. Graham, 1873)",
    "img": "onwar_02",
    "cap": "The Congress of Vienna · public domain"
   },
@@ -55,6 +59,8 @@
    "quote": "s very simple in War, but the simplest thing is difficult.",
    "qMean": "Plans look easy, but small problems make them hard.",
    "qLife": "A simple house move becomes chaos when the van is late.",
+   "orig": "Everything is very simple in War, but the simplest thing is difficult. These difficulties accumulate and produce a friction which no man can imagine exactly who has not seen War, Suppose now a traveller, who towards evening expects to accomplish the two stages at the end of his day’s journey, four or five leagues, with post-horses, on the high road—it is nothing. He arrives now at the last station but one, finds no horses, or very bad ones; then a hilly country, bad roads; it is a dark night, and he is glad when, after a great deal of trouble, he reaches the next station, and finds there some miserable accommodation. So in War, through the influence of an infinity of petty circumstances, which cannot properly be described on paper, things disappoint us, and we fall short of the mark. A powerful iron will overcomes this friction; it crushes the obstacles, but certainly the machine along with them. We shall often meet with this result. Like an obelisk towards which the principal streets of a town converge, the strong will of a proud spirit stands prominent and commanding in the middle of the Art of War.",
+   "origFrom": "Carl von Clausewitz, On War (tr. Graham, 1873)",
    "img": "onwar_03",
    "cap": "Adolphe Yvon, Marshal Ney in the retreat from Russia · public domain"
   },
@@ -66,6 +72,8 @@
    "quote": "the fog prevents the enemy from being discovered in time",
    "qMean": "You often must decide without seeing everything clearly.",
    "qLife": "Launching a product without knowing exactly how customers will react.",
+   "orig": "This enormous friction, which is not concentrated, as in mechanics, at a few points, is therefore everywhere brought into contact with chance, and thus incidents take place upon which it was impossible to calculate, their chief origin being chance. As an instance of one such chance: the weather. Here the fog prevents the enemy from being discovered in time, a battery from firing at the right moment, a report from reaching the General; there the rain prevents a battalion from arriving at the right time, because instead of for three it had to march perhaps eight hours; the cavalry from charging effectively because it is stuck fast in heavy ground.",
+   "origFrom": "Carl von Clausewitz, On War (tr. Graham, 1873)",
    "img": "onwar_04",
    "cap": "George Jones, The Battle of Borodino · public domain"
   }

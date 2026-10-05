@@ -8,7 +8,7 @@
  "era": "eastern",
  "shelf": "Eastern Paths",
  "blurb": "Eighty-one tiny poems on the Way: soft beats hard, empty is useful, the leader who leads least leads best.",
- "version": 1,
+ "version": 2,
  "cover": "taoteching_cover",
  "glossary": {
   "tao": {
@@ -45,6 +45,8 @@
    "quote": "The Tao that can be trodden is not the enduring and unchanging Tao.",
    "qMean": "Any Way you can fully describe is not the deepest, everlasting Way.",
    "qLife": "No recipe can fully capture how your mother's dal tastes.",
+   "orig": "Translated by James Legge\n\nPART 1.\n\nCh. 1. 1. The Tao that can be trodden is not the enduring and unchanging Tao. The name that can be named is not the enduring and unchanging name.\n\n2. (Conceived of as) having no name, it is the Originator of heaven and earth; (conceived of as) having a name, it is the Mother of all things.\n\n3.",
+   "origFrom": "Lao Tzu, Tao Te Ching (tr. Legge, 1891)",
    "img": "taoteching_01",
    "cap": "Chinese landscape fan painting · public domain"
   },
@@ -56,6 +58,8 @@
    "quote": "Therefore the sage puts his own person last, and yet it is found in the foremost place",
    "qMean": "The wise person puts themselves last, and ends up ahead.",
    "qLife": "A captain who passes the ball and lets others score becomes the team's leader.",
+   "orig": "2. Therefore the sage puts his own person last, and yet it is found in the foremost place; he treats his person as if it were foreign to him, and yet that person is preserved. Is it not because he has no personal and private ends, that therefore such ends are realised?\n\n8. 1. The highest excellence is like (that of) water. The excellence of water appears in its benefiting all things, and in its occupying, without striving (to the contrary), the low place which all men dislike. Hence (its way) is near to (that of) the Tao.",
+   "origFrom": "Lao Tzu, Tao Te Ching (tr. Legge, 1891)",
    "img": "taoteching_02",
    "cap": "Portrait of a Chinese sage · public domain"
   },
@@ -67,6 +71,8 @@
    "quote": "The highest excellence is like (that of) water.",
    "qMean": "The best kind of goodness is like water — helpful and humble.",
    "qLife": "A colleague who quietly helps everyone and never competes for credit.",
+   "orig": "8. 1. The highest excellence is like (that of) water. The excellence of water appears in its benefiting all things, and in its occupying, without striving (to the contrary), the low place which all men dislike. Hence (its way) is near to (that of) the Tao.\n\n2. The excellence of a residence is in (the suitability of) the place; that of the mind is in abysmal stillness; that of associations is in their being with the virtuous; that of government is in its securing good order; that of (the conduct of) affairs is in its ability; and that of (the initiation of) any movement is in its timeliness.",
+   "origFrom": "Lao Tzu, Tao Te Ching (tr. Legge, 1891)",
    "img": "taoteching_03",
    "cap": "The Waterfall · public domain"
   },
@@ -78,6 +84,8 @@
    "quote": "When the work is done, and one's name is becoming distinguished, to withdraw into obscurity is the way of Heaven.",
    "qMean": "When the job's done and you're getting famous, quietly step aside.",
    "qLife": "A founder who hands the company to new leaders at its peak.",
+   "orig": "2. When gold and jade fill the hall, their possessor cannot keep them safe. When wealth and honours lead to arrogancy, this brings its evil on itself. When the work is done, and one's name is becoming distinguished, to withdraw into obscurity is the way of Heaven.\n\n10. 1. When the intelligent and animal souls are held together in one embrace, they can be kept from separating. When one gives undivided attention to the (vital) breath, and brings it to the utmost degree of pliancy, he can become as a (tender) babe. When he has cleansed away the most mysterious sights (of his imagination), he can become without a flaw.",
+   "origFrom": "Lao Tzu, Tao Te Ching (tr. Legge, 1891)",
    "img": "taoteching_04",
    "cap": "Xu Yang - Hermit's cottage in the mountains · public domain"
   },
@@ -89,6 +97,8 @@
    "quote": "The thirty spokes unite in the one nave; but it is on the empty space (for the axle), that the use of the wheel depends.",
    "qMean": "A wheel works because of the empty space at its centre.",
    "qLife": "A calendar with free time in it is what lets you handle surprises.",
+   "orig": "11. The thirty spokes unite in the one nave; but it is on the empty space (for the axle), that the use of the wheel depends. Clay is fashioned into vessels; but it is on their empty hollowness, that their use depends. The door and windows are cut out (from the walls) to form an apartment; but it is on the empty space (within), that its use depends. Therefore, what has a (positive) existence serves for profitable adaptation, and what has not that for (actual) usefulness.",
+   "origFrom": "Lao Tzu, Tao Te Ching (tr. Legge, 1891)",
    "img": "taoteching_05",
    "cap": "Chariot Wheel with Bronze Hub, Tomb of Marquis Yi of Zeng · public domain"
   },
@@ -100,6 +110,8 @@
    "quote": "He who knows other men is discerning; he who knows himself is intelligent.",
    "qMean": "Understanding others is clever; understanding yourself is wise.",
    "qLife": "Knowing you get cranky when hungry, and eating before the big meeting.",
+   "orig": "33. 1. He who knows other men is discerning; he who knows himself is intelligent. He who overcomes others is strong; he who overcomes himself is mighty. He who is satisfied with his lot is rich; he who goes on acting with energy has a (firm) will.\n\n2. He who does not fail in the requirements of his position, continues long; he who dies and yet does not perish, has longevity.",
+   "origFrom": "Lao Tzu, Tao Te Ching (tr. Legge, 1891)",
    "img": "taoteching_06",
    "cap": "William Alexander - A Young Chinese Scholar · public domain"
   },
@@ -111,6 +123,8 @@
    "quote": "He who knows (the Tao) does not (care to) speak (about it); he who is (ever ready to) speak about it does not know it.",
    "qMean": "Those who really know don't brag; those who brag don't really know.",
    "qLife": "The best cook in the family just cooks; the one who talks endlessly about food burns the rice.",
+   "orig": "56. 1. He who knows (the Tao) does not (care to) speak (about it); he who is (ever ready to) speak about it does not know it.\n\n2. He (who knows it) will keep his mouth shut and close the portals (of his nostrils). He will blunt his sharp points and unravel the complications of things; he will attemper his brightness, and bring himself into agreement with the obscurity (of others). This is called 'the Mysterious Agreement.'",
+   "origFrom": "Lao Tzu, Tao Te Ching (tr. Legge, 1891)",
    "img": "taoteching_07",
    "cap": "The Eighteen Scholars by an anonymous Ming artist 3 · public domain"
   },
@@ -122,6 +136,8 @@
    "quote": "Governing a great state is like cooking small fish.",
    "qMean": "Running a big country needs a light touch, like frying small fish.",
    "qLife": "A manager who micromanages every email breaks the team's flow.",
+   "orig": "60. 1. Governing a great state is like cooking small fish.\n\n2. Let the kingdom be governed according to the Tao, and the manes of the departed will not manifest their spiritual energy. It is not that those manes have not that spiritual energy, but it will not be employed to hurt men. It is not that it could not hurt men, but neither does the ruling sage hurt them.",
+   "origFrom": "Lao Tzu, Tao Te Ching (tr. Legge, 1891)",
    "img": "taoteching_08",
    "cap": "Chinese fish painting · public domain"
   },
@@ -133,6 +149,8 @@
    "quote": "the journey of a thousand li commenced with a single step.",
    "qMean": "Every long journey begins with one small step.",
    "qLife": "Writing one page today is how a whole book gets written.",
+   "orig": "2. The tree which fills the arms grew from the tiniest sprout; the tower of nine storeys rose from a (small) heap of earth; the journey of a thousand li commenced with a single step.\n\n3. He who acts (with an ulterior purpose) does harm; he who takes hold of a thing (in the same way) loses his hold. The sage does not act (so), and therefore does no harm; he does not lay hold (so), and therefore does not lose his hold. (But) people in their conduct of affairs are constantly ruining them when they are on the eve of success. If they were careful at the end, as (they should be) at the beginning, they would not so ruin them.",
+   "origFrom": "Lao Tzu, Tao Te Ching (tr. Legge, 1891)",
    "img": "taoteching_09",
    "cap": "Rocky Landscape with Pines · public domain"
   }

@@ -8,7 +8,7 @@
  "era": "indic",
  "shelf": "Power & Strategy",
  "blurb": "India's ancient handbook of statecraft, by the strategist who helped build the Maurya empire: ministers, spies, money, punishment — and a king who must serve his people.",
- "version": 1,
+ "version": 2,
  "cover": "arthashastra_cover",
  "glossary": {
   "subjects": {
@@ -37,6 +37,8 @@
    "quote": "In the happiness of his subjects lies his happiness; in their welfare his welfare",
    "qMean": "A ruler is happy only when the people are happy.",
    "qLife": "A school head who measures success by how the students are doing, not by her own awards.",
+   "orig": "Of a king, the religious vow is his readiness to action; satisfactory discharge of duties is his performance of sacrifice; equal attention to all is the offer of fees and ablution towards consecration.\n\nIn the happiness of his subjects lies his happiness; in their welfare his welfare; whatever pleases himself he shall not consider as good, but whatever pleases his subjects he shall consider as good.\n\nHence the king shall ever be active and discharge his duties; the root of wealth is activity, and of evil its reverse.",
+   "origFrom": "Kautilya, Arthashastra (tr. Shamasastry, 1915)",
    "img": "arthashastra_01",
    "cap": "Ghulam Murtaza Khan The Delhi Darbar of Akbar II · public domain"
   },
@@ -48,6 +50,8 @@
    "quote": "A single wheel can never move.",
    "qMean": "No one can rule or succeed alone.",
    "qLife": "A startup founder who hires good people instead of doing everything herself.",
+   "orig": "Kautilya's Arthashastra\n\nhim of his careless proceedings even in secret shall invariably be respected.\n\nSovereignty (rdjatva) is possible only with assistance. A single wheel can never move. Hence he shall employ ministers and hear their opinion.\n\nCHAPTER VIII. CREATION OF MINISTERS.\n\n\"THE King,\" says Bhdradvaja, \"shall employ his classmates as his ministers; for they can be trusted by him inasmuch as he has personal knowledge of their honesty and capacity.\"",
+   "origFrom": "Kautilya, Arthashastra (tr. Shamasastry, 1915)",
    "img": "arthashastra_02",
    "cap": "Bullock Cart 1937 · public domain"
   },
@@ -59,6 +63,8 @@
    "quote": "for whoever imposes severe punishment becomes repulsive to the people; while he who awards mild punishment becomes contemptible.",
    "qMean": "Too much punishment makes people hate you; too little makes them not respect you.",
    "qLife": "A parent whose rules are fair is obeyed more than one who shouts or one who never says no.",
+   "orig": "\"Hence,\" says my teacher, \"whoever is desirous of the progress of the world shall ever hold the sceptre raised (udyatadanda). Never can there be a better instrument than the sceptre to bring people under control.\"\n\n\"No,\" says Kautilya; for whoever imposes severe punishment becomes repulsive to the people; while he who awards mild punishment becomes contemptible. But whoever imposes\n\n12",
+   "origFrom": "Kautilya, Arthashastra (tr. Shamasastry, 1915)",
    "img": "arthashastra_03",
    "cap": "Shaykh Sa'di seated with a musician, India, Provincial Mughal, Awadh, circa 1760 · public domain"
   },
@@ -70,6 +76,8 @@
    "quote": "it is impossible not to taste the honey or the poison that finds itself at the tip of the tongue",
    "qMean": "When you handle something tempting, it's almost impossible not to take a little.",
    "qLife": "Why companies audit accounts even when they trust the accountant.",
+   "orig": "Those who attend upon military officers and are noted for their honesty and good conduct shall be spies to watch the conduct of accountants and other clerks.\n\nEach department shall be officered by several temporary heads.\n\nJust as it is impossible not to taste the honey or the poison that finds itself at the tip of the tongue, so it is impossible for a\n\n93\n\nKautilya's Arthashastra",
+   "origFrom": "Kautilya, Arthashastra (tr. Shamasastry, 1915)",
    "img": "arthashastra_04",
    "cap": "A Practical Treatise on the Hive and Honey-Bee · public domain"
   },
@@ -81,6 +89,8 @@
    "quote": "Just as fish moving under water cannot possibly be found out either as drinking or not drinking water, so government servants employed in the government work cannot be found out (while) taking money (for themselves).",
    "qMean": "Hidden dishonesty is hard to spot, like a fish drinking underwater.",
    "qLife": "Checking the stock count, not just the cashier's smile.",
+   "orig": "… government servant not to eat up, at least, a bit of the king's revenue. Just as fish moving under water cannot possibly be found out either as drinking or not drinking water, so government servants employed in the government work cannot be found out (while) taking money (for themselves).\n\nIt is possible to mark the movements of birds flying high up in the sky; but not so is it possible to ascertain the movement of government servants of hidden purpose.",
+   "origFrom": "Kautilya, Arthashastra (tr. Shamasastry, 1915)",
    "img": "arthashastra_05",
    "cap": "Fishing in India, old engraving · public domain"
   },
@@ -92,6 +102,8 @@
    "quote": "Of a king, the religious vow is his readiness to action",
    "qMean": "A leader's true devotion is being ready to act.",
    "qLife": "A manager who answers problems the same day instead of 'looking into it' for weeks.",
+   "orig": "Of a king, the religious vow is his readiness to action; satisfactory discharge of duties is his performance of sacrifice; equal attention to all is the offer of fees and ablution towards consecration.\n\nIn the happiness of his subjects lies his happiness; in their welfare his welfare; whatever pleases himself he shall not consider as good, but whatever pleases his subjects he shall consider as good.",
+   "origFrom": "Kautilya, Arthashastra (tr. Shamasastry, 1915)",
    "img": "arthashastra_06",
    "cap": "Painting of Maharaja Sher Singh in Durbar (court), enthroned with attendants and local ladies, attributed to Bishan Singh, circa 19th century · public domain"
   }

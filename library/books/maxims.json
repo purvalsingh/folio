@@ -8,7 +8,7 @@
  "era": "baroque",
  "shelf": "Courtly Wisdom",
  "blurb": "A French duke's razor-sharp one-liners about vanity, self-interest and the hidden motives behind our 'virtues'.",
- "version": 1,
+ "version": 2,
  "cover": "maxims_cover",
  "glossary": {
   "self-love": {
@@ -41,6 +41,8 @@
    "quote": "Interest speaks all sorts of tongues and plays all sorts of characters; even that of disinterestedness.",
    "qMean": "Self-interest can disguise itself as anything, even generosity.",
    "qLife": "A 'free' trial that quietly turns into a monthly charge.",
+   "orig": "38.--We promise according to our hopes; we perform according to our fears.\n\n39.--Interest speaks all sorts of tongues and plays all sorts of characters; even that of disinterestedness.\n\n40.--Interest blinds some and makes some see.\n\n41.--Those who apply themselves too closely to little things often become incapable of great things.",
+   "origFrom": "La Rochefoucauld, Maxims (1665)",
    "img": "maxims_01",
    "cap": "Portrait engraving, 17th-century France · public domain"
   },
@@ -52,6 +54,8 @@
    "quote": "We have all sufficient strength to support the misfortunes of others.",
    "qMean": "It's easy to be brave about other people's problems.",
    "qLife": "Telling a friend 'it's just a breakup, you'll be fine.'",
+   "orig": "18.--Moderation is caused by the fear of exciting the envy and contempt which those merit who are intoxicated with their good fortune; it is a vain display of our strength of mind, and in short the moderation of men at their greatest height is only a desire to appear greater than their fortune.\n\n19.--We have all sufficient strength to support the misfortunes of others.",
+   "origFrom": "La Rochefoucauld, Maxims (1665)",
    "img": "maxims_02",
    "cap": "Abraham Bosse - Graveurs en taille-douce · public domain"
   },
@@ -63,6 +67,8 @@
    "quote": "Hypocrisy is the homage vice pays to virtue.",
    "qMean": "Pretending to be good shows that even bad people respect goodness.",
    "qLife": "A polluting company adding green leaves to its logo.",
+   "orig": "217.--Intrepidity is an extraordinary strength of soul which raises it above the troubles, disorders, and emotions which the sight of great perils can arouse in it: by this strength heroes maintain a calm aspect and preserve their reason and liberty in the most surprising and terrible accidents.\n\n218.--Hypocrisy is the homage vice pays to virtue.",
+   "origFrom": "La Rochefoucauld, Maxims (1665)",
    "img": "maxims_03",
    "cap": "Illustration for Molière's Tartuffe · public domain"
   },
@@ -74,6 +80,8 @@
    "quote": "We promise according to our hopes; we perform according to our fears.",
    "qMean": "We promise big when hopeful, and do less when afraid.",
    "qLife": "Promising to finish the project in a week, then delivering half because of worry.",
+   "orig": "37.--Pride has a larger part than goodness in our remonstrances with those who commit faults, and we reprove them not so much to correct as to persuade them that we ourselves are free from faults.\n\n38.--We promise according to our hopes; we perform according to our fears.\n\n39.--Interest speaks all sorts of tongues and plays all sorts of characters; even that of disinterestedness.",
+   "origFrom": "La Rochefoucauld, Maxims (1665)",
    "img": "maxims_04",
    "cap": "Van der Meulen, Louis XIV and his court · public domain"
   },
@@ -85,6 +93,8 @@
    "quote": "Self-love is the greatest of flatterers.",
    "qMean": "Your own vanity praises you more than anyone else does.",
    "qLife": "Thinking you sang perfectly until you hear the recording.",
+   "orig": "\"Who combats bravely is not therefore brave, He dreads a death-bed like the meanest slave; Who reasons wisely is not therefore wise, His pride in reasoning, not in acting, lies.\" Pope, Moral Essays, Ep. i. line 115.\n\n2.--Self-love is the greatest of flatterers.\n\n3.--Whatever discoveries have been made in the region of self-love, there remain many unexplored territories there.",
+   "origFrom": "La Rochefoucauld, Maxims (1665)",
    "img": "maxims_05",
    "cap": "Unknown French Master - Allegory of the Vanity of Earthly Things - 2 · public domain"
   },
@@ -96,6 +106,8 @@
    "quote": "We are never so happy or so unhappy as we suppose.",
    "qMean": "Good and bad times are rarely as extreme as they feel.",
    "qLife": "The rejection that felt like the end turned out to be a small bump.",
+   "orig": "48.--Happiness is in the taste, and not in the things themselves; we are happy from possessing what we like, not from possessing what others like.\n\n49.--We are never so happy or so unhappy as we suppose.\n\n50.--Those who think they have merit persuade themselves that they are honoured by being unhappy, in order to persuade others and themselves that they are worthy to be the butt of fortune.",
+   "origFrom": "La Rochefoucauld, Maxims (1665)",
    "img": "maxims_06",
    "cap": "The Triumph of Fortune · public domain"
   }

@@ -1,22 +1,22 @@
 {
  "app": {
-  "versionCode": 8,
-  "versionName": "1.5.1",
-  "notes": "Spread the word: share Folio with a friend, star it on GitHub, or request the next book, from the Honours tab.",
-  "sizeKb": 35633,
-  "sha256": "bfe9f1771f812d72b2aad3bbf4aed14bd8f3951342785b738f9ae96b83f8a48c",
-  "apk": "https://github.com/purvalsingh/folio/releases/download/v1.5.1/Folio.apk"
+  "versionCode": 9,
+  "versionName": "1.6",
+  "notes": "Turn any page over for its meaning in simple English, an everyday example and the passage exactly as the author wrote it. New: Themes across books (14 ideas traced through many authors), What would they do? (everyday problems answered by three old books), a share studio for Instagram Stories, posts and squares in book, chapter, paper or night colours, and export your words and quotes as PDF, Markdown or an Anki deck.",
+  "sizeKb": 35703,
+  "sha256": "4dbc5af64247e84ff61295624a1ac026c15f224afe84f3025072dc676bec411a",
+  "apk": "https://github.com/purvalsingh/folio/releases/download/v1.6/Folio.apk"
  },
  "books": [
   {
    "id": "artofwar",
-   "version": 3,
+   "version": 4,
    "title": "The Art of War",
    "author": "Sun Tzu",
    "year": "c. 500 BC",
    "era": "eastern",
    "cards": 26,
-   "sizeKb": 2485,
+   "sizeKb": 2497,
    "blurb": "Thirteen short chapters from ancient China on winning — ideally without a fight. Read by generals, CEOs and chess players for 2,500 years.",
    "images": [
     "artofwar_01",
@@ -51,13 +51,13 @@
   },
   {
    "id": "gita",
-   "version": 3,
+   "version": 4,
    "title": "The Bhagavad Gita",
    "author": "Vyasa (trad.)",
    "year": "c. 400 BC",
    "era": "indic",
    "cards": 25,
-   "sizeKb": 2752,
+   "sizeKb": 2777,
    "blurb": "On a battlefield, a great archer loses his nerve, and his charioteer — God himself — talks him through duty, action, death and devotion. Eighteen chapters of the world's most loved spiritual dialogue.",
    "images": [
     "gita_01",
@@ -91,13 +91,13 @@
   },
   {
    "id": "laws",
-   "version": 3,
+   "version": 4,
    "title": "The 48 Laws of Power",
    "author": "Robert Greene",
    "year": "1998",
    "era": "baroque",
    "cards": 48,
-   "sizeKb": 4897,
+   "sizeKb": 4929,
    "blurb": "Forty-eight rules of power, from royal courts to modern offices — each law in a minute, paired with a line from Machiavelli, Sun Tzŭ, Gracián or La Rochefoucauld. Know them to use them, or to spot them used on you.",
    "images": [
     "laws_01",
@@ -154,13 +154,13 @@
   },
   {
    "id": "prince",
-   "version": 3,
+   "version": 4,
    "title": "The Prince",
    "author": "Niccolò Machiavelli",
    "year": "1532",
    "era": "renaissance",
    "cards": 52,
-   "sizeKb": 6323,
+   "sizeKb": 6371,
    "blurb": "A banished Florentine diplomat's handbook on how power is won, held and lost. Five hundred years later it still names the game: appearances, fear, loyalty, luck.",
    "images": [
     "prince_01",
@@ -221,13 +221,13 @@
   },
   {
    "id": "arthashastra",
-   "version": 1,
+   "version": 2,
    "title": "Arthashastra",
    "author": "Kautilya (Chanakya)",
    "year": "c. 300 BC",
    "era": "indic",
    "cards": 6,
-   "sizeKb": 840,
+   "sizeKb": 843,
    "blurb": "India's ancient handbook of statecraft, by the strategist who helped build the Maurya empire: ministers, spies, money, punishment — and a king who must serve his people.",
    "images": [
     "arthashastra_01",
@@ -242,13 +242,13 @@
   },
   {
    "id": "bge",
-   "version": 1,
+   "version": 2,
    "title": "Beyond Good and Evil",
    "author": "Friedrich Nietzsche",
    "year": "1886",
    "era": "germanic",
    "cards": 6,
-   "sizeKb": 1063,
+   "sizeKb": 1066,
    "blurb": "Nietzsche's sharpest book: our morals hide deeper drives, every deep thinker wears a mask, and the herd hates whoever stands apart.",
    "images": [
     "bge_01",
@@ -263,13 +263,13 @@
   },
   {
    "id": "chesterfield",
-   "version": 1,
+   "version": 2,
    "title": "Letters to His Son",
    "author": "Philip Stanhope, Lord Chesterfield",
    "year": "1774",
    "era": "enlightenment",
    "cards": 6,
-   "sizeKb": 708,
+   "sizeKb": 715,
    "blurb": "A worldly English lord's private letters to his son on charm, manners, attention and getting on in society — the 18th century's guide to being liked.",
    "images": [
     "chesterfield_01",
@@ -284,13 +284,13 @@
   },
   {
    "id": "crowd",
-   "version": 1,
+   "version": 2,
    "title": "The Crowd",
    "author": "Gustave Le Bon",
    "year": "1895",
    "era": "victorian",
    "cards": 6,
-   "sizeKb": 782,
+   "sizeKb": 787,
    "blurb": "A French doctor explains why sensible people turn wild in a mob — the book later studied by propagandists, marketers and dictators.",
    "images": [
     "crowd_01",
@@ -305,13 +305,13 @@
   },
   {
    "id": "dhammapada",
-   "version": 1,
+   "version": 2,
    "title": "The Dhammapada",
    "author": "The Buddha (trad.)",
    "year": "c. 250 BC",
    "era": "indic",
    "cards": 9,
-   "sizeKb": 984,
+   "sizeKb": 988,
    "blurb": "Short verses from the Buddha's teaching on the mind: what you think, you become.",
    "images": [
     "dhammapada_01",
@@ -329,13 +329,13 @@
   },
   {
    "id": "dreams",
-   "version": 1,
+   "version": 2,
    "title": "Dream Psychology",
    "author": "Sigmund Freud",
    "year": "1920",
    "era": "germanic",
    "cards": 6,
-   "sizeKb": 868,
+   "sizeKb": 875,
    "blurb": "Freud's own short guide to his most famous idea: dreams are not nonsense — they are wishes in disguise.",
    "images": [
     "dreams_01",
@@ -350,13 +350,13 @@
   },
   {
    "id": "emerson",
-   "version": 1,
+   "version": 2,
    "title": "Self-Reliance & Other Essays",
    "author": "Ralph Waldo Emerson",
    "year": "1841",
    "era": "victorian",
    "cards": 6,
-   "sizeKb": 539,
+   "sizeKb": 544,
    "blurb": "America's great essayist on trusting yourself, on love, and on friendship — short, quotable and fearless.",
    "images": [
     "emerson_01",
@@ -371,13 +371,13 @@
   },
   {
    "id": "emotions",
-   "version": 1,
+   "version": 2,
    "title": "The Expression of the Emotions",
    "author": "Charles Darwin",
    "year": "1872",
    "era": "victorian",
    "cards": 6,
-   "sizeKb": 542,
+   "sizeKb": 549,
    "blurb": "Darwin studies smiles, sneers, tears and blushes in people and animals — the first science of body language.",
    "images": [
     "emotions_01",
@@ -392,13 +392,13 @@
   },
   {
    "id": "enchiridion",
-   "version": 1,
+   "version": 2,
    "title": "The Enchiridion",
    "author": "Epictetus",
    "year": "c. 125",
    "era": "ancient",
    "cards": 8,
-   "sizeKb": 963,
+   "sizeKb": 968,
    "blurb": "A pocket handbook from a philosopher born a slave: separate what you control from what you don't, and you will never be a slave again.",
    "images": [
     "enchiridion_01",
@@ -415,13 +415,13 @@
   },
   {
    "id": "franklin",
-   "version": 1,
+   "version": 2,
    "title": "The Autobiography",
    "author": "Benjamin Franklin",
    "year": "1791",
    "era": "enlightenment",
    "cards": 6,
-   "sizeKb": 655,
+   "sizeKb": 660,
    "blurb": "How a runaway printer's apprentice became one of history's great persuaders — by never arguing, keeping a little book of virtues, and asking favours.",
    "images": [
     "franklin_01",
@@ -436,13 +436,13 @@
   },
   {
    "id": "gracian",
-   "version": 1,
+   "version": 2,
    "title": "The Art of Worldly Wisdom",
    "author": "Baltasar Gracián",
    "year": "1647",
    "era": "baroque",
    "cards": 8,
-   "sizeKb": 966,
+   "sizeKb": 972,
    "blurb": "Three hundred maxims by a Spanish Jesuit on getting on in a dangerous world — the source behind many of the 48 Laws.",
    "images": [
     "gracian_01",
@@ -459,13 +459,13 @@
   },
   {
    "id": "habit",
-   "version": 1,
+   "version": 2,
    "title": "Talks on Habit",
    "author": "William James",
    "year": "1899",
    "era": "victorian",
    "cards": 6,
-   "sizeKb": 554,
+   "sizeKb": 559,
    "blurb": "The father of American psychology on why we are 'walking bundles of habits' — and four rules for building better ones.",
    "images": [
     "habit_01",
@@ -480,13 +480,13 @@
   },
   {
    "id": "hitopadesa",
-   "version": 1,
+   "version": 2,
    "title": "The Hitopadesha",
    "author": "Narayana (trad.)",
    "year": "c. 1100",
    "era": "indic",
    "cards": 4,
-   "sizeKb": 653,
+   "sizeKb": 655,
    "blurb": "'Beneficial advice': Sanskrit fables of crows, deer, tigers and kings, packed with verses on friendship, money and war.",
    "images": [
     "hitopadesa_01",
@@ -499,13 +499,13 @@
   },
   {
    "id": "jung",
-   "version": 1,
+   "version": 2,
    "title": "Psychology of the Unconscious",
    "author": "Carl Gustav Jung",
    "year": "1912",
    "era": "germanic",
    "cards": 6,
-   "sizeKb": 784,
+   "sizeKb": 791,
    "blurb": "The book that split Jung from Freud: myths, dreams and symbols as the deep, shared language of the human mind.",
    "images": [
     "jung_01",
@@ -520,13 +520,13 @@
   },
   {
    "id": "kural",
-   "version": 1,
+   "version": 2,
    "title": "The Thirukkural",
    "author": "Tiruvalluvar",
    "year": "c. 300 BC–500 AD",
    "era": "indic",
    "cards": 6,
-   "sizeKb": 493,
+   "sizeKb": 496,
    "blurb": "1,330 two-line couplets from Tamil Nadu on virtue, wealth and love — the 'universal scripture' of South India.",
    "images": [
     "kural_01",
@@ -541,13 +541,13 @@
   },
   {
    "id": "livy",
-   "version": 1,
+   "version": 2,
    "title": "Discourses on Livy",
    "author": "Niccolò Machiavelli",
    "year": "1531",
    "era": "renaissance",
    "cards": 3,
-   "sizeKb": 501,
+   "sizeKb": 505,
    "blurb": "The other Machiavelli: a love letter to republics, arguing that free peoples are wiser and steadier than princes.",
    "images": [
     "livy_01",
@@ -559,13 +559,13 @@
   },
   {
    "id": "maxims",
-   "version": 1,
+   "version": 2,
    "title": "Maxims",
    "author": "François de La Rochefoucauld",
    "year": "1665",
    "era": "baroque",
    "cards": 6,
-   "sizeKb": 1064,
+   "sizeKb": 1066,
    "blurb": "A French duke's razor-sharp one-liners about vanity, self-interest and the hidden motives behind our 'virtues'.",
    "images": [
     "maxims_01",
@@ -580,13 +580,13 @@
   },
   {
    "id": "meditations",
-   "version": 1,
+   "version": 2,
    "title": "Meditations",
    "author": "Marcus Aurelius",
    "year": "c. 175",
    "era": "ancient",
    "cards": 10,
-   "sizeKb": 1055,
+   "sizeKb": 1066,
    "blurb": "The private notebook of a Roman emperor, written in army camps at night: how to stay calm, fair and useful when the world is not.",
    "images": [
     "meditations_01",
@@ -605,13 +605,13 @@
   },
   {
    "id": "onwar",
-   "version": 1,
+   "version": 2,
    "title": "On War",
    "author": "Carl von Clausewitz",
    "year": "1832",
    "era": "germanic",
    "cards": 4,
-   "sizeKb": 418,
+   "sizeKb": 421,
    "blurb": "A Prussian general's deep study of war: a duel, a gamble, a fog — and always the servant of politics.",
    "images": [
     "onwar_01",
@@ -624,13 +624,13 @@
   },
   {
    "id": "ovid",
-   "version": 1,
+   "version": 2,
    "title": "The Art of Love",
    "author": "Ovid",
    "year": "c. 2 AD",
    "era": "ancient",
    "cards": 5,
-   "sizeKb": 652,
+   "sizeKb": 656,
    "blurb": "Rome's cheekiest poet writes a mock-serious handbook on romance — so popular, and so naughty, that the emperor exiled him.",
    "images": [
     "ovid_01",
@@ -644,13 +644,13 @@
   },
   {
    "id": "panchatantra",
-   "version": 1,
+   "version": 2,
    "title": "The Panchatantra",
    "author": "Vishnu Sharma (trad.)",
    "year": "c. 300 BC",
    "era": "indic",
    "cards": 4,
-   "sizeKb": 697,
+   "sizeKb": 699,
    "blurb": "Animal fables written to teach three dull princes the art of ruling — the world's most travelled storybook, ancestor of Aesop and La Fontaine.",
    "images": [
     "panchatantra_01",
@@ -663,13 +663,13 @@
   },
   {
    "id": "redbook",
-   "version": 1,
+   "version": 2,
    "title": "The Red Book",
    "author": "Carl Gustav Jung",
    "year": "1914–1930",
    "era": "germanic",
    "cards": 6,
-   "sizeKb": 886,
+   "sizeKb": 892,
    "blurb": "For sixteen years Jung recorded his own visions in a huge red-leather book, in calligraphy and paintings. Kept secret for a century, it is the map of his journey into the unconscious.",
    "images": [
     "redbook_01",
@@ -684,13 +684,13 @@
   },
   {
    "id": "republic",
-   "version": 1,
+   "version": 2,
    "title": "The Republic",
    "author": "Plato",
    "year": "c. 375 BC",
    "era": "ancient",
    "cards": 5,
-   "sizeKb": 621,
+   "sizeKb": 627,
    "blurb": "Socrates asks what justice is — and imagines a whole city to find out. Home of the cave, the ring of invisibility and the philosopher-king.",
    "images": [
     "republic_01",
@@ -704,13 +704,13 @@
   },
   {
    "id": "seneca",
-   "version": 1,
+   "version": 2,
    "title": "On the Shortness of Life",
    "author": "Lucius Annaeus Seneca",
    "year": "c. 49 AD",
    "era": "ancient",
    "cards": 4,
-   "sizeKb": 568,
+   "sizeKb": 573,
    "blurb": "Life isn't short — we waste it. Seneca's sharp little essay on time, busyness and living now.",
    "images": [
     "seneca_01",
@@ -723,13 +723,13 @@
   },
   {
    "id": "speaking",
-   "version": 1,
+   "version": 2,
    "title": "The Art of Public Speaking",
    "author": "J. Berg Esenwein & Dale Carnegie",
    "year": "1915",
    "era": "modern",
    "cards": 5,
-   "sizeKb": 661,
+   "sizeKb": 664,
    "blurb": "Dale Carnegie's first book, written before How to Win Friends: beating stage fright, killing monotony, and speaking so people listen.",
    "images": [
     "speaking_01",
@@ -743,13 +743,13 @@
   },
   {
    "id": "taoteching",
-   "version": 1,
+   "version": 2,
    "title": "Tao Te Ching",
    "author": "Lao Tzu",
    "year": "c. 400 BC",
    "era": "eastern",
    "cards": 9,
-   "sizeKb": 791,
+   "sizeKb": 796,
    "blurb": "Eighty-one tiny poems on the Way: soft beats hard, empty is useful, the leader who leads least leads best.",
    "images": [
     "taoteching_01",
@@ -767,13 +767,13 @@
   },
   {
    "id": "thinketh",
-   "version": 1,
+   "version": 2,
    "title": "As a Man Thinketh",
    "author": "James Allen",
    "year": "1903",
    "era": "modern",
    "cards": 6,
-   "sizeKb": 753,
+   "sizeKb": 757,
    "blurb": "A tiny classic of self-help: your thoughts are seeds, your life is the garden.",
    "images": [
     "thinketh_01",
@@ -1006,6 +1006,502 @@
      "kural#5",
      "chesterfield#3"
     ]
+   ]
+  }
+ ],
+ "themes": [
+  {
+   "id": "power",
+   "title": "Power",
+   "blurb": "Who gets it, who keeps it, and what it costs.",
+   "cards": [
+    "prince#31",
+    "prince#35",
+    "laws#0",
+    "arthashastra#2",
+    "livy#0",
+    "republic#0",
+    "prince#5",
+    "taoteching#7",
+    "prince#40",
+    "gracian#0"
+   ]
+  },
+  {
+   "id": "fear",
+   "title": "Fear & Courage",
+   "blurb": "What the old books say to a frightened mind.",
+   "cards": [
+    "gita#2",
+    "gita#3",
+    "meditations#8",
+    "prince#49",
+    "speaking#0",
+    "speaking#1",
+    "dhammapada#6",
+    "habit#5"
+   ]
+  },
+  {
+   "id": "anger",
+   "title": "Anger",
+   "blurb": "Why it burns, and how the wise put it out.",
+   "cards": [
+    "dhammapada#8",
+    "dhammapada#1",
+    "artofwar#23",
+    "emotions#3",
+    "enchiridion#7",
+    "kural#2",
+    "kural#1",
+    "laws#38",
+    "gita#22"
+   ]
+  },
+  {
+   "id": "friendship",
+   "title": "Friendship",
+   "blurb": "Finding friends, keeping them, and knowing the false ones.",
+   "cards": [
+    "emerson#4",
+    "kural#5",
+    "hitopadesa#0",
+    "franklin#2",
+    "laws#1",
+    "panchatantra#0",
+    "hitopadesa#1"
+   ]
+  },
+  {
+   "id": "love",
+   "title": "Love & Desire",
+   "blurb": "Romance, devotion and the self-love that fools us.",
+   "cards": [
+    "emerson#5",
+    "ovid#0",
+    "ovid#1",
+    "ovid#4",
+    "gita#15",
+    "maxims#4",
+    "dhammapada#8"
+   ]
+  },
+  {
+   "id": "time",
+   "title": "Time",
+   "blurb": "Life is long enough, if you stop wasting it.",
+   "cards": [
+    "seneca#0",
+    "seneca#1",
+    "seneca#2",
+    "seneca#3",
+    "chesterfield#3",
+    "meditations#2",
+    "meditations#3",
+    "franklin#4",
+    "gita#17",
+    "laws#34"
+   ]
+  },
+  {
+   "id": "selfcontrol",
+   "title": "Self-Control",
+   "blurb": "Ruling yourself before anything else.",
+   "cards": [
+    "gita#5",
+    "gita#12",
+    "dhammapada#2",
+    "dhammapada#7",
+    "thinketh#5",
+    "taoteching#5",
+    "dhammapada#4",
+    "emotions#2",
+    "habit#2"
+   ]
+  },
+  {
+   "id": "mind",
+   "title": "Your Mind Makes Your World",
+   "blurb": "How your thoughts shape what happens to you.",
+   "cards": [
+    "dhammapada#0",
+    "thinketh#0",
+    "thinketh#1",
+    "enchiridion#1",
+    "meditations#4",
+    "meditations#5",
+    "maxims#5",
+    "gita#11"
+   ]
+  },
+  {
+   "id": "fortune",
+   "title": "Fortune & Fate",
+   "blurb": "Luck, chance and the part that is still yours.",
+   "cards": [
+    "prince#47",
+    "prince#46",
+    "prince#48",
+    "prince#12",
+    "enchiridion#2",
+    "enchiridion#6",
+    "habit#4",
+    "hitopadesa#3",
+    "thinketh#2",
+    "laws#9"
+   ]
+  },
+  {
+   "id": "leading",
+   "title": "Leading People",
+   "blurb": "Generals, kings and sages on being followed.",
+   "cards": [
+    "artofwar#17",
+    "artofwar#19",
+    "arthashastra#0",
+    "prince#43",
+    "prince#44",
+    "taoteching#1",
+    "livy#1",
+    "laws#42",
+    "republic#3"
+   ]
+  },
+  {
+   "id": "masks",
+   "title": "Truth & Masks",
+   "blurb": "Deception, appearances and the faces we wear.",
+   "cards": [
+    "artofwar#1",
+    "prince#33",
+    "prince#34",
+    "prince#35",
+    "bge#2",
+    "jung#4",
+    "redbook#2",
+    "maxims#2",
+    "chesterfield#5",
+    "republic#1",
+    "crowd#4"
+   ]
+  },
+  {
+   "id": "persuasion",
+   "title": "Winning People Over",
+   "blurb": "Persuading without pushing.",
+   "cards": [
+    "franklin#0",
+    "franklin#1",
+    "chesterfield#1",
+    "chesterfield#4",
+    "laws#8",
+    "kural#1",
+    "crowd#3",
+    "crowd#5",
+    "maxims#0",
+    "gracian#3",
+    "speaking#2"
+   ]
+  },
+  {
+   "id": "action",
+   "title": "Action over Talk",
+   "blurb": "Stop planning, start doing.",
+   "cards": [
+    "gita#6",
+    "gita#4",
+    "arthashastra#5",
+    "habit#3",
+    "kural#4",
+    "taoteching#8",
+    "meditations#7",
+    "laws#27",
+    "republic#2",
+    "hitopadesa#3"
+   ]
+  },
+  {
+   "id": "learning",
+   "title": "Learning & Wisdom",
+   "blurb": "Knowing, not knowing, and knowing that you don't.",
+   "cards": [
+    "kural#3",
+    "dhammapada#5",
+    "taoteching#6",
+    "chesterfield#0",
+    "gita#16",
+    "prince#9",
+    "republic#4",
+    "panchatantra#1",
+    "laws#20"
+   ]
+  }
+ ],
+ "scenarios": [
+  {
+   "id": "credit",
+   "title": "A colleague takes credit for your work",
+   "situation": "In a meeting, a teammate presents your idea as theirs. Everyone nods. You're furious.",
+   "advice": [
+    {
+     "card": "franklin#1",
+     "say": "Don't call them a liar in public. Ask a curious question about the details only you would know, and let the room see who really did the work."
+    },
+    {
+     "card": "laws#5",
+     "say": "Make your work visible from now on: share progress early and often, so nobody can quietly borrow it again."
+    },
+    {
+     "card": "dhammapada#8",
+     "say": "Don't let anger turn this into a feud. Calm firmness wins more than a fight."
+    }
+   ]
+  },
+  {
+   "id": "delay",
+   "title": "You keep putting off something important",
+   "situation": "The course, the gym, the call you need to make. It's been 'next week' for months.",
+   "advice": [
+    {
+     "card": "seneca#2",
+     "say": "You're busy, but life isn't waiting. The 'right time' never comes."
+    },
+    {
+     "card": "meditations#2",
+     "say": "Count how long you've already delayed. That number is the argument for today."
+    },
+    {
+     "card": "habit#3",
+     "say": "Act on the decision the very first chance you get, even in a tiny way, before the feeling fades."
+    }
+   ]
+  },
+  {
+   "id": "insult",
+   "title": "Someone insults you in front of others",
+   "situation": "A sharp remark, people laugh, and your face goes hot.",
+   "advice": [
+    {
+     "card": "enchiridion#7",
+     "say": "They said it because it seemed right to them. Their mistake hurts them, not you."
+    },
+    {
+     "card": "dhammapada#8",
+     "say": "Answer with calm, not a counter-insult. Anger met with anger only grows."
+    },
+    {
+     "card": "kural#2",
+     "say": "Be decent to them later. Kindness they didn't earn is the punishment they'll remember."
+    }
+   ]
+  },
+  {
+   "id": "stage",
+   "title": "You're nervous about a presentation",
+   "situation": "Tomorrow you speak in front of the class or team, and your stomach is already in knots.",
+   "advice": [
+    {
+     "card": "speaking#2",
+     "say": "Confidence comes from preparation. Know your material so well there's nothing left to fear."
+    },
+    {
+     "card": "speaking#1",
+     "say": "Rehearse out loud, again and again. Like horses used to trains, you'll stop flinching."
+    },
+    {
+     "card": "gita#4",
+     "say": "Do the talk well and let go of how it's received. The effort is yours; the applause isn't."
+    }
+   ]
+  },
+  {
+   "id": "badidea",
+   "title": "Your boss asks what you think of their bad idea",
+   "situation": "They're excited. You can see three problems.",
+   "advice": [
+    {
+     "card": "laws#0",
+     "say": "Don't make them look foolish. Let them keep the credit for the good parts."
+    },
+    {
+     "card": "franklin#1",
+     "say": "Skip 'you're wrong'. Try 'I wonder if…' and let them discover the flaw themselves."
+    },
+    {
+     "card": "prince#44",
+     "say": "A wise leader wants the truth. If yours punishes honesty, you've learned something important about them."
+    }
+   ]
+  },
+  {
+   "id": "money",
+   "title": "A friend keeps borrowing money and never pays it back",
+   "situation": "Small amounts, always a good story, never returned.",
+   "advice": [
+    {
+     "card": "hitopadesa#1",
+     "say": "Money changes how people treat each other. Notice whether the friendship lives without it."
+    },
+    {
+     "card": "prince#28",
+     "say": "Endless generosity drains you and earns resentment, not gratitude. It's okay to stop."
+    },
+    {
+     "card": "maxims#0",
+     "say": "Watch what they want, not what they say. Self-interest can wear any face."
+    }
+   ]
+  },
+  {
+   "id": "loss",
+   "title": "You lost something you cared about",
+   "situation": "A job, a relationship, a chance you were sure of.",
+   "advice": [
+    {
+     "card": "enchiridion#4",
+     "say": "Say 'it has been returned', not 'I lost it'. It was never fully yours to keep."
+    },
+    {
+     "card": "meditations#5",
+     "say": "Everything changes; this will too. The pain is real, and so is the change still coming."
+    },
+    {
+     "card": "maxims#5",
+     "say": "You're never quite as unhappy as you feel right now. Give it time."
+    }
+   ]
+  },
+  {
+   "id": "habit",
+   "title": "You want to build a new habit",
+   "situation": "Gym, reading, waking early: you start strong and fade by week two.",
+   "advice": [
+    {
+     "card": "habit#2",
+     "say": "Allow no exceptions until it's rooted. Every skipped day undoes several good ones."
+    },
+    {
+     "card": "franklin#3",
+     "say": "Track it. Franklin kept a page per virtue and marked every slip."
+    },
+    {
+     "card": "taoteching#8",
+     "say": "Start tiny. A thousand-mile journey still begins with one step."
+    }
+   ]
+  },
+  {
+   "id": "crowd",
+   "title": "Everyone around you is doing something you think is wrong",
+   "situation": "The group chat, the team, the friends. Going along is easier.",
+   "advice": [
+    {
+     "card": "crowd#1",
+     "say": "In a crowd, good people do what they never would alone. Notice when it's happening to you."
+    },
+    {
+     "card": "emerson#1",
+     "say": "To be yourself you sometimes have to stand apart."
+    },
+    {
+     "card": "bge#3",
+     "say": "Madness is rare in one person and normal in groups. The group being sure proves nothing."
+    }
+   ]
+  },
+  {
+   "id": "lead",
+   "title": "You're leading a team for the first time",
+   "situation": "You were one of them yesterday. Now you're in charge.",
+   "advice": [
+    {
+     "card": "artofwar#17",
+     "say": "Be kind first, then firm. Humanity earns loyalty; discipline keeps it."
+    },
+    {
+     "card": "taoteching#1",
+     "say": "Put yourself last. The leader who serves ends up in front."
+    },
+    {
+     "card": "arthashastra#0",
+     "say": "Your success is their wellbeing. When the team thrives, so do you."
+    }
+   ]
+  },
+  {
+   "id": "provoke",
+   "title": "A rival is trying to provoke you",
+   "situation": "They needle you, hoping you'll snap in front of everyone.",
+   "advice": [
+    {
+     "card": "artofwar#23",
+     "say": "Never act out of anger. That's exactly what they want."
+    },
+    {
+     "card": "laws#38",
+     "say": "Stay calm and let them be the one who loses their temper."
+    },
+    {
+     "card": "meditations#9",
+     "say": "A bitter cucumber? Put it down. Brambles? Walk around. Not every thorn needs a fight."
+    }
+   ]
+  },
+  {
+   "id": "risk",
+   "title": "Safe path or risky dream?",
+   "situation": "A stable option on one side, the thing you really want on the other.",
+   "advice": [
+    {
+     "card": "prince#49",
+     "say": "Fortune favours the bold more than the cautious."
+    },
+    {
+     "card": "gita#7",
+     "say": "Your own path done imperfectly beats someone else's done well."
+    },
+    {
+     "card": "emerson#0",
+     "say": "Trust yourself. Every heart answers to that string."
+    }
+   ]
+  },
+  {
+   "id": "failed",
+   "title": "Your plan failed and you blame bad luck",
+   "situation": "You did everything right, you think, and it still fell apart.",
+   "advice": [
+    {
+     "card": "prince#46",
+     "say": "People don't prepare in calm weather. Next time, build the dykes before the flood."
+    },
+    {
+     "card": "thinketh#2",
+     "say": "Circumstances don't make you; they show you who you are. What did this one show?"
+    },
+    {
+     "card": "hitopadesa#3",
+     "say": "Luck needs effort. Even the lion has to hunt."
+    }
+   ]
+  },
+  {
+   "id": "argue",
+   "title": "You want to win an argument",
+   "situation": "You know you're right and you want them to admit it.",
+   "advice": [
+    {
+     "card": "franklin#0",
+     "say": "Ask questions like a curious beginner. People accept what they think they discovered."
+    },
+    {
+     "card": "kural#1",
+     "say": "Hard words when kind ones work is like choosing unripe fruit."
+    },
+    {
+     "card": "artofwar#4",
+     "say": "The best victory needs no battle. Win the person, not the argument."
+    }
    ]
   }
  ]

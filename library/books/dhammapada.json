@@ -8,7 +8,7 @@
  "era": "indic",
  "shelf": "Eastern Paths",
  "blurb": "Short verses from the Buddha's teaching on the mind: what you think, you become.",
- "version": 1,
+ "version": 2,
  "cover": "dhammapada_cover",
  "glossary": {
   "earnestness": {
@@ -41,6 +41,8 @@
    "quote": "All that we are is the result of what we have thought: it is founded on our thoughts, it is made up of our thoughts.",
    "qMean": "Your life is shaped by your thoughts.",
    "qLife": "Thinking 'I'm bad at maths' makes you stop trying — and so you stay bad at it.",
+   "orig": "1. All that we are is the result of what we have thought: it is founded on our thoughts, it is made up of our thoughts. If a man speaks or acts with an evil thought, pain follows him, as the wheel follows the foot of the ox that draws the carriage.\n\n2. All that we are is the result of what we have thought: it is founded on our thoughts, it is made up of our thoughts. If a man speaks or acts with a pure thought, happiness follows him, like a shadow that never leaves him.",
+   "origFrom": "The Dhammapada (tr. Max Müller, 1881)",
    "img": "dhammapada_01",
    "cap": "Seated Buddha from India · public domain"
   },
@@ -52,6 +54,8 @@
    "quote": "For hatred does not cease by hatred at any time: hatred ceases by love, this is an old rule.",
    "qMean": "Hate never stops hate; only love stops it.",
    "qLife": "Ending a family feud by being the first to apologise.",
+   "orig": "4. \"He abused me, he beat me, he defeated me, he robbed me,\"--in those who do not harbour such thoughts hatred will cease.\n\n5. For hatred does not cease by hatred at any time: hatred ceases by love, this is an old rule.\n\n6. The world does not know that we must all come to an end here;--but those who know it, their quarrels cease at once.",
+   "origFrom": "The Dhammapada (tr. Max Müller, 1881)",
    "img": "dhammapada_02",
    "cap": "Ajanta painting, National Museum, New Delhi · public domain"
   },
@@ -63,6 +67,8 @@
    "quote": "As rain breaks through an ill-thatched house, passion will break through an unreflecting mind.",
    "qMean": "A careless mind lets cravings in, like rain through a bad roof.",
    "qLife": "Impulse-buying everything in the cart because you never stopped to think.",
+   "orig": "12. They who know truth in truth, and untruth in untruth, arrive at truth, and follow true desires.\n\n13. As rain breaks through an ill-thatched house, passion will break through an unreflecting mind.\n\n14. As rain does not break through a well-thatched house, passion will not break through a well-reflecting mind.\n\n15. The evil-doer mourns in this world, and he mourns in the next; he mourns in both. He mourns and suffers when he sees the evil of his own work.",
+   "origFrom": "The Dhammapada (tr. Max Müller, 1881)",
    "img": "dhammapada_03",
    "cap": "Thatched huts by a river, Bengal · public domain"
   },
@@ -74,6 +80,8 @@
    "quote": "Earnestness is the path of immortality (Nirvana), thoughtlessness the path of death.",
    "qMean": "Paying careful attention leads to freedom; carelessness leads to ruin.",
    "qLife": "Reading the contract carefully instead of clicking 'agree'.",
+   "orig": "21. Earnestness is the path of immortality (Nirvana), thoughtlessness the path of death. Those who are in earnest do not die, those who are thoughtless are as if dead already.\n\n22. Those who are advanced in earnestness, having understood this clearly, delight in earnestness, and rejoice in the knowledge of the Ariyas (the elect).",
+   "origFrom": "The Dhammapada (tr. Max Müller, 1881)",
    "img": "dhammapada_04",
    "cap": "Buddha meditating · public domain"
   },
@@ -85,6 +93,8 @@
    "quote": "As a fletcher makes straight his arrow, a wise man makes straight his trembling and unsteady thought",
    "qMean": "A wise person steadies their restless mind like an arrow-maker straightens an arrow.",
    "qLife": "Bringing your attention back to the page every time your phone buzzes.",
+   "orig": "Chapter III. Thought\n\n33. As a fletcher makes straight his arrow, a wise man makes straight his trembling and unsteady thought, which is difficult to guard, difficult to hold back.\n\n34. As a fish taken from his watery home and thrown on dry ground, our thought trembles all over in order to escape the dominion of Mara (the tempter).",
+   "origFrom": "The Dhammapada (tr. Max Müller, 1881)",
    "img": "dhammapada_05",
    "cap": "Archery Competition-Mughal-India · public domain"
   },
@@ -96,6 +106,8 @@
    "quote": "The fool who knows his foolishness, is wise at least so far.",
    "qMean": "Knowing you don't know is a kind of wisdom.",
    "qLife": "The new employee who asks questions learns faster than the one who pretends.",
+   "orig": "62. \"These sons belong to me, and this wealth belongs to me,\" with such thoughts a fool is tormented. He himself does not belong to himself; how much less sons and wealth?\n\n63. The fool who knows his foolishness, is wise at least so far. But a fool who thinks himself wise, he is called a fool indeed.\n\n64. If a fool be associated with a wise man even all his life, he will perceive the truth as little as a spoon perceives the taste of soup.",
+   "origFrom": "The Dhammapada (tr. Max Müller, 1881)",
    "img": "dhammapada_06",
    "cap": "Jataka tales, illustrated manuscript · public domain"
   },
@@ -107,6 +119,8 @@
    "quote": "As a solid rock is not shaken by the wind, wise people falter not amidst blame and praise.",
    "qMean": "Wise people stay steady whether they are praised or criticised.",
    "qLife": "Reading both good and bad comments on your work without your mood swinging.",
+   "orig": "80. Well-makers lead the water (wherever they like); fletchers bend the arrow; carpenters bend a log of wood; wise people fashion themselves.\n\n81. As a solid rock is not shaken by the wind, wise people falter not amidst blame and praise.\n\n82. Wise people, after they have listened to the laws, become serene, like a deep, smooth, and still lake.",
+   "origFrom": "The Dhammapada (tr. Max Müller, 1881)",
    "img": "dhammapada_07",
    "cap": "Sculpture of Buddha Muchalinda, NUS Museum · public domain"
   },
@@ -118,6 +132,8 @@
    "quote": "If one man conquer in battle a thousand times thousand men, and if another conquer himself, he is the greatest of conquerors.",
    "qMean": "Beating your own weaknesses is greater than beating any army.",
    "qLife": "Quitting smoking is a bigger win than any argument you ever won.",
+   "orig": "103. If one man conquer in battle a thousand times thousand men, and if another conquer himself, he is the greatest of conquerors.\n\n104, 105. One's own self conquered is better than all other people; not even a god, a Gandharva, not Mara with Brahman could change into defeat the victory of a man who has vanquished himself, and always lives under restraint.",
+   "origFrom": "The Dhammapada (tr. Max Müller, 1881)",
    "img": "dhammapada_08",
    "cap": "Pillar of Ashoka (replica) · public domain"
   },
@@ -129,6 +145,8 @@
    "quote": "Let a man overcome anger by love, let him overcome evil by good; let him overcome the greedy by liberality, the liar by truth!",
    "qMean": "Beat anger with love, greed with generosity, and lies with truth.",
    "qLife": "Replying calmly and kindly to an angry customer until they calm down too.",
+   "orig": "222. He who holds back rising anger like a rolling chariot, him I call a real driver; other people are but holding the reins.\n\n223. Let a man overcome anger by love, let him overcome evil by good; let him overcome the greedy by liberality, the liar by truth!\n\n224. Speak the truth, do not yield to anger; give, if thou art asked for little; by these three steps thou wilt go near the gods.",
+   "origFrom": "The Dhammapada (tr. Max Müller, 1881)",
    "img": "dhammapada_09",
    "cap": "Sanchi Stupa 2 reliefs · public domain"
   }

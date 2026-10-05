@@ -8,7 +8,7 @@
  "era": "ancient",
  "shelf": "Stoic Wisdom",
  "blurb": "A pocket handbook from a philosopher born a slave: separate what you control from what you don't, and you will never be a slave again.",
- "version": 1,
+ "version": 2,
  "cover": "enchiridion_cover",
  "glossary": {
   "impediment": {
@@ -33,6 +33,8 @@
    "quote": "There are things which are within our power, and there are things which are beyond our power.",
    "qMean": "Some things you can control; some things you can't.",
    "qLife": "You can't control the traffic, but you can control when you leave home.",
+   "orig": "There are things which are within our power, and there are things which are beyond our power. Within our power are opinion, aim, desire, aversion, and, in one word, whatever affairs are our own. Beyond our power are body, property, reputation, office, and, in one word, whatever are not properly our own affairs.\n\nNow the things within our power are by nature free, unrestricted, unhindered; but those beyond our power are weak, dependent, restricted, alien. Remember, then, that if you attribute freedom to things by nature dependent and take what belongs to others for your own, you will be hindered, you will lament, you will be disturbed, you will find fault both with gods and men. But if you take for your own only that which is your own and view what belongs to others just as it really is, then no one will ever compel you, no one will restrict you; you will find fault with no one, you will accuse no one, you will do nothing against your will; no one will hurt you, you will not have an enemy, nor will you suffer any harm.",
+   "origFrom": "Epictetus, The Enchiridion (tr. Higginson)",
    "img": "enchiridion_01",
    "cap": "Epictetus, engraving, 1653 · public domain"
   },
@@ -44,6 +46,8 @@
    "quote": "Men are disturbed not by things, but by the views which they take of things.",
    "qMean": "What upsets us is not what happens, but what we think about it.",
    "qLife": "Two people stuck in the same rain: one is miserable, the other enjoys the smell.",
+   "orig": "Men are disturbed not by things, but by the views which they take of things. Thus death is nothing terrible, else it would have appeared so to Socrates. But the terror consists in our notion of death, that it is terrible. When, therefore, we are hindered or disturbed, or grieved, let us never impute it to others, but to ourselves—that is, to our own views. It is the action of an uninstructed person to reproach others for his own misfortunes; of one entering upon instruction, to reproach himself; and one perfectly instructed, to reproach neither others nor himself.",
+   "origFrom": "Epictetus, The Enchiridion (tr. Higginson)",
    "img": "enchiridion_02",
    "cap": "David - The Death of Socrates · public domain"
   },
@@ -55,6 +59,8 @@
    "quote": "Demand not that events should happen as you wish; but wish them to happen as they do happen, and you will go on well.",
    "qMean": "Stop insisting things go your way; accept how they go, and life is easier.",
    "qLife": "Rain on your picnic day? Move it indoors and have fun anyway.",
+   "orig": "VIII\n\nDemand not that events should happen as you wish; but wish them to happen as they do happen, and you will go on well.\n\nIX\n\nSickness is an impediment to the body, but not to the will unless itself pleases. Lameness is an impediment to the leg, but not to the will; and say this to yourself with regard to everything that happens. For you will find it to be an impediment to something else, but not truly to yourself.",
+   "origFrom": "Epictetus, The Enchiridion (tr. Higginson)",
    "img": "enchiridion_03",
    "cap": "Wheel of Fortune with the Fates · public domain"
   },
@@ -66,6 +72,8 @@
    "quote": "Sickness is an impediment to the body, but not to the will unless itself pleases.",
    "qMean": "Illness can limit your body, but not your choices, unless you let it.",
    "qLife": "A friend with a broken leg who still finishes her course online.",
+   "orig": "IX\n\nSickness is an impediment to the body, but not to the will unless itself pleases. Lameness is an impediment to the leg, but not to the will; and say this to yourself with regard to everything that happens. For you will find it to be an impediment to something else, but not truly to yourself.\n\nX\n\nUpon every accident, remember to turn toward yourself and inquire what faculty you have for its use. If you encounter a handsome person, you will find continence the faculty needed; if pain, then fortitude; if reviling, then patience. And when thus habituated, the phenomena of existence will not overwhelm you.",
+   "origFrom": "Epictetus, The Enchiridion (tr. Higginson)",
    "img": "enchiridion_04",
    "cap": "Marble statue of a draped seated man · public domain"
   },
@@ -77,6 +85,8 @@
    "quote": "Never say of anything, “I have lost it,” but, “I have restored it.”",
    "qMean": "Don't call things lost; think of them as returned to where they came from.",
    "qLife": "When an old phone dies, being grateful for the years it worked.",
+   "orig": "Never say of anything, “I have lost it,” but, “I have restored it.” Has your child died? It is restored. Has your wife died? She is restored. Has your estate been taken away? That likewise is restored. “But it was a bad man who took it.” What is it to you by whose hands he who gave it has demanded it again? While he permits you to possess it, hold it as something not your own, as do travelers at an inn.",
+   "origFrom": "Epictetus, The Enchiridion (tr. Higginson)",
    "img": "enchiridion_05",
    "cap": "Roman funeral relief, Galleria Borghese · public domain"
   },
@@ -88,6 +98,8 @@
    "quote": "Remember that you must behave as at a banquet.",
    "qMean": "Act in life like a polite guest at a big dinner.",
    "qLife": "Not pushing for a promotion that isn't open yet, but being ready when it comes.",
+   "orig": "Remember that you must behave as at a banquet. Is anything brought round to you? Put out your hand and take a moderate share. Does it pass by you? Do not stop it. Is it not yet come? Do not yearn in desire toward it, but wait till it reaches you. So with regard to children, wife, office, riches; and you will some time or other be worthy to feast with the gods. And if you do not so much as take the things which are set before you, but are able even to forego them, then you will not only be worthy to feast with the gods, but to rule with them also. For, by thus doing, Diogenes and Heraclitus, and others like them, deservedly became divine, and were so recognized.",
+   "origFrom": "Epictetus, The Enchiridion (tr. Higginson)",
    "img": "enchiridion_06",
    "cap": "Banquet scene, fresco from Herculaneum · public domain"
   },
@@ -99,6 +111,8 @@
    "quote": "Remember that you are an actor in a drama of such sort as the Author chooses",
    "qMean": "You don't choose your role in life, but you choose how well you play it.",
    "qLife": "Being the best possible assistant manager instead of sulking about not being the boss.",
+   "orig": "Remember that you are an actor in a drama of such sort as the Author chooses—if short, then in a short one; if long, then in a long one. If it be his pleasure that you should enact a poor man, or a cripple, or a ruler, or a private citizen, see that you act it well. For this is your business—to act well the given part, but to choose it belongs to another.",
+   "origFrom": "Epictetus, The Enchiridion (tr. Higginson)",
    "img": "enchiridion_07",
    "cap": "Theatre masks, Roman mosaic, Naples · public domain"
   },
@@ -110,6 +124,8 @@
    "quote": "When any person does ill by you, or speaks ill of you, remember that he acts or speaks from an impression that it is right for him to do so.",
    "qMean": "When someone hurts you, remember they believe they're right.",
    "qLife": "The driver who honked at you probably thought you cut him off.",
+   "orig": "When any person does ill by you, or speaks ill of you, remember that he acts or speaks from an impression that it is right for him to do so. Now it is not possible that he should follow what appears right to you, but only what appears so to himself. Therefore, if he judges from false appearances, he is the person hurt, since he, too, is the person deceived. For if anyone takes a true proposition to be false, the proposition is not hurt, but only the man is deceived. Setting out, then, from these principles, you will meekly bear with a person who reviles you, for you will say upon every occasion, “It seemed so to him.”",
+   "origFrom": "Epictetus, The Enchiridion (tr. Higginson)",
    "img": "enchiridion_08",
    "cap": "The Orator (Aulus Metellus), Roman bronze · public domain"
   }

@@ -8,7 +8,7 @@
  "era": "germanic",
  "shelf": "The Human Mind",
  "blurb": "Freud's own short guide to his most famous idea: dreams are not nonsense — they are wishes in disguise.",
- "version": 1,
+ "version": 2,
  "cover": "dreams_cover",
  "glossary": {
   "manifest": {
@@ -41,6 +41,8 @@
    "quote": "the former I call the dream's manifest content; the latter, without at first further subdivision, its latent content.",
    "qMean": "A dream has a surface story and a hidden meaning.",
    "qLife": "Dreaming of missing a train might really be about fearing a missed chance.",
+   "orig": "Naturally, I would not draw such far-reaching conclusions if only one analysis were known to me. Experience has shown me that when the associations of any dream are honestly followed such a chain of thought is revealed, the constituent parts of the dream reappear correctly and sensibly linked together; the slight suspicion that this concatenation was merely an accident of a single first observation must, therefore, be absolutely relinquished. I regard it, therefore, as my right to establish this new view by a proper nomenclature. I contrast the dream which my memory evokes with the dream and other added matter revealed by analysis: the former I call the dream's manifest content; the latter, without at first further subdivision, its latent content. I arrive at two new problems hitherto unformulated: (1) What is the psychical process which has transformed the latent content of the dream into its manifest content? (2) What is the motive or the motives which have made such transformation exigent? The process by which the change from latent to manifest content is executed I name the dream-work. …",
+   "origFrom": "Sigmund Freud, Dream Psychology (tr. Eder, 1920)",
    "img": "dreams_01",
    "cap": "Thomas Burke The Nightmare engraving · public domain"
   },
@@ -52,6 +54,8 @@
    "quote": "They are simply and undisguisedly realizations of wishes.",
    "qMean": "Children's dreams openly give them what they wanted.",
    "qLife": "A kid denied ice cream dreams of an ice-cream mountain.",
+   "orig": "What is common in all these dreams is obvious. They completely satisfy wishes excited during the day which remain unrealized. They are simply and undisguisedly realizations of wishes.\n\nThe following child-dream, not quite understandable at first sight, is nothing else than a wish realized. On account of poliomyelitis a girl, not quite four years of age, was brought from the country into town, and remained over night with a childless aunt in a big--for her, naturally, huge--bed. The next morning she stated that she had dreamt that the bed was much too small for her, so that she could find no place in it. To explain this dream as a wish is easy when we remember that to be \"big\" is a frequently expressed wish of all children. The bigness of the bed reminded Miss Little-Would-be-Big only too forcibly of her smallness. This nasty situation became righted in her dream, and she grew so big that the bed now became too small for her.",
+   "origFrom": "Sigmund Freud, Dream Psychology (tr. Eder, 1920)",
    "img": "dreams_02",
    "cap": "Van Gogh, Child with Orange · public domain"
   },
@@ -63,6 +67,8 @@
    "quote": "the more deeply you go into the analysis, the more deeply you are impressed by it.",
    "qMean": "The more you study a dream, the more you see how much is packed into it.",
    "qLife": "A dream house that is both your school and your grandmother's home.",
+   "orig": "Another manifestation of the dream work which all incoherent dreams have in common is still more noticeable. Choose any instance, and compare the number of separate elements in it, or the extent of the dream, if written down, with the dream thoughts yielded by analysis, and of which but a trace can be refound in the dream itself. There can be no doubt that the dream working has resulted in an extraordinary compression or condensation. It is not at first easy to form an opinion as to the extent of the condensation; the more deeply you go into the analysis, the more deeply you are impressed by it. There will be found no factor in the dream whence the chains of associations do not lead in two or more directions, no scene which has not been pieced together out of two or more impressions and events. For instance, I once dreamt about a kind of swimming-bath where the bathers suddenly separated in all directions; at one place on the edge a person stood bending towards one of the bathers as if to drag him out. The scene was a composite one, made up out of an event that occurred at the time of puberty, and of two pictures, one of which I had seen just shortly before the dream. …",
+   "origFrom": "Sigmund Freud, Dream Psychology (tr. Eder, 1920)",
    "img": "dreams_03",
    "cap": "Francisco José de Goya y Lucientes - The sleep of reason produces monsters (No. 43), from Los Caprichos · public domain"
   },
@@ -74,6 +80,8 @@
    "quote": "a censorship is established which only passes what pleases it, keeping back everything else.",
    "qMean": "Your mind blocks thoughts it finds unacceptable.",
    "qLife": "Laughing off a remark that actually hurt you.",
+   "orig": "… We must be allowed to construct some clear conception as to the origin of dreams as the first steps in this unknown territory. The scheme which we have formulated not only from a study of dreams is, it is true, already somewhat complicated, but we cannot find any simpler one that will suffice. We hold that our psychical apparatus contains two procedures for the construction of thoughts. The second one has the advantage that its products find an open path to consciousness, whilst the activity of the first procedure is unknown to itself, and can only arrive at consciousness through the second one. At the borderland of these two procedures, where the first passes over into the second, a censorship is established which only passes what pleases it, keeping back everything else. That which is rejected by the censorship is, according to our definition, in a state of repression. Under certain conditions, one of which is the sleeping state, the balance of power between the two procedures is so changed that what is repressed can no longer be kept back. In the sleeping state this may possibly occur through the negligence of the censor; what has been hitherto repressed will now succeed in finding its way to consciousness. …",
+   "origFrom": "Sigmund Freud, Dream Psychology (tr. Eder, 1920)",
    "img": "dreams_04",
    "cap": "In the Crisis Censor Stops News from Manila · public domain"
   },
@@ -85,6 +93,8 @@
    "quote": "I call this particular condition \"Repression.\"",
    "qMean": "Freud named this pushing-away of thoughts 'repression'.",
    "qLife": "Not being able to remember a painful exam result at all.",
+   "orig": "… If, however, I continue the analysis for myself, without regard to those others, for whom, indeed, so personal an event as my dream cannot matter, I arrive finally at ideas which surprise me, which I have not known to be mine, which not only appear foreign to me, but which are unpleasant, and which I would like to oppose vehemently, whilst the chain of ideas running through the analysis intrudes upon me inexorably. I can only take these circumstances into account by admitting that these thoughts are actually part of my psychical life, possessing a certain psychical intensity or energy. However, by virtue of a particular psychological condition, the thoughts could not become conscious to me. I call this particular condition \"Repression.\" It is therefore impossible for me not to recognize some casual relationship between the obscurity of the dream content and this state of repression--this incapacity of consciousness. Whence I conclude that the cause of the obscurity is the desire to conceal these thoughts. Thus I arrive at the conception of the dream distortion as the deed of the dream work, and of displacement serving to disguise this object.",
+   "origFrom": "Sigmund Freud, Dream Psychology (tr. Eder, 1920)",
    "img": "dreams_05",
    "cap": "Odilon Redon - Buddha · public domain"
   },
@@ -96,6 +106,8 @@
    "quote": "This fragment so forgotten invariably contains the best and readiest approach to an understanding of the dream.",
    "qMean": "The part of a dream you forget is often the key to it.",
    "qLife": "Remembering everything about a dream except who was in the car.",
+   "orig": "Once the sleeping state overcome, the censorship resumes complete sway, and is now able to revoke that which was granted in a moment of weakness. That the forgetting of dreams explains this in part, at least, we are convinced by our experience, confirmed again and again. During the relation of a dream, or during analysis of one, it not infrequently happens that some fragment of the dream is suddenly forgotten. This fragment so forgotten invariably contains the best and readiest approach to an understanding of the dream. Probably that is why it sinks into oblivion--i.e., into a renewed suppression.",
+   "origFrom": "Sigmund Freud, Dream Psychology (tr. Eder, 1920)",
    "img": "dreams_06",
    "cap": "Freud's couch, Freud Museum, London · public domain"
   }

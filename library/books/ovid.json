@@ -8,7 +8,7 @@
  "era": "ancient",
  "shelf": "Love & Human Nature",
  "blurb": "Rome's cheekiest poet writes a mock-serious handbook on romance — so popular, and so naughty, that the emperor exiled him.",
- "version": 1,
+ "version": 2,
  "cover": "ovid_cover",
  "glossary": {
   "compliments": {
@@ -29,6 +29,8 @@
    "quote": "are now coming for the first time to engage as a soldier in a new service.",
    "qMean": "Starting a romance is like signing up for a new campaign.",
    "qLife": "Planning a first date like a careful project.",
+   "orig": "In the first place, endeavour to find out an object which you may desire to love, you who are now coming for the first time to engage as a soldier in a new service. The next task after that, is to prevail on the fair by pleasing her. The third is, for her love to prove of long duration. This is my plan; this space shall be marked out by my chariot; this the turning-place to be grazed by my wheels in their full career.",
+   "origFrom": "Ovid, The Art of Love (tr. Riley, 1885)",
    "img": "ovid_01",
    "cap": "Mongez, Mars and Venus · public domain"
   },
@@ -40,6 +42,8 @@
    "quote": "The next task after that, is to prevail on the fair by pleasing her.",
    "qMean": "The next step is to win them over by being pleasant.",
    "qLife": "Remembering someone's favourite tea before trying to impress them.",
+   "orig": "In the first place, endeavour to find out an object which you may desire to love, you who are now coming for the first time to engage as a soldier in a new service. The next task after that, is to prevail on the fair by pleasing her. The third is, for her love to prove of long duration. This is my plan; this space shall be marked out by my chariot; this the turning-place to be grazed by my wheels in their full career.",
+   "origFrom": "Ovid, The Art of Love (tr. Riley, 1885)",
    "img": "ovid_02",
    "cap": "Vénus et Adonis (Nicolas Poussin) · public domain"
   },
@@ -51,6 +55,8 @@
    "quote": "Let it carry your compliments",
    "qMean": "Let your message carry your praise.",
    "qLife": "A thoughtful text after a first meeting.",
+   "orig": "Let the wax that is poured upon the polished tablets first try the ford; let the wax first go as the messenger of your feelings. Let it carry your compliments; and whoever you are, add expressions that feign you to be in love, and entreaties not a few. Achilles, moved with his entreaties, granted Hector to Priam; an angered Divinity is moved by the voice of entreaty. Take care to make promises: for what harm is there in promising? Any person whatever can be rich in promises. Hope, if she is only once cherished, holds out for a long time; she is, indeed, a deceitful Goddess, but still a convenient one. Should you give her anything, you may for that reason be abandoned by her: she will bear off the gift by-gone, and will have lost nothing in return. But that which you have not given, you may always seem as though about to give; thus has the sterile field full oft deceived its owner. So the gambler, in order that he may not lose, does not cease to lose; and the alluring dice ever recall the anxious hand. This is the task, this the labour; …",
+   "origFrom": "Ovid, The Art of Love (tr. Riley, 1885)",
    "img": "ovid_03",
    "cap": "'Sappho' with writing tablets, Pompeii fresco · public domain"
   },
@@ -62,6 +68,8 @@
    "quote": "A neglect of beauty becomes men",
    "qMean": "Men don't need to over-groom to be attractive.",
    "qLife": "Clean and simple beats ten hair products.",
+   "orig": "But let it not please you to curl your hair with the irons: and rub not your legs with the rough pumice. Bid those do this, in whose Phrygian notes the Cybeleian Mother is celebrated by their yells. A neglect of beauty becomes men, Theseus bore off the daughter of Minos, though his temples were bedecked by no crisping-pin. Phædra loved Hippolytus, and he was not finely trimmed. Adonis, habituated to the woods, was the care of a Goddess. But let neatness please you; let your body be bronzed on the Plain of Mars: let your robe be well-fitting, and without a spot. Let your tongue, too, not be clammy; your teeth free from yellowness; and let not your foot wallop about, losing itself in the shoe down at heel. Let not the cutting shockingly disfigure your hair bolt upright; let your locks, let your beard be trimmed by a skilful hand. Let your nails, too, not be jagged, and let them be without dirt; and let no hairs project from the cavities of your nostrils. And let not the breath of your ill-smelling mouth be offensive; and let not the husband and the father of the flock offend the nostrils. The rest, allow the luxurious fair to do; and any man that perchance disgracefully seeks to attract another.",
+   "origFrom": "Ovid, The Art of Love (tr. Riley, 1885)",
    "img": "ovid_04",
    "cap": "Hercules and Omphale by F.Goya · public domain"
   },
@@ -73,6 +81,8 @@
    "quote": "promises attract the fair",
    "qMean": "Promises are attractive — which is why they're easily made.",
    "qLife": "Be wary of someone who promises the moon on day one.",
+   "orig": "Promise, too, without hesitation: promises attract the fair: make any Gods you please to be witnesses of what you promise. Jupiter, from on high, smiles at the perjuries of lovers, and commands the Æolian South winds to sweep them away as worthless, Jupiter was accustomed to swear falsely to Juno by the Styx: now is he himself indulgent to his own precedent. 'Tis expedient that there should be Gods; and as it is expedient, let us believe them to exist. Let frankincense and wine be presented on their ancient altars. No repose, free from care and similar to sleep, possesses them; live in innocence, for a Divinity is ever present. Restore the pledge; let piety observe her duties; be there no fraud; keep your hands free from bloodshed.",
+   "origFrom": "Ovid, The Art of Love (tr. Riley, 1885)",
    "img": "ovid_05",
    "cap": "Francesco Bartolozzi - Nymph and Cupid · public domain"
   }

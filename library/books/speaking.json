@@ -8,7 +8,7 @@
  "era": "modern",
  "shelf": "Persuasion & Rhetoric",
  "blurb": "Dale Carnegie's first book, written before How to Win Friends: beating stage fright, killing monotony, and speaking so people listen.",
- "version": 1,
+ "version": 2,
  "cover": "speaking_cover",
  "glossary": {
   "monotony": {
@@ -33,6 +33,8 @@
    "quote": "the fear that paralyzes me before an audience",
    "qMean": "The fear that freezes you when everyone is watching.",
    "qLife": "Your mind going blank during a class presentation.",
+   "orig": "Students of public speaking continually ask, \"How can I overcome self-consciousness and the fear that paralyzes me before an audience?\"\n\nDid you ever notice in looking from a train window that some horses feed near the track and never even pause to look up at the thundering cars, while just ahead at the next railroad crossing a farmer's wife will be nervously trying to quiet her scared horse as the train goes by?",
+   "origFrom": "J. B. Esenwein & Dale Carnegie, The Art of Public Speaking (1915)",
    "img": "speaking_01",
    "cap": "Robert Dighton, The Specious Orator · public domain"
   },
@@ -44,6 +46,8 @@
    "quote": "some horses feed near the track and never even pause to look up at the thundering cars",
    "qMean": "Repeated exposure makes frightening things ordinary.",
    "qLife": "After ten presentations, the eleventh barely scares you.",
+   "orig": "Did you ever notice in looking from a train window that some horses feed near the track and never even pause to look up at the thundering cars, while just ahead at the next railroad crossing a farmer's wife will be nervously trying to quiet her scared horse as the train goes by?\n\nHow would you cure a horse that is afraid of cars--graze him in a back-woods lot where he would never see steam-engines or automobiles, or drive or pasture him where he would frequently see the machines?",
+   "origFrom": "J. B. Esenwein & Dale Carnegie, The Art of Public Speaking (1915)",
    "img": "speaking_02",
    "cap": "Franz Marc, Grazing Horses, 1911 · public domain"
   },
@@ -55,6 +59,8 @@
    "quote": "to acquire self-confidence you must have something in which to be confident.",
    "qMean": "Real confidence comes from being well prepared.",
    "qLife": "Knowing your project inside out before the client meeting.",
+   "orig": "It is not enough to be absorbed by your subject--to acquire self-confidence you must have something in which to be confident. If you go before an audience without any preparation, or previous knowledge of your subject, you ought to be self-conscious--you ought to be ashamed to steal the time of your audience. Prepare yourself. Know what you are going to talk about, and, in general, how you are going to say it. Have the first few sentences worked out completely so that you may not be troubled in the beginning to find words. Know your subject better than your hearers know it, and you have nothing to fear.",
+   "origFrom": "J. B. Esenwein & Dale Carnegie, The Art of Public Speaking (1915)",
    "img": "speaking_03",
    "cap": "Reading room, Bibliothèque Mazarine, 19th c. · public domain"
   },
@@ -66,6 +72,8 @@
    "quote": "the nature--and the curse--of monotony",
    "qMean": "Speaking in one flat tone ruins a talk.",
    "qLife": "A lecturer who reads slides in the same voice for an hour.",
+   "orig": "To tell you that your speech is monotonous may mean very little to you, so let us look at the nature--and the curse--of monotony in other spheres of life, then we shall appreciate more fully how it will blight an otherwise good speech.\n\nIf the Victrola in the adjoining apartment grinds out just three selections over and over again, it is pretty safe to assume that your neighbor has no other records. If a speaker uses only a few of his powers, it points very plainly to the fact that the rest of his powers are not developed. Monotony reveals our limitations.",
+   "origFrom": "J. B. Esenwein & Dale Carnegie, The Art of Public Speaking (1915)",
    "img": "speaking_04",
    "cap": "William Hogarth, The Sleeping Congregation · public domain"
   },
@@ -77,6 +85,8 @@
    "quote": "It is useless to warn the student that he must be natural.",
    "qMean": "Just saying 'be natural' doesn't make anyone natural.",
    "qLife": "Rehearsing a toast many times so it sounds effortless.",
+   "orig": "It is useless to warn the student that he must be natural. To be natural may be to be monotonous. The little strawberry up in the arctics with a few tiny seeds and an acid tang is a natural berry, but it is not to be compared with the improved variety that we enjoy here. The dwarfed oak on the rocky hillside is natural, but a poor thing compared with the beautiful tree found in the rich, moist bottom lands. Be natural--but improve your natural gifts until you have approached the ideal, for we must strive after idealized nature, in fruit, tree, and speech.",
+   "origFrom": "J. B. Esenwein & Dale Carnegie, The Art of Public Speaking (1915)",
    "img": "speaking_05",
    "cap": "Demosthenes, bust · public domain"
   }
