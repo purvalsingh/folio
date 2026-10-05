@@ -73,13 +73,38 @@ You bought it. You opened it. Page three, a sentence 90 words long, and you were
 **Love & Human Nature**: The Art of Love (Ovid) · Emerson's Self-Reliance  
 **Courtly Wisdom**: The Art of Worldly Wisdom (Gracián) · Maxims (La Rochefoucauld)  
 
-*In the bindery:* Fortune & Wealth · Poetry of Life · Myth & Hero.
+*In the bindery:* Fortune & Wealth · Poetry of Life · Myth & Hero. See [what's coming](#coming-to-folio).
 
 ## Honest by design
 
 - **Every quote is real.** A build step checks each one against a public-domain source text and refuses to ship a misquote.
 - **Every picture is public domain**, credited on the page (Wikimedia Commons, museum open-access collections).
 - **No ads, no trackers, no account needed.** Accounts will be optional and only for sync.
+
+## Coming to Folio
+
+What we hope to add next. Updates arrive inside the app, no reinstall needed.
+
+**Books**
+- [ ] Three new shelves already in the bindery: **Fortune & Wealth** (Wealth of Nations, Walden, The Richest Man in Babylon), **Poetry of Life** (Rubaiyat, Gitanjali, Leaves of Grass) and **Myth & Hero** (The Odyssey, Mahabharata tales, Beowulf)
+- [ ] More from India: Chanakya Niti, Vidura Niti and more couplets of the Thirukkural
+- [ ] Longer editions of the newest books, with more pages per chapter
+- [ ] Your picks: [request a book](https://github.com/purvalsingh/folio/issues/new?template=book-request.yml) and the most-asked get bound first
+
+**Reading**
+- [ ] Sync across phones with an optional account, end-to-end encrypted (built, switching on soon)
+- [ ] Meanings in more Indian languages: Marathi, Tamil, Bengali, Telugu, Gujarati and Kannada, alongside Hindi
+- [ ] Listen mode: a whole chapter read aloud, page after page, like an audiobook
+- [ ] Your own notes on any page
+- [ ] Search across every book, word and saved quote
+- [ ] A tablet layout with two pages side by side
+
+**Habits**
+- [ ] "Year in Folio": a shareable card of the books, pages and words of your year
+- [ ] More reading journeys, including ones built from your own saved quotes
+- [ ] Gentler streaks: one free rest day a week
+
+Have an idea? [Open an issue](https://github.com/purvalsingh/folio/issues/new) or ⭐ star the repo to follow along.
 
 ## Install
 
