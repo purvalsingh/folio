@@ -26,3 +26,4 @@
 - [ ] Replace 629 hidden image placements with relevant original sketches
 
 - [~] Gita original plate pass: cover + folios 1–13 reviewed and staged; 14–59 pending
+- [x] Share Studio: preserve full artwork and keep footer inside the border across Story/Post/Square, all three styles and four looks

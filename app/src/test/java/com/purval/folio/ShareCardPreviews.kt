@@ -27,9 +27,17 @@ class ShareCardPreviews {
             val bmp = CardArt.render(ctx, books.getValue(id), i, CardArt.Format.STORY, style, look)
             File(out, "story-$id-$i-${style.name.lowercase()}-${look.name.lowercase()}.png").outputStream().use { bmp.compress(Bitmap.CompressFormat.PNG, 100, it) }
         }
-        for (f in CardArt.Format.entries) {
-            val bmp = CardArt.render(ctx, books.getValue("prince"), 31, f, CardArt.Style.PLATE, CardArt.Look.BOOK)
-            File(out, "format-${f.name.lowercase()}.png").outputStream().use { bmp.compress(Bitmap.CompressFormat.PNG, 100, it) }
-        }
+        for ((id, i) in listOf("gita" to 4, "arthashastra" to 4, "prince" to 0))
+            for (f in CardArt.Format.entries) for (style in CardArt.Style.entries) for (look in CardArt.Look.entries) {
+                val bmp = CardArt.render(ctx, books.getValue(id), i, f, style, look)
+                File(out, "$id-$i-${f.name.lowercase()}-${style.name.lowercase()}-${look.name.lowercase()}.png")
+                    .outputStream().use { bmp.compress(Bitmap.CompressFormat.PNG, 100, it) }
+            }
+        for ((id, i) in listOf("prince" to 25, "laws" to 21, "gita" to 12, "meditations" to 57))
+            for (f in CardArt.Format.entries) for (style in CardArt.Style.entries) {
+                val bmp = CardArt.render(ctx, books.getValue(id), i, f, style, CardArt.Look.BOOK)
+                File(out, "stress-$id-$i-${f.name.lowercase()}-${style.name.lowercase()}.png")
+                    .outputStream().use { bmp.compress(Bitmap.CompressFormat.PNG, 100, it) }
+            }
     }
 }

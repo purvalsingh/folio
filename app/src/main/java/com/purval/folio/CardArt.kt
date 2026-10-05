@@ -8,7 +8,6 @@ import android.graphics.Canvas
 import android.graphics.ColorMatrix
 import android.graphics.ColorMatrixColorFilter
 import android.graphics.Paint
-import android.graphics.Rect
 import android.graphics.RectF
 import android.graphics.Typeface
 import android.text.Layout
@@ -149,36 +148,44 @@ object CardArt {
         val margin = 110
         val cw = w - 2 * margin
         val top = if (story) 230f else 100f          // Instagram covers the top and bottom of a story
-        val footer = if (story) 300f else 150f
+        val footer = if (story) 300f else 250f
         val gap = if (story) 44f else 32f
 
         val label = layout("${book.title} · ${card.ch}".uppercase(), tp(pal.accent, if (story) 32f else 28f, font(ctx, R.font.fell_sc), .14f), cw)
         val title = if (style == Style.PAGE) layout(card.title, tp(pal.ink, if (story) 70f else 58f, font(ctx, displayRes(book.era))), cw) else null
         val img = if (style == Style.QUOTE) null else plate(ctx, book, card.img ?: book.cover)
-        val imgH = img?.let { (cw * when { style == Style.PAGE -> .56f; story -> .78f; format == Format.SQUARE -> .48f; else -> .62f }).toInt() } ?: 0
         val orn = if (style == Style.QUOTE) layout("“", tp(pal.accent, if (story) 260f else 200f, font(ctx, displayRes(book.era))), cw, 0.7f)
             else layout(book.era.fleuron, tp(pal.accent, 46f, Typeface.SERIF), cw)
         val mean = if (style == Style.PAGE && card.qMean.isNotBlank())
             layout("In plain English: ${card.qMean}", tp(pal.faded, if (story) 40f else 30f, font(ctx, R.font.fell_regular)), cw, 1.25f) else null
         val attr = layout("— ${card.attribution(book)}", tp(pal.faded, if (story) 36f else 30f, font(ctx, R.font.fell_sc), .05f), cw)
 
-        val parts = listOfNotNull(label.height, title?.height, if (img != null) imgH else null, orn.height, mean?.height, attr.height)
+        val quoteText = "“${card.quote}”"
+        val quoteFont = font(ctx, italicRes(book.era))
+        val baseParts = listOfNotNull(label.height, title?.height, orn.height, mean?.height, attr.height)
+        val minimumQuote = layout(quoteText, tp(pal.ink, 26f, quoteFont), cw).height
+        val nominalImgH = (cw * when { style == Style.PAGE -> .56f; story -> .78f; format == Format.SQUARE -> .48f; else -> .62f }).toInt()
+        val imageRoom = (h - top - footer - baseParts.sum() - gap * (baseParts.size + 1) - minimumQuote - 16f).toInt()
+        val imgH = if (img != null) minOf(nominalImgH, imageRoom.coerceAtLeast(0)) else 0
+        val drawnImg = img.takeIf { imgH >= 120 }
+        val parts = listOfNotNull(label.height, title?.height, if (drawnImg != null) imgH else null, orn.height, mean?.height, attr.height)
         val fixed = parts.sum() + gap * (parts.size)
         val room = h - top - footer - fixed
         val maxQ = when (style) { Style.QUOTE -> if (story) 96f else 76f; Style.PLATE -> if (story) 78f else 58f; Style.PAGE -> if (story) 62f else 46f }
-        val q = fit("“${card.quote}”", tp(pal.ink, 0f, font(ctx, italicRes(book.era))), cw, room.toInt().coerceAtLeast(200), maxQ, 26f)
+        val q = fit(quoteText, tp(pal.ink, 0f, quoteFont), cw, room.toInt().coerceAtLeast(0), maxQ, 26f)
         val total = fixed + q.height
         var y = top + ((h - top - footer) - total).coerceAtLeast(0f) / 2f
 
         fun put(l: StaticLayout) { c.save(); c.translate(margin.toFloat(), y); l.draw(c); c.restore(); y += l.height + gap }
         put(label)
         title?.let { put(it) }
-        if (img != null) {
-            val dst = RectF(margin.toFloat(), y, (margin + cw).toFloat(), y + imgH)
-            val r = dst.width() / dst.height(); val iw = img.width; val ih = img.height
-            val src = if (iw / ih.toFloat() > r) { val k = (ih * r).toInt(); Rect((iw - k) / 2, 0, (iw + k) / 2, ih) }
-                else { val k = (iw / r).toInt(); Rect(0, 0, iw, k) } // keep the top of tall pictures: heads, not feet
-            c.drawBitmap(img, src, dst, Paint(Paint.FILTER_BITMAP_FLAG).apply {
+        if (drawnImg != null) {
+            val slot = RectF(margin.toFloat(), y, (margin + cw).toFloat(), y + imgH)
+            val scale = minOf(slot.width() / drawnImg.width, slot.height() / drawnImg.height)
+            val drawnW = drawnImg.width * scale; val drawnH = drawnImg.height * scale
+            val dst = RectF(slot.centerX() - drawnW / 2, slot.centerY() - drawnH / 2,
+                slot.centerX() + drawnW / 2, slot.centerY() + drawnH / 2)
+            c.drawBitmap(drawnImg, null, dst, Paint(Paint.FILTER_BITMAP_FLAG).apply {
                 colorFilter = ColorMatrixColorFilter(ColorMatrix().apply { setSaturation(0f) })
                 if (!light(pal.bg)) alpha = 225
             })
@@ -191,7 +198,7 @@ object CardArt {
         mean?.let { put(it) }
         put(attr)
 
-        val fy = h - footer + (if (story) 90f else 40f)
+        val fy = h - footer + (if (story) 90f else 24f)
         c.drawText("Folio", w / 2f, fy + 40f, tp(pal.accent, 46f, font(ctx, R.font.unifraktur)).apply { textAlign = Paint.Align.CENTER })
         c.drawText("old books, one page at a time · free on Android & iPhone", w / 2f, fy + 78f,
             tp(pal.faded, 22f, font(ctx, R.font.fell_italic)).apply { textAlign = Paint.Align.CENTER })
