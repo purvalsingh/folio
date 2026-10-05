@@ -25,11 +25,14 @@ affected editions have new versions so phones can fetch the change.
 ## Review state
 
 The prior release audited visible subject mismatches and replaced a number of
-plates, particularly in the Gita and Dhammapada. The 12 remaining live
-images are Folio-made originals. The Gita plate was reviewed against its first
-card. The old third-party set was inventoried but not visually rechecked page
-by page before removal, so this report does not claim a complete visual review
-of that set.
+plates, particularly in the Gita and Dhammapada. The 12 remaining live images
+are Folio-made originals. All 12 were viewed together against their mapped
+book/page titles. The Gita chariot scene, Prince cover and seven political
+scenes, Walden cabin, Wealth pin workshop, and Gitanjali river/flute/vessel
+cover fit their respective pages or books. None shows unrelated language or a
+third-party watermark. The old third-party set was inventoried but not
+visually rechecked page by page before removal, so this report does not claim
+a complete visual review of that removed set.
 
 ## Release rule for new books
 
