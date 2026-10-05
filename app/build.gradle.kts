@@ -26,8 +26,8 @@ android {
         applicationId = "com.purval.folio"
         minSdk = 26
         targetSdk = 36
-        versionCode = 9
-        versionName = "1.6"
+        versionCode = 10
+        versionName = "1.6.1"
     }
 
     signingConfigs {

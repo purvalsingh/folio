@@ -16,6 +16,7 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -283,6 +284,11 @@ private fun FrontSide(app: App, book: Book, i: Int, onWord: (Gloss) -> Unit, onF
             Text("fol. ${roman(i + 1).lowercase()}", fontFamily = Fonts.fell, fontStyle = FontStyle.Italic, fontSize = 13.sp, color = ink.faded)
         }
         if (c.chTitle.isNotBlank()) Text(c.chTitle, fontFamily = era.body, fontStyle = FontStyle.Italic, fontSize = 14.sp, color = ink.faded)
+        if (c.link.isNotBlank()) Row(Modifier.padding(top = 10.dp).height(androidx.compose.foundation.layout.IntrinsicSize.Min)) {
+            Box(Modifier.width(2.dp).fillMaxHeight().background(ink.rubric))
+            Text(c.link, fontFamily = Fonts.fell, fontStyle = FontStyle.Italic, fontSize = (15 * ts).sp, lineHeight = (21 * ts * ls).sp,
+                color = ink.faded, modifier = Modifier.padding(start = 10.dp))
+        }
         Spacer(Modifier.height(12.dp))
         Plate(book, c.img)
         if (c.cap.isNotBlank()) Text(c.cap, fontFamily = Fonts.fell, fontStyle = FontStyle.Italic, fontSize = 11.sp, color = ink.faded,

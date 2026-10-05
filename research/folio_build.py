@@ -151,11 +151,35 @@ def build(about, glossary, cards, credits_file=None, caps=None, out_dir=None):
     dst = (out_dir or HERE.parent / "app/src/main/assets/books") / f"{about['id']}.json"
     dst.write_text(json.dumps(out, ensure_ascii=False, indent=1))
     print(f"{about['id']}: {len(cards)} cards, {len(roots)}/{len(glossary)} glossary words used -> {dst.name}")
+    depth(about["id"], cards, about.get("self_src") or cards[0].get("src", ""), strict=about.get("deep", False))
     if bad:
         print("QUOTES NOT FOUND:")
         for b in bad:
             print("  ", b)
         sys.exit(1)
+
+
+def depth(book_id, cards, src_key, strict=False):
+    """Folio's depth rule, for every book now and later: about one page per 400 words of the original
+    (at least 25, at most 120), every chapter at least two pages, and every chapter opened by a bridge
+    to the one before. Prints the gap; with strict=True a thin book fails the build."""
+    if src_key not in SOURCES:  # digests of copyrighted books have no source text of their own
+        return True
+    raw = (HERE / SOURCES[src_key][0]).read_text()
+    a, b = raw.find("*** START OF"), raw.find("*** END OF")
+    words = len(raw[a if a >= 0 else 0: b if b >= 0 else None].split())
+    want = max(25, min(120, words // 400))
+    chapters = {}
+    for c in cards:
+        chapters.setdefault(c["ch"], []).append(c)
+    thin = [ch for ch, cs in chapters.items() if len(cs) < 2]
+    nolink = [ch for k, (ch, cs) in enumerate(chapters.items()) if k > 0 and not cs[0].get("link")]
+    ok = len(cards) >= want and not thin and not nolink
+    print(f"  depth {book_id}: {len(cards)}/{want} pages for {words} words · {len(thin)} thin chapters · {len(nolink)} chapters without a bridge"
+          + ("" if ok else "  <- needs a deeper edition"))
+    if strict and not ok:
+        sys.exit(f"{book_id} is too thin for Folio")
+    return ok
 
 
 def _selfcheck():
