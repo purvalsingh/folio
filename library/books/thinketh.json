@@ -8,8 +8,9 @@
  "era": "modern",
  "shelf": "Mind & the Crowd",
  "blurb": "A tiny classic of self-help: your thoughts are seeds, your life is the garden.",
- "version": 2,
+ "version": 5,
  "cover": "thinketh_cover",
+ "deep": true,
  "glossary": {
   "cultivated": {
    "m": "Carefully grown or developed.",
@@ -44,6 +45,32 @@
    "cap": "The Thinker, Rodin · public domain"
   },
   {
+   "ch": "Thought and Character",
+   "chTitle": "",
+   "title": "Seeds of action",
+   "text": "Every action grows from a thought, the way a plant grows from a seed. Even 'spontaneous' acts have a thought behind them.",
+   "quote": "As the plant springs from, and could not be without, the seed, so every act of a man springs from the hidden seeds of thought",
+   "qMean": "Every action begins as a thought.",
+   "qLife": "Snapping at someone after brooding over a slight all day.",
+   "img": "thinketh_07",
+   "orig": "As the plant springs from, and could not be without, the seed, so every act of a man springs from the hidden seeds of thought, and could not have appeared without them. This applies equally to those acts called \"spontaneous\" and \"unpremeditated\" as to those, which are deliberately executed.\n\nAct is the blossom of thought, and joy and suffering are its fruits; thus does a man garner in the sweet and bitter fruitage of his own husbandry.",
+   "origFrom": "James Allen, As a Man Thinketh (1903)",
+   "cap": ""
+  },
+  {
+   "ch": "Thought and Character",
+   "chTitle": "",
+   "title": "Character is not luck",
+   "text": "A good character isn't a gift of chance. It comes from steady effort and from keeping company with good thoughts for a long time.",
+   "quote": "A noble and Godlike character is not a thing of favour or chance, but is the natural result of continued effort in right thinking",
+   "qMean": "Good character is built by practice, not luck.",
+   "qLife": "A patient nurse who became patient by choosing it daily.",
+   "img": "thinketh_08",
+   "orig": "Man is a growth by law, and not a creation by artifice, and cause and effect is as absolute and undeviating in the hidden realm of thought as in the world of visible and material things. A noble and Godlike character is not a thing of favour or chance, but is the natural result of continued effort in right thinking, the effect of long-cherished association with Godlike thoughts. An ignoble and bestial character, by the same process, is the result of the continued harbouring of grovelling thoughts.",
+   "origFrom": "James Allen, As a Man Thinketh (1903)",
+   "cap": "The Sower - Vincent Van Gogh · public domain"
+  },
+  {
    "ch": "Effect of Thought on Circumstances",
    "chTitle": "",
    "title": "The mind is a garden",
@@ -54,7 +81,21 @@
    "orig": "MAN'S mind may be likened to a garden, which may be intelligently cultivated or allowed to run wild; but whether cultivated or neglected, it must, and will, bring forth. If no useful seeds are put into it, then an abundance of useless weed-seeds will fall therein, and will continue to produce their kind.\n\nJust as a gardener cultivates his plot, keeping it free from weeds, and growing the flowers and fruits which he requires, so may a man tend the garden of his mind, weeding out all the wrong, useless, and impure thoughts, and cultivating toward perfection the flowers and fruits of right, useful, and pure thoughts. By pursuing this process, a man sooner or later discovers that he is the master-gardener of his soul, the director of his life. He also reveals, within himself, the laws of thought, and understands, with ever-increasing accuracy, how the thought-forces and mind elements operate in the shaping of his character, circumstances, and destiny.",
    "origFrom": "James Allen, As a Man Thinketh (1903)",
    "img": "thinketh_02",
-   "cap": "The Garden Palace- interior of the Victorian Court · public domain"
+   "cap": "The Garden Palace- interior of the Victorian Court · public domain",
+   "link": "If character is built from thoughts, what about the world around us? Allen says circumstances grow from the same seed."
+  },
+  {
+   "ch": "Effect of Thought on Circumstances",
+   "chTitle": "",
+   "title": "Master-gardener",
+   "text": "By tending their thoughts, a person discovers they are the gardener of their own mind and the director of their life.",
+   "quote": "a man sooner or later discovers that he is the master-gardener of his soul, the director of his life",
+   "qMean": "You are in charge of your own mind.",
+   "qLife": "Choosing which habits to grow and which to pull out.",
+   "img": "thinketh_09",
+   "orig": "Just as a gardener cultivates his plot, keeping it free from weeds, and growing the flowers and fruits which he requires, so may a man tend the garden of his mind, weeding out all the wrong, useless, and impure thoughts, and cultivating toward perfection the flowers and fruits of right, useful, and pure thoughts. By pursuing this process, a man sooner or later discovers that he is the master-gardener of his soul, the director of his life. He also reveals, within himself, the laws of thought, and understands, with ever-increasing accuracy, how the thought-forces and mind elements operate in the shaping of his character, circumstances, and destiny.",
+   "origFrom": "James Allen, As a Man Thinketh (1903)",
+   "cap": "Claude Monet - Jardin à Sainte-Adresse · public domain"
   },
   {
    "ch": "Effect of Thought on Circumstances",
@@ -83,6 +124,72 @@
    "cap": "American 19th Century, Man Named Hubbard Reading \"Boston Atlas\", 1843 or after · public domain"
   },
   {
+   "ch": "Effect of Thought on Circumstances",
+   "chTitle": "",
+   "title": "Corn from corn",
+   "text": "Good thoughts and actions can't produce bad results, and bad ones can't produce good. You reap what you plant.",
+   "quote": "Good thoughts and actions can never produce bad results; bad thoughts and actions can never produce good results.",
+   "qMean": "You reap what you sow.",
+   "qLife": "Steady revision produces good grades; cramming produces panic.",
+   "img": "thinketh_10",
+   "orig": "Good thoughts and actions can never produce bad results; bad thoughts and actions can never produce good results. This is but saying that nothing can come from corn but corn, nothing from nettles but nettles. Men understand this law in the natural world, and work with it; but few understand it in the mental and moral world (though its operation there is just as simple and undeviating), and they, therefore, do not co-operate with it.",
+   "origFrom": "James Allen, As a Man Thinketh (1903)",
+   "cap": "Wheat Harvest, Émile Bernard (Hammer Museum) · public domain"
+  },
+  {
+   "ch": "Effect of Thought on Circumstances",
+   "chTitle": "",
+   "title": "The kaleidoscope",
+   "text": "The world keeps showing you new patterns, and each one mirrors your shifting thoughts.",
+   "quote": "The world is your kaleidoscope, and the varying combinations of colours, which at every succeeding moment it presents to you are the exquisitely adjusted pictures of your ever-moving thoughts.",
+   "qMean": "How you see the world reflects how you think.",
+   "qLife": "On a good day traffic seems fine; on a bad day it's unbearable.",
+   "img": "thinketh_11",
+   "orig": "Let a man cease from his sinful thoughts, and all the world will soften towards him, and be ready to help him; let him put away his weakly and sickly thoughts, and lo, opportunities will spring up on every hand to aid his strong resolves; let him encourage good thoughts, and no hard fate shall bind him down to wretchedness and shame. The world is your kaleidoscope, and the varying combinations of colours, which at every succeeding moment it presents to you are the exquisitely adjusted pictures of your ever-moving thoughts.",
+   "origFrom": "James Allen, As a Man Thinketh (1903)",
+   "cap": "Stained glass window, rose window, west facade, León Cathedral, Spain · public domain"
+  },
+  {
+   "ch": "Effect of Thought on Health and the Body",
+   "chTitle": "",
+   "title": "The body serves the mind",
+   "text": "The body follows the mind's orders, whether we choose them or not. Fear and worry show up in the body; calm and cheer do too.",
+   "quote": "THE body is the servant of the mind.",
+   "qMean": "Your body follows your mind.",
+   "qLife": "Stomach knots before a big presentation.",
+   "img": "thinketh_12",
+   "orig": "THE body is the servant of the mind. It obeys the operations of the mind, whether they be deliberately chosen or automatically expressed. At the bidding of unlawful thoughts the body sinks rapidly into disease and decay; at the command of glad and beautiful thoughts it becomes clothed with youthfulness and beauty.\n\nDisease and health, like circumstances, are rooted in thought. Sickly thoughts will express themselves through a sickly body. Thoughts of fear have been known to kill a man as speedily as a bullet, and they are continually killing thousands of people just as surely though less rapidly. The people who live in fear of disease are the people who get it. Anxiety quickly demoralizes the whole body, and lays it open to the entrance of disease; while impure thoughts, even if not physically indulged, will soon shatter the nervous system.",
+   "origFrom": "James Allen, As a Man Thinketh (1903)",
+   "link": "Thought shapes our surroundings. Next Allen turns inward, to the body itself.",
+   "cap": "Leonardo da Vinci · public domain"
+  },
+  {
+   "ch": "Effect of Thought on Health and the Body",
+   "chTitle": "",
+   "title": "Pure at the source",
+   "text": "Thought is the spring that action and life flow from. Clean the spring and everything downstream runs clean.",
+   "quote": "Thought is the fount of action, life, and manifestation; make the fountain pure, and all will be pure.",
+   "qMean": "Clean thoughts lead to a clean life.",
+   "qLife": "Dropping a grudge and sleeping better.",
+   "img": "thinketh_13",
+   "orig": "Men will continue to have impure and poisoned blood, so long as they propagate unclean thoughts. Out of a clean heart comes a clean life and a clean body. Out of a defiled mind proceeds a defiled life and a corrupt body. Thought is the fount of action, life, and manifestation; make the fountain pure, and all will be pure.",
+   "origFrom": "James Allen, As a Man Thinketh (1903)",
+   "cap": "James Hamilton - The Mountain Spring - 1919.980.1 - Reading Public Museum · public domain"
+  },
+  {
+   "ch": "Effect of Thought on Health and the Body",
+   "chTitle": "",
+   "title": "Like the setting sun",
+   "text": "Allen describes a woman of ninety-six with the bright face of a girl. For those who have lived well, old age is calm and soft.",
+   "quote": "With those who have lived righteously, age is calm, peaceful, and softly mellowed, like the setting sun.",
+   "qMean": "A good life makes for a peaceful old age.",
+   "qLife": "A cheerful grandparent everyone loves to visit.",
+   "img": "thinketh_14",
+   "orig": "On the faces of the aged there are wrinkles made by sympathy, others by strong and pure thought, and others are carved by passion: who cannot distinguish them? With those who have lived righteously, age is calm, peaceful, and softly mellowed, like the setting sun. I have recently seen a philosopher on his deathbed. He was not old except in years. He died as sweetly and peacefully as he had lived.",
+   "origFrom": "James Allen, As a Man Thinketh (1903)",
+   "cap": "Jan Lievens-Tronie-of-an-Old-Woman Lempertz-977-1047 · public domain"
+  },
+  {
    "ch": "Thought and Purpose",
    "chTitle": "",
    "title": "Purpose makes thought powerful",
@@ -93,7 +200,128 @@
    "orig": "He who has conquered doubt and fear has conquered failure. His every thought is allied with power, and all difficulties are bravely met and wisely overcome. His purposes are seasonably planted, and they bloom and bring forth fruit, which does not fall prematurely to the ground.\n\nThought allied fearlessly to purpose becomes creative force: he who knows this is ready to become something higher and stronger than a mere bundle of wavering thoughts and fluctuating sensations; he who does this has become the conscious and intelligent wielder of his mental powers.\n\nTHE THOUGHT-FACTOR IN ACHIEVEMENT",
    "origFrom": "James Allen, As a Man Thinketh (1903)",
    "img": "thinketh_05",
-   "cap": "Johann Hamza blacksmiths forge 1900 · public domain"
+   "cap": "Johann Hamza blacksmiths forge 1900 · public domain",
+   "link": "A clean mind and a healthy body still drift without a direction. This chapter gives thought an aim."
+  },
+  {
+   "ch": "Thought and Purpose",
+   "chTitle": "",
+   "title": "Thought needs a purpose",
+   "text": "Until thinking is tied to a goal, nothing intelligent gets done. Aimless drifting leads toward trouble.",
+   "quote": "UNTIL thought is linked with purpose there is no intelligent accomplishment.",
+   "qMean": "Thinking without a goal achieves nothing.",
+   "qLife": "Months of 'wanting to get fit' versus signing up for a race.",
+   "img": "thinketh_15",
+   "orig": "UNTIL thought is linked with purpose there is no intelligent accomplishment. With the majority the bark of thought is allowed to \"drift\" upon the ocean of life. Aimlessness is a vice, and such drifting must not continue for him who would steer clear of catastrophe and destruction.\n\nThey who have no central purpose in their life fall an easy prey to petty worries, fears, troubles, and self-pityings, all of which are indications of weakness, which lead, just as surely as deliberately planned sins (though by a different route), to failure, unhappiness, and loss, for weakness cannot persist in a power evolving universe.",
+   "origFrom": "James Allen, As a Man Thinketh (1903)",
+   "cap": "Compass rose detail from 1748 Bowen Mariner’s Compass and Armillary Sphere - Geographicus - CircleofWinds-bowen-1747 · public domain"
+  },
+  {
+   "ch": "Thought and Purpose",
+   "chTitle": "",
+   "title": "Start with your duty",
+   "text": "If you can't yet see a big purpose, do your daily duty perfectly, however small. That builds focus and resolve.",
+   "quote": "should fix the thoughts upon the faultless performance of their duty, no matter how insignificant their task may appear.",
+   "qMean": "Doing small tasks well prepares you for big ones.",
+   "qLife": "An intern who does every small job well and gets trusted with more.",
+   "img": "thinketh_16",
+   "orig": "Those who are not prepared for the apprehension of a great purpose should fix the thoughts upon the faultless performance of their duty, no matter how insignificant their task may appear. Only in this way can the thoughts be gathered and focussed, and resolution and energy be developed, which being done, there is nothing which may not be accomplished.",
+   "origFrom": "James Allen, As a Man Thinketh (1903)",
+   "cap": "Johannes Vermeer - Het melkmeisje · public domain"
+  },
+  {
+   "ch": "Thought and Purpose",
+   "chTitle": "",
+   "title": "Doubt and fear",
+   "text": "Doubt and fear never got anything done. Conquer them and you've conquered failure.",
+   "quote": "He who has conquered doubt and fear has conquered failure.",
+   "qMean": "Beat doubt and fear and you beat failure.",
+   "qLife": "Finally sending the job application you kept putting off.",
+   "img": "thinketh_17",
+   "orig": "He who has conquered doubt and fear has conquered failure. His every thought is allied with power, and all difficulties are bravely met and wisely overcome. His purposes are seasonably planted, and they bloom and bring forth fruit, which does not fall prematurely to the ground.\n\nThought allied fearlessly to purpose becomes creative force: he who knows this is ready to become something higher and stronger than a mere bundle of wavering thoughts and fluctuating sensations; he who does this has become the conscious and intelligent wielder of his mental powers.",
+   "origFrom": "James Allen, As a Man Thinketh (1903)",
+   "cap": "Winslow Homer - A Mountain Climber Resting (1869) · public domain"
+  },
+  {
+   "ch": "The Thought-Factor in Achievement",
+   "chTitle": "",
+   "title": "Your own doing",
+   "text": "Everything a person achieves or fails to achieve comes from their own thoughts. Weakness and strength are theirs alone to change.",
+   "quote": "ALL that a man achieves and all that he fails to achieve is the direct result of his own thoughts.",
+   "qMean": "Your results come from your own thinking.",
+   "qLife": "Owning a bad result instead of blaming the teacher.",
+   "img": "thinketh_18",
+   "orig": "ALL that a man achieves and all that he fails to achieve is the direct result of his own thoughts. In a justly ordered universe, where loss of equipoise would mean total destruction, individual responsibility must be absolute. A man's weakness and strength, purity and impurity, are his own, and not another man's; they are brought about by himself, and not by another; and they can only be altered by himself, never by another. His condition is also his own, and not another man's. His suffering and his happiness are evolved from within. As he thinks, so he is; as he continues to think, so he remains.",
+   "origFrom": "James Allen, As a Man Thinketh (1903)",
+   "link": "With a purpose set, Allen asks what success really costs.",
+   "cap": "The Thinker detail of the Gates of Hell Rodin musée Rodin S.01304 Paris · public domain"
+  },
+  {
+   "ch": "The Thought-Factor in Achievement",
+   "chTitle": "",
+   "title": "Some sacrifice",
+   "text": "You don't have to give up every comfort to succeed, but you must give up some.",
+   "quote": "but a portion of it must, at least, be sacrificed.",
+   "qMean": "Success needs some sacrifice.",
+   "qLife": "Skipping a few nights out to build a side project.",
+   "img": "thinketh_19",
+   "orig": "Before a man can achieve anything, even in worldly things, he must lift his thoughts above slavish animal indulgence. He may not, in order to succeed, give up all animality and selfishness, by any means; but a portion of it must, at least, be sacrificed. A man whose first thought is bestial indulgence could neither think clearly nor plan methodically; he could not find and develop his latent resources, and would fail in any undertaking. Not having commenced to manfully control his thoughts, he is not in a position to control affairs and to adopt serious responsibilities. He is not fit to act independently and stand alone. But he is limited only by the thoughts, which he chooses.",
+   "origFrom": "James Allen, As a Man Thinketh (1903)",
+   "cap": "Le Nain Brothers - Blacksmith at His Forge · public domain"
+  },
+  {
+   "ch": "Visions and Ideals",
+   "chTitle": "",
+   "title": "Dreamers save the world",
+   "text": "Dreamers are the world's saviours. Whoever holds a beautiful vision in their heart will one day realise it.",
+   "quote": "He who cherishes a beautiful vision, a lofty ideal in his heart, will one day realize it.",
+   "qMean": "Hold onto a beautiful vision and you'll reach it.",
+   "qLife": "A child who dreams of flying and becomes a pilot.",
+   "img": "thinketh_20",
+   "orig": "He who cherishes a beautiful vision, a lofty ideal in his heart, will one day realize it. Columbus cherished a vision of another world, and he discovered it; Copernicus fostered the vision of a multiplicity of worlds and a wider universe, and he revealed it; Buddha beheld the vision of a spiritual world of stainless beauty and perfect peace, and he entered into it.",
+   "origFrom": "James Allen, As a Man Thinketh (1903)",
+   "link": "Achievement starts somewhere: in a dream. This chapter defends the dreamers.",
+   "cap": "First flight3 · public domain"
+  },
+  {
+   "ch": "Visions and Ideals",
+   "chTitle": "",
+   "title": "You can't stand still",
+   "text": "Hard circumstances won't last if you see an ideal and strive for it. Growing inside means moving outside too.",
+   "quote": "Your circumstances may be uncongenial, but they shall not long remain so if you but perceive an Ideal and strive to reach it.",
+   "qMean": "Aim for an ideal and your situation will change.",
+   "qLife": "A night-shift worker studying for a better job.",
+   "img": "thinketh_21",
+   "orig": "Your circumstances may be uncongenial, but they shall not long remain so if you but perceive an Ideal and strive to reach it. You cannot travel within and stand still without. Here is a youth hard pressed by poverty and labour; confined long hours in an unhealthy workshop; unschooled, and lacking all the arts of refinement. But he dreams of better things; he thinks of intelligence, of refinement, of grace and beauty. He conceives of, mentally builds up, an ideal condition of life; the vision of a wider liberty and a larger scope takes possession of him; unrest urges him to action, and he utilizes all his spare time and means, small though they are, to the development of his latent powers and resources. Very soon so altered has his mind become that the workshop can no longer hold him. It has become so out of harmony with his mentality that it falls out of his life as a garment is cast aside, and, with the growth of opportunities, which fit the scope of his expanding powers, he passes out of it forever. Years later we see this youth as a full-grown man. …",
+   "origFrom": "James Allen, As a Man Thinketh (1903)",
+   "cap": "La petita obrera · public domain"
+  },
+  {
+   "ch": "Visions and Ideals",
+   "chTitle": "",
+   "title": "Not luck: effort",
+   "text": "People see others' success and call it luck. They don't see the long struggle. The strength of the effort is the measure of the result.",
+   "quote": "the strength of the effort is the measure of the result.",
+   "qMean": "Success comes from effort, not luck.",
+   "qLife": "An 'overnight' star who practised for ten years.",
+   "img": "thinketh_22",
+   "orig": "In all human affairs there are efforts, and there are results, and the strength of the effort is the measure of the result. Chance is not. Gifts, powers, material, intellectual, and spiritual possessions are the fruits of effort; they are thoughts completed, objects accomplished, visions realized.\n\nThe Vision that you glorify in your mind, the Ideal that you enthrone in your heart--this you will build your life by, this you will become.",
+   "origFrom": "James Allen, As a Man Thinketh (1903)",
+   "cap": "Portrait of Signor Paganini · public domain"
+  },
+  {
+   "ch": "Serenity",
+   "chTitle": "",
+   "title": "Calm earns trust",
+   "text": "A calm person who governs themself can adapt to others, and others come to rely on them. The calmer you are, the greater your influence.",
+   "quote": "The more tranquil a man becomes, the greater is his success, his influence, his power for good.",
+   "qMean": "Calm people gain trust and influence.",
+   "qLife": "The team member everyone turns to in a crisis.",
+   "img": "thinketh_23",
+   "orig": "The calm man, having learned how to govern himself, knows how to adapt himself to others; and they, in turn, reverence his spiritual strength, and feel that they can learn of him and rely upon him. The more tranquil a man becomes, the greater is his success, his influence, his power for good. Even the ordinary trader will find his business prosperity increase as he develops a greater self-control and equanimity, for people will always prefer to deal with a man whose demeanour is strongly equable.",
+   "origFrom": "James Allen, As a Man Thinketh (1903)",
+   "link": "The book ends where every effort should lead: a calm, steady mind.",
+   "cap": "Caspar David Friedrich - Wanderer above the sea of fog · public domain"
   },
   {
    "ch": "Serenity",
@@ -107,6 +335,19 @@
    "origFrom": "James Allen, As a Man Thinketh (1903)",
    "img": "thinketh_06",
    "cap": "Dubovskoy Calm before a storm Minsk · public domain"
+  },
+  {
+   "ch": "Serenity",
+   "chTitle": "",
+   "title": "Hand on the helm",
+   "text": "To anyone tossed by life's storms: a calm shore is waiting. Keep a firm hand on the helm of your thoughts.",
+   "quote": "Keep your hand firmly upon the helm of thought.",
+   "qMean": "Steer your life by controlling your thoughts.",
+   "qLife": "Taking a breath before reacting to bad news.",
+   "img": "thinketh_24",
+   "orig": "Tempest-tossed souls, wherever ye may be, under whatsoever conditions ye may live, know this in the ocean of life the isles of Blessedness are smiling, and the sunny shore of your ideal awaits your coming. Keep your hand firmly upon the helm of thought. In the bark of your soul reclines the commanding Master; He does but sleep: wake Him. Self-control is strength; Right Thought is mastery; Calmness is power. Say unto your heart, \"Peace, be still!\"",
+   "origFrom": "James Allen, As a Man Thinketh (1903)",
+   "cap": "Ship «Empress Maria» in storm · public domain"
   }
  ]
 }

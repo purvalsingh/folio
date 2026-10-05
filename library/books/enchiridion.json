@@ -8,8 +8,9 @@
  "era": "ancient",
  "shelf": "Stoic Wisdom",
  "blurb": "A pocket handbook from a philosopher born a slave: separate what you control from what you don't, and you will never be a slave again.",
- "version": 2,
+ "version": 5,
  "cover": "enchiridion_cover",
+ "deep": true,
  "glossary": {
   "impediment": {
    "m": "Something that blocks or slows you.",
@@ -22,12 +23,24 @@
   "drama": {
    "m": "A play; a story acted out.",
    "e": "The school drama needed someone to play the king."
+  },
+  "aversion": {
+   "m": "A strong dislike; wanting to avoid something.",
+   "e": "Her aversion to spiders made gardening hard."
+  },
+  "externals": {
+   "m": "Things outside your mind: money, body, fame, other people.",
+   "e": "He stopped measuring himself by externals like his car."
+  },
+  "proficient": {
+   "m": "Someone skilled and advanced.",
+   "e": "After years of practice she became proficient at the violin."
   }
  },
  "cards": [
   {
-   "ch": "I",
-   "chTitle": "What Is Ours",
+   "ch": "Part One",
+   "chTitle": "What Is Up to Us · sections I–XI",
    "title": "Control what you can",
    "text": "The whole handbook rests on one split. Some things are up to us: our opinions, aims, desires and dislikes. Others are not: our body, property, reputation and position. Treat the second kind as yours and you will be frustrated and blame everyone. Focus on the first and nobody can harm you.",
    "quote": "There are things which are within our power, and there are things which are beyond our power.",
@@ -39,8 +52,34 @@
    "cap": "Epictetus, engraving, 1653 · public domain"
   },
   {
-   "ch": "V",
-   "chTitle": "Views, Not Things",
+   "ch": "Part One",
+   "chTitle": "What Is Up to Us · sections I–XI",
+   "title": "Fear only what you control",
+   "text": "If you dread only the bad things that are up to you, like your own unkindness, you will never meet what you dread. But fear sickness, death or poverty, and you'll live in misery, because those were never yours to control.",
+   "quote": "aversion, then, from all things that are not within our power, and apply it to things undesirable which are within our power.",
+   "qMean": "Stop dreading what you can't control; avoid only the bad things you can.",
+   "qLife": "Worry about whether you studied, not whether the exam will be hard.",
+   "img": "enchiridion_09",
+   "orig": "Remember that desire demands the attainment of that of which you are desirous; and aversion demands the avoidance of that to which you are averse; that he who fails of the object of his desires is disappointed; and he who incurs the object of his aversion is wretched. If, then, you shun only those undesirable things which you can control, you will never incur anything which you shun; but if you shun sickness, or death, or poverty, you will run the risk of wretchedness. Remove [the habit of] aversion, then, from all things that are not within our power, and apply it to things undesirable which are within our power. But for the present, altogether restrain desire; for if you desire any of the things not within our own power, you must necessarily be disappointed; and you are not yet secure of those which are within our power, and so are legitimate objects of desire. Where it is practically necessary for you to pursue or avoid anything, do even this with discretion and gentleness and moderation.",
+   "origFrom": "Epictetus, The Enchiridion (tr. Higginson)",
+   "cap": "Frontispiece to The morals of Epictetus made English in a poetical paraphrase - 2nd version · public domain"
+  },
+  {
+   "ch": "Part One",
+   "chTitle": "What Is Up to Us · sections I–XI",
+   "title": "Expect the crowded bath",
+   "text": "Before any activity, picture what usually happens: at the public baths, people splash, shove, shout and steal. Expect it, and you can keep your calm when it happens, because calm was part of what you came for.",
+   "quote": "When you set about any action, remind yourself of what nature the action is.",
+   "qMean": "Before doing something, remind yourself what it usually involves.",
+   "qLife": "Expecting traffic before a festival trip keeps you from losing your temper.",
+   "img": "enchiridion_10",
+   "orig": "When you set about any action, remind yourself of what nature the action is. If you are going to bathe, represent to yourself the incidents usual in the bath—some persons pouring out, others pushing in, others scolding, others pilfering. And thus you will more safely go about this action if you say to yourself, “I will now go to bathe and keep my own will in harmony with nature.” And so with regard to every other action. For thus, if any impediment arises in bathing, you will be able to say, “It was not only to bathe that I desired, but to keep my will in harmony with nature; and I shall not keep it thus if I am out of humor at things that happen.”",
+   "origFrom": "Epictetus, The Enchiridion (tr. Higginson)",
+   "cap": "Alma-Tadema A Favourite Custom 1909 Tate Britain · public domain"
+  },
+  {
+   "ch": "Part One",
+   "chTitle": "What Is Up to Us · sections I–XI",
    "title": "It's the story you tell",
    "text": "We are not upset by events, but by our judgements about them. Death is not terrible — otherwise Socrates would have feared it. When we are troubled, we should blame our own views, not others.",
    "quote": "Men are disturbed not by things, but by the views which they take of things.",
@@ -52,8 +91,34 @@
    "cap": "David - The Death of Socrates · public domain"
   },
   {
-   "ch": "VIII",
-   "chTitle": "Want What Happens",
+   "ch": "Part One",
+   "chTitle": "What Is Up to Us · sections I–XI",
+   "title": "Proud of the horse",
+   "text": "If a horse could boast 'I am handsome', fine. But when you boast 'I have a handsome horse', you are proud of the horse's merit, not yours. Be proud only of what is truly your own: how you use your mind.",
+   "quote": "Be not elated at any excellence not your own.",
+   "qMean": "Don't be proud of good things that aren't really yours.",
+   "qLife": "Showing off a rich parent's car as if you earned it.",
+   "img": "enchiridion_11",
+   "orig": "Be not elated at any excellence not your own. If a horse should be elated, and say, “I am handsome,” it might be endurable. But when you are elated and say, “I have a handsome horse,” know that you are elated only on the merit of the horse. What then is your own? The use of the phenomena of existence. So that when you are in harmony with nature in this respect, you will be elated with some reason; for you will be elated at some good of your own.",
+   "origFrom": "Epictetus, The Enchiridion (tr. Higginson)",
+   "cap": "Bronze hoof of a horse · public domain"
+  },
+  {
+   "ch": "Part One",
+   "chTitle": "What Is Up to Us · sections I–XI",
+   "title": "Don't stray from the ship",
+   "text": "On a voyage you may go ashore and gather shells, but keep listening for the captain's call. Life is the same: enjoy what comes, but be ready to leave it all when called, and if you are old, stay close to the ship.",
+   "quote": "But if you are old, never go far from the ship, lest you should be missing when called for.",
+   "qMean": "As you age, stay ready for life's end.",
+   "qLife": "Enjoying the party but keeping your phone charged for the ride home.",
+   "img": "enchiridion_12",
+   "orig": "As in a voyage, when the ship is at anchor, if you go on shore to get water, you may amuse yourself with picking up a shellfish or a truffle in your way, but your thoughts ought to be bent toward the ship, and perpetually attentive, lest the captain should call, and then you must leave all these things, that you may not have to be carried on board the vessel, bound like a sheep; thus likewise in life, if, instead of a truffle or shellfish, such a thing as a wife or a child be granted you, there is no objection; but if the captain calls, run to the ship, leave all these things, and never look behind. But if you are old, never go far from the ship, lest you should be missing when called for.",
+   "origFrom": "Epictetus, The Enchiridion (tr. Higginson)",
+   "cap": "Catalogue des bateaux d'Althiburos Paul Gauckler · public domain"
+  },
+  {
+   "ch": "Part One",
+   "chTitle": "What Is Up to Us · sections I–XI",
    "title": "Wish for what is",
    "text": "Don't demand that the world go your way. Wish instead that things happen as they actually do happen, and you will live at peace.",
    "quote": "Demand not that events should happen as you wish; but wish them to happen as they do happen, and you will go on well.",
@@ -65,8 +130,8 @@
    "cap": "Wheel of Fortune with the Fates · public domain"
   },
   {
-   "ch": "IX",
-   "chTitle": "The Free Will",
+   "ch": "Part One",
+   "chTitle": "What Is Up to Us · sections I–XI",
    "title": "The body can be stopped",
    "text": "Illness can stop the body, but not the will — unless the will agrees. Lameness stops the leg, not the mind. Whatever happens, ask what it stops, and you'll find it stops something else, not you.",
    "quote": "Sickness is an impediment to the body, but not to the will unless itself pleases.",
@@ -78,8 +143,21 @@
    "cap": "Marble statue of a draped seated man · public domain"
   },
   {
-   "ch": "XI",
-   "chTitle": "Given Back",
+   "ch": "Part One",
+   "chTitle": "What Is Up to Us · sections I–XI",
+   "title": "Find the right tool",
+   "text": "Whatever happens, ask which of your strengths it calls for. Temptation calls for self-control, pain for courage, insults for patience. Practise this and events won't overwhelm you.",
+   "quote": "Upon every accident, remember to turn toward yourself and inquire what faculty you have for its use.",
+   "qMean": "With every event, ask what inner strength it needs from you.",
+   "qLife": "When a teammate fails, you reach for patience, not blame.",
+   "img": "enchiridion_13",
+   "orig": "X\n\nUpon every accident, remember to turn toward yourself and inquire what faculty you have for its use. If you encounter a handsome person, you will find continence the faculty needed; if pain, then fortitude; if reviling, then patience. And when thus habituated, the phenomena of existence will not overwhelm you.\n\nXI\n\nNever say of anything, “I have lost it,” but, “I have restored it.” Has your child died? It is restored. Has your wife died? She is restored. Has your estate been taken away? That likewise is restored. “But it was a bad man who took it.” What is it to you by whose hands he who gave it has demanded it again? While he permits you to possess it, hold it as something not your own, as do travelers at an inn.",
+   "origFrom": "Epictetus, The Enchiridion (tr. Higginson)",
+   "cap": "Statue of Farnese Hercules(GN05907) · public domain"
+  },
+  {
+   "ch": "Part One",
+   "chTitle": "What Is Up to Us · sections I–XI",
    "title": "Nothing is lost, only returned",
    "text": "Never say 'I have lost it' — say 'I have given it back.' Everything we have is on loan from life. While it is with you, take care of it, as a traveller takes care of an inn.",
    "quote": "Never say of anything, “I have lost it,” but, “I have restored it.”",
@@ -91,8 +169,48 @@
    "cap": "Roman funeral relief, Galleria Borghese · public domain"
   },
   {
-   "ch": "XV",
-   "chTitle": "The Banquet",
+   "ch": "Part Two",
+   "chTitle": "Making Progress · sections XII–XXIV",
+   "title": "The price of calm",
+   "text": "A little oil is spilled, a little wine stolen. Say: this is the price of peace of mind, and nothing comes free. Better your servant behaves badly than that you become miserable worrying about it.",
+   "quote": "Is a little oil spilled or a little wine stolen?",
+   "qMean": "When small things go wrong, let them go; peace is worth more.",
+   "qLife": "Letting a lost umbrella stay lost instead of ruining your evening.",
+   "img": "enchiridion_14",
+   "orig": "Begin therefore with little things. Is a little oil spilled or a little wine stolen? Say to yourself, “This is the price paid for peace and tranquillity; and nothing is to be had for nothing.” And when you call your servant, consider that it is possible he may not come at your call; or, if he does, that he may not do what you wish. But it is not at all desirable for him, and very undesirable for you, that it should be in his power to cause you any disturbance.",
+   "origFrom": "Epictetus, The Enchiridion (tr. Higginson)",
+   "link": "Part One drew the line between what is ours and what isn't. Part Two is about living by that line, day after day.",
+   "cap": "Terracotta amphora (storage jar) · public domain"
+  },
+  {
+   "ch": "Part Two",
+   "chTitle": "Making Progress · sections XII–XXIV",
+   "title": "Content to look foolish",
+   "text": "If you want to grow, accept looking foolish about outward things like fashion and status. You can't chase both inner progress and outer approval at once.",
+   "quote": "If you would improve, be content to be thought foolish and dull with regard to externals.",
+   "qMean": "To improve, accept that people may think you're uncool.",
+   "qLife": "Wearing old shoes so you can save for a course.",
+   "img": "enchiridion_15",
+   "orig": "If you would improve, be content to be thought foolish and dull with regard to externals. Do not desire to be thought to know anything; and though you should appear to others to be somebody, distrust yourself. For be assured, it is not easy at once to keep your will in harmony with nature and to secure externals; but while you are absorbed in the one, you must of necessity neglect the other.",
+   "origFrom": "Epictetus, The Enchiridion (tr. Higginson)",
+   "cap": "Christoph Paudiß (zugeschrieben) - Diogenes - 5221 - Bavarian State Painting Collections · public domain"
+  },
+  {
+   "ch": "Part Two",
+   "chTitle": "Making Progress · sections XII–XXIV",
+   "title": "Who is your master?",
+   "text": "Whoever can give or take away what you want is your master. To be free, want nothing that depends on others.",
+   "quote": "Whoever then would be free, let him wish nothing, let him decline nothing, which depends on others; else he must necessarily be a slave.",
+   "qMean": "To be free, don't depend on others for what you want.",
+   "qLife": "If your mood depends on a reply, that person controls your day.",
+   "img": "enchiridion_16",
+   "orig": "If you wish your children and your wife and your friends to live forever, you are foolish, for you wish things to be in your power which are not so, and what belongs to others to be your own. So likewise, if you wish your servant to be without fault, you are foolish, for you wish vice not to be vice but something else. But if you wish not to be disappointed in your desires, that is in your own power. Exercise, therefore, what is in your power. A man’s master is he who is able to confer or remove whatever that man seeks or shuns. Whoever then would be free, let him wish nothing, let him decline nothing, which depends on others; else he must necessarily be a slave.",
+   "origFrom": "Epictetus, The Enchiridion (tr. Higginson)",
+   "cap": "BM GR 1867.5-8.55 - 01 · public domain"
+  },
+  {
+   "ch": "Part Two",
+   "chTitle": "Making Progress · sections XII–XXIV",
    "title": "Take a modest share",
    "text": "Behave in life as at a dinner party. When a dish comes to you, take a polite portion. If it passes you by, don't grab at it. If it hasn't come yet, wait. Treat children, money and status the same way.",
    "quote": "Remember that you must behave as at a banquet.",
@@ -104,8 +222,8 @@
    "cap": "Banquet scene, fresco from Herculaneum · public domain"
   },
   {
-   "ch": "XVII",
-   "chTitle": "The Actor",
+   "ch": "Part Two",
+   "chTitle": "Making Progress · sections XII–XXIV",
    "title": "Play your role well",
    "text": "You are an actor in a play written by someone else. Whether your part is short or long, poor or royal, your job is to play it well; choosing the part is not.",
    "quote": "Remember that you are an actor in a drama of such sort as the Author chooses",
@@ -117,8 +235,152 @@
    "cap": "Theatre masks, Roman mosaic, Naples · public domain"
   },
   {
-   "ch": "XLII",
-   "chTitle": "When Others Wrong You",
+   "ch": "Part Two",
+   "chTitle": "Making Progress · sections XII–XXIV",
+   "title": "Every omen is lucky",
+   "text": "A raven croaks: an ill omen? Nothing it predicts touches your will. For a wise person every sign is lucky, because whatever happens, you can draw some good from it.",
+   "quote": "For whatsoever happens, it belongs to me to derive advantage therefrom.",
+   "qMean": "Whatever happens, I can make something good of it.",
+   "qLife": "A rejected job application becomes practice for the next interview.",
+   "img": "enchiridion_17",
+   "orig": "When a raven happens to croak unluckily, be not overcome by appearances, but discriminate and say, “Nothing is portended to me, either to my paltry body, or property, or reputation, or children, or wife. But to me all portents are lucky if I will. For whatsoever happens, it belongs to me to derive advantage therefrom.”",
+   "origFrom": "Epictetus, The Enchiridion (tr. Higginson)",
+   "cap": "The birds of America. (Livraison) 21, Plate CI, Raven, Male (i.e. Common Raven) ; Thick Shell-bark Hickory - estampe - Drawn from Nature by John J. Audubon ; Engraved, printed & Coloured by R. Havell Jun.r - btv1b53144073b · public domain"
+  },
+  {
+   "ch": "Part Two",
+   "chTitle": "Making Progress · sections XII–XXIV",
+   "title": "Unbeatable",
+   "text": "You can never be beaten if you only enter contests that are within your power to win: the contest with your own judgments.",
+   "quote": "You can be unconquerable if you enter into no combat in which it is not in your own power to conquer.",
+   "qMean": "Fight only battles that depend on you, and you can't lose.",
+   "qLife": "Competing with your own past self instead of everyone online.",
+   "img": "enchiridion_18",
+   "orig": "You can be unconquerable if you enter into no combat in which it is not in your own power to conquer. When, therefore, you see anyone eminent in honors or power, or in high esteem on any other account, take heed not to be bewildered by appearances and to pronounce him happy; for if the essence of good consists in things within our own power, there will be no room for envy or emulation. But, for your part, do not desire to be a general, or a senator, or a consul, but to be free; and the only way to this is a disregard of things which lie not within our own power.",
+   "origFrom": "Epictetus, The Enchiridion (tr. Higginson)",
+   "cap": "Pankration Black Terracotta Panathenaic prize amphora Attributed to the Kleophrades Painter · public domain"
+  },
+  {
+   "ch": "Part Two",
+   "chTitle": "Making Progress · sections XII–XXIV",
+   "title": "Your opinion provokes you",
+   "text": "It isn't the person who insults or hits you who affronts you; it's your opinion that they did. When someone provokes you, pause; with time you'll command yourself.",
+   "quote": "When, therefore, anyone provokes you, be assured that it is your own opinion which provokes you.",
+   "qMean": "What really provokes you is your own view of what happened.",
+   "qLife": "Counting to ten before answering a rude comment.",
+   "img": "enchiridion_19",
+   "orig": "Remember that it is not he who gives abuse or blows, who affronts, but the view we take of these things as insulting. When, therefore, anyone provokes you, be assured that it is your own opinion which provokes you. Try, therefore, in the first place, not to be bewildered by appearances. For if you once gain time and respite, you will more easily command yourself.",
+   "origFrom": "Epictetus, The Enchiridion (tr. Higginson)",
+   "cap": "Sculptuur van Demosthenes Demosthenes., RP-F-00-8157 · public domain"
+  },
+  {
+   "ch": "Part Two",
+   "chTitle": "Making Progress · sections XII–XXIV",
+   "title": "Keep death in view",
+   "text": "Keep death, exile and every frightening thing before your eyes daily, death most of all. You'll never think a small thought or want anything too much.",
+   "quote": "Let death and exile, and all other things which appear terrible, be daily before your eyes, but death chiefly",
+   "qMean": "Remember daily that life ends; it puts everything in proportion.",
+   "qLife": "A health scare that makes someone stop sweating small stuff.",
+   "img": "enchiridion_20",
+   "orig": "XXI\n\nLet death and exile, and all other things which appear terrible, be daily before your eyes, but death chiefly; and you will never entertain an abject thought, nor too eagerly covet anything.\n\nXXII\n\nIf you have an earnest desire toward philosophy, prepare yourself from the very first to have the multitude laugh and sneer, and say, “He is returned to us a philosopher all at once”; and, “Whence this supercilious look?” Now, for your part, do not have a supercilious look indeed, but keep steadily to those things which appear best to you, as one appointed by God to this particular station. For remember that, if you are persistent, those very persons who at first ridiculed will afterwards admire you. But if you are conquered by them, you will incur a double ridicule.",
+   "origFrom": "Epictetus, The Enchiridion (tr. Higginson)",
+   "cap": "MANNapoli 109982 roue de la fortune memento mori · public domain"
+  },
+  {
+   "ch": "Part Two",
+   "chTitle": "Making Progress · sections XII–XXIV",
+   "title": "Mockery passes",
+   "text": "When you start living by principle, people will laugh. Hold steady: the same people who mocked you will come to admire you. Give in, and you'll be mocked twice.",
+   "quote": "For remember that, if you are persistent, those very persons who at first ridiculed will afterwards admire you.",
+   "qMean": "Keep going and those who mocked you will end up admiring you.",
+   "qLife": "Classmates who laughed at your early-morning runs later ask to join.",
+   "img": "enchiridion_21",
+   "orig": "If you have an earnest desire toward philosophy, prepare yourself from the very first to have the multitude laugh and sneer, and say, “He is returned to us a philosopher all at once”; and, “Whence this supercilious look?” Now, for your part, do not have a supercilious look indeed, but keep steadily to those things which appear best to you, as one appointed by God to this particular station. For remember that, if you are persistent, those very persons who at first ridiculed will afterwards admire you. But if you are conquered by them, you will incur a double ridicule.",
+   "origFrom": "Epictetus, The Enchiridion (tr. Higginson)",
+   "cap": "Josef Abel 1807 Socrates teaching his disciples · public domain"
+  },
+  {
+   "ch": "Part Three",
+   "chTitle": "Among Other People · sections XXV–XLIII",
+   "title": "Everything has a price",
+   "text": "Someone else was invited to dinner, and you weren't? He paid the price: flattery and attendance. If you won't pay it, don't complain you didn't get the dinner. You kept your dignity instead.",
+   "quote": "You are unjust, then, and unreasonable if you are unwilling to pay the price for which these things are sold, and would have them for nothing.",
+   "qMean": "If you won't pay the price for something, don't expect to get it.",
+   "qLife": "Not getting promoted after refusing to flatter the boss, and being fine with it.",
+   "img": "enchiridion_22",
+   "orig": "Is anyone preferred before you at an entertainment, or in courtesies, or in confidential intercourse? If these things are good, you ought to rejoice that he has them; and if they are evil, do not be grieved that you have them not. And remember that you cannot be permitted to rival others in externals without using the same means to obtain them. For how can he who will not haunt the door of any man, will not attend him, will not praise him, have an equal share with him who does these things? You are unjust, then, and unreasonable if you are unwilling to pay the price for which these things are sold, and would have them for nothing. For how much are lettuces sold? An obulus, for instance. If another, then, paying an obulus, takes the lettuces, and you, not paying it, go without them, do not imagine that he has gained any advantage over you. For as he has the lettuces, so you have the obulus which you did not give. So, in the present case, you have not been invited to such a person’s entertainment because you have not paid him the price for which a supper is sold. …",
+   "origFrom": "Epictetus, The Enchiridion (tr. Higginson)",
+   "link": "Progress happens among people who mock, insult and tempt us. Part Three is about them.",
+   "cap": "Pompeii - Casa dei Casti Amanti - Banquet · public domain"
+  },
+  {
+   "ch": "Part Three",
+   "chTitle": "Among Other People · sections XXV–XLIII",
+   "title": "Guard your mind",
+   "text": "You would be furious if someone handed your body to a passing stranger. Yet you hand your mind to anyone who insults you, letting them upset you. Be as protective of your mind as of your body.",
+   "quote": "And do you feel no shame in delivering up your own mind to any reviler, to be disconcerted and confounded?",
+   "qMean": "Don't let anyone who insults you take control of your mind.",
+   "qLife": "Muting a troll rather than arguing for hours.",
+   "img": "enchiridion_23",
+   "orig": "XXVIII\n\nIf a person had delivered up your body to some passer-by, you would certainly be angry. And do you feel no shame in delivering up your own mind to any reviler, to be disconcerted and confounded? XXIX\n\nIn every affair consider what precedes and what follows, and then undertake it. Otherwise you will begin with spirit, indeed, careless of the consequences, and when these are developed, you will shamefully desist. “I would conquer at the Olympic Games.” But consider what precedes and what follows, and then, if it be for your advantage, engage in the affair. You must conform to rules, submit to a diet, refrain from dainties; exercise your body, whether you choose it or not, at a stated hour, in heat and cold; you must drink no cold water, and sometimes no wine—in a word, you must give yourself up to your trainer as to a physician. Then, in the combat, you may be thrown into a ditch, dislocate your arm, turn your ankle, swallow an abundance of dust, receive stripes [for negligence], and, after all, lose the victory. When you have reckoned up all this, if your inclination still holds, set about the combat. …",
+   "origFrom": "Epictetus, The Enchiridion (tr. Higginson)",
+   "cap": "A Roman Warrior with Shield and Spear · public domain"
+  },
+  {
+   "ch": "Part Three",
+   "chTitle": "Among Other People · sections XXV–XLIII",
+   "title": "Count the cost first",
+   "text": "Before any undertaking, look at what comes before and after it. You want to win the Olympics? Then the diet, the training, the defeats. Many people try everything halfway and finish nothing.",
+   "quote": "In every affair consider what precedes and what follows, and then undertake it.",
+   "qMean": "Before starting something, think about what it will really take.",
+   "qLife": "Researching what medical school demands before choosing it.",
+   "img": "enchiridion_24",
+   "orig": "In every affair consider what precedes and what follows, and then undertake it. Otherwise you will begin with spirit, indeed, careless of the consequences, and when these are developed, you will shamefully desist. “I would conquer at the Olympic Games.” But consider what precedes and what follows, and then, if it be for your advantage, engage in the affair. You must conform to rules, submit to a diet, refrain from dainties; exercise your body, whether you choose it or not, at a stated hour, in heat and cold; you must drink no cold water, and sometimes no wine—in a word, you must give yourself up to your trainer as to a physician. Then, in the combat, you may be thrown into a ditch, dislocate your arm, turn your ankle, swallow an abundance of dust, receive stripes [for negligence], and, after all, lose the victory. When you have reckoned up all this, if your inclination still holds, set about the combat. Otherwise, take notice, you will behave like children who sometimes play wrestlers, sometimes gladiators, sometimes blow a trumpet, and sometimes act a tragedy, when they happen to have seen and admired these shows. …",
+   "origFrom": "Epictetus, The Enchiridion (tr. Higginson)",
+   "cap": "Javelin throwers Ancient Greece · public domain"
+  },
+  {
+   "ch": "Part Three",
+   "chTitle": "Among Other People · sections XXV–XLIII",
+   "title": "Mind your company",
+   "text": "However pure you are, keep company with the corrupt and you'll be corrupted too. Choose companions carefully; their habits rub off.",
+   "quote": "For be assured that if a person be ever so pure himself, yet, if his companion be corrupted, he who converses with him will be corrupted likewise.",
+   "qMean": "Bad company corrupts even good people.",
+   "qLife": "Friends who skip class make it easier for you to skip too.",
+   "img": "enchiridion_25",
+   "orig": "Avoid public and vulgar entertainments; but if ever an occasion calls you to them, keep your attention upon the stretch, that you may not imperceptibly slide into vulgarity. For be assured that if a person be ever so pure himself, yet, if his companion be corrupted, he who converses with him will be corrupted likewise.",
+   "origFrom": "Epictetus, The Enchiridion (tr. Higginson)",
+   "cap": "Greek symposium · public domain"
+  },
+  {
+   "ch": "Part Three",
+   "chTitle": "Among Other People · sections XXV–XLIII",
+   "title": "Don't fear being seen",
+   "text": "If you are sure an action is right, do it openly, even if people misunderstand. If it's wrong, don't do it at all. If it's right, why fear those who wrongly criticise you?",
+   "quote": "When you do anything from a clear judgment that it ought to be done, never shrink from being seen to do it, even though the world should misunderstand it",
+   "qMean": "If you know it's right, do it openly, even if others misunderstand.",
+   "qLife": "Standing up for a bullied classmate though others laugh.",
+   "img": "enchiridion_26",
+   "orig": "XXXV\n\nWhen you do anything from a clear judgment that it ought to be done, never shrink from being seen to do it, even though the world should misunderstand it; for if you are not acting rightly, shun the action itself; if you are, why fear those who wrongly censure you?\n\nXXXVI\n\nAs the proposition, “either it is day or it is night,” has much force in a disjunctive argument, but none at all in a conjunctive one, so, at a feast, to choose the largest share is very suitable to the bodily appetite, but utterly inconsistent with the social spirit of the entertainment. Remember, then, when you eat with another, not only the value to the body of those things which are set before you, but also the value of proper courtesy toward your host.",
+   "origFrom": "Epictetus, The Enchiridion (tr. Higginson)",
+   "cap": "The Roman Forum S 145 · public domain"
+  },
+  {
+   "ch": "Part Three",
+   "chTitle": "Among Other People · sections XXV–XLIII",
+   "title": "The shoe that grew jewels",
+   "text": "Your body is the right measure for what you own, as a foot is for a shoe. Go beyond that and there's no limit: first a gilded shoe, then purple, then studded with jewels.",
+   "quote": "For to that which once exceeds the fit measure there is no bound.",
+   "qMean": "Once you go beyond what you need, there's no stopping point.",
+   "qLife": "A phone upgrade that turns into buying every new model.",
+   "img": "enchiridion_27",
+   "orig": "The body is to everyone the proper measure of its possessions, as the foot is of the shoe. If, therefore, you stop at this, you will keep the measure; but if you move beyond it, you must necessarily be carried forward, as down a precipice; as in the case of a shoe, if you go beyond its fitness to the foot, it comes first to be gilded, then purple, and then studded with jewels. For to that which once exceeds the fit measure there is no bound.",
+   "origFrom": "Epictetus, The Enchiridion (tr. Higginson)",
+   "cap": "Votive statue of a foot wearing a Roman sandal, marble - Museo Egizio Turin S 17137 p011 · public domain"
+  },
+  {
+   "ch": "Part Three",
+   "chTitle": "Among Other People · sections XXV–XLIII",
    "title": "They think they're right",
    "text": "When someone harms or insults you, remember they acted on what seemed right to them. If they are wrong, they are the ones deceived and hurt. Say to yourself: 'It seemed so to him.'",
    "quote": "When any person does ill by you, or speaks ill of you, remember that he acts or speaks from an impression that it is right for him to do so.",
@@ -128,6 +390,111 @@
    "origFrom": "Epictetus, The Enchiridion (tr. Higginson)",
    "img": "enchiridion_08",
    "cap": "The Orator (Aulus Metellus), Roman bronze · public domain"
+  },
+  {
+   "ch": "Part Three",
+   "chTitle": "Among Other People · sections XXV–XLIII",
+   "title": "Two handles",
+   "text": "Everything has two handles: one you can carry it by, one you can't. If your brother wrongs you, don't grab it by 'he wronged me'. Take it by 'he is my brother, we grew up together', and you can bear it.",
+   "quote": "Everything has two handles: one by which it may be borne, another by which it cannot.",
+   "qMean": "Every situation can be seen in a way that's bearable or unbearable.",
+   "qLife": "Remembering years of friendship when a friend lets you down once.",
+   "img": "enchiridion_28",
+   "orig": "Everything has two handles: one by which it may be borne, another by which it cannot. If your brother acts unjustly, do not lay hold on the affair by the handle of his injustice, for by that it cannot be borne, but rather by the opposite—that he is your brother, that he was brought up with you; and thus you will lay hold on it as it is to be borne.",
+   "origFrom": "Epictetus, The Enchiridion (tr. Higginson)",
+   "cap": "Glass jar with two handles (amphora) · public domain"
+  },
+  {
+   "ch": "Part Four",
+   "chTitle": "The Philosopher's Way · sections XLIV–LIII",
+   "title": "Richer isn't better",
+   "text": "'I'm richer than you, so I'm better than you' doesn't follow. Richer means only that your possessions are greater. And you are neither your possessions nor your style.",
+   "quote": "But you, after all, consist neither in property nor in style.",
+   "qMean": "You are not your money or your style.",
+   "qLife": "A neighbour's bigger house doesn't make them a better person.",
+   "img": "enchiridion_29",
+   "orig": "These reasonings have no logical connection: “I am richer than you, therefore I am your superior.” “I am more eloquent than you, therefore I am your superior.” The true logical connection is rather this: “I am richer than you, therefore my possessions must exceed yours.” “I am more eloquent than you, therefore my style must surpass yours.” But you, after all, consist neither in property nor in style.",
+   "origFrom": "Epictetus, The Enchiridion (tr. Higginson)",
+   "link": "The handbook closes with how a real philosopher behaves: quietly, without show, starting now.",
+   "cap": "Ancient Roman Silver Denarius Depicting Emperor Caracalla (198-217 CE) · public domain"
+  },
+  {
+   "ch": "Part Four",
+   "chTitle": "The Philosopher's Way · sections XLIV–LIII",
+   "title": "Describe, don't judge",
+   "text": "Someone bathes quickly: don't say badly, say quickly. Someone drinks a lot: don't say wrongly, say a lot. Unless you know their reasons, describe what happened without judging it.",
+   "quote": "Does anyone bathe hastily? Do not say that he does it ill, but hastily.",
+   "qMean": "Describe what people do without assuming they're wrong.",
+   "qLife": "'He left early' instead of 'he's lazy' when you don't know why.",
+   "img": "enchiridion_30",
+   "orig": "Does anyone bathe hastily? Do not say that he does it ill, but hastily. Does anyone drink much wine? Do not say that he does ill, but that he drinks a great deal. For unless you perfectly understand his motives, how should you know if he acts ill? Thus you will not risk yielding to any appearances but such as you fully comprehend.",
+   "origFrom": "Epictetus, The Enchiridion (tr. Higginson)",
+   "cap": "Ruins of Aquincum, bath-house under cover · public domain"
+  },
+  {
+   "ch": "Part Four",
+   "chTitle": "The Philosopher's Way · sections XLIV–LIII",
+   "title": "Sheep give wool",
+   "text": "Don't lecture people about your principles; live them. Sheep don't vomit up grass to show the shepherd how much they ate. They digest it and give wool and milk.",
+   "quote": "For sheep do not hastily throw up the grass to show the shepherds how much they have eaten",
+   "qMean": "Show what you've learned through actions, not talk.",
+   "qLife": "A fit person who simply lives healthily instead of preaching about it.",
+   "img": "enchiridion_31",
+   "orig": "Never proclaim yourself a philosopher, nor make much talk among the ignorant about your principles, but show them by actions. Thus, at an entertainment, do not discourse how people ought to eat, but eat as you ought. For remember that thus Socrates also universally avoided all ostentation. And when persons came to him and desired to be introduced by him to philosophers, he took them and introduced them; so well did he bear being overlooked. So if ever there should be among the ignorant any discussion of principles, be for the most part silent. For there is great danger in hastily throwing out what is undigested. And if anyone tells you that you know nothing, and you are not nettled at it, then you may be sure that you have really entered on your work. For sheep do not hastily throw up the grass to show the shepherds how much they have eaten, but, inwardly digesting their food, they produce it outwardly in wool and milk. Thus, therefore, do you not make an exhibition before the ignorant of your principles, but of the actions to which their digestion gives rise.",
+   "origFrom": "Epictetus, The Enchiridion (tr. Higginson)",
+   "cap": "Constant Troyon (1810-1865) - Sheep and Shepherd - NG 1466 - National Galleries of Scotland · public domain"
+  },
+  {
+   "ch": "Part Four",
+   "chTitle": "The Philosopher's Way · sections XLIV–LIII",
+   "title": "Tell nobody",
+   "text": "If you train yourself to live simply, don't boast about it. If you're thirsty, rinse your mouth with water and tell no one. Discipline done for show is not discipline.",
+   "quote": "when you are violently thirsty, just rinse your mouth with water, and tell nobody.",
+   "qMean": "Practise self-discipline quietly, without telling anyone.",
+   "qLife": "Fasting or saving money without announcing it.",
+   "img": "enchiridion_32",
+   "orig": "When you have learned to nourish your body frugally, do not pique yourself upon it; nor, if you drink water, be saying upon every occasion, “I drink water.” But first consider how much more frugal are the poor than we, and how much more patient of hardship. If at any time you would inure yourself by exercise to labor and privation, for your own sake and not for the public, do not attempt great feats; but when you are violently thirsty, just rinse your mouth with water, and tell nobody.",
+   "origFrom": "Epictetus, The Enchiridion (tr. Higginson)",
+   "cap": "Roman - Jug with Composite Handle · public domain"
+  },
+  {
+   "ch": "Part Four",
+   "chTitle": "The Philosopher's Way · sections XLIV–LIII",
+   "title": "Signs of progress",
+   "text": "How do you know you're making progress? You blame no one, praise no one, accuse no one, say nothing about yourself as if you were somebody. You watch yourself as you would an enemy in ambush.",
+   "quote": "The marks of a proficient are that he censures no one, praises no one, blames no one, accuses no one",
+   "qMean": "Real progress shows when you stop blaming and judging others.",
+   "qLife": "Noticing you no longer gossip about colleagues.",
+   "img": "enchiridion_33",
+   "orig": "The condition and characteristic of a vulgar person is that he never looks for either help or harm from himself, but only from externals. The condition and characteristic of a philosopher is that he looks to himself for all help or harm. The marks of a proficient are that he censures no one, praises no one, blames no one, accuses no one; says nothing concerning himself as being anybody or knowing anything. When he is in any instance hindered or restrained, he accuses himself; and if he is praised, he smiles to himself at the person who praises him; and if he is censured, he makes no defense. But he goes about with the caution of a convalescent, careful of interference with anything that is doing well but not yet quite secure. He restrains desire; he transfers his aversion to those things only which thwart the proper use of our own will; he employs his energies moderately in all directions; if he appears stupid or ignorant, he does not care; and, in a word, he keeps watch over himself as over an enemy and one in ambush.",
+   "origFrom": "Epictetus, The Enchiridion (tr. Higginson)",
+   "cap": "Academische studie naar sculptuur, buste van Chrysippos, 1826, Lambert Noos, Musea Brugge, 0016.GRO0185.II · public domain"
+  },
+  {
+   "ch": "Part Four",
+   "chTitle": "The Philosopher's Way · sections XLIV–LIII",
+   "title": "Now is the contest",
+   "text": "How long will you put off becoming who you could be? You're not a child anymore. The contest is now, the Olympics have begun and can't be postponed. Live as someone trying to be a Socrates.",
+   "quote": "remember that now is the combat, now the Olympiad comes on, nor can it be put off",
+   "qMean": "The test is happening now; it can't be postponed.",
+   "qLife": "Starting the habit today instead of 'from Monday'.",
+   "img": "enchiridion_34",
+   "orig": "… You have received the philosophic principles with which you ought to be conversant; and you have been conversant with them. For what other master, then, do you wait as an excuse for this delay in self-reformation? You are no longer a boy but a grown man. If, therefore, you will be negligent and slothful, and always add procrastination to procrastination, purpose to purpose, and fix day after day in which you will attend to yourself, you will insensibly continue to accomplish nothing and, living and dying, remain of vulgar mind. This instant, then, think yourself worthy of living as a man grown up and a proficient. Let whatever appears to be the best be to you an inviolable law. And if any instance of pain or pleasure, glory or disgrace, be set before you, remember that now is the combat, now the Olympiad comes on, nor can it be put off; and that by one failure and defeat honor may be lost or—won. Thus Socrates became perfect, improving himself by everything, following reason alone. And though you are not yet a Socrates, you ought, however, to live as one seeking to be a Socrates.",
+   "origFrom": "Epictetus, The Enchiridion (tr. Higginson)",
+   "cap": "OlympicRaceTrackOlympia · public domain"
+  },
+  {
+   "ch": "Part Four",
+   "chTitle": "The Philosopher's Way · sections XLIV–LIII",
+   "title": "Practice first",
+   "text": "The most important part of philosophy is using its principles, not proving them. We spend our time on arguments and forget to live by them.",
+   "quote": "The first and most necessary topic in philosophy is the practical",
+   "qMean": "The most important part of philosophy is putting it into practice.",
+   "qLife": "Reading about exercise is useless until you go for a walk.",
+   "img": "enchiridion_35",
+   "orig": "The first and most necessary topic in philosophy is the practical application of principles, as, We ought not to lie; the second is that of demonstrations as, Why it is that we ought not to lie; the third, that which gives strength and logical connection to the other two, as, Why this is a demonstration. For what is demonstration? What is a consequence? What a contradiction? What truth? What falsehood? The third point is then necessary on account of the second; and the second on account of the first. But the most necessary, and that whereon we ought to rest, is the first. But we do just the contrary. For we spend all our time on the third point and employ all our diligence about that, and entirely neglect the first. Therefore, at the same time that we lie, we are very ready to show how it is demonstrated that lying is wrong.",
+   "origFrom": "Epictetus, The Enchiridion (tr. Higginson)",
+   "cap": "The excavated north side of the Ancient Agora of Athens on August 13, 2020 · public domain"
   }
  ]
 }
