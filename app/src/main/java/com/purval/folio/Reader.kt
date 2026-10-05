@@ -298,7 +298,13 @@ private fun FrontSide(app: App, book: Book, i: Int, onWord: (Gloss) -> Unit, onF
             lineHeight = if (era == Era.BAROQUE) 42.sp else 36.sp, color = ink.ink)
         Spacer(Modifier.height(12.dp))
         val text = remember(c.text, ink) { glossed(c.text, book.glossary, ink, onWord) }
-        if (chapterStart) DropCapText(text, body, era.display, lines = if (i == 0) 4 else 3, illuminated = i == 0, capScale = era.capScale)
+        if (chapterStart) {
+            val firstWord = c.text.takeWhile { it.isLetter() }.lowercase()
+            val firstGloss = book.glossary[firstWord]
+            DropCapText(text, body, era.display, lines = if (i == 0) 4 else 3,
+                illuminated = i == 0, capScale = era.capScale,
+                onCapClick = firstGloss?.let { { onWord(it) } })
+        }
         else Text(text, style = body)
 
         if (c.quote.isNotBlank()) {
@@ -497,7 +503,8 @@ private fun BackSide(app: App, book: Book, i: Int, onFlip: () -> Unit, onShare: 
         Row(verticalAlignment = Alignment.CenterVertically) {
             Text("${c.ch} · the other side".uppercase(), fontFamily = Fonts.fellSc, fontSize = 12.sp, letterSpacing = 2.sp, color = ink.rubric,
                 modifier = Modifier.weight(1f), maxLines = 1, overflow = TextOverflow.Ellipsis)
-            Text("fol. ${roman(i + 1).lowercase()} verso", fontFamily = Fonts.fell, fontStyle = FontStyle.Italic, fontSize = 13.sp, color = ink.faded)
+            Text("⟲ front", modifier = Modifier.clickable(onClick = onFlip).padding(8.dp),
+                fontFamily = Fonts.fell, fontStyle = FontStyle.Italic, fontSize = 15.sp, color = ink.rubric)
         }
         Spacer(Modifier.height(10.dp))
         Text(c.title, fontFamily = book.era.display, fontSize = 26.sp, lineHeight = 32.sp, color = ink.ink)

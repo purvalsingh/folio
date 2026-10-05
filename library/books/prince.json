@@ -1,5 +1,5 @@
 {
- "version": 7,
+ "version": 8,
  "id": "prince",
  "title": "The Prince",
  "author": "Niccolò Machiavelli",
@@ -313,10 +313,10 @@
    "quote": "one change always leaves the toothing for another",
    "qMean": "Every change makes the next change easier.",
    "qLife": "Once one friend quits the group, others start thinking about leaving too.",
-   "img": "prince_53",
+   "img": "",
    "orig": "We have in Italy, for example, the Duke of Ferrara, who could not have withstood the attacks of the Venetians in ’84, nor those of Pope Julius in ’10, unless he had been long established in his dominions. For the hereditary prince has less cause and less necessity to offend; hence it happens that he will be more loved; and unless extraordinary vices cause him to be hated, it is reasonable to expect that his subjects will be naturally well disposed towards him; and in the antiquity and duration of his rule the memories and motives that make for change are lost, for one change always leaves the toothing for another.",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "Pieter Bruegel the Elder, The Tower of Babel · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter III",
@@ -353,10 +353,10 @@
    "quote": "The wish to acquire is in truth very natural and common, and men always do so when they can",
    "qMean": "Wanting more is normal, and people take more whenever they can.",
    "qLife": "A shop that can afford a second branch usually opens one.",
-   "img": "prince_54",
+   "img": "",
    "orig": "The wish to acquire is in truth very natural and common, and men always do so when they can, and for this they will be praised not blamed; but when they cannot do so, yet wish to do so by any means, then there is folly and blame. Therefore, if France could have attacked Naples with her own forces she ought to have done so; if she could not, then she ought not to have divided it. And if the partition which she made with the Venetians in Lombardy was justified by the excuse that by it she got a foothold in Italy, this other partition merited blame, for it had not the excuse of that necessity.",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "Quentin Massys, The Moneylender and his Wife, 1514 · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter III",
@@ -366,10 +366,10 @@
    "quote": "war is not to be avoided, but is only to be put off to the advantage of others",
    "qMean": "A fight you can't avoid only gets worse if you delay it.",
    "qLife": "Ignoring a small leak in the roof just means a bigger repair bill in the monsoon.",
-   "img": "prince_55",
+   "img": "",
    "orig": "… but if you wait until they approach, the medicine is no longer in time because the malady has become incurable; for it happens in this, as the physicians say it happens in hectic fever, that in the beginning of the malady it is easy to cure but difficult to detect, but in the course of time, not having been either detected or treated in the beginning, it becomes easy to detect but difficult to cure. Thus it happens in affairs of state, for when the evils that arise have been foreseen (which it is only given to a wise man to see), they can be quickly redressed, but when, through not having been foreseen, they have been permitted to grow in a way that every one can see them, there is no longer a remedy. Therefore, the Romans, foreseeing troubles, dealt with them at once, and, even to avoid a war, would not let them come to a head, for they knew that war is not to be avoided, but is only to be put off to the advantage of others; moreover they wished to fight with Philip and Antiochus in Greece so as not to have to do it in Italy; they could have avoided both, but this they did not wish; nor did that ever please them which is forever in the mouths of the wise ones of our time:—Let us enjoy the benefits of the time—but rather the benefits of their own valour and prudence, for time drives everything before it, and is able to bring with it good as well as evil, and evil as well as good.",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "Marco Dente, A Roman Legion, 1515-1527 · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter III",
@@ -379,10 +379,10 @@
    "quote": "Therefore Louis made these five errors",
    "qMean": "The king lost Italy through five avoidable mistakes.",
    "qLife": "A startup that hires the wrong people, ignores customers and copies a rival makes several mistakes at once.",
-   "img": "prince_56",
+   "img": "",
    "orig": "Therefore Louis made these five errors: he destroyed the minor powers, he increased the strength of one of the greater powers in Italy, he brought in a foreign power, he did not settle in the country, he did not send colonies. Which errors, had he lived, were not enough to injure him had he not made a sixth by taking away their dominions from the Venetians; because, had he not aggrandized the Church, nor brought Spain into Italy, it would have been very reasonable and necessary to humble them; but having first taken these steps, he ought never to have consented to their ruin, for they, being powerful, would always have kept off others from designs on Lombardy, to which the Venetians would never have consented except to become masters themselves there; also because the others would not wish to take Lombardy from France in order to give it to the Venetians, and to run counter to both they would not have had the courage.",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "Louis XII sets out for Genoa, from Marot's Voyage de Gênes · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter III",
@@ -405,11 +405,11 @@
    "quote": "the principalities of which one has record are found to be governed in two different ways",
    "qMean": "Countries have been governed in two main ways.",
    "qLife": "Some offices have one boss and assistants; others have a boss plus powerful department heads.",
-   "img": "prince_08",
+   "img": "",
    "link": "Holding new land depends on how it was governed before. Here Machiavelli compares two very different kingdoms.",
    "orig": "I answer that the principalities of which one has record are found to be governed in two different ways; either by a prince, with a body of servants, who assist him to govern the kingdom as ministers by his favour and permission; or by a prince and barons, who hold that dignity by antiquity of blood and not by the grace of the prince. Such barons have states and their own subjects, who recognize them as lords and hold them in natural affection. Those states that are governed by a prince and his servants hold their prince in more consideration, because in all the country there is no one who is recognized as superior to him, and if they yield obedience to another they do it as to a minister and official, and they do not bear him any particular affection.",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "Suleiman Turc Emperor, 1535 · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter IV",
@@ -419,10 +419,10 @@
    "quote": "The entire monarchy of the Turk is governed by one lord, the others are his servants",
    "qMean": "In the Turk's empire one man rules and everyone else serves him.",
    "qLife": "A company with one strong founder falls apart if the founder leaves; one run by many partners is harder to take over completely.",
-   "img": "prince_57",
+   "img": "",
    "orig": "The examples of these two governments in our time are the Turk and the King of France. The entire monarchy of the Turk is governed by one lord, the others are his servants; and, dividing his kingdom into sanjaks, he sends there different administrators, and shifts and changes them as he chooses. But the King of France is placed in the midst of an ancient body of lords, acknowledged by their own subjects, and beloved by them; they have their own prerogatives, nor can the king take these away except at his peril. Therefore, he who considers both of these states will recognize great difficulties in seizing the state of the Turk, but, once it is conquered, great ease in holding it. The causes of the difficulties in seizing the kingdom of the Turk are that the usurper cannot be called in by the princes of the kingdom, nor can he hope to be assisted in his designs by the revolt of those whom the lord has around him. This arises from the reasons given above; for his ministers, being all slaves and bondmen, can only be corrupted with great difficulty, and one can expect little advantage from them when they have been corrupted, as they cannot carry the people with them, for the reasons assigned. …",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "Gentile Bellini, Sultan Mehmed II · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter V",
@@ -432,11 +432,11 @@
    "quote": "in republics there is more vitality, greater hatred, and more desire for vengeance, which will never permit them to allow the memory of their former liberty to rest",
    "qMean": "People who once lived free never stop resenting a new master; the memory of freedom stays.",
    "qLife": "A team that used to set its own hours will grumble for years about a strict new schedule.",
-   "img": "prince_09",
+   "img": "",
    "link": "Some conquered lands were used to their own laws. Free cities are the hardest of all to hold.",
    "orig": "But when cities or countries are accustomed to live under a prince, and his family is exterminated, they, being on the one hand accustomed to obey and on the other hand not having the old prince, cannot agree in making one from amongst themselves, and they do not know how to govern themselves. For this reason they are very slow to take up arms, and a prince can gain them to himself and secure them much more easily. But in republics there is more vitality, greater hatred, and more desire for vengeance, which will never permit them to allow the memory of their former liberty to rest; so that the safest way is to destroy them or to reside there.",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "Florence Nuremberg Chronicle · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter V",
@@ -446,10 +446,10 @@
    "quote": "the first is to ruin them, the next is to reside there in person, the third is to permit them to live under their own laws",
    "qMean": "You can wreck a free city, move there yourself, or leave it its own laws.",
    "qLife": "A new manager can scrap a team's way of working, sit with the team every day, or let them carry on with someone reporting back.",
-   "img": "prince_58",
+   "img": "",
    "orig": "Whenever those states which have been acquired as stated have been accustomed to live under their own laws and in freedom, there are three courses for those who wish to hold them: the first is to ruin them, the next is to reside there in person, the third is to permit them to live under their own laws, drawing a tribute, and establishing within it an oligarchy which will keep it friendly to you. Because such a government, being created by the prince, knows that it cannot stand without his friendship and interest, and does its utmost to support him; and therefore he who would keep a city accustomed to freedom will hold it more easily by the means of its own citizens than in any other way.",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "Giovanni Stradano, The Siege of Florence · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter VI",
@@ -459,11 +459,11 @@
    "quote": "A wise man ought always to follow the paths beaten by great men, and to imitate those who have been supreme",
    "qMean": "Copy the habits of the greatest people in your field.",
    "qLife": "A young cook practises the recipes of master chefs before inventing her own.",
-   "img": "prince_10",
+   "img": "",
    "link": "So far, states taken over. Now states founded new, by men who rose through their own ability.",
    "orig": "Let no one be surprised if, in speaking of entirely new principalities as I shall do, I adduce the highest examples both of prince and of state; because men, walking almost always in paths beaten by others, and following by imitation their deeds, are yet unable to keep entirely to the ways of others or attain to the power of those they imitate. A wise man ought always to follow the paths beaten by great men, and to imitate those who have been supreme, so that if his ability does not equal theirs, at least it will savour of it. Let him act like the clever archers who, designing to hit the mark which yet appears too far distant, and knowing the limits to which the strength of their bow attains, take aim much higher than the mark, not to reach by their strength or arrow to so great a height, but to be able with the aid of so high an aim to hit the mark they wish to reach.",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "Romulus and Remus suckling the she-wolf on a riverbank · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter VI",
@@ -473,10 +473,10 @@
    "quote": "without that opportunity their powers of mind would have been extinguished",
    "qMean": "Without the right chance, their great abilities would have come to nothing.",
    "qLife": "A brilliant singer in a small town still needs the audition, and the audition needs the singer.",
-   "img": "prince_59",
+   "img": "",
    "orig": "But to come to those who, by their own ability and not through fortune, have risen to be princes, I say that Moses, Cyrus, Romulus, Theseus, and such like are the most excellent examples. And although one may not discuss Moses, he having been a mere executor of the will of God, yet he ought to be admired, if only for that favour which made him worthy to speak with God. But in considering Cyrus and others who have acquired or founded kingdoms, all will be found admirable; and if their particular deeds and conduct shall be considered, they will not be found inferior to those of Moses, although he had so great a preceptor. And in examining their actions and lives one cannot see that they owed anything to fortune beyond opportunity, which brought them the material to mould into the form which seemed best to them. Without that opportunity their powers of mind would have been extinguished, and without those powers the opportunity would have come in vain.",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "Moses with the tablets of the law · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter VI",
@@ -486,10 +486,10 @@
    "quote": "there is nothing more difficult to take in hand, more perilous to conduct, or more uncertain in its success, than to take the lead in the introduction of a new order of things",
    "qMean": "Changing how things are done is the hardest, riskiest job there is.",
    "qLife": "Switching a whole office to new software meets complaints from everyone used to the old one.",
-   "img": "prince_11",
+   "img": "",
    "orig": "Those who by valorous ways become princes, like these men, acquire a principality with difficulty, but they keep it with ease. The difficulties they have in acquiring it rise in part from the new rules and methods which they are forced to introduce to establish their government and its security. And it ought to be remembered that there is nothing more difficult to take in hand, more perilous to conduct, or more uncertain in its success, than to take the lead in the introduction of a new order of things, because the innovator has for enemies all those who have done well under the old conditions, and lukewarm defenders in those who may do well under the new. This coolness arises partly from fear of the opponents, who have the laws on their side, and partly from the incredulity of men, who do not readily believe in new things until they have had a long experience of them. Thus it happens that whenever those who are hostile have the opportunity to attack they do it like partisans, whilst the others defend lukewarmly, in such wise that the prince is endangered along with them.",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "Sermon on the Art of Dying Well, Florentine woodcut · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter VI",
@@ -499,10 +499,10 @@
    "quote": "all armed prophets have conquered, and the unarmed ones have been destroyed",
    "qMean": "Ideas backed by real power win; ideas without power get crushed.",
    "qLife": "A good proposal with no sponsor dies in the meeting; the same idea from the director passes.",
-   "img": "prince_12",
+   "img": "",
    "orig": "It is necessary, therefore, if we desire to discuss this matter thoroughly, to inquire whether these innovators can rely on themselves or have to depend on others: that is to say, whether, to consummate their enterprise, have they to use prayers or can they use force? In the first instance they always succeed badly, and never compass anything; but when they can rely on themselves and use force, then they are rarely endangered. Hence it is that all armed prophets have conquered, and the unarmed ones have been destroyed. Besides the reasons mentioned, the nature of the people is variable, and whilst it is easy to persuade them, it is difficult to fix them in that persuasion. And thus it is necessary to take such measures that, when they believe no longer, it may be possible to make them believe by force.",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "Stefano Ussi - The Execution of Savonarola · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter VII",
@@ -512,11 +512,11 @@
    "quote": "Those who solely by good fortune become princes from being private citizens have little trouble in rising, but much in keeping atop",
    "qMean": "Luck can lift you up easily, but keeping your place after luck is hard.",
    "qLife": "A viral video makes someone famous overnight; staying popular takes real work.",
-   "img": "prince_13",
+   "img": "",
    "link": "The opposite of the great founders: a man who rose through luck and other people's power, Cesare Borgia.",
    "orig": "Those who solely by good fortune become princes from being private citizens have little trouble in rising, but much in keeping atop; they have not any difficulties on the way up, because they fly, but they have many when they reach the summit. Such are those to whom some state is given either for money or by the favour of him who bestows it; as happened to many in Greece, in the cities of Ionia and of the Hellespont, where princes were made by Darius, in order that they might hold the cities both for his security and his glory; as also were those emperors who, by the corruption of the soldiers, from being citizens came to empire. Such stand simply elevated upon the goodwill and the fortune of him who has elevated them—two most inconstant and unstable things. Neither have they the knowledge requisite for the position; because, unless they are men of great worth and ability, it is not reasonable to expect that they should know how to command, having always lived in a private condition; besides, they cannot hold it because they have not forces which they can keep friendly and faithful.",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "A Gust of Wind, engraving · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter VII",
@@ -526,10 +526,10 @@
    "quote": "The barbarity of this spectacle caused the people to be at once satisfied and dismayed",
    "qMean": "The cruel display left the people both relieved and frightened.",
    "qLife": "When the bullying manager is fired publicly, staff feel both glad and nervous.",
-   "img": "prince_14",
+   "img": "",
    "orig": "… and so, wishing to bring back peace and obedience to authority, he considered it necessary to give it a good governor. Thereupon he promoted Messer Ramiro d’Orco, a swift and cruel man, to whom he gave the fullest power. This man in a short time restored peace and unity with the greatest success. Afterwards the duke considered that it was not advisable to confer such excessive authority, for he had no doubt but that he would become odious, so he set up a court of judgment in the country, under a most excellent president, wherein all cities had their advocates. And because he knew that the past severity had caused some hatred against himself, so, to clear himself in the minds of the people, and gain them entirely to himself, he desired to show that, if any cruelty had been practised, it had not originated with him, but in the natural sternness of the minister. Under this pretence he took Ramiro, and one morning caused him to be executed and left on the piazza at Cesena with the block and a bloody knife at his side. The barbarity of this spectacle caused the people to be at once satisfied and dismayed.",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "Cesare Borgia, duca di Romagna · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter VII",
@@ -539,10 +539,10 @@
    "quote": "he who has not first laid his foundations may be able with great ability to lay them afterwards",
    "qMean": "If you skipped the groundwork, you can still do it later, but it is far harder.",
    "qLife": "Learning grammar after years of speaking a language wrongly is possible, but painful.",
-   "img": "prince_60",
+   "img": "",
    "orig": "Because, as is stated above, he who has not first laid his foundations may be able with great ability to lay them afterwards, but they will be laid with trouble to the architect and danger to the building. If, therefore, all the steps taken by the duke be considered, it will be seen that he laid solid foundations for his future power, and I do not consider it superfluous to discuss them, because I do not know what better precepts to give a new prince than the example of his actions; and if his dispositions were of no avail, that was not his fault, but the extraordinary and extreme malignity of fortune.",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "Jan van Eyck, Saint Barbara, a tower being built, 1437 · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter VII",
@@ -552,10 +552,10 @@
    "quote": "He who believes that new benefits will cause great personages to forget old injuries is deceived",
    "qMean": "New favours don't make powerful people forget old wrongs you did them.",
    "qLife": "Buying your sister a gift won't make her forget you read her diary.",
-   "img": "prince_15",
+   "img": "",
    "orig": "Only can he be blamed for the election of Julius the Second, in whom he made a bad choice, because, as is said, not being able to elect a Pope to his own mind, he could have hindered any other from being elected Pope; and he ought never to have consented to the election of any cardinal whom he had injured or who had cause to fear him if they became pontiffs. For men injure either from fear or hatred. Those whom he had injured, amongst others, were San Pietro ad Vincula, Colonna, San Giorgio, and Ascanio. The rest, in becoming Pope, had to fear him, Rouen and the Spaniards excepted; the latter from their relationship and obligations, the former from his influence, the kingdom of France having relations with him. Therefore, above everything, the duke ought to have created a Spaniard Pope, and, failing him, he ought to have consented to Rouen and not San Pietro ad Vincula. He who believes that new benefits will cause great personages to forget old injuries is deceived. Therefore, the duke erred in his choice, and it was the cause of his ultimate ruin.",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "Plan of the Vatican during a conclave · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter VIII",
@@ -565,11 +565,11 @@
    "quote": "Yet it cannot be called talent to slay fellow-citizens, to deceive friends, to be without faith, without mercy, without religion; such methods may gain empire, but not glory.",
    "qMean": "Killing and betraying can win power, but never real respect or glory.",
    "qLife": "A cheater may win the tournament, but no one admires the trophy.",
-   "img": "prince_16",
+   "img": "",
    "link": "Neither talent nor luck: some climb to power by crime. What does that win, and what does it cost?",
    "orig": "Therefore, he who considers the actions and the genius of this man will see nothing, or little, which can be attributed to fortune, inasmuch as he attained pre-eminence, as is shown above, not by the favour of any one, but step by step in the military profession, which steps were gained with a thousand troubles and perils, and were afterwards boldly held by him with many hazardous dangers. Yet it cannot be called talent to slay fellow-citizens, to deceive friends, to be without faith, without mercy, without religion; such methods may gain empire, but not glory. Still, if the courage of Agathocles in entering into and extricating himself from dangers be considered, together with his greatness of mind in enduring and overcoming hardships, it cannot be seen why he should be esteemed less than the most notable captain. Nevertheless, his barbarous cruelty and inhumanity with infinite wickedness do not permit him to be celebrated among the most excellent men. What he achieved cannot be attributed either to fortune or genius.",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "Agathocles, bust in the Vatican Museums · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter VIII",
@@ -579,10 +579,10 @@
    "quote": "No sooner were they seated than soldiers issued from secret places and slaughtered Giovanni and the rest.",
    "qMean": "As soon as the guests sat down, hidden soldiers killed them.",
    "qLife": "A betrayal planned under the cover of friendship is the hardest one to see coming.",
-   "img": "prince_61",
+   "img": "",
    "orig": "… When the viands and all the other entertainments that are usual in such banquets were finished, Oliverotto artfully began certain grave discourses, speaking of the greatness of Pope Alexander and his son Cesare, and of their enterprises, to which discourse Giovanni and others answered; but he rose at once, saying that such matters ought to be discussed in a more private place, and he betook himself to a chamber, whither Giovanni and the rest of the citizens went in after him. No sooner were they seated than soldiers issued from secret places and slaughtered Giovanni and the rest. After these murders Oliverotto, mounted on horseback, rode up and down the town and besieged the chief magistrate in the palace, so that in fear the people were forced to obey him, and to form a government, of which he made himself the prince. He killed all the malcontents who were able to injure him, and strengthened himself with new civil and military ordinances, in such a way that, in the year during which he held the principality, not only was he secure in the city of Fermo, but he had become formidable to all his neighbours. …",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "A state banquet, woodcut from a Virgil printed at Lyons, 1517 · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter VIII",
@@ -592,10 +592,10 @@
    "quote": "injuries ought to be done all at one time, so that, being tasted less, they offend less; benefits ought to be given little by little, so that the flavour of them may last longer",
    "qMean": "Do the painful things all at once, and give good things slowly so they're enjoyed longer.",
    "qLife": "Rip the bandage off quickly; hand out the holiday bonus in two parts.",
-   "img": "prince_17",
+   "img": "",
    "orig": "Hence it is to be remarked that, in seizing a state, the usurper ought to examine closely into all those injuries which it is necessary for him to inflict, and to do them all at one stroke so as not to have to repeat them daily; and thus by not unsettling men he will be able to reassure them, and win them to himself by benefits. He who does otherwise, either from timidity or evil advice, is always compelled to keep the knife in his hand; neither can he rely on his subjects, nor can they attach themselves to him, owing to their continued and repeated wrongs. For injuries ought to be done all at one time, so that, being tasted less, they offend less; benefits ought to be given little by little, so that the flavour of them may last longer.",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "Justice with scales and sword · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter IX",
@@ -605,11 +605,11 @@
    "quote": "the nobles wish to rule and oppress the people",
    "qMean": "The powerful want to control and squeeze ordinary people.",
    "qLife": "Big landlords push rents up whenever they can.",
-   "img": "prince_18",
+   "img": "",
    "link": "From power seized by force to power given by fellow citizens: the civil principality.",
    "orig": "But coming to the other point—where a leading citizen becomes the prince of his country, not by wickedness or any intolerable violence, but by the favour of his fellow citizens—this may be called a civil principality: nor is genius or fortune altogether necessary to attain to it, but rather a happy shrewdness. I say then that such a principality is obtained either by the favour of the people or by the favour of the nobles. Because in all cities these two distinct parties are found, and from this it arises that the people do not wish to be ruled nor oppressed by the nobles, and the nobles wish to rule and oppress the people; and from these two opposite desires there arises in cities one of three results, either a principality, self-government, or anarchy.",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "Lorenzo de' Medici Rubens · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter IX",
@@ -619,10 +619,10 @@
    "quote": "he who builds on the people, builds on the mud",
    "qMean": "The proverb says ordinary people make a weak foundation; Machiavelli says that's only true for the weak.",
    "qLife": "A boss who earns the team's trust finds it holds when the company has a bad year.",
-   "img": "prince_62",
+   "img": "",
    "orig": "Nabis, Prince of the Spartans, sustained the attack of all Greece, and of a victorious Roman army, and against them he defended his country and his government; and for the overcoming of this peril it was only necessary for him to make himself secure against a few, but this would not have been sufficient had the people been hostile. And do not let any one impugn this statement with the trite proverb that “He who builds on the people, builds on the mud,” for this is true when a private citizen makes a foundation there, and persuades himself that the people will free him when he is oppressed by his enemies or by the magistrates; wherein he would find himself very often deceived, as happened to the Gracchi in Rome and to Messer Giorgio Scali in Florence. But granted a prince who has established himself as above, who can command, and is a man of courage, undismayed in adversity, who does not fail in other qualifications, and who, by his resolution and energy, keeps the whole people encouraged—such a one will never find himself deceived in them, and it will be shown that he has laid his foundations well.",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "A festival in the Piazza della Signoria, Florence · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter IX",
@@ -632,10 +632,10 @@
    "quote": "it is necessary for a prince to have the people friendly, otherwise he has no security in adversity",
    "qMean": "A leader needs ordinary people on his side, or he has no safety in hard times.",
    "qLife": "A captain loved by the players is backed when results go badly.",
-   "img": "prince_19",
+   "img": "",
    "orig": "Therefore, one who becomes a prince through the favour of the people ought to keep them friendly, and this he can easily do seeing they only ask not to be oppressed by him. But one who, in opposition to the people, becomes a prince by the favour of the nobles, ought, above everything, to seek to win the people over to himself, and this he may easily do if he takes them under his protection. Because men, when they receive good from him of whom they were expecting evil, are bound more closely to their benefactor; thus the people quickly become more devoted to him than if he had been raised to the principality by their favours; and the prince can win their affections in many ways, but as these vary according to the circumstances one cannot give fixed rules, so I omit them; but, I repeat, it is necessary for a prince to have the people friendly, otherwise he has no security in adversity.",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "Peasants at work, after Holbein · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter X",
@@ -645,11 +645,11 @@
    "quote": "a prince who has a strong city, and had not made himself odious, will not be attacked",
    "qMean": "A well-defended place whose ruler isn't hated rarely gets attacked.",
    "qLife": "A shop with good locks and friendly neighbours is seldom robbed.",
-   "img": "prince_20",
+   "img": "",
    "link": "Whatever the kind of state, can it defend itself? The test is whether it can stand alone in a siege.",
    "orig": "Therefore, a prince who has a strong city, and had not made himself odious, will not be attacked, or if any one should attack he will only be driven off with disgrace; again, because that the affairs of this world are so changeable, it is almost impossible to keep an army a whole year in the field without being interfered with. And whoever should reply: If the people have property outside the city, and see it burnt, they will not remain patient, and the long siege and self-interest will make them forget their prince; to this I answer that a powerful and courageous prince will overcome all such difficulties by giving at one time hope to his subjects that the evil will not be for long, at another time fear of the cruelty of the enemy, then preserving himself adroitly from those subjects who seem to him to be too bold.",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "Hartmann Schedel - Nuremberg Chronicle, Page 100 - View of the city of Nuremberg · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter X",
@@ -659,10 +659,10 @@
    "quote": "men are always adverse to enterprises where difficulties can be seen",
    "qMean": "People avoid plans that obviously look hard.",
    "qLife": "A house with a dog and bright lights is rarely the one burglars pick.",
-   "img": "prince_63",
+   "img": "",
    "orig": "… And to make this quite clear I say that I consider those who are able to support themselves by their own resources who can, either by abundance of men or money, raise a sufficient army to join battle against any one who comes to attack them; and I consider those always to have need of others who cannot show themselves against the enemy in the field, but are forced to defend themselves by sheltering behind walls. The first case has been discussed, but we will speak of it again should it recur. In the second case one can say nothing except to encourage such princes to provision and fortify their towns, and not on any account to defend the country. And whoever shall fortify his town well, and shall have managed the other concerns of his subjects in the way stated above, and to be often repeated, will never be attacked without great caution, for men are always adverse to enterprises where difficulties can be seen, and it will be seen not to be an easy thing to attack one who has his town well fortified, and is not hated by his people.",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "Merian, a fortified town in Franconia · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter XI",
@@ -672,11 +672,11 @@
    "quote": "they are acquired either by capacity or good fortune, and they can be held without either",
    "qMean": "Church states are won by skill or luck but held by tradition alone.",
    "qLife": "An old family temple keeps its trust for centuries without anyone campaigning.",
-   "img": "prince_21",
+   "img": "",
    "link": "One kind of state breaks all the rules above: the states of the Church.",
    "orig": "It only remains now to speak of ecclesiastical principalities, touching which all difficulties are prior to getting possession, because they are acquired either by capacity or good fortune, and they can be held without either; for they are sustained by the ancient ordinances of religion, which are so all-powerful, and of such a character that the principalities may be held no matter how their princes behave and live. These princes alone have states and do not defend them; and they have subjects and do not rule them; and the states, although unguarded, are not taken from them, and the subjects, although not ruled, do not care, and they have neither the desire nor the ability to alienate themselves. Such principalities only are secure and happy. But being upheld by powers, to which the human mind cannot reach, I shall speak no more of them, because, being exalted and maintained by God, it would be the act of a presumptuous and rash man to discuss them.",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "Heemskerck Construction of St Peters · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter XI",
@@ -686,10 +686,10 @@
    "quote": "Alexander the Sixth arose afterwards, who of all the pontiffs that have ever been showed how a pope with both money and arms was able to prevail",
    "qMean": "Pope Alexander VI proved that a pope with money and an army could win.",
    "qLife": "An old institution can become powerful again under a leader who brings in money and muscle.",
-   "img": "prince_64",
+   "img": "",
    "orig": "Alexander the Sixth arose afterwards, who of all the pontiffs that have ever been showed how a pope with both money and arms was able to prevail; and through the instrumentality of the Duke Valentino, and by reason of the entry of the French, he brought about all those things which I have discussed above in the actions of the duke. And although his intention was not to aggrandize the Church, but the duke, nevertheless, what he did contributed to the greatness of the Church, which, after his death and the ruin of the duke, became the heir to all his labours.",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "Pope Alexander VI · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter XII",
@@ -699,11 +699,11 @@
    "quote": "The chief foundations of all states, new as well as old or composite, are good laws and good arms",
    "qMean": "Every state stands on good laws and a strong defence.",
    "qLife": "A school needs both fair rules and teachers who enforce them.",
-   "img": "prince_22",
+   "img": "",
    "link": "The kinds of state are done. Machiavelli turns to what holds every one of them up: its soldiers.",
    "orig": "We have seen above how necessary it is for a prince to have his foundations well laid, otherwise it follows of necessity he will go to ruin. The chief foundations of all states, new as well as old or composite, are good laws and good arms; and as there cannot be good laws where the state is not well armed, it follows that where they are well armed they have good laws. I shall leave the laws out of the discussion and shall speak of the arms.",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "Stör, Niklas Zwei Landsknechte · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter XII",
@@ -713,10 +713,10 @@
    "quote": "disunited, ambitious, and without discipline",
    "qMean": "Hired soldiers don't stick together, chase their own gain and won't follow orders.",
    "qLife": "A team of freelancers paid by the hour rarely fights for your company the way owners do.",
-   "img": "prince_65",
+   "img": "",
    "orig": "I say, therefore, that the arms with which a prince defends his state are either his own, or they are mercenaries, auxiliaries, or mixed. Mercenaries and auxiliaries are useless and dangerous; and if one holds his state based on these arms, he will stand neither firm nor safe; for they are disunited, ambitious, and without discipline, unfaithful, valiant before friends, cowardly before enemies; they have neither the fear of God nor fidelity to men, and destruction is deferred only so long as the attack is; for in peace one is robbed by them, and in war by the enemy. The fact is, they have no other attraction or reason for keeping the field than a trifle of stipend, which is not sufficient to make them willing to die for you. They are ready enough to be your soldiers whilst you do not make war, but if war comes they take themselves off or run from the foe; which I should have little trouble to prove, for the ruin of Italy has been caused by nothing else than by resting all her hopes for many years on mercenaries, and although they formerly made some display and appeared valiant amongst themselves, yet when the foreigners came they showed what they were. …",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "Landsknecht and lady on horseback, 16th-century print · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter XII",
@@ -726,10 +726,10 @@
    "quote": "They are ready enough to be your soldiers whilst you do not make war, but if war comes they take themselves off or run from the foe",
    "qMean": "Hired soldiers love the pay in peacetime and vanish when real fighting starts.",
    "qLife": "Fair-weather friends are around for parties but busy when you need to move house.",
-   "img": "prince_23",
+   "img": "",
    "orig": "… for they are disunited, ambitious, and without discipline, unfaithful, valiant before friends, cowardly before enemies; they have neither the fear of God nor fidelity to men, and destruction is deferred only so long as the attack is; for in peace one is robbed by them, and in war by the enemy. The fact is, they have no other attraction or reason for keeping the field than a trifle of stipend, which is not sufficient to make them willing to die for you. They are ready enough to be your soldiers whilst you do not make war, but if war comes they take themselves off or run from the foe; which I should have little trouble to prove, for the ruin of Italy has been caused by nothing else than by resting all her hopes for many years on mercenaries, and although they formerly made some display and appeared valiant amongst themselves, yet when the foreigners came they showed what they were. Thus it was that Charles, King of France, was allowed to seize Italy with chalk in hand; and he who told us that our sins were the cause of it told the truth, but they were not the sins he imagined, but those which I have related. And as they were the sins of princes, it is the princes who have also suffered the penalty.",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "Battle scene, 16th-century print · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter XIII",
@@ -739,11 +739,11 @@
    "quote": "The wise prince, therefore, has always avoided these arms and turned to his own",
    "qMean": "A wise leader relies on his own people, not borrowed or hired help.",
    "qLife": "A shop owner trains her own staff instead of depending on temp agencies.",
-   "img": "prince_24",
+   "img": "",
    "link": "Hired soldiers are bad. Borrowed armies, lent by a stronger ruler, turn out to be worse.",
    "orig": "Therefore, let him who has no desire to conquer make use of these arms, for they are much more hazardous than mercenaries, because with them the ruin is ready made; they are all united, all yield obedience to others; but with mercenaries, when they have conquered, more time and better opportunities are needed to injure you; they are not all of one community, they are found and paid by you, and a third party, which you have made their head, is not able all at once to assume enough authority to injure you. In conclusion, in mercenaries dastardy is most dangerous; in auxiliaries, valour. The wise prince, therefore, has always avoided these arms and turned to his own; and has been willing rather to lose with them than to conquer with the others, not deeming that a real victory which is gained with the arms of others.",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "David receives Saul's armour · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter XIII",
@@ -753,10 +753,10 @@
    "quote": "the arms of others either fall from your back, or they weigh you down, or they bind you fast",
    "qMean": "Borrowed help either fails you, burdens you or controls you.",
    "qLife": "A loan from a pushy relative comes with endless opinions on how you spend it.",
-   "img": "prince_25",
+   "img": "",
    "orig": "I wish also to recall to memory an instance from the Old Testament applicable to this subject. David offered himself to Saul to fight with Goliath, the Philistine champion, and, to give him courage, Saul armed him with his own weapons; which David rejected as soon as he had them on his back, saying he could make no use of them, and that he wished to meet the enemy with his sling and his knife. In conclusion, the arms of others either fall from your back, or they weigh you down, or they bind you fast.",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "David and Goliath · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter XIII",
@@ -766,10 +766,10 @@
    "quote": "he was never esteemed more highly than when every one saw that he was complete master of his own forces",
    "qMean": "People respected him most once his army was fully his own.",
    "qLife": "A founder who owns the company is taken more seriously than one at the investors' mercy.",
-   "img": "prince_66",
+   "img": "",
    "orig": "I shall never hesitate to cite Cesare Borgia and his actions. This duke entered the Romagna with auxiliaries, taking there only French soldiers, and with them he captured Imola and Forli; but afterwards, such forces not appearing to him reliable, he turned to mercenaries, discerning less danger in them, and enlisted the Orsini and Vitelli; whom presently, on handling and finding them doubtful, unfaithful, and dangerous, he destroyed and turned to his own men. And the difference between one and the other of these forces can easily be seen when one considers the difference there was in the reputation of the duke, when he had the French, when he had the Orsini and Vitelli, and when he relied on his own soldiers, on whose fidelity he could always count and found it ever increasing; he was never esteemed more highly than when every one saw that he was complete master of his own forces.",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "Cesare Borgia, Duke of Romagna · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter XIV",
@@ -779,11 +779,11 @@
    "quote": "A prince ought to have no other aim or thought, nor select anything else for his study, than war and its rules and discipline",
    "qMean": "A ruler must think about defence above everything else.",
    "qLife": "A business owner should always think about competitors, even in a good year.",
-   "img": "prince_26",
+   "img": "",
    "link": "If you must have your own army, the prince's own first duty is clear: war.",
    "orig": "A prince ought to have no other aim or thought, nor select anything else for his study, than war and its rules and discipline; for this is the sole art that belongs to him who rules, and it is of such force that it not only upholds those who are born princes, but it often enables men to rise from a private station to that rank. And, on the contrary, it is seen that when princes have thought more of ease than of arms they have lost their states. And the first cause of your losing it is to neglect this art; and what enables you to acquire a state is to be master of the art. Francesco Sforza, through being martial, from a private person became Duke of Milan; and the sons, through avoiding the hardships and troubles of arms, from dukes became private persons. For among other evils which being unarmed brings you, it causes you to be despised, and this is one of those ignominies against which a prince ought to guard himself, as is shown later on. Because there is nothing proportionate between the armed and the unarmed; and it is not reasonable that he who is armed should yield obedience willingly to him who is unarmed, or that the unarmed man should be secure among armed servants. …",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "Hunting with a leopard · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter XIV",
@@ -793,10 +793,10 @@
    "quote": "among other evils which being unarmed brings you, it causes you to be despised",
    "qMean": "Being defenceless makes people look down on you.",
    "qLife": "A shop with no lock invites more than just thieves; it invites disrespect.",
-   "img": "prince_67",
+   "img": "",
    "orig": "… And the first cause of your losing it is to neglect this art; and what enables you to acquire a state is to be master of the art. Francesco Sforza, through being martial, from a private person became Duke of Milan; and the sons, through avoiding the hardships and troubles of arms, from dukes became private persons. For among other evils which being unarmed brings you, it causes you to be despised, and this is one of those ignominies against which a prince ought to guard himself, as is shown later on. Because there is nothing proportionate between the armed and the unarmed; and it is not reasonable that he who is armed should yield obedience willingly to him who is unarmed, or that the unarmed man should be secure among armed servants. Because, there being in the one disdain and in the other suspicion, it is not possible for them to work well together. And therefore a prince who does not understand the art of war, over and above the other misfortunes already mentioned, cannot be respected by his soldiers, nor can he rely on them. …",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "Albrecht Dürer, Knight, Death and the Devil, 1513 · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter XIV",
@@ -806,10 +806,10 @@
    "quote": "the prince should read histories, and study there the actions of illustrious men",
    "qMean": "A leader should study history and the lives of great people.",
    "qLife": "Reading how others built businesses helps you avoid their mistakes in your own.",
-   "img": "prince_68",
+   "img": "",
    "orig": "But to exercise the intellect the prince should read histories, and study there the actions of illustrious men, to see how they have borne themselves in war, to examine the causes of their victories and defeat, so as to avoid the latter and imitate the former; and above all do as an illustrious man did, who took as an exemplar one who had been praised and famous before him, and whose achievements and deeds he always kept in his mind, as it is said Alexander the Great imitated Achilles, Caesar Alexander, Scipio Cyrus. And whoever reads the life of Cyrus, written by Xenophon, will recognize afterwards in the life of Scipio how that imitation was his glory, and how in chastity, affability, humanity, and liberality Scipio conformed to those things which have been written of Cyrus by Xenophon. A wise prince ought to observe some such rules, and never in peaceful times stand idle, but increase his resources with industry in such a way that they may be available to him in adversity, so that if fortune chances it may find him prepared to resist her blows.",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "Albrecht Dürer, Saint Jerome in His Study, 1514 · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter XV",
@@ -819,11 +819,11 @@
    "quote": "how one lives is so far distant from how one ought to live, that he who neglects what is done for what ought to be done, sooner effects his ruin than his preservation",
    "qMean": "Real life is very different from how life should be; ignoring that ruins you.",
    "qLife": "Plans built on 'everyone will be on time' fall apart in real traffic.",
-   "img": "prince_27",
+   "img": "",
    "link": "From armies to character. The famous turn: how a ruler should behave, as things really are.",
    "orig": "It remains now to see what ought to be the rules of conduct for a prince towards subject and friends. And as I know that many have written on this point, I expect I shall be considered presumptuous in mentioning it again, especially as in discussing it I shall depart from the methods of other people. But, it being my intention to write a thing which shall be useful to him who apprehends it, it appears to me more appropriate to follow up the real truth of the matter than the imagination of it; for many have pictured republics and principalities which in fact have never been known or seen, because how one lives is so far distant from how one ought to live, that he who neglects what is done for what ought to be done, sooner effects his ruin than his preservation; for a man who wishes to act entirely up to his professions of virtue soon meets with what destroys him among so much that is evil.",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "Albrecht Dürer, Saint Jerome in His Study, 1514 · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter XV",
@@ -833,10 +833,10 @@
    "quote": "it is necessary for a prince wishing to hold his own to know how to do wrong, and to make use of it or not according to necessity",
    "qMean": "To survive, a leader must know how to do wrong and use it only when needed.",
    "qLife": "A good negotiator knows the tricks even if they rarely use them.",
-   "img": "prince_28",
+   "img": "",
    "orig": "Hence it is necessary for a prince wishing to hold his own to know how to do wrong, and to make use of it or not according to necessity. Therefore, putting on one side imaginary things concerning a prince, and discussing those which are real, I say that all men when they are spoken of, and chiefly princes for being more highly placed, are remarkable for some of those qualities which bring them either blame or praise; and thus it is that one is reputed liberal, another miserly, using a Tuscan term (because an avaricious person in our language is still he who desires to possess by robbery, whilst we call one miserly who deprives himself too much of the use of his own); one is reputed generous, one rapacious; one cruel, one compassionate; one faithless, another faithful; one effeminate and cowardly, another bold and brave; one affable, another haughty; one lascivious, another chaste; one sincere, another cunning; one hard, another easy; one grave, another frivolous; one religious, another unbelieving, and the like. And I know that every one will confess that it would be most praiseworthy in a prince to exhibit all the above qualities that are considered good; …",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "Janus and the Four Seasons · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter XV",
@@ -846,10 +846,10 @@
    "quote": "avoid the reproach of those vices which would lose him his state",
    "qMean": "Above all, avoid the faults that would cost you your position.",
    "qLife": "A manager can be moody, but cannot be caught stealing.",
-   "img": "prince_69",
+   "img": "",
    "orig": "… one sincere, another cunning; one hard, another easy; one grave, another frivolous; one religious, another unbelieving, and the like. And I know that every one will confess that it would be most praiseworthy in a prince to exhibit all the above qualities that are considered good; but because they can neither be entirely possessed nor observed, for human conditions do not permit it, it is necessary for him to be sufficiently prudent that he may know how to avoid the reproach of those vices which would lose him his state; and also to keep himself, if it be possible, from those which would not lose him it; but this not being possible, he may with less hesitation abandon himself to them. And again, he need not make himself uneasy at incurring a reproach for those vices without which the state can only be saved with difficulty, for if everything is considered carefully, it will be found that something which looks like virtue, if followed, would be his ruin; whilst something else, which looks like vice, yet followed brings him security and prosperity.",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "Diligence, from Virtues and Vices · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter XVI",
@@ -859,11 +859,11 @@
    "quote": "there is nothing wastes so rapidly as liberality, for even whilst you exercise it you lose the power to do so",
    "qMean": "Spending freely to look generous quickly drains you.",
    "qLife": "Paying for everyone's dinner every week empties your wallet fast.",
-   "img": "prince_29",
+   "img": "",
    "link": "The first quality on trial: generosity, the virtue everyone praises.",
    "orig": "And there is nothing wastes so rapidly as liberality, for even whilst you exercise it you lose the power to do so, and so become either poor or despised, or else, in avoiding poverty, rapacious and hated. And a prince should guard himself, above all things, against being despised and hated; and liberality leads you to both. Therefore it is wiser to have a reputation for meanness which brings reproach without hatred, than to be compelled through seeking a reputation for liberality to incur a name for rapacity which begets reproach with hatred.",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "Quentin Massys, The Moneylender and his Wife, 1514 · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter XVI",
@@ -873,10 +873,10 @@
    "quote": "a prince should guard himself, above all things, against being despised and hated; and liberality leads you to both",
    "qMean": "Above all avoid being hated or looked down on; showy generosity leads to both.",
    "qLife": "The boss who hands out favours, then cuts them, ends up resented.",
-   "img": "prince_30",
+   "img": "",
    "orig": "And there is nothing wastes so rapidly as liberality, for even whilst you exercise it you lose the power to do so, and so become either poor or despised, or else, in avoiding poverty, rapacious and hated. And a prince should guard himself, above all things, against being despised and hated; and liberality leads you to both. Therefore it is wiser to have a reputation for meanness which brings reproach without hatred, than to be compelled through seeking a reputation for liberality to incur a name for rapacity which begets reproach with hatred.",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "Andrea Mantegna - The Triumphs of Caesar - Trumpeters and Standard-Bearer · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter XVII",
@@ -886,11 +886,11 @@
    "quote": "a prince, so long as he keeps his subjects united and loyal, ought not to mind the reproach of cruelty",
    "qMean": "A ruler who keeps people safe and united shouldn't worry about being called harsh.",
    "qLife": "A strict teacher whose class does well is respected, even if called tough.",
-   "img": "prince_31",
+   "img": "",
    "link": "Generosity can ruin you. Next on trial: mercy and cruelty, and the old question of love or fear.",
    "orig": "Coming now to the other qualities mentioned above, I say that every prince ought to desire to be considered clement and not cruel. Nevertheless he ought to take care not to misuse this clemency. Cesare Borgia was considered cruel; notwithstanding, his cruelty reconciled the Romagna, unified it, and restored it to peace and loyalty. And if this be rightly considered, he will be seen to have been much more merciful than the Florentine people, who, to avoid a reputation for cruelty, permitted Pistoia to be destroyed. Therefore a prince, so long as he keeps his subjects united and loyal, ought not to mind the reproach of cruelty; because with a few examples he will be more merciful than those who, through too much mercy, allow disorders to arise, from which follow murders or robberies; for these are wont to injure the whole people, whilst those executions which originate with a prince offend the individual only.",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "Beheading of John the Baptist, woodcut · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter XVII",
@@ -900,10 +900,10 @@
    "quote": "it is much safer to be feared than loved, when, of the two, either must be dispensed with",
    "qMean": "If you can't have both, it's safer to be feared than loved.",
    "qLife": "Students obey the strict teacher's deadline more reliably than the friendly one's.",
-   "img": "prince_32",
+   "img": "",
    "orig": "Upon this a question arises: whether it be better to be loved than feared or feared than loved? It may be answered that one should wish to be both, but, because it is difficult to unite them in one person, it is much safer to be feared than loved, when, of the two, either must be dispensed with. Because this is to be asserted in general of men, that they are ungrateful, fickle, false, cowardly, covetous, and as long as you succeed they are yours entirely; they will offer you their blood, property, life, and children, as is said above, when the need is far distant; but when it approaches they turn against you. And that prince who, relying entirely on their promises, has neglected other precautions, is ruined; because friendships that are obtained by payments, and not by greatness or nobility of mind, may indeed be earned, but they are not secured, and in time of need cannot be relied upon; and men have less scruple in offending one who is beloved than one who is feared, for love is preserved by the link of obligation which, owing to the baseness of men, is broken at every opportunity for their advantage; but fear preserves you by a dread of punishment which never fails.",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "Genealogy of Emperor Maximilian I · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter XVII",
@@ -913,10 +913,10 @@
    "quote": "inhuman cruelty, which, with his boundless valour, made him revered and terrible in the sight of his soldiers",
    "qMean": "His harshness, together with his courage, made his soldiers respect and fear him.",
    "qLife": "A strict coach whose team never falls apart may be strict for exactly that reason.",
-   "img": "prince_70",
+   "img": "",
    "orig": "Among the wonderful deeds of Hannibal this one is enumerated: that having led an enormous army, composed of many various races of men, to fight in foreign lands, no dissensions arose either among them or against the prince, whether in his bad or in his good fortune. This arose from nothing else than his inhuman cruelty, which, with his boundless valour, made him revered and terrible in the sight of his soldiers, but without that cruelty, his other virtues were not sufficient to produce this effect. And short-sighted writers admire his deeds from one point of view and from another condemn the principal cause of them. That it is true his other virtues would not have been sufficient for him may be proved by the case of Scipio, that most excellent man, not only of his own times but within the memory of man, against whom, nevertheless, his army rebelled in Spain; this arose from nothing but his too great forbearance, which gave his soldiers more license than is consistent with military discipline. For this he was upbraided in the Senate by Fabius Maximus, and called the corrupter of the Roman soldiery. …",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "John Cousen after Turner, Hannibal Crossing the Alps · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter XVII",
@@ -926,10 +926,10 @@
    "quote": "men more quickly forget the death of their father than the loss of their patrimony",
    "qMean": "People forgive a death sooner than the loss of their property.",
    "qLife": "Families fight longer over an inheritance than over the funeral.",
-   "img": "prince_33",
+   "img": "",
    "orig": "Nevertheless a prince ought to inspire fear in such a way that, if he does not win love, he avoids hatred; because he can endure very well being feared whilst he is not hated, which will always be as long as he abstains from the property of his citizens and subjects and from their women. But when it is necessary for him to proceed against the life of someone, he must do it on proper justification and for manifest cause, but above all things he must keep his hands off the property of others, because men more quickly forget the death of their father than the loss of their patrimony. Besides, pretexts for taking away the property are never wanting; for he who has once begun to live by robbery will always find pretexts for seizing what belongs to others; but reasons for taking life, on the contrary, are more difficult to find and sooner lapse. But when a prince is with his army, and has under control a multitude of soldiers, then it is quite necessary for him to disregard the reputation of cruelty, for without it he would never hold his army united or disposed to its duties.",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "Rembrandt Harmensz van Rijn - Return of the Prodigal Son · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter XVIII",
@@ -939,11 +939,11 @@
    "quote": "it is necessary to be a fox to discover the snares and a lion to terrify the wolves",
    "qMean": "Be clever like a fox to spot traps, and strong like a lion to scare off enemies.",
    "qLife": "Read the contract's fine print, and also have the confidence to walk away.",
-   "img": "prince_34",
+   "img": "",
    "link": "If fear can be useful, what about lies? Should a prince keep his word?",
    "orig": "… This has been figuratively taught to princes by ancient writers, who describe how Achilles and many other princes of old were given to the Centaur Chiron to nurse, who brought them up in his discipline; which means solely that, as they had for a teacher one who was half beast and half man, so it is necessary for a prince to know how to make use of both natures, and that one without the other is not durable. A prince, therefore, being compelled knowingly to adopt the beast, ought to choose the fox and the lion; because the lion cannot defend himself against snares and the fox cannot defend himself against wolves. Therefore, it is necessary to be a fox to discover the snares and a lion to terrify the wolves. Those who rely simply on the lion do not understand what they are about. Therefore a wise lord cannot, nor ought he to, keep faith when such observance may be turned against him, and when the reasons that caused him to pledge it exist no longer. If men were entirely good this precept would not hold, but because they are bad, and will not keep faith with you, you too are not bound to observe it with them. Nor will there ever be wanting to a prince legitimate reasons to excuse this non-observance. …",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "A fox, engraving · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter XVIII",
@@ -953,10 +953,10 @@
    "quote": "a wise lord cannot, nor ought he to, keep faith when such observance may be turned against him",
    "qMean": "A smart leader needn't keep a promise that would now harm him.",
    "qLife": "A business drops a deal when the partner has already broken their side.",
-   "img": "prince_35",
+   "img": "",
    "orig": "… which means solely that, as they had for a teacher one who was half beast and half man, so it is necessary for a prince to know how to make use of both natures, and that one without the other is not durable. A prince, therefore, being compelled knowingly to adopt the beast, ought to choose the fox and the lion; because the lion cannot defend himself against snares and the fox cannot defend himself against wolves. Therefore, it is necessary to be a fox to discover the snares and a lion to terrify the wolves. Those who rely simply on the lion do not understand what they are about. Therefore a wise lord cannot, nor ought he to, keep faith when such observance may be turned against him, and when the reasons that caused him to pledge it exist no longer. If men were entirely good this precept would not hold, but because they are bad, and will not keep faith with you, you too are not bound to observe it with them. Nor will there ever be wanting to a prince legitimate reasons to excuse this non-observance. Of this endless modern examples could be given, showing how many treaties and engagements have been made void and of no effect through the faithlessness of princes; and he who has known best how to employ the fox has succeeded best.",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "Conrad Ermisch - Pazzi conspiracy in 1478 · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter XVIII",
@@ -966,10 +966,10 @@
    "quote": "Every one sees what you appear to be, few really know what you are",
    "qMean": "Everyone sees your image; very few know who you really are.",
    "qLife": "Social media shows the holiday photos, not the arguments.",
-   "img": "prince_36",
+   "img": "",
    "orig": "For this reason a prince ought to take care that he never lets anything slip from his lips that is not replete with the above-named five qualities, that he may appear to him who sees and hears him altogether merciful, faithful, humane, upright, and religious. There is nothing more necessary to appear to have than this last quality, inasmuch as men judge generally more by the eye than by the hand, because it belongs to everybody to see you, to few to come in touch with you. Every one sees what you appear to be, few really know what you are, and those few dare not oppose themselves to the opinion of the many, who have the majesty of the state to defend them; and in the actions of all men, and especially of princes, which it is not prudent to challenge, one judges by the result.",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "Portrait of Niccolò Machiavelli by Santi di Tito · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter XVIII",
@@ -979,10 +979,10 @@
    "quote": "men judge generally more by the eye than by the hand",
    "qMean": "People judge by what they see, not by what they can touch or test.",
    "qLife": "A nicely packaged product sells better than a better product in a plain box.",
-   "img": "prince_37",
+   "img": "",
    "orig": "For this reason a prince ought to take care that he never lets anything slip from his lips that is not replete with the above-named five qualities, that he may appear to him who sees and hears him altogether merciful, faithful, humane, upright, and religious. There is nothing more necessary to appear to have than this last quality, inasmuch as men judge generally more by the eye than by the hand, because it belongs to everybody to see you, to few to come in touch with you. Every one sees what you appear to be, few really know what you are, and those few dare not oppose themselves to the opinion of the many, who have the majesty of the state to defend them; and in the actions of all men, and especially of princes, which it is not prudent to challenge, one judges by the result.",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "Mantegna, Caesar on his chariot, from The Triumphs of Caesar · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter XIX",
@@ -992,11 +992,11 @@
    "quote": "It makes him contemptible to be considered fickle, frivolous, effeminate, mean-spirited, irresolute",
    "qMean": "Being changeable, silly or indecisive makes people look down on you.",
    "qLife": "A leader who changes the plan every day loses the team's respect.",
-   "img": "prince_38",
+   "img": "",
    "link": "All these qualities serve one goal: not to be hated or despised. This chapter gathers the threads.",
    "orig": "It makes him contemptible to be considered fickle, frivolous, effeminate, mean-spirited, irresolute, from all of which a prince should guard himself as from a rock; and he should endeavour to show in his actions greatness, courage, gravity, and fortitude; and in his private dealings with his subjects let him show that his judgments are irrevocable, and maintain himself in such reputation that no one can hope either to deceive him or to get round him.",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "The Ship of Fools, woodcut · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter XIX",
@@ -1006,10 +1006,10 @@
    "quote": "one of the most efficacious remedies that a prince can have against conspiracies is not to be hated and despised by the people",
    "qMean": "The best protection against plots is not being hated by ordinary people.",
    "qLife": "A well-liked manager hears about trouble before it starts.",
-   "img": "prince_39",
+   "img": "",
    "orig": "But concerning his subjects, when affairs outside are disturbed he has only to fear that they will conspire secretly, from which a prince can easily secure himself by avoiding being hated and despised, and by keeping the people satisfied with him, which it is most necessary for him to accomplish, as I said above at length. And one of the most efficacious remedies that a prince can have against conspiracies is not to be hated and despised by the people, for he who conspires against a prince always expects to please them by his removal; but when the conspirator can only look forward to offending them, he will not have the courage to take such a course, for the difficulties that confront a conspirator are infinite. And as experience shows, many have been the conspiracies, but few have been successful; because he who conspires cannot act alone, nor can he take a companion except from those whom he believes to be malcontents, and as soon as you have opened your mind to a malcontent you have given him the material with which to content himself, for by denouncing you he can look for every advantage; …",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "Gunpowder Plot conspirators · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter XIX",
@@ -1019,10 +1019,10 @@
    "quote": "princes ought to leave affairs of reproach to the management of others, and keep those of grace in their own hands",
    "qMean": "Let others deliver bad news; keep the pleasant tasks for yourself.",
    "qLife": "The CEO announces bonuses; HR announces the layoffs.",
-   "img": "prince_40",
+   "img": "",
    "orig": "Among the best ordered and governed kingdoms of our times is France, and in it are found many good institutions on which depend the liberty and security of the king; of these the first is the parliament and its authority, because he who founded the kingdom, knowing the ambition of the nobility and their boldness, considered that a bit to their mouths would be necessary to hold them in; and, on the other side, knowing the hatred of the people, founded in fear, against the nobles, he wished to protect them, yet he was not anxious for this to be the particular care of the king; therefore, to take away the reproach which he would be liable to from the nobles for favouring the people, and from the people for favouring the nobles, he set up an arbiter, who should be one who could beat down the great and favour the lesser without reproach to the king. Neither could you have a better or a more prudent arrangement, or a greater source of security to the king and kingdom. From this one can draw another important conclusion, that princes ought to leave affairs of reproach to the management of others, and keep those of grace in their own hands. And further, I consider that a prince ought to cherish the nobles, but not so as to make himself hated by the people.",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "Voyage Gênes Marot Louis XII · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter XX",
@@ -1032,11 +1032,11 @@
    "quote": "the best possible fortress is—not to be hated by the people",
    "qMean": "The best defence is not being hated by your own people.",
    "qLife": "A shop owner liked by the street has neighbours who watch the shop.",
-   "img": "prince_41",
+   "img": "",
    "link": "How to stay safe in practice: weapons, fortresses, and dividing your enemies.",
    "orig": "… And this question can be reasoned thus: the prince who has more to fear from the people than from foreigners ought to build fortresses, but he who has more to fear from foreigners than from the people ought to leave them alone. The castle of Milan, built by Francesco Sforza, has made, and will make, more trouble for the house of Sforza than any other disorder in the state. For this reason the best possible fortress is—not to be hated by the people, because, although you may hold the fortresses, yet they will not save you if the people hate you, for there will never be wanting foreigners to assist a people who have taken arms against you. It has not been seen in our times that such fortresses have been of use to any prince, unless to the Countess of Forli, when the Count Girolamo, her consort, was killed; for by that means she was able to withstand the popular attack and wait for assistance from Milan, and thus recover her state; and the posture of affairs was such at that time that the foreigners could not assist the people. …",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "Badingen Castle Merian 1650 · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter XX",
@@ -1046,10 +1046,10 @@
    "quote": "There never was a new prince who has disarmed his subjects",
    "qMean": "No wise new ruler takes weapons away from his people.",
    "qLife": "A new team lead who shares real responsibility wins loyalty faster than one who takes it away.",
-   "img": "prince_71",
+   "img": "",
    "orig": "2. There never was a new prince who has disarmed his subjects; rather when he has found them disarmed he has always armed them, because, by arming them, those arms become yours, those men who were distrusted become faithful, and those who were faithful are kept so, and your subjects become your adherents. And whereas all subjects cannot be armed, yet when those whom you do arm are benefited, the others can be handled more freely, and this difference in their treatment, which they quite understand, makes the former your dependents, and the latter, considering it to be necessary that those who have the most danger and service should have the most reward, excuse you. But when you disarm them, you at once offend them by showing that you distrust them, either for cowardice or for want of loyalty, and either of these opinions breeds hatred against you. And because you cannot remain unarmed, it follows that you turn to mercenaries, which are of the character already shown; even if they should be good they would not be sufficient to defend you against powerful enemies and distrusted subjects. …",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "Hans Holbein workshop, two Swiss soldiers · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter XX",
@@ -1059,10 +1059,10 @@
    "quote": "when the enemy comes upon you in divided cities you are quickly lost",
    "qMean": "A divided city falls quickly when an enemy attacks.",
    "qLife": "A family that fights among itself is easy for outsiders to cheat.",
-   "img": "prince_72",
+   "img": "",
    "orig": "… Our forefathers, and those who were reckoned wise, were accustomed to say that it was necessary to hold Pistoia by factions and Pisa by fortresses; and with this idea they fostered quarrels in some of their tributary towns so as to keep possession of them the more easily. This may have been well enough in those times when Italy was in a way balanced, but I do not believe that it can be accepted as a precept for to-day, because I do not believe that factions can ever be of use; rather it is certain that when the enemy comes upon you in divided cities you are quickly lost, because the weakest party will always assist the outside forces and the other will not be able to resist. The Venetians, moved, as I believe, by the above reasons, fostered the Guelph and Ghibelline factions in their tributary cities; and although they never allowed them to come to bloodshed, yet they nursed these disputes amongst them, so that the citizens, distracted by their differences, should not unite against them. Which, as we saw, did not afterwards turn out as expected, because, after the rout at Vaila, one party at once took courage and seized the state. …",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "Rubens after Leonardo, The Battle of Anghiari · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter XXI",
@@ -1072,11 +1072,11 @@
    "quote": "Nothing makes a prince so much esteemed as great enterprises and setting a fine example",
    "qMean": "Nothing earns respect like big achievements and setting an example.",
    "qLife": "The team respects the captain who scored the winning goal.",
-   "img": "prince_42",
+   "img": "",
    "link": "Safety is not enough. How does a prince win real esteem?",
    "orig": "Nothing makes a prince so much esteemed as great enterprises and setting a fine example. We have in our time Ferdinand of Aragon, the present King of Spain. He can almost be called a new prince, because he has risen, by fame and glory, from being an insignificant king to be the foremost king in Christendom; and if you will consider his deeds you will find them all great and some of them extraordinary. In the beginning of his reign he attacked Granada, and this enterprise was the foundation of his dominions. He did this quietly at first and without any fear of hindrance, for he held the minds of the barons of Castile occupied in thinking of the war and not anticipating any innovations; thus they did not perceive that by these means he was acquiring power and authority over them. He was able with the money of the Church and of the people to sustain his armies, and by that long war to lay the foundation for the military skill which has since distinguished him. Further, always using religion as a plea, so as to undertake greater schemes, he devoted himself with pious cruelty to driving out and clearing his kingdom of the Moors; …",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "Ferdinand of Aragon, Isabella of Castile · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter XXI",
@@ -1086,10 +1086,10 @@
    "quote": "irresolute princes, to avoid present dangers, generally follow the neutral path, and are generally ruined",
    "qMean": "Leaders who can't decide stay neutral to avoid trouble, and usually lose anyway.",
    "qLife": "The friend who won't take a side in a fight ends up trusted by neither.",
-   "img": "prince_43",
+   "img": "",
    "orig": "… This question came to be discussed in the council of the Achaeans, where the legate of Antiochus urged them to stand neutral. To this the Roman legate answered: “As for that which has been said, that it is better and more advantageous for your state not to interfere in our war, nothing can be more erroneous; because by not interfering you will be left, without favour or consideration, the guerdon of the conqueror.” Thus it will always happen that he who is not your friend will demand your neutrality, whilst he who is your friend will entreat you to declare yourself with arms. And irresolute princes, to avoid present dangers, generally follow the neutral path, and are generally ruined. But when a prince declares himself gallantly in favour of one side, if the party with whom he allies himself conquers, although the victor may be powerful and may have him at his mercy, yet he is indebted to him, and there is established a bond of amity; and men are never so shameless as to become a monument of ingratitude by oppressing you. Victories after all are never so complete that the victor must not show some regard, especially to justice. But if he with whom you ally yourself loses, you may be sheltered by him, and whilst he is able he may aid you, and you become companions on a fortune that may rise again.",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "Battle of Ravenna (1512) · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter XXI",
@@ -1099,10 +1099,10 @@
    "quote": "A prince ought also to show himself a patron of ability",
    "qMean": "A leader should support and reward talented people.",
    "qLife": "A city that gives awards to its best teachers gets more good teachers.",
-   "img": "prince_73",
+   "img": "",
    "orig": "A prince ought also to show himself a patron of ability, and to honour the proficient in every art. At the same time he should encourage his citizens to practise their callings peaceably, both in commerce and agriculture, and in every other following, so that the one should not be deterred from improving his possessions for fear lest they be taken away from him or another from opening up trade for fear of taxes; but the prince ought to offer rewards to whoever wishes to do these things and designs in any way to honour his city or state.",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "Saint Eligius in his goldsmith's workshop · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter XXII",
@@ -1112,11 +1112,11 @@
    "quote": "the first opinion which one forms of a prince, and of his understanding, is by observing the men he has around him",
    "qMean": "You judge a leader first by the people they keep around them.",
    "qLife": "You can tell a lot about a startup founder from who they hire.",
-   "img": "prince_44",
+   "img": "",
    "link": "A prince is judged by the people around him. First, the ministers he chooses.",
    "orig": "The choice of servants is of no little importance to a prince, and they are good or not according to the discrimination of the prince. And the first opinion which one forms of a prince, and of his understanding, is by observing the men he has around him; and when they are capable and faithful he may always be considered wise, because he has known how to recognize the capable and to keep them faithful. But when they are otherwise one cannot form a good opinion of him, for the prime error which he made was in choosing them.",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "Justinian in Council · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter XXII",
@@ -1126,10 +1126,10 @@
    "quote": "there are three classes of intellects",
    "qMean": "People's minds come in three kinds.",
    "qLife": "Some people invent, some can learn from a good teacher, and some won't learn either way.",
-   "img": "prince_74",
+   "img": "",
    "orig": "There were none who knew Messer Antonio da Venafro as the servant of Pandolfo Petrucci, Prince of Siena, who would not consider Pandolfo to be a very clever man in having Venafro for his servant. Because there are three classes of intellects: one which comprehends by itself; another which appreciates what others comprehended; and a third which neither comprehends by itself nor by the showing of others; the first is the most excellent, the second is good, the third is useless. Therefore, it follows necessarily that, if Pandolfo was not in the first rank, he was in the second, for whenever one has judgment to know good and bad when it is said and done, although he himself may not have the initiative, yet he can recognize the good and the bad in his servant, and the one he can praise and the other correct; thus the servant cannot hope to deceive him, and is kept honest.",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "Raphael, The School of Athens · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter XXIII",
@@ -1139,11 +1139,11 @@
    "quote": "there is no other way of guarding oneself from flatterers except letting men understand that to tell you the truth does not offend you",
    "qMean": "The only defence against flatterers is letting people know honesty won't anger you.",
    "qLife": "A good boss says 'tell me the bad news first' and means it.",
-   "img": "prince_45",
+   "img": "",
    "link": "Good ministers bring a danger with them: the flatterers who crowd every court.",
    "orig": "I do not wish to leave out an important branch of this subject, for it is a danger from which princes are with difficulty preserved, unless they are very careful and discriminating. It is that of flatterers, of whom courts are full, because men are so self-complacent in their own affairs, and in a way so deceived in them, that they are preserved with difficulty from this pest, and if they wish to defend themselves they run the danger of falling into contempt. Because there is no other way of guarding oneself from flatterers except letting men understand that to tell you the truth does not offend you; but when every one may tell you the truth, respect for you abates.",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "The Fool, engraving · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter XXIII",
@@ -1153,10 +1153,10 @@
    "quote": "liberty of speaking the truth to him",
    "qMean": "Let a few trusted people speak honestly to you.",
    "qLife": "A good captain asks the senior players for honest advice, then makes the call alone.",
-   "img": "prince_75",
+   "img": "",
    "orig": "Therefore a wise prince ought to hold a third course by choosing the wise men in his state, and giving to them only the liberty of speaking the truth to him, and then only of those things of which he inquires, and of none others; but he ought to question them upon everything, and listen to their opinions, and afterwards form his own conclusions. With these councillors, separately and collectively, he ought to carry himself in such a way that each of them should know that, the more freely he shall speak, the more he shall be preferred; outside of these, he should listen to no one, pursue the thing resolved on, and be steadfast in his resolutions. He who does otherwise is either overthrown by flatterers, or is so often changed by varying opinions that he falls into contempt.",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "A king's council of war, from Der Weisskunig · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter XXIII",
@@ -1166,10 +1166,10 @@
    "quote": "good counsels, whencesoever they come, are born of the wisdom of the prince, and not the wisdom of the prince from good counsels",
    "qMean": "Good advice only helps a leader who is wise enough to recognise it.",
    "qLife": "A great coach's tips are wasted on a player who won't listen.",
-   "img": "prince_46",
+   "img": "",
    "orig": "But if a prince who is not inexperienced should take counsel from more than one he will never get united counsels, nor will he know how to unite them. Each of the counsellors will think of his own interests, and the prince will not know how to control them or to see through them. And they are not to be found otherwise, because men will always prove untrue to you unless they are kept honest by constraint. Therefore it must be inferred that good counsels, whencesoever they come, are born of the wisdom of the prince, and not the wisdom of the prince from good counsels.",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "Hans Holbein d. J. - Portrait of Erasmus of Rotterdam Writing · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter XXIV",
@@ -1179,11 +1179,11 @@
    "quote": "it is a common defect in man not to make any provision in the calm against the tempest",
    "qMean": "People rarely prepare for bad times while things are calm.",
    "qLife": "Nobody saves an emergency fund until the car breaks down.",
-   "img": "prince_47",
+   "img": "",
    "link": "The advice is complete. Machiavelli asks why Italy's princes lost their states anyway.",
    "orig": "Therefore, do not let our princes accuse fortune for the loss of their principalities after so many years’ possession, but rather their own sloth, because in quiet times they never thought there could be a change (it is a common defect in man not to make any provision in the calm against the tempest), and when afterwards the bad times came they thought of flight and not of defending themselves, and they hoped that the people, disgusted with the insolence of the conquerors, would recall them. This course, when others fail, may be good, but it is very bad to have neglected all other expedients for that, since you would never wish to fall because you trusted to be able to find someone later on to restore you. This again either does not happen, or, if it does, it will not be for your security, because that deliverance is of no avail which does not depend upon yourself; those only are reliable, certain, and durable that depend on yourself and your valour.",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "A Ship in a Rough Sea · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter XXIV",
@@ -1193,10 +1193,10 @@
    "quote": "those only are reliable, certain, and durable that depend on yourself and your valour",
    "qMean": "The only protection you can count on is the one you build yourself.",
    "qLife": "Savings in your own account are safer than a friend's promise to lend you money someday.",
-   "img": "prince_76",
+   "img": "",
    "orig": "Therefore, do not let our princes accuse fortune for the loss of their principalities after so many years’ possession, but rather their own sloth, because in quiet times they never thought there could be a change (it is a common defect in man not to make any provision in the calm against the tempest), and when afterwards the bad times came they thought of flight and not of defending themselves, and they hoped that the people, disgusted with the insolence of the conquerors, would recall them. This course, when others fail, may be good, but it is very bad to have neglected all other expedients for that, since you would never wish to fall because you trusted to be able to find someone later on to restore you. This again either does not happen, or, if it does, it will not be for your security, because that deliverance is of no avail which does not depend upon yourself; those only are reliable, certain, and durable that depend on yourself and your valour.",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "Castel Sant'Angelo, Rome · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter XXV",
@@ -1206,11 +1206,11 @@
    "quote": "Fortune is the arbiter of one-half of our actions",
    "qMean": "Luck controls about half of what happens to us; the rest is up to us.",
    "qLife": "You can't control the exam questions, but you can control how much you study.",
-   "img": "prince_48",
+   "img": "",
    "link": "They blame fortune. How much of life does fortune really rule?",
    "orig": "It is not unknown to me how many men have had, and still have, the opinion that the affairs of the world are in such wise governed by fortune and by God that men with their wisdom cannot direct them and that no one can even help them; and because of this they would have us believe that it is not necessary to labour much in affairs, but to let chance govern them. This opinion has been more credited in our times because of the great changes in affairs which have been seen, and may still be seen, every day, beyond all human conjecture. Sometimes pondering over this, I am in some degree inclined to their opinion. Nevertheless, not to extinguish our free will, I hold it to be true that Fortune is the arbiter of one-half of our actions, but that she still leaves us to direct the other half, or perhaps a little less.",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "Virgil Solis, The Deluge · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter XXV",
@@ -1220,10 +1220,10 @@
    "quote": "he will be successful who directs his actions according to the spirit of the times",
    "qMean": "Success comes to those who act in a way that suits the times.",
    "qLife": "Shops that started selling online early did well when the lockdowns came.",
-   "img": "prince_49",
+   "img": "",
    "orig": "But confining myself more to the particular, I say that a prince may be seen happy to-day and ruined to-morrow without having shown any change of disposition or character. This, I believe, arises firstly from causes that have already been discussed at length, namely, that the prince who relies entirely on fortune is lost when it changes. I believe also that he will be successful who directs his actions according to the spirit of the times, and that he whose actions do not accord with the times will not be successful. Because men are seen, in affairs that lead to the end which every man has before him, namely, glory and riches, to get there by various methods; one with caution, another with haste; one by force, another by skill; one by patience, another by its opposite; and each one succeeds in reaching the goal by a different method. One can also see of two cautious men the one attain his end, the other fail; and similarly, two men by different observances are equally successful, the one being cautious, the other impetuous; all this arises from nothing else than whether or not they conform in their methods to the spirit of the times. …",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "Dürer, Time and a Fox Turning the Wheel of Fortune · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter XXV",
@@ -1233,10 +1233,10 @@
    "quote": "it is better to be adventurous than cautious",
    "qMean": "Taking a bold risk is usually better than being too careful.",
    "qLife": "Applying for the job you're not sure you'll get beats never applying.",
-   "img": "prince_50",
+   "img": "",
    "orig": "I conclude, therefore that, fortune being changeful and mankind steadfast in their ways, so long as the two are in agreement men are successful, but unsuccessful when they fall out. For my part I consider that it is better to be adventurous than cautious, because fortune is a woman, and if you wish to keep her under it is necessary to beat and ill-use her; and it is seen that she allows herself to be mastered by the adventurous rather than by those who go to work more coldly. She is, therefore, always, woman-like, a lover of young men, because they are less cautious, more violent, and with more audacity command her.",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "Pope Julius II · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter XXVI",
@@ -1246,11 +1246,11 @@
    "quote": "To all of us this barbarous dominion stinks.",
    "qMean": "Everyone is sick of this foreign domination.",
    "qLife": "The whole neighbourhood is fed up with the noisy factory and wants change.",
-   "img": "prince_51",
+   "img": "",
    "link": "The book ends where it was always going: a call to free Italy.",
    "orig": "This opportunity, therefore, ought not to be allowed to pass for letting Italy at last see her liberator appear. Nor can one express the love with which he would be received in all those provinces which have suffered so much from these foreign scourings, with what thirst for revenge, with what stubborn faith, with what devotion, with what tears. What door would be closed to him? Who would refuse obedience to him? What envy would hinder him? What Italian would refuse him homage? To all of us this barbarous dominion stinks. Let, therefore, your illustrious house take up this charge with that courage and hope with which all just enterprises are undertaken, so that under its standard our native country may be ennobled, and under its auspices may be verified that saying of Petrarch:",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "Paolo Monaldi - Peasants near Roman Ruins · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter XXVI",
@@ -1260,10 +1260,10 @@
    "quote": "that war is just which is necessary",
    "qMean": "A war is right when there is truly no other choice.",
    "qLife": "Defending your home from a break-in is different from starting a fight.",
-   "img": "prince_77",
+   "img": "",
    "orig": "With us there is great justice, because that war is just which is necessary, and arms are hallowed when there is no other hope but in them. Here there is the greatest willingness, and where the willingness is great the difficulties cannot be great if you will only follow those men to whom I have directed your attention. Further than this, how extraordinarily the ways of God have been manifested beyond example: the sea is divided, a cloud has led the way, the rock has poured forth water, it has rained manna, everything has contributed to your greatness; you ought to do the rest. God is not willing to do everything, and thus take away our free will and that share of glory which belongs to us.",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "Battle of Fornovo · public domain"
+   "cap": ""
   },
   {
    "ch": "Chapter XXVI",
@@ -1273,10 +1273,10 @@
    "quote": "Virtue against fury shall advance the fight",
    "qMean": "Courage will win against blind rage.",
    "qLife": "A calm team beats an angry one that keeps getting yellow cards.",
-   "img": "prince_52",
+   "img": "",
    "orig": "Virtu contro al Furore Prendera l’arme, e fia il combatter corto: Che l’antico valore Negli italici cuor non e ancor morto.\n\nVirtue against fury shall advance the fight, And it i’ th’ combat soon shall put to flight: For the old Roman valour is not dead, Nor in th’ Italians’ brests extinguished.\n\nEdward Dacre, 1640.\n\nDESCRIPTION OF THE METHODS ADOPTED BY THE DUKE VALENTINO WHEN MURDERING VITELLOZZO VITELLI, OLIVEROTTO DA FERMO, THE SIGNOR PAGOLO, AND THE DUKE DI GRAVINA ORSINI",
    "origFrom": "Niccolò Machiavelli, The Prince (1532)",
-   "cap": "A battle scene (1561) · public domain"
+   "cap": ""
   }
  ]
 }

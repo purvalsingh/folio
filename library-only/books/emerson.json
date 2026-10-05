@@ -8,8 +8,8 @@
  "era": "victorian",
  "shelf": "Love & Human Nature",
  "blurb": "America's great essayist on trusting yourself, on love, and on friendship — short, quotable and fearless.",
- "version": 2,
- "cover": "emerson_cover",
+ "version": 3,
+ "cover": "",
  "glossary": {
   "nonconformist": {
    "m": "Someone who doesn't follow the crowd's rules.",
@@ -35,8 +35,8 @@
    "qLife": "Choosing the career you love over the 'safe' one.",
    "orig": "Trust thyself: every heart vibrates to that iron string. Accept the place the divine providence has found for you, the society of your contemporaries, the connection of events. Great men have always done so, and confided themselves childlike to the genius of their age, betraying their perception that the absolutely trustworthy was seated at their heart, working through their hands, predominating in all their being. And we are now men, and must accept in the highest mind the same transcendent destiny; and not minors and invalids in a protected corner, not cowards fleeing before a revolution, but guides, redeemers and benefactors, obeying the Almighty effort and advancing on Chaos and the Dark.",
    "origFrom": "Ralph Waldo Emerson, Essays: First Series (1841)",
-   "img": "emerson_01",
-   "cap": "Caspar David Friedrich - Wanderer above the sea of fog · public domain"
+   "img": "",
+   "cap": ""
   },
   {
    "ch": "Self-Reliance",
@@ -48,8 +48,8 @@
    "qLife": "Wearing what you like instead of what's trending.",
    "orig": "Whoso would be a man, must be a nonconformist. He who would gather immortal palms must not be hindered by the name of goodness, but must explore if it be goodness. Nothing is at last sacred but the integrity of your own mind. Absolve you to yourself, and you shall have the suffrage of the world. I remember an answer which when quite young I was prompted to make to a valued adviser who was wont to importune me with the dear old doctrines of the church. On my saying, “What have I to do with the sacredness of traditions, if I live wholly from within?” my friend suggested,—“But these impulses may be from below, not from above.” I replied, “They do not seem to me to be such; but if I am the Devil’s child, I will live then from the Devil.” No law can be sacred to me but that of my nature. Good and bad are but names very readily transferable to that or this; the only right is what is after my constitution; the only wrong what is against it. A man is to carry himself in the presence of all opposition as if every thing were titular and ephemeral but he. …",
    "origFrom": "Ralph Waldo Emerson, Essays: First Series (1841)",
-   "img": "emerson_02",
-   "cap": "Walden Pond · public domain"
+   "img": "",
+   "cap": ""
   },
   {
    "ch": "Self-Reliance",
@@ -61,8 +61,8 @@
    "qLife": "Admitting you were wrong about a restaurant after trying it.",
    "orig": "A foolish consistency is the hobgoblin of little minds, adored by little statesmen and philosophers and divines. With consistency a great soul has simply nothing to do. He may as well concern himself with his shadow on the wall. Speak what you think now in hard words and to-morrow speak what to-morrow thinks in hard words again, though it contradict every thing you said to-day.—‘Ah, so you shall be sure to be misunderstood.’—Is it so bad then to be misunderstood? Pythagoras was misunderstood, and Socrates, and Jesus, and Luther, and Copernicus, and Galileo, and Newton, and every pure and wise spirit that ever took flesh. To be great is to be misunderstood.",
    "origFrom": "Ralph Waldo Emerson, Essays: First Series (1841)",
-   "img": "emerson_03",
-   "cap": "Autumn Landscape on the Hudson River, by Jasper Francis Cropsey · public domain"
+   "img": "",
+   "cap": ""
   },
   {
    "ch": "Self-Reliance",
@@ -74,8 +74,8 @@
    "qLife": "An inventor laughed at before the idea succeeds.",
    "orig": "A foolish consistency is the hobgoblin of little minds, adored by little statesmen and philosophers and divines. With consistency a great soul has simply nothing to do. He may as well concern himself with his shadow on the wall. Speak what you think now in hard words and to-morrow speak what to-morrow thinks in hard words again, though it contradict every thing you said to-day.—‘Ah, so you shall be sure to be misunderstood.’—Is it so bad then to be misunderstood? Pythagoras was misunderstood, and Socrates, and Jesus, and Luther, and Copernicus, and Galileo, and Newton, and every pure and wise spirit that ever took flesh. To be great is to be misunderstood.",
    "origFrom": "Ralph Waldo Emerson, Essays: First Series (1841)",
-   "img": "emerson_04",
-   "cap": "Galileo before the Holy Office · public domain"
+   "img": "",
+   "cap": ""
   },
   {
    "ch": "Friendship",
@@ -87,8 +87,8 @@
    "qLife": "Calling to check on someone instead of waiting for them to call.",
    "orig": "… Let us not interfere. Who set you to cast about what you should say to the select souls, or how to say any thing to such? No matter how ingenious, no matter how graceful and bland. There are innumerable degrees of folly and wisdom, and for you to say aught is to be frivolous. Wait, and thy heart shall speak. Wait until the necessary and everlasting overpowers you, until day and night avail themselves of your lips. The only reward of virtue is virtue; the only way to have a friend is to be one. You shall not come nearer a man by getting into his house. If unlike, his soul only flees the faster from you, and you shall never catch a true glance of his eye. We see the noble afar off and they repel us; why should we intrude? Late,—very late,—we perceive that no arrangements, no introductions, no consuetudes or habits of society would be of any avail to establish us in such relations with them as we desire,—but solely the uprise of nature in us to the same degree it is in them; then shall we meet as water with water; and if we should not meet them then, we shall not want them, for we are already they. …",
    "origFrom": "Ralph Waldo Emerson, Essays: First Series (1841)",
-   "img": "emerson_05",
-   "cap": "Two Friends by Oliver Ingraham Lay (1877) · public domain"
+   "img": "",
+   "cap": ""
   },
   {
    "ch": "Love",
@@ -100,8 +100,8 @@
    "qLife": "The whole office smiling at a colleague's engagement news.",
    "orig": "… What books in the circulating libraries circulate? How we glow over these novels of passion, when the story is told with any spark of truth and nature! And what fastens attention, in the intercourse of life, like any passage betraying affection between two parties? Perhaps we never saw them before, and never shall meet them again. But we see them exchange a glance, or betray a deep emotion, and we are no longer strangers. We understand them, and take the warmest interest in the development of the romance. All mankind love a lover. The earliest demonstrations of complacency and kindness are nature’s most winning pictures. It is the dawn of civility and grace in the coarse and rustic. The rude village boy teases the girls about the school-house door;—but to-day he comes running into the entry, and meets one fair child disposing her satchel; he holds her books to help her, and instantly it seems to him as if she removed herself from him infinitely, and was a sacred precinct. Among the throng of girls he runs rudely enough, but one alone distances him; and these two little neighbors, that were so close just now, have learned to respect each other’s personality. …",
    "origFrom": "Ralph Waldo Emerson, Essays: First Series (1841)",
-   "img": "emerson_06",
-   "cap": "Frank Bernard Dicksee - Romeo and Juliet, 1884 · public domain"
+   "img": "",
+   "cap": ""
   }
  ]
 }

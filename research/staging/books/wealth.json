@@ -1,0 +1,99 @@
+{
+ "id": "wealth",
+ "title": "The Wealth of Nations",
+ "short": "Adam Smith",
+ "author": "Adam Smith",
+ "year": "1776",
+ "translator": "Original text, Project Gutenberg #3300",
+ "era": "enlightenment",
+ "shelf": "Fortune & Wealth",
+ "blurb": "Why work becomes productive, why people trade, and why an economy should serve those who use what it makes.",
+ "version": 1,
+ "cover": "wealth_cover",
+ "glossary": {
+  "labour": {
+   "m": "Work that makes goods or provides services.",
+   "e": "The labour of many people builds a house."
+  },
+  "specialization": {
+   "m": "Concentrating on one kind of work.",
+   "e": "Her specialization is repairing old watches."
+  },
+  "benevolence": {
+   "m": "Kindness and desire to help.",
+   "e": "The neighbour's benevolence brought meals to the sick family."
+  },
+  "producers": {
+   "m": "A person or business that makes something to sell.",
+   "e": "The farmer is a producer of wheat.",
+   "root": "producer"
+  }
+ },
+ "cards": [
+  {
+   "ch": "Introduction",
+   "chTitle": "The wealth of a nation",
+   "title": "Where wealth begins",
+   "text": "Smith begins with work, not gold. A country's yearly labour produces what people use, whether made at home or obtained by trade. His question is how that work can supply more people well.",
+   "quote": "The annual labour of every nation is the fund which originally supplies it with all the necessaries and conveniencies of life which it annually consumes",
+   "qMean": "A nation's real supply comes from its work.",
+   "qLife": "A town's bakers, builders and farmers matter more to daily life than its pile of coins.",
+   "orig": "The annual labour of every nation is the fund which originally supplies it with all the necessaries and conveniencies of life which it annually consumes, and which consist always either in the immediate produce of that labour, or in what is purchased with that produce from other nations.\n\nAccording, therefore, as this produce, or what is purchased with it, bears a greater or smaller proportion to the number of those who are to consume it, the nation will be better or worse supplied with all the necessaries and conveniencies for which it has occasion.",
+   "origFrom": "Adam Smith, The Wealth of Nations (1776)",
+   "img": "wealth_01",
+   "cap": "Adam Smith, portrait attributed to the Muir family collection · public domain"
+  },
+  {
+   "ch": "Book I, Chapter I",
+   "chTitle": "Of the Division of Labour",
+   "title": "The pin factory",
+   "text": "One worker could barely make a pin alone. In a small factory, different workers draw wire, straighten it, cut it and shape its head. Together they produce thousands. Smith uses this ordinary object to show why specialization multiplies output.",
+   "quote": "One man draws out the wire; another straights it; a third cuts it; a fourth points it",
+   "qMean": "Dividing a job into steps lets a group make far more.",
+   "qLife": "In a bakery, one person mixes dough while another shapes and another bakes.",
+   "orig": "To take an example, therefore, from a very trifling manufacture, but one in which the division of labour has been very often taken notice of, the trade of a pin-maker: a workman not educated to this business (which the division of labour has rendered a distinct trade), nor acquainted with the use of the machinery employed in it (to the invention of which the same division of labour has probably given occasion), could scarce, perhaps, with his utmost industry, make one pin in a day, and certainly could not make twenty. But in the way in which this business is now carried on, not only the whole work is a peculiar trade, but it is divided into a number of branches, of which the greater part are likewise peculiar trades. One man draws out the wire; another straights it; a third cuts it; a fourth points it; a fifth grinds it at the top for receiving the head; to make the head requires two or three distinct operations; to put it on is a peculiar business; to whiten the pins is another; it is even a trade by itself to put them into the paper; …",
+   "origFrom": "Adam Smith, The Wealth of Nations (1776)",
+   "img": "wealth_02",
+   "cap": "Maritime scene by Ashley Bowen · public domain"
+  },
+  {
+   "ch": "Book I, Chapter II",
+   "chTitle": "Of the Principle Which Gives Occasion to the Division of Labour",
+   "title": "Why the baker feeds us",
+   "text": "People need help from strangers every day. Smith says exchange works because each side can offer the other something wanted. The baker does not have to know you personally to make your dinner.",
+   "quote": "It is not from the benevolence of the butcher, the brewer, or the baker that we expect our dinner, but from their regard to their own interest.",
+   "qMean": "Trade works when both sides see a benefit.",
+   "qLife": "You pay a mechanic to fix your bike; you get a working bike and the mechanic earns a living.",
+   "orig": "… But man has almost constant occasion for the help of his brethren, and it is in vain for him to expect it from their benevolence only. He will be more likely to prevail if he can interest their self-love in his favour, and shew them that it is for their own advantage to do for him what he requires of them. Whoever offers to another a bargain of any kind, proposes to do this. Give me that which I want, and you shall have this which you want, is the meaning of every such offer; and it is in this manner that we obtain from one another the far greater part of those good offices which we stand in need of. It is not from the benevolence of the butcher, the brewer, or the baker that we expect our dinner, but from their regard to their own interest. We address ourselves, not to their humanity, but to their self-love, and never talk to them of our own necessities, but of their advantages. Nobody but a beggar chooses to depend chiefly upon the benevolence of his fellow-citizens. Even a beggar does not depend upon it entirely. The charity of well-disposed people, indeed, supplies him with the whole fund of his subsistence. But though this principle ultimately provides him with all the necessaries of life which he has occasion for, it neither does nor can provide him with them as he has occasion for them. …",
+   "origFrom": "Adam Smith, The Wealth of Nations (1776)",
+   "img": "wealth_03",
+   "cap": "A baker's boy, 19th-century print · public domain"
+  },
+  {
+   "ch": "Book I, Chapter III",
+   "chTitle": "That the Division of Labour Is Limited by the Extent of the Market",
+   "title": "A wider market",
+   "text": "A specialist needs enough customers. A tiny village cannot support as many specialized trades as a large city. Roads, rivers and ships widen the market and let workers concentrate on narrower tasks.",
+   "quote": "the division of labour is limited by the extent of the market",
+   "qMean": "Specialization grows when there are enough buyers.",
+   "qLife": "A niche bookshop can thrive in a large city or online but not in every small village.",
+   "orig": "BOOK I. OF THE CAUSES OF IMPROVEMENT IN THE PRODUCTIVE POWERS OF LABOUR, AND OF THE ORDER ACCORDING TO WHICH ITS PRODUCE IS NATURALLY DISTRIBUTED AMONG THE DIFFERENT RANKS OF THE PEOPLE. CHAPTER I. OF THE DIVISION OF LABOUR. CHAPTER II. OF THE PRINCIPLE WHICH GIVES OCCASION TO THE DIVISION OF LABOUR. CHAPTER III. THAT THE DIVISION OF LABOUR IS LIMITED BY THE EXTENT OF THE MARKET. CHAPTER IV. OF THE ORIGIN AND USE OF MONEY. CHAPTER V. OF THE REAL AND NOMINAL PRICE OF COMMODITIES, OR OF THEIR PRICE IN LABOUR, AND THEIR PRICE IN MONEY. CHAPTER VI. OF THE COMPONENT PART OF THE PRICE OF COMMODITIES. CHAPTER VII. OF THE NATURAL AND MARKET PRICE OF COMMODITIES. CHAPTER VIII. OF THE WAGES OF LABOUR. CHAPTER IX. OF THE PROFITS OF STOCK. CHAPTER X. OF WAGES AND PROFIT IN THE DIFFERENT EMPLOYMENTS OF LABOUR AND STOCK. CHAPTER XI. OF THE RENT OF LAND.",
+   "origFrom": "Adam Smith, The Wealth of Nations (1776)",
+   "img": "wealth_04",
+   "cap": "The Stocks Market, London, painted by Joseph Nickolls · public domain"
+  },
+  {
+   "ch": "Book IV, Chapter VIII",
+   "chTitle": "Conclusion of the Mercantile System",
+   "title": "Production is for people",
+   "text": "Smith turns the argument back to its purpose: goods exist for the people who use them. Rules that protect producers at consumers' expense can defeat the point of production.",
+   "quote": "Consumption is the sole end and purpose of all production",
+   "qMean": "Making goods matters because people need or enjoy them.",
+   "qLife": "A rule that protects one factory but makes essentials unaffordable deserves scrutiny.",
+   "orig": "Consumption is the sole end and purpose of all production; and the interest of the producer ought to be attended to, only so far as it may be necessary for promoting that of the consumer.\n\nThe maxim is so perfectly self-evident, that it would be absurd to attempt to prove it. But in the mercantile system, the interest of the consumer is almost constantly sacrificed to that of the producer; and it seems to consider production, and not consumption, as the ultimate end and object of all industry and commerce.",
+   "origFrom": "Adam Smith, The Wealth of Nations (1776)",
+   "img": "wealth_05",
+   "cap": "The Stocks Market, London, painted by Joseph Nickolls · public domain"
+  }
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "id": "gitanjali",
+ "title": "Gitanjali",
+ "short": "Tagore",
+ "author": "Rabindranath Tagore",
+ "year": "1913",
+ "translator": "Tagore's English version, Project Gutenberg #7164",
+ "era": "modern",
+ "shelf": "Poetry of Life",
+ "blurb": "Songs of devotion, work and shared life in the English collection that brought Tagore a worldwide readership.",
+ "version": 1,
+ "cover": "gitanjali_cover",
+ "glossary": {
+  "vessel": {
+   "m": "A container; here, a symbol for a human life.",
+   "e": "The clay vessel held water for the journey."
+  },
+  "divine": {
+   "m": "Related to God or a sacred power.",
+   "e": "She felt the divine in the music."
+  },
+  "indulgence": {
+   "m": "Patient permission for a small request.",
+   "e": "He asked the teacher's indulgence for one more minute."
+  }
+ },
+ "cards": [
+  {
+   "ch": "Song 1",
+   "chTitle": "A life refilled",
+   "title": "The little flute",
+   "text": "Tagore imagines human life as a small vessel that is emptied and filled again, and as a reed flute played by a larger breath. The image joins fragility with renewal.",
+   "quote": "Thou hast made me endless, such is thy pleasure.",
+   "qMean": "Life feels repeatedly renewed by a power beyond the speaker.",
+   "qLife": "Finding new purpose after a difficult ending.",
+   "orig": "1.\n\nThou hast made me endless, such is thy pleasure. This frail vessel thou emptiest again and again, and fillest it ever with fresh life.\n\nThis little flute of a reed thou hast carried over hills and dales, and hast breathed through it melodies eternally new.\n\nAt the immortal touch of thy hands my little heart loses its limits in joy and gives birth to utterance ineffable.",
+   "origFrom": "Rabindranath Tagore, Gitanjali (English version, 1913)",
+   "img": "gitanjali_01",
+   "cap": "Rabindranath Tagore, photographed in 1909 · public domain"
+  },
+  {
+   "ch": "Song 11",
+   "chTitle": "Prayer in the world",
+   "title": "Leave the closed temple",
+   "text": "The poem asks worshippers to look for the divine among people doing hard everyday work, not only inside a shut temple. Its spiritual lesson leads outward toward others.",
+   "quote": "Leave this chanting and singing and telling of beads!",
+   "qMean": "Prayer also means attending to people outside the temple.",
+   "qLife": "Helping a worker in the heat instead of only talking about compassion.",
+   "orig": "Leave this chanting and singing and telling of beads! Whom dost thou worship in this lonely dark corner of a temple with doors all shut? Open thine eyes and see thy God is not before thee!\n\nHe is there where the tiller is tilling the hard ground and where the pathmaker is breaking stones. He is with them in sun and in shower, and his garment is covered with dust. Put of thy holy mantle and even like him come down on the dusty soil!",
+   "origFrom": "Rabindranath Tagore, Gitanjali (English version, 1913)",
+   "img": "gitanjali_02",
+   "cap": "A page of Tagore's Bengali handwriting · public domain"
+  },
+  {
+   "ch": "Song 35",
+   "chTitle": "Freedom of mind",
+   "title": "Where the mind is without fear",
+   "text": "Tagore prays for a country where thought is fearless, knowledge is open and truth is spoken plainly. He connects national freedom with the freedom to think.",
+   "quote": "Where the mind is without fear and the head is held high",
+   "qMean": "A free society lets people think and speak without fear.",
+   "qLife": "A classroom where students can question an idea without being punished.",
+   "orig": "Let only that little of my fetters be left whereby I am bound with thy will, and thy purpose is carried out in my life—and that is the fetter of thy love.\n\n35.\n\nWhere the mind is without fear and the head is held high;\n\nWhere knowledge is free;\n\nWhere the world has not been broken up into fragments by narrow domestic walls;\n\nWhere words come out from the depth of truth;",
+   "origFrom": "Rabindranath Tagore, Gitanjali (English version, 1913)",
+   "img": "gitanjali_03",
+   "cap": "Title page of Gitanjali, English edition · public domain"
+  },
+  {
+   "ch": "Song 5",
+   "chTitle": "A moment beside you",
+   "title": "Pause the work",
+   "text": "The speaker asks to set his tasks aside briefly and sit in quiet presence. Without that pause, work stretches into joyless, endless effort.",
+   "quote": "I ask for a moment’s indulgence to sit by thy side.",
+   "qMean": "Take a moment of stillness and connection.",
+   "qLife": "Stepping away from email to sit with someone you love.",
+   "orig": "5.\n\nI ask for a moment’s indulgence to sit by thy side. The works that I have in hand I will finish afterwards.\n\nAway from the sight of thy face my heart knows no rest nor respite, and my work becomes an endless toil in a shoreless sea of toil.\n\nToday the summer has come at my window with its sighs and murmurs; and the bees are plying their minstrelsy at the court of the flowering grove.",
+   "origFrom": "Rabindranath Tagore, Gitanjali (English version, 1913)",
+   "img": "gitanjali_04",
+   "cap": "Portrait of Tagore by Abanindranath Tagore · public domain"
+  },
+  {
+   "ch": "Song 69",
+   "chTitle": "One shared life",
+   "title": "The same stream",
+   "text": "A single current of life moves through the speaker, grass, flowers and the sea. Tagore's joy comes from feeling part of that larger living world.",
+   "quote": "The same stream of life that runs through my veins night and day runs through the world",
+   "qMean": "Your life is connected with the life around you.",
+   "qLife": "Feeling renewed after time among trees and water.",
+   "orig": "69.\n\nThe same stream of life that runs through my veins night and day runs through the world and dances in rhythmic measures.\n\nIt is the same life that shoots in joy through the dust of the earth in numberless blades of grass and breaks into tumultuous waves of leaves and flowers.\n\nIt is the same life that is rocked in the ocean-cradle of birth and of death, in ebb and in flow.",
+   "origFrom": "Rabindranath Tagore, Gitanjali (English version, 1913)",
+   "img": "gitanjali_05",
+   "cap": "Title page of Gitanjali, English edition · public domain"
+  }
+ ]
+}

@@ -8,8 +8,8 @@
  "era": "enlightenment",
  "shelf": "Persuasion & Rhetoric",
  "blurb": "A worldly English lord's private letters to his son on charm, manners, attention and getting on in society — the 18th century's guide to being liked.",
- "version": 2,
- "cover": "chesterfield_cover",
+ "version": 3,
+ "cover": "",
  "glossary": {
   "resent": {
    "m": "Feel bitter or annoyed about.",
@@ -35,8 +35,8 @@
    "qLife": "Answering a question simply instead of lecturing about it.",
    "orig": "There is another species of learned men, who, though less dogmatical and supercilious, are not less impertinent. These are the communicative and shining pedants, who adorn their conversation, even with women, by happy quotations of Greek and Latin; and who have contracted such a familiarity with the Greek and Roman authors, that they, call them by certain names or epithets denoting intimacy. As OLD Homer; that SLY ROGUE Horace; MARO, instead of Virgil; and Naso, Instead of Ovid. These are often imitated by coxcombs, who have no learning at all; but who have got some names and some scraps of ancient authors by heart, which they improperly and impertinently retail in all companies, in hopes of passing for scholars. If, therefore, you would avoid the accusation of pedantry on one hand, or the suspicion of ignorance on the other, abstain from learned ostentation. Speak the language of the company that you are in; speak it purely, and unlarded with any other. Never seem wiser, nor more learned, than the people you are with. Wear your learning, like your watch, in a private pocket: and do not pull it out and strike it; merely to show that you have one. If you are asked what o’clock it is, tell it; but do not proclaim it hourly and unasked, like the watchman.",
    "origFrom": "Lord Chesterfield, Letters to His Son (1774)",
-   "img": "chesterfield_01",
-   "cap": "Pocket watch, 18th century · public domain"
+   "img": "",
+   "cap": ""
   },
   {
    "ch": "Letter",
@@ -48,8 +48,8 @@
    "qLife": "Not correcting a friend's grammar at dinner.",
    "orig": "There is another species of learned men, who, though less dogmatical and supercilious, are not less impertinent. These are the communicative and shining pedants, who adorn their conversation, even with women, by happy quotations of Greek and Latin; and who have contracted such a familiarity with the Greek and Roman authors, that they, call them by certain names or epithets denoting intimacy. As OLD Homer; that SLY ROGUE Horace; MARO, instead of Virgil; and Naso, Instead of Ovid. These are often imitated by coxcombs, who have no learning at all; but who have got some names and some scraps of ancient authors by heart, which they improperly and impertinently retail in all companies, in hopes of passing for scholars. If, therefore, you would avoid the accusation of pedantry on one hand, or the suspicion of ignorance on the other, abstain from learned ostentation. Speak the language of the company that you are in; speak it purely, and unlarded with any other. Never seem wiser, nor more learned, than the people you are with. Wear your learning, like your watch, in a private pocket: and do not pull it out and strike it; merely to show that you have one. If you are asked what o’clock it is, tell it; but do not proclaim it hourly and unasked, like the watchman.",
    "origFrom": "Lord Chesterfield, Letters to His Son (1774)",
-   "img": "chesterfield_02",
-   "cap": "William Hogarth, The Holland House Group · public domain"
+   "img": "",
+   "cap": ""
   },
   {
    "ch": "Letter",
@@ -61,8 +61,8 @@
    "qLife": "Writing a thank-you note carefully, not in five seconds.",
    "orig": "If care and application are necessary to the acquiring of those qualifications, without which you can never be considerable, nor make a figure in the world, they are not less necessary with regard to the lesser accomplishments, which are requisite to make you agreeable and pleasing in society. In truth, whatever is worth doing at all, is worth doing well; and nothing can be done well without attention: I therefore carry the necessity of attention down to the lowest things, even to dancing and dress. Custom has made dancing sometimes necessary for a young man; therefore mind it while you learn it that you may learn to do it well, and not be ridiculous, though in a ridiculous act. Dress is of the same nature; you must dress; therefore attend to it; not in order to rival or to excel a fop in it, but in order to avoid singularity, and consequently ridicule. Take great care always to be dressed like the reasonable people of your own age, in the place where you are; whose dress is never spoken of one way or another, as either too negligent or too much studied.",
    "origFrom": "Lord Chesterfield, Letters to His Son (1774)",
-   "img": "chesterfield_03",
-   "cap": "The York Minuet, 18th-century print · public domain"
+   "img": "",
+   "cap": ""
   },
   {
    "ch": "Letter",
@@ -74,8 +74,8 @@
    "qLife": "Finishing a small task now instead of adding it to tomorrow's list.",
    "orig": "… and that the want of sleep may force you to go to bed earlier the next night. This is what I was advised to do when very young, by a very wise man; and what, I assure you, I always did in the most dissipated part of my life. I have very often gone to bed at six in the morning and rose, notwithstanding, at eight; by which means I got many hours in the morning that my companions lost; and the want of sleep obliged me to keep good hours the next, or at least the third night. To this method I owe the greatest part of my reading: for, from twenty to forty, I should certainly have read very little, if I had not been up while my acquaintances were in bed. Know the true value of time; snatch, seize, and enjoy every moment of it. No idleness, no laziness, no procrastination; never put off till to-morrow what you can do today. That was the rule of the famous and unfortunate Pensionary De Witt; who, by strictly following it, found time, not only to do the whole business of the republic, but to pass his evenings at assemblies and suppers, as if he had had nothing else to do or think of.",
    "origFrom": "Lord Chesterfield, Letters to His Son (1774)",
-   "img": "chesterfield_04",
-   "cap": "Lord and lady with Death and the hourglass, after Dürer · public domain"
+   "img": "",
+   "cap": ""
   },
   {
    "ch": "Letter",
@@ -87,8 +87,8 @@
    "qLife": "Noticing what makes a colleague smile and doing more of it.",
    "orig": "DEAR BOY: The art of pleasing is a very necessary one to possess; but a very difficult one to acquire. It can hardly be reduced to rules; and your own good sense and observation will teach you more of it than I can. Do as you would be done by, is the surest method that I know of pleasing. Observe carefully what pleases you in others, and probably the same thing in you will please others. If you are pleased with the complaisance and attention of others to your humors, your tastes, or your weaknesses, depend upon it the same complaisance and attention, on your part to theirs, will equally please them. Take the tone of the company that you are in, and do not pretend to give it; be serious, gay, or even trifling, as you find the present humor of the company; this is an attention due from every individual to the majority. Do not tell stories in company; there is nothing more tedious and disagreeable; if by chance you know a very short story, and exceedingly applicable to the present subject of conversation, tell it in as few words as possible; …",
    "origFrom": "Lord Chesterfield, Letters to His Son (1774)",
-   "img": "chesterfield_05",
-   "cap": "Wanstead Assembly at Wanstead House by Hogarth · public domain"
+   "img": "",
+   "cap": ""
   },
   {
    "ch": "Letter",
@@ -100,8 +100,8 @@
    "qLife": "The friend with wild excuses is rarely the sharpest.",
    "orig": "… I mean those lies which a mistaken vanity suggests, that defeat the very end for which they are calculated, and terminate in the humiliation and confusion of their author, who is sure to be detected. These are chiefly narrative and historical lies, all intended to do infinite honor to their author. He is always the hero of his own romances; he has been in dangers from which nobody but himself ever escaped; he has seen with his own eyes, whatever other people have heard or read of: he has had more ‘bonnes fortunes’ than ever he knew women; and has ridden more miles post in one day, than ever courier went in two. He is soon discovered, and as soon becomes the object of universal contempt and ridicule. Remember, then, as long as you live, that nothing but strict truth can carry you through the world, with either your conscience or your honor unwounded. It is not only your duty, but your interest; as a proof of which you may always observe, that the greatest fools are the greatest liars. For my own part, I judge of every man’s truth by his degree of understanding.",
    "origFrom": "Lord Chesterfield, Letters to His Son (1774)",
-   "img": "chesterfield_06",
-   "cap": "William Hogarth - A Rake's Progress - Tavern Scene · public domain"
+   "img": "",
+   "cap": ""
   }
  ]
 }

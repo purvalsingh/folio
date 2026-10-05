@@ -1,0 +1,114 @@
+{
+  "walden_02": {
+    "book": "walden",
+    "card": "Why he went to the woods",
+    "prompt": "Original 19th-century engraving style: Thoreau approaches a simple cabin by Walden Pond at dawn; no text.",
+    "source": "ImageGen original",
+    "file": "Original Folio sketch: Thoreau approaches his cabin at Walden Pond",
+    "license": "Folio original",
+    "files": [
+      "walden_02.png",
+      "walden_02.webp"
+    ]
+  },
+  "prince_cover": {
+    "book": "prince",
+    "card": "The Prince cover",
+    "file": "Original Folio engraving: The Prince cover",
+    "source": "Folio generated engraving, research/raw/prince_cover.webp",
+    "license": "Folio original",
+    "reviewed": "2026-10-05: visually checked against card topic",
+    "files": [
+      "../raw/prince_cover.webp"
+    ]
+  },
+  "prince_01": {
+    "book": "prince",
+    "card": "A gift worth more than gold",
+    "file": "Original Folio engraving: A gift worth more than gold",
+    "source": "Folio generated engraving, research/raw/prince_01.webp",
+    "license": "Folio original",
+    "reviewed": "2026-10-05: visually checked against card topic",
+    "files": [
+      "../raw/prince_01.webp"
+    ]
+  },
+  "prince_02": {
+    "book": "prince",
+    "card": "Looking up the mountain",
+    "file": "Original Folio engraving: Looking up the mountain",
+    "source": "Folio generated engraving, research/raw/prince_02.webp",
+    "license": "Folio original",
+    "reviewed": "2026-10-05: visually checked against card topic",
+    "files": [
+      "../raw/prince_02.webp"
+    ]
+  },
+  "prince_03": {
+    "book": "prince",
+    "card": "Two kinds of rule",
+    "file": "Original Folio engraving: Two kinds of rule",
+    "source": "Folio generated engraving, research/raw/prince_03.webp",
+    "license": "Folio original",
+    "reviewed": "2026-10-05: visually checked against card topic",
+    "files": [
+      "../raw/prince_03.webp"
+    ]
+  },
+  "prince_04": {
+    "book": "prince",
+    "card": "The easy throne",
+    "file": "Original Folio engraving: The easy throne",
+    "source": "Folio generated engraving, research/raw/prince_04.webp",
+    "license": "Folio original",
+    "reviewed": "2026-10-05: visually checked against card topic",
+    "files": [
+      "../raw/prince_04.webp"
+    ]
+  },
+  "prince_05": {
+    "book": "prince",
+    "card": "Old habits protect the throne",
+    "file": "Original Folio engraving: Old habits protect the throne",
+    "source": "Folio generated engraving, research/raw/prince_05.webp",
+    "license": "Folio original",
+    "reviewed": "2026-10-05: visually checked against card topic",
+    "files": [
+      "../raw/prince_05.webp"
+    ]
+  },
+  "prince_06": {
+    "book": "prince",
+    "card": "New lands, old trouble",
+    "file": "Original Folio engraving: New lands, old trouble",
+    "source": "Folio generated engraving, research/raw/prince_06.webp",
+    "license": "Folio original",
+    "reviewed": "2026-10-05: visually checked against card topic",
+    "files": [
+      "../raw/prince_06.webp"
+    ]
+  },
+  "prince_07": {
+    "book": "prince",
+    "card": "Crush or care — never half",
+    "file": "Original Folio engraving: Crush or care — never half",
+    "source": "Folio generated engraving, research/raw/prince_07.webp",
+    "license": "Folio original",
+    "reviewed": "2026-10-05: visually checked against card topic",
+    "files": [
+      "../raw/prince_07.webp"
+    ]
+  },
+  "gita_01": {
+    "book": "gita",
+    "card": "Two armies, one doubt",
+    "prompt": "Original Indian miniature style drawing of Arjuna and Krishna between the two armies on the plain of Kurukshetra at dawn; no text.",
+    "source": "ImageGen original",
+    "file": "Original Folio sketch: Krishna drives Arjuna between the armies of Kurukshetra",
+    "license": "Folio original",
+    "files": [
+      "gita_01.png",
+      "gita_01.webp"
+    ]
+  }
+}

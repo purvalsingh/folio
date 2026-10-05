@@ -643,11 +643,12 @@ fun AccountPanel(app: App, open: () -> Unit) {
         Column {
             if (s == null) {
                 Label("Your account")
-                Text("Sign in to keep your pages, words and quotes safe and in step across phones. Your library is encrypted on this phone before it is uploaded.",
+                Text(if (CloudConfig.ready) "Sign in to keep your pages, words and quotes in step across phones. Your library is encrypted on this phone before it is uploaded."
+                     else "Accounts are coming soon. Your pages, words and quotes stay on this phone.",
                     fontFamily = Fonts.fell, fontSize = 15.sp, lineHeight = 21.sp, color = ink.ink)
-                Spacer(Modifier.height(10.dp))
-                Pill(if (CloudConfig.ready) "Sign in or create account" else "Accounts open soon", filled = CloudConfig.ready, modifier = Modifier.fillMaxWidth()) {
-                    if (CloudConfig.ready) open()
+                if (CloudConfig.ready) {
+                    Spacer(Modifier.height(10.dp))
+                    Pill("Sign in or create account", modifier = Modifier.fillMaxWidth()) { open() }
                 }
             } else {
                 Label("Signed in")

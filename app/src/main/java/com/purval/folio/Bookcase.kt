@@ -31,6 +31,7 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.ModalBottomSheet
+import androidx.compose.material3.rememberModalBottomSheetState
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -345,7 +346,8 @@ private fun BookSheet(app: App, v: Volume, onDismiss: () -> Unit, onRead: (Book)
     val scope = rememberCoroutineScope()
     val progress = remember { mutableStateMapOf<String, Float>() }
     var error by remember { mutableStateOf<String?>(null) }
-    ModalBottomSheet(onDismissRequest = onDismiss, containerColor = ink.paper) {
+    ModalBottomSheet(onDismissRequest = onDismiss, containerColor = ink.paper,
+        sheetState = rememberModalBottomSheetState(skipPartiallyExpanded = true)) {
         Column(Modifier.fillMaxWidth().padding(horizontal = 24.dp).padding(bottom = 30.dp)) {
             val b = v.book ?: app.book(v.id)
             if (b != null) Plate(b, b.cover ?: b.cards.firstOrNull()?.img, ratio = 16f / 9f)

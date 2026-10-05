@@ -8,8 +8,8 @@
  "era": "baroque",
  "shelf": "Courtly Wisdom",
  "blurb": "Three hundred maxims by a Spanish Jesuit on getting on in a dangerous world — the source behind many of the 48 Laws.",
- "version": 3,
- "cover": "gracian_cover",
+ "version": 4,
+ "cover": "",
  "glossary": {
   "insipid": {
    "m": "Dull; lacking flavour or interest.",
@@ -39,8 +39,8 @@
    "qLife": "The plumber everyone calls back because nobody else understands the old pipes.",
    "orig": "Not he that adorns but he that adores makes a divinity. The wise man would rather see men needing him than thanking him. To keep them on the threshold of hope is diplomatic, to trust to their gratitude boorish ; hope has a good memory, gratitude a bad one. More is to be got from dependence than from courtesy. He that has satisfied his thirst turns his back on the well, and the orange once sucked falls from the golden platter into the waste-basket. When dependence disappears, good behaviour goes with it as well as respect. Let it be one of the chief lessons of experience to keep hope alive without entirely satisfying it, by preserving it to make oneself always needed even by a patron on the throne. But let not silence be carried to excess lest you go wrong, nor let another’s failing grow incurable for the sake of your own advantage.",
    "origFrom": "Baltasar Gracián, The Art of Worldly Wisdom (1647, tr. Jacobs)",
-   "img": "gracian_01",
-   "cap": "Velázquez, Las Meninas · public domain"
+   "img": "",
+   "cap": ""
   },
   {
    "ch": "Maxim vii",
@@ -52,8 +52,8 @@
    "qLife": "Not correcting your manager's spelling in front of the whole team.",
    "orig": "All victories breed hate, and that over your superior is foolish or fatal. Superiority is always detested, 4 fortiori superiority over superiority. Caution can gloss over common advantages ; for example, good looks may be cloaked by careless attire. There be some that will grant you precedence in good luck or good temper, but none in good sense, least of all a prince ; for good sense is a royal prerogative, any claim to that is a case of /ése majesté. They are princes, and wish to be so in that most princely of qualities. ‘They will allow aman to help them but not to surpass them, and will have any advice tendered them appear like a recollection of something they have forgotten rather than as a guide to something they cannot find. The stars teach us this Jinesse with happy tact; though they are his",
    "origFrom": "Baltasar Gracián, The Art of Worldly Wisdom (1647, tr. Jacobs)",
-   "img": "gracian_02",
-   "cap": "Velázquez, Philip IV as a Hunter · public domain"
+   "img": "",
+   "cap": ""
   },
   {
    "ch": "Maxim iii",
@@ -65,8 +65,8 @@
    "qLife": "Teasing a product launch instead of posting all details on day one.",
    "orig": "Admiration at their novelty heightens. the value of your achievements. It is both useless and insipid to play with the cards on the table. If you do not declare yourself immediately, you arouse expectation, especially when the importance of your position makes you the ' object of general attention. Mix a little ‘ mystery with everything, and the very mystery arouses veneration. And when you explairf, be not too explicit, just as you do not expose your inmost thoughts in ordinary intercourse. Cautious silence is the holy of holies of worldly wisdom. A resolution declared is never highly thought of; it only leaves room for criticism. And if it happens to fail, you are doubly unfortunate. Besides you imitate the Divine way when you cause men to wonder and watch.",
    "origFrom": "Baltasar Gracián, The Art of Worldly Wisdom (1647, tr. Jacobs)",
-   "img": "gracian_03",
-   "cap": "Caravaggio (Michelangelo Merisi) - The Cardsharps · public domain"
+   "img": "",
+   "cap": ""
   },
   {
    "ch": "Maxim xxvi",
@@ -78,8 +78,8 @@
    "qLife": "One friend joins the trip for food, another for photos — invite each with their reason.",
    "orig": "… xxvi Find out each Man's Thumbscrew.\n\n\"Tis the art of setting their wills in action. It needs more skill than resolution. You must know where to get at any one. Every volition has a special motive which varies according to taste. AJ] men are idolaters, some of fame, others of self-interest, most of pleasure. Skill consists in knowing these idols in order to bring them into play. Knowing any man’s main-",
    "origFrom": "Baltasar Gracián, The Art of Worldly Wisdom (1647, tr. Jacobs)",
-   "img": "gracian_04",
-   "cap": "Count-Duke of Olivares · public domain"
+   "img": "",
+   "cap": ""
   },
   {
    "ch": "Maxim xliii",
@@ -91,8 +91,8 @@
    "qLife": "Keeping your unusual views off the family WhatsApp group.",
    "orig": "It is a secret force of superiority not to have to get on by artful trickery but by an inborn power of rule. All submit to it without knowing why, recognising the secret vigour of connatural authority. Such magisterial spirits are kings by merit and lions by innate privilege. By the esteem which they inspire, they hold the hearts and minds of the rest. If their other qualities permit, such men are born to be the prime motors of the state. ‘They perform more by a gesture than others by a long harangue.\n\nxliii Think with the Few and speak with the Many.\n\nBy swimming against the stream it is impossible to remove error, easy to fall into .",
    "origFrom": "Baltasar Gracián, The Art of Worldly Wisdom (1647, tr. Jacobs)",
-   "img": "gracian_05",
-   "cap": "Portrait of a Lady, Spanish school, 17th century · public domain"
+   "img": "",
+   "cap": ""
   },
   {
    "ch": "Maxim xxxviii",
@@ -104,8 +104,8 @@
    "qLife": "Selling your shares after a big gain instead of waiting for more.",
    "orig": "… xxxvili Leave your Luck while Winning.\n\nAll the best players do it. A fine retreat is as good as a gallant attack. Bring your exploits under cover when there are enough, or even when there are many of them. Luck long lasting was ever suspicious ; interrupted seems safer, and is even sweeter to the taste for a little infusion of bitter-sweet. The higher the heap of luck, the greater the risk of a slip, and down comes all. Fortune pays you sometimes for the intensity of her favours by the shortness of their duration. She soon tires of carrying any one long on her shoulders.",
    "origFrom": "Baltasar Gracián, The Art of Worldly Wisdom (1647, tr. Jacobs)",
-   "img": "gracian_06",
-   "cap": "Master of the Gamblers - The incredulity of St Thomas · public domain"
+   "img": "",
+   "cap": ""
   },
   {
    "ch": "Maxim lxxxiii",
@@ -117,8 +117,8 @@
    "qLife": "The brilliant student who laughs at her own terrible handwriting.",
    "orig": "A sage once reduced all virtue to the golden mean. Push right to the extreme and it becomes wrong: press all the juice from an orange and it becomes bitter. Even in enjoyment never go to extremes. ‘Thought too subtle is dull. If you milk a cow too much you draw blood, not milk.\n\nIxxxiii Allow Yourself some venial Fault.\n\nSome such carelessness is often the greatest recommendation of talent. For envy exercises ostracism, most envenomed when most polite. It counts it to perfection as a failing that it has no faults ; for being perfect in all it condemns\n\nART OF WORLDLY WISDOM 49",
    "origFrom": "Baltasar Gracián, The Art of Worldly Wisdom (1647, tr. Jacobs)",
-   "img": "gracian_07",
-   "cap": "Franciscus Gijsbrechts, Vanitas still life · public domain"
+   "img": "",
+   "cap": ""
   },
   {
    "ch": "Maxim lxxxi",
@@ -130,8 +130,8 @@
    "qLife": "A singer who changes style every few years to stay fresh.",
    "orig": "Renew your Brilliance. 'Tis the privilege of the Phoenix. Ability is wont to grow old, and with it fame. The staleness of custom weakens admiration, and a mediocrity that's new often eclipses the highest excellence grown old. Try therefore to be born again in valour, in genius, in fortune, in all. Display startling novelties, rise afresh like the sun every day. Change too the scene on which you shine, so that your loss may be felt in the old scenes of your triumph, while the novelty of your powers wins you applause in the new.",
    "origFrom": "Baltasar Gracián, The Art of Worldly Wisdom (1647, tr. Jacobs)",
-   "img": "gracian_08",
-   "cap": "Gheeraerts, The Phoenix, 1568 · public domain"
+   "img": "",
+   "cap": ""
   }
  ]
 }

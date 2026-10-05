@@ -1,42 +1,23 @@
-# Folio — PROJECT_STATE
+# Folio — project state
 
-CURRENT OBJECTIVE: native Android (Kotlin + Compose, one Java class) flashcard reader for old books. Shelf: The Prince (52), 48 Laws of Power digest (48), The Art of War (26), Bhagavad Gita (25).
+CURRENT OBJECTIVE: Grow the short illustrated folio catalog from 31 to 120–130 diverse books. Every live plate must be original Folio art and relevant to its card. Audit Android UX with Antigravity and fix verified defects.
 
-STATUS: v1.6.4 released (versionCode 13; audited plates bundled in APK, 15 corrected captions, four book versions bumped; GitHub release and catalog verified). v1.6.3 fixed curated refs, misquote release gate, BootReceiver, non-destructive sync on undecryptable cloud copy, and web swipe/position/marks/share-fit/print/Anki/local-day. Deep editions LIVE: prince, gita, artofwar, laws, meditations, enchiridion, taoteching, dhammapada, thinketh. 1.6: page flip (back = simple English + daily life + original passage `orig`/`origFrom` on all cards via folio_build.original()), Themes (library-only/themes.json, 14), What would they do? (scenarios.json, 14), Share studio (CardArt.render: Story/Post/Square x Plate/Quote/Page x Book/Chapter/Paper/Night; Studio.kt), Export (Export.kt: PDF/Markdown/Anki TSV). 1.6.1: The Prince deep edition (research/prince_deep.py, 77 cards, `link` chapter bridges). 1.6.2: iPhone/web app LIVE at https://purvalsingh.github.io/folio/ (docs/: app.js, share.js, app.css, sw.js; GitHub Pages from main /docs; reads library/ via raw.githubusercontent). Popularity: tools/stats.py cron 6h; LinkedIn post live.
+STATUS: 31 live books. A 2026-10-05 migration removed references/files for all 629 third-party plates; 9 Folio originals remain (Prince cover + 7 cards, Gita opening card). The app uses its ornament for missing plates. `tools/publish_library.py` now rejects non-original IDs. New Wealth of Nations, Walden, and Gitanjali five-card drafts are in `research/staging/books`; they are not yet adequate editions or live. Original Walden sketch is staged.
 
-COMPLETED
-- 52 cards of The Prince (Marriott 1908, Gutenberg #1232): plain summaries + verbatim quotes (auto-verified) + 55 glossary forms.
-- Plates: cover + 7 AI engravings (HF Z-Image, quota ran out), 44 public-domain prints/paintings from Wikimedia Commons (research/commons/credits.json), caption under each card.
-- Reader: page-turn pager, illuminated drop cap (book) / red initials (chapters), tappable red words -> meaning + daily-life example + add to Lexicon, quote keep/share, bookmark ribbon, contents sheet, seal button (+ 6 s dwell auto-count).
-- Lexicon (search + "Test me" mode), Commonplace (quotes), Marks, Honours (levels/ranks, xp, 19 milestone seals, daily quota 5–30, night mode, Gemini key).
-- Celebrations: wax-seal stamp overlay for milestones (10/100 pages, book done, quota, streaks, level up).
-- Bind (import) a PDF: PdfBox text -> Distiller.java (offline extractive) or Gemini (plain-English, quote verified against text); plates = real page facsimiles; per-era typefaces.
+COMPLETED THIS ROUND:
+- Android 15 emulator `FolioReview` created. Antigravity reviewed the app; report in `reports/ANTIGRAVITY_REVIEW.md` (its claimed screenshots were not retained).
+- Fixed half-height book sheet CTA, chapter quiz scrolling, fast flip back from card verso, possessive/initial glossary taps, Journey preview labels and title wrapping, dormant account copy, and Power Journey blurb.
+- Built image provenance ledger `reports/image-inventory.tsv` via `tools/image_inventory.py`; current live set is 9 original / 0 third-party.
+- Generated original Gita card 1 and Walden draft sketches in `research/generated/`; original-art manifest holds 10 works (9 live, 1 staged).
 
-DECISIONS
-- Online-only books: research/shelf2_content.py (10) + shelf3_content.py (Human Mind 5, incl. Red Book digest: copyrighted -> original summaries + Jung 1916 PD quotes). Output library-only/books + library-only/img; shelves + 'coming' shelves in library-only/shelves.json.
-- Accounts: Supabase Auth via Vercel relay folio-reader-sync.vercel.app/sb (ISP block). Cloud config (base+anon key) is delivered in catalog.json 'cloud' -> no APK needed to switch on. Library blob is E2E encrypted (PBKDF2 210k -> AES-256-GCM); session + key sealed by Android Keystore. Password reset = 6-digit email code; old cloud copy unreadable after reset, phone's local copy re-uploaded.
-- Quote meanings: research/meanings.py (qMean/qLife per card, order-checked).
-- Updates: app fetches raw.githubusercontent.com/purvalsingh/folio/main/library/catalog.json on launch. App releases = GitHub Releases APK (sha256-checked, system installer). Books = library/books + library/img, auto-updated when catalog version > local. Release with ./release.sh <ver> "notes" or ./release.sh books. Bump a book's "version" in its *_content.py to push a corrected edition.
-- Signing key ~/.folio-signing is the ONLY key that can update installed copies — back it up.
-- 48 Laws is copyrighted (Greene 1998): original summaries + PD quotes (Machiavelli/Sun Tzu/Gracián/La Rochefoucauld), each card carries qBy attribution. Never ship Greene's text.
-- Content scripts: research/{prince,laws,artofwar,gita}_content.py via folio_build.py (quote verifier; fuzzy only for OCR'd Gracián). Plates: research/commons.py <book> with queries.json.
-- No Room/Navigation libs: state in one JSON in SharedPreferences, routes as a sealed interface.
-- research/shelf4_content.py: 12 books (bindery + Indian Wisdom), CAPS4 caption overrides; Kural (Aiyar 1916) + Panchatantra (Ryder 1925) are OCR -> fuzzy match. Aristotle's Rhetoric dropped (OCR too garbled), replaced by Franklin + Chesterfield. Chanakya Niti skipped (no clean PD English source found).
-- APK size: ML Kit translate ships ~17 MB native lib per ABI -> abiFilters arm64-v8a + armeabi-v7a, compressed jniLibs, bouncycastle pqc tables excluded (90 MB -> 36 MB).
-- Era -> typeface map in Theme.kt (Renaissance = UnifrakturMaguntia + IM Fell).
+DECISIONS / CONSTRAINTS:
+- Keep the current short, illustrated folio format. New titles stay staged until source text, quote accuracy, card content, and original artwork are verified.
+- Existing 31 editions need 629 card-specific original replacements to restore full coverage; do not restore Commons images. `research/commons/credits.json` is retained for provenance, not publishing.
+- `research/shelf5_content.py` validates the three drafts but flags all as too shallow for a deep edition. Continue source-grounded content before release.
+- Cloud sync remains dormant (`cloud=null`); prior review found account-switch, deletion, and stale-position issues before enabling.
 
-NEXT ACTION
-- DEEP EDITIONS for every book (user demand 2026-10-05): folio_build.depth() gate = max(25,min(120,words/400)) pages, >=2 pages/chapter, `link` bridge per chapter; set about['deep']=True once a book passes. Words counts include Gutenberg intros/whole collections, so give each book a scoped word count when deepening. Order: gita, artofwar, laws(digest), meditations, enchiridion, taoteching, dhammapada, thinketh, then the rest. Pattern = prince_deep.py (insert-after list, explicit img names, CAPS, new Commons plates).
-- Deep pipeline now: research/deep/<id>.py (K/N pages) -> `python3 research/deep_build.py <id>` -> `python3 research/deep_images.py <id>` (review scratchpad sheet_<id>.jpg, swap weak queries for named artworks, --refetch keys) -> `./release.sh books`. Curated refs (themes/journeys/scenarios) are written against research/base/<id>.json (first short edition); publish_library resolves them to current positions by quote. NEXT books: arthashastra, crowd, bge, gracian, maxims, habit, dreams, emotions, jung, redbook, speaking, franklin, chesterfield, onwar, livy, republic, ovid, emerson, seneca, panchatantra, hitopadesa, kural.
-- OPEN from review (~/folio-review/{agy,codex}/REPORT.md): sync is dormant (catalog cloud=null) but before enabling it fix A1 account switch carrying local data into another account, A3 deletions resurrect (no tombstones), A4 stale remote position; PBKDF2 salt is userId-derived. Saved marks/positions on phones are positional and shift when a deep edition lands (needs stable card ids). Web lacks Journeys/Recall/Checks/Read aloud (README should say Android-only). Tap targets <48dp on tabs/pills.
-- Replace Commons plates with AI engravings when HF ZeroGPU quota resets (research/prince_content.py has the prompts; raw/ holds generated ones).
-- Real-device pass of PDF import with a Gutenberg PDF.
+NEXT ACTION: Finish release validation, publish current original-only/UX changes, then develop original art and source-grounded editions in batches toward 125 books. Prioritize bookcase search/filter before a large catalog; track each batch in TODO.md.
 
-IMPORTANT FILES
-- research/prince_content.py — content source of truth; run it to regenerate assets/books/prince.json and verify quotes.
-- research/commons.py — Commons plate fetcher.
-- app/src/test/.../Shots.kt — Paparazzi design snapshots: ./gradlew :app:recordPaparazziDebug
-- app/src/test/.../DistillerTest.kt — offline importer self-check on the real text.
-- Signing: ~/.folio-signing/ (keystore + passwords). Build: JAVA_HOME=~/.local/jdk-21 ./gradlew assembleRelease
+IMPORTANT FILES: `tools/publish_library.py`, `tools/hide_third_party_plates.py`, `tools/image_inventory.py`, `reports/IMAGE_AUDIT_2026-10-05.md`, `reports/ANTIGRAVITY_REVIEW.md`, `research/generated/manifest.json`, `research/shelf5_content.py`, `research/staging/books/`.
 
-LAST VALIDATION: 2026-10-05 v1.6.4: Gradle assembleRelease passed; GitHub release v1.6.4 has Folio.apk; catalog versionCode 13 and SHA-256 match local APK; all four bundled books and their plate bytes match library/; publish_library release gates passed.
+LAST VALIDATION: `python3 tools/publish_library.py` passed at 31 books; `python3 tools/image_inventory.py` passed at 9 original / 0 third-party; Android debug build passed after UX fixes. Release build in progress.

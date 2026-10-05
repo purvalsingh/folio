@@ -8,8 +8,8 @@
  "era": "indic",
  "shelf": "Eastern Paths",
  "blurb": "Short verses from the Buddha's teaching on the mind: what you think, you become.",
- "version": 10,
- "cover": "dhammapada_cover",
+ "version": 11,
+ "cover": "",
  "deep": true,
  "glossary": {
   "earnestness": {
@@ -48,8 +48,8 @@
    "qLife": "Thinking 'I'm bad at maths' makes you stop trying — and so you stay bad at it.",
    "orig": "1. All that we are is the result of what we have thought: it is founded on our thoughts, it is made up of our thoughts. If a man speaks or acts with an evil thought, pain follows him, as the wheel follows the foot of the ox that draws the carriage.\n\n2. All that we are is the result of what we have thought: it is founded on our thoughts, it is made up of our thoughts. If a man speaks or acts with a pure thought, happiness follows him, like a shadow that never leaves him.",
    "origFrom": "The Dhammapada (tr. Max Müller, 1881)",
-   "img": "dhammapada_01",
-   "cap": "Seated Buddha from India · public domain"
+   "img": "",
+   "cap": ""
   },
   {
    "ch": "Part One",
@@ -61,8 +61,8 @@
    "qLife": "Ending a family feud by being the first to apologise.",
    "orig": "4. \"He abused me, he beat me, he defeated me, he robbed me,\"--in those who do not harbour such thoughts hatred will cease.\n\n5. For hatred does not cease by hatred at any time: hatred ceases by love, this is an old rule.\n\n6. The world does not know that we must all come to an end here;--but those who know it, their quarrels cease at once.",
    "origFrom": "The Dhammapada (tr. Max Müller, 1881)",
-   "img": "dhammapada_02",
-   "cap": "Ajanta painting, National Museum, New Delhi · public domain"
+   "img": "",
+   "cap": ""
   },
   {
    "ch": "Part One",
@@ -74,8 +74,8 @@
    "qLife": "Impulse-buying everything in the cart because you never stopped to think.",
    "orig": "12. They who know truth in truth, and untruth in untruth, arrive at truth, and follow true desires.\n\n13. As rain breaks through an ill-thatched house, passion will break through an unreflecting mind.\n\n14. As rain does not break through a well-thatched house, passion will not break through a well-reflecting mind.\n\n15. The evil-doer mourns in this world, and he mourns in the next; he mourns in both. He mourns and suffers when he sees the evil of his own work.",
    "origFrom": "The Dhammapada (tr. Max Müller, 1881)",
-   "img": "dhammapada_03",
-   "cap": "Thatched huts by a river, Bengal · public domain"
+   "img": "",
+   "cap": ""
   },
   {
    "ch": "Part One",
@@ -85,10 +85,10 @@
    "quote": "The world does not know that we must all come to an end here;--but those who know it, their quarrels cease at once.",
    "qMean": "Remembering we all die makes quarrels seem pointless.",
    "qLife": "Making up with a sibling after a family funeral.",
-   "img": "dhammapada_10",
+   "img": "",
    "orig": "5. For hatred does not cease by hatred at any time: hatred ceases by love, this is an old rule.\n\n6. The world does not know that we must all come to an end here;--but those who know it, their quarrels cease at once.\n\n7. He who lives looking for pleasures only, his senses uncontrolled, immoderate in his food, idle, and weak, Mara (the tempter) will certainly overthrow him, as the wind throws down a weak tree.",
    "origFrom": "The Dhammapada (tr. Max Müller, 1881)",
-   "cap": "Ajanta Cave 16 The Buddha teaching · public domain"
+   "cap": ""
   },
   {
    "ch": "Part One",
@@ -100,8 +100,8 @@
    "qLife": "Reading the contract carefully instead of clicking 'agree'.",
    "orig": "21. Earnestness is the path of immortality (Nirvana), thoughtlessness the path of death. Those who are in earnest do not die, those who are thoughtless are as if dead already.\n\n22. Those who are advanced in earnestness, having understood this clearly, delight in earnestness, and rejoice in the knowledge of the Ariyas (the elect).",
    "origFrom": "The Dhammapada (tr. Max Müller, 1881)",
-   "img": "dhammapada_04",
-   "cap": "Buddha meditating · public domain"
+   "img": "",
+   "cap": ""
   },
   {
    "ch": "Part One",
@@ -111,10 +111,10 @@
    "quote": "Earnest among the thoughtless, awake among the sleepers, the wise man advances like a racer, leaving behind the hack.",
    "qMean": "The alert person races ahead of the careless.",
    "qLife": "The student who pays attention in class while others scroll.",
-   "img": "dhammapada_11",
+   "img": "",
    "orig": "28. When the learned man drives away vanity by earnestness, he, the wise, climbing the terraced heights of wisdom, looks down upon the fools, serene he looks upon the toiling crowd, as one that stands on a mountain looks down upon them that stand upon the plain.\n\n29. Earnest among the thoughtless, awake among the sleepers, the wise man advances like a racer, leaving behind the hack.\n\n30. By earnestness did Maghavan (Indra) rise to the lordship of the gods. People praise earnestness; thoughtlessness is always blamed.",
    "origFrom": "The Dhammapada (tr. Max Müller, 1881)",
-   "cap": "Siddharta parting from Kanthaka and Chandaka BM OA1880.65 · public domain"
+   "cap": ""
   },
   {
    "ch": "Part One",
@@ -126,8 +126,8 @@
    "qLife": "Bringing your attention back to the page every time your phone buzzes.",
    "orig": "Chapter III. Thought\n\n33. As a fletcher makes straight his arrow, a wise man makes straight his trembling and unsteady thought, which is difficult to guard, difficult to hold back.\n\n34. As a fish taken from his watery home and thrown on dry ground, our thought trembles all over in order to escape the dominion of Mara (the tempter).",
    "origFrom": "The Dhammapada (tr. Max Müller, 1881)",
-   "img": "dhammapada_05",
-   "cap": "Afghanistan, Gandhara, Hadda, late Kushan Period - Seated Buddha · public domain"
+   "img": "",
+   "cap": ""
   },
   {
    "ch": "Part One",
@@ -137,10 +137,10 @@
    "quote": "Let the wise man guard his thoughts, for they are difficult to perceive, very artful, and they rush wherever they list: thoughts well guarded bring happiness.",
    "qMean": "Watch your thoughts carefully; a guarded mind is happy.",
    "qLife": "Catching a negative thought spiral before it ruins your evening.",
-   "img": "dhammapada_12",
+   "img": "",
    "orig": "36. Let the wise man guard his thoughts, for they are difficult to perceive, very artful, and they rush wherever they list: thoughts well guarded bring happiness.\n\n37. Those who bridle their mind which travels far, moves about alone, is without a body, and hides in the chamber (of the heart), will be free from the bonds of Mara (the tempter).",
    "origFrom": "The Dhammapada (tr. Max Müller, 1881)",
-   "cap": "Buddha Shakyamuni as Lord of the Munis · public domain"
+   "cap": ""
   },
   {
    "ch": "Part Two",
@@ -150,11 +150,11 @@
    "quote": "the perfume of those who possess virtue rises up to the gods as the highest",
    "qMean": "A good person's goodness spreads further than any perfume.",
    "qLife": "A kind teacher remembered by students decades later.",
-   "img": "dhammapada_13",
+   "img": "",
    "orig": "55. Sandal-wood or Tagara, a lotus-flower, or a Vassiki, among these sorts of perfumes, the perfume of virtue is unsurpassed.\n\n56. Mean is the scent that comes from Tagara and sandal-wood;--the perfume of those who possess virtue rises up to the gods as the highest.\n\n57. Of the people who possess these virtues, who live without thoughtlessness, and who are emancipated through true knowledge, Mara, the tempter, never finds the way.",
    "origFrom": "The Dhammapada (tr. Max Müller, 1881)",
    "link": "Part One showed that everything begins in the mind. Part Two contrasts the fool and the wise.",
-   "cap": "Bharhut relief with Diamond throne and Mahabodhi Temple around the Boddhi Tree · public domain"
+   "cap": ""
   },
   {
    "ch": "Part Two",
@@ -166,8 +166,8 @@
    "qLife": "The new employee who asks questions learns faster than the one who pretends.",
    "orig": "62. \"These sons belong to me, and this wealth belongs to me,\" with such thoughts a fool is tormented. He himself does not belong to himself; how much less sons and wealth?\n\n63. The fool who knows his foolishness, is wise at least so far. But a fool who thinks himself wise, he is called a fool indeed.\n\n64. If a fool be associated with a wise man even all his life, he will perceive the truth as little as a spoon perceives the taste of soup.",
    "origFrom": "The Dhammapada (tr. Max Müller, 1881)",
-   "img": "dhammapada_06",
-   "cap": "Jataka tales, illustrated manuscript · public domain"
+   "img": "",
+   "cap": ""
   },
   {
    "ch": "Part Two",
@@ -177,10 +177,10 @@
    "quote": "As long as the evil deed done does not bear fruit, the fool thinks it is like honey; but when it ripens, then the fool suffers grief.",
    "qMean": "Wrongdoing feels fine until its consequences arrive.",
    "qLife": "Copying homework feels easy until the exam comes.",
-   "img": "dhammapada_14",
+   "img": "",
    "orig": "69. As long as the evil deed done does not bear fruit, the fool thinks it is like honey; but when it ripens, then the fool suffers grief.\n\n70. Let a fool month after month eat his food (like an ascetic) with the tip of a blade of Kusa grass, yet he is not worth the sixteenth particle of those who have well weighed the law.",
    "origFrom": "The Dhammapada (tr. Max Müller, 1881)",
-   "cap": "Bodhisattva Padmapani, cave 1, Ajanta, India · public domain"
+   "cap": ""
   },
   {
    "ch": "Part Two",
@@ -190,10 +190,10 @@
    "quote": "Fools of little understanding have themselves for their greatest enemies, for they do evil deeds which must bear bitter fruits.",
    "qMean": "Fools harm themselves most of all.",
    "qLife": "Lying to a friend and then losing the friendship.",
-   "img": "dhammapada_15",
+   "img": "",
    "orig": "65. If an intelligent man be associated for one minute only with a wise man, he will soon perceive the truth, as the tongue perceives the taste of soup.\n\n66. Fools of little understanding have themselves for their greatest enemies, for they do evil deeds which must bear bitter fruits.\n\n67. That deed is not well done of which a man must repent, and the reward of which he receives crying and with a tearful face.",
    "origFrom": "The Dhammapada (tr. Max Müller, 1881)",
-   "cap": "Bhutanese painted thanka of the Jataka Tales, 18th-19th Century, Phajoding Gonpa, Thimphu, Bhutan · public domain"
+   "cap": ""
   },
   {
    "ch": "Part Two",
@@ -205,8 +205,8 @@
    "qLife": "Reading both good and bad comments on your work without your mood swinging.",
    "orig": "80. Well-makers lead the water (wherever they like); fletchers bend the arrow; carpenters bend a log of wood; wise people fashion themselves.\n\n81. As a solid rock is not shaken by the wind, wise people falter not amidst blame and praise.\n\n82. Wise people, after they have listened to the laws, become serene, like a deep, smooth, and still lake.",
    "origFrom": "The Dhammapada (tr. Max Müller, 1881)",
-   "img": "dhammapada_07",
-   "cap": "Sculpture of Buddha Muchalinda, NUS Museum · public domain"
+   "img": "",
+   "cap": ""
   },
   {
    "ch": "Part Two",
@@ -216,10 +216,10 @@
    "quote": "Do not have evil-doers for friends, do not have low people for friends: have virtuous people for friends, have for friends the best of men.",
    "qMean": "Choose good people as friends.",
    "qLife": "Joining a study group of serious students.",
-   "img": "dhammapada_16",
+   "img": "",
    "orig": "77. Let him admonish, let him teach, let him forbid what is improper!--he will be beloved of the good, by the bad he will be hated.\n\n78. Do not have evil-doers for friends, do not have low people for friends: have virtuous people for friends, have for friends the best of men.\n\n79. He who drinks in the law lives happily with a serene mind: the sage rejoices always in the law, as preached by the elect (Ariyas).",
    "origFrom": "The Dhammapada (tr. Max Müller, 1881)",
-   "cap": " · public domain"
+   "cap": ""
   },
   {
    "ch": "Part Three",
@@ -229,11 +229,11 @@
    "quote": "his path is difficult to understand, like that of birds in the air",
    "qMean": "A free person's path is as hard to follow as birds in flight.",
    "qLife": "A calm person whose choices puzzle those chasing status.",
-   "img": "dhammapada_17",
+   "img": "",
    "orig": "93. He whose appetites are stilled, who is not absorbed in enjoyment, who has perceived void and unconditioned freedom (Nirvana), his path is difficult to understand, like that of birds in the air.\n\n94. The gods even envy him whose senses, like horses well broken in by the driver, have been subdued, who is free from pride, and free from appetites.",
    "origFrom": "The Dhammapada (tr. Max Müller, 1881)",
    "link": "Wisdom shows in a life. Part Three weighs one good day against a hundred wasted years.",
-   "cap": "Hamsa jâtaka, Ajanta, India · public domain"
+   "cap": ""
   },
   {
    "ch": "Part Three",
@@ -245,8 +245,8 @@
    "qLife": "Quitting smoking is a bigger win than any argument you ever won.",
    "orig": "103. If one man conquer in battle a thousand times thousand men, and if another conquer himself, he is the greatest of conquerors.\n\n104, 105. One's own self conquered is better than all other people; not even a god, a Gandharva, not Mara with Brahman could change into defeat the victory of a man who has vanquished himself, and always lives under restraint.",
    "origFrom": "The Dhammapada (tr. Max Müller, 1881)",
-   "img": "dhammapada_08",
-   "cap": "Lauriya Nandangarh Ashoka Pillar front · public domain"
+   "img": "",
+   "cap": ""
   },
   {
    "ch": "Part Three",
@@ -256,10 +256,10 @@
    "quote": "But he who lives a hundred years, vicious and unrestrained, a life of one day is better if a man is virtuous and reflecting.",
    "qMean": "One day of good living beats a hundred careless years.",
    "qLife": "One meaningful afternoon helping someone versus a year of wasted weekends.",
-   "img": "dhammapada_18",
+   "img": "",
    "orig": "109. He who always greets and constantly reveres the aged, four things will increase to him, viz. life, beauty, happiness, power.\n\n110. But he who lives a hundred years, vicious and unrestrained, a life of one day is better if a man is virtuous and reflecting.\n\n111. And he who lives a hundred years, ignorant and unrestrained, a life of one day is better if a man is wise and reflecting.",
    "origFrom": "The Dhammapada (tr. Max Müller, 1881)",
-   "cap": "India, Rajasthan, Mewar, 17th century - Shri Raga · public domain"
+   "cap": ""
   },
   {
    "ch": "Part Three",
@@ -269,10 +269,10 @@
    "quote": "Even by the falling of water-drops a water-pot is filled; the fool becomes full of evil, even if he gather it little by little.",
    "qMean": "Small wrongs add up, like drops filling a pot.",
    "qLife": "Little lies that pile into a reputation for dishonesty.",
-   "img": "dhammapada_19",
+   "img": "",
    "orig": "121. Let no man think lightly of evil, saying in his heart, It will not come nigh unto me. Even by the falling of water-drops a water-pot is filled; the fool becomes full of evil, even if he gather it little by little.\n\n122. Let no man think lightly of good, saying in his heart, It will not come nigh unto me. Even by the falling of water-drops a water-pot is filled; the wise man becomes full of good, even if he gather it little by little.",
    "origFrom": "The Dhammapada (tr. Max Müller, 1881)",
-   "cap": "Northern India, Himachal Pradesh, Pahari Kingdom, probably Chamba - The Morning Toilette · public domain"
+   "cap": ""
   },
   {
    "ch": "Part Three",
@@ -282,10 +282,10 @@
    "quote": "Let no man think lightly of good, saying in his heart, It will not come nigh unto me.",
    "qMean": "Small good deeds matter as much as small bad ones.",
    "qLife": "Holding the door every day builds a kind character.",
-   "img": "dhammapada_20",
+   "img": "",
    "orig": "122. Let no man think lightly of good, saying in his heart, It will not come nigh unto me. Even by the falling of water-drops a water-pot is filled; the wise man becomes full of good, even if he gather it little by little.\n\n123. Let a man avoid evil deeds, as a merchant, if he has few companions and carries much wealth, avoids a dangerous road; as a man who loves life avoids poison.",
    "origFrom": "The Dhammapada (tr. Max Müller, 1881)",
-   "cap": "Thai - Mahajanaka Jataka · public domain"
+   "cap": ""
   },
   {
    "ch": "Part Four",
@@ -295,11 +295,11 @@
    "quote": "Do not speak harshly to anybody; those who are spoken to will answer thee in the same way.",
    "qMean": "Speak harshly and you'll be spoken to harshly.",
    "qLife": "Snapping at a waiter and getting slow service in return.",
-   "img": "dhammapada_21",
+   "img": "",
    "orig": "132. He who seeking his own happiness does not punish or kill beings who also long for happiness, will find happiness after death.\n\n133. Do not speak harshly to anybody; those who are spoken to will answer thee in the same way. Angry speech is painful, blows for blows will touch thee.\n\n134. If, like a shattered metal plate (gong), thou utter not, then thou hast reached Nirvana; contention is not known to thee.",
    "origFrom": "The Dhammapada (tr. Max Müller, 1881)",
    "link": "Every deed comes back. Part Four is about punishment, ageing, and the self that must do the work.",
-   "cap": "Bharhut jataka · public domain"
+   "cap": ""
   },
   {
    "ch": "Part Four",
@@ -309,10 +309,10 @@
    "quote": "The brilliant chariots of kings are destroyed, the body also approaches destruction, but the virtue of good people never approaches destruction",
    "qMean": "Everything wears out except true goodness.",
    "qLife": "A grandparent's kindness outlives the house they built.",
-   "img": "dhammapada_22",
+   "img": "",
    "orig": "150. After a stronghold has been made of the bones, it is covered with flesh and blood, and there dwell in it old age and death, pride and deceit.\n\n151. The brilliant chariots of kings are destroyed, the body also approaches destruction, but the virtue of good people never approaches destruction,--thus do the good say to the good.\n\n152. A man who has learnt little, grows old like an ox; his flesh grows, but his knowledge does not grow.",
    "origFrom": "The Dhammapada (tr. Max Müller, 1881)",
-   "cap": "Konark Sun Temple Wheel July2024 · public domain"
+   "cap": ""
   },
   {
    "ch": "Part Four",
@@ -322,10 +322,10 @@
    "quote": "With self well subdued, a man finds a lord such as few can find.",
    "qMean": "Mastering yourself gives you the best guide there is.",
    "qLife": "Someone who stays calm in a crisis because they've trained themselves.",
-   "img": "dhammapada_23",
+   "img": "",
    "orig": "159. If a man make himself as he teaches others to be, then, being himself well subdued, he may subdue (others); one's own self is indeed difficult to subdue.\n\n160. Self is the lord of self, who else could be the lord? With self well subdued, a man finds a lord such as few can find.\n\n161. The evil done by oneself, self-begotten, self-bred, crushes the foolish, as a diamond breaks a precious stone.",
    "origFrom": "The Dhammapada (tr. Max Müller, 1881)",
-   "cap": "Standing Buddha Gandhara. Musée des arts asiatiques Guimet · public domain"
+   "cap": ""
   },
   {
    "ch": "Part Four",
@@ -335,10 +335,10 @@
    "quote": "By oneself the evil is done, by oneself one suffers; by oneself evil is left undone, by oneself one is purified.",
    "qMean": "You are responsible for your own wrongs and your own cleansing.",
    "qLife": "No one else can make you stop a bad habit; you have to.",
-   "img": "dhammapada_24",
+   "img": "",
    "orig": "165. By oneself the evil is done, by oneself one suffers; by oneself evil is left undone, by oneself one is purified. Purity and impurity belong to oneself, no one can purify another.\n\n166. Let no one forget his own duty for the sake of another's, however great; let a man, after he has discerned his own duty, be always attentive to his duty.",
    "origFrom": "The Dhammapada (tr. Max Müller, 1881)",
-   "cap": "Ghats in Benares · public domain"
+   "cap": ""
   },
   {
    "ch": "Part Five",
@@ -348,11 +348,11 @@
    "quote": "He who formerly was reckless and afterwards became sober, brightens up this world, like the moon when freed from clouds.",
    "qMean": "Someone who reforms lights up the world.",
    "qLife": "A former troublemaker who becomes the most helpful kid in class.",
-   "img": "dhammapada_25",
+   "img": "",
    "orig": "171. Come, look at this glittering world, like unto a royal chariot; the foolish are immersed in it, but the wise do not touch it.\n\n172. He who formerly was reckless and afterwards became sober, brightens up this world, like the moon when freed from clouds.\n\n173. He whose evil deeds are covered by good deeds, brightens up this world, like the moon when freed from clouds.",
    "origFrom": "The Dhammapada (tr. Max Müller, 1881)",
    "link": "If the self must do it, where can it find help? Part Five turns to the world, the Buddha and happiness.",
-   "cap": "The Story of the Buddha and Angulimala, India, Pala Period, mid 9th century AD, basalt - Chazen Museum of Art - DSC01687 · public domain"
+   "cap": ""
   },
   {
    "ch": "Part Five",
@@ -362,10 +362,10 @@
    "quote": "The Awakened call patience the highest penance, long-suffering the highest Nirvana",
    "qMean": "Patience is the highest spiritual practice.",
    "qLife": "Waiting calmly in a long queue without complaining.",
-   "img": "dhammapada_26",
+   "img": "",
    "orig": "184. The Awakened call patience the highest penance, long-suffering the highest Nirvana; for he is not an anchorite (pravragita) who strikes others, he is not an ascetic (sramana) who insults others.\n\n185. Not to blame, not to strike, to live restrained under the law, to be moderate in eating, to sleep and sit alone, and to dwell on the highest thoughts,--this is the teaching of the Awakened.",
    "origFrom": "The Dhammapada (tr. Max Müller, 1881)",
-   "cap": "Statue of buddha, Sarnath Buddha Park, Sarnath · public domain"
+   "cap": ""
   },
   {
    "ch": "Part Five",
@@ -375,10 +375,10 @@
    "quote": "Health is the greatest of gifts, contentedness the best riches",
    "qMean": "Good health and being content are the real riches.",
    "qLife": "Being grateful for a normal healthy day.",
-   "img": "dhammapada_27",
+   "img": "",
    "orig": "203. Hunger is the worst of diseases, the body the greatest of pains; if one knows this truly, that is Nirvana, the highest happiness.\n\n204. Health is the greatest of gifts, contentedness the best riches; trust is the best of relationships, Nirvana the highest happiness.\n\n205. He who has tasted the sweetness of solitude and tranquillity, is free from fear and free from sin, while he tastes the sweetness of drinking in the law.",
    "origFrom": "The Dhammapada (tr. Max Müller, 1881)",
-   "cap": "Bharhut Reliefs Jetavana Sravasti · public domain"
+   "cap": ""
   },
   {
    "ch": "Part Five",
@@ -388,10 +388,10 @@
    "quote": "company with the wise is pleasure, like meeting with kinsfolk",
    "qMean": "Spending time with wise people feels like being with family.",
    "qLife": "A mentor whose conversations always leave you better.",
-   "img": "dhammapada_28",
+   "img": "",
    "orig": "207. He who walks in the company of fools suffers a long way; company with fools, as with an enemy, is always painful; company with the wise is pleasure, like meeting with kinsfolk.\n\n208. Therefore, one ought to follow the wise, the intelligent, the learned, the much enduring, the dutiful, the elect; one ought to follow a good and wise man, as the moon follows the path of the stars.",
    "origFrom": "The Dhammapada (tr. Max Müller, 1881)",
-   "cap": "Saptarishi. The Seven Sages · public domain"
+   "cap": ""
   },
   {
    "ch": "Part Six",
@@ -401,11 +401,11 @@
    "quote": "From affection comes grief, from affection comes fear; he who is free from affection knows neither grief nor fear.",
    "qMean": "Clinging to people and things brings sorrow and fear.",
    "qLife": "Worrying constantly about losing what you love.",
-   "img": "dhammapada_29",
+   "img": "",
    "orig": "212. From pleasure comes grief, from pleasure comes fear; he who is free from pleasure knows neither grief nor fear.\n\n213. From affection comes grief, from affection comes fear; he who is free from affection knows neither grief nor fear.\n\n214. From lust comes grief, from lust comes fear; he who is free from lust knows neither grief nor fear.",
    "origFrom": "The Dhammapada (tr. Max Müller, 1881)",
    "link": "Happiness has enemies: clinging, anger and ignorance. Part Six names them.",
-   "cap": "Cave 1 painting, Ajanta, Maharashtra · public domain"
+   "cap": ""
   },
   {
    "ch": "Part Six",
@@ -417,8 +417,8 @@
    "qLife": "Replying calmly and kindly to an angry customer until they calm down too.",
    "orig": "222. He who holds back rising anger like a rolling chariot, him I call a real driver; other people are but holding the reins.\n\n223. Let a man overcome anger by love, let him overcome evil by good; let him overcome the greedy by liberality, the liar by truth!\n\n224. Speak the truth, do not yield to anger; give, if thou art asked for little; by these three steps thou wilt go near the gods.",
    "origFrom": "The Dhammapada (tr. Max Müller, 1881)",
-   "img": "dhammapada_09",
-   "cap": "Buddha preaching his First Sermon (Sarnath) · public domain"
+   "img": "",
+   "cap": ""
   },
   {
    "ch": "Part Six",
@@ -428,10 +428,10 @@
    "quote": "There never was, there never will be, nor is there now, a man who is always blamed, or a man who is always praised.",
    "qMean": "No one is only blamed or only praised.",
    "qLife": "Even the best player gets booed sometimes.",
-   "img": "dhammapada_30",
+   "img": "",
    "orig": "228. There never was, there never will be, nor is there now, a man who is always blamed, or a man who is always praised.\n\n229, 230. But he whom those who discriminate praise continually day after day, as without blemish, wise, rich in knowledge and virtue, who would dare to blame him, like a coin made of gold from the Gambu river? Even the gods praise him, he is praised even by Brahman.",
    "origFrom": "The Dhammapada (tr. Max Müller, 1881)",
-   "cap": "Buddhist painting from Ajanta, cave 9, Albert Hall Museum, Jaipur · public domain"
+   "cap": ""
   },
   {
    "ch": "Part Six",
@@ -441,10 +441,10 @@
    "quote": "But there is a taint worse than all taints,--ignorance is the greatest taint.",
    "qMean": "Ignorance is the worst flaw of all.",
    "qLife": "Many mistakes come from simply not knowing better.",
-   "img": "dhammapada_31",
+   "img": "",
    "orig": "242. Bad conduct is the taint of woman, greediness the taint of a benefactor; tainted are all evil ways in this world and in the next.\n\n243. But there is a taint worse than all taints,--ignorance is the greatest taint. O mendicants! throw off that taint, and become taintless!\n\n244. Life is easy to live for a man who is without shame, a crow hero, a mischief-maker, an insulting, bold, and wretched fellow.",
    "origFrom": "The Dhammapada (tr. Max Müller, 1881)",
-   "cap": "Kammavāca palm leaf manuscript from Laos · public domain"
+   "cap": ""
   },
   {
    "ch": "Part Seven",
@@ -454,11 +454,11 @@
    "quote": "A man is not learned because he talks much; he who is patient, free from hatred and fear, he is called learned.",
    "qMean": "Real learning shows in patience, not in talking.",
    "qLife": "The quiet expert versus the loud know-it-all.",
-   "img": "dhammapada_32",
+   "img": "",
    "orig": "256, 257. A man is not just if he carries a matter by violence; no, he who distinguishes both right and wrong, who is learned and leads others, not by violence, but by law and equity, and who is guarded by the law and intelligent, he is called just.\n\n258. A man is not learned because he talks much; he who is patient, free from hatred and fear, he is called learned.\n\n259. A man is not a supporter of the law because he talks much; even if a man has learnt little, but sees the law bodily, he is a supporter of the law, a man who never neglects the law.",
    "origFrom": "The Dhammapada (tr. Max Müller, 1881)",
    "link": "What does a truly good person look like? Part Seven describes the just and the path they walk.",
-   "cap": "Labit - Buddha with four characters - Karkhi (Gandhara) - Greco-Buddhist art · public domain"
+   "cap": ""
   },
   {
    "ch": "Part Seven",
@@ -468,10 +468,10 @@
    "quote": "He in whom there is truth, virtue, love, restraint, moderation, he who is free from impurity and is wise, he is called an elder.",
    "qMean": "Respect comes from character, not age.",
    "qLife": "A young volunteer everyone turns to for advice.",
-   "img": "dhammapada_33",
+   "img": "",
    "orig": "260. A man is not an elder because his head is grey; his age may be ripe, but he is called `Old-in-vain.'\n\n261. He in whom there is truth, virtue, love, restraint, moderation, he who is free from impurity and is wise, he is called an elder.\n\n262. An envious greedy, dishonest man does not become respectable by means of much talking only, or by the beauty of his complexion.",
    "origFrom": "The Dhammapada (tr. Max Müller, 1881)",
-   "cap": "Mahakasyapa, Kizil, Cave above the Largest Cave, c. 422-529 AD, wall painting - Ethnological Museum, Berlin - DSC01724 · public domain"
+   "cap": ""
   },
   {
    "ch": "Part Seven",
@@ -481,10 +481,10 @@
    "quote": "Let a man but keep these three roads of action clear, and he will achieve the way which is taught by the wise.",
    "qMean": "Keep your words, thoughts and actions clean.",
    "qLife": "Before acting, checking what you say, think and do.",
-   "img": "dhammapada_34",
+   "img": "",
    "orig": "281. Watching his speech, well restrained in mind, let a man never commit any wrong with his body! Let a man but keep these three roads of action clear, and he will achieve the way which is taught by the wise.\n\n282. Through zeal knowledge is gotten, through lack of zeal knowledge is lost; let a man who knows this double path of gain and loss thus place himself that knowledge may grow.",
    "origFrom": "The Dhammapada (tr. Max Müller, 1881)",
-   "cap": "KITLV 84598 - Kassian Céphas - Relief on the first gallery of Borobudur near Magelang - Around 1888 · public domain"
+   "cap": ""
   },
   {
    "ch": "Part Seven",
@@ -494,10 +494,10 @@
    "quote": "What ought to be done is neglected, what ought not to be done is done; the desires of unruly, thoughtless people are always increasing.",
    "qMean": "Thoughtless people do the wrong things and skip the right ones.",
    "qLife": "Gaming all night while the assignment waits.",
-   "img": "dhammapada_35",
+   "img": "",
    "orig": "292. What ought to be done is neglected, what ought not to be done is done; the desires of unruly, thoughtless people are always increasing.\n\n293. But they whose whole watchfulness is always directed to their body, who do not follow what ought not to be done, and who steadfastly do what ought to be done, the desires of such watchful and wise people will come to an end.",
    "origFrom": "The Dhammapada (tr. Max Müller, 1881)",
-   "cap": "Bharhut circular Temple · public domain"
+   "cap": ""
   },
   {
    "ch": "Part Eight",
@@ -507,11 +507,11 @@
    "quote": "An evil deed is better left undone, for a man repents of it afterwards; a good deed is better done, for having done it, one does not repent.",
    "qMean": "Skip the wrong you'd regret; do the good you won't.",
    "qLife": "Not posting the angry comment; sending the thank-you note.",
-   "img": "dhammapada_36",
+   "img": "",
    "orig": "314. An evil deed is better left undone, for a man repents of it afterwards; a good deed is better done, for having done it, one does not repent.\n\n315. Like a well-guarded frontier fort, with defences within and without, so let a man guard himself. Not a moment should escape, for they who allow the right moment to pass, suffer pain when they are in hell.",
    "origFrom": "The Dhammapada (tr. Max Müller, 1881)",
    "link": "The last chapters picture the tamed mind: the elephant, the lotus, and the one who is free.",
-   "cap": "Robert Home (1752-1834) - A South Indian Temple - 1261 - Government Art Collection · public domain"
+   "cap": ""
   },
   {
    "ch": "Part Eight",
@@ -521,10 +521,10 @@
    "quote": "Mules are good, if tamed, and noble Sindhu horses, and elephants with large tusks; but he who tames himself is better still.",
    "qMean": "Taming yourself is worth more than taming any animal.",
    "qLife": "Controlling your temper is harder and better than any skill.",
-   "img": "dhammapada_37",
+   "img": "",
    "orig": "321. They lead a tamed elephant to battle, the king mounts a tamed elephant; the tamed is the best among men, he who silently endures abuse.\n\n322. Mules are good, if tamed, and noble Sindhu horses, and elephants with large tusks; but he who tames himself is better still.\n\n323. For with these animals does no man reach the untrodden country (Nirvana), where a tamed man goes on a tamed animal, viz. on his own well-tamed self.",
    "origFrom": "The Dhammapada (tr. Max Müller, 1881)",
-   "cap": "Thai - Life of Buddha, A Tableau · public domain"
+   "cap": ""
   },
   {
    "ch": "Part Eight",
@@ -534,10 +534,10 @@
    "quote": "He who overcomes this fierce thirst, difficult to be conquered in this world, sufferings fall off from him, like water-drops from a lotus leaf.",
    "qMean": "Beat craving and suffering slides off you.",
    "qLife": "Once you stop needing the latest gadget, adverts stop bothering you.",
-   "img": "dhammapada_38",
+   "img": "",
    "orig": "336. He who overcomes this fierce thirst, difficult to be conquered in this world, sufferings fall off from him, like water-drops from a lotus leaf.\n\n337. This salutary word I tell you, `Do ye, as many as are here assembled, dig up the root of thirst, as he who wants the sweet-scented Usira root must dig up the Birana grass, that Mara (the tempter) may not crush you again and again, as the stream crushes the reeds.'",
    "origFrom": "The Dhammapada (tr. Max Müller, 1881)",
-   "cap": "Sacred lotus - Unknown - 19 1927 2 63 · public domain"
+   "cap": ""
   },
   {
    "ch": "Part Eight",
@@ -547,10 +547,10 @@
    "quote": "Without knowledge there is no meditation, without meditation there is no knowledge",
    "qMean": "Understanding and quiet reflection need each other.",
    "qLife": "Studying a subject and then thinking it over quietly.",
-   "img": "dhammapada_39",
+   "img": "",
    "orig": "371. Meditate, O Bhikshu, and be not heedless! Do not direct thy thought to what gives pleasure that thou mayest not for thy heedlessness have to swallow the iron ball (in hell), and that thou mayest not cry out when burning, `This is pain.'\n\n372. Without knowledge there is no meditation, without meditation there is no knowledge: he who has knowledge and meditation is near unto Nirvana.\n\n373. A Bhikshu who has entered his empty house, and whose mind is tranquil, feels a more than human delight when he sees the law clearly.",
    "origFrom": "The Dhammapada (tr. Max Müller, 1881)",
-   "cap": "Meditating Monk, Cave of the Seafarers (Cave 212), Kizil, 341-417 AD, wall painting - Ethnological Museum, Berlin - DSC01693 · public domain"
+   "cap": ""
   },
   {
    "ch": "Part Eight",
@@ -560,10 +560,10 @@
    "quote": "Him I call indeed a Brahmana who has cut all fetters, who never trembles, is independent and unshackled.",
    "qMean": "The truly free person has broken every chain and fears nothing.",
    "qLife": "Someone so at peace that criticism and praise barely touch them.",
-   "img": "dhammapada_40",
+   "img": "",
    "orig": "396. I do not call a man a Brahmana because of his origin or of his mother. He is indeed arrogant, and he is wealthy: but the poor, who is free from all attachments, him I call indeed a Brahmana.\n\n397. Him I call indeed a Brahmana who has cut all fetters, who never trembles, is independent and unshackled.\n\n398. Him I call indeed a Brahmana who has cut the strap and the thong, the chain with all that pertains to it, who has burst the bar, and is awakened.",
    "origFrom": "The Dhammapada (tr. Max Müller, 1881)",
-   "cap": "Shakyamuni Buddha with Avadana Legend Scenes · public domain"
+   "cap": ""
   }
  ]
 }

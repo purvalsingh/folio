@@ -8,8 +8,8 @@
  "era": "victorian",
  "shelf": "The Human Mind",
  "blurb": "Darwin studies smiles, sneers, tears and blushes in people and animals — the first science of body language.",
- "version": 2,
- "cover": "emotions_cover",
+ "version": 3,
+ "cover": "",
  "glossary": {
   "blush": {
    "m": "To go red in the face from shyness or shame.",
@@ -44,8 +44,8 @@
    "qLife": "Going red when the class turns to look at you.",
    "orig": "Blushing is the most peculiar and the most human of all expressions. Monkeys redden from passion, but it would require an overwhelming amount of evidence to make us believe that any animal could blush. The reddening of the face from a blush is due to the relaxation of the muscular coats of the small arteries, by which the capillaries become filled with blood; and this depends on the proper vaso-motor centre being affected. No doubt if there be at the same time much mental agitation, the general circulation will be affected; but it is not due to the action of the heart that the network of minute vessels covering the face becomes under a sense of shame gorged with blood. We can cause laughing by tickling the skin, weeping or frowning by a blow, trembling from the fear of pain, and so forth; but we cannot cause a blush, as Dr. Burgess remarks, by any physical means,—that is by any action on the body. It is the mind which must be affected. Blushing is not only involuntary; but the wish to restrain it, by leading to self-attention actually increases the tendency.",
    "origFrom": "Charles Darwin, The Expression of the Emotions (1872)",
-   "img": "emotions_01",
-   "cap": "Duchenne de Boulogne's experiments on facial expression · public domain"
+   "img": "",
+   "cap": ""
   },
   {
    "ch": "Chapter XIII",
@@ -57,8 +57,8 @@
    "qLife": "Your dog looks guilty, but it isn't blushing.",
    "orig": "Blushing is the most peculiar and the most human of all expressions. Monkeys redden from passion, but it would require an overwhelming amount of evidence to make us believe that any animal could blush. The reddening of the face from a blush is due to the relaxation of the muscular coats of the small arteries, by which the capillaries become filled with blood; and this depends on the proper vaso-motor centre being affected. No doubt if there be at the same time much mental agitation, the general circulation will be affected; but it is not due to the action of the heart that the network of minute vessels covering the face becomes under a sense of shame gorged with blood. We can cause laughing by tickling the skin, weeping or frowning by a blow, trembling from the fear of pain, and so forth; but we cannot cause a blush, as Dr. Burgess remarks, by any physical means,—that is by any action on the body. It is the mind which must be affected. Blushing is not only involuntary; but the wish to restrain it, by leading to self-attention actually increases the tendency.",
    "origFrom": "Charles Darwin, The Expression of the Emotions (1872)",
-   "img": "emotions_02",
-   "cap": "Twee jongens, een man en een aap bij een hek · public domain"
+   "img": "",
+   "cap": ""
   },
   {
    "ch": "Chapter XIV",
@@ -70,8 +70,8 @@
    "qLife": "Pacing and shouting when angry makes you angrier.",
    "orig": "… and mutual good feeling is thus strengthened. The movements of expression give vividness and energy to our spoken words. They reveal the thoughts and intentions of others more truly than do words, which may be falsified. Whatever amount of truth the so-called science of physiognomy may contain, appears to depend, as Haller long ago remarked, on different persons bringing into frequent use different facial muscles, according to their dispositions; the development of these muscles being perhaps thus increased, and the lines or furrows on the face, due to their habitual contraction, being thus rendered deeper and more conspicuous. The free expression by outward signs of an emotion intensifies it. On the other hand, the repression, as far as this is possible, of all outward signs softens our emotions. He who gives way to violent gestures will increase his rage; he who does not control the signs of fear will experience fear in a greater degree; and he who remains passive when overwhelmed with grief loses his best chance of recovering elasticity of mind. These results follow partly from the intimate relation which exists between almost all the emotions and their outward manifestations; …",
    "origFrom": "Charles Darwin, The Expression of the Emotions (1872)",
-   "img": "emotions_03",
-   "cap": "Expression of the Emotions Figure 21 · public domain"
+   "img": "",
+   "cap": ""
   },
   {
    "ch": "Chapter XIV",
@@ -83,8 +83,8 @@
    "qLife": "Taking a slow breath instead of banging the table.",
    "orig": "… Whatever amount of truth the so-called science of physiognomy may contain, appears to depend, as Haller long ago remarked, on different persons bringing into frequent use different facial muscles, according to their dispositions; the development of these muscles being perhaps thus increased, and the lines or furrows on the face, due to their habitual contraction, being thus rendered deeper and more conspicuous. The free expression by outward signs of an emotion intensifies it. On the other hand, the repression, as far as this is possible, of all outward signs softens our emotions. He who gives way to violent gestures will increase his rage; he who does not control the signs of fear will experience fear in a greater degree; and he who remains passive when overwhelmed with grief loses his best chance of recovering elasticity of mind. These results follow partly from the intimate relation which exists between almost all the emotions and their outward manifestations; and partly from the direct influence of exertion on the heart, and consequently on the brain. …",
    "origFrom": "Charles Darwin, The Expression of the Emotions (1872)",
-   "img": "emotions_04",
-   "cap": "Desire (Le Brun Travested, or Caricatures of the Passions) · public domain"
+   "img": "",
+   "cap": ""
   },
   {
    "ch": "Chapter XIV",
@@ -96,8 +96,8 @@
    "qLife": "A smile from a stranger can change a bad day.",
    "orig": "The movements of expression in the face and body, whatever their origin may have been, are in themselves of much importance for our welfare. They serve as the first means of communication between the mother and her infant; she smiles approval, and thus encourages her child on the right path, or frowns disapproval. We readily perceive sympathy in others by their expression; our sufferings are thus mitigated and our pleasures increased; and mutual good feeling is thus strengthened. The movements of expression give vividness and energy to our spoken words. They reveal the thoughts and intentions of others more truly than do words, which may be falsified. Whatever amount of truth the so-called science of physiognomy may contain, appears to depend, as Haller long ago remarked, on different persons bringing into frequent use different facial muscles, according to their dispositions; the development of these muscles being perhaps thus increased, and the lines or furrows on the face, due to their habitual contraction, being thus rendered deeper and more conspicuous. …",
    "origFrom": "Charles Darwin, The Expression of the Emotions (1872)",
-   "img": "emotions_05",
-   "cap": "Expression of the Emotions Figure 6 · public domain"
+   "img": "",
+   "cap": ""
   },
   {
    "ch": "Chapter XIV",
@@ -109,8 +109,8 @@
    "qLife": "A baby smiling back at its mother before it can speak.",
    "orig": "The movements of expression in the face and body, whatever their origin may have been, are in themselves of much importance for our welfare. They serve as the first means of communication between the mother and her infant; she smiles approval, and thus encourages her child on the right path, or frowns disapproval. We readily perceive sympathy in others by their expression; our sufferings are thus mitigated and our pleasures increased; and mutual good feeling is thus strengthened. The movements of expression give vividness and energy to our spoken words. They reveal the thoughts and intentions of others more truly than do words, which may be falsified. Whatever amount of truth the so-called science of physiognomy may contain, appears to depend, as Haller long ago remarked, on different persons bringing into frequent use different facial muscles, according to their dispositions; the development of these muscles being perhaps thus increased, and the lines or furrows on the face, due to their habitual contraction, being thus rendered deeper and more conspicuous. …",
    "origFrom": "Charles Darwin, The Expression of the Emotions (1872)",
-   "img": "emotions_06",
-   "cap": "Mother and child, 19th-century painting · public domain"
+   "img": "",
+   "cap": ""
   }
  ]
 }

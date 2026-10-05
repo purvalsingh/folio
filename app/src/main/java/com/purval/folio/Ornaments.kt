@@ -6,6 +6,7 @@ import android.util.LruCache
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.border
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.BoxWithConstraints
@@ -186,7 +187,8 @@ fun glossed(text: String, glossary: Map<String, Gloss>, ink: Ink, onWord: (Gloss
         append(text)
         val style = TextLinkStyles(SpanStyle(color = ink.rubric, textDecoration = TextDecoration.Underline))
         wordRx.findAll(text).forEach { m ->
-            val g = glossary[m.value.lowercase()] ?: return@forEach
+            val word = m.value.lowercase()
+            val g = glossary[word] ?: glossary[word.removeSuffix("'s").removeSuffix("’s")] ?: return@forEach
             addLink(LinkAnnotation.Clickable(m.value, style) { onWord(g) }, m.range.first, m.range.last + 1)
         }
     }
@@ -200,7 +202,7 @@ fun glossed(text: String, glossary: Map<String, Gloss>, ink: Ink, onWord: (Gloss
 @Composable
 fun DropCapText(
     text: AnnotatedString, style: TextStyle, capFont: FontFamily, lines: Int, illuminated: Boolean,
-    modifier: Modifier = Modifier, capScale: Float = 0.78f,
+    modifier: Modifier = Modifier, capScale: Float = 0.78f, onCapClick: (() -> Unit)? = null,
 ) {
     val ink = LocalInk.current
     if (text.isEmpty()) return
@@ -231,7 +233,7 @@ fun DropCapText(
                             drawRect(Color(0xFFF6EBDD).copy(alpha = .6f), topLeft = Offset(4f, 4f),
                                 size = size.copy(size.width - 8f, size.height - 8f), style = Stroke(1.5f))
                         } else Modifier.border(0.8.dp, ink.rule)
-                    ),
+                    ).then(if (onCapClick != null) Modifier.clickable(onClick = onCapClick) else Modifier),
                     contentAlignment = Alignment.Center,
                 ) {
                     Text(text.text.take(1), fontFamily = capFont, color = if (illuminated) Color(0xFFF6EBDD) else ink.rubric,

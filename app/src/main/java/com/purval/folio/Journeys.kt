@@ -88,7 +88,7 @@ fun JourneysRow(app: App, open: (Journey) -> Unit) {
             val tick = app.store.tick
             val done = remember(tick, j.id) { j.days.indices.count { app.dayDone(j, it) } }
             Column(Modifier.width(220.dp).clip(RoundedCornerShape(3.dp)).clickable { open(j) }.paper(ink.paper, ink).doubleRule(ink).padding(14.dp)) {
-                Text(j.title, fontFamily = Fonts.fraktur, fontSize = 22.sp, lineHeight = 26.sp, color = ink.ink, maxLines = 2, overflow = TextOverflow.Ellipsis)
+                Text(j.title, fontFamily = Fonts.fraktur, fontSize = 20.sp, lineHeight = 25.sp, color = ink.ink, maxLines = 3, overflow = TextOverflow.Ellipsis)
                 Text(j.blurb, fontFamily = Fonts.fell, fontSize = 13.sp, lineHeight = 17.sp, color = ink.faded, maxLines = 3, overflow = TextOverflow.Ellipsis,
                     modifier = Modifier.padding(top = 4.dp))
                 Spacer(Modifier.height(8.dp))
@@ -150,7 +150,7 @@ fun JourneyScreen(app: App, j: Journey, back: () -> Unit, read: (Int) -> Unit) {
                         Label("Day ${d + 1}", if (done) ink.rubric else ink.faded)
                         j.days[d].forEach { (bid, i) ->
                             val b = app.book(bid)
-                            Text("${b?.cards?.getOrNull(i)?.title ?: "…"} · ${b?.title ?: app.catalog?.books?.firstOrNull { it.id == bid }?.title ?: bid}", fontFamily = Fonts.fell, fontSize = 15.sp, lineHeight = 20.sp,
+                            Text("${b?.cards?.getOrNull(i)?.title ?: "Download to read"} · ${b?.title ?: app.catalog?.books?.firstOrNull { it.id == bid }?.title ?: bid}", fontFamily = Fonts.fell, fontSize = 15.sp, lineHeight = 20.sp,
                                 color = if (b != null && app.store.isSealed(bid, i)) ink.faded else ink.ink, maxLines = 1, overflow = TextOverflow.Ellipsis)
                         }
                     }

@@ -8,8 +8,8 @@
  "era": "germanic",
  "shelf": "Mind & the Crowd",
  "blurb": "Nietzsche's sharpest book: our morals hide deeper drives, every deep thinker wears a mask, and the herd hates whoever stands apart.",
- "version": 3,
- "cover": "bge_cover",
+ "version": 4,
+ "cover": "",
  "glossary": {
   "abyss": {
    "m": "A very deep hole; a frightening emptiness.",
@@ -52,8 +52,8 @@
    "qLife": "A team fighting online trolls by turning into trolls themselves.",
    "orig": "145. Comparing man and woman generally, one may say that woman would not have the genius for adornment, if she had not the instinct for the SECONDARY role.\n\n146. He who fights with monsters should be careful lest he thereby become a monster. And if thou gaze long into an abyss, the abyss will also gaze into thee.\n\n147. From old Florentine novels--moreover, from life: Buona femmina e mala femmina vuol bastone.--Sacchetti, Nov. 86.",
    "origFrom": "Friedrich Nietzsche, Beyond Good and Evil (tr. Zimmern, 1907)",
-   "img": "bge_01",
-   "cap": "Saint Michael Fighting the Dragon, from The Apocalypse · public domain"
+   "img": "",
+   "cap": ""
   },
   {
    "ch": "Aphorism 146",
@@ -65,8 +65,8 @@
    "qLife": "Reading crime news all night and then fearing every stranger.",
    "orig": "145. Comparing man and woman generally, one may say that woman would not have the genius for adornment, if she had not the instinct for the SECONDARY role.\n\n146. He who fights with monsters should be careful lest he thereby become a monster. And if thou gaze long into an abyss, the abyss will also gaze into thee.\n\n147. From old Florentine novels--moreover, from life: Buona femmina e mala femmina vuol bastone.--Sacchetti, Nov. 86.",
    "origFrom": "Friedrich Nietzsche, Beyond Good and Evil (tr. Zimmern, 1907)",
-   "img": "bge_02",
-   "cap": "Gustave Doré, Into the Abyss (Dante's Inferno) · public domain"
+   "img": "",
+   "cap": ""
   },
   {
    "ch": "Aphorism 40",
@@ -78,8 +78,8 @@
    "qLife": "A comedian who jokes all the time but is serious in private.",
    "orig": "… I could imagine that a man with something costly and fragile to conceal, would roll through life clumsily and rotundly like an old, green, heavily-hooped wine-cask: the refinement of his shame requiring it to be so. A man who has depths in his shame meets his destiny and his delicate decisions upon paths which few ever reach, and with regard to the existence of which his nearest and most intimate friends may be ignorant; his mortal danger conceals itself from their eyes, and equally so his regained security. Such a hidden nature, which instinctively employs speech for silence and concealment, and is inexhaustible in evasion of communication, DESIRES and insists that a mask of himself shall occupy his place in the hearts and heads of his friends; and supposing he does not desire it, his eyes will some day be opened to the fact that there is nevertheless a mask of him there--and that it is well to be so. Every profound spirit needs a mask; nay, more, around every profound spirit there continually grows a mask, owing to the constantly false, that is to say, SUPERFICIAL interpretation of every word he utters, every step he takes, every sign of life he manifests.",
    "origFrom": "Friedrich Nietzsche, Beyond Good and Evil (tr. Zimmern, 1907)",
-   "img": "bge_03",
-   "cap": "Venetian Jugglers in front of the Palace of the Doge (SM 1529) · public domain"
+   "img": "",
+   "cap": ""
   },
   {
    "ch": "Aphorism 156",
@@ -91,8 +91,8 @@
    "qLife": "Sensible people joining a crazy online trend together.",
    "orig": "155. The sense of the tragic increases and declines with sensuousness.\n\n156. Insanity in individuals is something rare--but in groups, parties, nations, and epochs it is the rule.\n\n157. The thought of suicide is a great consolation: by means of it one gets successfully through many a bad night.\n\n158. Not only our reason, but also our conscience, truckles to our strongest impulse--the tyrant in us.",
    "origFrom": "Friedrich Nietzsche, Beyond Good and Evil (tr. Zimmern, 1907)",
-   "img": "bge_04",
-   "cap": "Paul Addresses the Crowd After His Arrest by Gustave Doré · public domain"
+   "img": "",
+   "cap": ""
   },
   {
    "ch": "Aphorism 78",
@@ -104,8 +104,8 @@
    "qLife": "The person who says 'I'm the worst' is often waiting for you to disagree.",
    "orig": "77. With his principles a man seeks either to dominate, or justify, or honour, or reproach, or conceal his habits: two men with the same principles probably seek fundamentally different ends therewith.\n\n78. He who despises himself, nevertheless esteems himself thereby, as a despiser.\n\n79. A soul which knows that it is loved, but does not itself love, betrays its sediment: its dregs come up.",
    "origFrom": "Friedrich Nietzsche, Beyond Good and Evil (tr. Zimmern, 1907)",
-   "img": "bge_05",
-   "cap": "Albrecht Dürer - Melencolia I · public domain"
+   "img": "",
+   "cap": ""
   },
   {
    "ch": "Aphorism 76",
@@ -117,8 +117,8 @@
    "qLife": "An athlete forced to rest starts being hard on themselves.",
    "orig": "75. The degree and nature of a man's sensuality extends to the highest altitudes of his spirit.\n\n76. Under peaceful conditions the militant man attacks himself.\n\n77. With his principles a man seeks either to dominate, or justify, or honour, or reproach, or conceal his habits: two men with the same principles probably seek fundamentally different ends therewith.",
    "origFrom": "Friedrich Nietzsche, Beyond Good and Evil (tr. Zimmern, 1907)",
-   "img": "bge_06",
-   "cap": "Adventure with the Windmills · public domain"
+   "img": "",
+   "cap": ""
   }
  ]
 }

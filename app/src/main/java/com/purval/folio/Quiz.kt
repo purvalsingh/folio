@@ -227,7 +227,7 @@ fun ChapterCheck(app: App, book: Book, start: Int, onClose: () -> Unit) {
     val ink = LocalInk.current
     val questions = remember(book.id, start) { Quiz.chapter(app, book, start) }
     var result by remember { mutableStateOf<Int?>(null) }
-    Column(Modifier.fillMaxWidth().padding(horizontal = 24.dp).padding(bottom = 28.dp)) {
+    Column(Modifier.fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = 24.dp).padding(bottom = 28.dp)) {
         Label("Chapter check · ${book.cards[start].ch}")
         Text("Three quick questions", fontFamily = book.era.display, fontSize = 28.sp, color = ink.ink)
         Spacer(Modifier.height(12.dp))

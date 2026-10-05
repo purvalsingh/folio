@@ -8,8 +8,8 @@
  "era": "germanic",
  "shelf": "The Human Mind",
  "blurb": "The book that split Jung from Freud: myths, dreams and symbols as the deep, shared language of the human mind.",
- "version": 2,
- "cover": "jung_cover",
+ "version": 3,
+ "cover": "",
  "glossary": {
   "unconscious": {
    "m": "The part of the mind we are not aware of.",
@@ -44,8 +44,8 @@
    "qLife": "Grandparents who still ask 'what did you dream?' at breakfast.",
    "orig": "… that is to say, that they are not to be taken literally just as they are presented in sleep, but that behind them a hidden meaning has to be surmised. It is this ancient idea of a dream symbolism which has challenged not only criticism, but, in addition to that, the strongest opposition. That dreams may be full of import, and, therefore, something to be interpreted, is certainly neither a strange nor an extraordinary idea. This has been familiar to mankind for thousands of years, and, therefore, seems much like a banal truth. The dream interpretations of the Egyptians and Chaldeans, and the story of Joseph who interpreted Pharaoh’s dreams, are known to every one, and the dream book of Artemidorus is also familiar. From countless inscribed monuments of all times and peoples we learn of foreboding dreams, of significant, of prophetic and also of curative dreams which the Deity sent to the sick, sleeping in the temple. We know the dream of the mother of Augustus, who dreamt she was to be with child by the Deity transformed into a snake. We will not heap up references and examples to bear witness to the existence of a belief in the symbolism of dreams. When an idea is so old, and is so generally believed, it is probably true in some way, and, indeed, as is mostly the case, is not literally true, but is true psychologically. …",
    "origFrom": "C. G. Jung, Psychology of the Unconscious (tr. Hinkle, 1916)",
-   "img": "jung_01",
-   "cap": "Poussin, Joseph Interprets Pharaoh's Dream · public domain"
+   "img": "",
+   "cap": ""
   },
   {
    "ch": "Part I",
@@ -57,8 +57,8 @@
    "qLife": "A sudden fear of the dark that feels older than you.",
    "orig": "Our foregoing explanations show wherein the products arising from the unconscious are related to the mythical. From all these signs it may be concluded that the soul possesses in some degree historical strata, the oldest stratum of which would correspond to the unconscious. The result of that must be that an introversion occurring in later life, according to the Freudian teaching, seizes upon regressive infantile reminiscences taken from the individual past. That first points out the way; then, with stronger introversion and regression (strong repressions, introversion psychoses), there come to light pronounced traits of an archaic mental kind which, under certain circumstances, might go as far as the re-echo of a once manifest, archaic mental product.",
    "origFrom": "C. G. Jung, Psychology of the Unconscious (tr. Hinkle, 1916)",
-   "img": "jung_02",
-   "cap": "Geological map showing rock strata · public domain"
+   "img": "",
+   "cap": ""
   },
   {
    "ch": "Part I",
@@ -70,8 +70,8 @@
    "qLife": "Superhero films retell the old hero myths for today.",
    "orig": "… The Judas legend is, in itself, mythical material, viz., the malicious betrayal of a hero. I recall Siegfried and Hagen, Balder and Loki. Siegfried and Balder were murdered by a faithless traitor from among their closest associates. This myth is moving and tragic—it is not honorable battle which kills the noble, but evil treachery. It is, too, an occurrence which is historical over and over again. One thinks of Cæsar and Brutus. Since the myth of such a deed is very old, and still the subject of teaching and repetition, it is the expression of a psychological fact, that envy does not allow humanity to sleep, and that all of us carry, in a hidden recess of our heart, a deadly wish towards the hero. This rule can be applied generally to mythical tradition. It does not set forth any account of the old events, but rather acts in such a way that it always reveals a thought common to humanity, and once more rejuvenated. Thus, for example, the lives and deeds of the founders of old religions are the purest condensations of typical, contemporaneous myths, behind which the individual figure entirely disappears.",
    "origFrom": "C. G. Jung, Psychology of the Unconscious (tr. Hinkle, 1916)",
-   "img": "jung_03",
-   "cap": "Siegfried kills Fafnir · public domain"
+   "img": "",
+   "cap": ""
   },
   {
    "ch": "Part II",
@@ -83,8 +83,8 @@
    "qLife": "Calling the moon 'Chanda Mama' in children's songs.",
    "orig": "… Here, we move in a world of phantasies, which, little concerned with the outer course of things, flows from an inner source, and, constantly changing, creates now plastic, now shadowy shapes. This phantastical activity of the ancient mind created artistically par excellence. The object of the interest does not seem to have been to grasp hold of the “how” of the real world as objectively and exactly as possibly, but to æsthetically adapt subjective phantasies and expectations. There was very little place among ancient people for the coldness and disillusion which Giordano Bruno’s thoughts on eternity and Kepler’s discoveries brought to modern humanity. The naïve man of antiquity saw in the sun the great Father of the heaven and the earth, and in the moon the fruitful good Mother. Everything had its demons; they animated equally a human being and his brother, the animal. Everything was considered according to its anthropomorphic or theriomorphic attributes, as human being or animal. Even the disc of the sun was given wings or four feet, in order to illustrate its movement. …",
    "origFrom": "C. G. Jung, Psychology of the Unconscious (tr. Hinkle, 1916)",
-   "img": "jung_04",
-   "cap": "Emblema XXV. DRACO non moritur, nisi cum fratre & sorore sua interficiatur, qui sunt Sol & Luna. - DPLA - 1e3938492016f0545f4b87f717398f38 · public domain"
+   "img": "",
+   "cap": ""
   },
   {
    "ch": "Essay",
@@ -97,8 +97,8 @@
    "orig": "From this standpoint, the conscious personality seems to be a more or less arbitrary excerpt of the collective psyche. It appears to consist of a number of universal basic human qualities of which it is à priori unconscious, and further of a series of impulses and forms which might just as well have been conscious, but were more or less arbitrarily repressed, in order to attain that excerpt of the collective psyche, which we call personality. The term persona is really an excellent one, for persona was originally the mask which an actor wore, that served to indicate the character in which he appeared. For if we really venture to undertake to decide what psychic material must be accounted personal and what impersonal, we shall soon reach a state of great perplexity; for, in truth, we must make the same assertion regarding the contents of the personality as we have already made with respect to the impersonal unconscious, that is to say that it is collective, whereas we can only concede individuality to the bounds of the persona, that is to the particular choice of personal elements, and that only to a very limited extent. …",
    "origFrom": "C. G. Jung, Collected Papers on Analytical Psychology (1916)",
    "qBy": "C. G. Jung, Collected Papers on Analytical Psychology (1916)",
-   "img": "jung_05",
-   "cap": "Pompeii - Theatre Mask - MAN · public domain"
+   "img": "",
+   "cap": ""
   },
   {
    "ch": "Essay",
@@ -111,8 +111,8 @@
    "orig": "… But when the analytical or causal-reductive interpretation, instead of furnishing something new, persistently brings the same material in different variations, then the moment has come when another mode of interpretation is called for. The causal-reductive procedure has certain drawbacks. First, it does not take strictly into account the patient's associations--e.g. in this case the association of the illness (\"cancer\") with \"crab\" (Krebs = cancer). Second, the particular choice of symbol remains obscure. For instance, why does the friend-mother appear as a crab? A prettier and more plastic representation would have been a nymph. (\"Half dragged she him, half sank he down,\" etc.) An octopus, a dragon, a serpent, or a fish could have performed the same services. Third, the causal-reductive procedure completely ignores that a dream is a subjective phenomenon, and that consequently even an exhaustive interpretation can never connect the crab with the mother or the friend, but only with the dreamer's idea of them. The whole dream is the dreamer; she is the stream, the crossing, and the crab. That is to say these details are expressions of psychological conditions and tendencies in the subject's unconscious.",
    "origFrom": "C. G. Jung, Collected Papers on Analytical Psychology (1916)",
    "qBy": "C. G. Jung, Collected Papers on Analytical Psychology (1916)",
-   "img": "jung_06",
-   "cap": "La Bohémienne endormie · public domain"
+   "img": "",
+   "cap": ""
   }
  ]
 }

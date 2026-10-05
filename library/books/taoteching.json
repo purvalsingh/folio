@@ -8,8 +8,8 @@
  "era": "eastern",
  "shelf": "Eastern Paths",
  "blurb": "Eighty-one tiny poems on the Way: soft beats hard, empty is useful, the leader who leads least leads best.",
- "version": 6,
- "cover": "taoteching_cover",
+ "version": 7,
+ "cover": "",
  "deep": true,
  "glossary": {
   "tao": {
@@ -56,8 +56,8 @@
    "qLife": "No recipe can fully capture how your mother's dal tastes.",
    "orig": "Translated by James Legge\n\nPART 1.\n\nCh. 1. 1. The Tao that can be trodden is not the enduring and unchanging Tao. The name that can be named is not the enduring and unchanging name.\n\n2. (Conceived of as) having no name, it is the Originator of heaven and earth; (conceived of as) having a name, it is the Mother of all things.\n\n3.",
    "origFrom": "Lao Tzu, Tao Te Ching (tr. Legge, 1891)",
-   "img": "taoteching_01",
-   "cap": "Chinese landscape fan painting · public domain"
+   "img": "",
+   "cap": ""
   },
   {
    "ch": "Part One",
@@ -67,10 +67,10 @@
    "quote": "All in the world know the beauty of the beautiful",
    "qMean": "Calling something beautiful creates the idea of ugliness too.",
    "qLife": "Calling one child 'the clever one' quietly labels the others.",
-   "img": "taoteching_10",
+   "img": "",
    "orig": "2. 1. All in the world know the beauty of the beautiful, and in doing this they have (the idea of) what ugliness is; they all know the skill of the skilful, and in doing this they have (the idea of) what the want of skill is.\n\n2. So it is that existence and non-existence give birth the one to (the idea of) the other; that difficulty and ease produce the one (the idea of) the other; that length and shortness fashion out the one the figure of the other; that (the ideas of) height and lowness arise from the contrast of the one with the other; that the musical notes and tones become harmonious through the relation of one with another; and that being before and behind give the idea of one following another.",
    "origFrom": "Lao Tzu, Tao Te Ching (tr. Legge, 1891)",
-   "cap": "Min Zhen - Landscape in the Manner of Ma Yuan · public domain"
+   "cap": ""
   },
   {
    "ch": "Part One",
@@ -80,10 +80,10 @@
    "quote": "The Tao is (like) the emptiness of a vessel",
    "qMean": "The Way is like an empty bowl that is always useful.",
    "qLife": "An open mind can take in more than a mind already full of opinions.",
-   "img": "taoteching_11",
+   "img": "",
    "orig": "4. 1. The Tao is (like) the emptiness of a vessel; and in our employment of it we must be on our guard against all fulness. How deep and unfathomable it is, as if it were the Honoured Ancestor of all things!\n\n2. We should blunt our sharp points, and unravel the complications of things; we should attemper our brightness, and bring ourselves into agreement with the obscurity of others. How pure and still the Tao is, as if it would ever so continue!",
    "origFrom": "Lao Tzu, Tao Te Ching (tr. Legge, 1891)",
-   "cap": "Hare's fur Tea bowl Song Dynasty Musée Mariemont 08112015 1 · public domain"
+   "cap": ""
   },
   {
    "ch": "Part One",
@@ -95,8 +95,8 @@
    "qLife": "A captain who passes the ball and lets others score becomes the team's leader.",
    "orig": "2. Therefore the sage puts his own person last, and yet it is found in the foremost place; he treats his person as if it were foreign to him, and yet that person is preserved. Is it not because he has no personal and private ends, that therefore such ends are realised?\n\n8. 1. The highest excellence is like (that of) water. The excellence of water appears in its benefiting all things, and in its occupying, without striving (to the contrary), the low place which all men dislike. Hence (its way) is near to (that of) the Tao.",
    "origFrom": "Lao Tzu, Tao Te Ching (tr. Legge, 1891)",
-   "img": "taoteching_02",
-   "cap": "Portrait of a Chinese sage · public domain"
+   "img": "",
+   "cap": ""
   },
   {
    "ch": "Part One",
@@ -108,8 +108,8 @@
    "qLife": "A colleague who quietly helps everyone and never competes for credit.",
    "orig": "8. 1. The highest excellence is like (that of) water. The excellence of water appears in its benefiting all things, and in its occupying, without striving (to the contrary), the low place which all men dislike. Hence (its way) is near to (that of) the Tao.\n\n2. The excellence of a residence is in (the suitability of) the place; that of the mind is in abysmal stillness; that of associations is in their being with the virtuous; that of government is in its securing good order; that of (the conduct of) affairs is in its ability; and that of (the initiation of) any movement is in its timeliness.",
    "origFrom": "Lao Tzu, Tao Te Ching (tr. Legge, 1891)",
-   "img": "taoteching_03",
-   "cap": "The Waterfall · public domain"
+   "img": "",
+   "cap": ""
   },
   {
    "ch": "Part One",
@@ -121,8 +121,8 @@
    "qLife": "A founder who hands the company to new leaders at its peak.",
    "orig": "2. When gold and jade fill the hall, their possessor cannot keep them safe. When wealth and honours lead to arrogancy, this brings its evil on itself. When the work is done, and one's name is becoming distinguished, to withdraw into obscurity is the way of Heaven.\n\n10. 1. When the intelligent and animal souls are held together in one embrace, they can be kept from separating. When one gives undivided attention to the (vital) breath, and brings it to the utmost degree of pliancy, he can become as a (tender) babe. When he has cleansed away the most mysterious sights (of his imagination), he can become without a flaw.",
    "origFrom": "Lao Tzu, Tao Te Ching (tr. Legge, 1891)",
-   "img": "taoteching_04",
-   "cap": "Xu Yang - Hermit's cottage in the mountains · public domain"
+   "img": "",
+   "cap": ""
   },
   {
    "ch": "Part Two",
@@ -134,8 +134,8 @@
    "qLife": "A calendar with free time in it is what lets you handle surprises.",
    "orig": "11. The thirty spokes unite in the one nave; but it is on the empty space (for the axle), that the use of the wheel depends. Clay is fashioned into vessels; but it is on their empty hollowness, that their use depends. The door and windows are cut out (from the walls) to form an apartment; but it is on the empty space (within), that its use depends. Therefore, what has a (positive) existence serves for profitable adaptation, and what has not that for (actual) usefulness.",
    "origFrom": "Lao Tzu, Tao Te Ching (tr. Legge, 1891)",
-   "img": "taoteching_05",
-   "cap": "Chariot Wheel with Bronze Hub, Tomb of Marquis Yi of Zeng · public domain",
+   "img": "",
+   "cap": "",
    "link": "Part One met the nameless Way and its first image, water. Part Two turns to emptiness and stillness."
   },
   {
@@ -146,10 +146,10 @@
    "quote": "Favour and disgrace would seem equally to be feared",
    "qMean": "Both praise and shame should be treated with caution.",
    "qLife": "Someone who lives for likes is shaken by every bad comment.",
-   "img": "taoteching_12",
+   "img": "",
    "orig": "13. 1. Favour and disgrace would seem equally to be feared; honour and great calamity, to be regarded as personal conditions (of the same kind).\n\n2. What is meant by speaking thus of favour and disgrace? Disgrace is being in a low position (after the enjoyment of favour). The getting that (favour) leads to the apprehension (of losing it), and the losing it leads to the fear of (still greater calamity):--this is what is meant by saying that favour and disgrace would seem equally to be feared.",
    "origFrom": "Lao Tzu, Tao Te Ching (tr. Legge, 1891)",
-   "cap": "Ming Yingzong (1) · public domain"
+   "cap": ""
   },
   {
    "ch": "Part Two",
@@ -159,10 +159,10 @@
    "quote": "All things alike go through their processes of activity, and (then) we see them return (to their original state).",
    "qMean": "Everything goes through its life and then returns to where it began.",
    "qLife": "Leaves fall in autumn and feed the same tree in spring.",
-   "img": "taoteching_13",
+   "img": "",
    "orig": "16. 1. The (state of) vacancy should be brought to the utmost degree, and that of stillness guarded with unwearying vigour. All things alike go through their processes of activity, and (then) we see them return (to their original state). When things (in the vegetable world) have displayed their luxuriant growth, we see each of them return to its root. This returning to their root is what we call the state of stillness; and that stillness may be called a reporting that they have fulfilled their appointed end.",
    "origFrom": "Lao Tzu, Tao Te Ching (tr. Legge, 1891)",
-   "cap": "China, Southern Song dynasty - Bird on a Flowering Branch · public domain"
+   "cap": ""
   },
   {
    "ch": "Part Two",
@@ -172,10 +172,10 @@
    "quote": "Their work was done and their undertakings were successful, while the people all said, 'We are as we are, of ourselves!'",
    "qMean": "When good leaders succeed, people feel they did it themselves.",
    "qLife": "A coach whose team believes the win was all theirs.",
-   "img": "taoteching_14",
+   "img": "",
    "orig": "2. How irresolute did those (earliest rulers) appear, showing (by their reticence) the importance which they set upon their words! Their work was done and their undertakings were successful, while the people all said, 'We are as we are, of ourselves!'\n\n18. 1. When the Great Tao (Way or Method) ceased to be observed, benevolence and righteousness came into vogue. (Then) appeared wisdom and shrewdness, and there ensued great hypocrisy.",
    "origFrom": "Lao Tzu, Tao Te Ching (tr. Legge, 1891)",
-   "cap": "Xu Yang - Village school · public domain"
+   "cap": ""
   },
   {
    "ch": "Part Two",
@@ -185,10 +185,10 @@
    "quote": "When the Great Tao (Way or Method) ceased to be observed, benevolence and righteousness came into vogue.",
    "qMean": "People talk about being good only once natural goodness is lost.",
    "qLife": "Families that trust each other don't need written house rules.",
-   "img": "taoteching_15",
+   "img": "",
    "orig": "18. 1. When the Great Tao (Way or Method) ceased to be observed, benevolence and righteousness came into vogue. (Then) appeared wisdom and shrewdness, and there ensued great hypocrisy.\n\n2. When harmony no longer prevailed throughout the six kinships, filial sons found their manifestation; when the states and clans fell into disorder, loyal ministers appeared.",
    "origFrom": "Lao Tzu, Tao Te Ching (tr. Legge, 1891)",
-   "cap": "Cropped version of Confucius Portrait, Kongzi (Confucius) Family Mansion, Qufu · public domain"
+   "cap": ""
   },
   {
    "ch": "Part Three",
@@ -198,11 +198,11 @@
    "quote": "The partial becomes complete; the crooked, straight; the empty, full",
    "qMean": "What seems incomplete or crooked can become whole and straight.",
    "qLife": "A humble beginner often ends up the most skilled.",
-   "img": "taoteching_16",
+   "img": "",
    "orig": "22. 1. The partial becomes complete; the crooked, straight; the empty, full; the worn out, new. He whose (desires) are few gets them; he whose (desires) are many goes astray.\n\n2. Therefore the sage holds in his embrace the one thing (of humility), and manifests it to all the world. He is free from self-display, and therefore he shines; from self-assertion, and therefore he is distinguished; from self-boasting, and therefore his merit is acknowledged; from self-complacency, and therefore he acquires superiority. It is because he is thus free from striving that therefore no one in the world is able to strive with him.",
    "origFrom": "Lao Tzu, Tao Te Ching (tr. Legge, 1891)",
    "link": "Stillness lets things return to their roots. Part Three shows how bending and yielding make things whole.",
-   "cap": "Xia Chang - Bamboo in Wind · public domain"
+   "cap": ""
   },
   {
    "ch": "Part Three",
@@ -212,10 +212,10 @@
    "quote": "If Heaven and Earth cannot make such (spasmodic) actings last long, how much less can man!",
    "qMean": "Nothing violent or sudden lasts long, especially for people.",
    "qLife": "Crash diets end quickly; steady habits stay.",
-   "img": "taoteching_17",
+   "img": "",
    "orig": "23. 1. Abstaining from speech marks him who is obeying the spontaneity of his nature. A violent wind does not last for a whole morning; a sudden rain does not last for the whole day. To whom is it that these (two) things are owing? To Heaven and Earth. If Heaven and Earth cannot make such (spasmodic) actings last long, how much less can man!",
    "origFrom": "Lao Tzu, Tao Te Ching (tr. Legge, 1891)",
-   "cap": "Dai Jin-Wind and Rain Returning by Boat · public domain"
+   "cap": ""
   },
   {
    "ch": "Part Three",
@@ -225,10 +225,10 @@
    "quote": "Gravity is the root of lightness; stillness, the ruler of movement",
    "qMean": "Seriousness grounds frivolity; calm controls restlessness.",
    "qLife": "A calm parent keeps a hectic household steady.",
-   "img": "taoteching_18",
+   "img": "",
    "orig": "26. 1. Gravity is the root of lightness; stillness, the ruler of movement.\n\n2. Therefore a wise prince, marching the whole day, does not go far from his baggage waggons. Although he may have brilliant prospects to look at, he quietly remains (in his proper place), indifferent to them. How should the lord of a myriad chariots carry himself lightly before the kingdom? If he do act lightly, he has lost his root (of gravity); if he proceed to active movement, he will lose his throne.",
    "origFrom": "Lao Tzu, Tao Te Ching (tr. Legge, 1891)",
-   "cap": "Paintings on east wall of Xu Xianxiu Tomb · public domain"
+   "cap": ""
   },
   {
    "ch": "Part Three",
@@ -238,10 +238,10 @@
    "quote": "The skilful traveller leaves no traces of his wheels or footsteps",
    "qMean": "True skill leaves no visible trace.",
    "qLife": "A great editor's work is invisible in a smooth book.",
-   "img": "taoteching_19",
+   "img": "",
    "orig": "27. 1. The skilful traveller leaves no traces of his wheels or footsteps; the skilful speaker says nothing that can be found fault with or blamed; the skilful reckoner uses no tallies; the skilful closer needs no bolts or bars, while to open what he has shut will be impossible; the skilful binder uses no strings or knots, while to unloose what he has bound will be impossible. In the same way the sage is always skilful at saving men, and so he does not cast away any man; he is always skilful at saving things, and so he does not cast away anything. This is called 'Hiding the light of his procedure.'",
    "origFrom": "Lao Tzu, Tao Te Ching (tr. Legge, 1891)",
-   "cap": "Fan K'uan 002 · public domain"
+   "cap": ""
   },
   {
    "ch": "Part Three",
@@ -251,10 +251,10 @@
    "quote": "He who would so win it destroys it; he who would hold it in his grasp loses it.",
    "qMean": "Trying to control everything destroys what you wanted.",
    "qLife": "A controlling friend who loses the friendship by clinging.",
-   "img": "taoteching_20",
+   "img": "",
    "orig": "2. The unwrought material, when divided and distributed, forms vessels. The sage, when employed, becomes the Head of all the Officers (of government); and in his greatest regulations he employs no violent measures.\n\n29. 1. If any one should wish to get the kingdom for himself, and to effect this by what he does, I see that he will not succeed. The kingdom is a spirit-like thing, and cannot be got by active doing. He who would so win it destroys it; he who would hold it in his grasp loses it.\n\n2.",
    "origFrom": "Lao Tzu, Tao Te Ching (tr. Legge, 1891)",
-   "cap": "Warring States Banquet Hall with Bronze Ritual Vessels · public domain"
+   "cap": ""
   },
   {
    "ch": "Part Four",
@@ -264,11 +264,11 @@
    "quote": "Now arms, however beautiful, are instruments of evil omen",
    "qMean": "Weapons, however fine, bring bad fortune.",
    "qLife": "Winning a bitter argument can still cost a friendship.",
-   "img": "taoteching_21",
+   "img": "",
    "orig": "31. 1. Now arms, however beautiful, are instruments of evil omen, hateful, it may be said, to all creatures. Therefore they who have the Tao do not like to employ them.\n\n2. The superior man ordinarily considers the left hand the most honourable place, but in time of war the right hand. Those sharp weapons are instruments of evil omen, and not the instruments of the superior man;--he uses them only on the compulsion of necessity. Calm and repose are what he prizes; victory (by force of arms) is to him undesirable. To consider this desirable would be to delight in the slaughter of men; and he who delights in the slaughter of men cannot get his will in the kingdom.",
    "origFrom": "Lao Tzu, Tao Te Ching (tr. Legge, 1891)",
    "link": "Yielding is not weakness. Part Four is about how the soft overcomes the hard, even in war.",
-   "cap": "Ancient Chinese Writing on Spring & Autumn Bronze Jian (Sword) of Goujian (Copy) · public domain"
+   "cap": ""
   },
   {
    "ch": "Part Four",
@@ -280,8 +280,8 @@
    "qLife": "Knowing you get cranky when hungry, and eating before the big meeting.",
    "orig": "33. 1. He who knows other men is discerning; he who knows himself is intelligent. He who overcomes others is strong; he who overcomes himself is mighty. He who is satisfied with his lot is rich; he who goes on acting with energy has a (firm) will.\n\n2. He who does not fail in the requirements of his position, continues long; he who dies and yet does not perish, has longevity.",
    "origFrom": "Lao Tzu, Tao Te Ching (tr. Legge, 1891)",
-   "img": "taoteching_06",
-   "cap": "William Alexander - A Young Chinese Scholar · public domain"
+   "img": "",
+   "cap": ""
   },
   {
    "ch": "Part Four",
@@ -291,10 +291,10 @@
    "quote": "He who is satisfied with his lot is rich",
    "qMean": "Being satisfied with what you have is true wealth.",
    "qLife": "Enjoying your old phone instead of craving the newest one.",
-   "img": "taoteching_22",
+   "img": "",
    "orig": "33. 1. He who knows other men is discerning; he who knows himself is intelligent. He who overcomes others is strong; he who overcomes himself is mighty. He who is satisfied with his lot is rich; he who goes on acting with energy has a (firm) will.\n\n2. He who does not fail in the requirements of his position, continues long; he who dies and yet does not perish, has longevity.",
    "origFrom": "Lao Tzu, Tao Te Ching (tr. Legge, 1891)",
-   "cap": "Chen Hongshou - Paintings after Ancient Masters, Scholars in a Garden · public domain"
+   "cap": ""
   },
   {
    "ch": "Part Four",
@@ -304,10 +304,10 @@
    "quote": "The soft overcomes the hard; and the weak the strong.",
    "qMean": "Gentleness ends up beating force.",
    "qLife": "A patient listener calms an angry customer better than an argument.",
-   "img": "taoteching_23",
+   "img": "",
    "orig": "36. 1. When one is about to take an inspiration, he is sure to make a (previous) expiration; when he is going to weaken another, he will first strengthen him; when he is going to overthrow another, he will first have raised him up; when he is going to despoil another, he will first have made gifts to him:--this is called 'Hiding the light (of his procedure).'\n\n2. The soft overcomes the hard; and the weak the strong.\n\n3. Fishes should not be taken from the deep; instruments for the profit of a state should not be shown to the people.",
    "origFrom": "Lao Tzu, Tao Te Ching (tr. Legge, 1891)",
-   "cap": "Scholar looking at a waterfall MET DT6780 · public domain"
+   "cap": ""
   },
   {
    "ch": "Part Four",
@@ -317,10 +317,10 @@
    "quote": "The Tao in its regular course does nothing (for the sake of doing it), and so there is nothing which it does not do.",
    "qMean": "The Way doesn't force things, yet everything gets done.",
    "qLife": "A good garden mostly grows itself if the soil is right.",
-   "img": "taoteching_24",
+   "img": "",
    "orig": "3. Fishes should not be taken from the deep; instruments for the profit of a state should not be shown to the people.\n\n37. 1. The Tao in its regular course does nothing (for the sake of doing it), and so there is nothing which it does not do.\n\n2. If princes and kings were able to maintain it, all things would of themselves be transformed by them.",
    "origFrom": "Lao Tzu, Tao Te Ching (tr. Legge, 1891)",
-   "cap": "·· · public domain"
+   "cap": ""
   },
   {
    "ch": "Part Five",
@@ -330,11 +330,11 @@
    "quote": "If it were not (thus) laughed at, it would not be fit to be the Tao.",
    "qMean": "Deep truths often sound ridiculous to shallow minds.",
    "qLife": "Great ideas are often mocked before they're accepted.",
-   "img": "taoteching_25",
+   "img": "",
    "orig": "41. 1. Scholars of the highest class, when they hear about the Tao, earnestly carry it into practice. Scholars of the middle class, when they have heard about it, seem now to keep it and now to lose it. Scholars of the lowest class, when they have heard about it, laugh greatly at it. If it were not (thus) laughed at, it would not be fit to be the Tao.",
    "origFrom": "Lao Tzu, Tao Te Ching (tr. Legge, 1891)",
    "link": "Lao Tzu now turns to the second half of his book, on Te, the power that comes from living the Way.",
-   "cap": "Seigan Sōi - Budai - 2015.79.176 - Minneapolis Institute of Art · public domain"
+   "cap": ""
   },
   {
    "ch": "Part Five",
@@ -344,10 +344,10 @@
    "quote": "some things are increased by being diminished",
    "qMean": "Giving something up can leave you with more.",
    "qLife": "Saying no to some commitments gives you more time for what matters.",
-   "img": "taoteching_26",
+   "img": "",
    "orig": "2. What men dislike is to be orphans, to have little virtue, to be as carriages without naves; and yet these are the designations which kings and princes use for themselves. So it is that some things are increased by being diminished, and others are diminished by being increased.\n\n3. What other men (thus) teach, I also teach. The violent and strong do not die their natural death. I will make this the basis of my teaching.",
    "origFrom": "Lao Tzu, Tao Te Ching (tr. Legge, 1891)",
-   "cap": "Zhang Ruoai - Desk Album, Flower and Bird Paintings (Bird with Plum Blossoms) - 1967.193.j - Cleveland Museum of Art · public domain"
+   "cap": ""
   },
   {
    "ch": "Part Five",
@@ -357,10 +357,10 @@
    "quote": "the sufficiency of contentment is an enduring and unchanging sufficiency",
    "qMean": "Being content is the only 'enough' that lasts.",
    "qLife": "Stopping eating when full instead of when the plate is empty.",
-   "img": "taoteching_27",
+   "img": "",
    "orig": "2. There is no guilt greater than to sanction ambition; no calamity greater than to be discontented with one's lot; no fault greater than the wish to be getting. Therefore the sufficiency of contentment is an enduring and unchanging sufficiency.\n\n47. 1. Without going outside his door, one understands (all that takes place) under the sky; without looking out from his window, one sees the Tao of Heaven. The farther that one goes out (from himself), the less he knows.",
    "origFrom": "Lao Tzu, Tao Te Ching (tr. Legge, 1891)",
-   "cap": "Painting of horse by Han Gan as catalogued in Shiqu Baoji · public domain"
+   "cap": ""
   },
   {
    "ch": "Part Five",
@@ -370,10 +370,10 @@
    "quote": "The farther that one goes out (from himself), the less he knows.",
    "qMean": "Chasing far away often teaches less than looking within.",
    "qLife": "Travelling the world won't fix what you avoid facing at home.",
-   "img": "taoteching_28",
+   "img": "",
    "orig": "47. 1. Without going outside his door, one understands (all that takes place) under the sky; without looking out from his window, one sees the Tao of Heaven. The farther that one goes out (from himself), the less he knows.\n\n2. Therefore the sages got their knowledge without travelling; gave their (right) names to things without seeing them; and accomplished their ends without any purpose of doing so.",
    "origFrom": "Lao Tzu, Tao Te Ching (tr. Legge, 1891)",
-   "cap": "The Cassia Grove Studio · public domain"
+   "cap": ""
   },
   {
    "ch": "Part Five",
@@ -383,10 +383,10 @@
    "quote": "To those who are good (to me), I am good; and to those who are not good (to me), I am also good",
    "qMean": "Be kind even to those who aren't kind to you.",
    "qLife": "Greeting a grumpy neighbour warmly every morning.",
-   "img": "taoteching_29",
+   "img": "",
    "orig": "2. To those who are good (to me), I am good; and to those who are not good (to me), I am also good;--and thus (all) get to be good. To those who are sincere (with me), I am sincere; and to those who are not sincere (with me), I am also sincere;--and thus (all) get to be sincere.\n\n3. The sage has in the world an appearance of indecision, and keeps his mind in a state of indifference to all. The people all keep their eyes and ears directed to him, and he deals with them all as his children.",
    "origFrom": "Lao Tzu, Tao Te Ching (tr. Legge, 1891)",
-   "cap": "One Hundred Children Playing in the Spring · public domain"
+   "cap": ""
   },
   {
    "ch": "Part Six",
@@ -396,11 +396,11 @@
    "quote": "When things have become strong, they (then) become old",
    "qMean": "When things grow rigid and strong, they start to decline.",
    "qLife": "A company that stops changing once it's big starts to fall behind.",
-   "img": "taoteching_30",
+   "img": "",
    "orig": "To him by whom this harmony is known, (The secret of) the unchanging (Tao) is shown, And in the knowledge wisdom finds its throne. All life-increasing arts to evil turn; Where the mind makes the vital breath to burn, (False) is the strength, (and o'er it we should mourn.)\n\n4. When things have become strong, they (then) become old, which may be said to be contrary to the Tao. Whatever is contrary to the Tao soon ends.\n\n56. 1. He who knows (the Tao) does not (care to) speak (about it); he who is (ever ready to) speak about it does not know it.",
    "origFrom": "Lao Tzu, Tao Te Ching (tr. Legge, 1891)",
    "link": "Contentment is real power. Part Six asks what that means for rulers.",
-   "cap": "One Hundred Children in the Long Spring-crop · public domain"
+   "cap": ""
   },
   {
    "ch": "Part Six",
@@ -412,8 +412,8 @@
    "qLife": "The best cook in the family just cooks; the one who talks endlessly about food burns the rice.",
    "orig": "56. 1. He who knows (the Tao) does not (care to) speak (about it); he who is (ever ready to) speak about it does not know it.\n\n2. He (who knows it) will keep his mouth shut and close the portals (of his nostrils). He will blunt his sharp points and unravel the complications of things; he will attemper his brightness, and bring himself into agreement with the obscurity (of others). This is called 'the Mysterious Agreement.'",
    "origFrom": "Lao Tzu, Tao Te Ching (tr. Legge, 1891)",
-   "img": "taoteching_07",
-   "cap": "The Eighteen Scholars by an anonymous Ming artist 3 · public domain"
+   "img": "",
+   "cap": ""
   },
   {
    "ch": "Part Six",
@@ -423,10 +423,10 @@
    "quote": "I will do nothing (of purpose), and the people will be transformed of themselves",
    "qMean": "If I don't force things, people improve on their own.",
    "qLife": "Fewer pointless school rules can mean better behaviour.",
-   "img": "taoteching_31",
+   "img": "",
    "orig": "3. Therefore a sage has said, 'I will do nothing (of purpose), and the people will be transformed of themselves; I will be fond of keeping still, and the people will of themselves become correct. I will take no trouble about it, and the people will of themselves become rich; I will manifest no ambition, and the people will of themselves attain to the primitive simplicity.'",
    "origFrom": "Lao Tzu, Tao Te Ching (tr. Legge, 1891)",
-   "cap": "Lu Wenying - River Village in a Rainstorm · public domain"
+   "cap": ""
   },
   {
    "ch": "Part Six",
@@ -436,10 +436,10 @@
    "quote": "there is nothing like moderation",
    "qMean": "Nothing is better than moderation.",
    "qLife": "Saving a little energy for the end of a long race.",
-   "img": "taoteching_32",
+   "img": "",
    "orig": "59. 1. For regulating the human (in our constitution) and rendering the (proper) service to the heavenly, there is nothing like moderation.\n\n2. It is only by this moderation that there is effected an early return (to man's normal state). That early return is what I call the repeated accumulation of the attributes (of the Tao). With that repeated accumulation of those attributes, there comes the subjugation (of every obstacle to such return). Of this subjugation we know not what shall be the limit; and when one knows not what the limit shall be, he may be the ruler of a state.",
    "origFrom": "Lao Tzu, Tao Te Ching (tr. Legge, 1891)",
-   "cap": "· Tea Fighting Southern Song dynasty · public domain"
+   "cap": ""
   },
   {
    "ch": "Part Six",
@@ -451,8 +451,8 @@
    "qLife": "A manager who micromanages every email breaks the team's flow.",
    "orig": "60. 1. Governing a great state is like cooking small fish.\n\n2. Let the kingdom be governed according to the Tao, and the manes of the departed will not manifest their spiritual energy. It is not that those manes have not that spiritual energy, but it will not be employed to hurt men. It is not that it could not hurt men, but neither does the ruling sage hurt them.",
    "origFrom": "Lao Tzu, Tao Te Ching (tr. Legge, 1891)",
-   "img": "taoteching_08",
-   "cap": "Chinese fish painting · public domain"
+   "img": "",
+   "cap": ""
   },
   {
    "ch": "Part Seven",
@@ -462,11 +462,11 @@
    "quote": "Therefore the sage, while he never does what is great, is able on that account to accomplish the greatest things.",
    "qMean": "By doing small things well, the wise achieve great things.",
    "qLife": "Writing one page a day finishes a book.",
-   "img": "taoteching_33",
+   "img": "",
    "orig": "2. (The master of it) anticipates things that are difficult while they are easy, and does things that would become great while they are small. All difficult things in the world are sure to arise from a previous state in which they were easy, and all great things from one in which they were small. Therefore the sage, while he never does what is great, is able on that account to accomplish the greatest things.",
    "origFrom": "Lao Tzu, Tao Te Ching (tr. Legge, 1891)",
    "link": "The quiet ruler acts early and small. Part Seven is about great things done through small steps.",
-   "cap": " · public domain"
+   "cap": ""
   },
   {
    "ch": "Part Seven",
@@ -476,10 +476,10 @@
    "quote": "He who lightly promises is sure to keep but little faith",
    "qMean": "People who promise easily often don't deliver.",
    "qLife": "The friend who says yes to everything and turns up for nothing.",
-   "img": "taoteching_34",
+   "img": "",
    "orig": "3. He who lightly promises is sure to keep but little faith; he who is continually thinking things easy is sure to find them difficult. Therefore the sage sees difficulty even in what seems easy, and so never has any difficulties.\n\n64. 1. That which is at rest is easily kept hold of; before a thing has given indications of its presence, it is easy to take measures against it; that which is brittle is easily broken; that which is very small is easily dispersed. Action should be taken before a thing has made its appearance; order should be secured before disorder has begun.",
    "origFrom": "Lao Tzu, Tao Te Ching (tr. Legge, 1891)",
-   "cap": "Kano Tan’yū - Four Elders of Mt. Shang · public domain"
+   "cap": ""
   },
   {
    "ch": "Part Seven",
@@ -491,8 +491,8 @@
    "qLife": "Writing one page today is how a whole book gets written.",
    "orig": "2. The tree which fills the arms grew from the tiniest sprout; the tower of nine storeys rose from a (small) heap of earth; the journey of a thousand li commenced with a single step.\n\n3. He who acts (with an ulterior purpose) does harm; he who takes hold of a thing (in the same way) loses his hold. The sage does not act (so), and therefore does no harm; he does not lay hold (so), and therefore does not lose his hold. (But) people in their conduct of affairs are constantly ruining them when they are on the eve of success. If they were careful at the end, as (they should be) at the beginning, they would not so ruin them.",
    "origFrom": "Lao Tzu, Tao Te Ching (tr. Legge, 1891)",
-   "img": "taoteching_09",
-   "cap": "Dai Jin-Travelers Through Mountain Passes · public domain"
+   "img": "",
+   "cap": ""
   },
   {
    "ch": "Part Seven",
@@ -502,10 +502,10 @@
    "quote": "Action should be taken before a thing has made its appearance; order should be secured before disorder has begun.",
    "qMean": "Deal with problems before they appear.",
    "qLife": "Fixing a small leak before it becomes a flood.",
-   "img": "taoteching_35",
+   "img": "",
    "orig": "64. 1. That which is at rest is easily kept hold of; before a thing has given indications of its presence, it is easy to take measures against it; that which is brittle is easily broken; that which is very small is easily dispersed. Action should be taken before a thing has made its appearance; order should be secured before disorder has begun.",
    "origFrom": "Lao Tzu, Tao Te Ching (tr. Legge, 1891)",
-   "cap": "Hua Yan - Album of Landscape Paintings Illustrating Old Poems- An Old Man Sits under · public domain"
+   "cap": ""
   },
   {
    "ch": "Part Seven",
@@ -515,10 +515,10 @@
    "quote": "Because he does not strive, no one finds it possible to strive with him.",
    "qMean": "If you don't compete, no one can fight you.",
    "qLife": "A humble expert people turn to instead of the loud rival.",
-   "img": "taoteching_36",
+   "img": "",
    "orig": "3. Therefore all in the world delight to exalt him and do not weary of him. Because he does not strive, no one finds it possible to strive with him.\n\n67. 1. All the world says that, while my Tao is great, it yet appears to be inferior (to other systems of teaching). Now it is just its greatness that makes it seem to be inferior. If it were like any other (system), for long would its smallness have been known!",
    "origFrom": "Lao Tzu, Tao Te Ching (tr. Legge, 1891)",
-   "cap": "Ma Yuan - Water Album - Clouds Rising from the Green Sea · public domain"
+   "cap": ""
   },
   {
    "ch": "Part Seven",
@@ -528,10 +528,10 @@
    "quote": "I have three precious things which I prize and hold fast",
    "qMean": "I keep three treasures close: gentleness, simplicity and humility.",
    "qLife": "A grandparent who is kind, careful with money and never brags.",
-   "img": "taoteching_37",
+   "img": "",
    "orig": "2. But I have three precious things which I prize and hold fast. The first is gentleness; the second is economy; and the third is shrinking from taking precedence of others.\n\n3. With that gentleness I can be bold; with that economy I can be liberal; shrinking from taking precedence of others, I can become a vessel of the highest honour. Now-a-days they give up gentleness and are all for being bold; economy, and are all for being liberal; the hindmost place, and seek only to be foremost;--(of all which the end is) death.",
    "origFrom": "Lao Tzu, Tao Te Ching (tr. Legge, 1891)",
-   "cap": "Zhang Lu-Laozi Riding an Ox · public domain"
+   "cap": ""
   },
   {
    "ch": "Part Eight",
@@ -541,11 +541,11 @@
    "quote": "To know and yet (think) we do not know is the highest (attainment)",
    "qMean": "The wisest know the limits of what they know.",
    "qLife": "A doctor who says 'let's run another test' rather than guessing.",
-   "img": "taoteching_38",
+   "img": "",
    "orig": "71. 1. To know and yet (think) we do not know is the highest (attainment); not to know (and yet think) we do know is a disease.\n\n2. It is simply by being pained at (the thought of) having this disease that we are preserved from it. The sage has not the disease. He knows the pain that would be inseparable from it, and therefore he does not have it.",
    "origFrom": "Lao Tzu, Tao Te Ching (tr. Legge, 1891)",
    "link": "The book closes with its plainest words on knowledge, softness and sincerity.",
-   "cap": "Chen Hongshou - Paintings after Ancient Masters- Scholar Reading in a Thatched Hut by a Wat · public domain"
+   "cap": ""
   },
   {
    "ch": "Part Eight",
@@ -555,10 +555,10 @@
    "quote": "The meshes of the net of Heaven are large; far apart, but letting nothing escape.",
    "qMean": "Heaven's justice seems loose but nothing escapes it.",
    "qLife": "A lie that seems safe eventually comes out.",
-   "img": "taoteching_39",
+   "img": "",
    "orig": "2. It is the way of Heaven not to strive, and yet it skilfully overcomes; not to speak, and yet it is skilful in obtaining a reply; does not call, and yet men come to it of themselves. Its demonstrations are quiet, and yet its plans are skilful and effective. The meshes of the net of Heaven are large; far apart, but letting nothing escape.",
    "origFrom": "Lao Tzu, Tao Te Ching (tr. Legge, 1891)",
-   "cap": "The fisherfolks at Chinese Fishing Nets · public domain"
+   "cap": ""
   },
   {
    "ch": "Part Eight",
@@ -568,10 +568,10 @@
    "quote": "Man at his birth is supple and weak; at his death, firm and strong",
    "qMean": "Flexibility is a sign of life; rigidity of death.",
    "qLife": "Stretching every morning to stay supple as you age.",
-   "img": "taoteching_40",
+   "img": "",
    "orig": "3. The people make light of dying because of the greatness of their labours in seeking for the means of living. It is this which makes them think light of dying. Thus it is that to leave the subject of living altogether out of view is better than to set a high value on it.\n\n76. 1. Man at his birth is supple and weak; at his death, firm and strong. (So it is with) all things. Trees and plants, in their early growth, are soft and brittle; at their death, dry and withered.\n\n2. Thus it is that firmness and strength are the concomitants of death; softness and weakness, the concomitants of life.",
    "origFrom": "Lao Tzu, Tao Te Ching (tr. Legge, 1891)",
-   "cap": "Ke Jiusi - Bamboo after Wen Tong · public domain"
+   "cap": ""
   },
   {
    "ch": "Part Eight",
@@ -581,10 +581,10 @@
    "quote": "Every one in the world knows that the soft overcomes the hard, and the weak the strong, but no one is able to carry it out in practice.",
    "qMean": "Everyone knows gentleness wins, but few practise it.",
    "qLife": "Knowing shouting won't help, and shouting anyway.",
-   "img": "taoteching_41",
+   "img": "",
    "orig": "78. 1. There is nothing in the world more soft and weak than water, and yet for attacking things that are firm and strong there is nothing that can take precedence of it;--for there is nothing (so effectual) for which it can be changed.\n\n2. Every one in the world knows that the soft overcomes the hard, and the weak the strong, but no one is able to carry it out in practice.\n\n3.",
    "origFrom": "Lao Tzu, Tao Te Ching (tr. Legge, 1891)",
-   "cap": "Ma Yuan - Water Album - The Yellow River Breaches its Course · public domain"
+   "cap": ""
   },
   {
    "ch": "Part Eight",
@@ -594,10 +594,10 @@
    "quote": "Sincere words are not fine; fine words are not sincere.",
    "qMean": "True words are plain; fancy words are often false.",
    "qLife": "A simple 'I'm sorry' means more than a long, polished excuse.",
-   "img": "taoteching_42",
+   "img": "",
    "orig": "81. 1. Sincere words are not fine; fine words are not sincere. Those who are skilled (in the Tao) do not dispute (about it); the disputatious are not skilled in it. Those who know (the Tao) are not extensively learned; the extensively learned do not know it.\n\n2. The sage does not accumulate (for himself). The more that he expends for others, the more does he possess of his own; the more that he gives to others, the more does he have himself.",
    "origFrom": "Lao Tzu, Tao Te Ching (tr. Legge, 1891)",
-   "cap": "Scroll Cover for Imperial Calligraphy MET DT5069 · public domain"
+   "cap": ""
   }
  ]
 }

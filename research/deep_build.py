@@ -52,6 +52,9 @@ def build(book_id):
     nxt = max(nums + [0]) + 1
     cards, queries, bad = [], {}, []
     credits = json.loads((HERE / "commons/credits.json").read_text())
+    generated = HERE / "generated/manifest.json"
+    if generated.exists():
+        credits.update(json.loads(generated.read_text()))
     caps = {**folio_build.CAPS, **getattr(mod, "CAPS", {})}
     for p in mod.PAGES:
         if p[0] == "K":
@@ -82,7 +85,10 @@ def build(book_id):
     for c in cards:
         if c.pop("_new", False) or not c.get("cap"):
             cr = credits.get(c["img"])
-            c["cap"] = (caps[c["img"]] + " · public domain") if c["img"] in caps else (caption(cr["file"]) if cr else "")
+            if cr and cr.get("license") == "Folio original":
+                c["cap"] = caps.get(c["img"], cr["file"]) + " · original Folio illustration"
+            else:
+                c["cap"] = (caps[c["img"]] + " · public domain") if c["img"] in caps else (caption(cr["file"]) if cr else "")
     # glossary: old + additions, shipped only if used
     gl = dict(old.get("glossary", {}))
     for w, (m, e, forms) in getattr(mod, "GLOSS", {}).items():

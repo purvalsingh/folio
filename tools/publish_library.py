@@ -70,10 +70,15 @@ def main():
     old = json.loads(cat_path.read_text()) if cat_path.exists() else {}
     books, full = [], {}
     credits = json.loads((ROOT / "research/commons/credits.json").read_text())
+    original = json.loads((ROOT / "research/generated/manifest.json").read_text())
     sources = sorted((ASSETS / "books").glob("*.json")) + sorted((EXTRA / "books").glob("*.json"))
     for src in sources:
         b = json.loads(src.read_text())
         full[b["id"]] = b
+        referenced = {c["img"] for c in b["cards"] if c.get("img")} | ({b["cover"]} if b.get("cover") else set())
+        unoriginal = sorted(referenced - original.keys())
+        if unoriginal:
+            sys.exit(f"non-original plate in {b['id']}: {', '.join(unoriginal)}")
         if bad := foreign_plates(b, credits):
             sys.exit("plate from the wrong tradition:\n  " + "\n  ".join(bad))
         if bad := misquotes(b):

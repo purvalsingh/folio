@@ -133,6 +133,9 @@ def original(quote, key, lo=320, hi=1300):
 def build(about, glossary, cards, credits_file=None, caps=None, out_dir=None):
     caps = caps or {}
     credits = json.loads((HERE / credits_file).read_text()) if credits_file and (HERE / credits_file).exists() else {}
+    generated = HERE / "generated/manifest.json"
+    if generated.exists():
+        credits.update(json.loads(generated.read_text()))
     bad = []
     for i, c in enumerate(cards):
         src = c.pop("src")
@@ -145,7 +148,10 @@ def build(about, glossary, cards, credits_file=None, caps=None, out_dir=None):
         c["img"] = f"{about['id']}_{i + 1:02d}"
         cr = credits.get(c["img"])
         caps = {**CAPS, **caps}
-        c["cap"] = (caps[c["img"]] + " · public domain") if c["img"] in caps else (caption(cr["file"]) if cr else "")
+        if cr and cr.get("license") == "Folio original":
+            c["cap"] = caps.get(c["img"], cr["file"]) + " · original Folio illustration"
+        else:
+            c["cap"] = (caps[c["img"]] + " · public domain") if c["img"] in caps else (caption(cr["file"]) if cr else "")
     gl = {}
     for w, (m, e, forms) in glossary.items():
         gl[w] = {"m": m, "e": e}

@@ -1,5 +1,5 @@
 [
- {"id": "power7", "title": "Power in 7 Days", "blurb": "Machiavelli, Greene and Sun Tzu side by side — one sharp idea each, every day.",
+ {"id": "power7", "title": "Power in 7 Days", "blurb": "Machiavelli, Greene, Sun Tzu and four more voices on power — three pages a day.",
   "days": [["prince#0", "laws#0", "artofwar#1"], ["prince#5", "laws#3", "artofwar#4"], ["prince#10", "laws#6", "artofwar#5"],
            ["laws#8", "artofwar#11", "onwar#1"], ["prince#13", "laws#16", "artofwar#13"], ["laws#13", "livy#0", "chesterfield#1"],
            ["artofwar#7", "laws#15", "republic#4"]]},
