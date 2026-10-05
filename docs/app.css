@@ -132,7 +132,7 @@ nav.tabs a.on { color: var(--rubric); }
 .leaf { flex: 0 0 100%; scroll-snap-align: center; scroll-snap-stop: always; padding: 14px 16px calc(14px + env(safe-area-inset-bottom)); perspective: 1600px; }
 .flip { position: relative; height: 100%; transform-style: preserve-3d; transition: transform .55s cubic-bezier(.3,.7,.3,1); }
 .flip.over { transform: rotateY(180deg); }
-.face { position: absolute; inset: 0; backface-visibility: hidden; -webkit-backface-visibility: hidden; overflow-y: auto; overscroll-behavior: contain;
+.face { position: absolute; inset: 0; backface-visibility: hidden; -webkit-backface-visibility: hidden; overflow-y: auto; overscroll-behavior: auto contain;
   background: var(--paper); border: 1px solid var(--rule); outline: 1px solid var(--rule); outline-offset: -6px; border-radius: 3px; padding: 20px 22px 26px; }
 .face.back { transform: rotateY(180deg); }
 .fhead { display: flex; align-items: baseline; gap: 8px; }
@@ -175,5 +175,5 @@ input[type=range] { width: 100%; accent-color: var(--rubric); }
 .center { text-align: center; }
 .empty { text-align: center; padding: 48px 0; font-style: italic; color: var(--faded); }
 .empty b { display: block; font-size: 46px; color: var(--rubric); opacity: .7; font-style: normal; }
-.studio-prev { display: block; max-height: 56vh; margin: 0 auto; border-radius: 6px; border: 1px solid var(--rule); }
+.studio-prev { display: block; max-height: 56vh; max-width: 100%; margin: 0 auto; border-radius: 6px; border: 1px solid var(--rule); }
 .mini .label { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }

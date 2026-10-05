@@ -148,15 +148,15 @@ def build(about, glossary, cards, credits_file=None, caps=None, out_dir=None):
     meanings.apply(about["id"], cards)
     out = {k: v for k, v in about.items() if k != "self_src"}
     out.update(glossary=gl, cards=cards)
-    dst = (out_dir or HERE.parent / "app/src/main/assets/books") / f"{about['id']}.json"
-    dst.write_text(json.dumps(out, ensure_ascii=False, indent=1))
-    print(f"{about['id']}: {len(cards)} cards, {len(roots)}/{len(glossary)} glossary words used -> {dst.name}")
-    depth(about["id"], cards, about.get("self_src") or cards[0].get("src", ""), strict=about.get("deep", False))
     if bad:
         print("QUOTES NOT FOUND:")
         for b in bad:
             print("  ", b)
         sys.exit(1)
+    dst = (out_dir or HERE.parent / "app/src/main/assets/books") / f"{about['id']}.json"
+    dst.write_text(json.dumps(out, ensure_ascii=False, indent=1))
+    print(f"{about['id']}: {len(cards)} cards, {len(roots)}/{len(glossary)} glossary words used -> {dst.name}")
+    depth(about["id"], cards, about.get("self_src") or cards[0].get("src", ""), strict=about.get("deep", False))
 
 
 def depth(book_id, cards, src_key, strict=False):

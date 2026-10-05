@@ -86,6 +86,7 @@ object Library {
                 progress((i + 1f) / (e.images.size + 1))
             }
             File(tmp, "book.json").writeText(json)
+            Shelf.parse(JSONObject(json), false, tmp)  // a broken edition fails here, before the old one is touched
             old.deleteRecursively()
             check(tmp.renameTo(old)) { "Could not save the book" }
             File(old, "book.json").renameTo(File(root, "${e.id}.json"))
@@ -108,7 +109,7 @@ object Library {
     suspend fun downloadApk(ctx: Context, r: Release, progress: (Float) -> Unit): File = withContext(Dispatchers.IO) {
         val dir = File(ctx.cacheDir, "updates").apply { mkdirs() }
         dir.listFiles()?.forEach { it.delete() }
-        val out = File(dir, "Folio-${r.versionName}.apk")
+        val out = File(dir, "Folio-update.apk")  // fixed name: the catalog never chooses a path
         val c = get(r.apk).apply { instanceFollowRedirects = true }
         check(c.responseCode == 200) { "Download failed (${c.responseCode})" }
         val total = c.contentLengthLong.takeIf { it > 0 } ?: (r.sizeKb * 1024L)

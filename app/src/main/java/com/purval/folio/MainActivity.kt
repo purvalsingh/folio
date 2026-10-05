@@ -50,12 +50,12 @@ import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.SideEffect
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateListOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
-import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -94,18 +94,17 @@ class App(ctx: Context) {
         syncing = true
         try {
             val s = Cloud.fresh(s0).also { if (it != s0) { session = it; Cloud.save(appCtx, it) } }
-            var replaced = false
             if (!pushOnly) {
                 when (val remote = Cloud.pull(s)) {
-                    null -> replaced = true
+                    // never overwrite a cloud copy we can't read: it may be the only one
+                    null -> { syncNote = "Your cloud copy is locked with a different password, so it was left untouched. Sign in with the password you used before."; return }
                     "" -> Unit
                     else -> store.merge(remote)
                 }
             } else if (!store.dirty) return
             Cloud.push(s, store.snapshot().toString())
             store.dirty = false
-            syncNote = if (replaced) "Your older cloud copy was locked with a previous password, so this phone's library replaced it."
-                else "Synced just now"
+            syncNote = "Synced just now"
         } catch (e: AuthError) {
             if (e.message?.contains("session ended") == true) { session = null; Cloud.save(appCtx, null) }
             syncNote = e.message
@@ -313,10 +312,10 @@ private fun BindScreen(app: App, onBack: () -> Unit, onBound: (Book) -> Unit) {
     val ink = LocalInk.current
     val ctx = LocalContext.current
     val scope = rememberCoroutineScope()
-    var uri by remember { mutableStateOf<Uri?>(null) }
-    var title by remember { mutableStateOf("") }
-    var author by remember { mutableStateOf("") }
-    var era by remember { mutableStateOf(Era.RENAISSANCE) }
+    var uri by rememberSaveable { mutableStateOf<Uri?>(null) }
+    var title by rememberSaveable { mutableStateOf("") }
+    var author by rememberSaveable { mutableStateOf("") }
+    var era by rememberSaveable { mutableStateOf(Era.RENAISSANCE) }
     var busy by remember { mutableStateOf<Pair<String, Float>?>(null) }
     var error by remember { mutableStateOf<String?>(null) }
     val pick = rememberLauncherForActivityResult(ActivityResultContracts.OpenDocument()) { u ->

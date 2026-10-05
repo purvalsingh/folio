@@ -9,11 +9,11 @@
     "say": "Don't call them a liar in public. Ask a curious question about the details only you would know, and let the room see who really did the work."
    },
    {
-    "card": "laws#5",
+    "card": "laws#10",
     "say": "Make your work visible from now on: share progress early and often, so nobody can quietly borrow it again."
    },
    {
-    "card": "dhammapada#8",
+    "card": "dhammapada#28",
     "say": "Don't let anger turn this into a feud. Calm firmness wins more than a fight."
    }
   ]
@@ -28,7 +28,7 @@
     "say": "You're busy, but life isn't waiting. The 'right time' never comes."
    },
    {
-    "card": "meditations#2",
+    "card": "meditations#6",
     "say": "Count how long you've already delayed. That number is the argument for today."
    },
    {
@@ -43,11 +43,11 @@
   "situation": "A sharp remark, people laugh, and your face goes hot.",
   "advice": [
    {
-    "card": "enchiridion#7",
+    "card": "enchiridion#26",
     "say": "They said it because it seemed right to them. Their mistake hurts them, not you."
    },
    {
-    "card": "dhammapada#8",
+    "card": "dhammapada#28",
     "say": "Answer with calm, not a counter-insult. Anger met with anger only grows."
    },
    {
@@ -70,7 +70,7 @@
     "say": "Rehearse out loud, again and again. Like horses used to trains, you'll stop flinching."
    },
    {
-    "card": "gita#4",
+    "card": "gita#6",
     "say": "Do the talk well and let go of how it's received. The effort is yours; the applause isn't."
    }
   ]
@@ -89,7 +89,7 @@
     "say": "Skip 'you're wrong'. Try 'I wonder if…' and let them discover the flaw themselves."
    },
    {
-    "card": "prince#44",
+    "card": "prince#66",
     "say": "A wise leader wants the truth. If yours punishes honesty, you've learned something important about them."
    }
   ]
@@ -104,7 +104,7 @@
     "say": "Money changes how people treat each other. Notice whether the friendship lives without it."
    },
    {
-    "card": "prince#28",
+    "card": "prince#45",
     "say": "Endless generosity drains you and earns resentment, not gratitude. It's okay to stop."
    },
    {
@@ -119,11 +119,11 @@
   "situation": "A job, a relationship, a chance you were sure of.",
   "advice": [
    {
-    "card": "enchiridion#4",
+    "card": "enchiridion#9",
     "say": "Say 'it has been returned', not 'I lost it'. It was never fully yours to keep."
    },
    {
-    "card": "meditations#5",
+    "card": "meditations#17",
     "say": "Everything changes; this will too. The pain is real, and so is the change still coming."
    },
    {
@@ -146,7 +146,7 @@
     "say": "Track it. Franklin kept a page per virtue and marked every slip."
    },
    {
-    "card": "taoteching#8",
+    "card": "taoteching#33",
     "say": "Start tiny. A thousand-mile journey still begins with one step."
    }
   ]
@@ -176,11 +176,11 @@
   "situation": "You were one of them yesterday. Now you're in charge.",
   "advice": [
    {
-    "card": "artofwar#17",
+    "card": "artofwar#35",
     "say": "Be kind first, then firm. Humanity earns loyalty; discipline keeps it."
    },
    {
-    "card": "taoteching#1",
+    "card": "taoteching#3",
     "say": "Put yourself last. The leader who serves ends up in front."
    },
    {
@@ -195,15 +195,15 @@
   "situation": "They needle you, hoping you'll snap in front of everyone.",
   "advice": [
    {
-    "card": "artofwar#23",
+    "card": "artofwar#47",
     "say": "Never act out of anger. That's exactly what they want."
    },
    {
-    "card": "laws#38",
+    "card": "laws#76",
     "say": "Stay calm and let them be the one who loses their temper."
    },
    {
-    "card": "meditations#9",
+    "card": "meditations#36",
     "say": "A bitter cucumber? Put it down. Brambles? Walk around. Not every thorn needs a fight."
    }
   ]
@@ -214,11 +214,11 @@
   "situation": "A stable option on one side, the thing you really want on the other.",
   "advice": [
    {
-    "card": "prince#49",
+    "card": "prince#73",
     "say": "Fortune favours the bold more than the cautious."
    },
    {
-    "card": "gita#7",
+    "card": "gita#11",
     "say": "Your own path done imperfectly beats someone else's done well."
    },
    {
@@ -233,11 +233,11 @@
   "situation": "You did everything right, you think, and it still fell apart.",
   "advice": [
    {
-    "card": "prince#46",
+    "card": "prince#69",
     "say": "People don't prepare in calm weather. Next time, build the dykes before the flood."
    },
    {
-    "card": "thinketh#2",
+    "card": "thinketh#5",
     "say": "Circumstances don't make you; they show you who you are. What did this one show?"
    },
    {
@@ -260,7 +260,7 @@
     "say": "Hard words when kind ones work is like choosing unripe fruit."
    },
    {
-    "card": "artofwar#4",
+    "card": "artofwar#9",
     "say": "The best victory needs no battle. Win the person, not the argument."
    }
   ]

@@ -206,7 +206,7 @@ class Store(ctx: Context) {
 
     fun persist() {
         val o = snapshot()
-        o.put("gemini", geminiKey).put("textScale", textScale.toDouble()).put("lineScale", lineScale.toDouble())
+        o.put("gemini", if (geminiKey.isEmpty()) "" else runCatching { "v:" + Vault.seal(geminiKey) }.getOrDefault("")).put("textScale", textScale.toDouble()).put("lineScale", lineScale.toDouble())
             .put("remind", remind).put("remindHour", remindHour).put("hindi", hindi)
         night?.let { o.put("night", it) }
         prefs.edit().putString("state", o.toString())?.apply() // ?. : layoutlib stub returns null
@@ -292,7 +292,7 @@ class Store(ctx: Context) {
         }
         o.optJSONObject("days")?.let { d -> d.keys().forEach { days[it] = d.getInt(it) } }
         o.optJSONArray("honours")?.let { a -> (0 until a.length()).forEach { honours += a.getString(it) } }
-        xp = o.optInt("xp"); goal = o.optInt("goal", 10); geminiKey = o.optString("gemini")
+        xp = o.optInt("xp"); goal = o.optInt("goal", 10); geminiKey = o.optString("gemini").let { if (it.startsWith("v:")) Vault.open(it.drop(2)) ?: "" else it }
         lastBook = o.optString("last").ifBlank { null }
         night = if (o.has("night")) o.getBoolean("night") else null
         recalled = o.optInt("recalled")

@@ -64,14 +64,22 @@ export async function renderCard(canvas, book, i, format, style, look) {
   const label = block(c, `${book.title} · ${card.ch}`.toUpperCase(), `{s}px FellSC`, story ? 32 : 28, cw);
   const title = style === "PAGE" ? block(c, card.title, `{s}px ${e.display}`, story ? 70 : 58, cw) : null;
   const pic = style === "QUOTE" ? null : await loadImg(img(card.img || book.cover));
-  const picH = pic ? Math.round(cw * (style === "PAGE" ? .56 : story ? .78 : format === "SQUARE" ? .48 : .62)) : 0;
+  let picH = pic ? Math.round(cw * (style === "PAGE" ? .56 : story ? .78 : format === "SQUARE" ? .48 : .62)) : 0, meanS = story ? 40 : 30;
   const orn = style === "QUOTE" ? block(c, "“", `{s}px ${e.display}`, story ? 260 : 200, cw, .7) : block(c, e.fleuron, `{s}px serif`, 46, cw);
-  const mean = style === "PAGE" && card.qMean ? block(c, `In plain English: ${card.qMean}`, `{s}px Fell`, story ? 40 : 30, cw, 1.25) : null;
   const attr = block(c, `— ${card.qBy || `${book.author}, ${book.title}`}`, `{s}px FellSC`, story ? 36 : 30, cw);
-  const parts = [label.h, title?.h, pic ? picH : null, orn.h, mean?.h, attr.h].filter((x) => x != null);
-  const fixed = parts.reduce((a, x) => a + x, 0) + gap * parts.length;
-  const maxQ = { QUOTE: story ? 96 : 76, PLATE: story ? 78 : 58, PAGE: story ? 62 : 46 }[style];
-  const q = fit(c, `“${card.quote}”`, `italic {s}px ${ital}`, cw, Math.max(200, h - top - footer - fixed), maxQ, 26);
+  const maxQ = { QUOTE: story ? 96 : 76, PLATE: story ? 78 : 58, PAGE: story ? 62 : 46 }[style], room = h - top - footer;
+  let mean, fixed, q;
+  // shrink the picture, then the plain-English line, until the whole page fits inside the frame
+  for (;;) {
+    mean = style === "PAGE" && card.qMean ? block(c, `In plain English: ${card.qMean}`, `{s}px Fell`, meanS, cw, 1.25) : null;
+    const parts = [label.h, title?.h, pic ? picH : null, orn.h, mean?.h, attr.h].filter((x) => x != null);
+    fixed = parts.reduce((a, x) => a + x, 0) + gap * parts.length;
+    q = fit(c, `“${card.quote}”`, `italic {s}px ${ital}`, cw, room - fixed, maxQ, 26);
+    if (fixed + q.h <= room) break;
+    if (pic && picH > cw * .3) picH = Math.round(picH * .88);
+    else if (mean && meanS > 22) meanS -= 2;
+    else break;
+  }
   let y = top + Math.max(0, (h - top - footer) - (fixed + q.h)) / 2;
   const put = (b, color) => { draw(c, b, w / 2, y, color); y += b.h + gap; };
   put(label, accent);
@@ -88,7 +96,7 @@ export async function renderCard(canvas, book, i, format, style, look) {
   put(q, ink);
   if (mean) put(mean, faded);
   put(attr, faded);
-  const fy = h - footer + (story ? 90 : 40);
+  const fy = h - footer + (story ? 90 : 0);
   c.textAlign = "center"; c.textBaseline = "alphabetic";
   c.font = "46px Fraktur"; c.fillStyle = accent; c.fillText("Folio", w / 2, fy + 40);
   c.font = "italic 22px Fell"; c.fillStyle = faded; c.fillText("old books, one page at a time · free on Android & iPhone", w / 2, fy + 78);

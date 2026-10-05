@@ -102,13 +102,16 @@ object Reminder {
     }
 }
 
+/** Only the alarm reaches this one: it isn't exported. */
 class ReminderReceiver : BroadcastReceiver() {
+    override fun onReceive(ctx: Context, intent: Intent) = Reminder.post(ctx)
+}
+
+/** Exported only so the system can deliver BOOT_COMPLETED; it just reschedules the alarm. */
+class BootReceiver : BroadcastReceiver() {
     override fun onReceive(ctx: Context, intent: Intent) {
-        if (intent.action == Intent.ACTION_BOOT_COMPLETED) {
-            val s = Store(ctx)
-            Reminder.schedule(ctx, s.remind, s.remindHour)
-            return
-        }
-        Reminder.post(ctx)
+        if (intent.action != Intent.ACTION_BOOT_COMPLETED) return
+        val s = Store(ctx)
+        Reminder.schedule(ctx, s.remind, s.remindHour)
     }
 }

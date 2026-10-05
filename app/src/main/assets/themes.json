@@ -4,15 +4,15 @@
   "title": "Power",
   "blurb": "Who gets it, who keeps it, and what it costs.",
   "cards": [
-   "prince#31",
-   "prince#35",
+   "prince#48",
+   "prince#53",
    "laws#0",
    "arthashastra#2",
    "livy#0",
    "republic#0",
-   "prince#5",
-   "taoteching#7",
-   "prince#40",
+   "prince#6",
+   "taoteching#30",
+   "prince#58",
    "gracian#0"
   ]
  },
@@ -21,13 +21,13 @@
   "title": "Fear & Courage",
   "blurb": "What the old books say to a frightened mind.",
   "cards": [
-   "gita#2",
    "gita#3",
-   "meditations#8",
-   "prince#49",
+   "gita#5",
+   "meditations#26",
+   "prince#73",
    "speaking#0",
    "speaking#1",
-   "dhammapada#6",
+   "dhammapada#12",
    "habit#5"
   ]
  },
@@ -36,15 +36,15 @@
   "title": "Anger",
   "blurb": "Why it burns, and how the wise put it out.",
   "cards": [
-   "dhammapada#8",
+   "dhammapada#28",
    "dhammapada#1",
-   "artofwar#23",
+   "artofwar#47",
    "emotions#3",
-   "enchiridion#7",
+   "enchiridion#26",
    "kural#2",
    "kural#1",
-   "laws#38",
-   "gita#22"
+   "laws#76",
+   "gita#49"
   ]
  },
  {
@@ -56,7 +56,7 @@
    "kural#5",
    "hitopadesa#0",
    "franklin#2",
-   "laws#1",
+   "laws#2",
    "panchatantra#0",
    "hitopadesa#1"
   ]
@@ -70,9 +70,9 @@
    "ovid#0",
    "ovid#1",
    "ovid#4",
-   "gita#15",
+   "gita#28",
    "maxims#4",
-   "dhammapada#8"
+   "dhammapada#28"
   ]
  },
  {
@@ -85,11 +85,11 @@
    "seneca#2",
    "seneca#3",
    "chesterfield#3",
-   "meditations#2",
-   "meditations#3",
+   "meditations#6",
+   "meditations#9",
    "franklin#4",
-   "gita#17",
-   "laws#34"
+   "gita#34",
+   "laws#68"
   ]
  },
  {
@@ -97,13 +97,13 @@
   "title": "Self-Control",
   "blurb": "Ruling yourself before anything else.",
   "cards": [
-   "gita#5",
-   "gita#12",
+   "gita#7",
+   "gita#20",
    "dhammapada#2",
-   "dhammapada#7",
-   "thinketh#5",
-   "taoteching#5",
-   "dhammapada#4",
+   "dhammapada#15",
+   "thinketh#22",
+   "taoteching#17",
+   "dhammapada#6",
    "emotions#2",
    "habit#2"
   ]
@@ -115,12 +115,12 @@
   "cards": [
    "dhammapada#0",
    "thinketh#0",
-   "thinketh#1",
-   "enchiridion#1",
-   "meditations#4",
-   "meditations#5",
+   "thinketh#3",
+   "enchiridion#3",
+   "meditations#16",
+   "meditations#17",
    "maxims#5",
-   "gita#11"
+   "gita#18"
   ]
  },
  {
@@ -128,16 +128,16 @@
   "title": "Fortune & Fate",
   "blurb": "Luck, chance and the part that is still yours.",
   "cards": [
-   "prince#47",
-   "prince#46",
-   "prince#48",
-   "prince#12",
-   "enchiridion#2",
+   "prince#71",
+   "prince#69",
+   "prince#72",
+   "prince#19",
    "enchiridion#6",
+   "enchiridion#14",
    "habit#4",
    "hitopadesa#3",
-   "thinketh#2",
-   "laws#9"
+   "thinketh#5",
+   "laws#18"
   ]
  },
  {
@@ -145,14 +145,14 @@
   "title": "Leading People",
   "blurb": "Generals, kings and sages on being followed.",
   "cards": [
-   "artofwar#17",
-   "artofwar#19",
+   "artofwar#35",
+   "artofwar#38",
    "arthashastra#0",
-   "prince#43",
-   "prince#44",
-   "taoteching#1",
+   "prince#64",
+   "prince#66",
+   "taoteching#3",
    "livy#1",
-   "laws#42",
+   "laws#84",
    "republic#3"
   ]
  },
@@ -161,10 +161,10 @@
   "title": "Truth & Masks",
   "blurb": "Deception, appearances and the faces we wear.",
   "cards": [
-   "artofwar#1",
-   "prince#33",
-   "prince#34",
-   "prince#35",
+   "artofwar#2",
+   "prince#51",
+   "prince#52",
+   "prince#53",
    "bge#2",
    "jung#4",
    "redbook#2",
@@ -183,7 +183,7 @@
    "franklin#1",
    "chesterfield#1",
    "chesterfield#4",
-   "laws#8",
+   "laws#16",
    "kural#1",
    "crowd#3",
    "crowd#5",
@@ -197,14 +197,14 @@
   "title": "Action over Talk",
   "blurb": "Stop planning, start doing.",
   "cards": [
+   "gita#9",
    "gita#6",
-   "gita#4",
    "arthashastra#5",
    "habit#3",
    "kural#4",
-   "taoteching#8",
-   "meditations#7",
-   "laws#27",
+   "taoteching#33",
+   "meditations#21",
+   "laws#54",
    "republic#2",
    "hitopadesa#3"
   ]
@@ -215,14 +215,14 @@
   "blurb": "Knowing, not knowing, and knowing that you don't.",
   "cards": [
    "kural#3",
-   "dhammapada#5",
-   "taoteching#6",
+   "dhammapada#9",
+   "taoteching#27",
    "chesterfield#0",
-   "gita#16",
-   "prince#9",
+   "gita#31",
+   "prince#15",
    "republic#4",
    "panchatantra#1",
-   "laws#20"
+   "laws#40"
   ]
  }
 ]

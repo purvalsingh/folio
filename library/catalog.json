@@ -152,13 +152,13 @@
   },
   {
    "id": "laws",
-   "version": 7,
+   "version": 8,
    "title": "The 48 Laws of Power",
    "author": "Robert Greene",
    "year": "1998",
    "era": "baroque",
    "cards": 96,
-   "sizeKb": 10341,
+   "sizeKb": 10340,
    "blurb": "Forty-eight rules of power, from royal courts to modern offices — each law in a minute, paired with a line from Machiavelli, Sun Tzŭ, Gracián or La Rochefoucauld. Know them to use them, or to spot them used on you.",
    "images": [
     "laws_01",
@@ -628,7 +628,7 @@
   },
   {
    "id": "gracian",
-   "version": 2,
+   "version": 3,
    "title": "The Art of Worldly Wisdom",
    "author": "Baltasar Gracián",
    "year": "1647",
@@ -1162,36 +1162,36 @@
     [
      "prince#0",
      "laws#0",
-     "artofwar#1"
+     "artofwar#2"
     ],
     [
-     "prince#5",
-     "laws#3",
-     "artofwar#4"
-    ],
-    [
-     "prince#10",
+     "prince#6",
      "laws#6",
-     "artofwar#5"
+     "artofwar#9"
     ],
     [
-     "laws#8",
-     "artofwar#11",
+     "prince#17",
+     "laws#12",
+     "artofwar#11"
+    ],
+    [
+     "laws#16",
+     "artofwar#22",
      "onwar#1"
     ],
     [
-     "prince#13",
-     "laws#16",
-     "artofwar#13"
+     "prince#20",
+     "laws#32",
+     "artofwar#27"
     ],
     [
-     "laws#13",
+     "laws#26",
      "livy#0",
      "chesterfield#1"
     ],
     [
-     "artofwar#7",
-     "laws#15",
+     "artofwar#14",
+     "laws#30",
      "republic#4"
     ]
    ]
@@ -1203,38 +1203,38 @@
    "days": [
     [
      "enchiridion#0",
-     "meditations#1",
-     "gita#4"
+     "meditations#5",
+     "gita#6"
     ],
     [
      "dhammapada#0",
      "thinketh#0",
-     "enchiridion#1"
+     "enchiridion#3"
     ],
     [
-     "meditations#2",
+     "meditations#6",
      "seneca#0",
-     "taoteching#2"
+     "taoteching#4"
     ],
     [
-     "gita#5",
+     "gita#7",
      "dhammapada#1",
-     "meditations#9"
+     "meditations#36"
     ],
     [
      "seneca#2",
-     "enchiridion#2",
-     "taoteching#3"
+     "enchiridion#6",
+     "taoteching#5"
     ],
     [
-     "gita#11",
-     "dhammapada#7",
-     "thinketh#5"
+     "gita#18",
+     "dhammapada#15",
+     "thinketh#22"
     ],
     [
-     "meditations#8",
-     "taoteching#8",
-     "gita#12"
+     "meditations#26",
+     "taoteching#33",
+     "gita#20"
     ]
    ]
   },
@@ -1246,12 +1246,12 @@
     [
      "habit#0",
      "habit#2",
-     "thinketh#1"
+     "thinketh#3"
     ],
     [
      "emotions#0",
      "emotions#2",
-     "dhammapada#4"
+     "dhammapada#6"
     ],
     [
      "crowd#0",
@@ -1265,7 +1265,7 @@
     ],
     [
      "habit#5",
-     "thinketh#3",
+     "thinketh#6",
      "kural#3"
     ]
    ]
@@ -1293,7 +1293,7 @@
     [
      "chesterfield#4",
      "kural#2",
-     "laws#12"
+     "laws#24"
     ],
     [
      "emerson#0",
@@ -1309,15 +1309,15 @@
    "title": "Power",
    "blurb": "Who gets it, who keeps it, and what it costs.",
    "cards": [
-    "prince#31",
-    "prince#35",
+    "prince#48",
+    "prince#53",
     "laws#0",
     "arthashastra#2",
     "livy#0",
     "republic#0",
-    "prince#5",
-    "taoteching#7",
-    "prince#40",
+    "prince#6",
+    "taoteching#30",
+    "prince#58",
     "gracian#0"
    ]
   },
@@ -1326,13 +1326,13 @@
    "title": "Fear & Courage",
    "blurb": "What the old books say to a frightened mind.",
    "cards": [
-    "gita#2",
     "gita#3",
-    "meditations#8",
-    "prince#49",
+    "gita#5",
+    "meditations#26",
+    "prince#73",
     "speaking#0",
     "speaking#1",
-    "dhammapada#6",
+    "dhammapada#12",
     "habit#5"
    ]
   },
@@ -1341,15 +1341,15 @@
    "title": "Anger",
    "blurb": "Why it burns, and how the wise put it out.",
    "cards": [
-    "dhammapada#8",
+    "dhammapada#28",
     "dhammapada#1",
-    "artofwar#23",
+    "artofwar#47",
     "emotions#3",
-    "enchiridion#7",
+    "enchiridion#26",
     "kural#2",
     "kural#1",
-    "laws#38",
-    "gita#22"
+    "laws#76",
+    "gita#49"
    ]
   },
   {
@@ -1361,7 +1361,7 @@
     "kural#5",
     "hitopadesa#0",
     "franklin#2",
-    "laws#1",
+    "laws#2",
     "panchatantra#0",
     "hitopadesa#1"
    ]
@@ -1375,9 +1375,9 @@
     "ovid#0",
     "ovid#1",
     "ovid#4",
-    "gita#15",
+    "gita#28",
     "maxims#4",
-    "dhammapada#8"
+    "dhammapada#28"
    ]
   },
   {
@@ -1390,11 +1390,11 @@
     "seneca#2",
     "seneca#3",
     "chesterfield#3",
-    "meditations#2",
-    "meditations#3",
+    "meditations#6",
+    "meditations#9",
     "franklin#4",
-    "gita#17",
-    "laws#34"
+    "gita#34",
+    "laws#68"
    ]
   },
   {
@@ -1402,13 +1402,13 @@
    "title": "Self-Control",
    "blurb": "Ruling yourself before anything else.",
    "cards": [
-    "gita#5",
-    "gita#12",
+    "gita#7",
+    "gita#20",
     "dhammapada#2",
-    "dhammapada#7",
-    "thinketh#5",
-    "taoteching#5",
-    "dhammapada#4",
+    "dhammapada#15",
+    "thinketh#22",
+    "taoteching#17",
+    "dhammapada#6",
     "emotions#2",
     "habit#2"
    ]
@@ -1420,12 +1420,12 @@
    "cards": [
     "dhammapada#0",
     "thinketh#0",
-    "thinketh#1",
-    "enchiridion#1",
-    "meditations#4",
-    "meditations#5",
+    "thinketh#3",
+    "enchiridion#3",
+    "meditations#16",
+    "meditations#17",
     "maxims#5",
-    "gita#11"
+    "gita#18"
    ]
   },
   {
@@ -1433,16 +1433,16 @@
    "title": "Fortune & Fate",
    "blurb": "Luck, chance and the part that is still yours.",
    "cards": [
-    "prince#47",
-    "prince#46",
-    "prince#48",
-    "prince#12",
-    "enchiridion#2",
+    "prince#71",
+    "prince#69",
+    "prince#72",
+    "prince#19",
     "enchiridion#6",
+    "enchiridion#14",
     "habit#4",
     "hitopadesa#3",
-    "thinketh#2",
-    "laws#9"
+    "thinketh#5",
+    "laws#18"
    ]
   },
   {
@@ -1450,14 +1450,14 @@
    "title": "Leading People",
    "blurb": "Generals, kings and sages on being followed.",
    "cards": [
-    "artofwar#17",
-    "artofwar#19",
+    "artofwar#35",
+    "artofwar#38",
     "arthashastra#0",
-    "prince#43",
-    "prince#44",
-    "taoteching#1",
+    "prince#64",
+    "prince#66",
+    "taoteching#3",
     "livy#1",
-    "laws#42",
+    "laws#84",
     "republic#3"
    ]
   },
@@ -1466,10 +1466,10 @@
    "title": "Truth & Masks",
    "blurb": "Deception, appearances and the faces we wear.",
    "cards": [
-    "artofwar#1",
-    "prince#33",
-    "prince#34",
-    "prince#35",
+    "artofwar#2",
+    "prince#51",
+    "prince#52",
+    "prince#53",
     "bge#2",
     "jung#4",
     "redbook#2",
@@ -1488,7 +1488,7 @@
     "franklin#1",
     "chesterfield#1",
     "chesterfield#4",
-    "laws#8",
+    "laws#16",
     "kural#1",
     "crowd#3",
     "crowd#5",
@@ -1502,14 +1502,14 @@
    "title": "Action over Talk",
    "blurb": "Stop planning, start doing.",
    "cards": [
+    "gita#9",
     "gita#6",
-    "gita#4",
     "arthashastra#5",
     "habit#3",
     "kural#4",
-    "taoteching#8",
-    "meditations#7",
-    "laws#27",
+    "taoteching#33",
+    "meditations#21",
+    "laws#54",
     "republic#2",
     "hitopadesa#3"
    ]
@@ -1520,14 +1520,14 @@
    "blurb": "Knowing, not knowing, and knowing that you don't.",
    "cards": [
     "kural#3",
-    "dhammapada#5",
-    "taoteching#6",
+    "dhammapada#9",
+    "taoteching#27",
     "chesterfield#0",
-    "gita#16",
-    "prince#9",
+    "gita#31",
+    "prince#15",
     "republic#4",
     "panchatantra#1",
-    "laws#20"
+    "laws#40"
    ]
   }
  ],
@@ -1542,11 +1542,11 @@
      "say": "Don't call them a liar in public. Ask a curious question about the details only you would know, and let the room see who really did the work."
     },
     {
-     "card": "laws#5",
+     "card": "laws#10",
      "say": "Make your work visible from now on: share progress early and often, so nobody can quietly borrow it again."
     },
     {
-     "card": "dhammapada#8",
+     "card": "dhammapada#28",
      "say": "Don't let anger turn this into a feud. Calm firmness wins more than a fight."
     }
    ]
@@ -1561,7 +1561,7 @@
      "say": "You're busy, but life isn't waiting. The 'right time' never comes."
     },
     {
-     "card": "meditations#2",
+     "card": "meditations#6",
      "say": "Count how long you've already delayed. That number is the argument for today."
     },
     {
@@ -1576,11 +1576,11 @@
    "situation": "A sharp remark, people laugh, and your face goes hot.",
    "advice": [
     {
-     "card": "enchiridion#7",
+     "card": "enchiridion#26",
      "say": "They said it because it seemed right to them. Their mistake hurts them, not you."
     },
     {
-     "card": "dhammapada#8",
+     "card": "dhammapada#28",
      "say": "Answer with calm, not a counter-insult. Anger met with anger only grows."
     },
     {
@@ -1603,7 +1603,7 @@
      "say": "Rehearse out loud, again and again. Like horses used to trains, you'll stop flinching."
     },
     {
-     "card": "gita#4",
+     "card": "gita#6",
      "say": "Do the talk well and let go of how it's received. The effort is yours; the applause isn't."
     }
    ]
@@ -1622,7 +1622,7 @@
      "say": "Skip 'you're wrong'. Try 'I wonder if…' and let them discover the flaw themselves."
     },
     {
-     "card": "prince#44",
+     "card": "prince#66",
      "say": "A wise leader wants the truth. If yours punishes honesty, you've learned something important about them."
     }
    ]
@@ -1637,7 +1637,7 @@
      "say": "Money changes how people treat each other. Notice whether the friendship lives without it."
     },
     {
-     "card": "prince#28",
+     "card": "prince#45",
      "say": "Endless generosity drains you and earns resentment, not gratitude. It's okay to stop."
     },
     {
@@ -1652,11 +1652,11 @@
    "situation": "A job, a relationship, a chance you were sure of.",
    "advice": [
     {
-     "card": "enchiridion#4",
+     "card": "enchiridion#9",
      "say": "Say 'it has been returned', not 'I lost it'. It was never fully yours to keep."
     },
     {
-     "card": "meditations#5",
+     "card": "meditations#17",
      "say": "Everything changes; this will too. The pain is real, and so is the change still coming."
     },
     {
@@ -1679,7 +1679,7 @@
      "say": "Track it. Franklin kept a page per virtue and marked every slip."
     },
     {
-     "card": "taoteching#8",
+     "card": "taoteching#33",
      "say": "Start tiny. A thousand-mile journey still begins with one step."
     }
    ]
@@ -1709,11 +1709,11 @@
    "situation": "You were one of them yesterday. Now you're in charge.",
    "advice": [
     {
-     "card": "artofwar#17",
+     "card": "artofwar#35",
      "say": "Be kind first, then firm. Humanity earns loyalty; discipline keeps it."
     },
     {
-     "card": "taoteching#1",
+     "card": "taoteching#3",
      "say": "Put yourself last. The leader who serves ends up in front."
     },
     {
@@ -1728,15 +1728,15 @@
    "situation": "They needle you, hoping you'll snap in front of everyone.",
    "advice": [
     {
-     "card": "artofwar#23",
+     "card": "artofwar#47",
      "say": "Never act out of anger. That's exactly what they want."
     },
     {
-     "card": "laws#38",
+     "card": "laws#76",
      "say": "Stay calm and let them be the one who loses their temper."
     },
     {
-     "card": "meditations#9",
+     "card": "meditations#36",
      "say": "A bitter cucumber? Put it down. Brambles? Walk around. Not every thorn needs a fight."
     }
    ]
@@ -1747,11 +1747,11 @@
    "situation": "A stable option on one side, the thing you really want on the other.",
    "advice": [
     {
-     "card": "prince#49",
+     "card": "prince#73",
      "say": "Fortune favours the bold more than the cautious."
     },
     {
-     "card": "gita#7",
+     "card": "gita#11",
      "say": "Your own path done imperfectly beats someone else's done well."
     },
     {
@@ -1766,11 +1766,11 @@
    "situation": "You did everything right, you think, and it still fell apart.",
    "advice": [
     {
-     "card": "prince#46",
+     "card": "prince#69",
      "say": "People don't prepare in calm weather. Next time, build the dykes before the flood."
     },
     {
-     "card": "thinketh#2",
+     "card": "thinketh#5",
      "say": "Circumstances don't make you; they show you who you are. What did this one show?"
     },
     {
@@ -1793,7 +1793,7 @@
      "say": "Hard words when kind ones work is like choosing unripe fruit."
     },
     {
-     "card": "artofwar#4",
+     "card": "artofwar#9",
      "say": "The best victory needs no battle. Win the person, not the argument."
     }
    ]

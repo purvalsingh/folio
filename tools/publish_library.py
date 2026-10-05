@@ -6,7 +6,7 @@
 A book's "version" (in its *_content.py ABOUT) must be bumped for phones to fetch a corrected edition.
 Books that should NOT ship inside the APK go in library-only/books/<id>.json with plates in library-only/img/.
 """
-import hashlib, json, pathlib, shutil, sys
+import hashlib, json, pathlib, re, shutil, sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 ASSETS = ROOT / "app/src/main/assets"
@@ -15,15 +15,53 @@ LIB = ROOT / "library"
 REPO = "purvalsingh/folio"
 
 
+def misquotes(b):
+    """Release gate: every quote must sit word for word inside the original passage it was cut from."""
+    norm = lambda s: re.sub(r"[^a-z0-9]+", " ", s.lower()).strip()
+    return [f"{b['id']}#{i} {c['title']}" for i, c in enumerate(b["cards"])
+            if c.get("quote") and norm(c["quote"].replace("…", "")) not in norm(c.get("orig", ""))]
+
+
+def remap(ref, books):
+    """Curated refs ("prince#49") point at a card of the book's first, short edition (research/base/<id>.json).
+    Deep editions insert pages, so the ref is resolved to the same card's position in the current edition."""
+    bid, n = ref.split("#")
+    base = ROOT / "research/base" / f"{bid}.json"
+    if not base.exists():
+        return ref
+    old = json.loads(base.read_text())["cards"][int(n)]
+    cur = books[bid]["cards"]
+    for key in ("quote", "title"):
+        hit = [i for i, c in enumerate(cur) if c.get(key) and c.get(key) == old.get(key)]
+        if hit:
+            return f"{bid}#{hit[0]}"
+    sys.exit(f"ref {ref} ({old.get('title')}) has no card in the current edition")
+
+
+def curated(name, books):
+    f = EXTRA / f"{name}.json"
+    if not f.exists():
+        return []
+    d = json.loads(f.read_text())
+    for x in d:
+        if "days" in x: x["days"] = [[remap(r, books) for r in day] for day in x["days"]]
+        if "cards" in x: x["cards"] = [remap(r, books) for r in x["cards"]]
+        for a in x.get("advice", []): a["card"] = remap(a["card"], books)
+    return d
+
+
 def main():
     (LIB / "books").mkdir(parents=True, exist_ok=True)
     (LIB / "img").mkdir(exist_ok=True)
     cat_path = LIB / "catalog.json"
     old = json.loads(cat_path.read_text()) if cat_path.exists() else {}
-    books = []
+    books, full = [], {}
     sources = sorted((ASSETS / "books").glob("*.json")) + sorted((EXTRA / "books").glob("*.json"))
     for src in sources:
         b = json.loads(src.read_text())
+        full[b["id"]] = b
+        if bad := misquotes(b):
+            sys.exit("quote not found in its original passage:\n  " + "\n  ".join(bad))
         imgdir = src.parent.parent / "img"
         names = sorted({c["img"] for c in b["cards"] if c.get("img")} | ({b["cover"]} if b.get("cover") else set()))
         size = src.stat().st_size
@@ -47,12 +85,14 @@ def main():
     cloud = json.loads((ROOT / "cloud/public.json").read_text()) if (ROOT / "cloud/public.json").exists() else old.get("cloud")
     sh = json.loads((EXTRA / "shelves.json").read_text()) if (EXTRA / "shelves.json").exists() else {}
     cat = {"app": app, "books": books, "cloud": cloud, "shelves": sh.get("shelves", []), "coming": sh.get("coming", []),
-           "journeys": json.loads((EXTRA / "journeys.json").read_text()) if (EXTRA / "journeys.json").exists() else [],
-           "themes": json.loads((EXTRA / "themes.json").read_text()) if (EXTRA / "themes.json").exists() else [],
-           "scenarios": json.loads((EXTRA / "scenarios.json").read_text()) if (EXTRA / "scenarios.json").exists() else []}
+           "journeys": curated("journeys", full), "themes": curated("themes", full), "scenarios": curated("scenarios", full)}
     cat_path.write_text(json.dumps(cat, ensure_ascii=False, indent=1))
+    for name in ("journeys", "themes", "scenarios"):  # the APK's offline copies, with the same resolved refs
+        (ASSETS / f"{name}.json").write_text(json.dumps(cat[name], ensure_ascii=False, indent=1))
     print(f"catalog: {len(books)} books" + (f", app {app['versionName']} ({app['versionCode']})" if app else ", no app release"))
 
 
 if __name__ == "__main__":
+    fake = {"id": "t", "cards": [{"title": "a", "quote": "Be bold.", "orig": "He said: be  bold!"}, {"title": "b", "quote": "Be shy", "orig": "x"}]}
+    assert misquotes(fake) == ["t#1 b"]
     main()

@@ -59,7 +59,7 @@ class Shots {
     @Test fun readingNow() = shot { ReadingNowScreen(desk(it), { _, _ -> }) {} }
     @Test fun readingNowNight() = shot(night = true) { ReadingNowScreen(desk(it), { _, _ -> }) {} }
     @Test fun libraryDesk() = shot { LibraryScreen(desk(it), { _, _ -> }, {}) }
-    @Test fun recall() = shot { RecallScreen(seeded(it)) {} }
+    @Test fun recall() = shot { RecallScreen(seeded(it), seed = 7) {} }
     @Test fun chapterCheck() = shot { ChapterCheck(it, it.books[0], 0) {} }
     @Test fun journey() = shot { app ->
         val j = Journeys.parse(org.json.JSONArray(java.io.File("src/main/assets/journeys.json").readText())).first()

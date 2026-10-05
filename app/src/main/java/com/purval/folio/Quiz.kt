@@ -86,9 +86,9 @@ object Quiz {
      * Today's recall deck: saved words and quotes that are due, topped up with words from pages already
      * sealed, so even a new reader has something to practise.
      */
-    fun deck(app: App, size: Int = 10): List<Question> {
+    fun deck(app: App, size: Int = 10, seed: Long = System.currentTimeMillis()): List<Question> {
         val s = app.store
-        val r = Random(System.currentTimeMillis())
+        val r = Random(seed)
         val qs = mutableListOf<Question>()
         s.lexicon.filter { s.isDue("w:${it.word.lowercase()}") && it.meaning.isNotBlank() }
             .forEach { w -> wordQ(app, Gloss(w.word, w.meaning, w.example), r)?.let { qs += it } }
@@ -194,9 +194,9 @@ fun QuizRunner(questions: List<Question>, onAnswer: (Question, Boolean) -> Unit,
 /* ---------- Daily Recall ---------- */
 
 @Composable
-fun RecallScreen(app: App, done: () -> Unit) {
+fun RecallScreen(app: App, seed: Long = System.currentTimeMillis(), done: () -> Unit) {
     val ink = LocalInk.current
-    val questions = remember { Quiz.deck(app) }
+    val questions = remember { Quiz.deck(app, seed = seed) }
     var result by remember { mutableStateOf<Int?>(null) }
     Column(Modifier.fillMaxSize().statusBarsPadding().navigationBarsPadding().verticalScroll(rememberScrollState()).padding(horizontal = 20.dp)) {
         IconButton(onClick = done) { Icon(Icons.AutoMirrored.Filled.ArrowBack, "Back", tint = ink.ink) }

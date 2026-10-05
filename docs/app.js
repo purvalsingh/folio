@@ -24,7 +24,8 @@ const S = Object.assign({ sealed: {}, pos: {}, opened: {}, lexicon: [], quotes: 
   theme: null, scale: 1, lines: 1, honours: [], hideInstall: false }, safeLoad());
 function safeLoad() { try { return JSON.parse(localStorage.getItem("folio") || "{}"); } catch { return {}; } }
 function save() { try { localStorage.setItem("folio", JSON.stringify(S)); } catch {} }
-const today = () => new Date().toISOString().slice(0, 10);
+const day = (d) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+const today = () => day(new Date());
 const sealedIn = (b) => S.sealed[b] || [];
 const isSealed = (b, i) => sealedIn(b).includes(i);
 
@@ -43,7 +44,7 @@ const levelOf = (xp) => { let l = 1; while (l < RANKS.length && xp >= xpFor(l + 
 const roman = (n) => [[1000,"M"],[900,"CM"],[500,"D"],[400,"CD"],[100,"C"],[90,"XC"],[50,"L"],[40,"XL"],[10,"X"],[9,"IX"],[5,"V"],[4,"IV"],[1,"I"]]
   .reduce((s, [v, r]) => { while (n >= v) { s += r; n -= v; } return s; }, "");
 function streak() { let n = 0; const d = new Date(); if (!S.days[today()]) d.setDate(d.getDate() - 1);
-  while (S.days[d.toISOString().slice(0, 10)]) { n++; d.setDate(d.getDate() - 1); } return n; }
+  while (S.days[day(d)]) { n++; d.setDate(d.getDate() - 1); } return n; }
 
 /* ---------- data ---------- */
 let catalog = null;
@@ -255,7 +256,7 @@ async function reader(id, start) {
   document.body.append(r); $("nav.tabs") && ($("nav.tabs").style.display = "none");
   let b;
   try { b = await getBook(id); } catch { r.innerHTML = `<div class="empty" style="margin-top:35vh"><b>❦</b>Couldn't fetch this book. Check your connection.<br><br><button class="pill" onclick="history.back()">Back</button></div>`; return; }
-  const e = era(b.era); start = Math.max(0, Math.min(start, b.cards.length - 1));
+  const e = era(b.era); if (!Number.isInteger(start)) start = 0; start = Math.max(0, Math.min(start, b.cards.length - 1));
   r.innerHTML = `<div class="rtop"><button class="icon" data-back aria-label="Back">←</button>
     <div class="mid"><b>${esc(b.title.toUpperCase())}</b><small data-count>Folio ${start + 1} of ${b.cards.length}</small></div>
     <button class="icon" data-contents aria-label="Contents">☰</button><button class="icon" data-mark aria-label="Bookmark">🔖</button></div>
@@ -264,12 +265,12 @@ async function reader(id, start) {
   requestAnimationFrame(() => { pages.scrollLeft = start * pages.clientWidth; });
   let cur = start;
   const mark = () => { $("[data-mark]", r).style.opacity = S.marks.includes(`${id}#${cur}`) ? 1 : 0.35; };
-  const at = (i) => { cur = i; S.pos[id] = i; S.opened[id] = Date.now(); save(); $("[data-count]", r).textContent = `Folio ${i + 1} of ${b.cards.length}`; mark(); };
+  const at = (i) => { if (!Number.isInteger(i) || i < 0 || i >= b.cards.length || !r.isConnected) return; cur = i; S.pos[id] = i; S.opened[id] = Date.now(); save(); $("[data-count]", r).textContent = `Folio ${i + 1} of ${b.cards.length}`; mark(); };
   at(start);
   let t; pages.addEventListener("scroll", () => { clearTimeout(t); t = setTimeout(() => { const i = Math.round(pages.scrollLeft / pages.clientWidth); if (i !== cur) at(i); }, 80); });
   const go = (i) => pages.scrollTo({ left: i * pages.clientWidth, behavior: "smooth" });
   const key = (ev) => { if (ev.key === "ArrowRight") go(cur + 1); if (ev.key === "ArrowLeft") go(cur - 1); };
-  document.addEventListener("keydown", key); leaving = () => document.removeEventListener("keydown", key);
+  document.addEventListener("keydown", key); leaving = () => { clearTimeout(t); document.removeEventListener("keydown", key); };
   $("[data-back]", r).onclick = () => (history.length > 1 ? history.back() : (location.hash = "#/"));
   $("[data-mark]", r).onclick = () => { const k = `${id}#${cur}`; S.marks = S.marks.includes(k) ? S.marks.filter((x) => x !== k) : [...S.marks, k]; save(); mark(); toast(S.marks.includes(k) ? "Bookmarked" : "Bookmark removed"); };
   $("[data-contents]", r).onclick = () => sheet(`<div class="label">Contents</div>${chapterStarts(b).map((i) => {
@@ -336,9 +337,13 @@ async function quotes() {
       <div class="row" style="margin-top:6px"><span class="label faded" style="flex:1;color:var(--faded)">${esc(entry(q.b)?.title || "")}</span>
       <button class="chip" data-go="#/read/${q.b}/${q.i}">Open</button><button class="chip" onclick="window.folioShare('${q.b}',${q.i})">Share</button>
       <button class="faded" onclick="window.folioDel('quotes',${k})" aria-label="Remove">✕</button></div></div>`).join("")
-    : `<div class="empty"><b>❝</b>Tap ❝ under any quote<br>to keep it here.</div>`}</div>`;
+    : `<div class="empty"><b>❝</b>Tap ❝ under any quote<br>to keep it here.</div>`}
+    ${S.marks.length ? `<div class="label" style="margin-top:22px">Bookmarks</div>` + S.marks.map((m) => { const [id, i] = m.split("#");
+      return `<div class="list-item row"><span style="flex:1">${esc(entry(id)?.title || id)} <span class="faded">· Folio ${+i + 1}</span></span>
+      <button class="chip" data-go="#/read/${id}/${i}">Open</button><button class="faded" onclick="window.folioUnmark('${m}')" aria-label="Remove bookmark">✕</button></div>`; }).join("") : ""}</div>`;
 }
 window.folioDel = (k, i) => { S[k].splice(i, 1); save(); render(); };
+window.folioUnmark = (m) => { S.marks = S.marks.filter((x) => x !== m); save(); render(); };
 window.folioShare = async (id, i) => studio(await getBook(id), i);
 async function desk() {
   const d = deskList();
@@ -384,9 +389,9 @@ async function honours() {
     <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:12px;text-align:center;margin-top:8px">${[[totalSealed(), "folios"], [fin, "books"], [streak(), "streak"], [S.lexicon.length, "words"], [S.quotes.length, "quotes"], [Object.keys(S.days).length, "reading days"]]
       .map(([n, l]) => `<div><div style="font-size:30px">${n}</div><div class="label faded" style="font-size:10px;color:var(--faded)">${l}</div></div>`).join("")}</div>
     <div class="label" style="margin-top:24px">Reading light</div><div class="row" style="margin-top:8px;flex-wrap:wrap">${pill(null, "System")}${pill("light", "Paper")}${pill("dark", "Lamplight")}</div>
-    <div class="label" style="margin-top:20px">Text size</div><input type="range" min="0.85" max="1.4" step="0.05" value="${S.scale}" oninput="window.folioSet('scale',+this.value,true)">
-    <div class="label" style="margin-top:12px">Line spacing</div><input type="range" min="1" max="1.6" step="0.05" value="${S.lines}" oninput="window.folioSet('lines',+this.value,true)">
-    <div class="label" style="margin-top:12px">Daily quota: ${S.goal} folios</div><input type="range" min="5" max="30" step="1" value="${S.goal}" onchange="window.folioSet('goal',+this.value)">
+    <div class="label" style="margin-top:20px">Text size</div><input type="range" aria-label="Text size" min="0.85" max="1.4" step="0.05" value="${S.scale}" oninput="window.folioSet('scale',+this.value,true)">
+    <div class="label" style="margin-top:12px">Line spacing</div><input type="range" aria-label="Line spacing" min="1" max="1.6" step="0.05" value="${S.lines}" oninput="window.folioSet('lines',+this.value,true)">
+    <div class="label" style="margin-top:12px">Daily quota: ${S.goal} folios</div><input type="range" aria-label="Daily quota in folios" min="5" max="30" step="1" value="${S.goal}" onchange="window.folioSet('goal',+this.value)">
     <div class="label" style="margin-top:22px">Folio everywhere</div>
     <p style="margin:6px 0">${isIOS ? (standalone ? "You're using Folio from your Home Screen. ✓" : "Install: tap <span class=\"share-glyph\"></span> Share, then <b>Add to Home Screen</b>.") : `On Android, the full app has widgets, reminders and Hindi meanings: <a href="${APK}">download Folio.apk</a>.`}</p>
     <p class="faded" style="font-size:14px">Your progress is saved on this device. Folio is free, with no ads and no tracking. <a href="https://github.com/purvalsingh/folio">github.com/purvalsingh/folio</a></p></div>`;
@@ -398,10 +403,11 @@ async function printView() {
   const qs = S.quotes.map((q) => ({ ...q, title: entry(q.b)?.title || "" }));
   const md = `# My Folio notes\n_Exported ${today()}_\n\n## Commonplace book\n\n` + qs.map((q) => `> “${q.q}”\n>\n> — ${q.title}\n`).join("\n") +
     `\n## Lexicon\n\n` + S.lexicon.map((w) => `- **${w.w}**: ${w.m}${w.e ? ` _e.g. ${w.e}_` : ""}`).join("\n") + "\n";
-  const anki = "#separator:tab\n#html:true\n#tags column:3\n" + S.lexicon.map((w) => `${w.w}\t${(w.m || "").replace(/\t/g, " ")}${w.e ? `<br><i>${w.e.replace(/\t/g, " ")}</i>` : ""}\tfolio::words`).join("\n");
+  const anki = "#separator:tab\n#html:true\n#tags column:3\n" + S.lexicon.map((w) => `${w.w}\t${(w.m || "").replace(/\t/g, " ")}${w.e ? `<br><i>${w.e.replace(/\t/g, " ")}</i>` : ""}\tfolio::words`).concat(
+    qs.map((q) => `${q.q.replace(/\t/g, " ")}\t— ${q.title}\tfolio::quotes`)).join("\n");
   window.folioFile = (name, text, type) => download(new File([text], name, { type }));
   window._md = md; window._anki = anki;
-  return `<div class="screen"><style>@media print{.noprint{display:none!important}nav.tabs{display:none}body{background:#fff}}</style>
+  return `<div class="screen"><style>@media print{.noprint{display:none!important}nav.tabs{display:none}:root{--page:#fff;--paper:#fff;--ink:#1a1712;--faded:#555;--rubric:#8b2a1e}body{background:#fff;color:#1a1712}}</style>
     <div class="noprint"><button class="icon" onclick="history.back()">←</button><div class="label">Export your notes</div>
       <div class="row" style="flex-wrap:wrap;margin:10px 0 18px"><button class="pill on" onclick="print()">PDF (print → Save as PDF)</button>
       <button class="pill" onclick="folioFile('Folio-notes.md',_md,'text/markdown')">Markdown</button><button class="pill" onclick="folioFile('Folio-anki.txt',_anki,'text/plain')">Anki deck</button></div></div>
