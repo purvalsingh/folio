@@ -1,5 +1,12 @@
 {
- "app": null,
+ "app": {
+  "versionCode": 2,
+  "versionName": "1.1",
+  "notes": "Online library: new books download inside the app, and future versions install with one tap. Adds The 48 Laws of Power, The Art of War and the Bhagavad Gita.",
+  "sizeKb": 25490,
+  "sha256": "1f40f8fe90d0a01ae76362c1d135a62adb99b1c72fc3151361349c907da8c36f",
+  "apk": "https://github.com/purvalsingh/folio/releases/download/v1.1/Folio.apk"
+ },
  "books": [
   {
    "id": "artofwar",
