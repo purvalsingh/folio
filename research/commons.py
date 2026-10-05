@@ -38,8 +38,11 @@ def pick(q, skip=0, used=()):
         if ii["width"] < 500: continue
         if not 0.55 <= ii["width"] / ii["height"] <= 2.0: continue  # skip long scrolls / tall strips
         if p["title"] in used: continue  # never the same picture twice in one book
+        if BOOK in INDIC and FOREIGN.search(p["title"]): continue  # no Persian/Mughal folios in Indian scriptures
         ok.append((p["title"], ii["thumburl"], lic))
     return ok[skip] if len(ok) > skip else None
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent.parent / "tools"))
+from publish_library import INDIC, FOREIGN
 BOOK = "prince"
 if sys.argv[1:] and not sys.argv[1][0].isdigit():
     BOOK = sys.argv.pop(1)

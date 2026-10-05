@@ -22,6 +22,19 @@ def misquotes(b):
             if c.get("quote") and norm(c["quote"].replace("…", "")) not in norm(c.get("orig", ""))]
 
 
+# Indian scriptures and fables get Indian (Hindu, Buddhist, Jain, Tamil) art only, never Persian or Mughal folios.
+INDIC = {"gita", "arthashastra", "panchatantra", "hitopadesa", "kural", "dhammapada"}
+FOREIGN = re.compile(r"persian|razm|arab|islam|qur|koran|mughal|akbar|babur|jahangir|shah|safavid|ottoman|turk|urdu|"
+                     r"nastaliq|kalila|dimna|anvar|suhayli|tuti|hamza|khamsa|shahnama|sultan|nawab|emperor|abbasi|mir sayyid", re.I)
+
+
+def foreign_plates(b, credits):
+    if b["id"] not in INDIC:
+        return []
+    imgs = {c.get("img") for c in b["cards"]} | {b.get("cover")}
+    return sorted(f"{i}: {credits[i]['file']}" for i in imgs if i in credits and FOREIGN.search(credits[i]["file"]))
+
+
 def remap(ref, books):
     """Curated refs ("prince#49") point at a card of the book's first, short edition (research/base/<id>.json).
     Deep editions insert pages, so the ref is resolved to the same card's position in the current edition."""
@@ -56,10 +69,13 @@ def main():
     cat_path = LIB / "catalog.json"
     old = json.loads(cat_path.read_text()) if cat_path.exists() else {}
     books, full = [], {}
+    credits = json.loads((ROOT / "research/commons/credits.json").read_text())
     sources = sorted((ASSETS / "books").glob("*.json")) + sorted((EXTRA / "books").glob("*.json"))
     for src in sources:
         b = json.loads(src.read_text())
         full[b["id"]] = b
+        if bad := foreign_plates(b, credits):
+            sys.exit("plate from the wrong tradition:\n  " + "\n  ".join(bad))
         if bad := misquotes(b):
             sys.exit("quote not found in its original passage:\n  " + "\n  ".join(bad))
         imgdir = src.parent.parent / "img"
@@ -95,4 +111,5 @@ def main():
 if __name__ == "__main__":
     fake = {"id": "t", "cards": [{"title": "a", "quote": "Be bold.", "orig": "He said: be  bold!"}, {"title": "b", "quote": "Be shy", "orig": "x"}]}
     assert misquotes(fake) == ["t#1 b"]
+    assert foreign_plates({"id": "gita", "cards": [{"img": "x"}]}, {"x": {"file": "File:Folio from a Razmnama.jpg"}})
     main()
