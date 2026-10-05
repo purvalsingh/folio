@@ -1,11 +1,11 @@
 {
  "app": {
-  "versionCode": 15,
-  "versionName": "1.6.6",
-  "notes": "Search books by title or author; add Wealth of Nations, Walden, and Gitanjali.",
-  "sizeKb": 20711,
-  "sha256": "56cbc1614e02ba8641d97df0716b4daf6919cc0ac093fee863f649236fac0f95",
-  "apk": "https://github.com/purvalsingh/folio/releases/download/v1.6.6/Folio.apk"
+  "versionCode": 16,
+  "versionName": "1.6.7",
+  "notes": "Original illustrated Gita cover and first thirteen folios.",
+  "sizeKb": 26906,
+  "sha256": "aa72252b03289f7b031e3f48803d2a15de895d3bd0171db565b5477a64d5c70f",
+  "apk": "https://github.com/purvalsingh/folio/releases/download/v1.6.7/Folio.apk"
  },
  "books": [
   {
