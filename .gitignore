@@ -12,3 +12,4 @@ research/log_*.txt
 research/__pycache__/
 cloud/proxy/.vercel/
 stats/
+.claude/
