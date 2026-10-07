@@ -68,3 +68,48 @@ fetch('https://raw.githubusercontent.com/purvalsingh/folio/main/library/catalog.
   .then(response => { if (!response.ok) throw new Error(`Catalog ${response.status}`); return response.json(); })
   .then(catalog => { if (Array.isArray(catalog.books)) document.querySelector('#book-count').textContent = `${catalog.books.length} books and growing`; })
   .catch(() => {});
+// The film: plays muted when it scrolls into view, chapters jump and follow along, sound is one tap away.
+const film = document.querySelector('#film-video');
+if (film) {
+  const section = document.querySelector('.film-section');
+  const playButton = document.querySelector('#film-play');
+  const soundButton = document.querySelector('#film-sound');
+  const chapters = [...document.querySelectorAll('.film-chapters button')];
+  const still = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  let userPaused = still;
+  const setPlayLabel = () => {
+    playButton.textContent = film.paused ? '▶ Play' : '❚❚ Pause';
+    playButton.setAttribute('aria-label', film.paused ? 'Play the film' : 'Pause the film');
+  };
+  const play = () => film.play().catch(() => {}).finally(setPlayLabel);
+  new IntersectionObserver(([entry]) => {
+    section.classList.toggle('in-view', entry.isIntersecting);
+    if (entry.isIntersecting && !userPaused) play();
+    else if (!entry.isIntersecting) { film.pause(); setPlayLabel(); }
+  }, {threshold: 0.5}).observe(film);
+  playButton.addEventListener('click', () => {
+    if (film.paused) { userPaused = false; play(); } else { userPaused = true; film.pause(); setPlayLabel(); }
+  });
+  soundButton.addEventListener('click', () => {
+    film.muted = !film.muted;
+    soundButton.setAttribute('aria-pressed', String(!film.muted));
+    soundButton.textContent = film.muted ? '♪ Sound on' : '♪ Sound off';
+    // starting the narration from the top makes more sense than joining mid-sentence
+    if (!film.muted) film.currentTime = 0;
+    userPaused = false; play();
+  });
+  chapters.forEach(button => button.addEventListener('click', () => {
+    film.currentTime = Number(button.dataset.at);
+    userPaused = false; play();
+  }));
+  const bar = document.querySelector('#film-progress');
+  film.addEventListener('timeupdate', () => {
+    if (film.duration) bar.style.width = `${film.currentTime / film.duration * 100}%`;
+    let current = 0;
+    chapters.forEach((button, index) => { if (film.currentTime >= Number(button.dataset.at)) current = index; });
+    chapters.forEach((button, index) => button.classList.toggle('on', index === current));
+  });
+  film.addEventListener('play', setPlayLabel);
+  film.addEventListener('pause', setPlayLabel);
+  setPlayLabel();
+}

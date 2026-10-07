@@ -20,6 +20,6 @@ NEXT ACTION: Complete Gita pages 17–59 with individually reviewed original Ind
 
 IMPORTANT FILES: `research/CATALOG_125_ROADMAP.md`, `research/generated/manifest.json`, `research/staging/books/civil_disobedience.json`, `library-only/books/civil_disobedience.json`, `research/civil_disobedience.txt`, `tools/publish_library.py`, `tools/image_inventory.py`, `TODO.md`.
 
-WEBSITE: `site/index.html`, `site/style.css`, `site/app.js`, `site/vercel.json`; Vercel production URL: https://folio-site-liart.vercel.app/.
+WEBSITE: `site/index.html`, `site/style.css`, `site/app.js`, `site/vercel.json`; Vercel production URL: https://folio-site-liart.vercel.app/. Film section (#film) plays `site/assets/folio-film.mp4` (25s promo; source in ~/folio-promo, Remotion). Deploy: project root dir is `site`, so deploy from a folder that contains only `site/` (`vercel link --project folio-site && vercel deploy --prod`), not the whole repo.
 
 LAST VALIDATION: `python3 tools/publish_library.py` passed at 35 books. `python3 tools/image_inventory.py` reported 41 original / 0 third-party placements. All 12 Civil Disobedience quotes were matched to Project Gutenberg #71 and all 13 illustrations were inspected together. Android app code was unchanged.
